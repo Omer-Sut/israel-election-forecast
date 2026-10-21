@@ -18,22 +18,21 @@ Public repository: https://github.com/Omer-Sut/israel-election-forecast
 
 ## Publication status
 
-Remote creation is verified. Initial commit, push, and local/remote revision verification are in progress. Check actual Git state and the latest session-log entry before treating publication as complete.
+Initial publication succeeded. Commit `195022d` was pushed to `main`; local HEAD and GitHub's `refs/heads/main` matched exactly, and the working tree was clean. Public visibility and default branch `main` were verified. This handoff is updated in a subsequent documentation commit; check actual Git state for the latest revision.
 
 ## Environment notes
 
 - The inherited PATH did not expose installed Git/gh. Executables: C:\Users\omersu\AppData\Local\Programs\Git\cmd\git.exe and C:\Program Files\GitHub CLI\gh.exe.
 - In-sandbox authentication checks failed; approved outside-sandbox commands successfully used the keyring login. Do not ask the user to repeat login based solely on sandbox failure.
-- The sandbox created .git under CodexSandboxOffline, triggering Git's ownership check. Trust only this exact project directory if an ownership exception is needed; never use a wildcard exception.
+- The sandbox created .git under CodexSandboxOffline, triggering Git's ownership check. Added an approved global safe.directory exception for this exact project path only. No wildcard exception was added.
 - Network operations and Git metadata writes may require approved outside-sandbox commands.
 - QGIS Python 3.12, pypdf, and Ghostscript were PDF inspection tools, not project dependencies. tmp/pdfs/ contains ignored render intermediates.
 
 ## Next actions
 
-1. Finish and verify GitHub publication; update this handoff and session log with the result.
-2. Confirm competition track/team and inspect the university-authenticated form for the exact party list and output format. Do not automate submission.
-3. Verify official current dates, electoral allocation rules, surplus agreements, and poll publication restrictions. Record sources and dates.
-4. Inventory historical results and polls, choose a reproducible runtime and baseline, and backtest with time-respecting cutoffs and absolute seat error.
+1. Confirm competition track/team and inspect the university-authenticated form for the exact party list and output format. Do not automate submission.
+2. Verify official current dates, electoral allocation rules, surplus agreements, and poll publication restrictions. Record sources and dates.
+3. Inventory historical results and polls, choose a reproducible runtime and baseline, and backtest with time-respecting cutoffs and absolute seat error.
 
 ## Validation and modeling position
 
