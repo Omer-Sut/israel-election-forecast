@@ -1,0 +1,199 @@
+{
+  "snapshot_id": "screening-knesset_23_2020-2026-10-21-a",
+  "election_id": "knesset_23_2020",
+  "election_date": "2020-03-02",
+  "retrieved_on": "2026-10-21",
+  "audit_tier": "original_source_audited_retrospective_not_archival_vintage",
+  "rights_note": "Factual numerical transcriptions and original source attribution. Publisher prose, full pages and graphics are not redistributed. English-normalized poll labels map explicitly to election-specific list definitions retaining Hebrew names. Existing index archives remain unchanged.",
+  "historical_vintage_limit": "Original publisher pages and known publication/update metadata checked retrospectively; no authenticated contemporary archive copies. Some migrated-site metadata is inconsistent and is documented per release. This is not certified real-time reconstruction.",
+  "coverage": "Three declared polling groups; retrospective convenience panel, not exhaustive campaign coverage or necessarily each group's final release.",
+  "zero_seat_policy": "Only complete reviewed 120-seat allocations; percentages stay separate. No zero-support inference.",
+  "lists": [
+    {
+      "id": "blue_and_white_2020",
+      "ballot_code": "פה",
+      "label_en": "Blue and White",
+      "label_he": "כחול לבן",
+      "official_source_label_he": "כחול לבן בראשות בני גנץ"
+    },
+    {
+      "id": "joint_list_2020",
+      "ballot_code": "ודעם",
+      "label_en": "Joint List",
+      "label_he": "הרשימה המשותפת",
+      "official_source_label_he": "הרשימה המשותפת חד"
+    },
+    {
+      "id": "labor_gesher_meretz_2020",
+      "ballot_code": "אמת",
+      "label_en": "Labor–Gesher–Meretz",
+      "label_he": "העבודה–גשר–מרצ",
+      "official_source_label_he": "העבודה - גשר - מרצ"
+    },
+    {
+      "id": "likud_2020",
+      "ballot_code": "מחל",
+      "label_en": "Likud",
+      "label_he": "הליכוד",
+      "official_source_label_he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה"
+    },
+    {
+      "id": "otzma_yehudit_2020",
+      "ballot_code": "נץ",
+      "label_en": "Otzma Yehudit",
+      "label_he": "עוצמה יהודית",
+      "official_source_label_he": "עוצמה יהודית בראשות איתמר בן גביר"
+    },
+    {
+      "id": "shas_2020",
+      "ballot_code": "שס",
+      "label_en": "Shas",
+      "label_he": "ש״ס",
+      "official_source_label_he": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ"
+    },
+    {
+      "id": "united_torah_judaism_2020",
+      "ballot_code": "ג",
+      "label_en": "United Torah Judaism",
+      "label_he": "יהדות התורה",
+      "official_source_label_he": "יהדות התורה והשבת אגודת ישראל - דגל התורה"
+    },
+    {
+      "id": "yamina_2020",
+      "ballot_code": "טב",
+      "label_en": "Yamina",
+      "label_he": "ימינה",
+      "official_source_label_he": "ימינה הימין החדש – הבית היהודי – האיחוד הלאומי"
+    },
+    {
+      "id": "yisrael_beiteinu_2020",
+      "ballot_code": "ל",
+      "label_en": "Yisrael Beiteinu",
+      "label_he": "ישראל ביתנו",
+      "official_source_label_he": "ישראל ביתנו בראשות אביגדור ליברמן"
+    }
+  ],
+  "polls": [
+    {
+      "id": "2020_channel13_0228",
+      "published_on": "2020-02-28",
+      "pollster_group": "channel13_fuchs",
+      "publisher": "Channel 13",
+      "fieldwork_end": null,
+      "sample_size": 804,
+      "source_url": "https://13tv.co.il/item/news/politics/state-policy/2020-elections/2020-election-survey-1016506/",
+      "bulk_poll_id": "23:0:9",
+      "notes": "All positive seats plus Otzma nonqualification explicitly in broadcaster body. Publication date supported by visible page date and VideoObject uploadDate February 28. Migrated NewsArticle dateline mentions April 2025; not asserted to date the original poll or a demonstrated numeric revision. No archival-vintage certification.",
+      "retrieved_response_sha256": "f4b550de1fe2ece0c05d4e93298fc227c9f86afc3b78060adf3a4cd105eab0b1",
+      "retrieved_response_bytes": 130779,
+      "election_id": "knesset_23_2020",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2020": 33,
+        "blue_and_white_2020": 33,
+        "joint_list_2020": 15,
+        "shas_2020": 8,
+        "united_torah_judaism_2020": 7,
+        "labor_gesher_meretz_2020": 9,
+        "yisrael_beiteinu_2020": 7,
+        "yamina_2020": 8,
+        "otzma_yehudit_2020": 0
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 33,
+        "Blue and White": 33,
+        "Joint List": 15,
+        "Shas": 8,
+        "United Torah Judaism": 7,
+        "Labor–Gesher–Meretz": 9,
+        "Yisrael Beiteinu": 7,
+        "Yamina": 8,
+        "Otzma Yehudit": 0
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    },
+    {
+      "id": "2020_103fm_panels_0226",
+      "published_on": "2020-02-26",
+      "pollster_group": "panels_politics",
+      "publisher": "103FM",
+      "fieldwork_end": "2020-02-25",
+      "sample_size": 510,
+      "source_url": "https://103fm.maariv.co.il/programs/media.aspx?ZrqvnVq=HLJMFI&c41t4nzVQ=GJL",
+      "bulk_poll_id": "23:0:16",
+      "notes": "Original commissioning broadcaster gives every positive allocation, Otzma 2%, pollster Menachem Lazar/Panels, sample510, fieldwork yesterday Tuesday. Visible program_date is February 26, not index fieldwork/date proxy February 25.",
+      "retrieved_response_sha256": "ef89a34be3a6653aaa348b66faaacc8f5f75d4ebdd72e5898ba816dde92cff65",
+      "retrieved_response_bytes": 103513,
+      "election_id": "knesset_23_2020",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2020": 34,
+        "blue_and_white_2020": 32,
+        "joint_list_2020": 14,
+        "shas_2020": 8,
+        "united_torah_judaism_2020": 7,
+        "labor_gesher_meretz_2020": 9,
+        "yisrael_beiteinu_2020": 8,
+        "yamina_2020": 8,
+        "otzma_yehudit_2020": 0
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 34,
+        "Blue and White": 32,
+        "Joint List": 14,
+        "Shas": 8,
+        "United Torah Judaism": 7,
+        "Labor–Gesher–Meretz": 9,
+        "Yisrael Beiteinu": 8,
+        "Yamina": 8,
+        "Otzma Yehudit": 0
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    },
+    {
+      "id": "2020_walla_midgam_0226",
+      "published_on": "2020-02-26",
+      "pollster_group": "midgam_geva",
+      "publisher": "Walla",
+      "fieldwork_start": "2020-02-16",
+      "fieldwork_end": "2020-02-17",
+      "sample_size": 502,
+      "source_url": "https://elections.walla.co.il/item/3343018",
+      "bulk_poll_id": "23:0:15",
+      "notes": "All allocations explicitly in original publisher body. Preserve printed fieldwork February16–17 and sample502, despite index date proxy February25 and article context suggesting a newer survey. Treat this metadata as unresolved; it remains within the T-1 effective-age window. Report publication-age sensitivity separately before adopting recency weights; do not silently substitute the index proxy.",
+      "retrieved_response_sha256": "c39de7e1a0d53fe2d5a85d87daa0d473c94b27774dd0056467c435bba9f4f9c8",
+      "retrieved_response_bytes": 358852,
+      "election_id": "knesset_23_2020",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2020": 34,
+        "blue_and_white_2020": 34,
+        "joint_list_2020": 13,
+        "shas_2020": 8,
+        "united_torah_judaism_2020": 8,
+        "labor_gesher_meretz_2020": 9,
+        "yisrael_beiteinu_2020": 7,
+        "yamina_2020": 7,
+        "otzma_yehudit_2020": 0
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 34,
+        "Blue and White": 34,
+        "Joint List": 13,
+        "Shas": 8,
+        "United Torah Judaism": 8,
+        "Labor–Gesher–Meretz": 9,
+        "Yisrael Beiteinu": 7,
+        "Yamina": 7,
+        "Otzma Yehudit": 0
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    }
+  ]
+}

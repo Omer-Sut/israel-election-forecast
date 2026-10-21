@@ -22,6 +22,8 @@ The first implementation is documented in `docs/baseline-method.md`: Python 3.12
 
 ## Working conventions
 
+- For the active six-election model panel, read `docs/six-election-screening.md`. Earlier elections provide training/strict OOF history; complete 2021/2022 comparison uses T−1 for all six. Rebuild reviewed inputs with `scripts/prepare_screening_panel.py`; do not replace verified publication dates with index fieldwork proxies or silently repair documented source conflicts. Warm-up missing fits are not failed evaluation cells.
+
 - For new candidate experiments, read `docs/model-screening.md` and use the separate `Screen lightweight forecast models` Actions workflow. Its optional scientific dependencies must not become requirements of the frozen standard-library baseline. Preserve real diagnostic versus synthetic smoke evidence; two audited elections do not establish a model ranking. The user's approved 18-configuration lightweight screen supersedes the earlier one-improvement scope, with locality forecasting still deferred.
 
 - Communicate and document in English. Preserve original Hebrew identifiers alongside stable English/internal identifiers when necessary.

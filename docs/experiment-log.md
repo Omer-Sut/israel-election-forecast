@@ -1,5 +1,21 @@
 # Experiment and effort log
 
+## A001 - Analysis of saved E002 results (October 21, 2026)
+
+- User requested an analysis and Git handoff. Inputs are the saved E002 report only; no new training, grid search or current prediction. Standard-library `scripts/analyze_screening.py` checks per-list score arithmetic and derives party errors, forecast identity, continuous movement, feature coverage and ensemble weights.
+- Outputs: `docs/screening-results-analysis.md` and `reports/screening-six-elections-2026-10-21/analysis.json`, including input/code hashes. Two independent executions produced byte-identical analysis; all saved comparison scores reconcile.
+- Interpretation: references remain controls; no challenger earned replacement. 2021 candidate ties/worse=4/14; 2022=16/2, with all 16 ties identical to the rounded mean. Earlier trend coverage is absent in all 44 training rows for 2021. Full unshrunk supervised corrections worsen both outcomes. Meretz representation remains wrong for every 2022 method. Two already-inspected comparison outcomes cannot establish a family ranking or calibrated intervals.
+- Recommended next work is source/coverage sensitivity, then repeated earlier campaign releases before wider tuning. No recommendations are claimed implemented. Runtime only analyzes small saved files; hands-on effort/cumulative effort unmeasured. Original E002 prediction artifacts remain unchanged; PR #13 open at inspection.
+
+## E002 - Complete comparison using six-election history (October 21, 2026)
+
+- User requested years with enough earlier history. Predeclared protocol: T−1 across 2015, April/September2019, 2020, 2021, 2022; first four provide training and strict OOF history, final two complete the all-model comparison. Same 18-config grid, two references and 25% shrinkage. Not a blind holdout or a final model selection.
+- Inputs: twelve newly original-source-reviewed numerical releases plus unchanged twelve pilot releases, official database outcomes (2015 secondary-seat tier preserved). Explicit original publication-date corrections and unresolved migrated/fieldwork metadata in `docs/six-election-screening.md` and audit facts. Unknowns are not invented.
+- Added offline preparation/rebuild check, full source/input/code provenance and a completeness gate for evaluation cases. E001 config/reports preserved. Focused local checkpoint: ten checks passed, four scientific tests deferred to cloud; no model runs locally. Runtime/scores/hosted publication to record after verification. Hands-on effort unmeasured, total budget not reset.
+- Verified implementation:6349ac98477bec05bf95cdb076520eb0037bedd4, [PR #13](https://github.com/Omer-Sut/israel-election-forecast/pull/13), [screen39626291280](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39626291280), [baseline39626291139](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39626291139), both successful. All 45 cloud tests, exact panel rebuild, complete 20-config ×2-election comparison and deterministic repeats passed. Local full suite41 passes/four scientific skips.
+- Runtime 2.135s (repeat 2.145s), approximately 60s hosted job. Artifact12355914984 verified unexpired,59,305 compressed bytes; downloaded hashes match code/inputs. Durable five-file report at `reports/screening-six-elections-2026-10-21/`,491,970 bytes. Tested PR merge ref982612019e557aa6c4d039414fc0822ad8f1b8e6; no merge of PR #13 claimed.
+- Actual T−1 errors: mean/L1 references20 in 2021,12 in 2022. All candidates20–24 and12–14 respectively; no improvement established. Ensemble 2021 weights use2019Sep/2020 strict OOF predictions;2022 adds 2021. No missing comparison methods; expected warm-up gaps retained in full output. Next source/coverage sensitivity before narrowing. No model chosen or current forecast changed.
+
 ## E001 - Narrow cloud model screening (October 21, 2026)
 
 - Question: can lightweight poll-centered corrections improve references without large movement? User approved cloud-first implementation and soft shrinkage. Three configurations each for six candidate families; no automated search or final selection.

@@ -1,0 +1,628 @@
+{
+  "retrieved_on": "2026-10-21",
+  "audit_tier": "original_source_audited_retrospective_not_archival_vintage",
+  "rights_note": "Factual numerical transcriptions and original source attribution. Publisher prose, full pages and graphics are not redistributed. English-normalized poll labels map explicitly to election-specific list definitions retaining Hebrew names. Existing index archives remain unchanged.",
+  "historical_vintage_limit": "Original publisher pages and known publication/update metadata checked retrospectively; no authenticated contemporary archive copies. Some migrated-site metadata is inconsistent and is documented per release. This is not certified real-time reconstruction.",
+  "elections": [
+    {
+      "knesset": 20,
+      "id": "knesset_20_2015",
+      "election_date": "2015-03-17",
+      "lists": [
+        [
+          "likud_2015",
+          "מחל",
+          "Likud",
+          "הליכוד"
+        ],
+        [
+          "zionist_union_2015",
+          "אמת",
+          "Zionist Union",
+          "המחנה הציוני"
+        ],
+        [
+          "joint_list_2015",
+          "ודעם",
+          "Joint List",
+          "הרשימה המשותפת"
+        ],
+        [
+          "yesh_atid_2015",
+          "פה",
+          "Yesh Atid",
+          "יש עתיד"
+        ],
+        [
+          "kulanu_2015",
+          "כ",
+          "Kulanu",
+          "כולנו"
+        ],
+        [
+          "jewish_home_2015",
+          "טב",
+          "Jewish Home",
+          "הבית היהודי"
+        ],
+        [
+          "shas_2015",
+          "שס",
+          "Shas",
+          "ש״ס"
+        ],
+        [
+          "yisrael_beiteinu_2015",
+          "ל",
+          "Yisrael Beiteinu",
+          "ישראל ביתנו"
+        ],
+        [
+          "united_torah_judaism_2015",
+          "ג",
+          "United Torah Judaism",
+          "יהדות התורה"
+        ],
+        [
+          "meretz_2015",
+          "מרצ",
+          "Meretz",
+          "מרצ"
+        ],
+        [
+          "yachad_2015",
+          "קץ",
+          "Yachad",
+          "יחד"
+        ]
+      ],
+      "polls": [
+        {
+          "id": "2015_globes_smith_0312",
+          "published_on": "2015-03-12",
+          "source_updated_on": "2015-03-12",
+          "pollster_group": "smith",
+          "publisher": "Globes",
+          "fieldwork_end": null,
+          "sample_size": null,
+          "source_url": "https://en.globes.co.il/en/article-herzog-opens-four-seat-gap-1001018362",
+          "bulk_poll_id": "20:0:20",
+          "raw_seats_by_label": {
+            "Likud": 20,
+            "Yisrael Beiteinu": 6,
+            "Yesh Atid": 12,
+            "Zionist Union": 24,
+            "Jewish Home": 12,
+            "Joint List": 13,
+            "Shas": 9,
+            "Yachad": 4,
+            "United Torah Judaism": 6,
+            "Meretz": 5,
+            "Kulanu": 9
+          },
+          "notes": "Use the current-poll column, not February 26 or incumbent seats. Publication/modified metadata agree on March 12. Fieldwork dates and sample size not stated in the inspected table.",
+          "retrieved_response_sha256": "9262886c265b8fc2d3a02dbea550a1b58ef8594bf3eb27afc319d8fa6ed708c3",
+          "retrieved_response_bytes": 49645
+        },
+        {
+          "id": "2015_ynet_midgam_0313",
+          "published_on": "2015-03-13",
+          "pollster_group": "midgam_geva",
+          "publisher": "Yedioth Ahronoth / Ynet",
+          "fieldwork_end": "2015-03-12",
+          "sample_size": 1032,
+          "source_url": "https://www.ynetnews.com/articles/0,7340,L-4636623,00.html",
+          "bulk_poll_id": "20:0:17",
+          "raw_seats_by_label": {
+            "Likud": 22,
+            "Yisrael Beiteinu": 5,
+            "Yesh Atid": 12,
+            "Zionist Union": 26,
+            "Jewish Home": 12,
+            "Joint List": 13,
+            "Shas": 7,
+            "Yachad": 4,
+            "United Torah Judaism": 6,
+            "Meretz": 5,
+            "Kulanu": 8
+          },
+          "notes": "Original English article gives all other values and states Meretz and Yisrael Beiteinu are tied, omitting their number in prose. Their remaining 10 of 120 seats and the tie imply 5 each, also matching the archived index. These two values are explicit arithmetic derivations, not independently printed numbers. Thursday fieldwork is March 12.",
+          "retrieved_response_sha256": "c35bd85e2c018e6417fb8eb426a099a92ed019119eb431117a5518b095e9ae48",
+          "retrieved_response_bytes": 415302
+        },
+        {
+          "id": "2015_knesset_panels_0303",
+          "published_on": "2015-03-03",
+          "pollster_group": "panels_politics",
+          "publisher": "Knesset Channel official YouTube",
+          "fieldwork_end": "2015-03-02",
+          "sample_size": 800,
+          "source_url": "https://www.youtube.com/watch?v=d0qYlsOyNR0",
+          "bulk_poll_id": null,
+          "raw_seats_by_label": {
+            "Likud": 21,
+            "Yisrael Beiteinu": 5,
+            "Yesh Atid": 13,
+            "Zionist Union": 24,
+            "Jewish Home": 12,
+            "Joint List": 13,
+            "Shas": 7,
+            "Yachad": 4,
+            "United Torah Judaism": 7,
+            "Meretz": 6,
+            "Kulanu": 8
+          },
+          "notes": "All eleven values in official channel description. Upload metadata March 3; description says survey conducted yesterday. At T-1, March 2 is exactly the inclusive 14-day effective-age lower boundary. This older third group is not claimed to be its final campaign release.",
+          "retrieved_response_sha256": "924c0bd1476d925576304db58adfa66318add82ac4d5b6f68983400e12ab3f35",
+          "retrieved_response_bytes": 1269298
+        }
+      ]
+    },
+    {
+      "knesset": 21,
+      "id": "knesset_21_2019apr",
+      "election_date": "2019-04-09",
+      "lists": [
+        [
+          "likud_2019apr",
+          "מחל",
+          "Likud",
+          "הליכוד"
+        ],
+        [
+          "blue_and_white_2019apr",
+          "פה",
+          "Blue and White",
+          "כחול לבן"
+        ],
+        [
+          "labor_2019apr",
+          "אמת",
+          "Labor",
+          "העבודה"
+        ],
+        [
+          "shas_2019apr",
+          "שס",
+          "Shas",
+          "ש״ס"
+        ],
+        [
+          "united_torah_judaism_2019apr",
+          "ג",
+          "United Torah Judaism",
+          "יהדות התורה"
+        ],
+        [
+          "hadash_taal_2019apr",
+          "ום",
+          "Hadash–Taal",
+          "חד״ש–תע״ל"
+        ],
+        [
+          "raam_balad_2019apr",
+          "דעם",
+          "Raam–Balad",
+          "רע״ם–בל״ד"
+        ],
+        [
+          "yisrael_beiteinu_2019apr",
+          "ל",
+          "Yisrael Beiteinu",
+          "ישראל ביתנו"
+        ],
+        [
+          "union_right_wing_parties_2019apr",
+          "טב",
+          "Union of Right-wing Parties",
+          "איחוד מפלגות הימין"
+        ],
+        [
+          "meretz_2019apr",
+          "מרצ",
+          "Meretz",
+          "מרצ"
+        ],
+        [
+          "kulanu_2019apr",
+          "כ",
+          "Kulanu",
+          "כולנו"
+        ],
+        [
+          "new_right_2019apr",
+          "נ",
+          "New Right",
+          "הימין החדש"
+        ],
+        [
+          "zehut_2019apr",
+          "ז",
+          "Zehut",
+          "זהות"
+        ],
+        [
+          "gesher_2019apr",
+          "נר",
+          "Gesher",
+          "גשר"
+        ]
+      ],
+      "polls": [
+        {
+          "id": "2019apr_jpost_smith_0405",
+          "published_on": "2019-04-05",
+          "source_updated_on": "2019-04-05",
+          "pollster_group": "smith",
+          "publisher": "The Jerusalem Post",
+          "fieldwork_start": "2019-04-03",
+          "fieldwork_end": "2019-04-04",
+          "sample_size": 1097,
+          "source_url": "https://www.jpost.com/israel-news/post-poll-predicts-easy-win-for-right-585821",
+          "bulk_poll_id": "21:0:11",
+          "raw_seats_by_label": {
+            "Likud": 27,
+            "Blue and White": 28,
+            "Labor": 9,
+            "Shas": 6,
+            "United Torah Judaism": 6,
+            "Hadash–Taal": 6,
+            "Raam–Balad": 4,
+            "Yisrael Beiteinu": 5,
+            "Union of Right-wing Parties": 6,
+            "Meretz": 5,
+            "Kulanu": 5,
+            "New Right": 5,
+            "Zehut": 4,
+            "Gesher": 4
+          },
+          "notes": "Own Smith Research poll, all fourteen values explicitly listed in the article body. Primary datePublished/dateModified are April 5, despite index date proxy April 4. Not pooled with Maariv's different Smith release.",
+          "retrieved_response_sha256": "fd6dd971067c9b58e203cccd87caf04ec614248591b32bb6482657592e26c2b9",
+          "retrieved_response_bytes": 263371
+        },
+        {
+          "id": "2019apr_ynet_midgam_0405",
+          "published_on": "2019-04-05",
+          "pollster_group": "midgam_geva",
+          "publisher": "Yedioth Ahronoth / Ynet",
+          "fieldwork_start": "2019-04-03",
+          "fieldwork_end": "2019-04-04",
+          "sample_size": 1023,
+          "source_url": "https://www.ynet.co.il/articles/0,7340,L-5489848,00.html",
+          "bulk_poll_id": "21:0:12",
+          "raw_seats_by_label": {
+            "Likud": 26,
+            "Blue and White": 30,
+            "Labor": 11,
+            "Shas": 5,
+            "United Torah Judaism": 7,
+            "Hadash–Taal": 7,
+            "Raam–Balad": 4,
+            "Yisrael Beiteinu": 4,
+            "Union of Right-wing Parties": 5,
+            "Meretz": 5,
+            "Kulanu": 5,
+            "New Right": 6,
+            "Zehut": 5,
+            "Gesher": 0
+          },
+          "notes": "All positive seats in article; Gesher explicitly below threshold at 2.2%. Primary publication April 5, not index date proxy April 4. Same Midgam group as Channel 12, so no Channel 12 release is added as a separate group.",
+          "retrieved_response_sha256": "6c4adfe57d4cc794ec0ae4fe736494c964d1770f51840285c4df132f0aeff769",
+          "retrieved_response_bytes": 182523
+        },
+        {
+          "id": "2019apr_channel13_0405",
+          "published_on": "2019-04-05",
+          "source_updated_on": "2019-04-06",
+          "pollster_group": "channel13_fuchs",
+          "publisher": "Channel 13",
+          "fieldwork_end": null,
+          "sample_size": null,
+          "source_url": "https://13tv.co.il/item/news/opinions/goverment_coalition/",
+          "bulk_poll_id": "21:0:8",
+          "raw_seats_by_label": {
+            "Likud": 28,
+            "Blue and White": 28,
+            "Labor": 11,
+            "Shas": 5,
+            "United Torah Judaism": 6,
+            "Hadash–Taal": 6,
+            "Raam–Balad": 4,
+            "Yisrael Beiteinu": 4,
+            "Union of Right-wing Parties": 7,
+            "Meretz": 5,
+            "Kulanu": 4,
+            "New Right": 6,
+            "Zehut": 6,
+            "Gesher": 0
+          },
+          "notes": "The original poll URL now serves a 404 page; use the broadcaster's own contemporaneous companion article, which repeats every seat value. DatePublished April 5, modified April 6; eligible at April 8 cutoff. Fieldwork/sample details not reconstructed. Polling-group identity follows Channel 13/Fuchs, consistent with the archived index; not Midgam/Geva.",
+          "retrieved_response_sha256": "2d2513e0b7dec7939d08c59657025f8c4e8d3ce8533e1c86538859b17bfd0799",
+          "retrieved_response_bytes": 125197
+        }
+      ]
+    },
+    {
+      "knesset": 22,
+      "id": "knesset_22_2019sep",
+      "election_date": "2019-09-17",
+      "lists": [
+        [
+          "likud_2019sep",
+          "מחל",
+          "Likud",
+          "הליכוד"
+        ],
+        [
+          "blue_and_white_2019sep",
+          "פה",
+          "Blue and White",
+          "כחול לבן"
+        ],
+        [
+          "joint_list_2019sep",
+          "ודעם",
+          "Joint List",
+          "הרשימה המשותפת"
+        ],
+        [
+          "shas_2019sep",
+          "שס",
+          "Shas",
+          "ש״ס"
+        ],
+        [
+          "united_torah_judaism_2019sep",
+          "ג",
+          "United Torah Judaism",
+          "יהדות התורה"
+        ],
+        [
+          "yamina_2019sep",
+          "טב",
+          "Yamina",
+          "ימינה"
+        ],
+        [
+          "labor_gesher_2019sep",
+          "אמת",
+          "Labor–Gesher",
+          "העבודה–גשר"
+        ],
+        [
+          "yisrael_beiteinu_2019sep",
+          "ל",
+          "Yisrael Beiteinu",
+          "ישראל ביתנו"
+        ],
+        [
+          "democratic_union_2019sep",
+          "מרצ",
+          "Democratic Union",
+          "המחנה הדמוקרטי"
+        ],
+        [
+          "otzma_yehudit_2019sep",
+          "כף",
+          "Otzma Yehudit",
+          "עוצמה יהודית"
+        ]
+      ],
+      "polls": [
+        {
+          "id": "2019sep_maariv_smith_0913",
+          "published_on": "2019-09-13",
+          "source_updated_on": "2019-09-13",
+          "pollster_group": "smith",
+          "publisher": "Maariv",
+          "fieldwork_end": "2019-09-12",
+          "sample_size": null,
+          "source_url": "https://www.maariv.co.il/elections2019/polls/article-718968",
+          "bulk_poll_id": "22:0:11",
+          "raw_seats_by_label": {
+            "Likud": 33,
+            "Blue and White": 32,
+            "Joint List": 12,
+            "Shas": 8,
+            "United Torah Judaism": 7,
+            "Yamina": 9,
+            "Labor–Gesher": 5,
+            "Yisrael Beiteinu": 8,
+            "Democratic Union": 6,
+            "Otzma Yehudit": 0
+          },
+          "notes": "Original publisher body explicitly reports all nine positive allocations and Otzma 3.1% below threshold. Primary publication/modified date September 13, fieldwork September 12; do not adopt index date proxy September 12 as publication.",
+          "retrieved_response_sha256": "01944e83d01c788e0a46bfe16f8e1d0c62999e7de8535169756c7f6d4cc9a257",
+          "retrieved_response_bytes": 211141
+        },
+        {
+          "id": "2019sep_channel13_0910",
+          "published_on": "2019-09-10",
+          "pollster_group": "channel13_fuchs",
+          "publisher": "Channel 13",
+          "fieldwork_end": null,
+          "sample_size": 831,
+          "source_url": "https://13tv.co.il/item/news/politics/state-policy/reelection-2019/survey-election-355016/",
+          "bulk_poll_id": "22:0:16",
+          "raw_seats_by_label": {
+            "Likud": 31,
+            "Blue and White": 32,
+            "Joint List": 11,
+            "Shas": 6,
+            "United Torah Judaism": 7,
+            "Yamina": 9,
+            "Labor–Gesher": 5,
+            "Yisrael Beiteinu": 9,
+            "Democratic Union": 6,
+            "Otzma Yehudit": 4
+          },
+          "notes": "All ten allocations in original broadcaster body. Date supported by visible publication/captions and VideoObject uploadDate September 10. Migrated NewsArticle dateline instead mentions January 2020; retained as conflicting site metadata, not assumed a poll-content revision. No archive-vintage certification.",
+          "retrieved_response_sha256": "64fb362b8653c0180e6885938aae072460fca41a5855983c01093dc20d083271",
+          "retrieved_response_bytes": 134531
+        },
+        {
+          "id": "2019sep_walla_midgam_0909",
+          "published_on": "2019-09-09",
+          "pollster_group": "midgam_geva",
+          "publisher": "Walla",
+          "fieldwork_start": "2019-09-08",
+          "fieldwork_end": "2019-09-09",
+          "sample_size": 501,
+          "source_url": "https://elections.walla.co.il/item/3311677",
+          "bulk_poll_id": "22:0:19",
+          "raw_seats_by_label": {
+            "Likud": 32,
+            "Blue and White": 33,
+            "Joint List": 9,
+            "Shas": 6,
+            "United Torah Judaism": 7,
+            "Yamina": 9,
+            "Labor–Gesher": 6,
+            "Yisrael Beiteinu": 8,
+            "Democratic Union": 6,
+            "Otzma Yehudit": 4
+          },
+          "notes": "Full allocation and fieldwork/sample metadata in own commissioning publisher's body. A convenience selection, not the final campaign release of every group.",
+          "retrieved_response_sha256": "959e98c9120a3f60aac7f0c80d1a063fd7c3447184330b79ea1df0b0d90c67f9",
+          "retrieved_response_bytes": 356180
+        }
+      ]
+    },
+    {
+      "knesset": 23,
+      "id": "knesset_23_2020",
+      "election_date": "2020-03-02",
+      "lists": [
+        [
+          "likud_2020",
+          "מחל",
+          "Likud",
+          "הליכוד"
+        ],
+        [
+          "blue_and_white_2020",
+          "פה",
+          "Blue and White",
+          "כחול לבן"
+        ],
+        [
+          "joint_list_2020",
+          "ודעם",
+          "Joint List",
+          "הרשימה המשותפת"
+        ],
+        [
+          "shas_2020",
+          "שס",
+          "Shas",
+          "ש״ס"
+        ],
+        [
+          "united_torah_judaism_2020",
+          "ג",
+          "United Torah Judaism",
+          "יהדות התורה"
+        ],
+        [
+          "labor_gesher_meretz_2020",
+          "אמת",
+          "Labor–Gesher–Meretz",
+          "העבודה–גשר–מרצ"
+        ],
+        [
+          "yisrael_beiteinu_2020",
+          "ל",
+          "Yisrael Beiteinu",
+          "ישראל ביתנו"
+        ],
+        [
+          "yamina_2020",
+          "טב",
+          "Yamina",
+          "ימינה"
+        ],
+        [
+          "otzma_yehudit_2020",
+          "נץ",
+          "Otzma Yehudit",
+          "עוצמה יהודית"
+        ]
+      ],
+      "polls": [
+        {
+          "id": "2020_channel13_0228",
+          "published_on": "2020-02-28",
+          "pollster_group": "channel13_fuchs",
+          "publisher": "Channel 13",
+          "fieldwork_end": null,
+          "sample_size": 804,
+          "source_url": "https://13tv.co.il/item/news/politics/state-policy/2020-elections/2020-election-survey-1016506/",
+          "bulk_poll_id": "23:0:9",
+          "raw_seats_by_label": {
+            "Likud": 33,
+            "Blue and White": 33,
+            "Joint List": 15,
+            "Shas": 8,
+            "United Torah Judaism": 7,
+            "Labor–Gesher–Meretz": 9,
+            "Yisrael Beiteinu": 7,
+            "Yamina": 8,
+            "Otzma Yehudit": 0
+          },
+          "notes": "All positive seats plus Otzma nonqualification explicitly in broadcaster body. Publication date supported by visible page date and VideoObject uploadDate February 28. Migrated NewsArticle dateline mentions April 2025; not asserted to date the original poll or a demonstrated numeric revision. No archival-vintage certification.",
+          "retrieved_response_sha256": "f4b550de1fe2ece0c05d4e93298fc227c9f86afc3b78060adf3a4cd105eab0b1",
+          "retrieved_response_bytes": 130779
+        },
+        {
+          "id": "2020_103fm_panels_0226",
+          "published_on": "2020-02-26",
+          "pollster_group": "panels_politics",
+          "publisher": "103FM",
+          "fieldwork_end": "2020-02-25",
+          "sample_size": 510,
+          "source_url": "https://103fm.maariv.co.il/programs/media.aspx?ZrqvnVq=HLJMFI&c41t4nzVQ=GJL",
+          "bulk_poll_id": "23:0:16",
+          "raw_seats_by_label": {
+            "Likud": 34,
+            "Blue and White": 32,
+            "Joint List": 14,
+            "Shas": 8,
+            "United Torah Judaism": 7,
+            "Labor–Gesher–Meretz": 9,
+            "Yisrael Beiteinu": 8,
+            "Yamina": 8,
+            "Otzma Yehudit": 0
+          },
+          "notes": "Original commissioning broadcaster gives every positive allocation, Otzma 2%, pollster Menachem Lazar/Panels, sample510, fieldwork yesterday Tuesday. Visible program_date is February 26, not index fieldwork/date proxy February 25.",
+          "retrieved_response_sha256": "ef89a34be3a6653aaa348b66faaacc8f5f75d4ebdd72e5898ba816dde92cff65",
+          "retrieved_response_bytes": 103513
+        },
+        {
+          "id": "2020_walla_midgam_0226",
+          "published_on": "2020-02-26",
+          "pollster_group": "midgam_geva",
+          "publisher": "Walla",
+          "fieldwork_start": "2020-02-16",
+          "fieldwork_end": "2020-02-17",
+          "sample_size": 502,
+          "source_url": "https://elections.walla.co.il/item/3343018",
+          "bulk_poll_id": "23:0:15",
+          "raw_seats_by_label": {
+            "Likud": 34,
+            "Blue and White": 34,
+            "Joint List": 13,
+            "Shas": 8,
+            "United Torah Judaism": 8,
+            "Labor–Gesher–Meretz": 9,
+            "Yisrael Beiteinu": 7,
+            "Yamina": 7,
+            "Otzma Yehudit": 0
+          },
+          "notes": "All allocations explicitly in original publisher body. Preserve printed fieldwork February16–17 and sample502, despite index date proxy February25 and article context suggesting a newer survey. Treat this metadata as unresolved; it remains within the T-1 effective-age window. Report publication-age sensitivity separately before adopting recency weights; do not silently substitute the index proxy.",
+          "retrieved_response_sha256": "c39de7e1a0d53fe2d5a85d87daa0d473c94b27774dd0056467c435bba9f4f9c8",
+          "retrieved_response_bytes": 358852
+        }
+      ]
+    }
+  ]
+}

@@ -341,6 +341,12 @@ def build_report(config_path=ROOT / "config/experiments.json"):
     historical = load_json(historical_path)
     files = [config_path, historical_path, ROOT / "scripts/experiments.py", ROOT / "scripts/baseline.py",
              ROOT / "scripts/backtest.py", ROOT / "requirements-experiments.txt"]
+    files.extend(ROOT / path for path in config.get("additional_provenance_paths", []))
+    if len({item["id"] for item in historical["elections"]}) != len(historical["elections"]):
+        raise ValueError("Historical elections must be unique")
+    horizons = historical["horizons_days"]
+    if not horizons or len(set(horizons)) != len(horizons) or any(type(h) is not int or h < 1 for h in horizons):
+        raise ValueError("Historical horizons must be unique positive integers")
     cases, exclusions = [], []
     for item in historical["elections"]:
         path = ROOT / item["polls_path"]
@@ -369,7 +375,14 @@ def build_report(config_path=ROOT / "config/experiments.json"):
             raise ValueError("Outcome date mismatch")
         outcomes[case["election_id"]] = target["seat_results"]
     results = evaluate_cases(cases, outcomes, config)
+    evaluation_ids = config.get("evaluation_elections", sorted({c["election_id"] for c in results}))
+    if not evaluation_ids or set(evaluation_ids) - {c["election_id"] for c in results}:
+        raise ValueError("Every requested evaluation election must have eligible cases")
     for row in results:
+        row["evaluation_role"] = "comparison" if row["election_id"] in evaluation_ids else "training_and_oof_history"
+        if config.get("require_complete_evaluation") and row["evaluation_role"] == "comparison":
+            if any("seats" not in entry for entry in row["methods"].values()):
+                raise ValueError(f"Incomplete comparison: {row['election_id']}; expand earlier training/OOF history")
         row["actual_turnout_pct"] = targets[row["election_id"]]["turnout_pct"]
         row["turnout_error_pp"] = round(abs(row["turnout_prediction_pct"] - row["actual_turnout_pct"]), 6)
     smoke = synthetic_smoke(config)
@@ -381,13 +394,13 @@ def build_report(config_path=ROOT / "config/experiments.json"):
             "runtime_seconds": round(time.perf_counter() - start, 3), "python": platform.python_version(),
             "packages": versions, "code_commit": os.environ.get("GITHUB_SHA", "local_unrecorded_commit"),
             "input_and_code_sha256": {str(p.relative_to(ROOT)).replace("\\", "/"): hashlib.sha256(p.read_bytes()).hexdigest() for p in files},
-            "limitations": ["Only two original-source-audited elections currently available; both outcomes already inspected.",
-                            "One-election supervised fits are diagnostic only; no final model ranking or current forecast.",
+            "limitations": [f"{len({c['election_id'] for c in results})} audited election panels; convenience poll coverage and retrospective source vintages remain limited.",
+                            "2021/2022 outcomes already inspected; this is not a pristine blind holdout or a final model choice.",
                             "Bulk poll indexes, CBS and INES data are not model inputs; historical availability remains unaudited.",
                             "Polls/party rows and repeated horizons are dependent; only elections count as independent outcomes.",
                             "Dynamic filter variances and 25% shrinkage are experimental defaults, not calibrated uncertainty.",
                             "Integer sum-120 arithmetic is enforced; no vote-to-seat allocator or electoral attainability claim.",
-                            "Optimized ensemble real-data fitting awaits two earlier strict OOF elections."]}
+                            "Optimized weights require earlier strict OOF elections; unavailable warm-up fits are not comparison failures."]}
 
 
 def validate_config(config):
@@ -436,13 +449,22 @@ def write_report(report, out_dir):
                                      entry["seats"][key], entry["score"]["signed_error_by_list"][key],
                                      entry.get("continuous_shrunk", [""] * len(case["ids"]))[i],
                                      entry.get("continuous_unshrunk", [""] * len(case["ids"]))[i]])
+    comparison = [c for c in report["cases"] if c["evaluation_role"] == "comparison"]
+    warmup = [c for c in report["cases"] if c["evaluation_role"] != "comparison"]
     lines = ["# Lightweight model screen — exploratory, no model selected", "",
              "Real historical diagnostics below; synthetic smoke results are separate and contain no accuracy ranking.",
-             "The audited panel covers 2021/2022 only. Supervised 2022 predictions train on 2021; this is one training election, not sufficient validation.",
+             ("Earlier elections provide training and chronological out-of-fold history; every displayed comparison configuration must run successfully. Both 2021/2022 outcomes were previously inspected."
+              if warmup else "Limited historical diagnostic; inspect each method's training status before drawing conclusions."),
              "25% correction around the latest-group mean; T−6 and T−1 remain separate. No current-election forecast is changed.", ""]
+    lines += ["## Historical coverage and roles", "",
+              "Warm-up elections train models and generate earlier strict out-of-fold (OOF) predictions. Missing early fits are expected and never appear as failed comparison cells.", "",
+              "| Election | Horizon | Groups | Earlier training elections | Role |", "| --- | ---: | ---: | ---: | --- |"]
+    for case in report["cases"]:
+        lines.append(f"| {case['election_id']} | {case['horizon_days']} | {len(case['selected_polls'])} | {len(case['training_elections'])} | {case['evaluation_role']} |")
+    lines.append("")
     names = list(REFERENCES) + [m["id"] for m in report["configuration"]["models"]]
-    for horizon in sorted({c["horizon_days"] for c in report["cases"]}, reverse=True):
-        subset = [c for c in report["cases"] if c["horizon_days"] == horizon]
+    for horizon in sorted({c["horizon_days"] for c in comparison}, reverse=True):
+        subset = [c for c in comparison if c["horizon_days"] == horizon]
         lines += [f"## T−{horizon}: real-data diagnostics", "",
                   "Each cell: total absolute seat error / total movement from rounded anchor. Missing fits are explicit.", "",
                   "| Configuration | " + " | ".join(c["election_id"] for c in subset) + " |",
@@ -457,22 +479,22 @@ def write_report(report, out_dir):
               "Compare each candidate with both references on exactly the same elections, separately by horizon.", "",
               "| Method | Horizon | Elections | Mean error | Worst error | Mean reference | L1 reference |", "| --- | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for name in names:
-        for horizon in sorted({c["horizon_days"] for c in report["cases"]}, reverse=True):
-            subset = [c for c in report["cases"] if c["horizon_days"] == horizon and "seats" in c["methods"][name]]
+        for horizon in sorted({c["horizon_days"] for c in comparison}, reverse=True):
+            subset = [c for c in comparison if c["horizon_days"] == horizon and "seats" in c["methods"][name]]
             if not subset:
                 continue
             errors = [c["methods"][name]["score"]["total_absolute_seat_error"] for c in subset]
             refs = [sum(c["methods"][r]["score"]["total_absolute_seat_error"] for c in subset) / len(subset) for r in REFERENCES]
             lines.append(f"| {name} | {horizon} | {len(subset)} | {sum(errors)/len(errors):.2f} | {max(errors)} | {refs[0]:.2f} | {refs[1]:.2f} |")
     lines += ["", "## Turnout reference", ""]
-    for case in report["cases"]:
+    for case in comparison:
         lines.append(f"- {case['election_id']} T−{case['horizon_days']}: persistence {case['turnout_prediction_pct']:.2f}%; error {case['turnout_error_pp']:.2f} percentage points.")
     lines += ["", "## Synthetic software smoke checks", "",
               f"All {len(report['smoke']['exercised_configurations'])} configurations (including two references) exercised; nonnegative integer totals verified.",
               "Synthetic outcomes are used only to exercise code paths, including optimized ensemble weights. They are never election evidence.",
               "", "## Limits and next steps", ""]
     lines.extend(f"- {item}" for item in report["limitations"])
-    lines += ["- Next: audit three-group panels for 2015, April/September 2019 and 2020; enable strict chronological comparisons before narrowing models.",
+    lines += ["- Next: inspect stability and source-metadata sensitivities before narrowing the shortlist; six elections remain a small history.",
               "- Full provenance, configurations, statuses, continuous corrections, representation errors and unshrunk diagnostics: `experiments.json`; per-list output: `predictions.csv`.",
               f"- Excluded historical cases: {len(report['excluded_cases'])}.", ""]
     (out_dir / "summary.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")

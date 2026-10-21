@@ -1,5 +1,20 @@
 # Session log
 
+## 2026-10-21 - Analyze E002 and prepare cross-session handoff
+
+- User requested analysis committed to Git for another session/device. Reviewed full saved predictions, per-list errors, continuous/unshrunk corrections, feature coverage and ensemble weights; no refitting or new forecasts.
+- Added `docs/screening-results-analysis.md` with numerical interpretation, caveats and prioritized next work. Added a standard-library analysis script and deterministic derived JSON; reconstructed scores match saved results and repeat output is byte-identical.
+- Findings: no candidate beats references; 2022 ties mostly reproduce the exact benchmark after shrinkage/rounding. First four elections have no observed within-group trend, limiting learned trend correction. All methods retain Meretz's 2022 representation miss; larger unshrunk supervised adjustments worsen both outcomes. Neither a final model nor a hard bound is chosen.
+- Continuity: branch `feat/six-election-screening-panel`, PR #13 open at inspection; main still older E001. Existing head abd3467 passed both workflows. Source/coverage sensitivity and repeated original-source releases precede wider tuning. Analysis validated by deterministic repeated execution, score arithmetic, source/code hashes, syntax, Markdown links/fences and Git whitespace checks. This record accompanies its topic-branch commit; inspect live remote for the latest SHA/publication state.
+
+## 2026-10-21 - Prepare six-election training history (E002)
+
+- User asked to use years with enough data. Added 12 original-source-reviewed releases from 2015, both 2019 elections and 2020, plus deterministic offline panel/outcome construction. Retain original source dates, known revisions, ballot-code mappings, two explicit tied-seat derivations and metadata conflicts; no blanket promotion of index rows.
+- Fixed T−1 across six elections. Earlier four elections provide training/strict OOF history; 2021/2022 comparisons have four/five earlier elections and must produce every model. Early warm-up insufficiency is explicit in full outputs, separate from comparison tables. Archived E001 config; original forecasts/reports untouched.
+- Ten focused local checks passed; four scientific checks await the cloud environment. Hosted execution/publication and scores pending at this checkpoint. Full source findings and next actions in six-election-screening/project-state.
+- Final execution: all 45 cloud tests passed in screen39626291280 for implementation6349ac9, exact prepared-input rebuild and deterministic reruns passed; baseline39626291139 also succeeded. All 20 configurations predicted both2021/2022 cases; no comparison insufficiency. Runtime 2.135s, approximately 60s cloud job. Downloaded artifact12355914984, verified all consumed hashes, preserved five compact outputs under reports/screening-six-elections-2026-10-21 (491,970 bytes).
+- Results: reference errors20/12; candidates20–24/12–14. No family selected. Learned ensembles now fit earlier real OOF outcomes; no future target leakage. PR #13 published on topic branch, merge not claimed; earlier user approval was specific to PR #12. Follow-up report/documentation commit records the verified outcome and source-sensitivity next steps.
+
 ## 2026-10-21 - Merge authorization and data-readiness clarification
 
 - User explicitly authorized merging PR #12 and asked why so many cells show insufficient data despite the database collection. Existing six-election outcomes and 790 raw poll-index candidates are not the same as the runner's 12 audited releases from 2021/2022. Publication dates, duplicates and historical lineups remain the preparation gap.

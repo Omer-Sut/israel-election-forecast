@@ -1,0 +1,213 @@
+{
+  "snapshot_id": "screening-knesset_22_2019sep-2026-10-21-a",
+  "election_id": "knesset_22_2019sep",
+  "election_date": "2019-09-17",
+  "retrieved_on": "2026-10-21",
+  "audit_tier": "original_source_audited_retrospective_not_archival_vintage",
+  "rights_note": "Factual numerical transcriptions and original source attribution. Publisher prose, full pages and graphics are not redistributed. English-normalized poll labels map explicitly to election-specific list definitions retaining Hebrew names. Existing index archives remain unchanged.",
+  "historical_vintage_limit": "Original publisher pages and known publication/update metadata checked retrospectively; no authenticated contemporary archive copies. Some migrated-site metadata is inconsistent and is documented per release. This is not certified real-time reconstruction.",
+  "coverage": "Three declared polling groups; retrospective convenience panel, not exhaustive campaign coverage or necessarily each group's final release.",
+  "zero_seat_policy": "Only complete reviewed 120-seat allocations; percentages stay separate. No zero-support inference.",
+  "lists": [
+    {
+      "id": "blue_and_white_2019sep",
+      "ballot_code": "פה",
+      "label_en": "Blue and White",
+      "label_he": "כחול לבן",
+      "official_source_label_he": "כחול לבן - בראשות בני גנץ ויאיר לפיד"
+    },
+    {
+      "id": "democratic_union_2019sep",
+      "ballot_code": "מרצ",
+      "label_en": "Democratic Union",
+      "label_he": "המחנה הדמוקרטי",
+      "official_source_label_he": "המחנה הדמוקרטי בהנהגת הורוביץ, שפיר וברק"
+    },
+    {
+      "id": "joint_list_2019sep",
+      "ballot_code": "ודעם",
+      "label_en": "Joint List",
+      "label_he": "הרשימה המשותפת",
+      "official_source_label_he": "הרשימה המשותפת חד"
+    },
+    {
+      "id": "labor_gesher_2019sep",
+      "ballot_code": "אמת",
+      "label_en": "Labor–Gesher",
+      "label_he": "העבודה–גשר",
+      "official_source_label_he": "העבודה - גשר בראשות עמיר פרץ ואורלי לוי אבקסיס"
+    },
+    {
+      "id": "likud_2019sep",
+      "ballot_code": "מחל",
+      "label_en": "Likud",
+      "label_he": "הליכוד",
+      "official_source_label_he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה"
+    },
+    {
+      "id": "otzma_yehudit_2019sep",
+      "ballot_code": "כף",
+      "label_en": "Otzma Yehudit",
+      "label_he": "עוצמה יהודית",
+      "official_source_label_he": "עוצמה יהודית בראשות איתמר בן גביר"
+    },
+    {
+      "id": "shas_2019sep",
+      "ballot_code": "שס",
+      "label_en": "Shas",
+      "label_he": "ש״ס",
+      "official_source_label_he": "התאחדות הספרדים שומרי התורה תנועתו של מרן הרב עובד"
+    },
+    {
+      "id": "united_torah_judaism_2019sep",
+      "ballot_code": "ג",
+      "label_en": "United Torah Judaism",
+      "label_he": "יהדות התורה",
+      "official_source_label_he": "יהדות התורה והשבת אגודת ישראל - דגל התורה"
+    },
+    {
+      "id": "yamina_2019sep",
+      "ballot_code": "טב",
+      "label_en": "Yamina",
+      "label_he": "ימינה",
+      "official_source_label_he": "ימינה בראשות איילת שקד הבית היהודי-האיחוד הלאומי-ה"
+    },
+    {
+      "id": "yisrael_beiteinu_2019sep",
+      "ballot_code": "ל",
+      "label_en": "Yisrael Beiteinu",
+      "label_he": "ישראל ביתנו",
+      "official_source_label_he": "ישראל ביתנו בראשות אביגדור ליברמן"
+    }
+  ],
+  "polls": [
+    {
+      "id": "2019sep_maariv_smith_0913",
+      "published_on": "2019-09-13",
+      "source_updated_on": "2019-09-13",
+      "pollster_group": "smith",
+      "publisher": "Maariv",
+      "fieldwork_end": "2019-09-12",
+      "sample_size": null,
+      "source_url": "https://www.maariv.co.il/elections2019/polls/article-718968",
+      "bulk_poll_id": "22:0:11",
+      "notes": "Original publisher body explicitly reports all nine positive allocations and Otzma 3.1% below threshold. Primary publication/modified date September 13, fieldwork September 12; do not adopt index date proxy September 12 as publication.",
+      "retrieved_response_sha256": "01944e83d01c788e0a46bfe16f8e1d0c62999e7de8535169756c7f6d4cc9a257",
+      "retrieved_response_bytes": 211141,
+      "election_id": "knesset_22_2019sep",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2019sep": 33,
+        "blue_and_white_2019sep": 32,
+        "joint_list_2019sep": 12,
+        "shas_2019sep": 8,
+        "united_torah_judaism_2019sep": 7,
+        "yamina_2019sep": 9,
+        "labor_gesher_2019sep": 5,
+        "yisrael_beiteinu_2019sep": 8,
+        "democratic_union_2019sep": 6,
+        "otzma_yehudit_2019sep": 0
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 33,
+        "Blue and White": 32,
+        "Joint List": 12,
+        "Shas": 8,
+        "United Torah Judaism": 7,
+        "Yamina": 9,
+        "Labor–Gesher": 5,
+        "Yisrael Beiteinu": 8,
+        "Democratic Union": 6,
+        "Otzma Yehudit": 0
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    },
+    {
+      "id": "2019sep_channel13_0910",
+      "published_on": "2019-09-10",
+      "pollster_group": "channel13_fuchs",
+      "publisher": "Channel 13",
+      "fieldwork_end": null,
+      "sample_size": 831,
+      "source_url": "https://13tv.co.il/item/news/politics/state-policy/reelection-2019/survey-election-355016/",
+      "bulk_poll_id": "22:0:16",
+      "notes": "All ten allocations in original broadcaster body. Date supported by visible publication/captions and VideoObject uploadDate September 10. Migrated NewsArticle dateline instead mentions January 2020; retained as conflicting site metadata, not assumed a poll-content revision. No archive-vintage certification.",
+      "retrieved_response_sha256": "64fb362b8653c0180e6885938aae072460fca41a5855983c01093dc20d083271",
+      "retrieved_response_bytes": 134531,
+      "election_id": "knesset_22_2019sep",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2019sep": 31,
+        "blue_and_white_2019sep": 32,
+        "joint_list_2019sep": 11,
+        "shas_2019sep": 6,
+        "united_torah_judaism_2019sep": 7,
+        "yamina_2019sep": 9,
+        "labor_gesher_2019sep": 5,
+        "yisrael_beiteinu_2019sep": 9,
+        "democratic_union_2019sep": 6,
+        "otzma_yehudit_2019sep": 4
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 31,
+        "Blue and White": 32,
+        "Joint List": 11,
+        "Shas": 6,
+        "United Torah Judaism": 7,
+        "Yamina": 9,
+        "Labor–Gesher": 5,
+        "Yisrael Beiteinu": 9,
+        "Democratic Union": 6,
+        "Otzma Yehudit": 4
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    },
+    {
+      "id": "2019sep_walla_midgam_0909",
+      "published_on": "2019-09-09",
+      "pollster_group": "midgam_geva",
+      "publisher": "Walla",
+      "fieldwork_start": "2019-09-08",
+      "fieldwork_end": "2019-09-09",
+      "sample_size": 501,
+      "source_url": "https://elections.walla.co.il/item/3311677",
+      "bulk_poll_id": "22:0:19",
+      "notes": "Full allocation and fieldwork/sample metadata in own commissioning publisher's body. A convenience selection, not the final campaign release of every group.",
+      "retrieved_response_sha256": "959e98c9120a3f60aac7f0c80d1a063fd7c3447184330b79ea1df0b0d90c67f9",
+      "retrieved_response_bytes": 356180,
+      "election_id": "knesset_22_2019sep",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2019sep": 32,
+        "blue_and_white_2019sep": 33,
+        "joint_list_2019sep": 9,
+        "shas_2019sep": 6,
+        "united_torah_judaism_2019sep": 7,
+        "yamina_2019sep": 9,
+        "labor_gesher_2019sep": 6,
+        "yisrael_beiteinu_2019sep": 8,
+        "democratic_union_2019sep": 6,
+        "otzma_yehudit_2019sep": 4
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 32,
+        "Blue and White": 33,
+        "Joint List": 9,
+        "Shas": 6,
+        "United Torah Judaism": 7,
+        "Yamina": 9,
+        "Labor–Gesher": 6,
+        "Yisrael Beiteinu": 8,
+        "Democratic Union": 6,
+        "Otzma Yehudit": 4
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    }
+  ]
+}
