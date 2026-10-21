@@ -2,6 +2,8 @@
 
 Prepared October 21, 2026 after the user requested usable earlier years instead of insufficient-training cells. E001's cloud implementation was merged through PR #12 at main `507fdd8`; this extension starts from that clean state. No final model is selected or new current-election forecast produced.
 
+Verified execution: [cloud run 39626291280](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39626291280) passed all45 tests, exact offline panel rebuild and deterministic reruns. All20 configurations produced both evaluation predictions. [Durable comparison](../reports/screening-six-elections-2026-10-21/summary.md): references20/12 error for2021/2022; candidates20–24/12–14, so no improvement established. Experiment runtime2.135s; hosted job about60s. Provenance hashes matched after artifact download. Published through [PR #13](https://github.com/Omer-Sut/israel-election-forecast/pull/13); inspect its live state for merge status.
+
 ## Chronological design
 
 Use the same **T−1 cutoff for all six elections**, the existing inclusive 14-day effective-age window and three declared polling groups per election. The grid, features, 25% correction and rounding are unchanged. We chose these roles before inspecting the new model scores:
@@ -46,6 +48,6 @@ These are original-source checks, not authenticated contemporary archives. Unkno
 
 ## Running and next steps
 
-Use **Screen lightweight forecast models** on GitHub Actions; optional local command remains `python scripts/experiments.py` in the pinned scientific environment. No new dependency or local model training is required. Cloud results and compact durable reports will be recorded in project-state/experiment-log after verification.
+Use **Screen lightweight forecast models** on GitHub Actions, choosing branch `feat/six-election-screening-panel` while PR #13 is open; optional local command remains `python scripts/experiments.py` in the pinned scientific environment. The workflow exists on main, so its manual branch selector can execute this branch. No new dependency or local model training is required. Verified results and provenance are in project-state/experiment-log and the durable report above.
 
 Inspect stability before narrowing candidates. The first source sensitivity should replace Walla 2020's uncertain fieldwork age with publication-age fallback, then compare outputs; also examine older 2015 coverage and repeated-election-period effects. Better campaign coverage is useful later, but additional families/heavier training are not the present bottleneck. T−6 coverage is retained in the old pilot, not claimed complete across the newly prepared years.
