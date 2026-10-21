@@ -1,5 +1,11 @@
 # Session log
 
+## 2026-10-21 - Joint List / Hadash-Ta'al source check
+
+- User proposed equivalence and requested online sources. Checked the current alliance's own site, N12's August 19 report, and official 2022 results.
+- Current Joint List includes Hadash, Ta'al, and Balad; the 2022 official outcome lists Hadash-Ta'al and Balad separately. Sources do not validate unconditional historical equivalence or establish the form author's intended label mapping.
+- Recorded current-form-slot mapping as a plausible interpretation with source composition retained, not a confirmed alias. No historical series was merged and no forecast changed.
+
 ## 2026-10-21 - Turnout form bounds confirmed
 
 - User confirmed the form accepts turnout from 40.00 through 100.00 percent. Recorded inclusive min/max in configuration contract v2, submission requirements, agent instructions, model plan, and decisions.

@@ -61,6 +61,16 @@ The header repeats election day **October 27, 2026** and deadline **October 26, 
 4. The PDF defines absolute error by list, while this form combines other qualifying parties. Working output-level scoring uses the 15 form entries, aggregating other-list truth before taking absolute error. The organizer's precise treatment of multiple other qualifiers is not independently confirmed; retain disaggregated internal outcomes so alternative scoring can be checked.
 5. Exact decimal increment/precision, other hidden field validation, exact timezone, eligibility, team, and final track/presentation consent remain to be confirmed. Turnout bounds of 40.00-100.00 are confirmed by the user. None prevents starting poll collection with the known field inventory.
 
+### Joint List / Hadash-Ta'al source check (October 21, 2026)
+
+The user proposed treating these as the same form target and asked for online validation. Sources support a relationship, but **not literal or historical equivalence**:
+
+- The [current alliance's own website](https://jointlist.org.il/en/) identifies its three constituent parties as Hadash, Ta'al, and Balad.
+- [N12's August 19, 2026 reporting](https://www.mako.co.il/news-israel-elections/2026/Article-cb92eb7e0f910a1026.htm) describes Hadash, Ta'al, and Balad agreeing to a joint run, without Ra'am.
+- [Official 2022 results](https://votes25.bechirot.gov.il/nationalresults) list Hadash-Ta'al and Balad separately. Historical series must retain that election-specific composition.
+
+The form may use an older Hadash-Ta'al label for the current Joint List output slot; this is a plausible **form-mapping interpretation**, not organizer-confirmed intent. Current Joint List polling can be mapped to that slot only with this assumption made explicit and its source label/composition retained. No automatic alias or historical merger has been encoded in the field configuration. In particular, do not add a separate Balad forecast on top of a current poll already including it in the Joint List. Verify each poll's date and lineup.
+
 ## Stage-one status
 
 The form inventory, labels, required markers, total-seat rule, and narrative-field requirements are now recorded. Structural electoral-rule verification and official/poll/form mappings remain open. No real forecast has been entered or submitted by the agent.

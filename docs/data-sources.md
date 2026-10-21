@@ -78,6 +78,10 @@ Published seat estimates and vote percentages require separate fields. Missing v
 - Earliest public availability and forecast cutoff eligibility, so backtests cannot use future information.
 - Reproduction/access instructions for data not stored in Git.
 
-## Online storage
+## S10. Joint List composition check (October 21, 2026)
+
+The [alliance's own website](https://jointlist.org.il/en/) names Hadash, Ta'al, and Balad as its constituents. [N12, August 19, 2026](https://www.mako.co.il/news-israel-elections/2026/Article-cb92eb7e0f910a1026.htm), reports their agreement to run jointly without Ra'am. [Official 2022 results](https://votes25.bechirot.gov.il/nationalresults) list Hadash-Ta'al and Balad separately. These sources support a changed alliance composition, not unconditional equivalence of labels over time. The form's intended mapping remains an interpretation; see [submission-contract.md](submission-contract.md). No poll series has been merged or reclassified.
+
+## Online storage policy
 
 GitHub is the durable source of truth. Prefer small redistributable input snapshots and a source manifest in a tracked path such as `data/snapshots/` (the existing `data/raw/` and `data/processed/` paths are ignored). Review rights before copying data; do not accidentally force-add a restricted source. For larger or restricted inputs, record a shared store, access procedure, version/hash, and a reproducible retrieval path. Nothing required to reproduce the final run should exist only on one laptop or a temporary Colab disk.
