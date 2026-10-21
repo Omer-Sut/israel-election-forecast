@@ -15,6 +15,8 @@ The commands work from the repository root on Windows/Linux. The program resolve
 
 The GitHub Actions workflow `Reproduce preliminary baseline` runs the same commands in a fresh hosted Linux CPU job, compares generated outputs byte-for-byte with the committed reference, displays the summary, and uploads downloadable artifacts. It can be manually rerun from the repository's Actions tab after it is on main. The durable inputs and outputs remain committed even after workflow artifacts expire. Check the run result before claiming remote reproduction succeeded.
 
+Verified: [hosted run 39572969093](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39572969093) passed for implementation commit `aee2f11`, including nine tests and exact output comparison. This verifies portability and software behavior, not election forecasting accuracy.
+
 ## Poll selection
 
 Use the latest eligible audited release per configured polling group in the 14 days preceding the as-of date, with one equal weight per selected group. Six stored observations produce five active groups because Walla and Maariv share Lazar/Panel4All. This avoids simple repeat-publication overcounting, but it does not prove independence across organizations or shared panels/methods.

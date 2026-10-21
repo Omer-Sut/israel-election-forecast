@@ -34,7 +34,7 @@ Replace each item with the method actually implemented; remove placeholders befo
 - [x] First baseline run recorded in experiment log; final method selection remains pending.
 - [ ] Validation results and rejected alternatives recorded.
 - [ ] Final output generated from frozen inputs and a recorded code revision.
-- [ ] Fresh online reproduction checked.
+- [x] First baseline reproduced exactly in a fresh hosted CPU run: [39572969093](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39572969093), implementation commit `aee2f11`. Final chosen method still needs its own frozen reproduction.
 - [ ] Final method paragraph <=500 words, with no unimplemented claims.
 - [ ] User/team agrees to presentation requirement and reviews final entry.
 

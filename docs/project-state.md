@@ -18,7 +18,7 @@ Repository: https://github.com/Omer-Sut/israel-election-forecast
 - Implemented standard-library Python 3.12: latest-group selection, explicit mappings, rounded-mean reference, empirical L1 consensus via a small dynamic program, output validation, hashes, and omission sensitivity.
 - Generated durable preliminary reports at reports/baseline-2026-10-21/. Both outputs pass form arithmetic. They are not final, historically validated, or proven electorally attainable forecasts.
 - Nine meaningful software checks pass locally. No historical poll-to-result backtest or probability calibration has run.
-- Configured a small GitHub Actions CPU workflow to test, reproduce, compare committed reports, and expose a summary/artifact. Actual remote success is pending until a run is verified. A notebook is deferred to avoid duplicate setup.
+- Configured and verified a small GitHub Actions CPU workflow: all tests and byte-for-byte report reproduction passed in hosted run 39572969093 for implementation commit aee2f11. Run: https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39572969093 . A notebook is deferred to avoid duplicate setup.
 
 ## Important results and limits
 
@@ -28,7 +28,7 @@ Kan and several October 20 releases (including i24/Direct Polls and Channel 16) 
 
 ## Publication and reproduction
 
-Research PR #4 was merged; main was synchronized at 3b56731 before this implementation. Current work uses feat/audited-poll-baseline and a pull request; check Git and workflow status for the latest revision/results.
+Research PR #4 was merged; main was synchronized at 3b56731 before this implementation. Baseline PR #5 uses feat/audited-poll-baseline; its implementation commit aee2f11 passed the hosted checks. The accompanying handoff update records that evidence; check actual Git/PR state for the latest merge/revision.
 
 Run from a fresh Python 3.12 session:
 
@@ -39,11 +39,10 @@ See docs/baseline-method.md, data/README.md, and experiment-log.md (R001). Input
 
 ## Next actions
 
-1. Verify GitHub-hosted reproduction of this implementation and record its run link/result.
-2. Audit omitted latest source releases and reconcile metadata/current lineup changes. Preserve the current snapshot for comparison.
-3. Collect comparable historical pre-election polls and evaluate against same-election official outcomes with appropriate cutoffs. Historical outcomes alone are not a backtest.
-4. Decide whether to retain this seats-only reference or add the one planned uncertainty/vote-share improvement. Verify operative allocation rules/agreements before implementing a vote-share allocator.
-5. Confirm final team/track, timezone, any remaining form validation/precision, and treatment of the other-qualifiers scoring bucket. Keep updating the method report; never submit without the user's explicit authorization.
+1. Audit omitted latest source releases and reconcile metadata/current lineup changes. Preserve the current snapshot for comparison.
+2. Collect comparable historical pre-election polls and evaluate against same-election official outcomes with appropriate cutoffs. Historical outcomes alone are not a backtest.
+3. Decide whether to retain this seats-only reference or add the one planned uncertainty/vote-share improvement. Verify operative allocation rules/agreements before implementing a vote-share allocator.
+4. Confirm final team/track, timezone, any remaining form validation/precision, and treatment of the other-qualifiers scoring bucket. Keep updating the method report; never submit without the user's explicit authorization.
 
 ## Environment notes
 

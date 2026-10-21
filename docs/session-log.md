@@ -9,6 +9,7 @@
 - First local test/run completed by 08:48:26 UTC. Nine correctness tests passed (0.145 seconds in that test run); this is not predictive validation. In-sample absolute poll disagreement: 14.4 mean versus 12.4 L1. Omission sensitivity: 4-8 total absolute seat difference.
 - Added committed reference reports, an implemented-method draft, and a small GitHub Actions CPU workflow to test and reproduce them. Actual hosted run status is pending verification. No heavy training, model download, external Python package, or competition submission was performed.
 - User hands-on effort is not inferred from agent wall-clock duration. Next: verify hosted reproduction, audit latest omitted releases, and assemble historical pre-election polls for genuine evaluation.
+- Hosted reproduction subsequently passed: run https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39572969093 completed at 08:55:49 UTC for implementation aee2f11. Nine tests and byte-for-byte output comparison passed. Agent wall-clock start-to-hosted-success was 16m36s; user hands-on effort remains unmeasured. Next substantive work is the outstanding source audits and historical backtest.
 
 ## 2026-10-21 - Joint List / Hadash-Ta'al source check
 
