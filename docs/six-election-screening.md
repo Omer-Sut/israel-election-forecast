@@ -2,7 +2,7 @@
 
 Prepared October 21, 2026 after the user requested usable earlier years instead of insufficient-training cells. E001's cloud implementation was merged through PR #12 at main `507fdd8`; this extension starts from that clean state. No final model is selected or new current-election forecast produced.
 
-Verified execution: [cloud run 39626291280](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39626291280) passed all45 tests, exact offline panel rebuild and deterministic reruns. All20 configurations produced both evaluation predictions. [Durable comparison](../reports/screening-six-elections-2026-10-21/summary.md): references20/12 error for2021/2022; candidates20–24/12–14, so no improvement established. Experiment runtime2.135s; hosted job about60s. Provenance hashes matched after artifact download. Published through [PR #13](https://github.com/Omer-Sut/israel-election-forecast/pull/13); inspect its live state for merge status.
+Verified execution: [cloud run 39626291280](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39626291280) passed all 45 tests, exact offline panel rebuild and deterministic reruns. All 20 configurations produced both evaluation predictions. [Durable comparison](../reports/screening-six-elections-2026-10-21/summary.md): references 20/12 error for 2021/2022; candidates20–24/12–14, so no improvement established. Experiment runtime 2.135s; hosted job about 60s. Provenance hashes matched after artifact download. Published through [PR #13](https://github.com/Omer-Sut/israel-election-forecast/pull/13); inspect its live state for merge status.
 
 ## Chronological design
 
