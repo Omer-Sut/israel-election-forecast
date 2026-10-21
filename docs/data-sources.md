@@ -59,7 +59,9 @@ Use them to locate the official rule specification; detailed mechanics, tie hand
 
 ## Collection priority and exclusions
 
-1. Audit several original current polls and the submission-form list mapping.
+The user has now supplied the form inventory: see [submission-contract.md](submission-contract.md) and [ordered output configuration](../config/submission-fields.json). Treat this as source S9 (user transcription, October 21, 2026), not direct authenticated inspection. Personal/account details and dummy inputs are excluded. Check Joint List versus Hadash-Ta'al and other changing lineup labels before mapping poll rows to form fields. Keep individual other lists internally; the form's combined other-qualifiers field is a seat output, not a pool of votes to threshold together.
+
+1. Audit several original current polls against the now-known form inventory and verify official-list mappings.
 2. Collect small national result tables for 2022/2021 and matching historical pre-election polls at comparable cutoffs. Historical poll availability and completeness have not yet been audited.
 3. Collect below-threshold shares and missing metadata from original releases where possible.
 4. Only then consider additional attitude/demographic data or transfer estimates. No paid source or person-specific data is needed for the proposed baseline.

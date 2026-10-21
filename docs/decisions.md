@@ -14,6 +14,7 @@
 | 2026-10-21 | Prioritize lightweight numerical/statistical methods; consider pretrained open-source models only as optional candidates. | User preference; no particular model approved or selected |
 | 2026-10-21 | Keep required code/data/context online and portable across devices; maintain documentation during work to minimize final-report effort. | Explicit user requirements |
 | 2026-10-21 | Organize execution around exact task definition, available-data review, and method comparison. | Explicit user requested sequence |
+| 2026-10-21 | Preserve the supplied form order as 14 named lists plus combined other qualifying parties (120 seats total), with turnout separately. Store no personal form responses or dummy forecast values. | User-supplied full form transcription and explicit dummy-input clarification |
 
 ## Provisional choices
 
@@ -27,7 +28,8 @@
 ## Open
 
 - Team members and eligibility; chosen competition track.
-- Exact form party list, field constraints, and submission precision.
+- Official/poll/form list mappings, hidden form validation, turnout precision, and exact timezone; form party inventory is now recorded.
+- Precise scoring treatment of several lists within the form's other-qualifiers bucket; retain disaggregated internal outcomes.
 - Official current election information and verified allocation rules.
 - Data sources, rights, coverage, historical validation design, and cutoff policy.
 - Model, programming language, supported runtime, dependency management, and experiment tracking.

@@ -16,7 +16,8 @@ Replace each item with the method actually implemented; remove placeholders befo
 
 ## Evidence checklist maintained during work
 
-- [ ] Exact submission party list and output format recorded.
+- [x] Submission party field inventory and total-seat rule recorded from the user's transcription; hidden validation/precision remain unverified.
+- [ ] Official/poll/form mappings and other-qualifier scoring interpretation resolved.
 - [ ] Data provenance, rights, cutoff eligibility, and source discrepancies resolved/documented.
 - [ ] Baseline run and selected method recorded in experiment log.
 - [ ] Validation results and rejected alternatives recorded.
