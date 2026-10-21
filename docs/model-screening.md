@@ -2,6 +2,8 @@
 
 Implemented October 21, 2026 following the approved plan. This is exploratory screening, not a final model selection or a new 2026 forecast. Frozen baseline/backtest files remain unchanged.
 
+Verified first milestone: [durable real-data report](../reports/screening-2026-10-21/summary.md), [successful cloud execution](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39622248851). All 43 tests and deterministic reruns passed. Experiment runtime=2.720s; full hosted job about 60s. Results do not establish an improvement: 2022 candidate errors=12 at T−6, 12–14 at T−1, versus references=12 at both. The full JSON identifies the exact tested PR merge ref and consumed file hashes; report-generation code/input files matched after download.
+
 ## Run from any computer
 
 Open [GitHub Actions](https://github.com/Omer-Sut/israel-election-forecast/actions), select **Screen lightweight forecast models → Run workflow** after merge to the default branch. Before merge, relevant pull requests run automatically. Write access is needed for manual dispatch. No local runtime, secrets, university account or extra cloud service is needed.

@@ -1,5 +1,7 @@
 # Project constraints and working principles
 
+E001 update: the user approved the [cloud screening implementation](model-screening.md), prioritizing today's one-hour availability and soft limits. Three configurations for each of six lightweight families are implemented in a separate optional scientific environment. This supersedes the earlier one-improvement scope, while preserving the approximate eight-hour total budget, no heavy training, online portability and no final model selection without historical evidence.
+
 Confirmed with the user on October 21, 2026. These constraints govern planning and implementation; proposed methods are not implemented models.
 
 ## Time and computation
