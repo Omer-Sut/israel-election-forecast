@@ -1,0 +1,92 @@
+{
+  "tables": {
+    "sources": 32,
+    "elections": 6,
+    "official_lists": 209,
+    "geographies": 75999,
+    "geographic_votes": 899195,
+    "poll_tables": 167,
+    "poll_rows": 2171,
+    "polls": 1197,
+    "poll_values": 16150,
+    "ines_studies": 6,
+    "ines_variables": 1047,
+    "ines_frequencies": 8614,
+    "ines_value_labels": 8377
+  },
+  "coverage_columns": [
+    "knesset",
+    "election_date",
+    "national_lists",
+    "main_poll_index_candidates",
+    "localities",
+    "ballot_boxes"
+  ],
+  "coverage": [
+    [
+      20,
+      "2015-03-17",
+      25,
+      176,
+      1196,
+      10414
+    ],
+    [
+      21,
+      "2019-04-09",
+      43,
+      127,
+      1214,
+      10765
+    ],
+    [
+      22,
+      "2019-09-17",
+      32,
+      68,
+      1214,
+      10901
+    ],
+    [
+      23,
+      "2020-03-02",
+      30,
+      94,
+      1214,
+      11179
+    ],
+    [
+      24,
+      "2021-03-23",
+      39,
+      169,
+      1215,
+      12926
+    ],
+    [
+      25,
+      "2022-11-01",
+      40,
+      156,
+      1216,
+      12545
+    ]
+  ],
+  "input_sha256": {
+    "sources.jsonl.gz": "aa965eac48f3f1176d2b135e9b71cbe44e5f651d6312c6641c2a9e7261418af5",
+    "elections.jsonl.gz": "be2d97da3f57ae13063226a2a4efab5a4293cc34779f64e569dec8f99eadbb91",
+    "official_lists.jsonl.gz": "ef383995b58092963b20473d8d7288cd0555057846f71d3e5bb365db5271ac01",
+    "geographies.jsonl.gz": "03ed4bfe6029049a654b4950b80e36449ed0c1dfd3e8ff9c710dcc4473ba3add",
+    "geographic_votes.jsonl.gz": "73bf5fe5b9781549eb543aa7c209eddf1052b2699f3e92c299dc9d989b8769c4",
+    "poll_tables.jsonl.gz": "5372cad552ed54e37d55aeeabd66c851b9706f4975acf84a67d6efe801d7a6d4",
+    "poll_rows.jsonl.gz": "fc8715d328827a679fe53b512731ec5c93c2f92e750520984ddf378a80117264",
+    "polls.jsonl.gz": "1ebc5b588804cd63619f85591dac22b0558dfed509b023c5e123ec44cde14658",
+    "poll_values.jsonl.gz": "f74ac8df5b3b0dbc45a6287312976f82bcecaccf13e4dcd869e927cdae2a1e03",
+    "ines_studies.jsonl.gz": "caffdc4888449ce50f5f718b3e08c044a9c3eff5252fc32e9d106bf0eb653e81",
+    "ines_variables.jsonl.gz": "d2262548b4f6dc0ddd1dcbddacadc1e656f6794ac429cac8cfa7ea603284b6ca",
+    "ines_frequencies.jsonl.gz": "201f77c7b63a3cf15a8e46a65cbcc5e21bb2b8357a62f88b1a0625922fe28724",
+    "ines_value_labels.jsonl.gz": "942abd224996798e7176708abc1155cd04f6c6e9ace49d8ce53be0cd7b82913b"
+  },
+  "validation": "passed; see scripts/build_database.py for exact checks",
+  "poll_warning": "Candidate rows are not deduplicated releases or verified historical publication information sets."
+}

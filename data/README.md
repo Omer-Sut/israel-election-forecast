@@ -1,5 +1,7 @@
 # First audited input snapshot
 
+New broad collection: [database/](database/) contains frozen inputs for the six-election 2015–2022 SQLite database, official geographic results, bulk poll tables and INES dictionaries/aggregates. Read [the database guide](../docs/historical-database.md). Bulk poll-index rows have a lower audit tier than the original-source transcriptions below; the existing baseline and pilot inputs remain unchanged.
+
 Historical update: [snapshots/historical-2026-10-21/](snapshots/historical-2026-10-21/) now contains 12 audited 2021/2022 poll records and official seat/turnout targets for the [historical backtest pilot](../docs/historical-backtest.md). Its sources, residual derivation, missing metadata and historical-vintage limitations are documented separately. The current 2026 snapshot below remains unchanged.
 
 `snapshots/polls-2026-10-21.json` contains six factual poll transcriptions from five declared polling groups. These are seat projections, with separate below-threshold percentage measurements. The newer Walla/Lazar release replaces the older Maariv/Lazar release; both remain traceable in the snapshot. Selection is the latest **audited** publication per group in a 14-day window, not a claim of exhaustive coverage.

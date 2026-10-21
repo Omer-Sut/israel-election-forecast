@@ -1,5 +1,13 @@
 # Experiment and effort log
 
+## D001 - Historical database assembly (October 21, 2026)
+
+- User requested data before model comparison. This is ingestion/validation, not a forecasting experiment or new accuracy claim. Agent work began with recorded research at 12:19:44 UTC; user hands-on effort is not inferred from runtime.
+- Snapshot: `data/database/`, 32 source responses with provenance; all six elections 2015–2022. Coverage: 209 list outcomes, 75,999 geographic rows, 899,195 positive geographic/list cells; 790 main-table candidate poll rows from a wider 2,171-row context archive; six INES study dictionaries and marginal summaries.
+- Commands: `python scripts/build_database.py`; `python -m unittest discover -s tests -v`. Generated SQLite/coverage go to `output/` and hosted artifact; canonical inputs remain small enough for Git. Report/hash manifest retained under `reports/database-2026-10-21/` after validation.
+- Validation: all national/geographic party totals and geographic ballot identities, final 120-seat sums, published-turnout precision, relational integrity, source hashes, mixed party-column layouts, shared cells, year inference and aggregate INES boundaries. Exact executed checks/publication evidence recorded in project-state/session-log.
+- Limitations: 2015 seats use secondary-source IDI; bulk polls not original-release audited or deduplicated; no verified publication cutoff panel; INES historical availability/weights/waves need review. No model trained/selected and no existing forecast/backtest input/output changed.
+
 ## R001 - First audited-sample consensus (October 21, 2026)
 
 - Question: can a tiny, no-training method reproduce form-valid baseline outputs from original-source seat projections?

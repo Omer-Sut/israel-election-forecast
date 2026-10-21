@@ -1,6 +1,18 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (initial historical backtest implemented and run).
+Last updated: October 21, 2026 (six-election research database assembled).
+
+## Latest handoff — database first
+
+The user now explicitly requests a substantial historical dataset before further model selection. The completed collection covers all six 2015–2022 elections: 209 national list outcomes, 75,999 geographic records and 899,195 positive geographic vote cells. Both locality and ballot-box totals reconcile to national party votes for every election. All final seat vectors sum to 120. The 2015 votes use official government data; final seats/names/turnout use IDI's secondary table because the old CEC national page is unavailable.
+
+Broad poll indexes retain 2,171 source rows and 1,197 date-bearing poll/scenario/reference records; 790 are main-table pre-election candidates. These are lower-tier index transcriptions, not audited independent releases. Publication dates remain null; party mappings, duplicates, alternative scenarios and date provenance need review before backtesting. No existing forecast, audited snapshot or pilot score was changed.
+
+INES integration covers six files (2015, combined 2019, 2020, 2021, 2022, auxiliary off-cycle 2025): 1,047 variable records, 8,377 code labels and 8,614 unweighted marginal-frequency rows. Raw respondent data is excluded from the public repo because explicit redistribution terms were not verified. Frequencies suppress counts below five, preserve special codes, and are not population estimates or certified pre-election features.
+
+Run `python scripts/build_database.py` with Python 3.12, no packages/network, to obtain `output/elections.sqlite` plus hashed coverage. Frozen compressed inputs and raw public official/Wikipedia source archives are committed under `data/database/`. Read [historical-database.md](historical-database.md) for schema, examples, rights, coverage and exact audit limits. GitHub Actions now builds a downloadable `historical-election-database` artifact. Local/hosted validation and publication evidence for this branch are recorded below after verification.
+
+Current work starts from clean synchronized main at 7238f4c on `feat/historical-database`. All 23 local tests pass, including seven new database integration checks. Both frozen forecasting reports reproduce (normalized Windows text newlines), documentation links/fences and Git whitespace checks pass. Database inputs/source archives total approximately 12.2 MB; no generated SQLite or raw INES respondent data is committed. Hosted execution/publication is pending at this checkpoint; evidence follows after verification. Next: audit a useful panel of original releases around fixed cutoffs, review election-specific mappings and INES wave/weight/availability metadata, then compare models. The prior two-election pilot below remains a limited reference, not evidence that the bulk database has been evaluated.
 
 ## Goal and constraints
 
@@ -10,7 +22,7 @@ Repository: https://github.com/Omer-Sut/israel-election-forecast
 
 Collaboration access update (October 21): the user authorized adding `IdoRavid` with all permissions. GitHub rejected an `admin` invitation for this personal-account repository. A `write` invitation was sent and verified pending; access awaits IdoRavid's acceptance. Do not claim admin rights or accepted membership. See CONTRIBUTING.md and inspect live GitHub access for later changes. No repository transfer/migration was authorized or performed.
 
-## Implemented
+## Earlier implemented forecasting work (unchanged)
 
 - Preserved and reviewed the original Hebrew PDF and the user-transcribed form. Contract: 14 named-list seat fields plus combined other qualifying parties, total 120, and turnout within [40.00, 100.00] percent inclusive.
 - Recorded the user's accepted current Joint List -> Hadash-Ta'al form mapping as an explicit assumption, preserving historical distinctions. Current Religious Zionism/Zehut uses the Religious Zionism slot with its combined source label retained.
@@ -42,7 +54,7 @@ Kan and several October 20 releases (including i24/Direct Polls and Channel 16) 
 
 Baseline PR #5 was merged; before this research update, main was clean and matched origin/main at ec4396e. Research documentation is published through [PR #6](https://github.com/Omer-Sut/israel-election-forecast/pull/6), branch docs/research-methods-and-user-feedback. Initial research commit fcd50c8 was verified on the remote; [hosted run 39580440662](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39580440662) passed all baseline tests and exact report reproduction. This confirms the existing baseline still reproduces, not predictive validation of any researched candidate. This handoff records that verified evidence; inspect Git/PR state for subsequent commits and merge status.
 
-Earlier research validation passed local links/fences/whitespace and hosted baseline reproduction. Current work uses `feat/historical-backtest`, starting from clean synchronized main at 85fab76. Local 16-test run and initial historical generation passed. The workflow is extended to reproduce both frozen reports; hosted evidence for this change is recorded after verification, not assumed from earlier runs.
+Earlier research validation passed local links/fences/whitespace and hosted baseline reproduction. The prior historical pilot used `feat/historical-backtest`, starting from clean synchronized main at 85fab76. Its 16-test run and initial historical generation passed, and the workflow was extended to reproduce both frozen reports.
 
 Historical implementation `c591c7031d6aebda9a63c38fc4dffabd58ca9d6a` was pushed and verified. [Hosted run 39596526287](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39596526287) passed all 16 tests, byte-for-byte comparison of original baseline and historical reports, and artifact upload, completing at 12:03:15 UTC. This is reproducibility evidence alongside the reported retrospective scores, not proof of a future model ranking. Work is published through [PR #8](https://github.com/Omer-Sut/israel-election-forecast/pull/8); inspect actual Git/PR state for later handoff commits and merge status.
 
@@ -59,7 +71,7 @@ See docs/baseline-method.md, docs/historical-backtest.md, data/README.md, and ex
 ## Next actions
 
 1. Review the initial historical errors and source limitations before selecting a final model. The pilot does not justify tuning many parameters or declaring L1 superior.
-2. If the remaining budget permits, improve historical coverage or extend to six 2015-2022 elections and separately summarize the repeated 2019-2021 period. Preserve identical horizons and whole-election evaluation. Any method tuned against R002 needs separate later evaluation, not a claim that R002 remains an untouched holdout.
+2. Six-election data collection is now assembled; audit publication/lineup/deduplication and freeze a model-ready panel before extending the backtest. Separately summarize the repeated 2019-2021 period. Preserve identical horizons and whole-election evaluation. Any method tuned against R002 needs separate later evaluation, not a claim that R002 remains an untouched holdout.
 3. If pursuing the user's war/turnout idea, build the official series beginning in 1949 and predefine conflict/lag coding before comparison. The inspected CBS table ends in 2021 despite a 1949-2022 title; official 2022 turnout is already available separately. No directional adjustment is justified yet.
 4. Audit omitted current releases/current lineup changes and preserve the original snapshot. Obtain complete operative rules/agreements before implementing vote-share allocation. Consider one justified uncertainty improvement or a small forest challenger only after defining features and validation; no pretrained election-specific checkpoint was verified.
 5. Confirm final team/track, timezone, remaining form validation/precision, and other-qualifiers scoring. Keep updating the method report and preserve final-report time; never submit without explicit authorization.
