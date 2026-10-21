@@ -1,5 +1,13 @@
 # Experiment and effort log
 
+## D002 - CBS geographic context integration (October 21, 2026)
+
+- Question: obtain broad official demographic/socioeconomic profiles linkable to historical locality/ballot results. This is data ingestion and descriptive linkage, not a forecasting experiment. User hands-on effort was not measured; the eight-hour budget is not reset.
+- Inputs: 19 CBS/government source responses archived under `data/cbs-2026-10-21/`; source URLs, response hashes and revision/availability notes in `cbs_sources`. Counts, schema, units and year coverage are in `docs/cbs-demographics.md`.
+- Methods: exact normalized locality-code joins; retain original census geographic records; published city totals before subdivisions, otherwise sum unique total-population reporting rows. Preserve suppression, source vintage, medians and socioeconomic rank scope. Restore zero-party-vote localities when calculating shares. Report population-weighted percentages with measure-specific complete-case denominators.
+- Reproduction: `python scripts/build_database.py`; `python scripts/cbs_report.py`; `python -m unittest discover -s tests -v`. Frozen combined coverage/example output in `reports/cbs-2026-10-21/`; earlier reports remain untouched. All 31 local checks passed before publication; hosted evidence is recorded after actual verification.
+- Result: broad comparisons work, including 2018 context / April 2019 voting and native 2022 district medians. Limits: no individual demographics, neighborhood ballot mapping, exact male mean age, verified historical source availability or age 2015–2017. No model selection, training, forecast change or accuracy claim.
+
 ## D001 - Historical database assembly (October 21, 2026)
 
 - User requested data before model comparison. This is ingestion/validation, not a forecasting experiment or new accuracy claim. Agent work began with recorded research at 12:19:44 UTC; user hands-on effort is not inferred from runtime.

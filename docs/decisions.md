@@ -22,6 +22,9 @@
 
 ## Provisional choices
 
+- User requested broad CBS age/sex/socioeconomic statistics linkable to election locations across years. Link by locality code, preserve both demographic reference year and election date, and retain actual geographic resolution. Do not infer individuals' voting choices or a precinct catchment from a polling building's location.
+- Keep CBS source availability uncertified until release/revision dates are verified; a 2022 census reference date is not a 2022 publication date. Preserve suppression as missing, use aligned population/vote denominators, retain socioeconomic rank scope, and do not backcast/interpolate missing years automatically.
+
 - User explicitly expanded data collection to all six elections from the 20th Knesset (2015) through 2022, with as many accessible campaign polls as feasible and easy CEC/INES tabular integration, **before further model selection**.
 - Use a portable generated SQLite database with versioned compressed inputs/source archives and GitHub Actions downloads. This avoids a machine-specific dependency or shared mutable binary; ordinary offline rebuild/query uses Python's standard library. Optional pandas/lxml/requests are confined to collection.
 - Retain bulk poll indexes as lower-tier transcriptions with unknown publication dates and unresolved party identities; do not silently replace the audited pilot panel. Raw INES respondent files are not republished without verified rights; integrate dictionaries and unweighted marginal aggregates first.

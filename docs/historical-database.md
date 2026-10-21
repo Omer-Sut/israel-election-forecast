@@ -2,6 +2,8 @@
 
 Snapshot: October 21, 2026. User requested a substantial dataset first, covering every election back to the 20th Knesset (2015), before further model selection. This collection does not change or retrain the existing baseline or its audited pilot backtest.
 
+Extension: [CBS geographic demographics](cbs-demographics.md) now adds eight tables and four views to the same SQLite database: age/sex profiles for 2018–2022, socioeconomic indexes for 2015/2017/2019/2021, census geographic measures and annual locality crosswalks. The sections below describe the original election/poll/INES tables. The latest combined coverage manifest is `reports/cbs-2026-10-21/database-coverage.json`; the D001 manifest remains a historical record. No new forecast model or certified historical feature panel is implied.
+
 ## Coverage
 
 | Knesset | Election | All national lists | Main-table pre-election poll candidates | Locality records | Ballot-box records |

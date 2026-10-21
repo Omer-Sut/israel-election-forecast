@@ -12,6 +12,7 @@ Build a reproducible model to forecast the results of Israel's 26th Knesset elec
 6. Use the [submission contract](docs/submission-contract.md) and [field configuration](config/submission-fields.json) for forecast outputs.
 7. Read the [user feedback and research agenda](docs/research-agenda.md) and [forecasting research review](docs/forecasting-research.md) before extending or selecting a model.
 8. Start data exploration with the [2015–2022 historical database](docs/historical-database.md), including official national/geographic results, bulk poll indexes and INES dictionaries/aggregates.
+9. Use the [CBS demographic extension](docs/cbs-demographics.md) for age/sex, socioeconomic and geographic context, with explicit reference years and historical-availability limits.
 
 The original Hebrew guidelines are preserved unchanged as [the source PDF](תחרות%20תחזית%20בחירות%20לכנסת%20ה26.pdf). They are authoritative if the English summary is ambiguous.
 
@@ -50,6 +51,7 @@ python -m unittest discover -s tests -v
 python scripts/baseline.py --out-dir output/baseline
 python scripts/backtest.py --out-dir output/backtest
 python scripts/build_database.py
+python scripts/cbs_report.py
 ```
 
 For online work, use the repository's [Actions tab](https://github.com/Omer-Sut/israel-election-forecast/actions): `Reproduce preliminary baseline` -> `Run workflow`. The hosted CPU job tests the implementation, reproduces the committed outputs, and provides a summary/downloadable artifact. Check its run status before relying on successful execution. Inputs, code, and reference outputs are committed; no required file exists only on a contributor's machine. A Colab notebook is deferred to avoid duplicating the execution surface.
@@ -69,6 +71,7 @@ For online work, use the repository's [Actions tab](https://github.com/Omer-Sut/
 | `docs/baseline-method.md` | Implemented methods, reproduction, diagnostics, and limitations |
 | `docs/historical-backtest.md` | Implemented 2021/2022 pilot, audited historical sources, information boundaries and results |
 | `docs/historical-database.md` | Six-election database, schema, sources, access, coverage and audit limitations |
+| `docs/cbs-demographics.md` | CBS age/sex/socioeconomic tables, locality joins, descriptive examples and temporal limits |
 | `docs/research-agenda.md` | User feedback, threshold questions, historical validation and war/turnout proposals |
 | `docs/forecasting-research.md` | Primary-source forecasting examples, additional data, applicability and limitations |
 | `docs/project-constraints.md` | User requirements, eight-hour budget, and scope limits |

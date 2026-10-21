@@ -1,0 +1,110 @@
+{
+  "purpose": "Descriptive geographic association only. It does not identify how men, women or age groups voted.",
+  "linkage_coverage": [
+    {
+      "locality_records": 1196,
+      "matched_localities": 1151,
+      "matched_valid_votes": 3964921,
+      "knesset": 20,
+      "census_year": 2022,
+      "comparison": "retrospective code-link coverage, not pre-election feature eligibility",
+      "national_valid_votes": 4210884,
+      "matched_share_of_national_valid_percent": 94.158875,
+      "special_unlocated_valid_votes": 232681,
+      "matched_share_of_located_valid_percent": 99.666131
+    },
+    {
+      "locality_records": 1214,
+      "matched_localities": 1169,
+      "matched_valid_votes": 4059162,
+      "knesset": 21,
+      "census_year": 2022,
+      "comparison": "retrospective code-link coverage, not pre-election feature eligibility",
+      "national_valid_votes": 4309270,
+      "matched_share_of_national_valid_percent": 94.196047,
+      "special_unlocated_valid_votes": 238822,
+      "matched_share_of_located_valid_percent": 99.722733
+    },
+    {
+      "locality_records": 1214,
+      "matched_localities": 1169,
+      "matched_valid_votes": 4139524,
+      "knesset": 22,
+      "census_year": 2022,
+      "comparison": "retrospective code-link coverage, not pre-election feature eligibility",
+      "national_valid_votes": 4436806,
+      "matched_share_of_national_valid_percent": 93.299639,
+      "special_unlocated_valid_votes": 280216,
+      "matched_share_of_located_valid_percent": 99.589423
+    },
+    {
+      "locality_records": 1214,
+      "matched_localities": 1169,
+      "matched_valid_votes": 4244241,
+      "knesset": 23,
+      "census_year": 2022,
+      "comparison": "retrospective code-link coverage, not pre-election feature eligibility",
+      "national_valid_votes": 4590062,
+      "matched_share_of_national_valid_percent": 92.465875,
+      "special_unlocated_valid_votes": 327702,
+      "matched_share_of_located_valid_percent": 99.574907
+    },
+    {
+      "locality_records": 1215,
+      "matched_localities": 1171,
+      "matched_valid_votes": 3974413,
+      "knesset": 24,
+      "census_year": 2022,
+      "comparison": "retrospective code-link coverage, not pre-election feature eligibility",
+      "national_valid_votes": 4410052,
+      "matched_share_of_national_valid_percent": 90.121681,
+      "special_unlocated_valid_votes": 421619,
+      "matched_share_of_located_valid_percent": 99.648484
+    },
+    {
+      "locality_records": 1216,
+      "matched_localities": 1171,
+      "matched_valid_votes": 4284978,
+      "knesset": 25,
+      "census_year": 2022,
+      "comparison": "retrospective code-link coverage, not pre-election feature eligibility",
+      "national_valid_votes": 4764742,
+      "matched_share_of_national_valid_percent": 89.930955,
+      "special_unlocated_valid_votes": 458714,
+      "matched_share_of_located_valid_percent": 99.51115
+    }
+  ],
+  "central_district_2018_april2019": {
+    "demographic_year": 2018,
+    "election_date": "2019-04-09",
+    "district_code": "4",
+    "population_in_matched_localities": 2192404.0,
+    "male_share": {
+      "percent": 49.501006,
+      "population_with_measure": 2050825.0,
+      "localities_with_measure": 234
+    },
+    "age65_plus_share": {
+      "percent": 9.928606,
+      "population_with_measure": 959047.0,
+      "localities_with_measure": 217
+    },
+    "likud": {
+      "localities": 235,
+      "party_votes": 319095,
+      "valid_votes": 1121237,
+      "party_vote_percent": 28.459193
+    },
+    "availability": "Release availability not certified; not a leakage-safe backtest feature set.",
+    "missingness": "Each demographic measure uses its own complete-measure population denominator. The vote share uses all matched localities including zero-party-vote records."
+  },
+  "central_district_census2022": {
+    "reference_date": "2022-04",
+    "source_id": "census-broad.xlsx",
+    "population": 2319540,
+    "median_age": 33,
+    "median_male_age": 32,
+    "median_female_age": 35,
+    "note": "Published district medians, not averages of locality medians; source workbook under 2025 publication path."
+  }
+}
