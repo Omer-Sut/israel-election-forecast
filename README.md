@@ -8,6 +8,7 @@ Build a reproducible model to forecast the results of Israel's 26th Knesset elec
 2. Read [the current project state](docs/project-state.md) before starting work.
 3. Follow [the collaboration guide](CONTRIBUTING.md).
 4. Agents should also read [AGENTS.md](AGENTS.md).
+5. Follow the [eight-hour plan](docs/project-plan.md) and [user constraints](docs/project-constraints.md) before choosing methods.
 
 The original Hebrew guidelines are preserved unchanged as [the source PDF](תחרות%20תחזית%20בחירות%20לכנסת%20ה26.pdf). They are authoritative if the English summary is ambiguous.
 
@@ -23,7 +24,7 @@ Lower is better. Turnout accuracy breaks ties. Final official results, including
 
 ## Status
 
-Project setup and requirements review only. No data has been collected, no model has been selected, and no forecast has been produced. See `docs/project-state.md` for the latest handoff, blockers, and next actions.
+Requirements review, initial source inspection, and an eight-hour execution plan are documented. Prefer lightweight numerical methods, one baseline and one justified improvement, online reproduction, and documentation during experiments. No modeling dataset has been collected, no final method has been selected, and no forecast has been produced. See `docs/project-state.md` for the latest handoff and next actions.
 
 ## Repository and setup
 
@@ -41,6 +42,8 @@ Authenticate with `gh auth login` and configure your own Git author identity bef
 
 No programming language, dependency set, or runtime version has been selected yet. The QGIS Python installation used to read the PDF is a local inspection tool, not a project dependency.
 
+Online work is the priority: GitHub holds durable project state; a hosted CPU notebook is proposed for the first implementation, with optional GitHub Actions automation later. These execution surfaces are not configured yet. Each run should work from versioned inputs/code and save its results to a shared durable location.
+
 ## Project records
 
 | File | Purpose |
@@ -50,6 +53,10 @@ No programming language, dependency set, or runtime version has been selected ye
 | `docs/decisions.md` | Durable decisions and unresolved choices |
 | `docs/session-log.md` | Concise chronological history |
 | `docs/data-sources.md` | Source inventory and provenance conventions |
+| `docs/project-constraints.md` | User requirements, eight-hour budget, and scope limits |
+| `docs/project-plan.md` | Task/data/method stages, timeboxes, validation, and stopping rules |
+| `docs/experiment-log.md` | Run, effort, evidence, and decision records |
+| `docs/method-report.md` | Continuously maintained scaffold for the final explanation |
 | `CONTRIBUTING.md` | Branch, review, synchronization, and handoff workflow |
 | `AGENTS.md` | Instructions for future coding agents |
 

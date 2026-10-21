@@ -1,5 +1,15 @@
 # Session log
 
+## 2026-10-21 - Eight-hour constraints and forecasting plan
+
+- User set six constraints: very limited effort, evidence-based concentration on plausible outcomes, lightweight numerical methods/pretrained options, explained use of historical/current data, online cross-device work, and ongoing report documentation. Clarified approximate total hands-on budget: eight hours.
+- Added `project-constraints.md`, `project-plan.md`, `experiment-log.md`, and `method-report.md`; updated README, AGENTS, collaboration guidance, decisions, state, and source inventory.
+- Proposed stages: exact task contract, minimum data, baseline plus one numerical improvement, validation, online reproduction, and submission preparation. No model/runtime selected or forecast generated.
+- Reviewed supplied links plus official 2021/2022 results and original current poll releases. Found simulated K26 data in Kolot Nodedim and an unresolved aggregator/original-release mismatch. Official current list/rule pages and form had retrieval restrictions; those contract details remain open.
+- Computed `C(129,9)=20,492,404,684,400` as an illustrative ten-list nonnegative seat-vector count. Plausible-outcome sampling/optimization is recommended rather than exhaustive enumeration; intuitive low-probability exclusions remain assumptions.
+- No historical input dataset has been ingested or validation run. Earlier effort was not measured; future runs must record effort and preserve report preparation time.
+- Documentation validation: all 12 Markdown files passed local-link/code-fence checks, Git whitespace checks passed, and proposed timeboxes sum to eight hours. Publication uses a topic branch and pull request; actual model/runtime validation remains future work.
+
 ## 2026-10-21 - GitHub repository published
 
 - Approved outside-sandbox commands verified the existing login as Omer-Sut; no repeated login was needed.
