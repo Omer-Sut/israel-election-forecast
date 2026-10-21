@@ -1,5 +1,15 @@
 # Session log
 
+## 2026-10-21 - Six-election research database (D001)
+
+- User requested all election outcomes and broad campaign-poll coverage back through 2015, plus accessible CEC/INES tables, before model selection. Started clean at main 7238f4c on `feat/historical-database`.
+- Collected official national pages for 2019–2022 and government CEC locality/ballot data for all six elections. Direct government downloads returned 403; public CKAN datastore API worked. Old 2015 CEC national page unavailable: IDI supplies final names/seats/turnout; votes match official geography data exactly. National and every geographic row's control totals pass reconciliation.
+- Preserved raw official/Wikipedia source archives and canonical compressed input tables. Poll parsing retains row/cell origins, citation links, source dates, mixed units and scenarios; fixed rowspan header overwrite, shared-cell duplication, Blue & White preceding Likud in 2020, 2018 year inference and event-row misclassification. Bulk publication dates remain unknown and audit status remains index transcription.
+- Read six INES Stata files without categorical coercion (duplicate labels exist). Integrated study/variable/code dictionaries and unweighted low-cardinality marginal counts; no raw respondent rows, weights/model assumptions or historical availability claims added.
+- Added an offline standard-library SQLite builder, schema/views, coverage/hashes, seven ingestion tests and a hosted database artifact. Full coverage and limitations: `docs/historical-database.md`. Existing baseline/pilot scripts, snapshots and reference outputs remain unchanged. Validation/publication evidence follows after actual verification.
+- All 23 local tests passed in 13.4 seconds; unchanged baseline/backtest outputs reproduced after Windows newline normalization. Documentation links/fences and Git whitespace checks passed. Committed inputs/archive size is approximately 12.2 MB; generated SQLite and raw respondent data are excluded. Hosted evidence follows after publication.
+- Published implementation f81a22c and PR #9. Hosted run https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39602185506 passed all 23 tests, both exact forecast report comparisons, offline database build, frozen coverage/hash comparison and artifact upload, completing at 12:46:16 UTC. Verified unexpired `historical-election-database` artifact ID 12346532323 (19,879,014 compressed bytes). This documentation handoff records the checked implementation; inspect live Git/PR state for later documentation commits/merge. Agent elapsed time to that run was 26m32s, not user hands-on time.
+
 ## 2026-10-21 - Historical backtest pilot (R002)
 
 - User authorized proceeding with the historical backtest. Started from clean synchronized main at 85fab76 on feat/historical-backtest; first recorded research timestamp 11:47:56 UTC. User hands-on effort is not inferred from agent runtime.

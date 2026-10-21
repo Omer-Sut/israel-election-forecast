@@ -4,6 +4,8 @@
 
 Read `README.md`, `docs/competition-brief.md`, `docs/project-state.md`, and `docs/decisions.md`. Consult `docs/session-log.md` for history and `docs/data-sources.md` before collecting data. The original Hebrew PDF remains the requirements source of truth.
 
+Before querying or extending the six-election database, read `docs/historical-database.md`. Bulk poll-index rows have unverified publication dates and unresolved duplication/lineups; they must not silently replace audited inputs. INES aggregate tables are unweighted, and historical wave/release availability is not yet verified. Keep generated SQLite files out of Git; rebuild from versioned inputs or use the hosted artifact.
+
 Before extending/selecting a model, also read `docs/research-agenda.md` and `docs/forecasting-research.md`. Preserve the user's requested historical backtests, war/turnout hypothesis, and interest in forests/pretrained alternatives as proposals until evaluated; the first baseline's choices are not a user-selected final method.
 
 The initial historical backtest is now implemented: read `docs/historical-backtest.md`. Reproduce with `python scripts/backtest.py --out-dir output/backtest`. Its two elections/two horizons are not four independent observations or an untouched holdout after subsequent tuning. Preserve historical identities; never apply current form aliases to past elections. Both frozen report directories are checked by CI; regenerate the historical reference deliberately when its consumed inputs/code change, keeping original 2026 baseline inputs/code/results unchanged unless explicitly extending them.

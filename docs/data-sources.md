@@ -1,5 +1,7 @@
 # Data sources and provenance
 
+Database update (October 21, 2026): the [six-election database guide](historical-database.md) documents the actual 2015–2022 national/geographic results, bulk poll indexes and INES dictionaries/aggregates now ingested. Exact source URLs, response hashes and rights notes are in `data/database/sources.jsonl.gz`; source archives and canonical inputs rebuild offline. Broad index transcription is a separate audit tier from the pilot below. Model-ready publication dates, mappings, duplicate resolution and INES historical availability remain unverified.
+
 Initial web review and first data collection: **October 21, 2026**. The first [audited input snapshot](../data/README.md) now stores six poll records, five active groups, and a partial official 2022 outcome table. The sections below preserve the broader source inventory and its limitations; not every reviewed source has been ingested.
 
 The subsequent [forecasting research review](forecasting-research.md) records additional official/research sources, historical poll discovery, retrieval limitations and candidate uses. The [research agenda](research-agenda.md) distinguishes the user's feedback from proposed validation and turnout experiments. Those sources have not been ingested as model inputs.
