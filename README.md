@@ -25,7 +25,7 @@ Lower is better. Turnout accuracy breaks ties. Final official results, including
 
 ## Status
 
-Requirements review, initial source inspection, and an eight-hour execution plan are documented. Prefer lightweight numerical methods, one baseline and one justified improvement, online reproduction, and documentation during experiments. No modeling dataset has been collected, no final method has been selected, and no forecast has been produced. See `docs/project-state.md` for the latest handoff and next actions.
+The first preliminary baseline is implemented from six audited poll records (five active polling groups). It compares a rounded mean with an absolute-disagreement consensus and uses official 2022 turnout as a persistence reference. These are **not submission-ready or historically validated forecasts**. See the [results](reports/baseline-2026-10-21/summary.md), [implemented method](docs/baseline-method.md), and `docs/project-state.md`.
 
 ## Repository and setup
 
@@ -41,9 +41,14 @@ git switch -c work/short-description
 
 Authenticate with `gh auth login` and configure your own Git author identity before contributing. See [the collaboration guide](CONTRIBUTING.md) for other computers and collaborators. The publication script is the original bootstrap helper; use normal commits, pushes, and pull requests for ongoing work.
 
-No programming language, dependency set, or runtime version has been selected yet. The QGIS Python installation used to read the PDF is a local inspection tool, not a project dependency.
+Reference runtime: **Python 3.12, standard library only**. No package installation or model training is required:
 
-Online work is the priority: GitHub holds durable project state; a hosted CPU notebook is proposed for the first implementation, with optional GitHub Actions automation later. These execution surfaces are not configured yet. Each run should work from versioned inputs/code and save its results to a shared durable location.
+```sh
+python -m unittest discover -s tests -v
+python scripts/baseline.py --out-dir output/baseline
+```
+
+For online work, use the repository's [Actions tab](https://github.com/Omer-Sut/israel-election-forecast/actions): `Reproduce preliminary baseline` -> `Run workflow`. The hosted CPU job tests the implementation, reproduces the committed outputs, and provides a summary/downloadable artifact. Check its run status before relying on successful execution. Inputs, code, and reference outputs are committed; no required file exists only on a contributor's machine. A Colab notebook is deferred to avoid duplicating the execution surface.
 
 ## Project records
 
@@ -56,6 +61,8 @@ Online work is the priority: GitHub holds durable project state; a hosted CPU no
 | `docs/decisions.md` | Durable decisions and unresolved choices |
 | `docs/session-log.md` | Concise chronological history |
 | `docs/data-sources.md` | Source inventory and provenance conventions |
+| `data/README.md` | Actual first-snapshot audit, coverage gaps, and update procedure |
+| `docs/baseline-method.md` | Implemented methods, reproduction, diagnostics, and limitations |
 | `docs/project-constraints.md` | User requirements, eight-hour budget, and scope limits |
 | `docs/project-plan.md` | Task/data/method stages, timeboxes, validation, and stopping rules |
 | `docs/experiment-log.md` | Run, effort, evidence, and decision records |

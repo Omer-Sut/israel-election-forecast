@@ -50,7 +50,7 @@ Ranking is based solely on prediction accuracy. The committee can disqualify a s
 
 ## Resources listed in the PDF (page 2)
 
-These URLs are transcribed from the source. An initial October 21 review, source explanations, access limitations, and data-quality findings are recorded in [data-sources.md](data-sources.md); they are not yet audited input datasets.
+These URLs are transcribed from the source. The October 21 review, source explanations, access limitations, and data-quality findings are recorded in [data-sources.md](data-sources.md). A small audited subset is now preserved in [the input snapshot](../data/README.md); not every reviewed source has been ingested.
 
 | Resource | Link |
 | --- | --- |

@@ -1,0 +1,10 @@
+{
+  "as_of_date": "2026-10-21",
+  "poll_window_days": 14,
+  "poll_snapshot": "data/snapshots/polls-2026-10-21.json",
+  "turnout_reference": "data/snapshots/results-2022.json",
+  "turnout_method": "last_official_election_persistence",
+  "selection": "latest_audited_publication_per_pollster_group",
+  "weights": "equal_per_selected_group",
+  "status": "preliminary_baselines_not_submission_ready"
+}
