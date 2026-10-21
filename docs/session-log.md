@@ -1,5 +1,10 @@
 # Session log
 
+## 2026-10-21 - IdoRavid collaborator invitation
+
+- User explicitly authorized adding `IdoRavid` with all repository permissions. Verified the GitHub account and owner access. GitHub rejected `permission=admin` with HTTP 422 (cannot assign admin); a subsequent `permission=push` invitation succeeded and the invitation API confirmed `write`, pending acceptance.
+- Updated collaboration guidance and handoff to distinguish the invitation from effective access. No ownership transfer, organization migration, credential sharing, or separate personal message was performed. Numerical code/data/results are unchanged.
+
 ## 2026-10-21 - User review and forecasting research
 
 - Explained the first results as equally weighted poll summaries (rounded mean and empirical L1 consensus), not a trained predictor; turnout repeats official 2022's 70.63%. Reclassified agent-selected window/weight/method choices as provisional, not user-selected final methods. In-sample disagreement and correctness tests are not historical forecasting evidence.

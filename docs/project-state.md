@@ -8,6 +8,8 @@ Forecast the 26th Knesset competition outputs in English, using approximately ei
 
 Repository: https://github.com/Omer-Sut/israel-election-forecast
 
+Collaboration access update (October 21): the user authorized adding `IdoRavid` with all permissions. GitHub rejected an `admin` invitation for this personal-account repository. A `write` invitation was sent and verified pending; access awaits IdoRavid's acceptance. Do not claim admin rights or accepted membership. See CONTRIBUTING.md and inspect live GitHub access for later changes. No repository transfer/migration was authorized or performed.
+
 ## Implemented
 
 - Preserved and reviewed the original Hebrew PDF and the user-transcribed form. Contract: 14 named-list seat fields plus combined other qualifying parties, total 120, and turnout within [40.00, 100.00] percent inclusive.

@@ -52,7 +52,9 @@ Git does not automatically synchronize edits. A change is available on another c
 
 ## Other people
 
-A public repository permits reading and cloning. Direct write access requires the owner to invite collaborators through GitHub repository settings. Otherwise contributors can fork the repository and open pull requests. No collaborators have been invited yet, and no personal messages have been sent.
+A public repository permits reading and cloning. Direct write access requires an accepted collaborator invitation. Otherwise contributors can fork the repository and open pull requests.
+
+On October 21, 2026, the owner authorized inviting `IdoRavid` with all permissions. GitHub rejected `admin` for this personal-account repository; a `write` collaborator invitation was sent and verified pending. IdoRavid must accept it before write access takes effect. No ownership transfer or organization migration was performed. Check live GitHub access/invitation state before assuming acceptance. The existing branch/review workflow applies to collaborators too.
 
 ## Data and outputs
 
