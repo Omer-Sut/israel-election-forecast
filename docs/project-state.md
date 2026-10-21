@@ -1,8 +1,16 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (CBS geographic demographic extension assembled).
+Last updated: October 21, 2026 (poll-centered modeling direction recorded).
 
-## Latest handoff — CBS area context (D002)
+## Latest direction — refine recent polls, defer locality forecasting
+
+The user wants recent polls to anchor the forecast, with historical/auxiliary data used to polish the result conservatively. They believe current mean/L1 forecasts may already be close; this remains an intuition about an unobserved future outcome. Locality forecasting is deferred as a possible future direction; preserve the collected CBS/geographic tables, without prioritizing a bottom-up model.
+
+Read [poll-centered-modeling.md](poll-centered-modeling.md) before implementing models. It records the user's five points, explains dynamic polls, and proposes benchmark-plus-correction, shrinkage, per-party buffers and joint adjustment budgets. Agreement with current polls is an auxiliary consistency metric; independent forward-poll evaluation requires withholding those releases and any anchor using them. Historical election error remains the main competition evidence. Poll scatter, predictive intervals and chosen hard search limits are distinct; shared polling error, correlated parties, the total of 120 and threshold discontinuities need explicit handling. No numerical buffer, confidence level, model choice, new forecast or uncertainty estimate is implemented.
+
+Documentation-only work starts on `docs/poll-centered-modeling` from clean main bc829d9. Next active work: audit the polling panel/publication dates, select a benchmark/calibration policy on chronological development data, then test a small conservative correction or dynamic update. RF/XGBoost/GLM remain candidates; locality modeling is a backlog item. Documentation/publication checks are recorded after verification; the 31-test implementation evidence below belongs to D002, not a new model experiment.
+
+## Previous handoff — CBS area context (D002)
 
 The user requested broad age/sex/socioeconomic data from the CBS census site that can be associated with ballot locations across years. The dataset is extended in the same SQLite file with eight tables and four views. Sources: CBS official census downloads, annual population workbooks/GIS ZIP, socioeconomic tables/official linked GIS map, and the government CBS locality catalog. Full [CBS integration guide](cbs-demographics.md) covers schema, sources, units, joins, coverage, dates, missingness and examples.
 

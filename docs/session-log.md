@@ -1,5 +1,12 @@
 # Session log
 
+## 2026-10-21 - Poll-centered modeling feedback
+
+- User wants recent 2026 polls to represent the main forecast picture, with modest refinements from historical/auxiliary data. They believe existing mean/L1 outputs may be close; recorded as intuition, not future accuracy evidence. Locality forecasting is deferred as a possible future direction; data is retained.
+- Recorded the proposed recent-poll agreement metric and distinguished it from election accuracy and genuinely withheld future-poll forecasting. Copying the input benchmark cannot demonstrate an improvement; publication/syndication/anchor leakage must be excluded for independent poll evaluation.
+- Added a dynamic model explanation and proposed shrinkage, party-specific/asymmetric buffers, a total L1 adjustment budget and joint predictive scenarios. No width, hard cap, confidence level, trained model, forecast or interval is selected/implemented. Threshold discontinuities and common polling errors remain material.
+- Added `docs/poll-centered-modeling.md` and synchronized decisions, constraints, research agenda and handoff. Work is documentation only on `docs/poll-centered-modeling` from clean main bc829d9; validation/publication evidence follows after verification.
+
 ## 2026-10-21 - CBS broad geographic context (D002)
 
 - User requested age, sex and socioeconomic statistics linked to ballot locations across years, with regional/locality summaries rather than individual information. Started on `feat/cbs-demographics` from clean merged main c53d23f.
