@@ -1,6 +1,6 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (user review, forecasting literature and additional-data research).
+Last updated: October 21, 2026 (initial historical backtest implemented and run).
 
 ## Goal and constraints
 
@@ -19,12 +19,18 @@ Collaboration access update (October 21): the user authorized adding `IdoRavid` 
 - Stored partial official 2022 results with election-specific IDs. Turnout persistence reference is 70.63%; current self-reported voting intention remains a separate diagnostic.
 - Implemented standard-library Python 3.12: latest-group selection, explicit mappings, rounded-mean reference, empirical L1 consensus via a small dynamic program, output validation, hashes, and omission sensitivity.
 - Generated durable preliminary reports at reports/baseline-2026-10-21/. Both outputs pass form arithmetic. They are not final, historically validated, or proven electorally attainable forecasts.
-- Nine meaningful software checks pass locally. No historical poll-to-result backtest or probability calibration has run.
+- Added 12 original-source-audited historical poll releases, three groups per election and horizon, plus official 2021/2022 targets and earlier-election turnout references. Historical list identities remain separate; a documented N12 National Unity residual=13 and unknown metadata are preserved.
+- Implemented `scripts/backtest.py` using the unchanged baseline functions, 14-day window, six-day and day-before cutoffs. Predictions are generated before targets are loaded. Per-list errors, source selection/exclusions and input/code hashes are in `reports/backtest-2026-10-21/`.
+- Sixteen meaningful software checks pass locally, including seven new tests for time boundaries, historical identity, target separation and scoring. A retrospective two-election backtest has run; probability calibration has not.
 - Configured and verified a small GitHub Actions CPU workflow: all tests and byte-for-byte report reproduction passed in hosted run 39572969093 for implementation commit aee2f11. Run: https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39572969093 . A notebook is deferred to avoid duplicate setup.
 
 ## Important results and limits
 
-The user requested an explanation of the autonomous baseline and then asked to preserve feedback, research established forecasting approaches, and identify useful non-headline-poll data. Read [research-agenda.md](research-agenda.md) for the full feedback, exact window/omission clarifications, proposed historical range and war/turnout design; read [forecasting-research.md](forecasting-research.md) for primary-source examples (Spain, US, UK, India/random forests), TabPFN caveats, additional data and rule evidence. These are research/proposals, not new implemented models. Existing configurations, poll snapshots and forecast outputs are unchanged. No historical backtest or war-effect calculation has run.
+The user requested an explanation of the autonomous baseline, then documentation/research, and subsequently authorized the historical backtest. Read [research-agenda.md](research-agenda.md) for feedback and the broader agenda, [forecasting-research.md](forecasting-research.md) for the literature/data inventory, and [historical-backtest.md](historical-backtest.md) for the newly executed pilot. The existing 2026 configuration, poll snapshot, baseline code and numerical forecasts remain unchanged. No alternative model or war-effect calculation has run.
+
+Historical results (total absolute seat error): at T-6, 2021 rounded mean=24/L1=22 and 2022=12/12; at T-1, 2021=20/20 and 2022=12/12. Equal-election means are 18/17 at T-6 and 16/16 at T-1. Turnout persistence misses by 4.08 pp in 2021 and 3.19 pp in 2022. Both seat methods falsely predict Meretz representation in 2022 and materially miss Blue and White/New Hope in 2021. Two elections and a convenience source panel do not establish a final ranking; the four cutoffs are not four independent elections.
+
+Known historical publication/update dates are enforced; separately authenticated historical archive copies were not obtained. This is a retrospective pilot, not a certified reconstruction of every historical information set. Three-group coverage differs by election and omits some known releases. The repeated-election-period sensitivity needs more elections; only 2021 currently represents 2019-2021.
 
 Both PDF pages were rechecked: the target is interpreted as final allocated seats after threshold exclusion, using the stated final official outcome. Readable official 2022 outcomes corroborate this. Official-domain indexed text supports 3.25% of valid votes, and Knesset research notes a theoretical three-seat result rather than a universal four-seat minimum. Full operative 2026 rules/agreements remain unverified because direct official rule retrieval was blocked; no allocator has been built.
 
@@ -36,19 +42,22 @@ Kan and several October 20 releases (including i24/Direct Polls and Channel 16) 
 
 Baseline PR #5 was merged; before this research update, main was clean and matched origin/main at ec4396e. Research documentation is published through [PR #6](https://github.com/Omer-Sut/israel-election-forecast/pull/6), branch docs/research-methods-and-user-feedback. Initial research commit fcd50c8 was verified on the remote; [hosted run 39580440662](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39580440662) passed all baseline tests and exact report reproduction. This confirms the existing baseline still reproduces, not predictive validation of any researched candidate. This handoff records that verified evidence; inspect Git/PR state for subsequent commits and merge status.
 
-Research validation: relative local-file links and code-fence balance passed across 16 Markdown files; Git whitespace checks passed. Reviewed changes are documentation only; executable code, configurations, data snapshots and forecast reports are unchanged. No new predictive tests were claimed or run for this research.
+Earlier research validation passed local links/fences/whitespace and hosted baseline reproduction. Current work uses `feat/historical-backtest`, starting from clean synchronized main at 85fab76. Local 16-test run and initial historical generation passed. The workflow is extended to reproduce both frozen reports; hosted evidence for this change is recorded after verification, not assumed from earlier runs.
+
+Local historical reproduction is byte-identical. The unchanged baseline matches after newline normalization on Windows; its legacy writer's CRLF behavior was not changed. New historical text uses LF for portable hashes. Documentation checks passed across 17 Markdown files and the method draft remains 286 words; Git whitespace checks passed.
 
 Run from a fresh Python 3.12 session:
 
     python -m unittest discover -s tests -v
     python scripts/baseline.py --out-dir output/baseline
+    python scripts/backtest.py --out-dir output/backtest
 
-See docs/baseline-method.md, data/README.md, and experiment-log.md (R001). Inputs and code hashes are included in generated baseline.json. Workflow logs record the executed Git revision.
+See docs/baseline-method.md, docs/historical-backtest.md, data/README.md, and experiment-log.md (R001/R002). Input/code hashes are included in generated JSON; workflow logs record the executed Git revision.
 
 ## Next actions
 
-1. Discuss the documented input tables and candidate methods before selecting a final model. Baseline window/weights remain unvalidated implementation choices, now explicitly classified as provisional in decisions.md.
-2. Assemble 2021/2022 pre-election polls plus official targets for an initial historical comparison. An original March 19, 2021 Channel 13 poll was located, not ingested. If time permits, extend to six 2015-2022 elections and separately summarize the repeated 2019-2021 period. Use time-respecting cutoffs and whole-election evaluation.
+1. Review the initial historical errors and source limitations before selecting a final model. The pilot does not justify tuning many parameters or declaring L1 superior.
+2. If the remaining budget permits, improve historical coverage or extend to six 2015-2022 elections and separately summarize the repeated 2019-2021 period. Preserve identical horizons and whole-election evaluation. Any method tuned against R002 needs separate later evaluation, not a claim that R002 remains an untouched holdout.
 3. If pursuing the user's war/turnout idea, build the official series beginning in 1949 and predefine conflict/lag coding before comparison. The inspected CBS table ends in 2021 despite a 1949-2022 title; official 2022 turnout is already available separately. No directional adjustment is justified yet.
 4. Audit omitted current releases/current lineup changes and preserve the original snapshot. Obtain complete operative rules/agreements before implementing vote-share allocation. Consider one justified uncertainty improvement or a small forest challenger only after defining features and validation; no pretrained election-specific checkpoint was verified.
 5. Confirm final team/track, timezone, remaining form validation/precision, and other-qualifiers scoring. Keep updating the method report and preserve final-report time; never submit without explicit authorization.

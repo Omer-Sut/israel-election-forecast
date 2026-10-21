@@ -1,0 +1,295 @@
+{
+  "snapshot_id": "historical-polls-2021-2026-10-21-a",
+  "election_id": "knesset_24_2021",
+  "election_date": "2021-03-23",
+  "review_started_at_utc": "2026-10-21T11:47:56Z",
+  "retrieved_on": "2026-10-21",
+  "coverage": "Three polling groups per election, two releases per group; original-source convenience panel, not all historical polls or all releases from each group.",
+  "rights_note": "Factual numerical transcriptions with attribution; publisher prose and graphics not redistributed or relicensed.",
+  "zero_seat_policy": "Complete audited allocations sum to 120. Unreported modeled lists have zero allocated seats, not zero support. Percentages are separate and unused.",
+  "historical_vintage_limit": "Publisher dates and known updates audited; authenticated as-of archive versions not acquired. Retrospective pilot, not a certified real-time reconstruction.",
+  "lists": [
+    {
+      "id": "blue_and_white_2021",
+      "label_en": "Blue and White",
+      "label_he": "כחול לבן"
+    },
+    {
+      "id": "joint_list_2021",
+      "label_en": "Joint List (Hadash, Taal, Balad)",
+      "label_he": "הרשימה המשותפת"
+    },
+    {
+      "id": "labor_2021",
+      "label_en": "Labor",
+      "label_he": "העבודה"
+    },
+    {
+      "id": "likud_2021",
+      "label_en": "Likud",
+      "label_he": "הליכוד"
+    },
+    {
+      "id": "meretz_2021",
+      "label_en": "Meretz",
+      "label_he": "מרצ"
+    },
+    {
+      "id": "new_economic_2021",
+      "label_en": "New Economic Party",
+      "label_he": "הכלכלית החדשה"
+    },
+    {
+      "id": "new_hope_2021",
+      "label_en": "New Hope",
+      "label_he": "תקווה חדשה"
+    },
+    {
+      "id": "raam_2021",
+      "label_en": "Raam",
+      "label_he": "רע״מ"
+    },
+    {
+      "id": "religious_zionism_otzma_2021",
+      "label_en": "Religious Zionism / Otzma / Noam",
+      "label_he": "הציונות הדתית"
+    },
+    {
+      "id": "shas_2021",
+      "label_en": "Shas",
+      "label_he": "ש״ס"
+    },
+    {
+      "id": "united_torah_judaism_2021",
+      "label_en": "United Torah Judaism",
+      "label_he": "יהדות התורה"
+    },
+    {
+      "id": "yamina_2021",
+      "label_en": "Yamina",
+      "label_he": "ימינה"
+    },
+    {
+      "id": "yesh_atid_2021",
+      "label_en": "Yesh Atid",
+      "label_he": "יש עתיד"
+    },
+    {
+      "id": "yisrael_beiteinu_2021",
+      "label_en": "Yisrael Beiteinu",
+      "label_he": "ישראל ביתנו"
+    }
+  ],
+  "polls": [
+    {
+      "id": "maagar_mohot-2021-03-11",
+      "election_id": "knesset_24_2021",
+      "kind": "pre_election_poll",
+      "pollster_group": "maagar_mohot",
+      "publisher": "Israel Hayom / i24NEWS",
+      "source_url": "https://www.israelhayom.co.il/article/860275",
+      "published_on": "2021-03-11",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": null,
+      "mode": null,
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 18,
+        "blue_and_white_2021": 5,
+        "joint_list_2021": 9,
+        "shas_2021": 8,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 4,
+        "yamina_2021": 11,
+        "new_hope_2021": 10,
+        "labor_2021": 6,
+        "religious_zionism_otzma_2021": 5
+      },
+      "reported_below_threshold_pct": {},
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "source_updated_on": "2021-03-13",
+      "pollster": "Maagar Mohot / Yitzhak Katz",
+      "audit": "Complete seat allocation transcribed from original article body. Fieldwork, sample and mode not established; publication is the age proxy. Raam and New Economic explicitly below threshold; percentages unknown."
+    },
+    {
+      "id": "camil_fuchs-2021-03-14",
+      "election_id": "knesset_24_2021",
+      "kind": "pre_election_poll",
+      "pollster_group": "camil_fuchs",
+      "publisher": "Channel 13",
+      "source_url": "https://13tv.co.il/item/news/politics/politics/survey-towards-elections-day-1223224/",
+      "published_on": "2021-03-14",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": "2021-03-14",
+      "fieldwork_end": "2021-03-14",
+      "sample_size": 707,
+      "mode": "Internet Jewish sample; telephone Arab sample",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2021": 28,
+        "yesh_atid_2021": 20,
+        "blue_and_white_2021": 4,
+        "joint_list_2021": 8,
+        "shas_2021": 6,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 4,
+        "raam_2021": 4,
+        "yamina_2021": 11,
+        "new_hope_2021": 9,
+        "labor_2021": 6,
+        "religious_zionism_otzma_2021": 6
+      },
+      "reported_below_threshold_pct": {},
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "pollster": "Camil Fuchs / Midgam Project / Stat-Net",
+      "audit": "All positive seat values in original body; article says fieldwork today, 603 Jewish and 104 Arab respondents. New Economic below threshold, exact share not used."
+    },
+    {
+      "id": "midgam_rc-2021-03-16",
+      "election_id": "knesset_24_2021",
+      "kind": "pre_election_poll",
+      "pollster_group": "midgam_rc",
+      "publisher": "N12",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2021_q1/Article-7394d5f12bb3871027.htm",
+      "published_on": "2021-03-16",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": "2021-03-16",
+      "fieldwork_end": "2021-03-16",
+      "sample_size": 500,
+      "mode": "Internet and telephone",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 18,
+        "blue_and_white_2021": 4,
+        "joint_list_2021": 8,
+        "shas_2021": 8,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 4,
+        "raam_2021": 4,
+        "yamina_2021": 10,
+        "new_hope_2021": 10,
+        "labor_2021": 6,
+        "religious_zionism_otzma_2021": 4
+      },
+      "reported_below_threshold_pct": {
+        "new_economic_2021": 1.4
+      },
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "source_updated_on": "2021-03-16",
+      "pollster": "Midgam Research and Consulting / Mano Geva / iPanel",
+      "audit": "All positive seats and actual respondent count checked in body/methodology. Party-choice certainty and group turnout intention are not national observed turnout."
+    },
+    {
+      "id": "maagar_mohot-2021-03-18",
+      "election_id": "knesset_24_2021",
+      "kind": "pre_election_poll",
+      "pollster_group": "maagar_mohot",
+      "publisher": "Israel Hayom / i24NEWS",
+      "source_url": "https://www.israelhayom.co.il/article/862625",
+      "published_on": "2021-03-18",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": 2087,
+      "mode": null,
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2021": 29,
+        "yesh_atid_2021": 18,
+        "blue_and_white_2021": 4,
+        "joint_list_2021": 10,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 8,
+        "meretz_2021": 5,
+        "yamina_2021": 10,
+        "new_hope_2021": 10,
+        "labor_2021": 5,
+        "religious_zionism_otzma_2021": 5
+      },
+      "reported_below_threshold_pct": {},
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "source_updated_on": "2021-03-20",
+      "pollster": "Maagar Mohot / Yitzhak Katz",
+      "audit": "Complete positive allocation checked in headline and body; Blue and White=4 is explicit in headline. Raam and New Economic below threshold. Fieldwork dates/mode remain unknown. Known March 20 update excluded at earlier cutoffs."
+    },
+    {
+      "id": "camil_fuchs-2021-03-19",
+      "election_id": "knesset_24_2021",
+      "kind": "pre_election_poll",
+      "pollster_group": "camil_fuchs",
+      "publisher": "Channel 13",
+      "source_url": "https://13tv.co.il/item/news/politics/politics/elections-survey-1225553/",
+      "published_on": "2021-03-19",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": "2021-03-19",
+      "fieldwork_end": "2021-03-19",
+      "sample_size": 1103,
+      "mode": "Internet Jewish sample; telephone Arab sample",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 18,
+        "blue_and_white_2021": 4,
+        "joint_list_2021": 8,
+        "shas_2021": 8,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 6,
+        "meretz_2021": 4,
+        "raam_2021": 4,
+        "yamina_2021": 10,
+        "new_hope_2021": 10,
+        "labor_2021": 6,
+        "religious_zionism_otzma_2021": 5
+      },
+      "reported_below_threshold_pct": {},
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "pollster": "Camil Fuchs / Midgam Project / Stat-Net",
+      "audit": "Complete allocation and fieldwork today checked in body; 1003 Jewish and 100 Arab respondents. New Economic below threshold without a percentage in inspected body."
+    },
+    {
+      "id": "midgam_rc-2021-03-19",
+      "election_id": "knesset_24_2021",
+      "kind": "pre_election_poll",
+      "pollster_group": "midgam_rc",
+      "publisher": "N12",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2021/Article-3288575c4cb4871027.htm",
+      "published_on": "2021-03-19",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": "2021-03-18",
+      "fieldwork_end": "2021-03-19",
+      "sample_size": 1000,
+      "mode": "Internet and telephone",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2021": 32,
+        "yesh_atid_2021": 18,
+        "blue_and_white_2021": 4,
+        "joint_list_2021": 8,
+        "shas_2021": 8,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 4,
+        "raam_2021": 4,
+        "yamina_2021": 9,
+        "new_hope_2021": 9,
+        "labor_2021": 6,
+        "religious_zionism_otzma_2021": 4
+      },
+      "reported_below_threshold_pct": {
+        "new_economic_2021": 1.3
+      },
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "source_updated_on": "2021-03-20",
+      "pollster": "Midgam Research and Consulting / Mano Geva / iPanel",
+      "audit": "Complete allocation and actual respondent count checked in original body/methodology. March 20 article update is before final cutoff, not eligible for March 17."
+    }
+  ]
+}

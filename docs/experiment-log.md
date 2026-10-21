@@ -14,6 +14,18 @@
 - Decision: retain both references; neither is selected as the final forecast. Next audit missing latest polls and compare against historical pre-election-poll baselines.
 - Limitations: convenience sample, source-body/graphic conflict disclosed, some fieldwork metadata missing, no turnout-intention calibration, no vote-to-seat allocator or full legal-feasibility check, and no modeled redistribution after reported Blue and White withdrawal.
 
+## R002 - Initial historical backtest (October 21, 2026)
+
+- User instruction: proceed with the historical backtest, initially the proposed 2021/2022 scope. First recorded research timestamp: 11:47:56 UTC. Agent/tool runtime is distinct from unmeasured user hands-on effort; the eight-hour project budget is not reset.
+- Inputs: `data/snapshots/historical-2026-10-21/`, `config/historical-backtest.json`. Twelve original-source audited releases, three groups per election and cutoff. Final official 2021/2022 targets; official 2020/2021 turnout references. Input/code hashes are preserved in `reports/backtest-2026-10-21/backtest.json`. Starting main commit=85fab76; implementation commit/hosted evidence is recorded after publication.
+- Fixed methods: existing rounded mean and empirical L1 imported from unchanged baseline.py; equal latest audited group weights, 14-day effective-age window, T-6/T-1 end-of-day cutoffs. Alphabetical election-specific IDs fix ties. No tuning, fitting, random seed or current forecast change.
+- Outputs: `reports/backtest-2026-10-21/{backtest.json,seat-errors.csv,summary.md}`. Main metric is total absolute seat error. At T-6, 2021=24/22 and 2022=12/12; equal-election mean=18/17. At T-1, 2021=20/20 and 2022=12/12; mean=16/16. Four cases are two election outcomes.
+- Turnout persistence: 71.52 predicted versus 67.44 actual in 2021 (4.08 pp); 67.44 versus 70.63 in 2022 (3.19 pp). Current turnout-intention data and war assumptions are unused.
+- Diagnostics: both methods miss Meretz representation in 2022; 2021 includes substantial Blue and White/New Hope/Yamina errors. These motivate investigating uncertainty but do not validate a particular correction. No reliable 2019-2021 block sensitivity with only 2021 in that period.
+- Validation: all 16 software checks pass locally, including seven new historical boundary/identity/scoring checks. Mutating later/exit-poll values cannot alter earlier forecasts; mutating targets changes scores but not forecasts. Hosted workflow now reproduces both frozen reports; its status is not assumed before verification.
+- Limitations: convenience panel, different third group across elections, some omitted latest publications and missing metadata, one explicitly documented residual seat derivation, no authenticated historical archive versions, no vote-to-seat allocation/probability calibration. This is retrospective evaluation, not a certified real-time reconstruction or a final model choice.
+- Decision: retain both references and the frozen current forecast. Review initial failures; extend historical coverage if useful within remaining time, or justify one lightweight improvement with separate evaluation. Once used for tuning, this pilot is no longer an untouched holdout. See `docs/historical-backtest.md`.
+
 ## Logging conventions
 
 Track actual hands-on effort against the approximate eight-hour budget. Record runtime separately; do not invent elapsed time for earlier sessions.

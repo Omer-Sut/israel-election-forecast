@@ -1,6 +1,6 @@
 # Method report working draft
 
-Status: a first preliminary baseline has run; historical forecast validation and final method selection remain pending. The following draft describes executed work only. It is not a final competition entry.
+Status: the preliminary baseline and a limited 2021/2022 historical backtest have run; broader validation and final method selection remain pending. The following draft describes executed work only. It is not a final competition entry.
 
 The competition's systematic track requires a method description of at most 500 words, data sources, a code link, and agreement to present if selected as winner. Keep the final submission description within 500 words; this working file can hold supporting evidence separately.
 
@@ -14,7 +14,9 @@ We compare two transparent references: equal-weight mean seat estimates rounded 
 
 Turnout is initially the official 2022 rate, 70.63%, checked against the form's 40.00-100.00% range. A current self-reported turnout-intention measure is retained separately, without assuming it predicts actual participation.
 
-Software checks cover allocation arithmetic, inclusive turnout bounds, group deduplication, cutoff eligibility, and optimizer correctness. Leaving out one polling group changes the consensus by 4-8 in total absolute seat difference. This is sensitivity, not a confidence interval. Historical poll-to-election validation has not yet been performed; lower disagreement with polls is not proof of improved election accuracy. Inputs, code, and reference outputs are versioned in GitHub, with a hosted CPU reproduction workflow.
+Software checks cover allocation arithmetic, inclusive turnout bounds, group deduplication, cutoff eligibility, optimizer correctness, and historical target separation. Leaving out one current polling group changes the consensus by 4-8 in total absolute seat difference; this is sensitivity, not a confidence interval.
+
+A retrospective pilot uses 12 original-source historical releases across 2021/2022. With three equal-weight groups per election, total absolute seat errors at six days before voting were 24/22 (mean/L1) in 2021 and 12/12 in 2022; final cutoffs gave 20/20 and 12/12. Prior-election turnout persistence missed by 4.08 and 3.19 percentage points. We did not fit weights or tune methods on these results. Two elections, incomplete poll coverage and unauthenticated historical page versions limit conclusions. Neither method is selected as final. Inputs, code, and outputs are versioned in GitHub with hosted reproduction.
 
 ### Finalization structure
 
@@ -32,7 +34,7 @@ Replace each item with the method actually implemented; remove placeholders befo
 - [ ] Official/poll/form mappings and other-qualifier scoring interpretation resolved.
 - [ ] Data provenance, rights, cutoff eligibility, and source discrepancies resolved/documented.
 - [x] First baseline run recorded in experiment log; final method selection remains pending.
-- [ ] Validation results and rejected alternatives recorded.
+- [x] Initial historical reference comparison recorded as R002; broader evaluation and final selection remain pending.
 - [ ] Final output generated from frozen inputs and a recorded code revision.
 - [x] First baseline reproduced exactly in a fresh hosted CPU run: [39572969093](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39572969093), implementation commit `aee2f11`. Final chosen method still needs its own frozen reproduction.
 - [ ] Final method paragraph <=500 words, with no unimplemented claims.

@@ -31,6 +31,8 @@ Clone separately on each computer. Use Git to exchange work; avoid using a concu
 
 Read the start-here documents before coding. Use Python 3.12; the first baseline needs no third-party packages. Run `python -m unittest discover -s tests -v` and `python scripts/baseline.py --out-dir output/baseline` from the repository root.
 
+The historical pilot also uses only the standard library: `python scripts/backtest.py --out-dir output/backtest`. Read `docs/historical-backtest.md` before extending its data or methods. CI checks both reference report directories; preserve date cutoffs, historical list IDs, target separation and source-vintage caveats.
+
 ## Online-first working agreement
 
 The user has about eight hands-on hours total. The first baseline uses a small GitHub-hosted CPU workflow, manually runnable from Actions and automatically checked on pull requests/main. It tests and reproduces the committed baseline snapshot. A notebook is deferred. GitHub is the source of truth; ephemeral workflow artifacts are not a durable archive, so reference inputs/results remain committed. See `docs/baseline-method.md`.

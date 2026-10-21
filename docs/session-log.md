@@ -1,5 +1,14 @@
 # Session log
 
+## 2026-10-21 - Historical backtest pilot (R002)
+
+- User authorized proceeding with the historical backtest. Started from clean synchronized main at 85fab76 on feat/historical-backtest; first recorded research timestamp 11:47:56 UTC. User hands-on effort is not inferred from agent runtime.
+- Audited 12 original poll releases: 2021 C13/Fuchs, N12/Midgam, Israel Hayom-i24/Maagar; 2022 C13/Fuchs, N12/Midgam, C14/Direct Polls. Stored publication/known-update dates, source URLs, unknown fieldwork/sample metadata, numerical transcriptions and rights/vintage caveats. N12 October 24 National Unity=13 is a documented 120-minus-107 residual, not a later outcome input.
+- Added official 2021/2022 seat/turnout targets and prior-election turnout references (2020=71.52%; 2021=67.44%). Historical identities are election-specific and never mapped to the current form. Authenticated old archive copies were not obtained; known date safeguards do not prove absence of unknown revisions.
+- Reused unchanged rounded-mean/L1 functions with the fixed 14-day window, equal latest-audited groups, and T-6/T-1 cutoffs. Targets are loaded after generation. Results: 2021 T-6=24/22 and T-1=20/20; 2022 both horizons=12/12. Turnout errors=4.08/3.19 pp. Four cases are only two outcomes; no method selected, no war effect calculated, and no current forecast changed.
+- Added seven meaningful information-boundary/scoring checks; all 16 tests passed locally. Added durable reports, detailed method/source documentation and hosted workflow steps to reproduce both historical and original baseline outputs. Local/hosted publication evidence is appended after verification.
+- Local historical rerun matched all reference bytes. Original baseline matched after LF/CRLF normalization (pre-existing Windows writer); its code and frozen reports remain unchanged. New historical inputs/output use LF for portable hashes. Documentation file links/fences passed across 17 Markdown files, Git whitespace checks passed, and the report draft remains under 500 words (286 by whitespace count).
+
 ## 2026-10-21 - IdoRavid collaborator invitation
 
 - User explicitly authorized adding `IdoRavid` with all repository permissions. Verified the GitHub account and owner access. GitHub rejected `permission=admin` with HTTP 422 (cannot assign admin); a subsequent `permission=push` invitation succeeded and the invitation API confirmed `write`, pending acceptance.

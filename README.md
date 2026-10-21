@@ -26,7 +26,7 @@ Lower is better. Turnout accuracy breaks ties. Final official results, including
 
 ## Status
 
-The first preliminary baseline is implemented from six audited poll records (five active polling groups). It compares a rounded mean with an absolute-disagreement consensus and uses official 2022 turnout as a persistence reference. These are **not submission-ready or historically validated forecasts**. See the [results](reports/baseline-2026-10-21/summary.md), [implemented method](docs/baseline-method.md), and `docs/project-state.md`.
+The first preliminary baseline is implemented from six audited poll records (five active polling groups). It compares a rounded mean with an absolute-disagreement consensus and uses official 2022 turnout as a persistence reference. A [historical pilot](docs/historical-backtest.md) now tests both unchanged methods on 2021/2022 at two cutoffs, using 12 audited releases. These are **not submission-ready forecasts or a conclusive model comparison**. See the [current baseline results](reports/baseline-2026-10-21/summary.md), [backtest results](reports/backtest-2026-10-21/summary.md), [implemented method](docs/baseline-method.md), and `docs/project-state.md`.
 
 ## Repository and setup
 
@@ -47,6 +47,7 @@ Reference runtime: **Python 3.12, standard library only**. No package installati
 ```sh
 python -m unittest discover -s tests -v
 python scripts/baseline.py --out-dir output/baseline
+python scripts/backtest.py --out-dir output/backtest
 ```
 
 For online work, use the repository's [Actions tab](https://github.com/Omer-Sut/israel-election-forecast/actions): `Reproduce preliminary baseline` -> `Run workflow`. The hosted CPU job tests the implementation, reproduces the committed outputs, and provides a summary/downloadable artifact. Check its run status before relying on successful execution. Inputs, code, and reference outputs are committed; no required file exists only on a contributor's machine. A Colab notebook is deferred to avoid duplicating the execution surface.
@@ -64,6 +65,7 @@ For online work, use the repository's [Actions tab](https://github.com/Omer-Sut/
 | `docs/data-sources.md` | Source inventory and provenance conventions |
 | `data/README.md` | Actual first-snapshot audit, coverage gaps, and update procedure |
 | `docs/baseline-method.md` | Implemented methods, reproduction, diagnostics, and limitations |
+| `docs/historical-backtest.md` | Implemented 2021/2022 pilot, audited historical sources, information boundaries and results |
 | `docs/research-agenda.md` | User feedback, threshold questions, historical validation and war/turnout proposals |
 | `docs/forecasting-research.md` | Primary-source forecasting examples, additional data, applicability and limitations |
 | `docs/project-constraints.md` | User requirements, eight-hour budget, and scope limits |
