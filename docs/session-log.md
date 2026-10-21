@@ -9,6 +9,7 @@
 - Cataloged official historical/geographic results, CBS turnout/demographics, INES, economic covariates and UCDP conflict data. Found an original final 2021 Channel 13 poll. These are source discoveries, not an ingested backtest dataset. CBS table heading says 1949-2022 but inspected rows stop in 2021.
 - Proposed first evaluation on 2021/2022, optional extension to six 2015-2022 elections, chronological cutoffs/whole-election tests, and a repeated-period sensitivity. War coding and effect direction remain open; no trend result or adjustment was calculated. Existing numerical inputs/code/reports are unchanged. Validation/publication evidence is appended after checks.
 - Local documentation checks passed for relative file links and balanced code fences across 16 Markdown files; Git whitespace checks passed and all changes were reviewed. No executable change or new forecast-accuracy claim is included.
+- Published initial documentation commit fcd50c8 on docs/research-methods-and-user-feedback and opened https://github.com/Omer-Sut/israel-election-forecast/pull/6. Verified remote hash and hosted success at https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39580440662 (baseline tests and exact output reproduction). The accompanying handoff update records this evidence; use actual PR/Git state for later commits/merge status.
 
 ## 2026-10-21 - First audited data and runnable baseline (R001)
 

@@ -32,7 +32,7 @@ Kan and several October 20 releases (including i24/Direct Polls and Channel 16) 
 
 ## Publication and reproduction
 
-Baseline PR #5 was merged; before this research update, main was clean and matched origin/main at ec4396e. The research/documentation work uses docs/research-methods-and-user-feedback. Publication and documentation checks are recorded below after verification; inspect actual Git/PR state for subsequent changes. The verified baseline hosted run remains evidence for its implementation, not this new research.
+Baseline PR #5 was merged; before this research update, main was clean and matched origin/main at ec4396e. Research documentation is published through [PR #6](https://github.com/Omer-Sut/israel-election-forecast/pull/6), branch docs/research-methods-and-user-feedback. Initial research commit fcd50c8 was verified on the remote; [hosted run 39580440662](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39580440662) passed all baseline tests and exact report reproduction. This confirms the existing baseline still reproduces, not predictive validation of any researched candidate. This handoff records that verified evidence; inspect Git/PR state for subsequent commits and merge status.
 
 Research validation: relative local-file links and code-fence balance passed across 16 Markdown files; Git whitespace checks passed. Reviewed changes are documentation only; executable code, configurations, data snapshots and forecast reports are unchanged. No new predictive tests were claimed or run for this research.
 
