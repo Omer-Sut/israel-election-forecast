@@ -113,6 +113,10 @@ class ExperimentBoundaryTests(unittest.TestCase):
         self.config["correction_fraction"] = 1.1
         with self.assertRaises(ValueError):
             validate_config(self.config)
+        self.config = load_json(CONFIG)
+        self.config["models"][0]["half_life_days"] = 0
+        with self.assertRaisesRegex(ValueError, "positive"):
+            validate_config(self.config)
 
 
 HAS_DEPS = all(importlib.util.find_spec(p) for p in ("numpy", "scipy", "sklearn", "xgboost"))

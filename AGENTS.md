@@ -22,6 +22,8 @@ The first implementation is documented in `docs/baseline-method.md`: Python 3.12
 
 ## Working conventions
 
+- For new candidate experiments, read `docs/model-screening.md` and use the separate `Screen lightweight forecast models` Actions workflow. Its optional scientific dependencies must not become requirements of the frozen standard-library baseline. Preserve real diagnostic versus synthetic smoke evidence; two audited elections do not establish a model ranking. The user's approved 18-configuration lightweight screen supersedes the earlier one-improvement scope, with locality forecasting still deferred.
+
 - Communicate and document in English. Preserve original Hebrew identifiers alongside stable English/internal identifiers when necessary.
 - Inspect working-tree changes before editing; do not overwrite another contributor's work.
 - Treat the competition as a forecasting task: optimize and evaluate total absolute seat error, with turnout as the tie-breaker.

@@ -1,5 +1,7 @@
 # Poll-centered modeling direction
 
+Subsequent implementation: [model-screening.md](model-screening.md) describes the approved cloud screen with 25% soft corrections and no hard caps. Candidate adapters are now implemented; the original discussion below records the earlier proposal stage. No final method, calibrated interval or replacement current forecast has been selected. Verified execution status belongs in project-state/experiment-log.
+
 Recorded October 21, 2026. This document distinguishes the user's modeling preferences from proposed experiments. No new model, constraint, uncertainty interval or forecast has been implemented by this discussion.
 
 ## User direction

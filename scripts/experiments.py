@@ -102,6 +102,8 @@ def build_case(snapshot, cutoff, window=14, minimum_groups=3):
             "cutoff": cutoff, "ids": ids, "anchor": anchor, "features": features,
             "vectors": vectors, "ages": ages, "selected_polls": selected,
             "history": history, "history_vectors": historic_vectors, "excluded_polls": rejected,
+            "snapshot_id": snapshot.get("snapshot_id", snapshot["election_id"]),
+            "historical_vintage_limit": snapshot.get("historical_vintage_limit", "synthetic fixture"),
             "audit_tier": "original_source_audited_retrospective_not_archival_vintage"}
 
 
@@ -239,6 +241,9 @@ def evaluate_cases(cases, outcomes, config):
         result = {"election_id": case["election_id"], "election_date": case["election_date"],
                   "cutoff": case["cutoff"], "horizon_days": case["horizon_days"], "ids": case["ids"],
                   "anchor": case["anchor"], "audit_tier": case["audit_tier"],
+                  "snapshot_id": case["snapshot_id"], "historical_vintage_limit": case["historical_vintage_limit"],
+                  "cutoff_timezone": "Asia/Jerusalem", "cutoff_time": "23:59:59",
+                  "features_by_list": {key: dict(zip(FEATURES, values)) for key, values in zip(case["ids"], case["features"])},
                   "training_elections": training_ids, "selected_polls": case["selected_polls"],
                   "excluded_polls": case["excluded_polls"],
                   "history_poll_ids": [p["id"] for p in case["history"]],
@@ -397,6 +402,14 @@ def validate_config(config):
     families = SUPERVISED | {"recency", "dynamic", "ensemble"}
     if any(m["family"] not in families for m in models):
         raise ValueError("Unknown model family")
+    if not math.isfinite(config["dynamic_observation_variance"]) or config["dynamic_observation_variance"] <= 0:
+        raise ValueError("Dynamic observation variance must be positive")
+    for spec in models:
+        for key in ("half_life_days", "alpha", "max_depth", "min_samples_leaf", "n_estimators", "learning_rate", "variance_ratio"):
+            if key in spec and (not math.isfinite(spec[key]) or spec[key] <= 0):
+                raise ValueError(f"Model parameter {key} must be positive")
+        if spec.get("penalty") is not None and (not math.isfinite(spec["penalty"]) or spec["penalty"] < 0):
+            raise ValueError("Ensemble penalty must be nonnegative")
     members = config["ensemble_members"]
     nonensemble = {m["id"] for m in models if m["family"] != "ensemble"}
     if not members or len(members) != len(set(members)) or not set(members) <= nonensemble:
