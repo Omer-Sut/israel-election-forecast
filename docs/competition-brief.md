@@ -26,7 +26,7 @@ Working assumption for project planning: develop an entry suitable for the syste
 ## Forecast targets and scoring (page 1)
 
 1. Seat counts for the form's **14 named lists plus combined other qualifying parties**, totaling **120** according to the form header. Preserve disaggregated internal list outcomes; scoring of multiple other qualifiers is not independently confirmed.
-2. National voter turnout, in percent.
+2. National voter turnout, in percent, within **40.00-100.00 inclusive** (form requirement subsequently confirmed by the user). Use two-decimal output; exact permitted decimal increments remain unverified.
 
 The main score is the sum of absolute differences between predicted seats and official seats across lists. Lower scores are better. If scores tie, turnout accuracy determines the ranking. The PDF does not specify a more detailed turnout-error formula or further tie-breakers.
 

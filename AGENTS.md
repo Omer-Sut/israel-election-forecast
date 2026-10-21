@@ -8,6 +8,8 @@ Also read `docs/project-constraints.md` and `docs/project-plan.md`. The user has
 
 Use `docs/submission-contract.md` and `config/submission-fields.json` for the user-transcribed form: 14 named lists plus one combined other-qualifying-lists seat field (sum 120), and turnout. Dummy form inputs are not forecasts. Never copy personal/account form responses into the public repository. Verify poll/official/form mappings; Joint List and Hadash-Ta'al are not automatically interchangeable. Apply thresholds to individual other lists before aggregating their seats.
 
+Turnout predictions must satisfy the user-confirmed form bound **40.00 <= national_turnout_pct <= 100.00**, inclusive. Read these bounds from configuration and enforce them during point-prediction selection and export validation; display two decimal places. Preserve diagnostics for any unconstrained out-of-range estimate rather than silently clipping at submission. Exact accepted decimal increments and other form validation remain unverified.
+
 ## Working conventions
 
 - Communicate and document in English. Preserve original Hebrew identifiers alongside stable English/internal identifiers when necessary.

@@ -21,10 +21,11 @@ Public repository: https://github.com/Omer-Sut/israel-election-forecast
 - Inspected the PDF's linked sources and additional official 2021/2022 results and original poll publications. Source inventory now explains intended use and access/quality limitations.
 - Found that Kolot Nodedim's K26 scenario is simulated, and that one Wikipedia poll row conflicts with the original release's text. No data ingestion has occurred; reconcile before use.
 - Recorded the user's full form transcription in `submission-contract.md` and `config/submission-fields.json`: 14 named lists, combined other qualifying parties, total 120 seats, turnout, and systematic-track fields. Personal/account details and dummy inputs are excluded. This is an output contract, not a forecast.
+- User confirmed turnout bounds of **40.00-100.00% inclusive**. Configuration contract v2 and model/export guidance record this hard output constraint. Two-decimal presentation is specified; exact accepted decimal increments remain unknown. No model/export validator exists yet.
 
 ## Publication status
 
-Planning update PR #1 was merged; `76fb481` was verified synchronized main before this form-contract update. This update uses topic branch `docs/submission-form-contract` and a pull request; inspect actual Git/PR state for its latest publication status.
+Form-contract PR #2 was merged; `21fe3fe` was verified synchronized main before the turnout-bounds update. This update uses topic branch `docs/turnout-form-bounds` and a pull request; inspect actual Git/PR state for its latest publication status.
 
 ## Environment notes
 
