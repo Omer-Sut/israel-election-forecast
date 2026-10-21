@@ -1,6 +1,16 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (cloud model screening implementation).
+Last updated: October 21, 2026 (E002 results analyzed and continuation handoff).
+
+## Start the next session here — E002 analysis
+
+Read [screening-results-analysis.md](screening-results-analysis.md) before another experiment. It explains family scores, per-list misses, rounding/shrinkage, sparse trend features, ensemble weights and a prioritized next-session sequence. The [derived analysis JSON](../reports/screening-six-elections-2026-10-21/analysis.json) is reproducible offline with `python scripts/analyze_screening.py`; saved per-list scores reconcile and repeated analysis output is byte-identical. No models were refitted or forecasts changed in this follow-up.
+
+Main finding: no candidate beats the 20/12 reference errors on 2021/2022. In 2021, 4/18 candidates tie and 14 worsen error; in 2022, 16/18 return exactly the mean vector and two worsen it. There are only 8/3 distinct integer vectors across all 20 configurations. All nine unshrunk supervised diagnostics worsen both outcomes. Main party misses: Blue and White/New Hope/Joint List in 2021; Meretz representation and Shas in 2022. All configurations retain the Meretz representation miss.
+
+Important feature gap: all 44 earlier training-party rows for 2021 lack within-group trend observations. The 2022 fit has 58 rows, only 14 from a trend-observed election. More model configurations cannot manufacture those trajectories. Prioritize source/coverage sensitivity, then repeated releases from already collected campaign indexes; do not expand locality forecasting or hard bounds by default. Recommendations are not a final method selection, and no new sensitivity experiment has run.
+
+Resume on `feat/six-election-screening-panel`, not main, while [PR #13](https://github.com/Omer-Sut/israel-election-forecast/pull/13) is open. Existing head abd3467 was clean/synchronized and both hosted checks passed (screen39626928216, baseline39626928299) before this analysis update. Earlier PR #12 was merged; PR #13 is not merged at this checkpoint. This handoff accompanies an analysis/docs commit on the same topic branch; inspect live Git/PR state for the latest published SHA. Use the workflow's manual branch selector from any browser; no local ML dependencies are needed. Next concrete experiment: publication-age sensitivity for Walla 2020, keeping the frozen reference run and chronological protocol.
 
 ## Latest handoff — usable earlier elections (E002)
 

@@ -2,6 +2,8 @@
 
 ## Accepted
 
+- A001 (October 21): analysis of E002 does not support replacing either poll reference or choosing a final model. Preserve all candidate results and pause wider configuration search until source/coverage and missing trajectory features are reviewed. This is an evidence-based working recommendation, not a user-selected final method, permanent family exclusion or approval of hard bounds.
+
 - E002 (October 21): user requested using earlier years with sufficient history. Prepare a six-election T−1 panel from original-source-reviewed releases and existing national results. Use 2015/April2019 as initial history, September2019/2020 as strict OOF history and 2021/2022 for complete all-model comparison. Preserve chronological isolation, the original model grid and the fact that both evaluation outcomes were previously seen. Do not lower minimum-history gates merely to remove missing cells.
 
 - October 21, E001: user approved the implementation plan and chose cloud setup/screening first, with soft limits rather than hard movement caps. Use a separate GitHub Actions CPU environment and three fixed configurations each for recency, ridge, forest, XGBoost, dynamic and ensemble; preserve both original references. This supersedes the earlier one-improvement implementation scope, while retaining lightweight compute and the total effort constraint.

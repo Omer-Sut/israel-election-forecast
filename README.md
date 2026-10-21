@@ -18,6 +18,7 @@ Build a reproducible model to forecast the results of Israel's 26th Knesset elec
 12. Review [the first screening report](reports/screening-2026-10-21/summary.md): hosted checks passed, but the limited two-election panel does not establish a winning model.
 13. The active screen now uses [six-election training history](docs/six-election-screening.md): 2015/both 2019 elections/2020 supply earlier history for complete 2021/2022 comparisons. See project-state for verified run status.
 14. [The expanded screening report](reports/screening-six-elections-2026-10-21/summary.md) has predictions from every configuration on both evaluation elections; no candidate improves on the references in this run.
+15. Resume with [the results analysis and next-session handoff](docs/screening-results-analysis.md): party-level errors, shrinkage/rounding effects, missing trend coverage and next experiments. While PR #13 is open, use branch `feat/six-election-screening-panel` for the expanded screen.
 
 The original Hebrew guidelines are preserved unchanged as [the source PDF](תחרות%20תחזית%20בחירות%20לכנסת%20ה26.pdf). They are authoritative if the English summary is ambiguous.
 

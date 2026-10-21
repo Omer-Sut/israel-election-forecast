@@ -1,5 +1,12 @@
 # Session log
 
+## 2026-10-21 - Analyze E002 and prepare cross-session handoff
+
+- User requested analysis committed to Git for another session/device. Reviewed full saved predictions, per-list errors, continuous/unshrunk corrections, feature coverage and ensemble weights; no refitting or new forecasts.
+- Added `docs/screening-results-analysis.md` with numerical interpretation, caveats and prioritized next work. Added a standard-library analysis script and deterministic derived JSON; reconstructed scores match saved results and repeat output is byte-identical.
+- Findings: no candidate beats references; 2022 ties mostly reproduce the exact benchmark after shrinkage/rounding. First four elections have no observed within-group trend, limiting learned trend correction. All methods retain Meretz's 2022 representation miss; larger unshrunk supervised adjustments worsen both outcomes. Neither a final model nor a hard bound is chosen.
+- Continuity: branch `feat/six-election-screening-panel`, PR #13 open at inspection; main still older E001. Existing head abd3467 passed both workflows. Source/coverage sensitivity and repeated original-source releases precede wider tuning. Analysis validated by deterministic repeated execution, score arithmetic, source/code hashes, syntax, Markdown links/fences and Git whitespace checks. This record accompanies its topic-branch commit; inspect live remote for the latest SHA/publication state.
+
 ## 2026-10-21 - Prepare six-election training history (E002)
 
 - User asked to use years with enough data. Added 12 original-source-reviewed releases from 2015, both 2019 elections and 2020, plus deterministic offline panel/outcome construction. Retain original source dates, known revisions, ballot-code mappings, two explicit tied-seat derivations and metadata conflicts; no blanket promotion of index rows.

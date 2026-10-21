@@ -1,5 +1,12 @@
 # Experiment and effort log
 
+## A001 - Analysis of saved E002 results (October 21, 2026)
+
+- User requested an analysis and Git handoff. Inputs are the saved E002 report only; no new training, grid search or current prediction. Standard-library `scripts/analyze_screening.py` checks per-list score arithmetic and derives party errors, forecast identity, continuous movement, feature coverage and ensemble weights.
+- Outputs: `docs/screening-results-analysis.md` and `reports/screening-six-elections-2026-10-21/analysis.json`, including input/code hashes. Two independent executions produced byte-identical analysis; all saved comparison scores reconcile.
+- Interpretation: references remain controls; no challenger earned replacement. 2021 candidate ties/worse=4/14; 2022=16/2, with all 16 ties identical to the rounded mean. Earlier trend coverage is absent in all 44 training rows for 2021. Full unshrunk supervised corrections worsen both outcomes. Meretz representation remains wrong for every 2022 method. Two already-inspected comparison outcomes cannot establish a family ranking or calibrated intervals.
+- Recommended next work is source/coverage sensitivity, then repeated earlier campaign releases before wider tuning. No recommendations are claimed implemented. Runtime only analyzes small saved files; hands-on effort/cumulative effort unmeasured. Original E002 prediction artifacts remain unchanged; PR #13 open at inspection.
+
 ## E002 - Complete comparison using six-election history (October 21, 2026)
 
 - User requested years with enough earlier history. Predeclared protocol: T−1 across 2015, April/September2019, 2020, 2021, 2022; first four provide training and strict OOF history, final two complete the all-model comparison. Same 18-config grid, two references and 25% shrinkage. Not a blind holdout or a final model selection.

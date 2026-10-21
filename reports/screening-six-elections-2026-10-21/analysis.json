@@ -1,0 +1,1300 @@
+{
+  "status": "descriptive_analysis_no_model_selected",
+  "source_report": "reports/screening-six-elections-2026-10-21/experiments.json",
+  "source_report_sha256": "36477634f67ae4c694e8724f7d9f9a686ea799939abd9be3b35cfa85fd9af721",
+  "analysis_code_sha256": "d6c1089245971918af19e35c42d705d00b25306d8e495924e992d650df1c3122",
+  "comparison_elections": [
+    "knesset_24_2021",
+    "knesset_25_2022"
+  ],
+  "cases": [
+    {
+      "election_id": "knesset_24_2021",
+      "horizon_days": 1,
+      "training_election_count": 4,
+      "training_party_rows": 44,
+      "training_trend_missing_rows": 44,
+      "baseline_errors_by_list": [
+        {
+          "list_id": "blue_and_white_2021",
+          "predicted": 4,
+          "actual": 8,
+          "signed_error": -4
+        },
+        {
+          "list_id": "new_hope_2021",
+          "predicted": 10,
+          "actual": 6,
+          "signed_error": 4
+        },
+        {
+          "list_id": "joint_list_2021",
+          "predicted": 9,
+          "actual": 6,
+          "signed_error": 3
+        },
+        {
+          "list_id": "meretz_2021",
+          "predicted": 4,
+          "actual": 6,
+          "signed_error": -2
+        },
+        {
+          "list_id": "yamina_2021",
+          "predicted": 9,
+          "actual": 7,
+          "signed_error": 2
+        },
+        {
+          "list_id": "labor_2021",
+          "predicted": 6,
+          "actual": 7,
+          "signed_error": -1
+        },
+        {
+          "list_id": "raam_2021",
+          "predicted": 3,
+          "actual": 4,
+          "signed_error": -1
+        },
+        {
+          "list_id": "religious_zionism_otzma_2021",
+          "predicted": 5,
+          "actual": 6,
+          "signed_error": -1
+        },
+        {
+          "list_id": "shas_2021",
+          "predicted": 8,
+          "actual": 9,
+          "signed_error": -1
+        },
+        {
+          "list_id": "yesh_atid_2021",
+          "predicted": 18,
+          "actual": 17,
+          "signed_error": 1
+        },
+        {
+          "list_id": "likud_2021",
+          "predicted": 30,
+          "actual": 30,
+          "signed_error": 0
+        },
+        {
+          "list_id": "new_economic_2021",
+          "predicted": 0,
+          "actual": 0,
+          "signed_error": 0
+        },
+        {
+          "list_id": "united_torah_judaism_2021",
+          "predicted": 7,
+          "actual": 7,
+          "signed_error": 0
+        },
+        {
+          "list_id": "yisrael_beiteinu_2021",
+          "predicted": 7,
+          "actual": 7,
+          "signed_error": 0
+        }
+      ],
+      "distinct_integer_allocations": 8,
+      "candidate_count": 18,
+      "candidates_identical_to_mean": 0,
+      "candidates_better_than_mean": 0,
+      "candidates_equal_error_to_mean": 4,
+      "candidates_worse_than_mean": 14,
+      "methods": {
+        "rounded_mean_reference": {
+          "family": "reference",
+          "error": 20,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": null,
+          "continuous_unshrunk_distance_from_anchor": null,
+          "continuous_shrunk_distance_from_anchor": null,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "empirical_l1_consensus": {
+          "family": "reference",
+          "error": 20,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": null,
+          "continuous_unshrunk_distance_from_anchor": null,
+          "continuous_shrunk_distance_from_anchor": null,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "recency_3": {
+          "family": "recency",
+          "error": 20,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 20,
+          "continuous_unshrunk_distance_from_anchor": 0.6892155188335658,
+          "continuous_shrunk_distance_from_anchor": 0.17230387970839,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "recency_7": {
+          "family": "recency",
+          "error": 20,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 20,
+          "continuous_unshrunk_distance_from_anchor": 0.3028204222210884,
+          "continuous_shrunk_distance_from_anchor": 0.07570510555527088,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "recency_14": {
+          "family": "recency",
+          "error": 20,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 20,
+          "continuous_unshrunk_distance_from_anchor": 0.15274112508119675,
+          "continuous_shrunk_distance_from_anchor": 0.03818528127029941,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "ridge_1": {
+          "family": "ridge",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "labor_2021": -1,
+            "likud_2021": 1,
+            "religious_zionism_otzma_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "labor_2021": 1,
+            "likud_2021": 1,
+            "religious_zionism_otzma_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 30,
+          "continuous_unshrunk_distance_from_anchor": 8.501208099445245,
+          "continuous_shrunk_distance_from_anchor": 2.1253020248613126,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "ridge_10": {
+          "family": "ridge",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "labor_2021": -1,
+            "likud_2021": 1,
+            "religious_zionism_otzma_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "labor_2021": 1,
+            "likud_2021": 1,
+            "religious_zionism_otzma_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 28,
+          "continuous_unshrunk_distance_from_anchor": 7.655385178341242,
+          "continuous_shrunk_distance_from_anchor": 1.9138462945853087,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "ridge_100": {
+          "family": "ridge",
+          "error": 22,
+          "error_change_from_mean": 2,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "religious_zionism_otzma_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "religious_zionism_otzma_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 24,
+          "continuous_unshrunk_distance_from_anchor": 3.8904202875741274,
+          "continuous_shrunk_distance_from_anchor": 0.9726050718935314,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "forest_2_5": {
+          "family": "forest",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "likud_2021": 1,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "likud_2021": 1,
+            "raam_2021": 1,
+            "religious_zionism_otzma_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 28,
+          "continuous_unshrunk_distance_from_anchor": 14.529650995281544,
+          "continuous_shrunk_distance_from_anchor": 3.632412748820388,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "forest_3_5": {
+          "family": "forest",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "likud_2021": 1,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "likud_2021": 1,
+            "raam_2021": 1,
+            "religious_zionism_otzma_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 28,
+          "continuous_unshrunk_distance_from_anchor": 15.578568897476734,
+          "continuous_shrunk_distance_from_anchor": 3.894642224369181,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "forest_3_10": {
+          "family": "forest",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "labor_2021": -1,
+            "likud_2021": 1,
+            "religious_zionism_otzma_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "labor_2021": 1,
+            "likud_2021": 1,
+            "religious_zionism_otzma_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 26,
+          "continuous_unshrunk_distance_from_anchor": 8.093048207039928,
+          "continuous_shrunk_distance_from_anchor": 2.0232620517599775,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "xgb_1_50": {
+          "family": "xgboost",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "likud_2021": 1,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "likud_2021": 1,
+            "raam_2021": 1,
+            "religious_zionism_otzma_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 28,
+          "continuous_unshrunk_distance_from_anchor": 10.269870777924856,
+          "continuous_shrunk_distance_from_anchor": 2.567467694481214,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "xgb_2_50": {
+          "family": "xgboost",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "likud_2021": 2,
+            "new_hope_2021": -1,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "yesh_atid_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "likud_2021": 2,
+            "new_hope_2021": -1,
+            "raam_2021": 1,
+            "religious_zionism_otzma_2021": 1,
+            "yesh_atid_2021": 1
+          },
+          "unshrunk_diagnostic_error": 30,
+          "continuous_unshrunk_distance_from_anchor": 16.13171132405599,
+          "continuous_shrunk_distance_from_anchor": 4.032927831013998,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "xgb_2_100": {
+          "family": "xgboost",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "labor_2021": -1,
+            "likud_2021": 2,
+            "new_hope_2021": -1,
+            "raam_2021": -1,
+            "yesh_atid_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "labor_2021": 1,
+            "likud_2021": 2,
+            "new_hope_2021": -1,
+            "raam_2021": 1,
+            "yesh_atid_2021": 1
+          },
+          "unshrunk_diagnostic_error": 32,
+          "continuous_unshrunk_distance_from_anchor": 19.221694787343342,
+          "continuous_shrunk_distance_from_anchor": 4.805423696835836,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "dynamic_001": {
+          "family": "dynamic",
+          "error": 22,
+          "error_change_from_mean": 2,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "raam_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "raam_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 22,
+          "continuous_unshrunk_distance_from_anchor": 3.284071831368166,
+          "continuous_shrunk_distance_from_anchor": 0.8210179578420425,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "dynamic_01": {
+          "family": "dynamic",
+          "error": 22,
+          "error_change_from_mean": 2,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "raam_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "raam_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 22,
+          "continuous_unshrunk_distance_from_anchor": 2.1943138208745467,
+          "continuous_shrunk_distance_from_anchor": 0.5485784552186344,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "dynamic_1": {
+          "family": "dynamic",
+          "error": 20,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "joint_list_2021": -1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 20,
+          "continuous_unshrunk_distance_from_anchor": 0.7886597938144293,
+          "continuous_shrunk_distance_from_anchor": 0.19716494845360666,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "ensemble_equal": {
+          "family": "ensemble",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "likud_2021": 1,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "likud_2021": 1,
+            "raam_2021": 1,
+            "religious_zionism_otzma_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 26,
+          "continuous_unshrunk_distance_from_anchor": 7.738574828234197,
+          "continuous_shrunk_distance_from_anchor": 1.9346437070585474,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": {
+            "recency_7": 0.2,
+            "ridge_10": 0.2,
+            "forest_3_5": 0.2,
+            "xgb_2_50": 0.2,
+            "dynamic_01": 0.2
+          },
+          "ensemble_fit_elections": []
+        },
+        "ensemble_1": {
+          "family": "ensemble",
+          "error": 22,
+          "error_change_from_mean": 2,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "raam_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "raam_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 24,
+          "continuous_unshrunk_distance_from_anchor": 3.7446714781024966,
+          "continuous_shrunk_distance_from_anchor": 0.936167869525627,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": {
+            "recency_7": 0.2,
+            "ridge_10": 0.0,
+            "forest_3_5": 0.2,
+            "xgb_2_50": 0.055869011666082435,
+            "dynamic_01": 0.5441309883339177
+          },
+          "ensemble_fit_elections": [
+            "knesset_22_2019sep",
+            "knesset_23_2020"
+          ]
+        },
+        "ensemble_5": {
+          "family": "ensemble",
+          "error": 24,
+          "error_change_from_mean": 4,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "likud_2021": 1,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "yamina_2021": 1
+          },
+          "error_changes_by_changed_list": {
+            "likud_2021": 1,
+            "raam_2021": 1,
+            "religious_zionism_otzma_2021": 1,
+            "yamina_2021": 1
+          },
+          "unshrunk_diagnostic_error": 26,
+          "continuous_unshrunk_distance_from_anchor": 7.738574828234194,
+          "continuous_shrunk_distance_from_anchor": 1.9346437070585474,
+          "false_positive_representation": [],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [
+            "raam_2021"
+          ],
+          "ensemble_weights": {
+            "recency_7": 0.2,
+            "ridge_10": 0.2,
+            "forest_3_5": 0.2,
+            "xgb_2_50": 0.2,
+            "dynamic_01": 0.20000000000000007
+          },
+          "ensemble_fit_elections": [
+            "knesset_22_2019sep",
+            "knesset_23_2020"
+          ]
+        }
+      }
+    },
+    {
+      "election_id": "knesset_25_2022",
+      "horizon_days": 1,
+      "training_election_count": 5,
+      "training_party_rows": 58,
+      "training_trend_missing_rows": 44,
+      "baseline_errors_by_list": [
+        {
+          "list_id": "meretz_2022",
+          "predicted": 4,
+          "actual": 0,
+          "signed_error": 4
+        },
+        {
+          "list_id": "shas_2022",
+          "predicted": 8,
+          "actual": 11,
+          "signed_error": -3
+        },
+        {
+          "list_id": "hadash_taal_2022",
+          "predicted": 4,
+          "actual": 5,
+          "signed_error": -1
+        },
+        {
+          "list_id": "labor_2022",
+          "predicted": 5,
+          "actual": 4,
+          "signed_error": 1
+        },
+        {
+          "list_id": "national_unity_2022",
+          "predicted": 11,
+          "actual": 12,
+          "signed_error": -1
+        },
+        {
+          "list_id": "raam_2022",
+          "predicted": 4,
+          "actual": 5,
+          "signed_error": -1
+        },
+        {
+          "list_id": "yesh_atid_2022",
+          "predicted": 25,
+          "actual": 24,
+          "signed_error": 1
+        },
+        {
+          "list_id": "balad_2022",
+          "predicted": 0,
+          "actual": 0,
+          "signed_error": 0
+        },
+        {
+          "list_id": "economic_freedom_2022",
+          "predicted": 0,
+          "actual": 0,
+          "signed_error": 0
+        },
+        {
+          "list_id": "jewish_home_2022",
+          "predicted": 0,
+          "actual": 0,
+          "signed_error": 0
+        },
+        {
+          "list_id": "likud_2022",
+          "predicted": 32,
+          "actual": 32,
+          "signed_error": 0
+        },
+        {
+          "list_id": "new_economic_2022",
+          "predicted": 0,
+          "actual": 0,
+          "signed_error": 0
+        },
+        {
+          "list_id": "religious_zionism_otzma_2022",
+          "predicted": 14,
+          "actual": 14,
+          "signed_error": 0
+        },
+        {
+          "list_id": "tzeirim_boarim_2022",
+          "predicted": 0,
+          "actual": 0,
+          "signed_error": 0
+        },
+        {
+          "list_id": "united_torah_judaism_2022",
+          "predicted": 7,
+          "actual": 7,
+          "signed_error": 0
+        },
+        {
+          "list_id": "yisrael_beiteinu_2022",
+          "predicted": 6,
+          "actual": 6,
+          "signed_error": 0
+        }
+      ],
+      "distinct_integer_allocations": 3,
+      "candidate_count": 18,
+      "candidates_identical_to_mean": 16,
+      "candidates_better_than_mean": 0,
+      "candidates_equal_error_to_mean": 16,
+      "candidates_worse_than_mean": 2,
+      "methods": {
+        "rounded_mean_reference": {
+          "family": "reference",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": null,
+          "continuous_unshrunk_distance_from_anchor": null,
+          "continuous_shrunk_distance_from_anchor": null,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "empirical_l1_consensus": {
+          "family": "reference",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": null,
+          "continuous_unshrunk_distance_from_anchor": null,
+          "continuous_shrunk_distance_from_anchor": null,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "recency_3": {
+          "family": "recency",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 12,
+          "continuous_unshrunk_distance_from_anchor": 0.7384451987502532,
+          "continuous_shrunk_distance_from_anchor": 0.18461129968756396,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "recency_7": {
+          "family": "recency",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 12,
+          "continuous_unshrunk_distance_from_anchor": 0.32445045237974224,
+          "continuous_shrunk_distance_from_anchor": 0.08111261309493756,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "recency_14": {
+          "family": "recency",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 12,
+          "continuous_unshrunk_distance_from_anchor": 0.1636512054441459,
+          "continuous_shrunk_distance_from_anchor": 0.04091280136103492,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "ridge_1": {
+          "family": "ridge",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 18,
+          "continuous_unshrunk_distance_from_anchor": 10.966246437417675,
+          "continuous_shrunk_distance_from_anchor": 2.741561609354416,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "ridge_10": {
+          "family": "ridge",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 18,
+          "continuous_unshrunk_distance_from_anchor": 10.324782091659506,
+          "continuous_shrunk_distance_from_anchor": 2.5811955229148786,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "ridge_100": {
+          "family": "ridge",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 14,
+          "continuous_unshrunk_distance_from_anchor": 6.634894517011041,
+          "continuous_shrunk_distance_from_anchor": 1.658723629252757,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "forest_2_5": {
+          "family": "forest",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 18,
+          "continuous_unshrunk_distance_from_anchor": 7.3253194555936485,
+          "continuous_shrunk_distance_from_anchor": 1.8313298638984121,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "forest_3_5": {
+          "family": "forest",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 16,
+          "continuous_unshrunk_distance_from_anchor": 9.600566580396578,
+          "continuous_shrunk_distance_from_anchor": 2.4001416450991413,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "forest_3_10": {
+          "family": "forest",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 14,
+          "continuous_unshrunk_distance_from_anchor": 7.6549083701400376,
+          "continuous_shrunk_distance_from_anchor": 1.9137270925350112,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "xgb_1_50": {
+          "family": "xgboost",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 18,
+          "continuous_unshrunk_distance_from_anchor": 9.090721915165583,
+          "continuous_shrunk_distance_from_anchor": 2.2726804787913952,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "xgb_2_50": {
+          "family": "xgboost",
+          "error": 14,
+          "error_change_from_mean": 2,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "religious_zionism_otzma_2022": -1,
+            "yesh_atid_2022": 1
+          },
+          "error_changes_by_changed_list": {
+            "religious_zionism_otzma_2022": 1,
+            "yesh_atid_2022": 1
+          },
+          "unshrunk_diagnostic_error": 18,
+          "continuous_unshrunk_distance_from_anchor": 6.662347753842672,
+          "continuous_shrunk_distance_from_anchor": 1.6655869384606685,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "xgb_2_100": {
+          "family": "xgboost",
+          "error": 14,
+          "error_change_from_mean": 2,
+          "identical_integer_forecast_to_mean": false,
+          "seat_changes_from_mean": {
+            "yesh_atid_2022": 1,
+            "yisrael_beiteinu_2022": -1
+          },
+          "error_changes_by_changed_list": {
+            "yesh_atid_2022": 1,
+            "yisrael_beiteinu_2022": 1
+          },
+          "unshrunk_diagnostic_error": 20,
+          "continuous_unshrunk_distance_from_anchor": 10.602765222390493,
+          "continuous_shrunk_distance_from_anchor": 2.650691305597624,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "dynamic_001": {
+          "family": "dynamic",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 12,
+          "continuous_unshrunk_distance_from_anchor": 2.028041522317544,
+          "continuous_shrunk_distance_from_anchor": 0.5070103805793886,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "dynamic_01": {
+          "family": "dynamic",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 12,
+          "continuous_unshrunk_distance_from_anchor": 1.6001454016721164,
+          "continuous_shrunk_distance_from_anchor": 0.40003635041803065,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "dynamic_1": {
+          "family": "dynamic",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 12,
+          "continuous_unshrunk_distance_from_anchor": 0.5333333333333385,
+          "continuous_shrunk_distance_from_anchor": 0.13333333333333464,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": null,
+          "ensemble_fit_elections": null
+        },
+        "ensemble_equal": {
+          "family": "ensemble",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 16,
+          "continuous_unshrunk_distance_from_anchor": 3.0667832990955817,
+          "continuous_shrunk_distance_from_anchor": 0.766695824773893,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": {
+            "recency_7": 0.2,
+            "ridge_10": 0.2,
+            "forest_3_5": 0.2,
+            "xgb_2_50": 0.2,
+            "dynamic_01": 0.2
+          },
+          "ensemble_fit_elections": []
+        },
+        "ensemble_1": {
+          "family": "ensemble",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 12,
+          "continuous_unshrunk_distance_from_anchor": 0.6633274002699953,
+          "continuous_shrunk_distance_from_anchor": 0.16583185006750015,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": {
+            "recency_7": 0.6798356144623182,
+            "ridge_10": 0.047016876258779365,
+            "forest_3_5": 0.0,
+            "xgb_2_50": 0.0,
+            "dynamic_01": 0.27314750927890247
+          },
+          "ensemble_fit_elections": [
+            "knesset_22_2019sep",
+            "knesset_23_2020",
+            "knesset_24_2021"
+          ]
+        },
+        "ensemble_5": {
+          "family": "ensemble",
+          "error": 12,
+          "error_change_from_mean": 0,
+          "identical_integer_forecast_to_mean": true,
+          "seat_changes_from_mean": {},
+          "error_changes_by_changed_list": {},
+          "unshrunk_diagnostic_error": 16,
+          "continuous_unshrunk_distance_from_anchor": 3.066783299095581,
+          "continuous_shrunk_distance_from_anchor": 0.766695824773893,
+          "false_positive_representation": [
+            "meretz_2022"
+          ],
+          "false_negative_representation": [],
+          "one_or_two_seat_estimates": [],
+          "ensemble_weights": {
+            "recency_7": 0.2,
+            "ridge_10": 0.2,
+            "forest_3_5": 0.2,
+            "xgb_2_50": 0.20000000000000007,
+            "dynamic_01": 0.2
+          },
+          "ensemble_fit_elections": [
+            "knesset_22_2019sep",
+            "knesset_23_2020",
+            "knesset_24_2021"
+          ]
+        }
+      }
+    }
+  ],
+  "family_summaries": {
+    "reference": {
+      "per_election_error_range": {
+        "knesset_24_2021": {
+          "minimum": 20,
+          "maximum": 20
+        },
+        "knesset_25_2022": {
+          "minimum": 12,
+          "maximum": 12
+        }
+      }
+    },
+    "recency": {
+      "per_election_error_range": {
+        "knesset_24_2021": {
+          "minimum": 20,
+          "maximum": 20
+        },
+        "knesset_25_2022": {
+          "minimum": 12,
+          "maximum": 12
+        }
+      }
+    },
+    "ridge": {
+      "per_election_error_range": {
+        "knesset_24_2021": {
+          "minimum": 22,
+          "maximum": 24
+        },
+        "knesset_25_2022": {
+          "minimum": 12,
+          "maximum": 12
+        }
+      }
+    },
+    "forest": {
+      "per_election_error_range": {
+        "knesset_24_2021": {
+          "minimum": 24,
+          "maximum": 24
+        },
+        "knesset_25_2022": {
+          "minimum": 12,
+          "maximum": 12
+        }
+      }
+    },
+    "xgboost": {
+      "per_election_error_range": {
+        "knesset_24_2021": {
+          "minimum": 24,
+          "maximum": 24
+        },
+        "knesset_25_2022": {
+          "minimum": 12,
+          "maximum": 14
+        }
+      }
+    },
+    "dynamic": {
+      "per_election_error_range": {
+        "knesset_24_2021": {
+          "minimum": 20,
+          "maximum": 22
+        },
+        "knesset_25_2022": {
+          "minimum": 12,
+          "maximum": 12
+        }
+      }
+    },
+    "ensemble": {
+      "per_election_error_range": {
+        "knesset_24_2021": {
+          "minimum": 22,
+          "maximum": 24
+        },
+        "knesset_25_2022": {
+          "minimum": 12,
+          "maximum": 12
+        }
+      }
+    }
+  },
+  "history_features": [
+    {
+      "election_id": "knesset_20_2015",
+      "role": "training_and_oof_history",
+      "party_rows": 11,
+      "polling_groups": 3,
+      "trend_missing_rows": 11,
+      "group_count_values": [
+        3
+      ],
+      "mean_poll_age_days": 7.333333333333333
+    },
+    {
+      "election_id": "knesset_21_2019apr",
+      "role": "training_and_oof_history",
+      "party_rows": 14,
+      "polling_groups": 3,
+      "trend_missing_rows": 14,
+      "group_count_values": [
+        3
+      ],
+      "mean_poll_age_days": 3.6666666666666665
+    },
+    {
+      "election_id": "knesset_22_2019sep",
+      "role": "training_and_oof_history",
+      "party_rows": 10,
+      "polling_groups": 3,
+      "trend_missing_rows": 10,
+      "group_count_values": [
+        3
+      ],
+      "mean_poll_age_days": 5.666666666666667
+    },
+    {
+      "election_id": "knesset_23_2020",
+      "role": "training_and_oof_history",
+      "party_rows": 9,
+      "polling_groups": 3,
+      "trend_missing_rows": 9,
+      "group_count_values": [
+        3
+      ],
+      "mean_poll_age_days": 6.666666666666667
+    },
+    {
+      "election_id": "knesset_24_2021",
+      "role": "comparison",
+      "party_rows": 14,
+      "polling_groups": 3,
+      "trend_missing_rows": 0,
+      "group_count_values": [
+        3
+      ],
+      "mean_poll_age_days": 3.3333333333333335
+    },
+    {
+      "election_id": "knesset_25_2022",
+      "role": "comparison",
+      "party_rows": 16,
+      "polling_groups": 3,
+      "trend_missing_rows": 0,
+      "group_count_values": [
+        3
+      ],
+      "mean_poll_age_days": 3.3333333333333335
+    }
+  ]
+}
