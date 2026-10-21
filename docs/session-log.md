@@ -1,5 +1,15 @@
 # Session log
 
+## 2026-10-21 - User review and forecasting research
+
+- Explained the first results as equally weighted poll summaries (rounded mean and empirical L1 consensus), not a trained predictor; turnout repeats official 2022's 70.63%. Reclassified agent-selected window/weight/method choices as provisional, not user-selected final methods. In-sample disagreement and correctness tests are not historical forecasting evidence.
+- Preserved the user's questions and proposed work in research-agenda.md: threshold/post-allocation target, historical poll/result evaluation and repeated-election years, exact 14-day and omitted-category semantics, a war/turnout check, forests/pretrained alternatives, and additional data. No new forecast/model was requested or produced in this research update.
+- Rechecked both Hebrew PDF pages visually: scoring references final official CEC results including double-envelope ballots, interpreted as final allocated seats. Readable 2022 official results show below-threshold lists at zero. Official indexed rule text supports 3.25% of valid votes and a theoretical three-seat edge case; direct current/full official allocation verification remains blocked by geographic/403 restrictions.
+- Reviewed primary examples for Spain (Bayesian fundamentals plus polls), US (regularized fundamentals/dynamic polling), UK (MRP), and India (random forests plus post-stratification), and a generic pretrained tabular candidate. Recorded transferability, licensing/access caveats and the lack of a verified plug-in Israeli checkpoint.
+- Cataloged official historical/geographic results, CBS turnout/demographics, INES, economic covariates and UCDP conflict data. Found an original final 2021 Channel 13 poll. These are source discoveries, not an ingested backtest dataset. CBS table heading says 1949-2022 but inspected rows stop in 2021.
+- Proposed first evaluation on 2021/2022, optional extension to six 2015-2022 elections, chronological cutoffs/whole-election tests, and a repeated-period sensitivity. War coding and effect direction remain open; no trend result or adjustment was calculated. Existing numerical inputs/code/reports are unchanged. Validation/publication evidence is appended after checks.
+- Local documentation checks passed for relative file links and balanced code fences across 16 Markdown files; Git whitespace checks passed and all changes were reviewed. No executable change or new forecast-accuracy claim is included.
+
 ## 2026-10-21 - First audited data and runnable baseline (R001)
 
 - User accepted proceeding with the disclosed current Joint List/form mapping. Encoded it as an explicit assumption and preserved election-specific historical identities.

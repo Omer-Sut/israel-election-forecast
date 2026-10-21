@@ -18,10 +18,10 @@
 | 2026-10-21 | Turnout's reported point prediction and export must lie in [40.00, 100.00] percent, inclusive; use two-decimal presentation. | User explicitly confirmed form bounds; display precision is a project convention, not a verified input step |
 | 2026-10-21 | Proceed with current Joint List polling mapped to the form's Hadash-Ta'al field as an explicit assumption; retain historical distinctions. | User accepted proceeding after the three-party composition was explained |
 | 2026-10-21 | Use standard-library Python 3.12 and a small hosted GitHub Actions CPU job for the first baseline; defer notebook/dependencies. | Minimal setup and direct cross-device reproduction |
-| 2026-10-21 | Keep one latest audited release per declared polling group, equally weighted; compare rounded mean with empirical L1 consensus. | Transparent initial reference; predictive performance has not been validated |
 
 ## Provisional choices
 
+- The first implementation uses a 14-day effective poll-age window, one latest audited release per group, equal weights, rounded mean and empirical L1 consensus. These are agent-selected reference choices, not user-selected final methods. They have not been historically validated. Preserve the original outputs when comparing alternatives.
 - Plan for the systematic track because this is a modeling project. Confirm track and participants before preparing submission.
 - Plan deadlines using Asia/Jerusalem; the PDF does not explicitly specify the timezone.
 - Use topic branches and pull requests for collaboration.
@@ -31,6 +31,7 @@
 
 ## Open
 
+- User requested historical poll/result backtests, investigation of war and turnout, additional data, and forests/pretrained alternatives. The documented [research agenda](research-agenda.md) and [source review](forecasting-research.md) are proposals; no new model or historical-range decision has been approved or implemented.
 - Team members and eligibility; chosen competition track.
 - Official/poll/form list mappings, hidden form validation, turnout precision, and exact timezone; form party inventory is now recorded.
 - Precise scoring treatment of several lists within the form's other-qualifiers bucket; retain disaggregated internal outcomes.

@@ -10,6 +10,7 @@ Build a reproducible model to forecast the results of Israel's 26th Knesset elec
 4. Agents should also read [AGENTS.md](AGENTS.md).
 5. Follow the [eight-hour plan](docs/project-plan.md) and [user constraints](docs/project-constraints.md) before choosing methods.
 6. Use the [submission contract](docs/submission-contract.md) and [field configuration](config/submission-fields.json) for forecast outputs.
+7. Read the [user feedback and research agenda](docs/research-agenda.md) and [forecasting research review](docs/forecasting-research.md) before extending or selecting a model.
 
 The original Hebrew guidelines are preserved unchanged as [the source PDF](תחרות%20תחזית%20בחירות%20לכנסת%20ה26.pdf). They are authoritative if the English summary is ambiguous.
 
@@ -63,6 +64,8 @@ For online work, use the repository's [Actions tab](https://github.com/Omer-Sut/
 | `docs/data-sources.md` | Source inventory and provenance conventions |
 | `data/README.md` | Actual first-snapshot audit, coverage gaps, and update procedure |
 | `docs/baseline-method.md` | Implemented methods, reproduction, diagnostics, and limitations |
+| `docs/research-agenda.md` | User feedback, threshold questions, historical validation and war/turnout proposals |
+| `docs/forecasting-research.md` | Primary-source forecasting examples, additional data, applicability and limitations |
 | `docs/project-constraints.md` | User requirements, eight-hour budget, and scope limits |
 | `docs/project-plan.md` | Task/data/method stages, timeboxes, validation, and stopping rules |
 | `docs/experiment-log.md` | Run, effort, evidence, and decision records |
