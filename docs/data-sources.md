@@ -2,6 +2,8 @@
 
 Initial web review and first data collection: **October 21, 2026**. The first [audited input snapshot](../data/README.md) now stores six poll records, five active groups, and a partial official 2022 outcome table. The sections below preserve the broader source inventory and its limitations; not every reviewed source has been ingested.
 
+The subsequent [forecasting research review](forecasting-research.md) records additional official/research sources, historical poll discovery, retrieval limitations and candidate uses. The [research agenda](research-agenda.md) distinguishes the user's feedback from proposed validation and turnout experiments. Those sources have not been ingested as model inputs.
+
 ## Sources supplied in the competition guidelines
 
 ### S1. Wikipedia poll compilation

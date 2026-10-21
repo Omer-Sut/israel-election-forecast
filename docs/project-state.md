@@ -1,6 +1,6 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (first audited poll dataset and runnable baseline).
+Last updated: October 21, 2026 (user review, forecasting literature and additional-data research).
 
 ## Goal and constraints
 
@@ -22,13 +22,19 @@ Repository: https://github.com/Omer-Sut/israel-election-forecast
 
 ## Important results and limits
 
+The user requested an explanation of the autonomous baseline and then asked to preserve feedback, research established forecasting approaches, and identify useful non-headline-poll data. Read [research-agenda.md](research-agenda.md) for the full feedback, exact window/omission clarifications, proposed historical range and war/turnout design; read [forecasting-research.md](forecasting-research.md) for primary-source examples (Spain, US, UK, India/random forests), TabPFN caveats, additional data and rule evidence. These are research/proposals, not new implemented models. Existing configurations, poll snapshots and forecast outputs are unchanged. No historical backtest or war-effect calculation has run.
+
+Both PDF pages were rechecked: the target is interpreted as final allocated seats after threshold exclusion, using the stated final official outcome. Readable official 2022 outcomes corroborate this. Official-domain indexed text supports 3.25% of valid votes, and Knesset research notes a theoretical three-seat result rather than a universal four-seat minimum. Full operative 2026 rules/agreements remain unverified because direct official rule retrieval was blocked; no allocator has been built.
+
 Average absolute disagreement with the input polls: rounded mean 14.4; L1 consensus 12.4. These are in-sample descriptive objectives, not forecast accuracy. Omitting a group changes L1 consensus by 4-8 total absolute seat difference. Only form arithmetic is constrained; no official vote-to-seat allocator is implemented. Full vote shares, surplus agreements, predictive error calibration, and support redistribution after reported Blue and White withdrawal are not modeled.
 
 Kan and several October 20 releases (including i24/Direct Polls and Channel 16) remain unaudited. Keep them on the collection list. Do not call the five-group sample all current evidence.
 
 ## Publication and reproduction
 
-Research PR #4 was merged; main was synchronized at 3b56731 before this implementation. Baseline PR #5 uses feat/audited-poll-baseline; its implementation commit aee2f11 passed the hosted checks. The accompanying handoff update records that evidence; check actual Git/PR state for the latest merge/revision.
+Baseline PR #5 was merged; before this research update, main was clean and matched origin/main at ec4396e. Research documentation is published through [PR #6](https://github.com/Omer-Sut/israel-election-forecast/pull/6), branch docs/research-methods-and-user-feedback. Initial research commit fcd50c8 was verified on the remote; [hosted run 39580440662](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39580440662) passed all baseline tests and exact report reproduction. This confirms the existing baseline still reproduces, not predictive validation of any researched candidate. This handoff records that verified evidence; inspect Git/PR state for subsequent commits and merge status.
+
+Research validation: relative local-file links and code-fence balance passed across 16 Markdown files; Git whitespace checks passed. Reviewed changes are documentation only; executable code, configurations, data snapshots and forecast reports are unchanged. No new predictive tests were claimed or run for this research.
 
 Run from a fresh Python 3.12 session:
 
@@ -39,10 +45,11 @@ See docs/baseline-method.md, data/README.md, and experiment-log.md (R001). Input
 
 ## Next actions
 
-1. Audit omitted latest source releases and reconcile metadata/current lineup changes. Preserve the current snapshot for comparison.
-2. Collect comparable historical pre-election polls and evaluate against same-election official outcomes with appropriate cutoffs. Historical outcomes alone are not a backtest.
-3. Decide whether to retain this seats-only reference or add the one planned uncertainty/vote-share improvement. Verify operative allocation rules/agreements before implementing a vote-share allocator.
-4. Confirm final team/track, timezone, any remaining form validation/precision, and treatment of the other-qualifiers scoring bucket. Keep updating the method report; never submit without the user's explicit authorization.
+1. Discuss the documented input tables and candidate methods before selecting a final model. Baseline window/weights remain unvalidated implementation choices, now explicitly classified as provisional in decisions.md.
+2. Assemble 2021/2022 pre-election polls plus official targets for an initial historical comparison. An original March 19, 2021 Channel 13 poll was located, not ingested. If time permits, extend to six 2015-2022 elections and separately summarize the repeated 2019-2021 period. Use time-respecting cutoffs and whole-election evaluation.
+3. If pursuing the user's war/turnout idea, build the official series beginning in 1949 and predefine conflict/lag coding before comparison. The inspected CBS table ends in 2021 despite a 1949-2022 title; official 2022 turnout is already available separately. No directional adjustment is justified yet.
+4. Audit omitted current releases/current lineup changes and preserve the original snapshot. Obtain complete operative rules/agreements before implementing vote-share allocation. Consider one justified uncertainty improvement or a small forest challenger only after defining features and validation; no pretrained election-specific checkpoint was verified.
+5. Confirm final team/track, timezone, remaining form validation/precision, and other-qualifiers scoring. Keep updating the method report and preserve final-report time; never submit without explicit authorization.
 
 ## Environment notes
 

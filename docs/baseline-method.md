@@ -21,9 +21,13 @@ Verified: [hosted run 39572969093](https://github.com/Omer-Sut/israel-election-f
 
 Use the latest eligible audited release per configured polling group in the 14 days preceding the as-of date, with one equal weight per selected group. Six stored observations produce five active groups because Walla and Maariv share Lazar/Panel4All. This avoids simple repeat-publication overcounting, but it does not prove independence across organizations or shared panels/methods.
 
+These were agent-selected reference choices, not a user-selected final model. The window measures elapsed days using fieldwork end when known (publication otherwise); its inclusive lower bound for October 21 is October 7. It is not a training window, a required sample of 14 polls, or a recency weighting rule. The user's subsequent questions and requested alternatives are preserved in [research-agenda.md](research-agenda.md).
+
 Publication date and any recorded source-update date must precede the cutoff. Use known fieldwork end for age; where unavailable, use publication date as an explicit proxy. An earlier cutoff must not reuse a source version updated later. The current snapshot is an audited convenience sample, not every latest poll. No numerical house-effect correction or sample-size weighting has been estimated.
 
 Map source-list labels through `config/poll-mappings.json`. For complete audited tables summing to 120, residual zero seats are inferred for omitted form fields. Missing vote percentages are not imputed. Below-threshold percentages are retained for future analysis and do not enter this seats-only consensus.
+
+Here, an omitted field means a required form category absent from that complete source seat allocation, such as Blue and White. It does not mean zero voter support. This inference is not appropriate for an incomplete table or an unresolved source/list mapping. The code relies on the completeness audit; it cannot establish source completeness from a missing value alone.
 
 ## Two seat references
 

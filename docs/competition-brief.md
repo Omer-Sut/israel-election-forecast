@@ -32,6 +32,8 @@ The main score is the sum of absolute differences between predicted seats and of
 
 The reference outcome is the Central Elections Committee's **final official result after double-envelope ballots have been counted**.
 
+Rechecked visually on October 21 after the user's threshold question: this means **final allocated seats after threshold exclusion and seat allocation**, not a hypothetical pre-threshold seat count (project interpretation of the stated target). Official 2022 results publish vote shares alongside these final seats; for example Meretz has 3.16% and zero seats. See [the rules/source review](forecasting-research.md#electoral-rules-and-the-scored-target). The PDF does not explicitly require a submitted point estimate to be a fully attainable allocation or resolve the combined other-qualifiers scoring detail.
+
 ## Additional systematic-track requirements (pages 1-2)
 
 - A method description of **up to 500 words**, covering the model, data, and assumptions.
