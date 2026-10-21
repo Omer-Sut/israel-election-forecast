@@ -1,0 +1,59 @@
+name: Screen lightweight forecast models
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/experiments.py'
+      - 'tests/test_experiments.py'
+      - 'config/**'
+      - 'data/snapshots/**'
+      - 'requirements-experiments.txt'
+      - '.github/workflows/experiments.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  screen:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      REQUIRE_EXPERIMENT_DEPS: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-experiments.txt
+      - name: Install locked CPU experiment dependencies
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-experiments.txt
+          python -m pip check
+      - name: Run contract, leakage and model smoke tests
+        run: python -m unittest discover -s tests -v
+      - name: Run exploratory historical diagnostics and synthetic smoke checks
+        run: python scripts/experiments.py --out-dir output/experiments
+      - name: Verify deterministic predictions on a second run
+        run: |
+          python scripts/experiments.py --out-dir output/experiments-repeat
+          diff -u output/experiments/predictions.csv output/experiments-repeat/predictions.csv
+          diff -u output/experiments/smoke.json output/experiments-repeat/smoke.json
+          diff -u output/experiments/summary.md output/experiments-repeat/summary.md
+      - name: Preserve installed environment and show report
+        run: |
+          python -m pip freeze > output/experiments/environment.txt
+          cat output/experiments/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: lightweight-model-screen
+          path: output/experiments/
+          if-no-files-found: warn
+          retention-days: 30

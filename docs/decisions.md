@@ -2,6 +2,9 @@
 
 ## Accepted
 
+- October 21, E001: user approved the implementation plan and chose cloud setup/screening first, with soft limits rather than hard movement caps. Use a separate GitHub Actions CPU environment and three fixed configurations each for recency, ridge, forest, XGBoost, dynamic and ensemble; preserve both original references. This supersedes the earlier one-improvement implementation scope, while retaining lightweight compute and the total effort constraint.
+- E001 experimental defaults: 25% correction around the unrounded latest-group mean, no hard bounds, deterministic sum-120 reconciliation. Numerical defaults are test settings, not historically selected parameters or calibrated confidence claims. Restrict real inputs to audited snapshots; one-election fits are diagnostics, strict fits need two prior elections and optimized ensembles need two prior strict OOF elections. No final model or replacement 2026 forecast is selected.
+
 | Date | Decision | Basis |
 | --- | --- | --- |
 | 2026-10-21 | Use English for communication, code, and project documentation. Retain Hebrew sources where needed. | Explicit user request |

@@ -1,5 +1,16 @@
 # Experiment and effort log
 
+## E001 - Narrow cloud model screening (October 21, 2026)
+
+- Question: can lightweight poll-centered corrections improve references without large movement? User approved cloud-first implementation and soft shrinkage. Three configurations each for six candidate families; no automated search or final selection.
+- Inputs: existing audited 2021/2022 snapshots, T−6/T−1, 14-day window. Each target election uses earlier completed elections only. One-election fits are labeled diagnostics. Bulk indexes/demographics are excluded. Full assumptions and feature/ensemble targets in `docs/model-screening.md`.
+- Reproduce: `python scripts/experiments.py --out-dir output/experiments` with pinned `requirements-experiments.txt`, or the dedicated Actions workflow. Reports include code/input hashes, seed, statuses, dates, configs, runtime, errors and movement. Synthetic smoke evidence is separate and never ranked by accuracy.
+- Validation checkpoint: 40 local passes, three optional scientific tests skipped (43 total). Cloud requires all dependencies; real scientific outputs and hosted status pending verification. Optimized ensembles have insufficient real history; no weights are borrowed from synthetic tests.
+- Hands-on effort/cumulative effort not measured. Runtime will be recorded by the runner, separately from user effort. Next audit earlier election panels, then compare strict folds before narrowing to two challengers.
+- First verified execution: implementation e650619, PR #12, [screen run 39621960539](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39621960539), all 43 tests passed, 20 configurations exercised and outputs deterministic. Runtime 2.772s (repeat 2.788s); approximately 66s hosted job including setup/tests. Artifact 12355521369 verified unexpired, 34,852 compressed bytes. Original baseline/database reproduction 39621960596 also passed.
+- First real diagnostic: 2022 T−6 all fitted candidate errors=12; T−1=12–14, both references=12. No improvement established; one training/one evaluation election cannot rank families. Optimized real ensemble fits unavailable. Later provenance-only code update is recorded separately after its run succeeds.
+- Final code verification: `12d19d5e13ff5f226321fda8e5a3ab07102b95cf`, [screen 39622248851](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39622248851) and [baseline 39622248780](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39622248780), both successful. 43 tests passed; real+synthetic runner=2.720s; job approximately 60s. Artifact 12356255608 verified unexpired (38,185 compressed bytes), downloaded, every input/code hash matched. Durable outputs: `reports/screening-2026-10-21/` (331,703 bytes). Report code_commit is the tested PR merge ref 4fc96087caa1bb86c0e7df969c556c81dc47bc1b. No model chosen; next audit older panels.
+
 ## D002 - CBS geographic context integration (October 21, 2026)
 
 - Question: obtain broad official demographic/socioeconomic profiles linkable to historical locality/ballot results. This is data ingestion and descriptive linkage, not a forecasting experiment. User hands-on effort was not measured; the eight-hour budget is not reset.

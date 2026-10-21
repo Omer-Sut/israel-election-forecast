@@ -1,5 +1,7 @@
 # User feedback and research agenda
 
+E001 implementation update: [model-screening.md](model-screening.md) now implements the approved small cloud grid with soft 25% corrections; no final model or calibrated bound is selected. The older proposal-stage wording below is historical. See project-state and experiment-log for actual runs, diagnostics and remaining earlier-election audits.
+
 Latest direction (October 21): [poll-centered-modeling.md](poll-centered-modeling.md) supersedes the active priority of locality modeling. The user wants recent polls as the anchor, modest historical-data corrections, auxiliary poll-consistency diagnostics and discussion of bounded solution spaces. Locality forecasting is a possible future direction; its data remains available. No bound/model/interval has been selected or implemented.
 
 Recorded October 21, 2026. This is a handoff for collaborators and agents; proposals below are not selected models or completed experiments. See [implemented baseline](baseline-method.md), [research review](forecasting-research.md), and [current state](project-state.md).

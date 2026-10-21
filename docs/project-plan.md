@@ -1,5 +1,7 @@
 # Eight-hour forecasting plan
 
+Latest execution plan (E001): the user approved a narrow cloud screen of six lightweight candidate families with three configurations each, prioritizing today's one-hour availability and soft limits. See [model-screening.md](model-screening.md) for the implemented contract, workflow, evidence gates and remaining data audit. This extends the earlier one-improvement scope below; it does not reset the total effort budget or establish a final model ranking.
+
 Planning date: October 21, 2026. User constraints: [project-constraints.md](project-constraints.md). This is a proposed implementation sequence, not a claim that any method has run.
 
 Execution update: [the first preliminary baseline](baseline-method.md) is now implemented with six stored poll records, five selected groups, an official historical turnout reference, nine correctness tests, and committed outputs. A GitHub Actions CPU workflow replaces the initially proposed notebook to minimize setup. Historical forecast validation and additional source audits remain open; planned methods below are not all implemented.

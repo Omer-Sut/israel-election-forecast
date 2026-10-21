@@ -1,6 +1,24 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (poll-centered modeling direction recorded).
+Last updated: October 21, 2026 (cloud model screening implementation).
+
+## Current handoff — lightweight cloud screening (E001)
+
+The user approved implementation of a narrow all-family screen, prioritizing cloud setup within today's one-hour availability and soft correction limits before hard caps. Implemented 18 candidate configurations (recency, ridge Gaussian GLM, forest, XGBoost, dynamic Kalman, ensemble; three each) plus unchanged mean/L1 references. Read [model-screening.md](model-screening.md) for exact inputs, features, weights, reconciliation, evidence tiers and execution.
+
+`Screen lightweight forecast models` is a separate GitHub Actions CPU workflow: Python 3.12, locked optional scientific dependencies, no secrets/GPU/local training. It runs all tests, real historical diagnostics, synthetic checks for all configurations, deterministic reruns and artifact upload. Baseline inputs/code/reports and current 2026 forecasts are unchanged. Audit tier is explicit: only the existing original-source-audited 2021/2022 panel is used, not bulk poll indexes/CBS/INES.
+
+Work started from clean main on `feat/cloud-model-screening`, published through [PR #12](https://github.com/Omer-Sut/israel-election-forecast/pull/12). Final code commit `12d19d5e13ff5f226321fda8e5a3ab07102b95cf` passed [screen run 39622248851](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39622248851): all 43 tests with scientific dependencies, all 20 configurations exercised, deterministic reruns, artifact upload. Experiment runtime was 2.720 seconds; hosted job approximately 60 seconds including setup/tests. [Baseline run 39622248780](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39622248780) also succeeded with original reports/database checks. Earlier implementation e650619 passed both workflows too. A new boundary test caught ambiguous older syndicated trajectory copies; the runner rejects them without changing the baseline.
+
+Verified artifact 12356255608 (38,185 compressed bytes) was downloaded and its consumed code/input hashes all matched current files. Five compact outputs (331,703 bytes total) are preserved in [reports/screening-2026-10-21](../reports/screening-2026-10-21/): summary, full JSON/provenance, per-list CSV, synthetic smoke result and installed package environment. The JSON's code_commit is the tested GitHub PR merge ref `4fc96087caa1bb86c0e7df969c556c81dc47bc1b`, not a claim that the topic branch was already merged. This evidence/continuity update is a later report/documentation commit; inspect actual Git/PR state for subsequent publication/merge status.
+
+Publication checkpoint: report/documentation commit `31324b17ad3fb1012f64dc5a5bf3f6632a565093` was pushed. Both final PR checks succeeded: [screen 39622977662](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39622977662) and [baseline 39622977663](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39622977663). Handoff commit 08c4385 also passed both workflows (39623330606 / 39623330696); PR was CLEAN. Automatic review initially required explicit approval to merge into main. The user subsequently explicitly authorized merging PR #12; that approval now resolves the earlier block. This follow-up handoff records the approval before merge; inspect live PR/Git state for completion and the resulting main SHA. The manual Run workflow button becomes available after merge.
+
+User feedback after screening: the many insufficient-data cells were surprising given the major database collection. Clarify that the six-election results and 790 raw main-table poll candidates exist, but only the 12-release 2021/2022 audited subset is wired into this runner. These cells mean insufficient earlier training/OOF history in that configured panel, not an absence of collected poll records or inability of the model family to run. Do not present broad data collection as completed model preparation. Prioritize cleaning/mapping/date checks and connecting earlier collected polls to the screen before adding model families or collecting more locality rows.
+
+Initial real results: for 2022, all fitted candidates tie error 12 at T−6; at T−1, candidates score 12 or 14 versus both references at 12. No candidate improves on those references on this observed election. This is a one-training-election preview, not evidence to select/discard a family. Optimized ensembles have no real fit; synthetic optimization is software evidence only.
+
+Next: audit earlier election polling panels, then run the unchanged grid with strict chronological folds. Supervised 2022 fits use only 2021 and are diagnostics; optimized real ensembles remain unavailable until two earlier strict OOF elections exist. No model is selected, no hard bound/CI is calibrated, and no competition submission is made. Hands-on effort remains unmeasured; the eight-hour total budget is not reset.
 
 ## Latest direction — refine recent polls, defer locality forecasting
 

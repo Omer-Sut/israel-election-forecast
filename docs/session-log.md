@@ -1,5 +1,20 @@
 # Session log
 
+## 2026-10-21 - Merge authorization and data-readiness clarification
+
+- User explicitly authorized merging PR #12 and asked why so many cells show insufficient data despite the database collection. Existing six-election outcomes and 790 raw poll-index candidates are not the same as the runner's 12 audited releases from 2021/2022. Publication dates, duplicates and historical lineups remain the preparation gap.
+- Explain model-specific gates: 2021 has no earlier configured training election; 2022 has only one; learned ensembles need two earlier strict OOF elections. Thousands of ballot/locality rows do not replace independent national elections. Next priority is making the already-collected earlier polls model-ready and connecting them, not new model families or more locality collection.
+- Both checks passed on 08c4385 before this documentation follow-up. User approval resolves the previous automatic-review merge block; verify the authorized merge and default-branch workflow after publication.
+
+## 2026-10-21 - Implement cloud screening plan (E001)
+
+- User requested execution after choosing cloud setup/screening and soft limits. Added optional locked scientific environment, separate hosted workflow, 18 candidate configurations plus two references, chronological residual learners, simple dynamic filter, constrained numerical ensemble weights, joint reconciliation and provenance/reporting.
+- Kept frozen code/data/reports unchanged. Existing two-election audited panel supplies only real diagnostics; synthetic checks separately exercise all configurations including optimized ensembles. Added temporal/target leakage, duplicate trajectory, coverage, weighting, optimizer and arithmetic checks.
+- Local checkpoint: 43 tests, 40 passed, three optional scientific tests skipped; cloud is configured to require them. Older same-group/day duplicate history was caught by a new test and rejected. Hosted verification/publication pending at this checkpoint; no model selected. See project-state/model-screening for the next actions.
+- First implementation e650619 pushed through PR #12; hosted screen 39621960539 passed all 43 tests, full grid smoke checks and deterministic reruns. Historical experiments took 2.772s; original reproduction run 39621960596 passed. Initial 2022 fitted errors are 12 at T−6 and 12–14 at T−1, versus references 12/12; no challenger is selected. Provenance refinement 12d19d5 was pushed and awaits its separate hosted result.
+- Final code 12d19d5 verified by screen 39622248851 and baseline 39622248780, both successful. All 43 scientific-environment checks and deterministic reruns passed; runtime=2.720s. Downloaded artifact 12356255608, verified every consumed hash, preserved five compact reports under reports/screening-2026-10-21. Markdown links/fences and Git whitespace checks passed. Remaining work is earlier-election audit, not heavier compute. Later report/documentation publication and merge status should be checked in live Git/PR state.
+- Report commit 31324b1 pushed; final screen 39622977662 and baseline 39622977663 both passed and PR #12 was CLEAN. Automatic approval review rejected merging into main without explicit user approval for that shared-branch change. No merge occurred; do not bypass. This final handoff update records the pending approval. All implementation/results are published on the topic branch; browser manual dispatch awaits merge.
+
 ## 2026-10-21 - Poll-centered modeling feedback
 
 - User wants recent 2026 polls to represent the main forecast picture, with modest refinements from historical/auxiliary data. They believe existing mean/L1 outputs may be close; recorded as intuition, not future accuracy evidence. Locality forecasting is deferred as a possible future direction; data is retained.
