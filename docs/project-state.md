@@ -2,6 +2,14 @@
 
 Last updated: October 21, 2026 (cloud model screening implementation).
 
+## Latest handoff — usable earlier elections (E002)
+
+User requested using years with enough earlier training data. Starting from clean main `507fdd8` after verified PR #12 merge, prepared twelve original-source-reviewed releases for 2015, April/September 2019 and 2020; combined with the unchanged twelve 2021/2022 releases. Read [six-election-screening.md](six-election-screening.md) for exact source conflicts, derivations, dates, mappings and limitations. Offline preparation joins ballot codes to frozen national outcomes; it does not silently promote all 790 index rows.
+
+Active screening uses T−1 for all six elections, with 2015/April2019 initial training, September2019/2020 strict OOF history, and 2021/2022 complete comparison. Each comparison has four/five earlier elections; optimized ensembles can fit earlier real OOF predictions. Original grid/shrinkage is unchanged; all comparison methods are required to predict. Early warm-up unavailable fits remain visible in full JSON/CSV but are separate from comparison tables. E001 configuration is archived; original baseline, pilot and screening reports remain unchanged.
+
+Local focused checkpoint: ten dependency-free experiment checks passed; four scientific tests await hosted execution. Generated panel rebuild succeeded. No new model scores or cloud success claimed yet; branch `feat/six-election-screening-panel` is being prepared for publication. Next: cloud verification, preserve results and source-metadata sensitivity before narrowing any model family. No current 2026 forecast is changed. User hands-on effort remains unmeasured.
+
 ## Current handoff — lightweight cloud screening (E001)
 
 The user approved implementation of a narrow all-family screen, prioritizing cloud setup within today's one-hour availability and soft correction limits before hard caps. Implemented 18 candidate configurations (recency, ridge Gaussian GLM, forest, XGBoost, dynamic Kalman, ensemble; three each) plus unchanged mean/L1 references. Read [model-screening.md](model-screening.md) for exact inputs, features, weights, reconciliation, evidence tiers and execution.

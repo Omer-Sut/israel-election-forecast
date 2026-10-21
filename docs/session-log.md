@@ -1,5 +1,11 @@
 # Session log
 
+## 2026-10-21 - Prepare six-election training history (E002)
+
+- User asked to use years with enough data. Added 12 original-source-reviewed releases from 2015, both 2019 elections and 2020, plus deterministic offline panel/outcome construction. Retain original source dates, known revisions, ballot-code mappings, two explicit tied-seat derivations and metadata conflicts; no blanket promotion of index rows.
+- Fixed T−1 across six elections. Earlier four elections provide training/strict OOF history; 2021/2022 comparisons have four/five earlier elections and must produce every model. Early warm-up insufficiency is explicit in full outputs, separate from comparison tables. Archived E001 config; original forecasts/reports untouched.
+- Ten focused local checks passed; four scientific checks await the cloud environment. Hosted execution/publication and scores pending at this checkpoint. Full source findings and next actions in six-election-screening/project-state.
+
 ## 2026-10-21 - Merge authorization and data-readiness clarification
 
 - User explicitly authorized merging PR #12 and asked why so many cells show insufficient data despite the database collection. Existing six-election outcomes and 790 raw poll-index candidates are not the same as the runner's 12 audited releases from 2021/2022. Publication dates, duplicates and historical lineups remain the preparation gap.

@@ -5,6 +5,7 @@ on:
   pull_request:
     paths:
       - 'scripts/experiments.py'
+      - 'scripts/prepare_screening_panel.py'
       - 'tests/test_experiments.py'
       - 'config/**'
       - 'data/snapshots/**'
@@ -38,6 +39,10 @@ jobs:
           python -m pip check
       - name: Run contract, leakage and model smoke tests
         run: python -m unittest discover -s tests -v
+      - name: Rebuild reviewed six-election panel offline
+        run: |
+          python scripts/prepare_screening_panel.py --out-dir output/panel-rebuild
+          diff -ru data/snapshots/screening-six-elections-2026-10-21/prepared output/panel-rebuild
       - name: Run exploratory historical diagnostics and synthetic smoke checks
         run: python scripts/experiments.py --out-dir output/experiments
       - name: Verify deterministic predictions on a second run

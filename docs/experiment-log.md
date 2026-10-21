@@ -1,5 +1,11 @@
 # Experiment and effort log
 
+## E002 - Complete comparison using six-election history (October 21, 2026)
+
+- User requested years with enough earlier history. Predeclared protocol: T−1 across 2015, April/September2019, 2020, 2021, 2022; first four provide training and strict OOF history, final two complete the all-model comparison. Same 18-config grid, two references and 25% shrinkage. Not a blind holdout or a final model selection.
+- Inputs: twelve newly original-source-reviewed numerical releases plus unchanged twelve pilot releases, official database outcomes (2015 secondary-seat tier preserved). Explicit original publication-date corrections and unresolved migrated/fieldwork metadata in `docs/six-election-screening.md` and audit facts. Unknowns are not invented.
+- Added offline preparation/rebuild check, full source/input/code provenance and a completeness gate for evaluation cases. E001 config/reports preserved. Focused local checkpoint: ten checks passed, four scientific tests deferred to cloud; no model runs locally. Runtime/scores/hosted publication to record after verification. Hands-on effort unmeasured, total budget not reset.
+
 ## E001 - Narrow cloud model screening (October 21, 2026)
 
 - Question: can lightweight poll-centered corrections improve references without large movement? User approved cloud-first implementation and soft shrinkage. Three configurations each for six candidate families; no automated search or final selection.

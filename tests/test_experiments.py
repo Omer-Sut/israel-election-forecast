@@ -8,6 +8,7 @@ import unittest
 from scripts.baseline import ROOT, load_json
 from scripts.experiments import (build_case, candidate, evaluate_cases, fit_ensemble_weights,
                                  reconcile, synthetic_smoke, training_arrays, validate_config)
+from scripts.prepare_screening_panel import prepare
 
 
 CONFIG = ROOT / "config/experiments.json"
@@ -118,6 +119,27 @@ class ExperimentBoundaryTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "positive"):
             validate_config(self.config)
 
+    def test_six_election_panel_has_eligible_groups_and_preserved_source_dates(self):
+        files = prepare()
+        config = files["historical.json"]
+        self.assertEqual(len(config["elections"]), 6)
+        self.assertEqual(config["horizons_days"], [1])
+        for name, snapshot in files.items():
+            if not name.startswith("polls-"):
+                continue
+            from datetime import date, timedelta
+            cutoff = (date.fromisoformat(snapshot["election_date"]) - timedelta(days=1)).isoformat()
+            case = build_case(snapshot, cutoff)
+            self.assertEqual(len(case["selected_polls"]), 3)
+            self.assertEqual(sum(files["outcomes.json"]["elections"][snapshot["election_id"]]["seat_results"].values()), 120)
+        april = files["polls-21.json"]["polls"]
+        self.assertTrue(all(p["published_on"] == "2019-04-05" for p in april))
+        self.assertEqual(next(p for p in files["polls-23.json"]["polls"] if "103fm" in p["id"])["published_on"], "2020-02-26")
+        # Distinct Arab alliances in April 2019 are not pooled into a Joint List alias.
+        names = {r["id"] for r in files["polls-21.json"]["lists"]}
+        self.assertIn("hadash_taal_2019apr", names)
+        self.assertIn("raam_balad_2019apr", names)
+
 
 HAS_DEPS = all(importlib.util.find_spec(p) for p in ("numpy", "scipy", "sklearn", "xgboost"))
 if os.environ.get("REQUIRE_EXPERIMENT_DEPS") == "1" and not HAS_DEPS:
@@ -143,6 +165,7 @@ class ScientificExperimentTests(unittest.TestCase):
 
     def test_supervised_target_and_future_features_do_not_leak(self):
         config = load_json(CONFIG)
+        config["allow_one_election_diagnostic"] = True
         config["models"] = [m for m in config["models"] if m["family"] in ("ridge", "forest", "xgboost")]
         # No ensemble models here, but keep valid named members for the runner's OOF gate.
         config["ensemble_members"] = [m["id"] for m in config["models"][:1]]
@@ -162,6 +185,22 @@ class ScientificExperimentTests(unittest.TestCase):
         altered_case["features"] = [[1000.0] * 8 for _ in second["ids"]]
         alternate = evaluate_cases([first, altered_case], actual, config)
         self.assertEqual(original[0], alternate[0])
+
+    def test_real_comparison_has_all_models_and_only_earlier_ensemble_targets(self):
+        from scripts.experiments import build_report
+        report = build_report()
+        comparison = [c for c in report["cases"] if c["evaluation_role"] == "comparison"]
+        self.assertEqual(len(comparison), 2)
+        self.assertEqual([len(c["training_elections"]) for c in comparison], [4, 5])
+        for case in comparison:
+            self.assertEqual(len(case["methods"]), 20)
+            self.assertTrue(all("seats" in m for m in case["methods"].values()))
+            for name in ("ensemble_1", "ensemble_5"):
+                entry = case["methods"][name]
+                self.assertEqual(entry["status"], "chronological_screen")
+                self.assertNotIn(case["election_id"], entry["ensemble_fit_elections"])
+                self.assertGreaterEqual(len(entry["ensemble_fit_elections"]), 2)
+                self.assertAlmostEqual(sum(entry["ensemble_weights"].values()), 1)
 
 
 if __name__ == "__main__":

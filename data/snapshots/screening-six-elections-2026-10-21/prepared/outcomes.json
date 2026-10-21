@@ -1,0 +1,538 @@
+{
+  "snapshot_id": "screening-six-election-outcomes-2026-10-21-a",
+  "retrieved_on": "2026-10-21",
+  "status": "final_results_official_except_2015_secondary_seats",
+  "coverage": "Six elections; every official seat-winning list and modeled zero-seat list. Omitted lists have zero final seats. 2015 seats/turnout are IDI secondary transcription; votes reconcile to official data.",
+  "elections": {
+    "knesset_24_2021": {
+      "election_date": "2021-03-23",
+      "source_url": "https://votes24.bechirot.gov.il/nationalresults",
+      "retrieved_on": "2026-10-21",
+      "turnout_pct": 67.44,
+      "seat_results": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 17,
+        "blue_and_white_2021": 8,
+        "joint_list_2021": 6,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 6,
+        "raam_2021": 4,
+        "yamina_2021": 7,
+        "new_hope_2021": 6,
+        "labor_2021": 7,
+        "religious_zionism_otzma_2021": 6,
+        "new_economic_2021": 0
+      }
+    },
+    "knesset_25_2022": {
+      "election_date": "2022-11-01",
+      "source_url": "https://votes25.bechirot.gov.il/nationalresults",
+      "retrieved_on": "2026-10-21",
+      "turnout_pct": 70.63,
+      "seat_results": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 12,
+        "shas_2022": 11,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 5,
+        "meretz_2022": 0,
+        "raam_2022": 5,
+        "balad_2022": 0,
+        "new_economic_2022": 0,
+        "economic_freedom_2022": 0,
+        "tzeirim_boarim_2022": 0
+      }
+    },
+    "knesset_20_2015": {
+      "election_date": "2015-03-17",
+      "turnout_pct": 72.3,
+      "seat_results": {
+        "likud_2015": 30,
+        "zionist_union_2015": 24,
+        "joint_list_2015": 13,
+        "yesh_atid_2015": 11,
+        "kulanu_2015": 10,
+        "jewish_home_2015": 8,
+        "shas_2015": 7,
+        "yisrael_beiteinu_2015": 6,
+        "united_torah_judaism_2015": 6,
+        "meretz_2015": 5,
+        "yachad_2015": 0
+      },
+      "source_url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2015/",
+      "source_id": "idi2015.html",
+      "source_tier": "secondary_idi_seats_official_votes_reconciled",
+      "source_list_codes": {
+        "likud_2015": "מחל",
+        "zionist_union_2015": "אמת",
+        "joint_list_2015": "ודעם",
+        "yesh_atid_2015": "פה",
+        "kulanu_2015": "כ",
+        "jewish_home_2015": "טב",
+        "shas_2015": "שס",
+        "yisrael_beiteinu_2015": "ל",
+        "united_torah_judaism_2015": "ג",
+        "meretz_2015": "מרצ",
+        "yachad_2015": "קץ"
+      },
+      "omitted_official_lists": [
+        {
+          "ballot_code": "קנ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ע",
+          "seats": 0
+        },
+        {
+          "ballot_code": "רק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ףץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ף",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ני",
+          "seats": 0
+        },
+        {
+          "ballot_code": "י",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זך",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יז",
+          "seats": 0
+        }
+      ]
+    },
+    "knesset_21_2019apr": {
+      "election_date": "2019-04-09",
+      "turnout_pct": 68.46,
+      "seat_results": {
+        "likud_2019apr": 35,
+        "blue_and_white_2019apr": 35,
+        "labor_2019apr": 6,
+        "shas_2019apr": 8,
+        "united_torah_judaism_2019apr": 8,
+        "hadash_taal_2019apr": 6,
+        "raam_balad_2019apr": 4,
+        "yisrael_beiteinu_2019apr": 5,
+        "union_right_wing_parties_2019apr": 5,
+        "meretz_2019apr": 4,
+        "kulanu_2019apr": 4,
+        "new_right_2019apr": 0,
+        "zehut_2019apr": 0,
+        "gesher_2019apr": 0
+      },
+      "source_url": "https://votes21.bechirot.gov.il/nationalresults",
+      "source_id": "cec21.html",
+      "source_tier": "official_cec",
+      "source_list_codes": {
+        "likud_2019apr": "מחל",
+        "blue_and_white_2019apr": "פה",
+        "labor_2019apr": "אמת",
+        "shas_2019apr": "שס",
+        "united_torah_judaism_2019apr": "ג",
+        "hadash_taal_2019apr": "ום",
+        "raam_balad_2019apr": "דעם",
+        "yisrael_beiteinu_2019apr": "ל",
+        "union_right_wing_parties_2019apr": "טב",
+        "meretz_2019apr": "מרצ",
+        "kulanu_2019apr": "כ",
+        "new_right_2019apr": "נ",
+        "zehut_2019apr": "ז",
+        "gesher_2019apr": "נר"
+      },
+      "omitted_official_lists": [
+        {
+          "ballot_code": "ן",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ר",
+          "seats": 0
+        },
+        {
+          "ballot_code": "צק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "י",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זי",
+          "seats": 0
+        },
+        {
+          "ballot_code": "קף",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ףז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ףי",
+          "seats": 0
+        },
+        {
+          "ballot_code": "קי",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ףץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "קן",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ךק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ףך",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ןך",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ףנ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ןנ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ץי",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ין",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זך",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ץז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זנ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נך",
+          "seats": 0
+        }
+      ]
+    },
+    "knesset_22_2019sep": {
+      "election_date": "2019-09-17",
+      "turnout_pct": 69.83,
+      "seat_results": {
+        "likud_2019sep": 32,
+        "blue_and_white_2019sep": 33,
+        "joint_list_2019sep": 13,
+        "shas_2019sep": 9,
+        "united_torah_judaism_2019sep": 7,
+        "yamina_2019sep": 7,
+        "labor_gesher_2019sep": 6,
+        "yisrael_beiteinu_2019sep": 8,
+        "democratic_union_2019sep": 5,
+        "otzma_yehudit_2019sep": 0
+      },
+      "source_url": "https://votes22.bechirot.gov.il/nationalresults",
+      "source_id": "cec22.html",
+      "source_tier": "official_cec",
+      "source_list_codes": {
+        "likud_2019sep": "מחל",
+        "blue_and_white_2019sep": "פה",
+        "joint_list_2019sep": "ודעם",
+        "shas_2019sep": "שס",
+        "united_torah_judaism_2019sep": "ג",
+        "yamina_2019sep": "טב",
+        "labor_gesher_2019sep": "אמת",
+        "yisrael_beiteinu_2019sep": "ל",
+        "democratic_union_2019sep": "מרצ",
+        "otzma_yehudit_2019sep": "כף"
+      },
+      "omitted_official_lists": [
+        {
+          "ballot_code": "זץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "כי",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "צ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "רק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נך",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ףז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "קץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "קך",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זכ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "צן",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ינ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יף",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "י",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זן",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "כ",
+          "seats": 0
+        }
+      ]
+    },
+    "knesset_23_2020": {
+      "election_date": "2020-03-02",
+      "turnout_pct": 71.52,
+      "seat_results": {
+        "likud_2020": 36,
+        "blue_and_white_2020": 33,
+        "joint_list_2020": 15,
+        "shas_2020": 9,
+        "united_torah_judaism_2020": 7,
+        "labor_gesher_meretz_2020": 7,
+        "yisrael_beiteinu_2020": 7,
+        "yamina_2020": 6,
+        "otzma_yehudit_2020": 0
+      },
+      "source_url": "https://votes23.bechirot.gov.il/nationalresults",
+      "source_id": "cec23.html",
+      "source_tier": "official_cec",
+      "source_list_codes": {
+        "likud_2020": "מחל",
+        "blue_and_white_2020": "פה",
+        "joint_list_2020": "ודעם",
+        "shas_2020": "שס",
+        "united_torah_judaism_2020": "ג",
+        "labor_gesher_meretz_2020": "אמת",
+        "yisrael_beiteinu_2020": "ל",
+        "yamina_2020": "טב",
+        "otzma_yehudit_2020": "נץ"
+      },
+      "omitted_official_lists": [
+        {
+          "ballot_code": "ז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ףז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "קץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "כן",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ינ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "קך",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "נק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ץ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "כ",
+          "seats": 0
+        },
+        {
+          "ballot_code": "קי",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יק",
+          "seats": 0
+        },
+        {
+          "ballot_code": "ני",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יז",
+          "seats": 0
+        },
+        {
+          "ballot_code": "י",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יר",
+          "seats": 0
+        },
+        {
+          "ballot_code": "יף",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זך",
+          "seats": 0
+        },
+        {
+          "ballot_code": "זץ",
+          "seats": 0
+        }
+      ]
+    }
+  }
+}
