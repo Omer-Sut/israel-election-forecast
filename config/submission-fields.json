@@ -1,5 +1,5 @@
 {
-  "contract_version": 1,
+  "contract_version": 2,
   "source": "User-supplied transcription of the Google Form",
   "recorded_date": "2026-10-21",
   "personal_responses_included": false,
@@ -31,6 +31,10 @@
     "label_en": "Expected national turnout (%)",
     "required": true,
     "unit": "percent",
+    "minimum": 40.00,
+    "maximum": 100.00,
+    "bounds_source": "User-confirmed form requirement, 2026-10-21; inclusive",
+    "output_decimal_places": 2,
     "precision": null
   }
 }

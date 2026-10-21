@@ -77,6 +77,8 @@ Two data routes must stay distinct:
 
 For turnout, start with an official recent-election reference and a simple historical summary. Add a current adjustment only when supported by comparable turnout-intention evidence. A PM-preference or issue-importance question is not a turnout measure.
 
+The form's user-confirmed admissible turnout range is **40.00-100.00% inclusive**. Constrain the reported point forecast to this interval and validate against `config/submission-fields.json` before export, displaying two decimals. Keep an unconstrained estimate as a diagnostic if applicable, and document any boundary adjustment. Do not alter historical observations or assume the submission bound proves the true outcome cannot lie outside it. Actual model/export validation is still to be implemented.
+
 ### Preferred improvement: numerical uncertainty, no heavy training
 
 Generate a modest number of coherent vote/seat scenarios (start with thousands, not millions). Include shared election-level error, disagreements across pollsters, and threshold alternatives where data supports them. Repeated polls from one organization are not independent draws of election error. Verify stability with a second seed or sample size; do not promise calibrated probabilities without sufficient history.

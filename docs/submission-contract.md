@@ -26,7 +26,9 @@ The form requires **15 seat entries: 14 named lists and one combined other-quali
 | 14 | `reservists_economic` | Reservists-Economic | מילואימניקים כלכלית |
 | 15 | `other_qualifying_lists` | Other parties passing the threshold, combined | מפלגות אחרות שעוברות את אחוז החסימה |
 
-Turnout is a separate required percentage field: `national_turnout_pct`, labeled `אחוז הצבעה ארצי צפוי (%)`. Decimal precision and Google Forms numeric validation are not visible in the supplied text. Use nonnegative integer seats and a turnout percentage between 0 and 100 as model-output conventions; do not claim that the actual form enforces these bounds or a particular precision.
+Turnout is a separate required percentage field: `national_turnout_pct`, labeled `אחוז הצבעה ארצי צפוי (%)`. The user subsequently confirmed the form requires **40.00 <= turnout <= 100.00**, inclusive. This is a hard constraint on the model's reported point prediction and final export. Read the bounds from the field configuration, validate before export, and display two decimal places. The exact permitted decimal increment/precision remains unverified; two-decimal output is our presentation convention. Other hidden Google Forms validation remains unverified. Use nonnegative integer seats.
+
+Apply the turnout constraint during prediction/decision selection as well as final output validation. If an intermediate unconstrained estimate lies outside the range, retain it for diagnostics and review/document the constrained estimate; do not silently alter it at submission time. The form bound is an admissible-output rule, not evidence that historical or real-world turnout outside that range is impossible. No forecasting model or executable export validator has been implemented yet.
 
 The required zero-seat entries must remain in the export. Do not drop a named form field because it is missing from a poll, expected to win no seats, or reported elsewhere as withdrawn. Verify status and mapping, then forecast accordingly.
 
@@ -57,7 +59,7 @@ The header repeats election day **October 27, 2026** and deadline **October 26, 
 2. Combined poll labels, including Religious Zionism/Zehut or changing Reservists/Economic lineups, require explicit date-specific mappings. Similar names alone are insufficient.
 3. The form includes Blue and White even if some sources omit it or report a status change. Verify current status; keep the field.
 4. The PDF defines absolute error by list, while this form combines other qualifying parties. Working output-level scoring uses the 15 form entries, aggregating other-list truth before taking absolute error. The organizer's precise treatment of multiple other qualifiers is not independently confirmed; retain disaggregated internal outcomes so alternative scoring can be checked.
-5. Decimal precision, hidden field validation, exact timezone, eligibility, team, and final track/presentation consent remain to be confirmed. None prevents starting poll collection with the known field inventory.
+5. Exact decimal increment/precision, other hidden field validation, exact timezone, eligibility, team, and final track/presentation consent remain to be confirmed. Turnout bounds of 40.00-100.00 are confirmed by the user. None prevents starting poll collection with the known field inventory.
 
 ## Stage-one status
 

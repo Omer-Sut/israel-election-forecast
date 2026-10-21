@@ -1,5 +1,11 @@
 # Session log
 
+## 2026-10-21 - Turnout form bounds confirmed
+
+- User confirmed the form accepts turnout from 40.00 through 100.00 percent. Recorded inclusive min/max in configuration contract v2, submission requirements, agent instructions, model plan, and decisions.
+- Future prediction selection and export validation must enforce this range. Two-decimal display is specified without claiming that the exact form precision/step has been verified. Preserve intermediate diagnostics instead of silently clipping at submission.
+- This is a specification/configuration update; no model or executable export validator exists yet.
+
 ## 2026-10-21 - User supplied all form sections
 
 - User pasted the complete form flow and explicitly said the entered values were irrelevant navigation inputs. Recorded no personal/account details or dummy numerical/method responses in project files.
