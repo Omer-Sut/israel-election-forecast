@@ -1,5 +1,11 @@
 # Session log
 
+## 2026-10-21 - Implement cloud screening plan (E001)
+
+- User requested execution after choosing cloud setup/screening and soft limits. Added optional locked scientific environment, separate hosted workflow, 18 candidate configurations plus two references, chronological residual learners, simple dynamic filter, constrained numerical ensemble weights, joint reconciliation and provenance/reporting.
+- Kept frozen code/data/reports unchanged. Existing two-election audited panel supplies only real diagnostics; synthetic checks separately exercise all configurations including optimized ensembles. Added temporal/target leakage, duplicate trajectory, coverage, weighting, optimizer and arithmetic checks.
+- Local checkpoint: 43 tests, 40 passed, three optional scientific tests skipped; cloud is configured to require them. Older same-group/day duplicate history was caught by a new test and rejected. Hosted verification/publication pending at this checkpoint; no model selected. See project-state/model-screening for the next actions.
+
 ## 2026-10-21 - Poll-centered modeling feedback
 
 - User wants recent 2026 polls to represent the main forecast picture, with modest refinements from historical/auxiliary data. They believe existing mean/L1 outputs may be close; recorded as intuition, not future accuracy evidence. Locality forecasting is deferred as a possible future direction; data is retained.

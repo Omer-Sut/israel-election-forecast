@@ -1,5 +1,13 @@
 # Experiment and effort log
 
+## E001 - Narrow cloud model screening (October 21, 2026)
+
+- Question: can lightweight poll-centered corrections improve references without large movement? User approved cloud-first implementation and soft shrinkage. Three configurations each for six candidate families; no automated search or final selection.
+- Inputs: existing audited 2021/2022 snapshots, T−6/T−1, 14-day window. Each target election uses earlier completed elections only. One-election fits are labeled diagnostics. Bulk indexes/demographics are excluded. Full assumptions and feature/ensemble targets in `docs/model-screening.md`.
+- Reproduce: `python scripts/experiments.py --out-dir output/experiments` with pinned `requirements-experiments.txt`, or the dedicated Actions workflow. Reports include code/input hashes, seed, statuses, dates, configs, runtime, errors and movement. Synthetic smoke evidence is separate and never ranked by accuracy.
+- Validation checkpoint: 40 local passes, three optional scientific tests skipped (43 total). Cloud requires all dependencies; real scientific outputs and hosted status pending verification. Optimized ensembles have insufficient real history; no weights are borrowed from synthetic tests.
+- Hands-on effort/cumulative effort not measured. Runtime will be recorded by the runner, separately from user effort. Next audit earlier election panels, then compare strict folds before narrowing to two challengers.
+
 ## D002 - CBS geographic context integration (October 21, 2026)
 
 - Question: obtain broad official demographic/socioeconomic profiles linkable to historical locality/ballot results. This is data ingestion and descriptive linkage, not a forecasting experiment. User hands-on effort was not measured; the eight-hour budget is not reset.

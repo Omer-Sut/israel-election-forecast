@@ -1,6 +1,16 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (poll-centered modeling direction recorded).
+Last updated: October 21, 2026 (cloud model screening implementation).
+
+## Current handoff — lightweight cloud screening (E001)
+
+The user approved implementation of a narrow all-family screen, prioritizing cloud setup within today's one-hour availability and soft correction limits before hard caps. Implemented 18 candidate configurations (recency, ridge Gaussian GLM, forest, XGBoost, dynamic Kalman, ensemble; three each) plus unchanged mean/L1 references. Read [model-screening.md](model-screening.md) for exact inputs, features, weights, reconciliation, evidence tiers and execution.
+
+`Screen lightweight forecast models` is a separate GitHub Actions CPU workflow: Python 3.12, locked optional scientific dependencies, no secrets/GPU/local training. It runs all tests, real historical diagnostics, synthetic checks for all configurations, deterministic reruns and artifact upload. Baseline inputs/code/reports and current 2026 forecasts are unchanged. Audit tier is explicit: only the existing original-source-audited 2021/2022 panel is used, not bulk poll indexes/CBS/INES.
+
+At implementation checkpoint: 43 local tests discovered, 40 passed and three scientific tests skipped because local sklearn/XGBoost are absent. The cloud job requires these dependencies and must execute those tests. A boundary test exposed ambiguous older syndicated trajectory releases; the new runner rejects them without changing the frozen baseline. No cloud success or real-model scores are claimed at this checkpoint; publication and hosted evidence will be recorded after verification. Work started from clean main on `feat/cloud-model-screening`; files currently uncommitted.
+
+Next: publish/run cloud checks, preserve compact outputs, then audit earlier election polling panels. Supervised 2022 fits use only 2021 and are diagnostics; optimized real ensembles remain unavailable until two earlier strict OOF elections exist. No model is selected, no hard bound/CI is calibrated, and no competition submission is made. Hands-on effort remains unmeasured; the eight-hour total budget is not reset.
 
 ## Latest direction — refine recent polls, defer locality forecasting
 

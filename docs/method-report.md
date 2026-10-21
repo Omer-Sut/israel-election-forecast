@@ -1,5 +1,7 @@
 # Method report working draft
 
+Implementation update (E001, October 21): a separate [cloud screening pipeline](model-screening.md) now implements six candidate families with three configurations each, anchored to polls with 25% corrections. This is exploratory work; no challenger is selected or substituted into the preliminary forecast. Only audited 2021/2022 polls enter real diagnostics; synthetic checks are software tests, not predictive evidence. See the experiment log and project state for verified execution status. Retain the baseline description below until a method is actually selected.
+
 Status: the preliminary baseline and a limited 2021/2022 historical backtest have run; broader validation and final method selection remain pending. The following draft describes executed work only. It is not a final competition entry.
 
 The competition's systematic track requires a method description of at most 500 words, data sources, a code link, and agreement to present if selected as winner. Keep the final submission description within 500 words; this working file can hold supporting evidence separately.
