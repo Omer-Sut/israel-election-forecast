@@ -31,6 +31,14 @@ Clone separately on each computer. Use Git to exchange work; avoid using a concu
 
 Read the start-here documents before coding. There are currently no model dependencies to install.
 
+## Online-first working agreement
+
+The user has about eight hands-on hours total. Prefer a minimal hosted CPU notebook for first execution and add automation only if it saves effort. GitHub is the source of truth; ephemeral notebook/workflow storage is not a durable archive. These execution surfaces are proposed, not configured yet.
+
+Version the code, configuration, and small shareable input snapshots; identify the commit and data cutoff for each run. A fresh remote session must reproduce the result without one contributor's local files, absolute paths, or cached state. Save final outputs and manifests to a durable shared location. See `docs/project-plan.md` for the staged plan and storage conventions.
+
+Record actual hands-on effort and consequential runs in `docs/experiment-log.md`, update the handoff, and maintain `docs/method-report.md` continuously. Protect the final validation/reporting timebox instead of using it to add models.
+
 ## Daily work
 
 1. Check `git status`, read the current handoff, and fetch remote changes.

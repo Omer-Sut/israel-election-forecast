@@ -4,6 +4,8 @@
 
 Read `README.md`, `docs/competition-brief.md`, `docs/project-state.md`, and `docs/decisions.md`. Consult `docs/session-log.md` for history and `docs/data-sources.md` before collecting data. The original Hebrew PDF remains the requirements source of truth.
 
+Also read `docs/project-constraints.md` and `docs/project-plan.md`. The user has approximately **eight hours total hands-on effort**: prioritize a baseline and one lightweight numerical improvement; no heavy training or broad model search. Record actual effort and narrow scope when time runs out. Keep execution portable to a hosted CPU session and all required inputs/code/results in GitHub or a documented shared store.
+
 ## Working conventions
 
 - Communicate and document in English. Preserve original Hebrew identifiers alongside stable English/internal identifiers when necessary.
@@ -14,12 +16,16 @@ Read `README.md`, `docs/competition-brief.md`, `docs/project-state.md`, and `doc
 - Preserve raw source data and record URLs, retrieval dates, fieldwork/publication dates where relevant, transformations, and usage restrictions.
 - Use historical time cutoffs in backtests. Do not let later polls, revised data, or election results leak into earlier forecasts.
 - Do not select a model or add dependencies merely because they are mentioned as possibilities in the notes.
+- Treat improbable-outcome pruning as a documented assumption with sensitivity checks, not a mathematical impossibility. A named-party example in user intuition is not a verified hard constraint.
+- Inspect the reviewed-source caveats: Kolot Nodedim K26 data is simulated, and an initial aggregator/original-poll mismatch remains unresolved. Never use simulated future results as observations.
 - Never commit secrets, credentials, university login information, personal submission responses, local environments, or large generated artifacts.
 - Do not submit the competition entry or send messages to people without explicit authorization.
 
 ## Session completion and continuity
 
 After meaningful changes, update `docs/project-state.md` with what changed, what was validated, what remains blocked, and the next concrete actions. Add a concise entry to `docs/session-log.md`; add durable decisions to `docs/decisions.md`. Keep these records consistent and self-contained so a new session can resume without chat history.
+
+For consequential experiments, update `docs/experiment-log.md` with inputs/cutoff, commit, configuration, seed, results, effort, and keep/reject reasoning. Maintain `docs/method-report.md` during implementation so the final <=500-word description can be assembled quickly. Never fill it with planned-but-unrun methods as though executed.
 
 Review diffs, run checks appropriate to the change, and commit coherent work on a topic branch once Git is available. Push authorized project work to the configured remote when authenticated and reachable; otherwise explicitly record uncommitted/unpushed status in the handoff and final response. Never claim a commit, push, test, or remote creation succeeded without verification. Do not force-push shared branches or merge conflicting work blindly.
 
