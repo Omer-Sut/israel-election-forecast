@@ -44,6 +44,8 @@ Baseline PR #5 was merged; before this research update, main was clean and match
 
 Earlier research validation passed local links/fences/whitespace and hosted baseline reproduction. Current work uses `feat/historical-backtest`, starting from clean synchronized main at 85fab76. Local 16-test run and initial historical generation passed. The workflow is extended to reproduce both frozen reports; hosted evidence for this change is recorded after verification, not assumed from earlier runs.
 
+Historical implementation `c591c7031d6aebda9a63c38fc4dffabd58ca9d6a` was pushed and verified. [Hosted run 39596526287](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39596526287) passed all 16 tests, byte-for-byte comparison of original baseline and historical reports, and artifact upload, completing at 12:03:15 UTC. This is reproducibility evidence alongside the reported retrospective scores, not proof of a future model ranking. Work is published through [PR #8](https://github.com/Omer-Sut/israel-election-forecast/pull/8); inspect actual Git/PR state for later handoff commits and merge status.
+
 Local historical reproduction is byte-identical. The unchanged baseline matches after newline normalization on Windows; its legacy writer's CRLF behavior was not changed. New historical text uses LF for portable hashes. Documentation checks passed across 17 Markdown files and the method draft remains 286 words; Git whitespace checks passed.
 
 Run from a fresh Python 3.12 session:
