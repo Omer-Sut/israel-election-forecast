@@ -1,5 +1,11 @@
 # Session log
 
+## 2026-10-21 - Merge authorization and data-readiness clarification
+
+- User explicitly authorized merging PR #12 and asked why so many cells show insufficient data despite the database collection. Existing six-election outcomes and 790 raw poll-index candidates are not the same as the runner's 12 audited releases from 2021/2022. Publication dates, duplicates and historical lineups remain the preparation gap.
+- Explain model-specific gates: 2021 has no earlier configured training election; 2022 has only one; learned ensembles need two earlier strict OOF elections. Thousands of ballot/locality rows do not replace independent national elections. Next priority is making the already-collected earlier polls model-ready and connecting them, not new model families or more locality collection.
+- Both checks passed on 08c4385 before this documentation follow-up. User approval resolves the previous automatic-review merge block; verify the authorized merge and default-branch workflow after publication.
+
 ## 2026-10-21 - Implement cloud screening plan (E001)
 
 - User requested execution after choosing cloud setup/screening and soft limits. Added optional locked scientific environment, separate hosted workflow, 18 candidate configurations plus two references, chronological residual learners, simple dynamic filter, constrained numerical ensemble weights, joint reconciliation and provenance/reporting.
