@@ -1,5 +1,13 @@
 # Session log
 
+## 2026-10-21 - Poll-centered modeling feedback
+
+- User wants recent 2026 polls to represent the main forecast picture, with modest refinements from historical/auxiliary data. They believe existing mean/L1 outputs may be close; recorded as intuition, not future accuracy evidence. Locality forecasting is deferred as a possible future direction; data is retained.
+- Recorded the proposed recent-poll agreement metric and distinguished it from election accuracy and genuinely withheld future-poll forecasting. Copying the input benchmark cannot demonstrate an improvement; publication/syndication/anchor leakage must be excluded for independent poll evaluation.
+- Added a dynamic model explanation and proposed shrinkage, party-specific/asymmetric buffers, a total L1 adjustment budget and joint predictive scenarios. No width, hard cap, confidence level, trained model, forecast or interval is selected/implemented. Threshold discontinuities and common polling errors remain material.
+- Added `docs/poll-centered-modeling.md` and synchronized decisions, constraints, research agenda and handoff. Work is documentation only on `docs/poll-centered-modeling` from clean main bc829d9; validation/publication evidence follows after verification.
+- Local Markdown links/fences passed across 18 files; Git whitespace checks passed. No code, inputs or frozen report changed and no model test/calibration was run. Commit 746cd14 was pushed and verified through PR #11. Existing reproduction run https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39616331613 was queued at this checkpoint; no hosted success is claimed. Inspect live Git/PR/run state for subsequent handoff commits/merge/check completion.
+
 ## 2026-10-21 - CBS broad geographic context (D002)
 
 - User requested age, sex and socioeconomic statistics linked to ballot locations across years, with regional/locality summaries rather than individual information. Started on `feat/cbs-demographics` from clean merged main c53d23f.

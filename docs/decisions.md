@@ -19,8 +19,12 @@
 | 2026-10-21 | Proceed with current Joint List polling mapped to the form's Hadash-Ta'al field as an explicit assumption; retain historical distinctions. | User accepted proceeding after the three-party composition was explained |
 | 2026-10-21 | Use standard-library Python 3.12 and a small hosted GitHub Actions CPU job for the first baseline; defer notebook/dependencies. | Minimal setup and direct cross-device reproduction |
 | 2026-10-21 | Proceed with the historical backtest, initially 2021/2022; retain the unchanged reference methods while evaluating. | Explicit user instruction following the proposed initial scope |
+| 2026-10-21 | Center the active modeling direction on recent polls; investigate modest refinements around a benchmark. Defer bottom-up locality forecasting to a possible future direction. | Explicit user feedback; belief that current mean/L1 is close remains unverified |
+| 2026-10-21 | Discuss bounded/conservative adjustments and recent-poll consistency as an auxiliary diagnostic. No buffer width, hard cap, confidence level or final model is selected yet. | Explicit user request to discuss solution-space limits and another possible metric |
 
 ## Provisional choices
+
+- Read [poll-centered-modeling.md](poll-centered-modeling.md) for the latest user direction, dynamic model explanation, independent withheld-poll evaluation, and proposed shrinkage/per-party/joint bounds. Historical election error remains primary; agreement with an input benchmark cannot establish independent accuracy. Predictive uncertainty and operational search caps must stay distinct. No new model or bound is implemented by this discussion.
 
 - User requested broad CBS age/sex/socioeconomic statistics linkable to election locations across years. Link by locality code, preserve both demographic reference year and election date, and retain actual geographic resolution. Do not infer individuals' voting choices or a precinct catchment from a polling building's location.
 - Keep CBS source availability uncertified until release/revision dates are verified; a 2022 census reference date is not a 2022 publication date. Preserve suppression as missing, use aligned population/vote denominators, retain socioeconomic rank scope, and do not backcast/interpolate missing years automatically.

@@ -13,6 +13,7 @@ Build a reproducible model to forecast the results of Israel's 26th Knesset elec
 7. Read the [user feedback and research agenda](docs/research-agenda.md) and [forecasting research review](docs/forecasting-research.md) before extending or selecting a model.
 8. Start data exploration with the [2015–2022 historical database](docs/historical-database.md), including official national/geographic results, bulk poll indexes and INES dictionaries/aggregates.
 9. Use the [CBS demographic extension](docs/cbs-demographics.md) for age/sex, socioeconomic and geographic context, with explicit reference years and historical-availability limits.
+10. Follow the latest [poll-centered modeling direction](docs/poll-centered-modeling.md): conservative refinements around recent polls; locality forecasting deferred; bounds and uncertainty still under discussion.
 
 The original Hebrew guidelines are preserved unchanged as [the source PDF](תחרות%20תחזית%20בחירות%20לכנסת%20ה26.pdf). They are authoritative if the English summary is ambiguous.
 

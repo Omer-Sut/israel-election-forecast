@@ -1,5 +1,7 @@
 # User feedback and research agenda
 
+Latest direction (October 21): [poll-centered-modeling.md](poll-centered-modeling.md) supersedes the active priority of locality modeling. The user wants recent polls as the anchor, modest historical-data corrections, auxiliary poll-consistency diagnostics and discussion of bounded solution spaces. Locality forecasting is a possible future direction; its data remains available. No bound/model/interval has been selected or implemented.
+
 Recorded October 21, 2026. This is a handoff for collaborators and agents; proposals below are not selected models or completed experiments. See [implemented baseline](baseline-method.md), [research review](forecasting-research.md), and [current state](project-state.md).
 
 Subsequent execution update: the user authorized proceeding with the historical backtest. The [initial 2021/2022 pilot](historical-backtest.md) is now implemented and run; its four horizon cases are two outcomes. The sections below preserve the earlier research-stage feedback/proposals. Broader history, war/turnout analysis and alternative models remain pending.
