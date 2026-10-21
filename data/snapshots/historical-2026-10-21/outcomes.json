@@ -1,0 +1,54 @@
+{
+  "snapshot_id": "historical-outcomes-2026-10-21-a",
+  "retrieved_on": "2026-10-21",
+  "status": "final_official_results",
+  "coverage": "All seat-winning lists and modeled zero-seat lists; not a complete vote table. Unmodeled official lists all have zero seats.",
+  "elections": {
+    "knesset_24_2021": {
+      "election_date": "2021-03-23",
+      "source_url": "https://votes24.bechirot.gov.il/nationalresults",
+      "retrieved_on": "2026-10-21",
+      "turnout_pct": 67.44,
+      "seat_results": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 17,
+        "blue_and_white_2021": 8,
+        "joint_list_2021": 6,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 6,
+        "raam_2021": 4,
+        "yamina_2021": 7,
+        "new_hope_2021": 6,
+        "labor_2021": 7,
+        "religious_zionism_otzma_2021": 6,
+        "new_economic_2021": 0
+      }
+    },
+    "knesset_25_2022": {
+      "election_date": "2022-11-01",
+      "source_url": "https://votes25.bechirot.gov.il/nationalresults",
+      "retrieved_on": "2026-10-21",
+      "turnout_pct": 70.63,
+      "seat_results": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 12,
+        "shas_2022": 11,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 5,
+        "meretz_2022": 0,
+        "raam_2022": 5,
+        "balad_2022": 0,
+        "new_economic_2022": 0,
+        "economic_freedom_2022": 0,
+        "tzeirim_boarim_2022": 0
+      }
+    }
+  }
+}

@@ -2,6 +2,8 @@
 
 Research date: **October 21, 2026**. Primary research, authors' code, original publishers, and official data pages were inspected. This is a bounded research review, not an exhaustive literature search. All transferability judgments and priorities are project proposals. No new model/data ingestion or predictive validation was run. The [user feedback and validation agenda](research-agenda.md) preserve the requested direction.
 
+Subsequent implementation: the [historical backtest pilot](historical-backtest.md) now evaluates the existing methods using an audited subset of original 2021/2022 sources. This does not implement any new candidate from the literature review or the war/turnout hypothesis.
+
 ## Electoral rules and the scored target
 
 **Competition requirement:** the original PDF, page 1, uses the final official CEC outcome after double-envelope counting. The form requests a 120-seat allocation. We therefore interpret the target as final seats after eligibility and allocation, not pre-threshold support. This interpretation does not establish hidden form validation or the organizer's exact treatment of multiple other qualifiers.

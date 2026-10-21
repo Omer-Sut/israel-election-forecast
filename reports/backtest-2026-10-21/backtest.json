@@ -1,0 +1,904 @@
+{
+  "status": "retrospective_pilot_two_elections_not_model_selection",
+  "poll_window_days": 14,
+  "methods": [
+    "rounded_mean_reference",
+    "empirical_l1_consensus"
+  ],
+  "cases": [
+    {
+      "election_id": "knesset_24_2021",
+      "election_date": "2021-03-23",
+      "cutoff": "2021-03-17",
+      "list_order": [
+        "blue_and_white_2021",
+        "joint_list_2021",
+        "labor_2021",
+        "likud_2021",
+        "meretz_2021",
+        "new_economic_2021",
+        "new_hope_2021",
+        "raam_2021",
+        "religious_zionism_otzma_2021",
+        "shas_2021",
+        "united_torah_judaism_2021",
+        "yamina_2021",
+        "yesh_atid_2021",
+        "yisrael_beiteinu_2021"
+      ],
+      "poll_count": 3,
+      "list_labels": {
+        "blue_and_white_2021": "Blue and White",
+        "joint_list_2021": "Joint List (Hadash, Taal, Balad)",
+        "labor_2021": "Labor",
+        "likud_2021": "Likud",
+        "meretz_2021": "Meretz",
+        "new_economic_2021": "New Economic Party",
+        "new_hope_2021": "New Hope",
+        "raam_2021": "Raam",
+        "religious_zionism_otzma_2021": "Religious Zionism / Otzma / Noam",
+        "shas_2021": "Shas",
+        "united_torah_judaism_2021": "United Torah Judaism",
+        "yamina_2021": "Yamina",
+        "yesh_atid_2021": "Yesh Atid",
+        "yisrael_beiteinu_2021": "Yisrael Beiteinu"
+      },
+      "selected_polls": [
+        {
+          "id": "camil_fuchs-2021-03-14",
+          "pollster_group": "camil_fuchs",
+          "publisher": "Channel 13",
+          "published_on": "2021-03-14",
+          "source_updated_on": null,
+          "fieldwork_end": "2021-03-14",
+          "source_url": "https://13tv.co.il/item/news/politics/politics/survey-towards-elections-day-1223224/",
+          "weight": 0.3333333333333333
+        },
+        {
+          "id": "maagar_mohot-2021-03-11",
+          "pollster_group": "maagar_mohot",
+          "publisher": "Israel Hayom / i24NEWS",
+          "published_on": "2021-03-11",
+          "source_updated_on": "2021-03-13",
+          "fieldwork_end": null,
+          "source_url": "https://www.israelhayom.co.il/article/860275",
+          "weight": 0.3333333333333333
+        },
+        {
+          "id": "midgam_rc-2021-03-16",
+          "pollster_group": "midgam_rc",
+          "publisher": "N12",
+          "published_on": "2021-03-16",
+          "source_updated_on": "2021-03-16",
+          "fieldwork_end": "2021-03-16",
+          "source_url": "https://www.mako.co.il/news-israel-elections/2021_q1/Article-7394d5f12bb3871027.htm",
+          "weight": 0.3333333333333333
+        }
+      ],
+      "excluded_polls": [
+        {
+          "id": "camil_fuchs-2021-03-19",
+          "reason": "not_available_by_cutoff"
+        },
+        {
+          "id": "maagar_mohot-2021-03-18",
+          "reason": "not_available_by_cutoff"
+        },
+        {
+          "id": "midgam_rc-2021-03-19",
+          "reason": "not_available_by_cutoff"
+        }
+      ],
+      "forecasts": {
+        "rounded_mean_reference": {
+          "blue_and_white_2021": 4,
+          "joint_list_2021": 8,
+          "labor_2021": 6,
+          "likud_2021": 29,
+          "meretz_2021": 4,
+          "new_economic_2021": 0,
+          "new_hope_2021": 10,
+          "raam_2021": 3,
+          "religious_zionism_otzma_2021": 5,
+          "shas_2021": 7,
+          "united_torah_judaism_2021": 7,
+          "yamina_2021": 11,
+          "yesh_atid_2021": 19,
+          "yisrael_beiteinu_2021": 7
+        },
+        "empirical_l1_consensus": {
+          "blue_and_white_2021": 4,
+          "joint_list_2021": 8,
+          "labor_2021": 6,
+          "likud_2021": 29,
+          "meretz_2021": 4,
+          "new_economic_2021": 0,
+          "new_hope_2021": 10,
+          "raam_2021": 3,
+          "religious_zionism_otzma_2021": 5,
+          "shas_2021": 8,
+          "united_torah_judaism_2021": 7,
+          "yamina_2021": 11,
+          "yesh_atid_2021": 18,
+          "yisrael_beiteinu_2021": 7
+        }
+      },
+      "horizon_days": 6,
+      "period": "repeated_elections_2019_2021",
+      "cutoff_timezone": "Asia/Jerusalem",
+      "cutoff_time": "23:59:59",
+      "turnout_prediction_pct": 71.52,
+      "turnout_reference": {
+        "election_id": "knesset_23_2020",
+        "election_date": "2020-03-02",
+        "turnout_pct": 71.52,
+        "source_url": "https://votes23.bechirot.gov.il/nationalresults",
+        "retrieved_on": "2026-10-21",
+        "availability_basis": "Previous completed election, roughly one year before the forecast; exact first publication timestamp not reconstructed."
+      },
+      "actual_seats": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 17,
+        "blue_and_white_2021": 8,
+        "joint_list_2021": 6,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 6,
+        "raam_2021": 4,
+        "yamina_2021": 7,
+        "new_hope_2021": 6,
+        "labor_2021": 7,
+        "religious_zionism_otzma_2021": 6,
+        "new_economic_2021": 0
+      },
+      "actual_turnout_pct": 67.44,
+      "turnout_absolute_error_pp": 4.08,
+      "official_source_url": "https://votes24.bechirot.gov.il/nationalresults",
+      "scores": {
+        "rounded_mean_reference": {
+          "total_absolute_seat_error": 24,
+          "signed_error_by_list": {
+            "blue_and_white_2021": -4,
+            "joint_list_2021": 2,
+            "labor_2021": -1,
+            "likud_2021": -1,
+            "meretz_2021": -2,
+            "new_economic_2021": 0,
+            "new_hope_2021": 4,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "shas_2021": -2,
+            "united_torah_judaism_2021": 0,
+            "yamina_2021": 4,
+            "yesh_atid_2021": 2,
+            "yisrael_beiteinu_2021": 0
+          },
+          "representation_false_positives": [],
+          "representation_false_negatives": [],
+          "one_or_two_seat_point_estimates": []
+        },
+        "empirical_l1_consensus": {
+          "total_absolute_seat_error": 22,
+          "signed_error_by_list": {
+            "blue_and_white_2021": -4,
+            "joint_list_2021": 2,
+            "labor_2021": -1,
+            "likud_2021": -1,
+            "meretz_2021": -2,
+            "new_economic_2021": 0,
+            "new_hope_2021": 4,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "shas_2021": -1,
+            "united_torah_judaism_2021": 0,
+            "yamina_2021": 4,
+            "yesh_atid_2021": 1,
+            "yisrael_beiteinu_2021": 0
+          },
+          "representation_false_positives": [],
+          "representation_false_negatives": [],
+          "one_or_two_seat_point_estimates": []
+        }
+      },
+      "single_poll_total_absolute_seat_errors": {
+        "camil_fuchs-2021-03-14": 24,
+        "maagar_mohot-2021-03-11": 24,
+        "midgam_rc-2021-03-16": 20
+      }
+    },
+    {
+      "election_id": "knesset_24_2021",
+      "election_date": "2021-03-23",
+      "cutoff": "2021-03-22",
+      "list_order": [
+        "blue_and_white_2021",
+        "joint_list_2021",
+        "labor_2021",
+        "likud_2021",
+        "meretz_2021",
+        "new_economic_2021",
+        "new_hope_2021",
+        "raam_2021",
+        "religious_zionism_otzma_2021",
+        "shas_2021",
+        "united_torah_judaism_2021",
+        "yamina_2021",
+        "yesh_atid_2021",
+        "yisrael_beiteinu_2021"
+      ],
+      "poll_count": 3,
+      "list_labels": {
+        "blue_and_white_2021": "Blue and White",
+        "joint_list_2021": "Joint List (Hadash, Taal, Balad)",
+        "labor_2021": "Labor",
+        "likud_2021": "Likud",
+        "meretz_2021": "Meretz",
+        "new_economic_2021": "New Economic Party",
+        "new_hope_2021": "New Hope",
+        "raam_2021": "Raam",
+        "religious_zionism_otzma_2021": "Religious Zionism / Otzma / Noam",
+        "shas_2021": "Shas",
+        "united_torah_judaism_2021": "United Torah Judaism",
+        "yamina_2021": "Yamina",
+        "yesh_atid_2021": "Yesh Atid",
+        "yisrael_beiteinu_2021": "Yisrael Beiteinu"
+      },
+      "selected_polls": [
+        {
+          "id": "camil_fuchs-2021-03-19",
+          "pollster_group": "camil_fuchs",
+          "publisher": "Channel 13",
+          "published_on": "2021-03-19",
+          "source_updated_on": null,
+          "fieldwork_end": "2021-03-19",
+          "source_url": "https://13tv.co.il/item/news/politics/politics/elections-survey-1225553/",
+          "weight": 0.3333333333333333
+        },
+        {
+          "id": "maagar_mohot-2021-03-18",
+          "pollster_group": "maagar_mohot",
+          "publisher": "Israel Hayom / i24NEWS",
+          "published_on": "2021-03-18",
+          "source_updated_on": "2021-03-20",
+          "fieldwork_end": null,
+          "source_url": "https://www.israelhayom.co.il/article/862625",
+          "weight": 0.3333333333333333
+        },
+        {
+          "id": "midgam_rc-2021-03-19",
+          "pollster_group": "midgam_rc",
+          "publisher": "N12",
+          "published_on": "2021-03-19",
+          "source_updated_on": "2021-03-20",
+          "fieldwork_end": "2021-03-19",
+          "source_url": "https://www.mako.co.il/news-israel-elections/2021/Article-3288575c4cb4871027.htm",
+          "weight": 0.3333333333333333
+        }
+      ],
+      "excluded_polls": [
+        {
+          "id": "camil_fuchs-2021-03-14",
+          "reason": "superseded_within_pollster_group"
+        },
+        {
+          "id": "maagar_mohot-2021-03-11",
+          "reason": "superseded_within_pollster_group"
+        },
+        {
+          "id": "midgam_rc-2021-03-16",
+          "reason": "superseded_within_pollster_group"
+        }
+      ],
+      "forecasts": {
+        "rounded_mean_reference": {
+          "blue_and_white_2021": 4,
+          "joint_list_2021": 9,
+          "labor_2021": 6,
+          "likud_2021": 30,
+          "meretz_2021": 4,
+          "new_economic_2021": 0,
+          "new_hope_2021": 10,
+          "raam_2021": 3,
+          "religious_zionism_otzma_2021": 5,
+          "shas_2021": 8,
+          "united_torah_judaism_2021": 7,
+          "yamina_2021": 9,
+          "yesh_atid_2021": 18,
+          "yisrael_beiteinu_2021": 7
+        },
+        "empirical_l1_consensus": {
+          "blue_and_white_2021": 4,
+          "joint_list_2021": 8,
+          "labor_2021": 6,
+          "likud_2021": 30,
+          "meretz_2021": 4,
+          "new_economic_2021": 0,
+          "new_hope_2021": 10,
+          "raam_2021": 3,
+          "religious_zionism_otzma_2021": 5,
+          "shas_2021": 8,
+          "united_torah_judaism_2021": 7,
+          "yamina_2021": 10,
+          "yesh_atid_2021": 18,
+          "yisrael_beiteinu_2021": 7
+        }
+      },
+      "horizon_days": 1,
+      "period": "repeated_elections_2019_2021",
+      "cutoff_timezone": "Asia/Jerusalem",
+      "cutoff_time": "23:59:59",
+      "turnout_prediction_pct": 71.52,
+      "turnout_reference": {
+        "election_id": "knesset_23_2020",
+        "election_date": "2020-03-02",
+        "turnout_pct": 71.52,
+        "source_url": "https://votes23.bechirot.gov.il/nationalresults",
+        "retrieved_on": "2026-10-21",
+        "availability_basis": "Previous completed election, roughly one year before the forecast; exact first publication timestamp not reconstructed."
+      },
+      "actual_seats": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 17,
+        "blue_and_white_2021": 8,
+        "joint_list_2021": 6,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 6,
+        "raam_2021": 4,
+        "yamina_2021": 7,
+        "new_hope_2021": 6,
+        "labor_2021": 7,
+        "religious_zionism_otzma_2021": 6,
+        "new_economic_2021": 0
+      },
+      "actual_turnout_pct": 67.44,
+      "turnout_absolute_error_pp": 4.08,
+      "official_source_url": "https://votes24.bechirot.gov.il/nationalresults",
+      "scores": {
+        "rounded_mean_reference": {
+          "total_absolute_seat_error": 20,
+          "signed_error_by_list": {
+            "blue_and_white_2021": -4,
+            "joint_list_2021": 3,
+            "labor_2021": -1,
+            "likud_2021": 0,
+            "meretz_2021": -2,
+            "new_economic_2021": 0,
+            "new_hope_2021": 4,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "shas_2021": -1,
+            "united_torah_judaism_2021": 0,
+            "yamina_2021": 2,
+            "yesh_atid_2021": 1,
+            "yisrael_beiteinu_2021": 0
+          },
+          "representation_false_positives": [],
+          "representation_false_negatives": [],
+          "one_or_two_seat_point_estimates": []
+        },
+        "empirical_l1_consensus": {
+          "total_absolute_seat_error": 20,
+          "signed_error_by_list": {
+            "blue_and_white_2021": -4,
+            "joint_list_2021": 2,
+            "labor_2021": -1,
+            "likud_2021": 0,
+            "meretz_2021": -2,
+            "new_economic_2021": 0,
+            "new_hope_2021": 4,
+            "raam_2021": -1,
+            "religious_zionism_otzma_2021": -1,
+            "shas_2021": -1,
+            "united_torah_judaism_2021": 0,
+            "yamina_2021": 3,
+            "yesh_atid_2021": 1,
+            "yisrael_beiteinu_2021": 0
+          },
+          "representation_false_positives": [],
+          "representation_false_negatives": [],
+          "one_or_two_seat_point_estimates": []
+        }
+      },
+      "single_poll_total_absolute_seat_errors": {
+        "camil_fuchs-2021-03-19": 20,
+        "maagar_mohot-2021-03-18": 26,
+        "midgam_rc-2021-03-19": 20
+      }
+    },
+    {
+      "election_id": "knesset_25_2022",
+      "election_date": "2022-11-01",
+      "cutoff": "2022-10-26",
+      "list_order": [
+        "balad_2022",
+        "economic_freedom_2022",
+        "hadash_taal_2022",
+        "jewish_home_2022",
+        "labor_2022",
+        "likud_2022",
+        "meretz_2022",
+        "national_unity_2022",
+        "new_economic_2022",
+        "raam_2022",
+        "religious_zionism_otzma_2022",
+        "shas_2022",
+        "tzeirim_boarim_2022",
+        "united_torah_judaism_2022",
+        "yesh_atid_2022",
+        "yisrael_beiteinu_2022"
+      ],
+      "poll_count": 3,
+      "list_labels": {
+        "balad_2022": "Balad",
+        "economic_freedom_2022": "Economic Freedom",
+        "hadash_taal_2022": "Hadash-Taal",
+        "jewish_home_2022": "Jewish Home",
+        "labor_2022": "Labor",
+        "likud_2022": "Likud",
+        "meretz_2022": "Meretz",
+        "national_unity_2022": "National Unity",
+        "new_economic_2022": "New Economic Party",
+        "raam_2022": "Raam",
+        "religious_zionism_otzma_2022": "Religious Zionism / Otzma / Noam",
+        "shas_2022": "Shas",
+        "tzeirim_boarim_2022": "Tzeirim Boarim",
+        "united_torah_judaism_2022": "United Torah Judaism",
+        "yesh_atid_2022": "Yesh Atid",
+        "yisrael_beiteinu_2022": "Yisrael Beiteinu"
+      },
+      "selected_polls": [
+        {
+          "id": "camil_fuchs-2022-10-25",
+          "pollster_group": "camil_fuchs",
+          "publisher": "Channel 13",
+          "published_on": "2022-10-25",
+          "source_updated_on": null,
+          "fieldwork_end": null,
+          "source_url": "https://13tv.co.il/item/news/politics/politics/m47r5-903303576/",
+          "weight": 0.3333333333333333
+        },
+        {
+          "id": "direct_polls-2022-10-24",
+          "pollster_group": "direct_polls",
+          "publisher": "Channel 14",
+          "published_on": "2022-10-24",
+          "source_updated_on": null,
+          "fieldwork_end": "2022-10-24",
+          "source_url": "https://www.c14.co.il/article/705525",
+          "weight": 0.3333333333333333
+        },
+        {
+          "id": "midgam_rc-2022-10-24",
+          "pollster_group": "midgam_rc",
+          "publisher": "N12",
+          "published_on": "2022-10-24",
+          "source_updated_on": "2022-10-25",
+          "fieldwork_end": "2022-10-24",
+          "source_url": "https://www.mako.co.il/news-israel-elections/2022_q4/Article-989f30b39aa0481027.htm",
+          "weight": 0.3333333333333333
+        }
+      ],
+      "excluded_polls": [
+        {
+          "id": "camil_fuchs-2022-10-28",
+          "reason": "not_available_by_cutoff"
+        },
+        {
+          "id": "direct_polls-2022-10-27",
+          "reason": "not_available_by_cutoff"
+        },
+        {
+          "id": "midgam_rc-2022-10-28",
+          "reason": "not_available_by_cutoff"
+        }
+      ],
+      "forecasts": {
+        "rounded_mean_reference": {
+          "balad_2022": 0,
+          "economic_freedom_2022": 0,
+          "hadash_taal_2022": 4,
+          "jewish_home_2022": 0,
+          "labor_2022": 4,
+          "likud_2022": 32,
+          "meretz_2022": 5,
+          "national_unity_2022": 12,
+          "new_economic_2022": 0,
+          "raam_2022": 4,
+          "religious_zionism_otzma_2022": 13,
+          "shas_2022": 8,
+          "tzeirim_boarim_2022": 0,
+          "united_torah_judaism_2022": 7,
+          "yesh_atid_2022": 25,
+          "yisrael_beiteinu_2022": 6
+        },
+        "empirical_l1_consensus": {
+          "balad_2022": 0,
+          "economic_freedom_2022": 0,
+          "hadash_taal_2022": 4,
+          "jewish_home_2022": 0,
+          "labor_2022": 4,
+          "likud_2022": 32,
+          "meretz_2022": 5,
+          "national_unity_2022": 12,
+          "new_economic_2022": 0,
+          "raam_2022": 4,
+          "religious_zionism_otzma_2022": 13,
+          "shas_2022": 8,
+          "tzeirim_boarim_2022": 0,
+          "united_torah_judaism_2022": 7,
+          "yesh_atid_2022": 25,
+          "yisrael_beiteinu_2022": 6
+        }
+      },
+      "horizon_days": 6,
+      "period": "election_2022",
+      "cutoff_timezone": "Asia/Jerusalem",
+      "cutoff_time": "23:59:59",
+      "turnout_prediction_pct": 67.44,
+      "turnout_reference": {
+        "election_id": "knesset_24_2021",
+        "election_date": "2021-03-23",
+        "turnout_pct": 67.44,
+        "source_url": "https://votes24.bechirot.gov.il/nationalresults",
+        "retrieved_on": "2026-10-21",
+        "availability_basis": "Previous completed election, over one year before the forecast; exact first publication timestamp not reconstructed."
+      },
+      "actual_seats": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 12,
+        "shas_2022": 11,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 5,
+        "meretz_2022": 0,
+        "raam_2022": 5,
+        "balad_2022": 0,
+        "new_economic_2022": 0,
+        "economic_freedom_2022": 0,
+        "tzeirim_boarim_2022": 0
+      },
+      "actual_turnout_pct": 70.63,
+      "turnout_absolute_error_pp": 3.19,
+      "official_source_url": "https://votes25.bechirot.gov.il/nationalresults",
+      "scores": {
+        "rounded_mean_reference": {
+          "total_absolute_seat_error": 12,
+          "signed_error_by_list": {
+            "balad_2022": 0,
+            "economic_freedom_2022": 0,
+            "hadash_taal_2022": -1,
+            "jewish_home_2022": 0,
+            "labor_2022": 0,
+            "likud_2022": 0,
+            "meretz_2022": 5,
+            "national_unity_2022": 0,
+            "new_economic_2022": 0,
+            "raam_2022": -1,
+            "religious_zionism_otzma_2022": -1,
+            "shas_2022": -3,
+            "tzeirim_boarim_2022": 0,
+            "united_torah_judaism_2022": 0,
+            "yesh_atid_2022": 1,
+            "yisrael_beiteinu_2022": 0
+          },
+          "representation_false_positives": [
+            "meretz_2022"
+          ],
+          "representation_false_negatives": [],
+          "one_or_two_seat_point_estimates": []
+        },
+        "empirical_l1_consensus": {
+          "total_absolute_seat_error": 12,
+          "signed_error_by_list": {
+            "balad_2022": 0,
+            "economic_freedom_2022": 0,
+            "hadash_taal_2022": -1,
+            "jewish_home_2022": 0,
+            "labor_2022": 0,
+            "likud_2022": 0,
+            "meretz_2022": 5,
+            "national_unity_2022": 0,
+            "new_economic_2022": 0,
+            "raam_2022": -1,
+            "religious_zionism_otzma_2022": -1,
+            "shas_2022": -3,
+            "tzeirim_boarim_2022": 0,
+            "united_torah_judaism_2022": 0,
+            "yesh_atid_2022": 1,
+            "yisrael_beiteinu_2022": 0
+          },
+          "representation_false_positives": [
+            "meretz_2022"
+          ],
+          "representation_false_negatives": [],
+          "one_or_two_seat_point_estimates": []
+        }
+      },
+      "single_poll_total_absolute_seat_errors": {
+        "camil_fuchs-2022-10-25": 14,
+        "direct_polls-2022-10-24": 14,
+        "midgam_rc-2022-10-24": 14
+      }
+    },
+    {
+      "election_id": "knesset_25_2022",
+      "election_date": "2022-11-01",
+      "cutoff": "2022-10-31",
+      "list_order": [
+        "balad_2022",
+        "economic_freedom_2022",
+        "hadash_taal_2022",
+        "jewish_home_2022",
+        "labor_2022",
+        "likud_2022",
+        "meretz_2022",
+        "national_unity_2022",
+        "new_economic_2022",
+        "raam_2022",
+        "religious_zionism_otzma_2022",
+        "shas_2022",
+        "tzeirim_boarim_2022",
+        "united_torah_judaism_2022",
+        "yesh_atid_2022",
+        "yisrael_beiteinu_2022"
+      ],
+      "poll_count": 3,
+      "list_labels": {
+        "balad_2022": "Balad",
+        "economic_freedom_2022": "Economic Freedom",
+        "hadash_taal_2022": "Hadash-Taal",
+        "jewish_home_2022": "Jewish Home",
+        "labor_2022": "Labor",
+        "likud_2022": "Likud",
+        "meretz_2022": "Meretz",
+        "national_unity_2022": "National Unity",
+        "new_economic_2022": "New Economic Party",
+        "raam_2022": "Raam",
+        "religious_zionism_otzma_2022": "Religious Zionism / Otzma / Noam",
+        "shas_2022": "Shas",
+        "tzeirim_boarim_2022": "Tzeirim Boarim",
+        "united_torah_judaism_2022": "United Torah Judaism",
+        "yesh_atid_2022": "Yesh Atid",
+        "yisrael_beiteinu_2022": "Yisrael Beiteinu"
+      },
+      "selected_polls": [
+        {
+          "id": "camil_fuchs-2022-10-28",
+          "pollster_group": "camil_fuchs",
+          "publisher": "Channel 13",
+          "published_on": "2022-10-28",
+          "source_updated_on": null,
+          "fieldwork_end": null,
+          "source_url": "https://13tv.co.il/item/news/politics/politics/last-survey-903306114/",
+          "weight": 0.3333333333333333
+        },
+        {
+          "id": "direct_polls-2022-10-27",
+          "pollster_group": "direct_polls",
+          "publisher": "Channel 14",
+          "published_on": "2022-10-27",
+          "source_updated_on": null,
+          "fieldwork_end": null,
+          "source_url": "https://www.c14.co.il/article/707085",
+          "weight": 0.3333333333333333
+        },
+        {
+          "id": "midgam_rc-2022-10-28",
+          "pollster_group": "midgam_rc",
+          "publisher": "N12",
+          "published_on": "2022-10-28",
+          "source_updated_on": "2022-10-29",
+          "fieldwork_end": "2022-10-28",
+          "source_url": "https://www.mako.co.il/news-israel-elections/election_2022/Article-afc48a535be1481026.htm",
+          "weight": 0.3333333333333333
+        }
+      ],
+      "excluded_polls": [
+        {
+          "id": "camil_fuchs-2022-10-25",
+          "reason": "superseded_within_pollster_group"
+        },
+        {
+          "id": "direct_polls-2022-10-24",
+          "reason": "superseded_within_pollster_group"
+        },
+        {
+          "id": "midgam_rc-2022-10-24",
+          "reason": "superseded_within_pollster_group"
+        }
+      ],
+      "forecasts": {
+        "rounded_mean_reference": {
+          "balad_2022": 0,
+          "economic_freedom_2022": 0,
+          "hadash_taal_2022": 4,
+          "jewish_home_2022": 0,
+          "labor_2022": 5,
+          "likud_2022": 32,
+          "meretz_2022": 4,
+          "national_unity_2022": 11,
+          "new_economic_2022": 0,
+          "raam_2022": 4,
+          "religious_zionism_otzma_2022": 14,
+          "shas_2022": 8,
+          "tzeirim_boarim_2022": 0,
+          "united_torah_judaism_2022": 7,
+          "yesh_atid_2022": 25,
+          "yisrael_beiteinu_2022": 6
+        },
+        "empirical_l1_consensus": {
+          "balad_2022": 0,
+          "economic_freedom_2022": 0,
+          "hadash_taal_2022": 4,
+          "jewish_home_2022": 0,
+          "labor_2022": 5,
+          "likud_2022": 32,
+          "meretz_2022": 4,
+          "national_unity_2022": 11,
+          "new_economic_2022": 0,
+          "raam_2022": 4,
+          "religious_zionism_otzma_2022": 14,
+          "shas_2022": 8,
+          "tzeirim_boarim_2022": 0,
+          "united_torah_judaism_2022": 7,
+          "yesh_atid_2022": 25,
+          "yisrael_beiteinu_2022": 6
+        }
+      },
+      "horizon_days": 1,
+      "period": "election_2022",
+      "cutoff_timezone": "Asia/Jerusalem",
+      "cutoff_time": "23:59:59",
+      "turnout_prediction_pct": 67.44,
+      "turnout_reference": {
+        "election_id": "knesset_24_2021",
+        "election_date": "2021-03-23",
+        "turnout_pct": 67.44,
+        "source_url": "https://votes24.bechirot.gov.il/nationalresults",
+        "retrieved_on": "2026-10-21",
+        "availability_basis": "Previous completed election, over one year before the forecast; exact first publication timestamp not reconstructed."
+      },
+      "actual_seats": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 12,
+        "shas_2022": 11,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 5,
+        "meretz_2022": 0,
+        "raam_2022": 5,
+        "balad_2022": 0,
+        "new_economic_2022": 0,
+        "economic_freedom_2022": 0,
+        "tzeirim_boarim_2022": 0
+      },
+      "actual_turnout_pct": 70.63,
+      "turnout_absolute_error_pp": 3.19,
+      "official_source_url": "https://votes25.bechirot.gov.il/nationalresults",
+      "scores": {
+        "rounded_mean_reference": {
+          "total_absolute_seat_error": 12,
+          "signed_error_by_list": {
+            "balad_2022": 0,
+            "economic_freedom_2022": 0,
+            "hadash_taal_2022": -1,
+            "jewish_home_2022": 0,
+            "labor_2022": 1,
+            "likud_2022": 0,
+            "meretz_2022": 4,
+            "national_unity_2022": -1,
+            "new_economic_2022": 0,
+            "raam_2022": -1,
+            "religious_zionism_otzma_2022": 0,
+            "shas_2022": -3,
+            "tzeirim_boarim_2022": 0,
+            "united_torah_judaism_2022": 0,
+            "yesh_atid_2022": 1,
+            "yisrael_beiteinu_2022": 0
+          },
+          "representation_false_positives": [
+            "meretz_2022"
+          ],
+          "representation_false_negatives": [],
+          "one_or_two_seat_point_estimates": []
+        },
+        "empirical_l1_consensus": {
+          "total_absolute_seat_error": 12,
+          "signed_error_by_list": {
+            "balad_2022": 0,
+            "economic_freedom_2022": 0,
+            "hadash_taal_2022": -1,
+            "jewish_home_2022": 0,
+            "labor_2022": 1,
+            "likud_2022": 0,
+            "meretz_2022": 4,
+            "national_unity_2022": -1,
+            "new_economic_2022": 0,
+            "raam_2022": -1,
+            "religious_zionism_otzma_2022": 0,
+            "shas_2022": -3,
+            "tzeirim_boarim_2022": 0,
+            "united_torah_judaism_2022": 0,
+            "yesh_atid_2022": 1,
+            "yisrael_beiteinu_2022": 0
+          },
+          "representation_false_positives": [
+            "meretz_2022"
+          ],
+          "representation_false_negatives": [],
+          "one_or_two_seat_point_estimates": []
+        }
+      },
+      "single_poll_total_absolute_seat_errors": {
+        "camil_fuchs-2022-10-28": 20,
+        "direct_polls-2022-10-27": 14,
+        "midgam_rc-2022-10-28": 14
+      }
+    }
+  ],
+  "aggregates_by_horizon": [
+    {
+      "horizon_days": 6,
+      "independent_elections_not_poll_count": 2,
+      "equal_election_mean_total_absolute_seat_error": {
+        "rounded_mean_reference": 18.0,
+        "empirical_l1_consensus": 17.0
+      },
+      "equal_election_mean_turnout_absolute_error_pp": 3.635
+    },
+    {
+      "horizon_days": 1,
+      "independent_elections_not_poll_count": 2,
+      "equal_election_mean_total_absolute_seat_error": {
+        "rounded_mean_reference": 16.0,
+        "empirical_l1_consensus": 16.0
+      },
+      "equal_election_mean_turnout_absolute_error_pp": 3.635
+    }
+  ],
+  "input_and_code_sha256": {
+    "config/historical-backtest.json": "bbf68f06964db3c7d620f1ed3bb1da001d123867adfbb3fe242ab70dda5c7709",
+    "scripts/backtest.py": "97b872d57be67d5610cc0bf4e42ce57d84b97d894f178bda68fc0b49041de9e2",
+    "scripts/baseline.py": "08322eaedd2098193db6a2914ad6898fbcbd8a399c5d17502de38cca394844bb",
+    "data/snapshots/historical-2026-10-21/polls-2021.json": "ccc0fd9dd8373e1825e7300ea2d695bede9e2cad964f34879528b336d5fbfbcf",
+    "data/snapshots/historical-2026-10-21/polls-2022.json": "362bb8701aa1d82448e69107398095fbde44a386ddf101aa0a477062205b1e7a",
+    "data/snapshots/historical-2026-10-21/outcomes.json": "76032d99f8e0368ce3d6d905e45f4da614a1b629cc7c0197b405ed64d332b330"
+  },
+  "source_snapshots": [
+    {
+      "election_id": "knesset_24_2021",
+      "snapshot_id": "historical-polls-2021-2026-10-21-a",
+      "coverage": "Three polling groups per election, two releases per group; original-source convenience panel, not all historical polls or all releases from each group.",
+      "historical_vintage_limit": "Publisher dates and known updates audited; authenticated as-of archive versions not acquired. Retrospective pilot, not a certified real-time reconstruction."
+    },
+    {
+      "election_id": "knesset_25_2022",
+      "snapshot_id": "historical-polls-2022-2026-10-21-a",
+      "coverage": "Three polling groups per election, two releases per group; original-source convenience panel, not all historical polls or all releases from each group.",
+      "historical_vintage_limit": "Publisher dates and known updates audited; authenticated as-of archive versions not acquired. Retrospective pilot, not a certified real-time reconstruction."
+    }
+  ],
+  "limitations": [
+    "Two elections only; repeated horizons do not create additional independent outcomes.",
+    "Three-group original-source convenience panel per election, not all polls; groups differ across elections.",
+    "No model weights, window, or hyperparameters fitted or selected from these outcomes.",
+    "Dated publisher pages and known updates checked; authenticated historical archive versions unavailable.",
+    "Historical list identities are separate; no 2026 form mapping or pooled other bucket is used.",
+    "All official seat-winning lists included; omitted unmodeled lists have zero official and predicted seats.",
+    "Point estimates enforce integer total only; no independent electoral allocator or probability calibration.",
+    "Representation mismatches are seat-positive versus zero diagnostics, not threshold probabilities.",
+    "2019-2021 repeated-election-period sensitivity needs more elections; this pilot has only 2021 from that period.",
+    "Turnout repeats the preceding election, not a current survey or war-adjusted model."
+  ]
+}

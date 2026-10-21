@@ -4,6 +4,8 @@ Initial web review and first data collection: **October 21, 2026**. The first [a
 
 The subsequent [forecasting research review](forecasting-research.md) records additional official/research sources, historical poll discovery, retrieval limitations and candidate uses. The [research agenda](research-agenda.md) distinguishes the user's feedback from proposed validation and turnout experiments. Those sources have not been ingested as model inputs.
 
+Historical execution update: [historical-backtest.md](historical-backtest.md) now records a 12-release subset of original historical poll sources, official 2021/2022 targets and official 2020/2021 turnout references actually consumed. Sources and factual transcriptions are in `data/snapshots/historical-2026-10-21/`; they are separate from current inputs. Known revisions/cutoffs are checked, but independently authenticated old archive versions were not obtained. The broader research inventory remains largely uncollected.
+
 ## Sources supplied in the competition guidelines
 
 ### S1. Wikipedia poll compilation

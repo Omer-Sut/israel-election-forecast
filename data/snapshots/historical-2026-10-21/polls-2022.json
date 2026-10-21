@@ -1,0 +1,322 @@
+{
+  "snapshot_id": "historical-polls-2022-2026-10-21-a",
+  "election_id": "knesset_25_2022",
+  "election_date": "2022-11-01",
+  "review_started_at_utc": "2026-10-21T11:47:56Z",
+  "retrieved_on": "2026-10-21",
+  "coverage": "Three polling groups per election, two releases per group; original-source convenience panel, not all historical polls or all releases from each group.",
+  "rights_note": "Factual numerical transcriptions with attribution; publisher prose and graphics not redistributed or relicensed.",
+  "zero_seat_policy": "Complete audited allocations sum to 120. Unreported modeled lists have zero allocated seats, not zero support. Percentages are separate and unused.",
+  "historical_vintage_limit": "Publisher dates and known updates audited; authenticated as-of archive versions not acquired. Retrospective pilot, not a certified real-time reconstruction.",
+  "lists": [
+    {
+      "id": "balad_2022",
+      "label_en": "Balad",
+      "label_he": "בל״ד"
+    },
+    {
+      "id": "economic_freedom_2022",
+      "label_en": "Economic Freedom",
+      "label_he": "חופש כלכלי"
+    },
+    {
+      "id": "hadash_taal_2022",
+      "label_en": "Hadash-Taal",
+      "label_he": "חד״ש-תע״ל"
+    },
+    {
+      "id": "jewish_home_2022",
+      "label_en": "Jewish Home",
+      "label_he": "הבית היהודי"
+    },
+    {
+      "id": "labor_2022",
+      "label_en": "Labor",
+      "label_he": "העבודה"
+    },
+    {
+      "id": "likud_2022",
+      "label_en": "Likud",
+      "label_he": "הליכוד"
+    },
+    {
+      "id": "meretz_2022",
+      "label_en": "Meretz",
+      "label_he": "מרצ"
+    },
+    {
+      "id": "national_unity_2022",
+      "label_en": "National Unity",
+      "label_he": "המחנה הממלכתי"
+    },
+    {
+      "id": "new_economic_2022",
+      "label_en": "New Economic Party",
+      "label_he": "הכלכלית החדשה"
+    },
+    {
+      "id": "raam_2022",
+      "label_en": "Raam",
+      "label_he": "רע״מ"
+    },
+    {
+      "id": "religious_zionism_otzma_2022",
+      "label_en": "Religious Zionism / Otzma / Noam",
+      "label_he": "הציונות הדתית"
+    },
+    {
+      "id": "shas_2022",
+      "label_en": "Shas",
+      "label_he": "ש״ס"
+    },
+    {
+      "id": "tzeirim_boarim_2022",
+      "label_en": "Tzeirim Boarim",
+      "label_he": "צעירים בוערים"
+    },
+    {
+      "id": "united_torah_judaism_2022",
+      "label_en": "United Torah Judaism",
+      "label_he": "יהדות התורה"
+    },
+    {
+      "id": "yesh_atid_2022",
+      "label_en": "Yesh Atid",
+      "label_he": "יש עתיד"
+    },
+    {
+      "id": "yisrael_beiteinu_2022",
+      "label_en": "Yisrael Beiteinu",
+      "label_he": "ישראל ביתנו"
+    }
+  ],
+  "polls": [
+    {
+      "id": "midgam_rc-2022-10-24",
+      "election_id": "knesset_25_2022",
+      "kind": "pre_election_poll",
+      "pollster_group": "midgam_rc",
+      "publisher": "N12",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2022_q4/Article-989f30b39aa0481027.htm",
+      "published_on": "2022-10-24",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": "2022-10-24",
+      "fieldwork_end": "2022-10-24",
+      "sample_size": 503,
+      "mode": "Internet and telephone",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 13,
+        "shas_2022": 8,
+        "labor_2022": 5,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 5,
+        "religious_zionism_otzma_2022": 13,
+        "hadash_taal_2022": 4,
+        "meretz_2022": 5,
+        "raam_2022": 4
+      },
+      "reported_below_threshold_pct": {
+        "balad_2022": 2.0,
+        "jewish_home_2022": 1.8
+      },
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "source_updated_on": "2022-10-25",
+      "pollster": "Midgam Research and Consulting / Mano Geva / iPanel",
+      "turnout_intention_pct": 69,
+      "derived_seat_values": {
+        "national_unity_2022": {
+          "value": 13,
+          "rule": "120 minus 107 seats explicitly listed for the other qualifying lists; original body reports a two-seat National Unity gain without printing its absolute level.",
+          "other_explicit_positive_seats_sum": 107
+        }
+      },
+      "audit": "Actual-lineup allocation checked in original body, not the separate Shaked-withdrawal scenario. National Unity=13 is a documented residual derivation from the complete lineup, not a direct numeric quotation or a value borrowed from a later poll/result. Actual respondents=503, not target=500. Self-reported turnout diagnostic unused."
+    },
+    {
+      "id": "direct_polls-2022-10-24",
+      "election_id": "knesset_25_2022",
+      "kind": "pre_election_poll",
+      "pollster_group": "direct_polls",
+      "publisher": "Channel 14",
+      "source_url": "https://www.c14.co.il/article/705525",
+      "published_on": "2022-10-24",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": "2022-10-24",
+      "fieldwork_end": "2022-10-24",
+      "sample_size": 1084,
+      "mode": null,
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2022": 34,
+        "yesh_atid_2022": 23,
+        "national_unity_2022": 12,
+        "shas_2022": 9,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 12,
+        "hadash_taal_2022": 4,
+        "meretz_2022": 5,
+        "raam_2022": 4
+      },
+      "reported_below_threshold_pct": {
+        "balad_2022": 2.0,
+        "jewish_home_2022": 1.9,
+        "economic_freedom_2022": 0.4,
+        "new_economic_2022": 0.2,
+        "tzeirim_boarim_2022": 0.2
+      },
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "pollster": "Direct Polls / Shlomo Filber / Tzuriel Sharon",
+      "audit": "All positive seats, fieldwork, sample and below-threshold shares checked in original publisher body. Legacy now14 link redirects to this article; no historical numeric revision authenticated."
+    },
+    {
+      "id": "camil_fuchs-2022-10-25",
+      "election_id": "knesset_25_2022",
+      "kind": "pre_election_poll",
+      "pollster_group": "camil_fuchs",
+      "publisher": "Channel 13",
+      "source_url": "https://13tv.co.il/item/news/politics/politics/m47r5-903303576/",
+      "published_on": "2022-10-25",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": 801,
+      "mode": "Internet Jewish sample; telephone non-Jewish sample",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2022": 31,
+        "yesh_atid_2022": 27,
+        "national_unity_2022": 11,
+        "shas_2022": 8,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 4,
+        "meretz_2022": 4,
+        "raam_2022": 4
+      },
+      "reported_below_threshold_pct": {
+        "jewish_home_2022": 2.2,
+        "balad_2022": 2.3
+      },
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "pollster": "Camil Fuchs / Midgam Project / Stat-Net",
+      "audit": "All seats transcribed from complete original article, actual lineup rather than withdrawal scenario. Sample=801 (600 Jewish, 201 non-Jewish); government filing search excerpt says 800, not substituted. Fieldwork unknown; publication proxy."
+    },
+    {
+      "id": "direct_polls-2022-10-27",
+      "election_id": "knesset_25_2022",
+      "kind": "pre_election_poll",
+      "pollster_group": "direct_polls",
+      "publisher": "Channel 14",
+      "source_url": "https://www.c14.co.il/article/707085",
+      "published_on": "2022-10-27",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": null,
+      "mode": null,
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2022": 34,
+        "yesh_atid_2022": 23,
+        "national_unity_2022": 13,
+        "shas_2022": 9,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 12,
+        "hadash_taal_2022": 4,
+        "meretz_2022": 4,
+        "raam_2022": 4
+      },
+      "reported_below_threshold_pct": {
+        "balad_2022": 2.1,
+        "jewish_home_2022": 1.9,
+        "economic_freedom_2022": 0.6,
+        "new_economic_2022": 0.5,
+        "tzeirim_boarim_2022": 0.5
+      },
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "pollster": "Direct Polls",
+      "audit": "Complete original publisher seat table in body. Fieldwork, sample and mode not established; do not copy metadata from October 24. Israel Free 0.1% is mentioned but not included in modeled named list set; no seats."
+    },
+    {
+      "id": "camil_fuchs-2022-10-28",
+      "election_id": "knesset_25_2022",
+      "kind": "pre_election_poll",
+      "pollster_group": "camil_fuchs",
+      "publisher": "Channel 13",
+      "source_url": "https://13tv.co.il/item/news/politics/politics/last-survey-903306114/",
+      "published_on": "2022-10-28",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": 801,
+      "mode": "Internet Jewish sample; telephone non-Jewish sample",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2022": 30,
+        "yesh_atid_2022": 27,
+        "national_unity_2022": 10,
+        "shas_2022": 8,
+        "labor_2022": 6,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 5,
+        "religious_zionism_otzma_2022": 15,
+        "hadash_taal_2022": 4,
+        "meretz_2022": 4,
+        "raam_2022": 4
+      },
+      "reported_below_threshold_pct": {
+        "balad_2022": 2.75,
+        "jewish_home_2022": 2.0
+      },
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "pollster": "Camil Fuchs / Midgam Project / Stat-Net",
+      "audit": "Complete actual-lineup seat table and sample checked in original body: 601 Jewish and 200 non-Jewish respondents. Fieldwork not explicit; publication proxy."
+    },
+    {
+      "id": "midgam_rc-2022-10-28",
+      "election_id": "knesset_25_2022",
+      "kind": "pre_election_poll",
+      "pollster_group": "midgam_rc",
+      "publisher": "N12",
+      "source_url": "https://www.mako.co.il/news-israel-elections/election_2022/Article-afc48a535be1481026.htm",
+      "published_on": "2022-10-28",
+      "retrieved_on": "2026-10-21",
+      "fieldwork_start": "2022-10-27",
+      "fieldwork_end": "2022-10-28",
+      "sample_size": 1007,
+      "mode": "Internet and telephone",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2022": 31,
+        "yesh_atid_2022": 25,
+        "national_unity_2022": 11,
+        "shas_2022": 8,
+        "labor_2022": 5,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 4,
+        "meretz_2022": 5,
+        "raam_2022": 4
+      },
+      "reported_below_threshold_pct": {
+        "balad_2022": 1.6,
+        "jewish_home_2022": 1.5
+      },
+      "source_version_audit": "Historical dated publisher page inspected in 2026; no independently authenticated historical archive snapshot. No known numeric revision after either eligible cutoff.",
+      "source_updated_on": "2022-10-29",
+      "pollster": "Midgam Research and Consulting / Mano Geva / iPanel",
+      "turnout_intention_pct": 67,
+      "audit": "All seats and actual respondents=1007 checked in original body/methodology; target sample=1000 not substituted. Known October 29 source update eligible for October 31 only. Turnout intention diagnostic unused."
+    }
+  ]
+}

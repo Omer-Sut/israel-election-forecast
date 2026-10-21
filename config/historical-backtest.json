@@ -1,0 +1,37 @@
+{
+  "status": "retrospective_pilot_two_elections_not_model_selection",
+  "poll_window_days": 14,
+  "horizons_days": [6, 1],
+  "minimum_groups": 3,
+  "cutoff_timezone": "Asia/Jerusalem",
+  "methods": ["rounded_mean_reference", "empirical_l1_consensus"],
+  "outcomes_path": "data/snapshots/historical-2026-10-21/outcomes.json",
+  "elections": [
+    {
+      "id": "knesset_24_2021",
+      "polls_path": "data/snapshots/historical-2026-10-21/polls-2021.json",
+      "period": "repeated_elections_2019_2021",
+      "turnout_reference": {
+        "election_id": "knesset_23_2020",
+        "election_date": "2020-03-02",
+        "turnout_pct": 71.52,
+        "source_url": "https://votes23.bechirot.gov.il/nationalresults",
+        "retrieved_on": "2026-10-21",
+        "availability_basis": "Previous completed election, roughly one year before the forecast; exact first publication timestamp not reconstructed."
+      }
+    },
+    {
+      "id": "knesset_25_2022",
+      "polls_path": "data/snapshots/historical-2026-10-21/polls-2022.json",
+      "period": "election_2022",
+      "turnout_reference": {
+        "election_id": "knesset_24_2021",
+        "election_date": "2021-03-23",
+        "turnout_pct": 67.44,
+        "source_url": "https://votes24.bechirot.gov.il/nationalresults",
+        "retrieved_on": "2026-10-21",
+        "availability_basis": "Previous completed election, over one year before the forecast; exact first publication timestamp not reconstructed."
+      }
+    }
+  ]
+}

@@ -6,6 +6,8 @@ Execution update: [the first preliminary baseline](baseline-method.md) is now im
 
 User review update: [research-agenda.md](research-agenda.md) records questions and proposed historical/war-turnout evaluation; [forecasting-research.md](forecasting-research.md) reviews existing methods and extra data. Begin historical collection with 2021/2022; extension to six elections in 2015-2022 is a proposal conditional on time, with a separate 2019-2021 period sensitivity. Do not treat this as a selected model or completed backtest. Preserve existing outputs while comparing candidates.
 
+Execution update after user authorization: the [2021/2022 pilot](historical-backtest.md) is now complete with 12 original-source releases, T-6/T-1 cutoffs, actual official-result errors and 16 passing local tests. Wider historical coverage, chronological evaluation of fitted alternatives and the war/turnout check remain pending. No additional model was selected and no current forecast changed.
+
 ## Target deliverable
 
 A reproducible forecast of seats for every list in the competition form and national turnout (%), an accessible code link, and an honest method description of no more than 500 words. Optimize total absolute seat error. Preserve code revision, input cutoff, source versions, assumptions, and final output.

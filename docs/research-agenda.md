@@ -2,6 +2,8 @@
 
 Recorded October 21, 2026. This is a handoff for collaborators and agents; proposals below are not selected models or completed experiments. See [implemented baseline](baseline-method.md), [research review](forecasting-research.md), and [current state](project-state.md).
 
+Subsequent execution update: the user authorized proceeding with the historical backtest. The [initial 2021/2022 pilot](historical-backtest.md) is now implemented and run; its four horizon cases are two outcomes. The sections below preserve the earlier research-stage feedback/proposals. Broader history, war/turnout analysis and alternative models remain pending.
+
 ## Why this review exists
 
 The user asked how the autonomous preliminary results were calculated, including their data, assumptions, and methods. The explanation established that these were two poll-consensus references, not a trained prediction model: equally weighted latest audited groups, rounded mean versus empirical absolute-deviation consensus, plus unchanged 2022 turnout. The 14-day window and aggregation choices were agent-selected starting points, not user-selected or historically validated decisions. In-sample disagreement of 14.4/12.4 is not future election error. Software checks establish correctness and reproducibility, not prediction skill.
