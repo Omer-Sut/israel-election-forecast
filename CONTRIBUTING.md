@@ -29,11 +29,11 @@ git switch -c work/short-description
 
 Clone separately on each computer. Use Git to exchange work; avoid using a concurrently synchronized OneDrive directory as the shared Git transport. A folder copy or cloud sync is not a replacement for committing and pushing.
 
-Read the start-here documents before coding. There are currently no model dependencies to install.
+Read the start-here documents before coding. Use Python 3.12; the first baseline needs no third-party packages. Run `python -m unittest discover -s tests -v` and `python scripts/baseline.py --out-dir output/baseline` from the repository root.
 
 ## Online-first working agreement
 
-The user has about eight hands-on hours total. Prefer a minimal hosted CPU notebook for first execution and add automation only if it saves effort. GitHub is the source of truth; ephemeral notebook/workflow storage is not a durable archive. These execution surfaces are proposed, not configured yet.
+The user has about eight hands-on hours total. The first baseline uses a small GitHub-hosted CPU workflow, manually runnable from Actions and automatically checked on pull requests/main. It tests and reproduces the committed baseline snapshot. A notebook is deferred. GitHub is the source of truth; ephemeral workflow artifacts are not a durable archive, so reference inputs/results remain committed. See `docs/baseline-method.md`.
 
 Version the code, configuration, and small shareable input snapshots; identify the commit and data cutoff for each run. A fresh remote session must reproduce the result without one contributor's local files, absolute paths, or cached state. Save final outputs and manifests to a durable shared location. See `docs/project-plan.md` for the staged plan and storage conventions.
 

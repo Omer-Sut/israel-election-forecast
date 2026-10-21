@@ -1,0 +1,305 @@
+{
+  "status": "preliminary_baselines_not_submission_ready",
+  "as_of_date": "2026-10-21",
+  "snapshot_id": "polls-2026-10-21-a",
+  "input_and_code_sha256": {
+    "config/baseline.json": "a90eaba8fe6ed6f61ff27c38c24094786c74745c695e4002a0aaf89e8aaeb247",
+    "config/submission-fields.json": "e0d7dfff3b587801b761a296220e3ffe012fa1af63fcd7aeae488810381f656a",
+    "config/poll-mappings.json": "59e288422cc1f0b47d882f4361029b813574e724baa31c71741e065b277da4d2",
+    "data/snapshots/polls-2026-10-21.json": "206e1033c28a4d5ebdcc695c35c5179fc5b93de63161d710226b577feb7d9c4f",
+    "data/snapshots/results-2022.json": "227cc14bd619ba4b1b7bfe7d6277ba2478c8c55a61ea2201a0000080200c1cb1",
+    "scripts/baseline.py": "08322eaedd2098193db6a2914ad6898fbcbd8a399c5d17502de38cca394844bb"
+  },
+  "poll_count": 5,
+  "weighting": "Equal weight per latest audited pollster group; independence is not assumed",
+  "selected_polls": [
+    {
+      "id": "c13-consortium-2026-10-19",
+      "pollster_group": "c13_consortium",
+      "publisher": "Channel 13",
+      "published_on": "2026-10-19",
+      "fieldwork_end": null,
+      "source_url": "https://13tv.co.il/item/news/politics/politics/jw3wm-905406894/",
+      "weight": 0.2
+    },
+    {
+      "id": "walla-lazar-2026-10-20",
+      "pollster_group": "lazar_panel4all",
+      "publisher": "Walla",
+      "published_on": "2026-10-20",
+      "fieldwork_end": "2026-10-19",
+      "source_url": "https://www.walla.co.il/news/politics/383958175",
+      "weight": 0.2
+    },
+    {
+      "id": "n12-midgam-2026-10-19",
+      "pollster_group": "midgam_rc",
+      "publisher": "N12",
+      "published_on": "2026-10-19",
+      "fieldwork_end": "2026-10-19",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm",
+      "weight": 0.2
+    },
+    {
+      "id": "c14-nextdata-2026-10-19",
+      "pollster_group": "next_data",
+      "publisher": "Channel 14",
+      "published_on": "2026-10-19",
+      "fieldwork_end": "2026-10-19",
+      "source_url": "https://www.c14.co.il/article/1745051",
+      "weight": 0.2
+    },
+    {
+      "id": "zman-tatika-2026-10-15",
+      "pollster_group": "tatika_adgenda",
+      "publisher": "Zman Yisrael / Times of Israel",
+      "published_on": "2026-10-15",
+      "fieldwork_end": "2026-10-15",
+      "source_url": "https://www.timesofisrael.com/toi-poll-eisenkot-opens-up-big-lead-on-netanyahu-but-both-blocs-short-of-majority/",
+      "weight": 0.2
+    }
+  ],
+  "excluded_or_archived": [
+    {
+      "id": "maariv-lazar-2026-10-16",
+      "reason": "superseded_within_pollster_group"
+    }
+  ],
+  "methods": {
+    "rounded_mean_reference": {
+      "seats": {
+        "likud": 22,
+        "yashar": 23,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 7,
+        "religious_zionism": 7,
+        "raam": 5,
+        "hadash_taal": 8,
+        "blue_and_white": 0,
+        "amcha_yisrael": 1,
+        "reservists_economic": 2,
+        "other_qualifying_lists": 0
+      },
+      "mean_absolute_disagreement_with_polls": 14.4
+    },
+    "empirical_l1_consensus": {
+      "seats": {
+        "likud": 20,
+        "yashar": 23,
+        "beyachad": 14,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 7,
+        "religious_zionism": 7,
+        "raam": 5,
+        "hadash_taal": 8,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 4,
+        "other_qualifying_lists": 0
+      },
+      "mean_absolute_disagreement_with_polls": 12.4
+    }
+  },
+  "turnout": {
+    "prediction_pct": 70.63,
+    "formatted": "70.63",
+    "method": "last_official_election_persistence",
+    "reference_election": "knesset_25_2022",
+    "source_url": "https://votes25.bechirot.gov.il/nationalresults",
+    "minimum": 40.0,
+    "maximum": 100.0
+  },
+  "turnout_intention_diagnostics": [
+    {
+      "poll_id": "n12-midgam-2026-10-19",
+      "reported_intention_pct": 72.0,
+      "used_in_prediction": false
+    }
+  ],
+  "poll_seat_ranges_not_confidence_intervals": {
+    "likud": {
+      "min": 18,
+      "max": 30
+    },
+    "yashar": {
+      "min": 19,
+      "max": 26
+    },
+    "beyachad": {
+      "min": 10,
+      "max": 14
+    },
+    "democrats": {
+      "min": 8,
+      "max": 10
+    },
+    "yisrael_beiteinu": {
+      "min": 6,
+      "max": 9
+    },
+    "shas": {
+      "min": 7,
+      "max": 10
+    },
+    "united_torah_judaism": {
+      "min": 7,
+      "max": 8
+    },
+    "otzma_yehudit": {
+      "min": 7,
+      "max": 8
+    },
+    "religious_zionism": {
+      "min": 6,
+      "max": 7
+    },
+    "raam": {
+      "min": 5,
+      "max": 6
+    },
+    "hadash_taal": {
+      "min": 8,
+      "max": 9
+    },
+    "blue_and_white": {
+      "min": 0,
+      "max": 0
+    },
+    "amcha_yisrael": {
+      "min": 0,
+      "max": 4
+    },
+    "reservists_economic": {
+      "min": 0,
+      "max": 4
+    },
+    "other_qualifying_lists": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "leave_one_group_out_sensitivity_not_probability": [
+    {
+      "omitted_group": "c13_consortium",
+      "seats": {
+        "likud": 21,
+        "yashar": 23,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 8,
+        "religious_zionism": 7,
+        "raam": 5,
+        "hadash_taal": 8,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 2,
+        "other_qualifying_lists": 0
+      },
+      "seat_distance_from_full_consensus": 6
+    },
+    {
+      "omitted_group": "lazar_panel4all",
+      "seats": {
+        "likud": 21,
+        "yashar": 23,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 7,
+        "religious_zionism": 7,
+        "raam": 5,
+        "hadash_taal": 9,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 2,
+        "other_qualifying_lists": 0
+      },
+      "seat_distance_from_full_consensus": 6
+    },
+    {
+      "omitted_group": "midgam_rc",
+      "seats": {
+        "likud": 20,
+        "yashar": 22,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 7,
+        "religious_zionism": 7,
+        "raam": 6,
+        "hadash_taal": 8,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 4,
+        "other_qualifying_lists": 0
+      },
+      "seat_distance_from_full_consensus": 4
+    },
+    {
+      "omitted_group": "next_data",
+      "seats": {
+        "likud": 19,
+        "yashar": 23,
+        "beyachad": 14,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 7,
+        "religious_zionism": 6,
+        "raam": 6,
+        "hadash_taal": 9,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 4,
+        "other_qualifying_lists": 0
+      },
+      "seat_distance_from_full_consensus": 4
+    },
+    {
+      "omitted_group": "tatika_adgenda",
+      "seats": {
+        "likud": 21,
+        "yashar": 21,
+        "beyachad": 14,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 8,
+        "religious_zionism": 7,
+        "raam": 6,
+        "hadash_taal": 9,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 2,
+        "other_qualifying_lists": 0
+      },
+      "seat_distance_from_full_consensus": 8
+    }
+  ],
+  "limitations": [
+    "Audited convenience sample, not all latest polls; additional October 20 releases remain unaudited.",
+    "No historical poll-to-election backtest or probability calibration has run.",
+    "Poll disagreement is not forecast accuracy or an election-outcome probability.",
+    "Only form arithmetic is enforced; a vote-to-seat allocator and full electoral feasibility are not implemented.",
+    "Current alliance-to-form mappings are explicit assumptions and do not merge historical electorates.",
+    "Unreported seat zeros follow a verified complete 120-seat table, not missing percentage imputation.",
+    "Turnout is a historical persistence baseline; current self-reported intention is diagnostic only.",
+    "No adjustment for support redistribution after Blue and White's reported withdrawal."
+  ]
+}

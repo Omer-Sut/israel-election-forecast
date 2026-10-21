@@ -28,7 +28,7 @@ Apply hard exclusions to verified structural impossibilities. Use documented pro
 
 - Keep authoritative code, configuration, small shareable inputs, source metadata, decisions, and report material in GitHub.
 - Aim for a fresh hosted CPU session to reproduce the forecast from a specific commit and input snapshot. No required paths, packages, files, or manual state may live only on one person's computer.
-- Proposed first execution surface: one Colab notebook that runs versioned project code. Optional later automation: a small GitHub Actions job. These are recommendations, not configured services yet.
+- Implemented first execution surface: a small GitHub Actions CPU job running standard-library Python 3.12 against committed inputs. This avoids extra notebook setup; a Colab wrapper remains optional later. Check the workflow's actual run result before claiming successful remote reproduction.
 - Keep reproducibility-critical inputs durable. Session disks and expiring workflow artifacts are not the only copy of a final submission.
 
 ## Documentation while working

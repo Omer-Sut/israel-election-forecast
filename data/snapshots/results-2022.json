@@ -1,0 +1,28 @@
+{
+  "election_id": "knesset_25_2022",
+  "election_date": "2022-11-01",
+  "source_url": "https://votes25.bechirot.gov.il/nationalresults",
+  "reviewed_on": "2026-10-21",
+  "status": "final_official_results",
+  "eligible_voters": 6788804,
+  "ballots_cast": 4794593,
+  "valid_votes": 4764742,
+  "invalid_votes": 29851,
+  "turnout_pct": 70.63,
+  "coverage": "All seat-winning lists plus two selected below-threshold lists; not a complete vote table",
+  "party_results": [
+    {"id":"likud_2022","seats":32,"votes":1115336},
+    {"id":"yesh_atid_2022","seats":24,"votes":847435},
+    {"id":"religious_zionism_otzma_2022","seats":14,"votes":516470},
+    {"id":"national_unity_2022","seats":12,"votes":432482},
+    {"id":"shas_2022","seats":11,"votes":392964},
+    {"id":"united_torah_judaism_2022","seats":7,"votes":280194},
+    {"id":"yisrael_beiteinu_2022","seats":6,"votes":213687},
+    {"id":"raam_2022","seats":5,"votes":194047},
+    {"id":"hadash_taal_2022","seats":5,"votes":178735},
+    {"id":"labor_2022","seats":4,"votes":175992},
+    {"id":"meretz_2022","seats":0,"votes":150793},
+    {"id":"balad_2022","seats":0,"votes":138617}
+  ],
+  "use_in_first_baseline": "Turnout persistence reference only; seat results are retained for later historical validation, not mapped directly onto current alliances."
+}

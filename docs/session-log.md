@@ -1,5 +1,15 @@
 # Session log
 
+## 2026-10-21 - First audited data and runnable baseline (R001)
+
+- User accepted proceeding with the disclosed current Joint List/form mapping. Encoded it as an explicit assumption and preserved election-specific historical identities.
+- Execution began at 08:39:13 UTC. Audited six poll records from five polling groups and stored partial official 2022 outcomes. Walla/Lazar supersedes Maariv/Lazar. Snapshot records coverage gaps and missing metadata rather than claiming every latest poll was collected.
+- Visually inspected Channel 13's original October 19 graphic: Likud=18, UTJ=7, total=120; retained the conflicting article-body value in the audit. Recorded source graphic URL/hash without redistributing it. Other inputs were checked in original publisher text/pollster report; source links and units remain distinct.
+- Implemented standard-library Python 3.12, rounded mean and empirical L1 seat consensus, total/field/turnout validation, source-date/group selection, hashes, and leave-one-group-out sensitivity. Turnout persistence reference is 70.63%; N12 intention data remains diagnostic only.
+- First local test/run completed by 08:48:26 UTC. Nine correctness tests passed (0.145 seconds in that test run); this is not predictive validation. In-sample absolute poll disagreement: 14.4 mean versus 12.4 L1. Omission sensitivity: 4-8 total absolute seat difference.
+- Added committed reference reports, an implemented-method draft, and a small GitHub Actions CPU workflow to test and reproduce them. Actual hosted run status is pending verification. No heavy training, model download, external Python package, or competition submission was performed.
+- User hands-on effort is not inferred from agent wall-clock duration. Next: verify hosted reproduction, audit latest omitted releases, and assemble historical pre-election polls for genuine evaluation.
+
 ## 2026-10-21 - Joint List / Hadash-Ta'al source check
 
 - User proposed equivalence and requested online sources. Checked the current alliance's own site, N12's August 19 report, and official 2022 results.

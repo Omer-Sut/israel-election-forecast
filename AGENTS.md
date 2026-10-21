@@ -10,6 +10,8 @@ Use `docs/submission-contract.md` and `config/submission-fields.json` for the us
 
 Turnout predictions must satisfy the user-confirmed form bound **40.00 <= national_turnout_pct <= 100.00**, inclusive. Read these bounds from configuration and enforce them during point-prediction selection and export validation; display two decimal places. Preserve diagnostics for any unconstrained out-of-range estimate rather than silently clipping at submission. Exact accepted decimal increments and other form validation remain unverified.
 
+The first implementation is documented in `docs/baseline-method.md`: Python 3.12 standard library, audited JSON inputs, and a GitHub-hosted CPU workflow. Run `python -m unittest discover -s tests -v` and `python scripts/baseline.py --out-dir output/baseline`. When changing consumed inputs/code, regenerate the committed `reports/baseline-2026-10-21/` reference deliberately or create a new dated report; CI compares it with fresh output. Empirical poll disagreement is not historical forecast accuracy or calibrated uncertainty. The accepted current Joint List form mapping is explicit in `config/poll-mappings.json`; historical identities remain separate.
+
 ## Working conventions
 
 - Communicate and document in English. Preserve original Hebrew identifiers alongside stable English/internal identifiers when necessary.

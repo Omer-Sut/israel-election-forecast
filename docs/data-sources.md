@@ -1,6 +1,6 @@
 # Data sources and provenance
 
-Initial web review: **October 21, 2026**. Reviewed pages are not yet collected, audited datasets. No modeling input snapshots or poll tables have been saved. Links below record what was inspected and what remains uncertain.
+Initial web review and first data collection: **October 21, 2026**. The first [audited input snapshot](../data/README.md) now stores six poll records, five active groups, and a partial official 2022 outcome table. The sections below preserve the broader source inventory and its limitations; not every reviewed source has been ingested.
 
 ## Sources supplied in the competition guidelines
 
@@ -49,7 +49,7 @@ Use recent national outcomes first to evaluate same-election pre-election poll e
 - [Channel 13 release linked by S1](https://13tv.co.il/item/news/politics/politics/jw3wm-905406894/): page includes seat estimates, polling organizations, sample size (1,016), and notes about the lineup/timing. The article text reports Likud at 17 while the corresponding October 19 row in S1 showed 18 during review. **Unresolved source discrepancy: flag before ingestion; do not silently select a value.** Images/corrections may need inspection.
 - [Channel 14 release](https://www.c14.co.il/article/1745051): reports seats, explicit support percentages for some below-threshold lists, fieldwork date (October 19, 2026), polling organization, and sample size (454).
 
-These demonstrate available measurements and the need to audit sources; neither poll has been ingested. Sample size alone is not a complete quality measure or a justified weight. PM-preference questions are separate from list voting intention.
+These demonstrate available measurements and the need to audit sources. Both are now ingested in the first snapshot: Channel 13 uses the original graphic's Likud=18 and UTJ=7 after visual inspection, preserving the body-text conflict; Channel 14 uses its complete publisher seat list. Sample size alone is not a complete quality measure or a justified weight. PM-preference questions are separate from list voting intention.
 
 ### S8. Official allocation references (access incomplete)
 
@@ -80,7 +80,7 @@ Published seat estimates and vote percentages require separate fields. Missing v
 
 ## S10. Joint List composition check (October 21, 2026)
 
-The [alliance's own website](https://jointlist.org.il/en/) names Hadash, Ta'al, and Balad as its constituents. [N12, August 19, 2026](https://www.mako.co.il/news-israel-elections/2026/Article-cb92eb7e0f910a1026.htm), reports their agreement to run jointly without Ra'am. [Official 2022 results](https://votes25.bechirot.gov.il/nationalresults) list Hadash-Ta'al and Balad separately. These sources support a changed alliance composition, not unconditional equivalence of labels over time. The form's intended mapping remains an interpretation; see [submission-contract.md](submission-contract.md). No poll series has been merged or reclassified.
+The [alliance's own website](https://jointlist.org.il/en/) names Hadash, Ta'al, and Balad as its constituents. [N12, August 19, 2026](https://www.mako.co.il/news-israel-elections/2026/Article-cb92eb7e0f910a1026.htm), reports their agreement to run jointly without Ra'am. [Official 2022 results](https://votes25.bechirot.gov.il/nationalresults) list Hadash-Ta'al and Balad separately. These sources support a changed alliance composition, not unconditional equivalence of labels over time. After the user accepted proceeding, the current poll-to-form mapping is encoded explicitly in `config/poll-mappings.json`. Historical identities remain separate; organizer intent is still an interpretation.
 
 ## Online storage policy
 

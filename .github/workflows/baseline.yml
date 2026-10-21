@@ -1,0 +1,36 @@
+name: Reproduce preliminary baseline
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Test decision and contract logic
+        run: python -m unittest discover -s tests -v
+      - name: Reproduce baseline from frozen inputs
+        run: python scripts/baseline.py --out-dir output/baseline
+      - name: Check durable snapshot reproduction
+        run: diff -ru reports/baseline-2026-10-21 output/baseline
+      - name: Show results in the run summary
+        run: cat output/baseline/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: preliminary-baseline
+          path: output/baseline/
+          if-no-files-found: error
+          retention-days: 30

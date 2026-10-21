@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "election_id": "knesset_26_2026",
+  "identity_for_existing_form_ids": true,
+  "aliases": {
+    "joint_list": {
+      "target": "hadash_taal",
+      "status": "user_accepted_form_mapping_assumption",
+      "note": "Current Hadash/Ta'al/Balad alliance maps to the form's Hadash-Ta'al slot; user accepted proceeding after the distinction was explained. Not a historical identity or organizer-confirmed interpretation.",
+      "source_url": "https://jointlist.org.il/en/"
+    },
+    "religious_zionism_zehut": {
+      "target": "religious_zionism",
+      "status": "explicit_current_form_label_mapping",
+      "note": "Current poll alliance uses the form's Religious Zionism slot; preserve the combined source label. Not a split of seats between constituent parties.",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm"
+    }
+  },
+  "other_qualifying_lists_rule": "Unmapped individual lists may enter the combined field only through their reported allocated seats. Never apply a threshold to pooled other votes.",
+  "unreported_fields_rule": "Infer residual zero seats only after a source is explicitly audited as a complete allocation and its reported seats sum to 120. Missing percentage measurements stay missing."
+}
