@@ -21,11 +21,11 @@ Working assumption for project planning: develop an entry suitable for the syste
 - Deadline: **October 26, 2026 at 23:59**. Responses may be edited until that deadline.
 - Each participant may submit once in each track.
 - The PDF does not explicitly state a timezone. Use Asia/Jerusalem as a planning assumption pending confirmation.
-- The form has not been opened; its exact list of parties, field validation, and precision requirements remain unknown.
+- On October 21 the user supplied a full form transcription. Its 15 seat fields (14 named lists plus combined other qualifying parties), required narrative fields, and explicit total of 120 are documented in [submission-contract.md](submission-contract.md). Hidden numeric validation, turnout precision, and timezone remain unknown. The user's entries were dummy navigation values, not a forecast.
 
 ## Forecast targets and scoring (page 1)
 
-1. Seat count for **each electoral list appearing in the form**.
+1. Seat counts for the form's **14 named lists plus combined other qualifying parties**, totaling **120** according to the form header. Preserve disaggregated internal list outcomes; scoring of multiple other qualifiers is not independently confirmed.
 2. National voter turnout, in percent.
 
 The main score is the sum of absolute differences between predicted seats and official seats across lists. Lower scores are better. If scores tie, turnout accuracy determines the ranking. The PDF does not specify a more detailed turnout-error formula or further tie-breakers.
@@ -72,7 +72,7 @@ The PDF states that election law prohibits publishing polls from the end of Frid
 ## Submission readiness checklist
 
 - [ ] Confirm track, eligibility, and team membership (maximum four in systematic track).
-- [ ] Inspect the authenticated form and record its exact party list and required fields.
+- [x] Record the user-transcribed form party fields and required fields (see submission contract); hidden validation remains unverified.
 - [ ] Confirm current deadline/timezone and relevant official electoral rules.
 - [ ] Produce and validate seat predictions for every required list.
 - [ ] Produce national turnout prediction in the form's required precision.

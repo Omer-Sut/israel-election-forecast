@@ -1,5 +1,12 @@
 # Session log
 
+## 2026-10-21 - User supplied all form sections
+
+- User pasted the complete form flow and explicitly said the entered values were irrelevant navigation inputs. Recorded no personal/account details or dummy numerical/method responses in project files.
+- Added `submission-contract.md` and ordered `config/submission-fields.json`: 14 named-list seat entries, one combined other-qualifiers entry, a 120-seat total, and required turnout percentage. Captured systematic-track required fields and optional document link.
+- Updated requirements, plan, source inventory, decisions, agent guidance, report checklist, and handoff. Hidden numeric validation/precision, timezone, final team/track/consent, official-list mappings, and precise scoring of aggregated others remain open.
+- Flagged Joint List versus Hadash-Ta'al mapping and the need to threshold individual other lists before aggregating allocated seats. No forecast or submission was made. Next work is source mapping and minimum-data collection.
+
 ## 2026-10-21 - Eight-hour constraints and forecasting plan
 
 - User set six constraints: very limited effort, evidence-based concentration on plausible outcomes, lightweight numerical methods/pretrained options, explained use of historical/current data, online cross-device work, and ongoing report documentation. Clarified approximate total hands-on budget: eight hours.

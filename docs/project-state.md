@@ -1,6 +1,6 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (constraints, source review, and execution plan).
+Last updated: October 21, 2026 (user-transcribed submission form contract).
 
 ## Goal and user preferences
 
@@ -20,10 +20,11 @@ Public repository: https://github.com/Omer-Sut/israel-election-forecast
 - Recorded the six user constraints, eight-hour timeboxes, task/data/method plan, experiment/effort log, and final-method-report scaffold.
 - Inspected the PDF's linked sources and additional official 2021/2022 results and original poll publications. Source inventory now explains intended use and access/quality limitations.
 - Found that Kolot Nodedim's K26 scenario is simulated, and that one Wikipedia poll row conflicts with the original release's text. No data ingestion has occurred; reconcile before use.
+- Recorded the user's full form transcription in `submission-contract.md` and `config/submission-fields.json`: 14 named lists, combined other qualifying parties, total 120 seats, turnout, and systematic-track fields. Personal/account details and dummy inputs are excluded. This is an output contract, not a forecast.
 
 ## Publication status
 
-Initial publication succeeded; `a1bf22d` was the verified synchronized main before this planning update. The planning update uses topic branch `docs/lightweight-project-plan` and a pull request; inspect Git/PR state for its latest publication status. Public visibility and default branch main were verified previously.
+Planning update PR #1 was merged; `76fb481` was verified synchronized main before this form-contract update. This update uses topic branch `docs/submission-form-contract` and a pull request; inspect actual Git/PR state for its latest publication status.
 
 ## Environment notes
 
@@ -35,11 +36,11 @@ Initial publication succeeded; `a1bf22d` was the verified synchronized main befo
 
 ## Next actions
 
-1. Follow stage 1 of `project-plan.md`: confirm track/team, exact form party list/field rules, cutoff, timezone, and operative electoral rules/agreements. Form retrieval failed in web tools; several official pages were blocked or empty. Do not infer the output list from Wikipedia and do not submit the form.
+1. Form inventory is now known. Resolve official/poll/form mappings (especially Joint List versus Hadash-Ta'al), operative rules/agreements, cutoff, timezone, and track/team. Hidden form validation and turnout precision remain unverified. The user's dummy form entries establish neither predictions nor final presentation consent. Do not submit the form.
 2. Within the data timebox, collect a small audited recent-poll set and official national results plus comparable historical polls. Resolve the recorded source discrepancy and separate seats from vote percentages.
 3. Choose a minimal portable runtime, produce a poll-consensus and turnout baseline, then evaluate one numerical uncertainty/optimization improvement if data and time allow. Keep the pretrained option off the critical path.
 4. Record actual effort/runs, maintain the method-report draft, and reserve time for a fresh hosted reproduction and final output review. No notebook or Actions workflow exists yet.
 
 ## Validation and modeling position
 
-Both PDF pages were reviewed. Initial documentation links and publication-script syntax were checked. Git/GitHub publication was verified. The latest planning session reviewed source pages, checked all 12 Markdown files for local links/code fences, checked Git whitespace, verified that timeboxes sum to eight hours, and computed the illustrative combinatorial count with Python. Official search excerpts support 120 seats/3.25%, but full operative allocation rules and current agreements are not yet verified. No model, collected modeling dataset, forecast, or modeling tests exist. Turnout remains required as the tie-breaker.
+Both PDF pages and the user-transcribed form sections were reviewed. Prior documentation/link checks and Git/GitHub publication were verified. The form explicitly confirms 120 total seats; full operative allocation rules and current agreements remain unverified. No model, collected modeling dataset, forecast, or modeling tests exist. Turnout remains required as the tie-breaker.

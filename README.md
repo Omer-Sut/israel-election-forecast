@@ -9,6 +9,7 @@ Build a reproducible model to forecast the results of Israel's 26th Knesset elec
 3. Follow [the collaboration guide](CONTRIBUTING.md).
 4. Agents should also read [AGENTS.md](AGENTS.md).
 5. Follow the [eight-hour plan](docs/project-plan.md) and [user constraints](docs/project-constraints.md) before choosing methods.
+6. Use the [submission contract](docs/submission-contract.md) and [field configuration](config/submission-fields.json) for forecast outputs.
 
 The original Hebrew guidelines are preserved unchanged as [the source PDF](תחרות%20תחזית%20בחירות%20לכנסת%20ה26.pdf). They are authoritative if the English summary is ambiguous.
 
@@ -49,6 +50,8 @@ Online work is the priority: GitHub holds durable project state; a hosted CPU no
 | File | Purpose |
 | --- | --- |
 | `docs/competition-brief.md` | English requirements, scoring, source links, and submission checklist |
+| `docs/submission-contract.md` | User-transcribed form fields, total-seat rule, and mapping questions |
+| `config/submission-fields.json` | Ordered machine-readable output labels and stable project IDs; no predictions |
 | `docs/project-state.md` | Latest handoff, completed work, blockers, and next actions |
 | `docs/decisions.md` | Durable decisions and unresolved choices |
 | `docs/session-log.md` | Concise chronological history |

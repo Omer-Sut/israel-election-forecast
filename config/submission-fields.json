@@ -1,0 +1,36 @@
+{
+  "contract_version": 1,
+  "source": "User-supplied transcription of the Google Form",
+  "recorded_date": "2026-10-21",
+  "personal_responses_included": false,
+  "forecast_values_included": false,
+  "seat_total": 120,
+  "seat_value_convention": "nonnegative integer",
+  "google_forms_numeric_validation_verified": false,
+  "official_list_mapping_verified": false,
+  "seat_fields": [
+    {"id": "likud", "label_he": "מנדטים: הליכוד", "label_en": "Likud", "required": true},
+    {"id": "yashar", "label_he": "מנדטים: ישר! (איזנקוט)", "label_en": "Yashar! (Eisenkot)", "required": true},
+    {"id": "beyachad", "label_he": "מנדטים: ביחד (בנט)", "label_en": "Beyachad / Together (Bennett)", "required": true},
+    {"id": "democrats", "label_he": "מנדטים: הדמוקרטים", "label_en": "The Democrats", "required": true},
+    {"id": "yisrael_beiteinu", "label_he": "מנדטים: ישראל ביתנו", "label_en": "Yisrael Beiteinu", "required": true},
+    {"id": "shas", "label_he": "מנדטים: ש\"ס", "label_en": "Shas", "required": true},
+    {"id": "united_torah_judaism", "label_he": "מנדטים: יהדות התורה", "label_en": "United Torah Judaism", "required": true},
+    {"id": "otzma_yehudit", "label_he": "מנדטים: עוצמה יהודית", "label_en": "Otzma Yehudit", "required": true},
+    {"id": "religious_zionism", "label_he": "מנדטים: הציונות הדתית", "label_en": "Religious Zionism", "required": true},
+    {"id": "raam", "label_he": "מנדטים: רע\"ם", "label_en": "Ra'am", "required": true},
+    {"id": "hadash_taal", "label_he": "מנדטים: חד\"ש-תע\"ל", "label_en": "Hadash-Ta'al", "required": true},
+    {"id": "blue_and_white", "label_he": "מנדטים: כחול לבן", "label_en": "Blue and White", "required": true},
+    {"id": "amcha_yisrael", "label_he": "מנדטים: עמך ישראל", "label_en": "Amcha Yisrael", "required": true},
+    {"id": "reservists_economic", "label_he": "מנדטים: מילואימניקים כלכלית", "label_en": "Reservists-Economic", "required": true},
+    {"id": "other_qualifying_lists", "label_he": "מנדטים: מפלגות אחרות שעוברות את אחוז החסימה", "label_en": "Other parties passing the electoral threshold (combined seats)", "required": true}
+  ],
+  "turnout_field": {
+    "id": "national_turnout_pct",
+    "label_he": "אחוז הצבעה ארצי צפוי (%)",
+    "label_en": "Expected national turnout (%)",
+    "required": true,
+    "unit": "percent",
+    "precision": null
+  }
+}

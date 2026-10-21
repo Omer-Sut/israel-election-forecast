@@ -6,7 +6,7 @@ Planning date: October 21, 2026. User constraints: [project-constraints.md](proj
 
 A reproducible forecast of seats for every list in the competition form and national turnout (%), an accessible code link, and an honest method description of no more than 500 words. Optimize total absolute seat error. Preserve code revision, input cutoff, source versions, assumptions, and final output.
 
-The official 2022 results provide a concrete historical fixture: votes, shares, seats, turnout, and valid/invalid counts are available in the [Central Elections Committee national results](https://votes25.bechirot.gov.il/nationalresults). Current form fields and electoral rules still need verification.
+The official 2022 results provide a concrete historical fixture: votes, shares, seats, turnout, and valid/invalid counts are available in the [Central Elections Committee national results](https://votes25.bechirot.gov.il/nationalresults). Form fields are now recorded from the user's transcription in [submission-contract.md](submission-contract.md); hidden validation and electoral rules still need verification.
 
 ## Effort budget
 
@@ -27,6 +27,8 @@ These are proposed timeboxes, not measured timings or runtime guarantees. Use th
 ## 1. Understand the exact task
 
 Read [competition-brief.md](competition-brief.md), then resolve the remaining contract with the form and official sources:
+
+Update: the user supplied all form sections. There are 14 named-list seat fields, one combined other-qualifying-parties field, a 120-seat total, and turnout. Use `config/submission-fields.json` as the ordered export contract. Poll/official-list mappings, hidden validation, turnout precision, timezone, and final track/team choices remain open. Dummy responses are not predictions or consent. Preserve individual other lists internally; aggregate their allocated seats only when exporting/scoring at form level.
 
 - Confirm systematic track, eligibility, and team size (up to four).
 - Record the exact list fields, including lists expected to win zero seats, spelling, units, validation rules, and turnout precision. Do not infer the submission list from a polling website.
@@ -115,4 +117,4 @@ Stop once there is a checked baseline, an evaluated decision about the single im
 
 Append each consequential run to [experiment-log.md](experiment-log.md). Update [method-report.md](method-report.md) after data/method choices, not only at the deadline. Each final run must identify code revision, input hashes, cutoff/timezone, configuration, seed (if applicable), runtime, outputs, validation, and the actual selected method.
 
-No current forecast or method implementation is claimed in this plan. The next work session should resolve the form contract and assemble the minimum dataset.
+No current forecast or method implementation is claimed in this plan. The form inventory is recorded. Next, resolve list mappings and operative rules while assembling the minimum poll/results dataset; unresolved hidden validation need not block collection.

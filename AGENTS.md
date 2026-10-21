@@ -6,6 +6,8 @@ Read `README.md`, `docs/competition-brief.md`, `docs/project-state.md`, and `doc
 
 Also read `docs/project-constraints.md` and `docs/project-plan.md`. The user has approximately **eight hours total hands-on effort**: prioritize a baseline and one lightweight numerical improvement; no heavy training or broad model search. Record actual effort and narrow scope when time runs out. Keep execution portable to a hosted CPU session and all required inputs/code/results in GitHub or a documented shared store.
 
+Use `docs/submission-contract.md` and `config/submission-fields.json` for the user-transcribed form: 14 named lists plus one combined other-qualifying-lists seat field (sum 120), and turnout. Dummy form inputs are not forecasts. Never copy personal/account form responses into the public repository. Verify poll/official/form mappings; Joint List and Hadash-Ta'al are not automatically interchangeable. Apply thresholds to individual other lists before aggregating their seats.
+
 ## Working conventions
 
 - Communicate and document in English. Preserve original Hebrew identifiers alongside stable English/internal identifiers when necessary.
