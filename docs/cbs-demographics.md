@@ -77,6 +77,8 @@ python -m unittest discover -s tests -v
 
 No packages/network needed for the frozen build, queries or reports. The workflow publishes the expanded SQLite database, coverage and `cbs-linkage.json` in `historical-election-database`. The new full coverage manifest and descriptive report are frozen under [reports/cbs-2026-10-21](../reports/cbs-2026-10-21/); the earlier D001 manifest is preserved. Locality code 3000 remains a string, not a shared historical party identifier.
 
+Verified expanded hosted build: [run 39610830289](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39610830289), implementation f007367, all 31 tests and exact manifests/examples/forecast reports passed. The database download is approximately 28.4 MB compressed. Linkage to the 2022 profiles covers 99.51–99.72% of votes assigned to ordinary localities across elections, or 89.93–94.20% of all national valid votes including special/unlocated ballots. These are retrospective coverage measurements, not model accuracy or historical feature eligibility.
+
 Example: pair **2018 demographics with April 2019 votes** in the Central District (code 4). This is a deliberate descriptive pair, not a certified historical feature policy:
 
 ```sql
