@@ -28,6 +28,8 @@ Python 3.12, no packages or network required. Outputs: `output/elections.sqlite`
 
 For online execution, open [GitHub Actions](https://github.com/Omer-Sut/israel-election-forecast/actions), run **Reproduce preliminary baseline**, then download **historical-election-database** from a successful run. Artifacts expire after 30 days; the committed inputs remain rebuildable. A GitHub Codespace can run the same commands. This is a portable versioned research snapshot, not a multiwriter database server; make changes through branches and pull requests.
 
+Verified first hosted build: [run 39602185506](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39602185506), implementation f81a22c, all 23 checks and exact manifests/reports passed; database artifact approximately 19.9 MB compressed. Newer runs may provide newer download links.
+
 ```python
 import sqlite3
 db = sqlite3.connect('output/elections.sqlite')
