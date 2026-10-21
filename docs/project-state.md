@@ -1,8 +1,20 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (six-election research database assembled).
+Last updated: October 21, 2026 (CBS geographic demographic extension assembled).
 
-## Latest handoff — database first
+## Latest handoff — CBS area context (D002)
+
+The user requested broad age/sex/socioeconomic data from the CBS census site that can be associated with ballot locations across years. The dataset is extended in the same SQLite file with eight tables and four views. Sources: CBS official census downloads, annual population workbooks/GIS ZIP, socioeconomic tables/official linked GIS map, and the government CBS locality catalog. Full [CBS integration guide](cbs-demographics.md) covers schema, sources, units, joins, coverage, dates, missingness and examples.
+
+Actual coverage: 1,218 / 1,218 / 1,217 / 1,218 / 1,185 locality profiles for 2018/2019/2020/2021/2022; 10,959 annual locality/year/sex rows for 2019–2021; 4,765 socioeconomic locality/year rows for 2015/2017/2019/2021; 8,896 annual 2017–2022 geographic mappings; 5,085 census records, 1,132 variable definitions, 56,714 raw rows, 19 source responses archived/hashed. CBS input archives are approximately 28.2 MB. Age 2015–2017 remains uncollected; no annual interpolation or future-census backcasting was added.
+
+Ballots inherit locality context through CBS/CEC locality codes. No neighborhood/statistical-area voter assignment is verified; code 0/unlocated votes stay unmatched. Views retain demographic year, future-reference and descriptive-only flags. All historical publication availability remains unverified. Census sources are under a 2025 publication path despite a 2022 reference date; the 2017 rural index explicitly records a March 4, 2021 replacement. Rank scopes differ across socioeconomic sources. Do not interpret an area relationship as an individual age/sex party preference.
+
+Validated descriptive example: April 2019 Likud share in 235 matched Central District localities is 319,095 / 1,121,237 = 28.4592%. Matched 2018 population=2,192,404; male measure covers 2,050,825 people (234 localities), giving 49.5010% male in that subset. Age summaries use their own exposed denominators. CBS directly publishes 2022 district median ages 33 overall, 32 male, 35 female; these are not mean ages. `scripts/cbs_report.py` regenerates examples/coverage; no forecasting method was changed.
+
+Current branch `feat/cbs-demographics` began from clean main at c53d23f (merged database PR #9). All 31 local tests have passed, including eight new CBS checks. Hosted validation/publication is pending at this checkpoint; evidence will be recorded after verification. Rebuild offline with `python scripts/build_database.py` and `python scripts/cbs_report.py`. Latest combined manifests/reports are frozen at `reports/cbs-2026-10-21/`; the earlier D001 manifest is preserved. Next: verify historical source release/revision dates and choose a small feature panel, fill useful earlier age gaps, review unmatched codes/boundary changes. Original polls, six-election outcomes and forecast reports remain unchanged.
+
+## Previous handoff — database first
 
 The user now explicitly requests a substantial historical dataset before further model selection. The completed collection covers all six 2015–2022 elections: 209 national list outcomes, 75,999 geographic records and 899,195 positive geographic vote cells. Both locality and ballot-box totals reconcile to national party votes for every election. All final seat vectors sum to 120. The 2015 votes use official government data; final seats/names/turnout use IDI's secondary table because the old CEC national page is unavailable.
 

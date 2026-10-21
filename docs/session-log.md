@@ -1,5 +1,13 @@
 # Session log
 
+## 2026-10-21 - CBS broad geographic context (D002)
+
+- User requested age, sex and socioeconomic statistics linked to ballot locations across years, with regional/locality summaries rather than individual information. Started on `feat/cbs-demographics` from clean merged main c53d23f.
+- Inspected supplied 2022 census site, official CBS census workbook links, historical demographic GIS layers, annual population files, socioeconomic releases and CBS-owned map services. Integrated 19 official responses, eight tables and four views; preserved raw responses/rows with URLs and hashes. Third-party ArcGIS mirror not used.
+- Age/sex profiles now cover 2018–2022; socioeconomic tables cover 2015/2017/2019/2021; annual locality crosswalks cover 2017–2022. Earlier age profiles remain a documented gap. Reference dates, unknown release availability and a known 2021 revision of a 2017-index table are recorded. No historical feature-eligibility claim or new model.
+- Parser handles changed annual headers, mixed-city population groups, published locality totals versus unique-area aggregation, combined 65+ bands, census medians, source suppression and rank universes. Sparse party zeros are restored in the comparison view so regional vote denominators include zero-party-vote localities. Missing demographic measures use aligned subset denominators, never zero-filled.
+- Added eight CBS checks; all 31 tests passed locally. Reproducible example: 2018 Central District context with April 2019 Likud 319,095/1,121,237=28.4592% across 235 matched localities. Native 2022 median male age=32 is kept distinct from mean age. Detailed coverage and unlocated/special-vote accounting are in `scripts/cbs_report.py` and the new guide. Publication/hosted evidence follows after verification.
+
 ## 2026-10-21 - Six-election research database (D001)
 
 - User requested all election outcomes and broad campaign-poll coverage back through 2015, plus accessible CEC/INES tables, before model selection. Started clean at main 7238f4c on `feat/historical-database`.

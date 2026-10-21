@@ -15,6 +15,12 @@ KEYS = {'sources': 'source_id', 'elections': 'knesset', 'official_lists': 'kness
         'poll_tables': 'table_id', 'poll_rows': 'row_id', 'polls': 'poll_id',
         'poll_values': 'poll_id,value_index', 'ines_studies': 'study_year',
         'ines_variables': 'study_year,variable'}
+CBS_TABLES = ['cbs_sources', 'cbs_locality_geography', 'cbs_age_sex', 'cbs_population_2018',
+              'cbs_socioeconomic', 'cbs_census_records', 'cbs_census_variables', 'cbs_raw_rows']
+KEYS.update({'cbs_sources': 'source_id', 'cbs_locality_geography': 'reference_year,locality_code',
+             'cbs_age_sex': 'reference_year,locality_code,sex', 'cbs_population_2018': 'reference_year,locality_code',
+             'cbs_socioeconomic': 'reference_year,locality_code', 'cbs_census_records': 'record_id',
+             'cbs_census_variables': 'source_id,sheet,variable', 'cbs_raw_rows': 'source_id,sheet,row_number'})
 
 
 def records(path):
@@ -27,14 +33,16 @@ def quote(name):
     return '"' + name.replace('"', '""') + '"'
 
 
-def build(inputs, destination):
+def build(inputs, destination, cbs_inputs=None):
+    cbs_inputs = cbs_inputs or inputs.parent / 'cbs-2026-10-21'
+    tables = TABLES + (CBS_TABLES if cbs_inputs.exists() else [])
     destination.parent.mkdir(parents=True, exist_ok=True)
     if destination.exists():
         destination.unlink()
     connection = sqlite3.connect(destination)
     counts, hashes = {}, {}
-    for table in TABLES:
-        path = inputs / (table + '.jsonl.gz')
+    for table in tables:
+        path = (cbs_inputs if table.startswith('cbs_') else inputs) / (table + '.jsonl.gz')
         hashes[path.name] = hashlib.sha256(path.read_bytes()).hexdigest()
         # Infer a union schema from the frozen input; dictionaries/arrays remain valid JSON.
         columns, types = [], {}
@@ -75,6 +83,8 @@ def build(inputs, destination):
       CAST(json_extract(attributes,'$."פסולים"') AS INTEGER) AS invalid
       FROM geographies;
     ''')
+    if 'cbs_sources' in tables:
+        add_cbs_views(connection)
     validate(connection)
     connection.commit()
     coverage = connection.execute('''SELECT e.knesset,e.election_date,
@@ -87,9 +97,58 @@ def build(inputs, destination):
               'coverage': coverage, 'input_sha256': hashes,
               'validation': 'passed; see scripts/build_database.py for exact checks',
               'poll_warning': 'Candidate rows are not deduplicated releases or verified historical publication information sets.'}
+    if 'cbs_sources' in tables:
+        report['cbs_profiles_by_year'] = connection.execute('SELECT reference_year,COUNT(*) FROM cbs_locality_profiles GROUP BY reference_year ORDER BY reference_year').fetchall()
+        report['cbs_warning'] = 'Descriptive locality-level context. Historical release availability is unverified; no individual voter demographics or automatic feature eligibility.'
     connection.close()
     destination.with_suffix('.coverage.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     return report
+
+
+def add_cbs_views(db):
+    db.executescript('''
+    CREATE INDEX cbs_census_lookup ON cbs_census_records(source_id,sheet,locality_code,statistical_area);
+    CREATE VIEW cbs_locality_profiles AS
+      SELECT reference_year,reference_date,locality_code,locality_name_he,population,
+        100.0*male_population/NULLIF(population,0) AS male_percent,
+        100.0*(json_extract(age_bands,'$.age_65_69')+json_extract(age_bands,'$.age_70_74')+json_extract(age_bands,'$.age_75_up'))/NULLIF(population,0) AS age65_plus_percent,
+        100.0*(json_extract(age_bands,'$.age_0_4')+json_extract(age_bands,'$.age_5_9')+json_extract(age_bands,'$.age_10_14')+json_extract(age_bands,'$.age_15_19'))/NULLIF(population,0) AS age0_19_percent,
+        NULL AS median_age,NULL AS median_male_age,NULL AS median_female_age,source_id
+      FROM cbs_population_2018
+      UNION ALL
+      SELECT t.reference_year,t.reference_date,t.locality_code,t.locality_name_he,t.population,
+        100.0*m.population/NULLIF(t.population,0),
+        100.0*COALESCE(json_extract(t.age_bands,'$.age_65_plus'),json_extract(t.age_bands,'$.age_65_69')+json_extract(t.age_bands,'$.age_70_74')+json_extract(t.age_bands,'$.age_75_79')+json_extract(t.age_bands,'$.age_80_84')+json_extract(t.age_bands,'$.age_85_plus'))/NULLIF(t.population,0),
+        100.0*(json_extract(t.age_bands,'$.age_0_4')+json_extract(t.age_bands,'$.age_5_9')+json_extract(t.age_bands,'$.age_10_14')+json_extract(t.age_bands,'$.age_15_19'))/NULLIF(t.population,0),
+        NULL,NULL,NULL,t.source_id FROM cbs_age_sex t LEFT JOIN cbs_age_sex m
+        ON t.reference_year=m.reference_year AND t.locality_code=m.locality_code AND m.sex='male' WHERE t.sex='total'
+      UNION ALL
+      SELECT reference_year,reference_date,locality_code,NULL,
+        json_extract(attributes,'$.pop_approx'),NULL,json_extract(attributes,'$.age65_pcnt'),
+        json_extract(attributes,'$.age0_19_pcnt'),json_extract(attributes,'$.age_median'),
+        json_extract(attributes,'$.m_age_median'),json_extract(attributes,'$.w_age_median'),source_id
+      FROM cbs_census_records WHERE source_id='census-selected.xlsx' AND statistical_area IS NULL;
+    CREATE VIEW cbs_locality_vote_shares AS SELECT g.geo_id,g.knesset,e.election_date,
+        CAST(CAST(g.locality_code AS INTEGER) AS TEXT) AS locality_code,g.locality_name_he,
+        g.valid,g.ballots,g.electorate,l.ballot_code,l.party_name_he,l.party_name_en,
+        COALESCE(v.votes,0) AS votes,100.0*COALESCE(v.votes,0)/NULLIF(g.valid,0) AS vote_share_percent
+      FROM geography_totals g JOIN official_lists l ON l.knesset=g.knesset
+      LEFT JOIN geographic_votes v ON v.geo_id=g.geo_id AND l.ballot_code=v.ballot_code
+      JOIN elections e ON e.knesset=g.knesset WHERE g.granularity='locality';
+    CREATE VIEW cbs_locality_election_context AS SELECT v.*,p.reference_year AS demographic_year,
+        p.reference_date AS demographic_reference_date,p.population,p.male_percent,
+        p.age65_plus_percent,p.age0_19_percent,p.median_age,p.median_male_age,p.median_female_age,
+        c.district_code,c.subdistrict_code,p.source_id AS demographic_source_id,
+        1 AS descriptive_only,0 AS historical_availability_verified,
+        p.reference_date>v.election_date AS demographic_reference_after_election
+      FROM cbs_locality_vote_shares v JOIN cbs_locality_profiles p USING(locality_code)
+      LEFT JOIN cbs_locality_geography c ON c.locality_code=p.locality_code AND c.reference_year=p.reference_year;
+    CREATE VIEW cbs_ballot_locality_links AS SELECT g.geo_id,g.knesset,g.locality_code,
+        g.ballot_number,p.reference_year AS demographic_year,p.source_id AS demographic_source_id,
+        'locality context only' AS match_resolution
+      FROM geography_totals g JOIN cbs_locality_profiles p
+      ON p.locality_code=CAST(CAST(g.locality_code AS INTEGER) AS TEXT) WHERE g.granularity='ballot';
+    ''')
 
 
 def validate(db):
@@ -115,6 +174,12 @@ def validate(db):
         (SELECT geo_id,SUM(votes) AS n FROM geographic_votes GROUP BY geo_id) v USING(geo_id)
         WHERE g.valid!=COALESCE(v.n,0) OR g.valid+g.invalid!=g.ballots
         OR g.valid IS NULL OR g.invalid IS NULL OR g.ballots IS NULL''').fetchone()[0] == 0, 'Geographic row totals')
+    if db.execute("SELECT COUNT(*) FROM sqlite_master WHERE name='cbs_sources'").fetchone()[0]:
+        require(db.execute('SELECT COUNT(*) FROM cbs_socioeconomic WHERE cluster<1 OR cluster>10').fetchone()[0] == 0, 'CBS clusters')
+        require(db.execute('SELECT COUNT(*) FROM cbs_locality_profiles WHERE population<0 OR male_percent<0 OR male_percent>100 OR age65_plus_percent<0 OR age65_plus_percent>100').fetchone()[0] == 0, 'CBS population bounds')
+        require(db.execute('SELECT COUNT(*) FROM (SELECT reference_year,locality_code,COUNT(*) n FROM cbs_locality_profiles GROUP BY reference_year,locality_code HAVING n>1)').fetchone()[0] == 0, 'Duplicate CBS locality profiles')
+        for table in CBS_TABLES[1:]:
+            require(db.execute(f'SELECT COUNT(*) FROM {table} c LEFT JOIN cbs_sources s USING(source_id) WHERE s.source_id IS NULL').fetchone()[0] == 0, f'CBS source orphan {table}')
 
 
 if __name__ == '__main__':

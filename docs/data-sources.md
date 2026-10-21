@@ -1,5 +1,7 @@
 # Data sources and provenance
 
+CBS extension (October 21, 2026): [cbs-demographics.md](cbs-demographics.md) records 19 integrated official source responses, annual 2018–2021 age/sex data, 2022 census profiles/broad measures, socioeconomic 2015/2017/2019/2021 and annual 2017–2022 locality geography. Raw responses and canonical tables are in `data/cbs-2026-10-21/`, with exact URLs/hashes in `cbs_sources.jsonl.gz`. Area-level joins and descriptive examples work; no release-verified historical feature set or individual voting inference is claimed.
+
 Database update (October 21, 2026): the [six-election database guide](historical-database.md) documents the actual 2015–2022 national/geographic results, bulk poll indexes and INES dictionaries/aggregates now ingested. Exact source URLs, response hashes and rights notes are in `data/database/sources.jsonl.gz`; source archives and canonical inputs rebuild offline. Broad index transcription is a separate audit tier from the pilot below. Model-ready publication dates, mappings, duplicate resolution and INES historical availability remain unverified.
 
 Initial web review and first data collection: **October 21, 2026**. The first [audited input snapshot](../data/README.md) now stores six poll records, five active groups, and a partial official 2022 outcome table. The sections below preserve the broader source inventory and its limitations; not every reviewed source has been ingested.

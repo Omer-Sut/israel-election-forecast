@@ -1,5 +1,7 @@
 # First audited input snapshot
 
+CBS extension: [cbs-2026-10-21/](cbs-2026-10-21/) adds official broad demographic, socioeconomic, census and locality-geography tables. These are descriptive area characteristics; read [the CBS guide](../docs/cbs-demographics.md) before joining to votes or using historical features. No original forecast inputs were changed.
+
 New broad collection: [database/](database/) contains frozen inputs for the six-election 2015–2022 SQLite database, official geographic results, bulk poll tables and INES dictionaries/aggregates. Read [the database guide](../docs/historical-database.md). Bulk poll-index rows have a lower audit tier than the original-source transcriptions below; the existing baseline and pilot inputs remain unchanged.
 
 Historical update: [snapshots/historical-2026-10-21/](snapshots/historical-2026-10-21/) now contains 12 audited 2021/2022 poll records and official seat/turnout targets for the [historical backtest pilot](../docs/historical-backtest.md). Its sources, residual derivation, missing metadata and historical-vintage limitations are documented separately. The current 2026 snapshot below remains unchanged.
