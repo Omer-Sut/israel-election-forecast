@@ -1,6 +1,18 @@
-﻿# Current project state
+# Current project state
 
-Last updated: October 22, 2026 (E003 campaign-history sensitivities).
+Last updated: October 22, 2026 (E004 robustness verified).
+
+## E004 completed online
+
+Implementation `be272a4d923b2921faa8da529d4b8d72d5debc95`, [PR #15](https://github.com/Omer-Sut/israel-election-forecast/pull/15), branch `feat/robustness-correction-seeds` stacked on PR #14. [Screen39750449237](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39750449237) succeeded:50 tests, original panel/reference reproduction, deterministic full-grid repeats, both history variants, five correction strengths,20 forest seeds and original-seed forest/full-grid equality. [Baseline39750449205](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39750449205) succeeded with frozen forecast/database/CBS reproduction. E004 compute51.396seconds,3080 score rows. Tested PR merge ref in outputs isf5ce233aa2544550f6107250aecd057b820959e9, not a claim that PR #15 was merged.
+
+Verified available/unexpired [robustness artifact12413786085](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39750449237/artifacts/12413786085):1,156,262bytes,83 files, expires2026-11-21. Extract/open index.html for four SVG plot sheets; CSVs, raw compressed fits and manifest preserve all eligible predictions/provenance. Summary also appears in the successful run. Code/config/audit are durable in Git and rebuild all outputs; artifact is not permanent storage.
+
+The first run39750028287 correctly stopped at a false assumption: zero-correction floating-point reconciliation need not equal the baseline's exact-integer mean rounding when fractional remainders tie. Regression fixture/flags now preserve both rather than changing frozen algorithms. Observed April2019 vectors differ at0% but both score40. At original seed/25%, neither variant beats mean on2021/2022; continuous improvements sometimes still round to identical vectors (2022:16/18 original,12/18 expanded). These facts do not establish a final ranking. Next session: inspect correction curves and forest seed ranges before discussing any method choice; don't select a lucky seed/fraction. No L0, turnout/current forecast change or merge. Local source reflects API publications, but Git HEAD remains3055db4; reconcile deliberately with the remote branch.
+
+## E004 unattended batch preparation
+
+User authorized [robustness-batch.md](robustness-batch.md): two fixed data variants, five correction strengths, all eligible chronological folds, and20 forest seeds. Full grid/ensembles at original seed only; saved corrections support fraction analysis without repeated training. Deterministic repeats and forest-only/full-grid equality are mandatory gates. SVG dashboard, CSVs, raw compressed predictions and manifest come from `scripts/robustness.py`; workflow artifact is `robustness-correction-seeds`. No final model, L0 or current forecast change. Preparation is not execution success; append verified remote run evidence. Local Git metadata remains stale at3055db4; publish only intended paths from the live remote parent on an isolated branch stacked on PR #14.
 
 ## Current handoff: E003 verified online
 
@@ -177,3 +189,4 @@ See docs/baseline-method.md, docs/historical-backtest.md, data/README.md, and ex
 Git/gh may not appear on the inherited PATH. Executables are C:\Users\omersu\AppData\Local\Programs\Git\cmd\git.exe and C:\Program Files\GitHub CLI\gh.exe. Approved outside-sandbox operations successfully use the existing keyring login; in-sandbox failures do not prove login is invalid. A safe.directory exception exists only for this exact project path because .git was initially created by the sandbox user.
 
 Local checks used QGIS Python 3.12 via PYTHONHOME, but this is not a project dependency: a normal Python 3.12 runtime suffices. Network/Git writes may need approval. Raw source images/renderings under tmp/ are ignored and are not the sole record of any numerical input. No credentials or personal form responses are committed.
+

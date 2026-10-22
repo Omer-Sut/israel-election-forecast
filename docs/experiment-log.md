@@ -1,5 +1,11 @@
 # Experiment and effort log
 
+## E004 - correction and forest-seed robustness (October 22, 2026)
+
+Verified: implementationbe272a4d923b2921faa8da529d4b8d72d5debc95, PR #15, screen39750449237 and baseline39750449205 succeeded.50 tests, full-grid repeat equality, forest-only adapter equality,3080 score rows across both variants/five fractions/20 forest seeds. Compute51.396seconds. Artifact12413786085 contains83files/1,156,262bytes, verified unexpired; tested PR merge commitf5ce233aa2544550f6107250aecd057b820959e9. Initial run39750028287 identified a real diagnostic assumption error: exact-integer reference and floating reconciliation can break tied remainders differently even at0%. Regression test/CSV flag retain both, frozen algorithms unchanged. April2019 differing0% vectors both score40. Original seed/25% still yields no2021/2022 improvement;2022 identical mean vectors16/18 original and12/18 expanded. Preserve batch, inspect all correction/seed curves next session, don't select by best retrospectively tuned cell. No method selected or forecast altered. Hands-on/cumulative usage remains unmeasured.
+
+User approved unattended computation during approximately two-hour absence. Protocol: docs/robustness-batch.md. Original/expanded history; fractions0/.10/.25/.50/1; full fixed grid at20261021 and three forests at20 seeds20261021-20261040. All eligible T-1 chronological folds; unchanged gates/dates/features/targets/weights. Inspected outcomes are descriptive, no best-seed/fraction selection. Local Python unavailable; tests/execution pending on GitHub at preparation. Artifact preserves raw fits, predictions, plots, score/seed CSVs and manifest. Record actual commit/run/runtime after verification. Hands-on/cumulative usage unmeasured; no budget reset or current forecast change.
+
 ## E003 - Repeated-release and source-age sensitivity (October 22, 2026)
 
 - User authorized next data/coverage work and online-first collaboration. Source selection frozen before fitting: three reviewed earlier releases within existing groups,24 to27 total, latest-group anchors unchanged. Four variants: reference, Walla publication age, expanded history, combined. Fixed model grid/correction/seed/cutoffs/outcomes, chronological gates preserved.
@@ -111,3 +117,4 @@ Limitations / next step:
 ```
 
 Log failed or rejected approaches briefly too. Keep the authoritative source manifest and outputs durable in GitHub or a documented shared store; a session-only path is insufficient.
+
