@@ -1,6 +1,8 @@
 # Session log
 
-## October22 - E005 user-directed trial preparation
+## October22 - E005 verified user-directed trial
+
+Final implementation4275c548, PR #16; screen39776060120/baseline39776062476 passed55tests and all frozen/deterministic checks. New trial37.133s.324exploratory index rows,466explicit exclusions;27audited releases separate,22known sample sizes. Dated2018CBS15city/2015SES source enables prior-election three-core geographic ablation; broad209age/sex/SESprofiles descriptive only. Original/dynamic/prior-city/both feature sets, earlier-OOF parameter/fraction selection: no2021/2022selected gains. Quality prototype MAE9.233versus8.668baseline, no weights adopted. Compact hosted results saved in reports/poll-quality-feature-trial-2026-10-22; fullartifact12424098121 verified203126bytes/unexpired. Corpus/source files preserved, no forecast/turnout/final model/merge change. Next: extend dated coverage/party lineages; no further same-matrix parameter sweep. Local metadata remains3055db4.
 
 User authorized geographic party profiles, dynamic tabular feature ablation, chronological regularization/blending validation and historical poll quality/severity research; turnout later. Added research_trial.py/tests, explicit post-rounding invariant and hosted artifact. Index tier stays exploratory; audited27releases separate; no poll weights adopted. Party-area CSV remains descriptive because historical CBS dates/lineages are unverified. See poll-quality-feature-trial.md. Hosted tests pending; no current/frozen forecast change. Local Git metadata remains stale.
 

@@ -1,0 +1,168 @@
+tier,election,dimension,value,n,mean,variance,sd,median,minimum,maximum
+audited_release,knesset_20_2015,creator,smith,1,22,,,22,22,22
+audited_release,knesset_20_2015,horizon_bin,01-07,2,22,0,0.0,22.0,22,22
+audited_release,knesset_20_2015,creator,midgam,1,22,,,22,22,22
+audited_release,knesset_20_2015,creator,panels_politics,1,24,,,24,24,24
+audited_release,knesset_20_2015,horizon_bin,08-14,1,24,,,24,24,24
+index_exploratory_not_certified,knesset_20_2015,creator,Channel 2,2,22,0,0.0,22.0,22,22
+index_exploratory_not_certified,knesset_20_2015,horizon_bin,01-07,14,22.142857142857142,2.131868131868132,1.4600918230947435,22.0,20,26
+index_exploratory_not_certified,knesset_20_2015,creator,Channel 10,6,25.666666666666668,15.066666666666666,3.8815804341359033,25.0,22,32
+index_exploratory_not_certified,knesset_20_2015,creator,Reshet Bet,1,20,,,20,20,20
+index_exploratory_not_certified,knesset_20_2015,creator,Panels/Jerusalem Post,1,22,,,22,22,22
+index_exploratory_not_certified,knesset_20_2015,creator,Teleseker/Walla,7,22.571428571428573,7.619047619047619,2.760262237369417,22,20,28
+index_exploratory_not_certified,knesset_20_2015,creator,Midgam/Yedioth Ahronoth,2,21,2,1.4142135623730951,21.0,20,22
+index_exploratory_not_certified,knesset_20_2015,creator,Teleseker/Channel 1,7,21.428571428571427,4.9523809523809526,2.2253945610567474,22,18,24
+index_exploratory_not_certified,knesset_20_2015,creator,Panels/Maariv,7,22.285714285714285,4.571428571428571,2.138089935299395,22,18,24
+index_exploratory_not_certified,knesset_20_2015,creator,Smith/Globes,3,22.666666666666668,1.3333333333333333,1.1547005383792515,22,22,24
+index_exploratory_not_certified,knesset_20_2015,creator,Maagar Mochot/Kol Bramah Radio,2,23,18,4.242640687119285,23.0,20,26
+index_exploratory_not_certified,knesset_20_2015,creator,Dialog/Haaretz,3,22,4,2.0,22,20,24
+index_exploratory_not_certified,knesset_20_2015,creator,Midgam/Israel Army Radio (Galatz),1,24,,,24,24,24
+index_exploratory_not_certified,knesset_20_2015,creator,Panels/Knesset Channel,9,22,6,2.449489742783178,22,18,26
+index_exploratory_not_certified,knesset_20_2015,creator,Geocartography,5,24.4,40.8,6.387487769068525,20,20,34
+index_exploratory_not_certified,knesset_20_2015,horizon_bin,08-14,8,21.25,4.5,2.1213203435596424,21.0,18,24
+index_exploratory_not_certified,knesset_20_2015,creator,Teleseker/Walla!,2,23,18,4.242640687119285,23.0,20,26
+index_exploratory_not_certified,knesset_20_2015,creator,Channel 1,2,22,0,0.0,22.0,22,22
+index_exploratory_not_certified,knesset_20_2015,creator,Dialog/Channel 10,1,18,,,18,18,18
+index_exploratory_not_certified,knesset_20_2015,creator,Midgam/Channel 2,4,22,8,2.8284271247461903,21.0,20,26
+index_exploratory_not_certified,knesset_20_2015,creator,Israel Army Radio (Galatz),1,24,,,24,24,24
+index_exploratory_not_certified,knesset_20_2015,horizon_bin,15-30,22,22.363636363636363,8.623376623376624,2.936558636120965,22.0,18,28
+index_exploratory_not_certified,knesset_20_2015,creator,Israel Radio,2,22,8,2.8284271247461903,22.0,20,24
+index_exploratory_not_certified,knesset_20_2015,creator,Maariv,1,20,,,20,20,20
+index_exploratory_not_certified,knesset_20_2015,creator,Panels/Maariv-Jerusalem Post,1,20,,,20,20,20
+index_exploratory_not_certified,knesset_20_2015,creator,Midgam /Channel 2,1,24,,,24,24,24
+index_exploratory_not_certified,knesset_20_2015,creator,Teleseker/Nana 10,1,28,,,28,28,28
+index_exploratory_not_certified,knesset_20_2015,creator,Smith/Israel Radio,4,22.5,1,1.0,22.0,22,24
+index_exploratory_not_certified,knesset_20_2015,creator,TRI/Bizportal,1,28,,,28,28,28
+index_exploratory_not_certified,knesset_20_2015,horizon_bin,31-90,40,23.55,13.433333333333334,3.665151201974256,23.0,18,34
+index_exploratory_not_certified,knesset_20_2015,creator,202 Strategies/Times of Israel,1,24,,,24,24,24
+index_exploratory_not_certified,knesset_20_2015,creator,Midgam/Channel 10,1,22,,,22,22,22
+index_exploratory_not_certified,knesset_20_2015,creator,Maagar Mochot/NRG,1,22,,,22,22,22
+index_exploratory_not_certified,knesset_20_2015,creator,Channel 2/Midgam,1,24,,,24,24,24
+index_exploratory_not_certified,knesset_20_2015,creator,Panels,1,30,,,30,30,30
+index_exploratory_not_certified,knesset_20_2015,creator,Teleseker/Walla-Maariv,1,20,,,20,20,20
+index_exploratory_not_certified,knesset_20_2015,creator,Sarid/Channel 2,1,34,,,34,34,34
+index_exploratory_not_certified,knesset_20_2015,creator,Arutz 7/Geocartography,1,22,,,22,22,22
+index_exploratory_not_certified,knesset_20_2015,creator,Smith/Reshet Bet,1,32,,,32,32,32
+index_exploratory_not_certified,knesset_20_2015,horizon_bin,91+,2,30,32,5.656854249492381,30.0,26,34
+audited_release,knesset_21_2019apr,creator,smith,1,38,,,38,38,38
+audited_release,knesset_21_2019apr,horizon_bin,01-07,3,38.666666666666664,1.3333333333333333,1.1547005383792515,38,38,40
+audited_release,knesset_21_2019apr,creator,midgam,2,34,32,5.656854249492381,34.0,30,38
+audited_release,knesset_21_2019apr,creator,camil_fuchs,1,40,,,40,40,40
+audited_release,knesset_21_2019apr,horizon_bin,08-14,1,30,,,30,30,30
+index_exploratory_not_certified,knesset_21_2019apr,creator,Panel Project HaMidgam/Statnet/Channel 13,4,42,8,2.8284271247461903,41.0,40,46
+index_exploratory_not_certified,knesset_21_2019apr,horizon_bin,01-07,12,41.166666666666664,18.515151515151516,4.302923600896432,40.0,36,48
+index_exploratory_not_certified,knesset_21_2019apr,creator,Smith/Maariv,2,34,8,2.8284271247461903,34.0,32,36
+index_exploratory_not_certified,knesset_21_2019apr,creator,Maagar Mohot/Radio 103FM,2,40,72,8.48528137423857,40.0,34,46
+index_exploratory_not_certified,knesset_21_2019apr,creator,Smith/Jerusalem Post,2,36,8,2.8284271247461903,36.0,34,38
+index_exploratory_not_certified,knesset_21_2019apr,creator,Midgam/Yedioth Ahronoth,2,36,8,2.8284271247461903,36.0,34,38
+index_exploratory_not_certified,knesset_21_2019apr,creator,Maagar Mohot/Israel Hayom & i24 News,2,41,50,7.0710678118654755,41.0,36,46
+index_exploratory_not_certified,knesset_21_2019apr,creator,TNS/Kan,4,34,48,6.928203230275509,34.0,28,40
+index_exploratory_not_certified,knesset_21_2019apr,creator,Midgam/iPanel/Channel 12,4,32,8,2.8284271247461903,31.0,30,36
+index_exploratory_not_certified,knesset_21_2019apr,creator,Miskar,3,46,4,2.0,46,44,48
+index_exploratory_not_certified,knesset_21_2019apr,creator,Panels Politics/Walla!,3,39.333333333333336,5.333333333333333,2.309401076758503,38,38,42
+index_exploratory_not_certified,knesset_21_2019apr,creator,Dialog/Haaretz,2,39,2,1.4142135623730951,39.0,38,40
+index_exploratory_not_certified,knesset_21_2019apr,creator,Panels Politics/Channel 12,2,38,0,0.0,38.0,38,38
+index_exploratory_not_certified,knesset_21_2019apr,horizon_bin,08-14,12,37.333333333333336,15.515151515151516,3.9389277113386476,38.0,30,44
+index_exploratory_not_certified,knesset_21_2019apr,creator,Maagar Mohot/Radio 103 FM,1,36,,,36,36,36
+index_exploratory_not_certified,knesset_21_2019apr,creator,Direct Polls/Makor Rishon,2,42,8,2.8284271247461903,42.0,40,44
+index_exploratory_not_certified,knesset_21_2019apr,creator,Midgam/Army Radio,1,40,,,40,40,40
+index_exploratory_not_certified,knesset_21_2019apr,creator,Midgam/Channel 12,3,28,52,7.211102550927978,26,22,36
+index_exploratory_not_certified,knesset_21_2019apr,horizon_bin,15-30,14,37.714285714285715,22.681318681318682,4.762490806428783,37.0,30,46
+index_exploratory_not_certified,knesset_21_2019apr,creator,Panels Politics/Maariv,3,29.333333333333332,49.333333333333336,7.023769168568492,30,22,36
+index_exploratory_not_certified,knesset_21_2019apr,creator,Maagar Mochot/Israel Hayom & i24 News,5,41.2,21.2,4.604345773288535,38,38,48
+index_exploratory_not_certified,knesset_21_2019apr,creator,Panel Project HaMidgam/Channel 13,1,38,,,38,38,38
+index_exploratory_not_certified,knesset_21_2019apr,creator,Direct Polls/Kan,1,36,,,36,36,36
+index_exploratory_not_certified,knesset_21_2019apr,creator,Panel HaMidgam Project/Statnet/Channel 13,3,28.666666666666668,21.333333333333332,4.618802153517006,26,26,34
+index_exploratory_not_certified,knesset_21_2019apr,horizon_bin,31-90,22,30.181818181818183,50.25108225108225,7.08879977507351,29.0,22,48
+index_exploratory_not_certified,knesset_21_2019apr,creator,Midgam/iPanel/Yediot Ahronot,2,23,2,1.4142135623730951,23.0,22,24
+index_exploratory_not_certified,knesset_21_2019apr,creator,Smith/Channel 20,1,32,,,32,32,32
+index_exploratory_not_certified,knesset_21_2019apr,creator,Panels Politics/Walla! News,1,36,,,36,36,36
+index_exploratory_not_certified,knesset_21_2019apr,creator,Number 10 Strategies/The Times of Israel,1,24,,,24,24,24
+index_exploratory_not_certified,knesset_21_2019apr,creator,Midgam/Yediot Ahronot,1,22,,,22,22,22
+index_exploratory_not_certified,knesset_21_2019apr,creator,Direct polls/Makor Rishon,1,30,,,30,30,30
+index_exploratory_not_certified,knesset_21_2019apr,creator,Direct polls/Kan,1,30,,,30,30,30
+audited_release,knesset_22_2019sep,creator,smith,1,8,,,8,8,8
+audited_release,knesset_22_2019sep,horizon_bin,01-07,2,12,32,5.656854249492381,12.0,8,16
+audited_release,knesset_22_2019sep,creator,camil_fuchs,1,16,,,16,16,16
+audited_release,knesset_22_2019sep,creator,midgam,2,14,0,0.0,14.0,14,14
+audited_release,knesset_22_2019sep,horizon_bin,08-14,2,14,0,0.0,14.0,14,14
+index_exploratory_not_certified,knesset_22_2019sep,creator,Panel Project HaMidgam / Channel 13,6,17.666666666666668,11.866666666666667,3.444802848737017,16.0,14,22
+index_exploratory_not_certified,knesset_22_2019sep,horizon_bin,01-07,10,13.4,7.155555555555556,2.6749870196985173,14.0,8,16
+index_exploratory_not_certified,knesset_22_2019sep,creator,Midgam / Channel 12,8,17.25,9.071428571428571,3.011881234615431,18.0,12,20
+index_exploratory_not_certified,knesset_22_2019sep,creator,Shvakim Panorama / HOT,1,14,,,14,14,14
+index_exploratory_not_certified,knesset_22_2019sep,creator,Smith / Maariv,1,8,,,8,8,8
+index_exploratory_not_certified,knesset_22_2019sep,creator,Panels Politics / Knesset Channel,2,17,2,1.4142135623730951,17.0,16,18
+index_exploratory_not_certified,knesset_22_2019sep,creator,Smith / 103fm,5,13.6,8.8,2.9664793948382653,14,10,18
+index_exploratory_not_certified,knesset_22_2019sep,creator,KANTAR / Kan 11,4,13.5,3.6666666666666665,1.9148542155126762,13.0,12,16
+index_exploratory_not_certified,knesset_22_2019sep,creator,Maagar Mohot / Israel Hayom,5,14.8,11.2,3.3466401061363023,14,12,20
+index_exploratory_not_certified,knesset_22_2019sep,horizon_bin,08-14,7,14.857142857142858,5.142857142857143,2.2677868380553634,16,12,18
+index_exploratory_not_certified,knesset_22_2019sep,creator,Midgam / Walla!,4,15.5,3.6666666666666665,1.9148542155126762,15.0,14,18
+index_exploratory_not_certified,knesset_22_2019sep,creator,Smith / 103fm & Maariv,1,12,,,12,12,12
+index_exploratory_not_certified,knesset_22_2019sep,horizon_bin,15-30,12,14.833333333333334,5.424242424242424,2.32900030576263,14.0,12,18
+index_exploratory_not_certified,knesset_22_2019sep,creator,Smith / 103fm/Maariv,1,14,,,14,14,14
+index_exploratory_not_certified,knesset_22_2019sep,creator,Direct Polls / Makor Rishon,1,18,,,18,18,18
+index_exploratory_not_certified,knesset_22_2019sep,horizon_bin,31-90,12,18.833333333333332,9.06060606060606,3.010084062049773,20.0,12,22
+index_exploratory_not_certified,knesset_22_2019sep,creator,Direct Polls / Channel 13,1,20,,,20,20,20
+index_exploratory_not_certified,knesset_22_2019sep,creator,KANTAR / Reshet Bet,1,20,,,20,20,20
+audited_release,knesset_23_2020,creator,camil_fuchs,1,8,,,8,8,8
+audited_release,knesset_23_2020,horizon_bin,01-07,3,9.333333333333334,1.3333333333333333,1.1547005383792515,10,8,10
+audited_release,knesset_23_2020,creator,panels_politics,1,10,,,10,10,10
+audited_release,knesset_23_2020,creator,midgam,2,10,0,0.0,10.0,10,10
+audited_release,knesset_23_2020,horizon_bin,08-14,1,10,,,10,10,10
+index_exploratory_not_certified,knesset_23_2020,creator,Smith / Maariv,2,7,2,1.4142135623730951,7.0,6,8
+index_exploratory_not_certified,knesset_23_2020,horizon_bin,01-07,11,8.727272727272727,2.618181818181818,1.618079669911781,8,6,12
+index_exploratory_not_certified,knesset_23_2020,creator,Panel Project HaMidgam / Channel 13,6,12.666666666666666,10.666666666666666,3.265986323710904,12.0,8,18
+index_exploratory_not_certified,knesset_23_2020,creator,Midgam / Channel 12,6,11.333333333333334,4.266666666666667,2.0655911179772892,12.0,8,14
+index_exploratory_not_certified,knesset_23_2020,creator,Panels Politics / Maariv & The Jerusalem Post,1,8,,,8,8,8
+index_exploratory_not_certified,knesset_23_2020,creator,Maagar Mohot / Israel Hayom & i24 News,4,11.5,1,1.0,12.0,10,12
+index_exploratory_not_certified,knesset_23_2020,creator,Kantar / Kan 11,6,10.333333333333334,15.066666666666666,3.8815804341359033,9.0,6,16
+index_exploratory_not_certified,knesset_23_2020,creator,Direct Polls / Arutz Sheva,2,10,8,2.8284271247461903,10.0,8,12
+index_exploratory_not_certified,knesset_23_2020,creator,Midgam / Walla!,4,12.5,3.6666666666666665,1.9148542155126762,13.0,10,14
+index_exploratory_not_certified,knesset_23_2020,creator,Panels Politics / 103fm,2,11,2,1.4142135623730951,11.0,10,12
+index_exploratory_not_certified,knesset_23_2020,horizon_bin,08-14,7,10.857142857142858,5.142857142857143,2.2677868380553634,12,6,12
+index_exploratory_not_certified,knesset_23_2020,horizon_bin,15-30,10,11.6,3.3777777777777778,1.837873166945363,12.0,8,14
+index_exploratory_not_certified,knesset_23_2020,creator,Panels Politics / Makor Rishon,2,11,2,1.4142135623730951,11.0,10,12
+index_exploratory_not_certified,knesset_23_2020,creator,Direct Polls / Channel 20,1,10,,,10,10,10
+index_exploratory_not_certified,knesset_23_2020,creator,Panels Politics / Maariv,2,13,2,1.4142135623730951,13.0,12,14
+index_exploratory_not_certified,knesset_23_2020,creator,Maagar Mochot / 103fm,2,14,8,2.8284271247461903,14.0,12,16
+index_exploratory_not_certified,knesset_23_2020,horizon_bin,31-90,14,13.285714285714286,6.527472527472527,2.5548918817579205,14.0,8,18
+index_exploratory_not_certified,knesset_23_2020,creator,Direct Polls / Israel Hayom,1,8,,,8,8,8
+index_exploratory_not_certified,knesset_23_2020,creator,Direct Polls / Channel 13,1,14,,,14,14,14
+audited_release,knesset_24_2021,creator,maagar_mohot,2,25,2,1.4142135623730951,25.0,24,26
+audited_release,knesset_24_2021,horizon_bin,08-14,2,24,0,0.0,24.0,24,24
+audited_release,knesset_24_2021,creator,camil_fuchs,2,22,8,2.8284271247461903,22.0,20,24
+audited_release,knesset_24_2021,creator,midgam,2,20,0,0.0,20.0,20,20
+audited_release,knesset_24_2021,horizon_bin,01-07,4,21.5,9,3.0,20.0,20,26
+index_exploratory_not_certified,knesset_24_2021,creator,Camil Fuchs / Channel 13,7,24.571428571428573,6.285714285714286,2.5071326821120348,24,20,28
+index_exploratory_not_certified,knesset_24_2021,horizon_bin,01-07,8,20,10.285714285714286,3.2071349029490928,20.0,14,26
+index_exploratory_not_certified,knesset_24_2021,creator,Midgam/iPanel / Channel 12,9,30,50,7.0710678118654755,30,20,42
+index_exploratory_not_certified,knesset_24_2021,creator,Panels Politics / Maariv,8,35,65.14285714285714,8.071112509614592,37.0,20,48
+index_exploratory_not_certified,knesset_24_2021,creator,Direct Polls / –,3,26,108,10.392304845413264,32,14,32
+index_exploratory_not_certified,knesset_24_2021,creator,Kantar / Kan 11,5,28.8,33.2,5.761944116355173,30,20,36
+index_exploratory_not_certified,knesset_24_2021,creator,Smith / Mako,1,20,,,20,20,20
+index_exploratory_not_certified,knesset_24_2021,creator,Maagar Mohot / Israel Hayom,5,28.4,44.8,6.6932802122726045,26,24,40
+index_exploratory_not_certified,knesset_24_2021,creator,Panels Politics / 103fm,6,31.333333333333332,10.666666666666666,3.265986323710904,32.0,26,36
+index_exploratory_not_certified,knesset_24_2021,horizon_bin,08-14,5,25.2,3.2,1.7888543819998317,24,24,28
+index_exploratory_not_certified,knesset_24_2021,horizon_bin,15-30,15,30.8,10.742857142857142,3.277629805645711,30,24,36
+index_exploratory_not_certified,knesset_24_2021,creator,Maagar Mohot / Channel 20,2,29,2,1.4142135623730951,29.0,28,30
+index_exploratory_not_certified,knesset_24_2021,horizon_bin,31-90,18,33.55555555555556,39.790849673202615,6.307998864394524,32.0,24,48
+audited_release,knesset_25_2022,creator,midgam,2,14,0,0.0,14.0,14,14
+audited_release,knesset_25_2022,horizon_bin,08-14,2,14,0,0.0,14.0,14,14
+audited_release,knesset_25_2022,creator,direct_polls,2,14,0,0.0,14.0,14,14
+audited_release,knesset_25_2022,creator,camil_fuchs,2,17,18,4.242640687119285,17.0,14,20
+audited_release,knesset_25_2022,horizon_bin,01-07,4,15.5,9,3.0,14.0,14,20
+index_exploratory_not_certified,knesset_25_2022,creator,Camil Fuchs / Channel 13,7,15.142857142857142,6.476190476190476,2.5448360411214073,14,12,20
+index_exploratory_not_certified,knesset_25_2022,horizon_bin,01-07,11,14.181818181818182,5.963636363636364,2.442055765873573,14,12,20
+index_exploratory_not_certified,knesset_25_2022,creator,Midgam / HaHadashot 12,7,14.571428571428571,0.9523809523809523,0.9759000729485332,14,14,16
+index_exploratory_not_certified,knesset_25_2022,creator,Smith / Galei Israel,2,12,0,0.0,12.0,12,12
+index_exploratory_not_certified,knesset_25_2022,creator,Direct Polls / Channel 14,8,15,2.2857142857142856,1.511857892036909,14.0,14,18
+index_exploratory_not_certified,knesset_25_2022,creator,Kantar / Kan 11,6,13.666666666666666,2.2666666666666666,1.505545305418162,14.0,12,16
+index_exploratory_not_certified,knesset_25_2022,creator,Panels Politics / Maariv,7,13.142857142857142,2.4761904761904763,1.5735915849388864,12,12,16
+index_exploratory_not_certified,knesset_25_2022,creator,Maagar Mochot / Israel Hayom,2,16,0,0.0,16.0,16,16
+index_exploratory_not_certified,knesset_25_2022,creator,Midgam / Galei Tzahal,2,15,2,1.4142135623730951,15.0,14,16
+index_exploratory_not_certified,knesset_25_2022,creator,Panels Politics / Mako/Knesset Channel,6,13,1.2,1.0954451150103321,13.0,12,14
+index_exploratory_not_certified,knesset_25_2022,horizon_bin,08-14,11,13.818181818181818,1.1636363636363636,1.0787197799411874,14,12,16
+index_exploratory_not_certified,knesset_25_2022,creator,Midgam / Keshet,1,14,,,14,14,14
+index_exploratory_not_certified,knesset_25_2022,horizon_bin,15-30,13,14,3.3333333333333335,1.8257418583505538,14,12,18
+index_exploratory_not_certified,knesset_25_2022,creator,Panels Politics / 103fm,1,14,,,14,14,14
+index_exploratory_not_certified,knesset_25_2022,horizon_bin,31-90,14,14.571428571428571,2.10989010989011,1.4525460784051258,14.0,12,16

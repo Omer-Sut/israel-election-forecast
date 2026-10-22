@@ -1,6 +1,8 @@
 # Experiment and effort log
 
-## E005 - poll quality and feature trial (preparation)
+## E005 - poll quality and feature trial (verified)
+
+Final4275c5484ccd2525923d89c9f45e13b7dce2b272 / PR #16. Screen39776060120 and baseline39776062476 succeeded:55tests and frozen/deterministic reproduction. New trial37.133s; outputsfrozen at tested PR merge refefb6675 (not a merge claim).324mapped exploratory index rows/466exclusions,27audited releases,22known sizes. Source2018-11-28CBS2015index15city table transcribed and matched to official city codes/names; previous-election vote profiles for three explicit cores enter two additional ablations. Broad209profiles remain descriptive; age/sex/lineage integration still gated. Fourfeature sets/twohistory variants; correction0/.025/.05/.1/.25/.5/1 and existing family parameters selected on>=2earlier OOF elections. No selected2021/2022improvement, oftenzero corrections. Audited-only quality MAE9.233vs prior-campaign-average8.668, reject weight adoption for now. Compact report preserves CSV/SVG/HTML/provenance; artifact12424098121 verified203126bytes/unexpiredthroughNovember21, full2MBparameterCSV rebuildable. No current forecast/turnout/final model/merge change. Hands-on effort unmeasured/not reset.
 
 Protocol poll-quality-feature-trial.md. Separate audited27/index error tiers, campaign means/sample variances/creator/horizon patterns, audited-only earlier-campaign expected-error/severity prototype. Original/expanded history,8versus9dynamic-gap features, fixed small grid; fractions0/.025/.05/.10/.25/.5/1 selected from>=2earlier OOF elections. Descriptive209party-area profiles with CBS date/lineage gate closed to historical fitting. Explicit final rounding assertions. User authorized trying ideas, no final weight/model/forecast. Hosted validation pending; hands-on budget unmeasured/not reset; turnout later.
 

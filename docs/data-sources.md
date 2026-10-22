@@ -16,6 +16,8 @@ Historical execution update: [historical-backtest.md](historical-backtest.md) no
 
 ## Sources supplied in the competition guidelines
 
+E005 new dated-source audit October22: CBS press release351/2018, [November28,2018](https://www.cbs.gov.il/he/mediarelease/DocLib/2018/351/24_18_351b.pdf), tableA/page2 supplies2015index values for all15cities above100000residents. Factual transcription/source URL/date/vintage limitation in data/snapshots/party-area-vintage-2018-2026-10-22.json; official locality codes/names independently matched against stored CEC data. This dated subset supports a restricted previous-election party-area feature, not certification of later CBS workbooks or individual voter demographics. A [2017index book](https://www.cbs.gov.il/he/publications/doclib/2021/socio_eco17_1832/h_print.pdf) explicitly dates itself August2021; matching table vintages remains further work. No raw PDF prose or restricted respondent records republished. Broad polling-index error summaries remain lower-tier descriptive, separate from27audited releases.
+
 ### S1. Wikipedia poll compilation
 
 [2026 opinion polling](https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Israeli_legislative_election) contains dated poll tables, polling organizations/publishers, sample sizes where reported, seat projections, some below-threshold percentages, and references. Lineups vary; a separate section reports vote-intention percentages.
@@ -97,3 +99,4 @@ The [alliance's own website](https://jointlist.org.il/en/) names Hadash, Ta'al, 
 ## Online storage policy
 
 GitHub is the durable source of truth. Prefer small redistributable input snapshots and a source manifest in a tracked path such as `data/snapshots/` (the existing `data/raw/` and `data/processed/` paths are ignored). Review rights before copying data; do not accidentally force-add a restricted source. For larger or restricted inputs, record a shared store, access procedure, version/hash, and a reproducible retrieval path. Nothing required to reproduce the final run should exist only on one laptop or a temporary Colab disk.
+

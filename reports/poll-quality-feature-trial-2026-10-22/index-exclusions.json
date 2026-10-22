@@ -1,0 +1,2332 @@
+[
+  {
+    "poll_id": "20:0:27",
+    "election": "knesset_20_2015",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "20:0:99",
+    "election": "knesset_20_2015",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "20:0:100",
+    "election": "knesset_20_2015",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "20:0:105",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:106",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:107",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:109",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:113",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:117",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:UAL-Ta'al[a]"
+  },
+  {
+    "poll_id": "20:0:119",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:120",
+    "election": "knesset_20_2015",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "20:0:121",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:122",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:125",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:126",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:127",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:128",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:129",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:132",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:134",
+    "election": "knesset_20_2015",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "20:0:136",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:139",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:142",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Hadash[a]"
+  },
+  {
+    "poll_id": "20:0:143",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:144",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:145",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:146",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:147",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:148",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:149",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:150",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:151",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:154",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:155",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:156",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:159",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:160",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:161",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:162",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:163",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:164",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:165",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:166",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:167",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:168",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:169",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:170",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:171",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:172",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:175",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:176",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:177",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:178",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:179",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:180",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:181",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:182",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:183",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:184",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:185",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:188",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:189",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:190",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:191",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:192",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:193",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "20:0:195",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:196",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:197",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:198",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:200",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:201",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:202",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:203",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:204",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:205",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:206",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:207",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:208",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:209",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:210",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:211",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:212",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:213",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:214",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:216",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:217",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:218",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:219",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "20:0:220",
+    "election": "knesset_20_2015",
+    "reason": "unknown_positive_list:Likud + YisraelBeiteinu"
+  },
+  {
+    "poll_id": "21:0:55",
+    "election": "knesset_21_2019apr",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "21:0:59",
+    "election": "knesset_21_2019apr",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "21:0:65",
+    "election": "knesset_21_2019apr",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "21:1:3",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:5",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:6",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:7",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:8",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:10",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:11",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:12",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:13",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:15",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:16",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:17",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:18",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:19",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:20",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:21",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:22",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:24",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:26",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:27",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:28",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:29",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:30",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:31",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:34",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:35",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:36",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:37",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:38",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:1:39",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:2:2",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:2:3",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:2:4",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:2:5",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:2:6",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:2:7",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:2:8",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:2:9",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:2:10",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "21:3:2",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:3",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:4",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:5",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:6",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:9",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:10",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:12",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:13",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:14",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:15",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:16",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:17",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:18",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:20",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:21",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:22",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:23",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:24",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:25",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:26",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:27",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:28",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:29",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "21:3:30",
+    "election": "knesset_21_2019apr",
+    "reason": "unknown_positive_list:ZionistUnion"
+  },
+  {
+    "poll_id": "22:1:3",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:1:4",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:1:5",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:1:6",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:1:7",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:2:3",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:2:5",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:2:6",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:2:7",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:2:8",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:URWP"
+  },
+  {
+    "poll_id": "22:3:3",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:3:4",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:3:5",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:3:6",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:3:8",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:3:9",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:3:10",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:3:13",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:4:3",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:4:4",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:4:5",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:4:6",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:4:7",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Hadash–Ta'al"
+  },
+  {
+    "poll_id": "22:4:8",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:4:9",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:5:2",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "22:5:3",
+    "election": "knesset_22_2019sep",
+    "reason": "unknown_positive_list:Labor"
+  },
+  {
+    "poll_id": "23:0:23",
+    "election": "knesset_23_2020",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "23:1:3",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:NewRight + NU"
+  },
+  {
+    "poll_id": "23:1:6",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:NewRight"
+  },
+  {
+    "poll_id": "23:1:7",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:NewRight + NU + UJH"
+  },
+  {
+    "poll_id": "23:1:8",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:NewRight + NU"
+  },
+  {
+    "poll_id": "23:2:4",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:5",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:6",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:7",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:8",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:9",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher + Dem.Union"
+  },
+  {
+    "poll_id": "23:2:10",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:NewRight"
+  },
+  {
+    "poll_id": "23:2:11",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:12",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:13",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:14",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:15",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:16",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:17",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher + Dem.Union"
+  },
+  {
+    "poll_id": "23:2:19",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:20",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:21",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:22",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:23",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher + Dem.Union"
+  },
+  {
+    "poll_id": "23:2:24",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:25",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:2:28",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:3",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:4",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:5",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:6",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:7",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:9",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:10",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:11",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:12",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:13",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:14",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:15",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:16",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:17",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:18",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:19",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:21",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:22",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:23",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:24",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:26",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:27",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:28",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:3:29",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "23:4:2",
+    "election": "knesset_23_2020",
+    "reason": "unknown_positive_list:Labor-Gesher"
+  },
+  {
+    "poll_id": "24:0:19",
+    "election": "knesset_24_2021",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "24:0:21",
+    "election": "knesset_24_2021",
+    "reason": "mapped_numeric_seats_not_120"
+  },
+  {
+    "poll_id": "24:1:3",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:JointList + Ta'al + Ra'am"
+  },
+  {
+    "poll_id": "24:1:6",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:JointList + Ta'al + Ra'am"
+  },
+  {
+    "poll_id": "24:1:7",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:JointList + Ta'al + Ra'am"
+  },
+  {
+    "poll_id": "24:1:8",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:JointList + Ta'al + Ra'am"
+  },
+  {
+    "poll_id": "24:1:10",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:JointList + Ta'al + Ra'am"
+  },
+  {
+    "poll_id": "24:1:11",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:JointList + Ta'al"
+  },
+  {
+    "poll_id": "24:2:6",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:RZ"
+  },
+  {
+    "poll_id": "24:2:7",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Israelis"
+  },
+  {
+    "poll_id": "24:2:9",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Israelis"
+  },
+  {
+    "poll_id": "24:2:12",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Israelis"
+  },
+  {
+    "poll_id": "24:2:13",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:RZ"
+  },
+  {
+    "poll_id": "24:2:15",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:RZ"
+  },
+  {
+    "poll_id": "24:2:16",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Israelis"
+  },
+  {
+    "poll_id": "24:2:17",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:RZ"
+  },
+  {
+    "poll_id": "24:3:5",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:6",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:7",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:8",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:11",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:12",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:13",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:14",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:16",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:18",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:3:19",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:3",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:7",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:8",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:9",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:11",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:12",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:13",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:14",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:15",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:16",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:18",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:19",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:20",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:21",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:22",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:24",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:4:25",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:3",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:4",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:5",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:6",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:7",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:8",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:9",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:10",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:11",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:12",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:13",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:14",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:15",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:16",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:17",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:18",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:19",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:20",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:21",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:22",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:23",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:24",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:25",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:26",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:27",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:28",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:29",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:30",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:31",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:32",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:33",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:34",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:35",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:36",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:37",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:38",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:39",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:40",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:41",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:42",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:43",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:44",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:45",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:46",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:47",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:48",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:49",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:50",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:51",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:52",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:53",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:54",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:55",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:56",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:57",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:58",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:59",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:60",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:62",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:63",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:64",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:65",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:66",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:67",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:68",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:69",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:70",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:71",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:5:72",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:6:3",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:6:4",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:6:5",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:6:6",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:6:7",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:6:9",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:6:11",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Yesh Atid-Telem"
+  },
+  {
+    "poll_id": "24:7:2",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Labor-Meretz"
+  },
+  {
+    "poll_id": "24:7:3",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Labor-Meretz"
+  },
+  {
+    "poll_id": "24:7:4",
+    "election": "knesset_24_2021",
+    "reason": "unknown_positive_list:Labor-Meretz + Gesher"
+  },
+  {
+    "poll_id": "25:1:2",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:1:3",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:1:4",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:1:7",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:1:9",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:1:10",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:1:11",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:2:2",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:2:3",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:2:5",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:2:6",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:2:7",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:2:8",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:2:9",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:3:2",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:3:3",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:JointList"
+  },
+  {
+    "poll_id": "25:3:4",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:3:5",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:OtzmaYehudit"
+  },
+  {
+    "poll_id": "25:3:6",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:3:8",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:2",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:3",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:4",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:5",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:7",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ZionistSpirit/Yamina"
+  },
+  {
+    "poll_id": "25:4:8",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ZionistSpirit/Yamina"
+  },
+  {
+    "poll_id": "25:4:9",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:10",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:11",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ZionistSpirit/Yamina"
+  },
+  {
+    "poll_id": "25:4:12",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:13",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:15",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:16",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:17",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ZionistSpirit/Yamina"
+  },
+  {
+    "poll_id": "25:4:18",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ZionistSpirit/Yamina"
+  },
+  {
+    "poll_id": "25:4:20",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:21",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:22",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:24",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:25",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:26",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:4:27",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:ReligiousZionist"
+  },
+  {
+    "poll_id": "25:5:2",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:3",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:6",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:7",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:9",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:10",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:11",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:12",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:13",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:14",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:17",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:18",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:19",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:20",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:21",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:23",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:25",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:26",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:28",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:29",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:30",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:31",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:32",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:33",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:35",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:36",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:37",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:38",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:39",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:40",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:41",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:42",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:43",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:44",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:46",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:47",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:48",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:49",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:50",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:51",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:52",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:53",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:54",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:55",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:56",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:57",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:58",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:59",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:60",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:61",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:62",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:63",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:64",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:65",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:66",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:67",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:68",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:70",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:71",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:72",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:73",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:74",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:75",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:76",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  },
+  {
+    "poll_id": "25:5:77",
+    "election": "knesset_25_2022",
+    "reason": "unknown_positive_list:Blue &White"
+  }
+]
