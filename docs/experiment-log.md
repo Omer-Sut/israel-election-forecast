@@ -1,5 +1,22 @@
 # Experiment and effort log
 
+## E003 - Repeated-release and source-age sensitivity (October 22, 2026)
+
+- User authorized next data/coverage work and online-first collaboration. Source selection frozen before fitting: three reviewed earlier releases within existing groups,24 to27 total, latest-group anchors unchanged. Four variants: reference, Walla publication age, expanded history, combined. Fixed model grid/correction/seed/cutoffs/outcomes, chronological gates preserved.
+- Audit/protocol: `data/snapshots/campaign-history-2026-10-22/audit.json`, `docs/campaign-history.md`. Missing2015 primary access and possible Walla copy metadata explicitly retained; no index-only numerical promotion. No final model/L0/2026 forecast selected.
+- Reproduce on hosted CPU with `python scripts/campaign_history.py` and `node scripts/compare_campaign_diagnostics.mjs output/campaign-history`. Node source mapping/diagnostic checks pass locally. Scientific fitting, new Python tests, reference reproduction and deterministic repeated fits pending at this checkpoint. Actual run/commit/results will be appended after verification; hands-on/cumulative effort unmeasured.
+- Verified31b58712593b3db492b20e27ef3fb1728baaf858, PR #14, screen39741972606 and baseline39741972643:46 tests and all reference/data-variant/determinism checks pass. Runtime per variant(reference/age/history/both)=3.012/2.390/2.399/2.411s; every prediction CSV reproduced on repeat. Four hosted data variants reuse the same inspected outcomes, not four independent replications.
+- New results: no candidate beats reference20/12 on2021/2022. Combined equal/strong-penalty ensembles tie20/12; two forest configurations worsen2021 to26 and middle forest2022 to14. Training trend-missing rows for2021 drop44 to11, confirming the new feature coverage without proving predictive usefulness. Keep controls/no final selection; do not choose metadata by best score.
+- Durable `reports/campaign-history-2026-10-22/` holds compact all-fold stage/representation/provenance archive,CSV,SVGs,PNG and summary; full artifact12408824706 verified877,889bytes/unexpired.12 stable consumed file hashes match. Results derived from hosted output, no local refitting. Remote report/documentation publication follows checked implementation; actual latest SHA belongs in live PR state.
+
+## A002 - Four-stage diagnostics over every available E002 fold (October 22, 2026)
+
+- User approved pre-rounding plots and broader reporting. Inputs are unchanged saved E002 predictions and configured six-election outcomes. No fitting, new evaluation data, grid/penalty selection or current forecast changes.
+- Outputs: `reports/diagnostics-2026-10-22/` (HTML/SVG/PNG, scores CSV, per-list JSON/provenance). `scripts/screening_diagnostics.mjs` uses Node built-ins; optional `scripts/plot_screening_diagnostics.R` uses base R. Existing Python pipelines remain unchanged.
+- Checked all saved final total/signed scores directly against outcomes and reconstructed blended/rounded vectors. Boundary/corruption tests passed and five outputs repeat byte-identically. Exported PNGs were visually inspected. No local original Python suite or new hosted workflow was run; CI diagnostic check is added but remote verification is pending.
+- Includes earlier eligible folds with explicit history/OOF roles and matched continuous/integer references. 2022 dynamic_01 improves projected continuous error slightly (11.7895 vs mean12.6667) while retaining mean's integer vector/error12; ridge_10 has worse continuous error but the same rounded vector after 25% correction. Not a family ranking or new independent evidence.
+- Actual hands-on/cumulative effort unmeasured; no reset of the eight-hour budget. Keep existing controls; next audit source/trajectory coverage. L0/representation model remains discussion only. Publication status is local until verified.
+
 ## A001 - Analysis of saved E002 results (October 21, 2026)
 
 - User requested an analysis and Git handoff. Inputs are the saved E002 report only; no new training, grid search or current prediction. Standard-library `scripts/analyze_screening.py` checks per-list score arithmetic and derives party errors, forecast identity, continuous movement, feature coverage and ensemble weights.

@@ -22,6 +22,8 @@ jobs:
           python-version: '3.12'
       - name: Test decision and contract logic
         run: python -m unittest discover -s tests -v
+      - name: Check saved prediction diagnostics without refitting
+        run: node tests/test_screening_diagnostics.mjs
       - name: Reproduce baseline from frozen inputs
         run: python scripts/baseline.py --out-dir output/baseline
       - name: Check durable snapshot reproduction

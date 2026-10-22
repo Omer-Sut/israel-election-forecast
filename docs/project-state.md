@@ -1,6 +1,30 @@
 ﻿# Current project state
 
-Last updated: October 21, 2026 (E002 results analyzed and continuation handoff).
+Last updated: October 22, 2026 (E003 campaign-history sensitivities).
+
+## Current handoff: E003 verified online
+
+Published implementation `31b58712593b3db492b20e27ef3fb1728baaf858` through [PR #14](https://github.com/Omer-Sut/israel-election-forecast/pull/14), branch `feat/campaign-history-diagnostics`, stacked on open PR #13. [Screen39741972606](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39741972606) passed all46 scientific-environment tests, original panel rebuild, original deterministic screen, four E003 variants and a second identical prediction run for every variant. [Baseline39741972643](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39741972643) passed original forecast/database/CBS reproduction and the Node diagnostic checks. No local scientific installation or training. Individual variant runtimes3.012/2.390/2.399/2.411s; full cloud job about90s including tests/setup/repeats.
+
+Durable [E003 comparison and plots](../reports/campaign-history-2026-10-22/index.html) include compressed all-fold score/representation/provenance JSON, full stage CSV, per-variant SVG histories and a base-R comparison PNG. Hosted comparison was preserved from the successful job's machine-readable output. All12 stable consumed source/input hashes matched local files. Full generated inputs/predictions/diagnostics are also available in verified unexpired artifact12408824706 (877,889 compressed bytes) on that run. Compact report can regenerate plots with `node scripts/render_campaign_comparison.mjs`; originals and new audit/code remain durable after artifact expiration.
+
+Results: latest-group mean/L1 anchors remain20/12 error for2021/2022. No candidate beats these in any variant. Combined changes bring equal/strongly penalized ensembles to20/12 (ties); two forests worsen2021 to26 and middle forest2022 to14. More historical features change fits materially but do not establish a winner. Expanded earlier trend-missing rows drop44 to11 for2021 training, with2015 still lacking repeats. Preserve all four variants, avoid choosing metadata assumptions by their score, and do not claim new blind evidence. Next: complete primary2015 trajectory coverage and assess representation-aware scenarios before broader model searches; no L0/final model/2026 forecast selected.
+
+Authoritative work is online in PR #14; AGENTS.md records the verified publication fallback and concurrent-edit rules. Local Git HEAD is still3055db4 because metadata is protected. Files contain newer API-published work; do not blindly commit/reset/force-push this stale checkout. A later report/documentation commit records these verified runs; inspect live PR head for the latest SHA. Neither PR #13 nor #14 is merged by this work.
+
+## E003 preparation checkpoint (superseded by the verified run above)
+
+User explicitly requested online-first continuation and collaboration across people/agents/sessions. AGENTS.md now documents GitHub-client publication when local `.git` or terminal networking is restricted, isolated topic branches, expected-SHA updates, hosted computation, durable results and stale-checkout handling. Connected GitHub access created `feat/campaign-history-diagnostics` from PR #13 head3055db4; PR #13/main remain unchanged. All earlier A002 plots/code are included in this new work. Local HEAD stays3055db4 because `.git` metadata is protected; do not blindly commit/push this local tree after API publication.
+
+[E003 protocol](campaign-history.md): run the unchanged grid on reference, Walla publication-age, expanded repeated history and combined variants. Three newly reviewed original releases increase24 to27 and activate trends in April2019/September2019/2020; latest-group anchors stay fixed. 2015 primary access and Walla metadata issues remain documented. Node mapping/diagnostic checks pass locally; new Python tests, four hosted fits and repeats are pending at this publication checkpoint. Record actual remote SHA, PR, checks and results after verification; no final model or 2026 forecast changed.
+
+## Latest: A002 pre-rounding diagnostics and broader-history plots
+
+The following A002 checkpoint predates publication; its code/plots are now included in PR #14 and verified by the runs above.
+
+User approved a diagnostic report with plots before rounding and requested broader historical coverage and discussion of L0/party disappearance. Read [diagnostics-and-data-readiness.md](diagnostics-and-data-readiness.md). New [report](../reports/diagnostics-2026-10-22/index.html) shows all available saved E002 folds/configurations, four processing stages, per-list errors and shared-case caveats; original reports and forecasts are preserved. September 2019/2020 folds are now visible, not newly held-out evidence. Node built-in checks passed, corrupted scores/targets/blending are rejected, five outputs reproduced byte-for-byte; PNGs exported with base R and visually checked. No models were refitted. The Python runtime is unavailable locally; original suite was not rerun. Baseline CI now includes the diagnostic checks, with hosted verification pending.
+
+Next: review plots, audit repeated earlier campaign releases plus source-age/old-coverage sensitivity, then rerun the unchanged grid. L0 is a user proposal for discussion, not selected. Distinguish coefficient sparsity, uncertain threshold crossing and verified withdrawal; publisher reporting supports Blue and White's completed withdrawal but a direct CEC notice remains unarchived. No current eligibility rule or 2026 forecast changed. All A002 edits are local and uncommitted/unpushed: staging failed because this session cannot create `.git/index.lock` (permission denied). Do not infer failed user authentication.
 
 ## Start the next session here — E002 analysis
 

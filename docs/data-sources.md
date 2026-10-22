@@ -1,5 +1,7 @@
 # Data sources and provenance
 
+October22 E003: [campaign-history.md](campaign-history.md) adds three repeated original-source-reviewed releases within existing groups (24 to27 historical releases) and explicitly tests a Walla publication-age assumption. Audit facts/URLs/dates/derivations and inaccessible/ambiguous exclusions are preserved in `data/snapshots/campaign-history-2026-10-22/audit.json`. No raw response hashes are claimed for the web-text retrieval surface. Bulk index tiers and frozen E002 snapshots remain unchanged. Full online comparison/results are linked in project-state.
+
 E002 screening panel: [six-election-screening.md](six-election-screening.md) records twelve newly reviewed original-source releases from 2015, April/September2019 and 2020, with corrected publication dates, known revisions and unresolved metadata conflicts. Combined with the unchanged pilot this supplies 24 releases across six elections. The numerical audit and offline-generated panel are versioned separately; bulk index audit statuses are unchanged.
 
 CBS extension (October 21, 2026): [cbs-demographics.md](cbs-demographics.md) records 19 integrated official source responses, annual 2018–2021 age/sex data, 2022 census profiles/broad measures, socioeconomic 2015/2017/2019/2021 and annual 2017–2022 locality geography. Raw responses and canonical tables are in `data/cbs-2026-10-21/`, with exact URLs/hashes in `cbs_sources.jsonl.gz`. Area-level joins and descriptive examples work; no release-verified historical feature set or individual voting inference is claimed.
