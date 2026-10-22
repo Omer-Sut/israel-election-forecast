@@ -236,8 +236,46 @@ def select_past(options, cutoff, minimum=2):
     return method,fraction,sorted({r['election'] for r in rows})
 
 
+def prior_area_profiles():
+    """Dated city subset; prior-election votes only, explicit stable-core scope."""
+    source=load_json(ROOT/'data/snapshots/party-area-vintage-2018-2026-10-22.json')
+    cities={r['code']:r for r in source['cities']}
+    # No inference from reused party ballot codes or changed alliance names.
+    core_codes={'shas':'שס','united_torah_judaism':'ג','yisrael_beiteinu':'ל'}
+    official={(r['knesset'],r['ballot_code']):r for r in records(ROOT/'data/database/official_lists.jsonl.gz')}
+    geo={r['geo_id']:r for r in records(ROOT/'data/database/geographies.jsonl.gz') if r['granularity']=='locality'}
+    sums={}; verified_cities=set()
+    for row in records(ROOT/'data/database/geographic_votes.jsonl.gz'):
+        g=geo.get(row['geo_id'])
+        if not g or row['ballot_code'] not in core_codes.values():
+            continue
+        attr=g['attributes']; code=str(int(attr['סמל ישוב']))
+        if code not in cities:
+            continue
+        name=attr.get('שם ישוב','')
+        clean=lambda s:re.sub(r'[^א-ת]','',s)
+        if clean(name)!=clean(cities[code]['name_he']):
+            raise ValueError(f'City code/name mismatch: {code}, {name}')
+        verified_cities.add(code)
+        key=(g['knesset'],row['ballot_code'])
+        numerator,denominator=sums.get(key,(0,0))
+        sums[key]=(numerator+row['votes']*cities[code]['index'],denominator+row['votes'])
+    if verified_cities != set(cities):
+        raise ValueError('A transcribed CBS city code is not matched to official votes')
+    result=[]
+    for (k,code),(num,den) in sums.items():
+        party=next(name for name,c in core_codes.items() if c==code)
+        result.append(dict(source_knesset=k,party_core=party,mean_city_index=num/den,matched_party_votes=den,
+            national_party_votes=official[k,code]['votes'],vote_coverage=den/official[k,code]['votes'],
+            cbs_publication_date=source['publication_date'],geography_scope='15 large cities only',
+            eligibility='Can enter only later elections after CBS publication; core names explicitly scoped, no merger redistribution'))
+    write_csv(OUT/'prior-city-profiles.csv',result)
+    return result,source['publication_date']
+
+
 def temporal_trial(config_paths):
     scores, selections=[] ,[]
+    profiles,published=prior_area_profiles()
     for variant in ('reference','expanded_history'):
         config=load_json(config_paths[variant]); history=load_json(ROOT/config['historical_config'])
         outcomes={k:v['seat_results'] for k,v in load_json(ROOT/history['outcomes_path'])['elections'].items()}
@@ -251,12 +289,22 @@ def temporal_trial(config_paths):
             case=build_case(snapshot,cutoff,history['poll_window_days'],history['minimum_groups'])
             case['horizon_days']=1
             cases.append(case)
-        for features in ('original','dynamic_gap'):
+        for features in ('original','dynamic_gap','prior_city_core','dynamic_plus_prior_city_core'):
             trial=copy.deepcopy(cases)
-            if features=='dynamic_gap':
+            if features in ('dynamic_gap','dynamic_plus_prior_city_core'):
                 for c in trial:
                     filtered=dynamic_prediction(c,1,4)
                     c['features']=[x+[v-a] for x,v,a in zip(c['features'],filtered,c['anchor'])]
+            if features in ('prior_city_core','dynamic_plus_prior_city_core'):
+                for c in trial:
+                    k=int(c['election_id'].split('_')[1])
+                    for i,key in enumerate(c['ids']):
+                        core=next((p for p in ('shas','united_torah_judaism','yisrael_beiteinu') if key.startswith(p+'_')),None)
+                        profile=next((p for p in profiles if p['source_knesset']==k-1 and p['party_core']==core),None)
+                        if profile and published<c['cutoff']:
+                            c['features'][i]+=[profile['mean_city_index'],profile['vote_coverage'],0]
+                        else:
+                            c['features'][i]+=[0,0,1]
             results=evaluate_cases(trial,outcomes,config)
             block=[]
             for c in results:
@@ -375,12 +423,13 @@ def main():
         lines+=['',f'Audited-only error-prediction trial OOF MAE={mae:.3f}; prior campaign-mean baseline MAE={base:.3f}. These are poll-error prediction losses, not seat-forecast competition losses. No weighting adopted.']
     lines+=['',f'Audited sample-size coverage: {sum(bool(r["sample_size"]) for r in rows if r["tier"]=="audited_release")}/27. Index sample sizes are unknown, not imputed.',
         '',f'Geographic footprint rows={len(geo)}. All descriptive-only: CBS historical release dates unverified; current-election application additionally needs prior-election party/merger lineage. Profiles use2021 area demographics and2019 socioeconomic index. No individual demographic voting inference, no future-CBS historical model fitting.',
+        '', 'In contrast to the broad descriptive profiles, the restricted prior-city-core ablation uses the dated November28,2018 CBS2015 press-release table, all15large cities, and only the PREVIOUS election votes for Shas/UTJ/Yisrael Beiteinu. Features: vote-weighted area index, matched-vote coverage, missing flag; no future/same-election outcomes, no new-alliance transfer assumptions. It is a partial geographic trial, not full age/sex/party-identity modeling.',
         '', 'Dynamic-gap ablation adds only a pre-cutoff filtered-level-minus-anchor feature, using fixed Q/R=1; no outcome enters feature extraction. Parameter/fraction selection uses at least two strictly earlier OOF elections; ties prefer smaller corrections. Earlier insufficient selections fall back to mean. Existing inspected outcomes are not new blind evidence.',
         '', 'Final integer allocations now have an explicit post-rounding sum120/nonnegative/integer assertion in addition to score validation. Largest-remainder allocation already preserves the total; independent nearest-integer rounding is not used.',
         '',f'Runtime seconds={time.perf_counter()-start:.3f}; commit={os.environ.get("GITHUB_SHA","local")}. Turnout/political-war-economic features deferred as requested.']
     (OUT/'summary.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     consumed=[Path(__file__),ROOT/'scripts/experiments.py',ROOT/'scripts/campaign_history.py',ROOT/'scripts/baseline.py',ROOT/'scripts/backtest.py',ROOT/'scripts/robustness.py',ROOT/'config/experiments.json']+list((ROOT/'data/database').glob('*.jsonl.gz'))+list((ROOT/'data/cbs-2026-10-21').glob('*.jsonl.gz'))+list((ROOT/'data/snapshots').rglob('*.json'))
-    write_json(OUT/'manifest.json',dict(commit=os.environ.get('GITHUB_SHA','local'),fractions=FRACTIONS,feature_trial='original versus dynamic_gap',
+    write_json(OUT/'manifest.json',dict(commit=os.environ.get('GITHUB_SHA','local'),fractions=FRACTIONS,feature_trial='original/dynamic_gap/prior_city_core/dynamic_plus_prior_city_core',
         input_hashes={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in consumed},
         policy='Index descriptive only; quality model audited only; no final selection; geographic historical eligibility gate remains closed'))
     print('\n'.join(lines),flush=True)

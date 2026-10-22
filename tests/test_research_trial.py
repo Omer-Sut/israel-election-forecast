@@ -1,5 +1,5 @@
 import unittest
-from scripts.research_trial import index_vector, select_past, describe
+from scripts.research_trial import index_vector, select_past, describe, prior_area_profiles
 from scripts.experiments import reconcile
 
 
@@ -26,4 +26,11 @@ class ResearchTrialTests(unittest.TestCase):
             seats=reconcile(values)
             self.assertEqual(sum(seats),120)
             self.assertTrue(all(type(x) is int and x>=0 for x in seats))
+
+    def test_city_source_transcription_is_explicit_and_predates_tests(self):
+        from scripts.baseline import ROOT, load_json
+        source=load_json(ROOT/'data/snapshots/party-area-vintage-2018-2026-10-22.json')
+        self.assertEqual(source['publication_date'],'2018-11-28')
+        self.assertEqual(len({r['code'] for r in source['cities']}),15)
+        self.assertEqual(next(r['index'] for r in source['cities'] if r['code']=='3000'),-.919)
 

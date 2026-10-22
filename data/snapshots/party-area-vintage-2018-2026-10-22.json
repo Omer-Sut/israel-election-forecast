@@ -1,0 +1,27 @@
+{
+  "source_url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2018/351/24_18_351b.pdf",
+  "retrieved_on": "2026-10-22",
+  "reference_year": 2015,
+  "publication_date": "2018-11-28",
+  "table": "Table A, page 2: all 15 cities above 100000 residents, 2015 socioeconomic INDEX VALUE column",
+  "vintage_limit": "Dated original CBS press-release table inspected retrospectively, not authenticated archived HTTP vintage. Values transcribed from this dated document, not later workbooks.",
+  "interpretation": "Area index, NOT individual voter socioeconomic status; restricted large-city cohort, not full national coverage.",
+  "cities": [
+    {"code":"3000","name_he":"ירושלים","index":-0.919},
+    {"code":"6100","name_he":"בני ברק","index":-1.307},
+    {"code":"2610","name_he":"בית שמש","index":-1.214},
+    {"code":"6200","name_he":"בת ים","index":-0.062},
+    {"code":"7100","name_he":"אשקלון","index":-0.038},
+    {"code":"70","name_he":"אשדוד","index":-0.140},
+    {"code":"9000","name_he":"באר שבע","index":0.034},
+    {"code":"7400","name_he":"נתניה","index":0.199},
+    {"code":"6600","name_he":"חולון","index":0.502},
+    {"code":"4000","name_he":"חיפה","index":0.529},
+    {"code":"8400","name_he":"רחובות","index":0.641},
+    {"code":"7900","name_he":"פתח תקווה","index":0.656},
+    {"code":"8300","name_he":"ראשון לציון","index":0.847},
+    {"code":"8600","name_he":"רמת גן","index":1.053},
+    {"code":"5000","name_he":"תל אביב-יפו","index":1.208}
+  ]
+}
+
