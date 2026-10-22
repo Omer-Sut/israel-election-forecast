@@ -4,6 +4,7 @@ No current forecast changes. Broad index statistics remain a lower evidence tier
 """
 from __future__ import annotations
 import copy
+import base64
 import csv
 from datetime import date, timedelta
 import gzip
@@ -383,6 +384,15 @@ def main():
         input_hashes={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in consumed},
         policy='Index descriptive only; quality model audited only; no final selection; geographic historical eligibility gate remains closed'))
     print('\n'.join(lines),flush=True)
+    # Public numerical results only: durable connector-readable fallback when binary
+    # artifact downloads cannot be consumed by the current sandbox. No raw sources.
+    compact={p.name:p.read_text(encoding='utf-8') for p in OUT.iterdir()
+             if p.is_file() and p.suffix in ('.csv','.json','.svg','.html','.md')}
+    encoded=base64.b64encode(gzip.compress(json.dumps(compact,ensure_ascii=False).encode('utf-8'),mtime=0)).decode('ascii')
+    print('E005_REPORT_BASE64_BEGIN',flush=True)
+    for n in range(0,len(encoded),8000):
+        print(encoded[n:n+8000],flush=True)
+    print('E005_REPORT_BASE64_END',flush=True)
 
 
 if __name__=='__main__':
