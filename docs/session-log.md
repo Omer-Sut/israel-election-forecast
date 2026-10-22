@@ -2,6 +2,8 @@
 
 ## October 22, 2026 - E004 unattended batch preparation
 
+Verified completion: implementationbe272a4, PR #15, screen39750449237 and baseline39750449205 succeeded.50 tests, deterministic full-grid repeats, forest-adapter equality, two variants/five fractions/20 forest seeds complete. E004 runtime51.396seconds,3080 score rows. Artifact12413786085 verified1,156,262bytes/83files/unexpired untilNovember21; extract/open index.html. Initial run39750028287 failed a zero-correction exact-versus-floating tie assumption; regression test and explicit diagnostic flags retain that difference without modifying original forecast code. April2019 vectors differ but both error40; no original-seed/25% improvement on2021/2022. Full result review remains next-session work, no final model/forecast change/merge. Output commitf5ce233 is a tested PR merge ref, not a merged PR.
+
 User approved robustness work before a two-hour absence. Added scripts/robustness.py, contract tests, hosted execution/artifact steps and docs/robustness-batch.md. Fractions are post-fit diagnostics; only forests need additional seed fits. All eligible folds and missing early fits preserved; no new holdout/final selection. Local Python unavailable; publication/run verification pending. Remote work stacks on PR #14; local Git metadata stays3055db4. Append actual results/links after validation.
 
 ## 2026-10-22 - Online-first continuation and E003 preparation
