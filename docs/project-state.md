@@ -1,6 +1,10 @@
-﻿# Current project state
+# Current project state
 
-Last updated: October 22, 2026 (E003 campaign-history sensitivities).
+Last updated: October 22, 2026 (E004 robustness preparation).
+
+## E004 unattended batch preparation
+
+User authorized [robustness-batch.md](robustness-batch.md): two fixed data variants, five correction strengths, all eligible chronological folds, and20 forest seeds. Full grid/ensembles at original seed only; saved corrections support fraction analysis without repeated training. Deterministic repeats and forest-only/full-grid equality are mandatory gates. SVG dashboard, CSVs, raw compressed predictions and manifest come from `scripts/robustness.py`; workflow artifact is `robustness-correction-seeds`. No final model, L0 or current forecast change. Preparation is not execution success; append verified remote run evidence. Local Git metadata remains stale at3055db4; publish only intended paths from the live remote parent on an isolated branch stacked on PR #14.
 
 ## Current handoff: E003 verified online
 
@@ -177,3 +181,4 @@ See docs/baseline-method.md, docs/historical-backtest.md, data/README.md, and ex
 Git/gh may not appear on the inherited PATH. Executables are C:\Users\omersu\AppData\Local\Programs\Git\cmd\git.exe and C:\Program Files\GitHub CLI\gh.exe. Approved outside-sandbox operations successfully use the existing keyring login; in-sandbox failures do not prove login is invalid. A safe.directory exception exists only for this exact project path because .git was initially created by the sandbox user.
 
 Local checks used QGIS Python 3.12 via PYTHONHOME, but this is not a project dependency: a normal Python 3.12 runtime suffices. Network/Git writes may need approval. Raw source images/renderings under tmp/ are ignored and are not the sole record of any numerical input. No credentials or personal form responses are committed.
+

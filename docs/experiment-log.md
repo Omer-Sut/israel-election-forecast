@@ -1,5 +1,9 @@
 # Experiment and effort log
 
+## E004 - correction and forest-seed robustness (October 22, 2026)
+
+User approved unattended computation during approximately two-hour absence. Protocol: docs/robustness-batch.md. Original/expanded history; fractions0/.10/.25/.50/1; full fixed grid at20261021 and three forests at20 seeds20261021-20261040. All eligible T-1 chronological folds; unchanged gates/dates/features/targets/weights. Inspected outcomes are descriptive, no best-seed/fraction selection. Local Python unavailable; tests/execution pending on GitHub at preparation. Artifact preserves raw fits, predictions, plots, score/seed CSVs and manifest. Record actual commit/run/runtime after verification. Hands-on/cumulative usage unmeasured; no budget reset or current forecast change.
+
 ## E003 - Repeated-release and source-age sensitivity (October 22, 2026)
 
 - User authorized next data/coverage work and online-first collaboration. Source selection frozen before fitting: three reviewed earlier releases within existing groups,24 to27 total, latest-group anchors unchanged. Four variants: reference, Walla publication age, expanded history, combined. Fixed model grid/correction/seed/cutoffs/outcomes, chronological gates preserved.
@@ -111,3 +115,4 @@ Limitations / next step:
 ```
 
 Log failed or rejected approaches briefly too. Keep the authoritative source manifest and outputs durable in GitHub or a documented shared store; a session-only path is insufficient.
+

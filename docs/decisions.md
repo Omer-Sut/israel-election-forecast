@@ -2,6 +2,8 @@
 
 ## Accepted
 
+- E004 (October22): user approved bounded unattended sensitivity: correction strengths0/10/25/50/100%, original versus expanded campaign history, every eligible chronological fold, and20 forest seeds. No additional families, L0, final model selection or forecast changes. Hosted CPU, plots and downloadable provenance/results.
+
 - October22: user reaffirmed online-first work and collaboration across people/agents/sessions, with guidance in AGENTS.md. Use connected GitHub publication when local Git metadata/networking is unavailable, isolated topic branches, expected-parent updates and verified hosted checks. Local restrictions do not revoke authorized project publication; respect machine access controls and retain a precise remote/local handoff.
 - E003: user authorized the recommended source/history expansion. Keep the grid, correction strength and outcomes fixed while comparing the frozen reference, a publication-age assumption, three repeated original-source releases, and their combination. Review all available folds and continuous stages; do not call repeated old outcomes new blind evidence. L0/representation modeling remains a proposal, not an adopted method.
 
@@ -66,3 +68,4 @@
 - Collaborator invitations (public read access does not grant write access).
 
 Record decisions here when made, including rationale and relevant evidence. Do not retroactively describe proposals as user-approved decisions.
+
