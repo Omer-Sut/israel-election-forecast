@@ -1,5 +1,9 @@
 # Session log
 
+## October22 - E005 user-directed trial preparation
+
+User authorized geographic party profiles, dynamic tabular feature ablation, chronological regularization/blending validation and historical poll quality/severity research; turnout later. Added research_trial.py/tests, explicit post-rounding invariant and hosted artifact. Index tier stays exploratory; audited27releases separate; no poll weights adopted. Party-area CSV remains descriptive because historical CBS dates/lineages are unverified. See poll-quality-feature-trial.md. Hosted tests pending; no current/frozen forecast change. Local Git metadata remains stale.
+
 ## October 22, 2026 - E004 unattended batch preparation
 
 Verified completion: implementationbe272a4, PR #15, screen39750449237 and baseline39750449205 succeeded.50 tests, deterministic full-grid repeats, forest-adapter equality, two variants/five fractions/20 forest seeds complete. E004 runtime51.396seconds,3080 score rows. Artifact12413786085 verified1,156,262bytes/83files/unexpired untilNovember21; extract/open index.html. Initial run39750028287 failed a zero-correction exact-versus-floating tie assumption; regression test and explicit diagnostic flags retain that difference without modifying original forecast code. April2019 vectors differ but both error40; no original-seed/25% improvement on2021/2022. Full result review remains next-session work, no final model/forecast change/merge. Output commitf5ce233 is a tested PR merge ref, not a merged PR.

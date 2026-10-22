@@ -1,6 +1,10 @@
 # Current project state
 
-Last updated: October 22, 2026 (E004 robustness verified).
+Last updated: October 22, 2026 (E005 preparation).
+
+## E005 newly authorized trial (preparation)
+
+User requested trying geographic/party identity features, dynamic features, regularization validation and broad poll-accuracy analysis. Protocol: [poll-quality-feature-trial.md](poll-quality-feature-trial.md). Implemented separate audited/index poll-error tiers and campaign variance/creator/horizon summaries; audited-only chronological expected-error/severity prototype; earlier-OOF parameter/blending selection including2.5/5/10%; dynamic-gap feature ablation; descriptive party-area footprints. Geographic profiles NOT admitted to historical learners before CBS release availability and prior-election lineage review. Explicit final post-rounding invariant added. Hosted execution pending at preparation; no final selection/forecast change. Turnout/political-war-economic research later. Publish isolated branch stacked on PR #15, preserving live parent and unrelated changes.
 
 ## E004 completed online
 

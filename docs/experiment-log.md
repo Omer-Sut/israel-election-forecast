@@ -1,5 +1,9 @@
 # Experiment and effort log
 
+## E005 - poll quality and feature trial (preparation)
+
+Protocol poll-quality-feature-trial.md. Separate audited27/index error tiers, campaign means/sample variances/creator/horizon patterns, audited-only earlier-campaign expected-error/severity prototype. Original/expanded history,8versus9dynamic-gap features, fixed small grid; fractions0/.025/.05/.10/.25/.5/1 selected from>=2earlier OOF elections. Descriptive209party-area profiles with CBS date/lineage gate closed to historical fitting. Explicit final rounding assertions. User authorized trying ideas, no final weight/model/forecast. Hosted validation pending; hands-on budget unmeasured/not reset; turnout later.
+
 ## E004 - correction and forest-seed robustness (October 22, 2026)
 
 Verified: implementationbe272a4d923b2921faa8da529d4b8d72d5debc95, PR #15, screen39750449237 and baseline39750449205 succeeded.50 tests, full-grid repeat equality, forest-only adapter equality,3080 score rows across both variants/five fractions/20 forest seeds. Compute51.396seconds. Artifact12413786085 contains83files/1,156,262bytes, verified unexpired; tested PR merge commitf5ce233aa2544550f6107250aecd057b820959e9. Initial run39750028287 identified a real diagnostic assumption error: exact-integer reference and floating reconciliation can break tied remainders differently even at0%. Regression test/CSV flag retain both, frozen algorithms unchanged. April2019 differing0% vectors both score40. Original seed/25% still yields no2021/2022 improvement;2022 identical mean vectors16/18 original and12/18 expanded. Preserve batch, inspect all correction/seed curves next session, don't select by best retrospectively tuned cell. No method selected or forecast altered. Hands-on/cumulative usage remains unmeasured.
