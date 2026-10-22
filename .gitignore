@@ -37,6 +37,7 @@ outputs/
 artifacts/
 # Unpacked copy is reproducible; the compact per-list archive is published.
 reports/diagnostics-2026-10-22/diagnostics.json
+reports/campaign-history-2026-10-22/comparison.json
 data/raw/
 data/processed/
 data/private/

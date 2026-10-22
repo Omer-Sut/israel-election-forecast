@@ -24,6 +24,8 @@ The original Hebrew guidelines are preserved unchanged as [the source PDF](תח�
 
 October 22 diagnostics: [plots before and after rounding](reports/diagnostics-2026-10-22/index.html) now include every available historical fold. [Data readiness and zero-seat modeling](docs/diagnostics-and-data-readiness.md) explains what remains before expanding the panel. No model refitting or forecast changes.
 
+E003 follow-up: [campaign-history comparison and plots](reports/campaign-history-2026-10-22/index.html) test three added repeated releases and publication-age sensitivity with the unchanged grid. All46 hosted tests and deterministic repeats passed; no candidate beats the final reference scores. See [protocol and collaboration handoff](docs/campaign-history.md); work is on `feat/campaign-history-diagnostics` / PR #14, stacked on PR #13.
+
 ## Objective
 
 Predict seats for every electoral list in the submission form and national turnout (%). The primary competition loss is:

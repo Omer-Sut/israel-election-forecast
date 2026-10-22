@@ -2,6 +2,8 @@
 
 October 22, 2026. User requested evaluation before rounding, plots, broader use of collected data, and an explanation of remaining preparation. L0 sparsity was proposed for discussion, not selected or implemented.
 
+Publication follow-up: A002 code/plots are now online through [PR #14](https://github.com/Omer-Sut/israel-election-forecast/pull/14). Both hosted workflows passed, including the Python suite and Node checks. The [E003 comparison](../reports/campaign-history-2026-10-22/index.html) now tests three added repeated releases and source-age sensitivity with the unchanged model grid; no candidate beats the final reference scores. Local metadata restrictions were handled through the authorized GitHub connector; AGENTS.md documents collaboration and stale-checkout rules.
+
 ## Implemented A002
 
 [Open the report](../reports/diagnostics-2026-10-22/index.html), [historical plot](../reports/diagnostics-2026-10-22/history.png), and [all-configuration plot](../reports/diagnostics-2026-10-22/stages.png).
