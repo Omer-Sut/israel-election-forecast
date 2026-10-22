@@ -1,9 +1,14 @@
 import unittest
-from scripts.research_trial import index_vector, select_past, describe, prior_area_profiles
+from scripts.research_trial import index_vector, select_past, describe, prior_area_profiles, creator_key
 from scripts.experiments import reconcile
 
 
 class ResearchTrialTests(unittest.TestCase):
+    def test_audited_creator_aliases_preserve_organization_identity(self):
+        self.assertEqual(creator_key('midgam_geva'),creator_key('midgam_rc'))
+        self.assertEqual(creator_key('channel13_fuchs'),creator_key('camil_fuchs'))
+        self.assertEqual(creator_key('unknown_publisher'),'unknown_publisher')
+
     def test_index_unknown_positive_cannot_be_hidden(self):
         def c(label,value):
             return dict(list_label=label,column_role='list_or_unresolved',unit='seats',value=value)

@@ -46,6 +46,12 @@ def norm(label):
     return re.sub(r'[^a-z0-9]', '', re.sub(r'\[[^]]*\]', '', label).lower().replace('&', 'and'))
 
 
+def creator_key(group):
+    """Explicit audited organization aliases; never infer identity from its error."""
+    return {'midgam_geva':'midgam', 'midgam_rc':'midgam',
+            'channel13_fuchs':'camil_fuchs'}.get(group,group)
+
+
 def aliases(snapshot, k):
     result = {norm(r['label_en']): r['id'] for r in snapshot['lists']}
     def add(stem, *names):
@@ -138,7 +144,7 @@ def poll_diagnostics(config_path):
                 continue
             vector = historical_vector(p, ids)
             rows.append(dict(tier='audited_release', election=snapshot['election_id'], knesset=k, poll_id=p['id'],
-                creator=p['pollster_group'], publisher=p.get('publisher',''), days=days, horizon_bin=bucket(days),
+                creator=creator_key(p['pollster_group']), creator_raw=p['pollster_group'], publisher=p.get('publisher',''), days=days, horizon_bin=bucket(days),
                 date_basis='audited_publication', sample_size=p.get('sample_size'),
                 error=sum(abs(x-y) for x,y in zip(vector,actual)), references=p['source_url'],
                 residual_zero_assumption='audited_complete_allocation', allocations=json.dumps(dict(zip(ids,vector)),ensure_ascii=False)))
@@ -160,7 +166,7 @@ def poll_diagnostics(config_path):
             days = (date.fromisoformat(snapshot['election_date'])-date.fromisoformat(p['date_proxy'])).days
             raw = index_rows[p['row_id']]
             rows.append(dict(tier='index_exploratory_not_certified',election=snapshot['election_id'],knesset=k,poll_id=p['poll_id'],
-                creator=creator,publisher='',days=days,horizon_bin=bucket(days),date_basis='index_date_proxy_not_publication',sample_size=None,
+                creator=creator,creator_raw=creator,publisher='',days=days,horizon_bin=bucket(days),date_basis='index_date_proxy_not_publication',sample_size=None,
                 error=sum(abs(x-y) for x,y in zip(vector,actual)), references=' | '.join(raw['references']),
                 residual_zero_assumption='numeric_mapped_seats_sum120_other_cells_not_vote_zeros:'+ '|'.join(zeros),
                 allocations=json.dumps(dict(zip(ids,vector)),ensure_ascii=False)))
