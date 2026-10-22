@@ -73,14 +73,15 @@ def collect(report, variant, seed, targets):
                 continuous, integer, ce, ie = evaluate_fraction(case["anchor"], entry["continuous_unshrunk"], actual, fraction)
                 if fraction == 0.25 and integer != [entry["seats"][key] for key in ids]:
                     raise ValueError("25% reconstruction disagrees with fitted pipeline")
-                if fraction == 0 and integer != [base["seats"][key] for key in ids]:
-                    raise ValueError("0% does not reproduce reference")
+                if fraction == 0 and integer != reconcile(case["anchor"]):
+                    raise ValueError("0% does not reproduce pipeline anchor")
                 row = dict(variant=variant, seed=seed, election=case["election_id"], cutoff=case["cutoff"],
                            role=case["evaluation_role"], method=name, fraction=fraction, continuous_error=ce,
                            integer_error=ie, reference_continuous_error=base_cont,
                            reference_integer_error=base["score"]["total_absolute_seat_error"],
                            l1_reference_integer_error=case["methods"]["empirical_l1_consensus"]["score"]["total_absolute_seat_error"],
                            same_vector_as_reference=integer == [base["seats"][key] for key in ids],
+                           zero_fraction_exact_reference_tie_difference=reconcile(case["anchor"]) != [base["seats"][key] for key in ids],
                            movement_from_reference=sum(abs(x - base["seats"][key]) for key, x in zip(ids, integer)))
                 scores.append(row)
                 for key, cp, ip, truth in zip(ids, continuous, integer, actual):
@@ -201,7 +202,7 @@ def render(out, scores):
     page = ['<!doctype html><meta charset="utf-8"><title>E004 robustness</title>',
             '<style>body{font:16px sans-serif;max-width:1400px;margin:30px auto;padding:15px}img{width:100%}p{line-height:1.5}</style>',
             '<h1>E004: correction and forest-seed sensitivity</h1>',
-            '<p>Previously inspected outcomes, not a blind holdout. Missing early fits stay missing. Colors identify elections; party rows, seeds and correction settings are not independent elections. No model is selected. Lower error is better.</p>',
+            '<p>Previously inspected outcomes, not a blind holdout. Missing early fits stay missing. Colors identify elections; party rows, seeds and correction settings are not independent elections. No model is selected. Lower error is better. At zero correction, floating-point pipeline rounding can break ties differently from the exact-integer mean reference; CSV flags preserve that difference. No frozen rounding code is changed.</p>',
             '<p><a href="summary.md">Summary</a> | <a href="scores.csv">All scores</a> | <a href="seed-summary.csv">Seed ranges</a> | <a href="predictions.csv">Per-list predictions</a> | <a href="manifest.json">Configuration/provenance</a></p>']
     for name, legend in images:
         page += [f'<h2>{html.escape(name)}</h2><p>{html.escape(legend)}</p><img src="{name}" alt="{html.escape(name)}">']
@@ -276,7 +277,7 @@ def main():
     write_json(out / "manifest.json", manifest)
     lines = ["# E004 robustness batch", "", "Completed all two data variants, five correction strengths and 20 forest seeds. Base-grid prediction repeats matched exactly.",
              "", "Open index.html for correction and seed plots; scores.csv contains every eligible fold/configuration. seed-summary.csv gives forest min/median/max; unavailable.json preserves early missing fits. raw/ contains all fitted reports and provenance.",
-             "", "0% is independently checked against the rounded mean; 25% reproduces the fitted pipeline. Continuous predictions are projected to nonnegative sum 120 before scoring. Integer seats use unchanged reconciliation.",
+             "", "0% reproduces pipeline reconciliation of the anchor; 25% reproduces the fitted pipeline. The exact-integer mean reference can break fractional ties differently from floating-point pipeline rounding even at 0%. This is flagged, not silently corrected; both controls/scores remain available. Continuous predictions are projected to nonnegative sum 120 before scoring. Integer seats use unchanged reconciliation.",
              "", "## Reference ties at the original seed and 25% correction", ""]
     for variant in VARIANTS:
         for election in sorted({r["election"] for r in scores}):
@@ -286,6 +287,9 @@ def main():
                 better = sum(r["integer_error"] < r["reference_integer_error"] for r in rows)
                 cont = sum(r["continuous_error"] < r["reference_continuous_error"] - 1e-9 for r in rows)
                 lines.append(f"- {variant}, {election}: {same}/{len(rows)} identical to mean vector; {better} improve integer error; {cont} improve continuous error.")
+                if rows[0]["zero_fraction_exact_reference_tie_difference"]:
+                    zero = next(r for r in scores if r["variant"] == variant and r["election"] == election and r["fraction"] == 0)
+                    lines.append(f"  - Rounding tie caveat: zero-correction pipeline error={zero['integer_error']}, exact mean reference error={zero['reference_integer_error']}; vectors differ before any model correction.")
     lines += ["", "These are previously inspected election outcomes, not independent new tests. Earlier OOF outcomes also train later ensembles. Seeds measure algorithmic sensitivity, not predictive uncertainty. No selection by the best seed/fraction, no L0/threshold mechanism, no turnout changes and no current forecast change.",
               "", f"Compute runtime: {manifest['runtime_seconds']} seconds. Commit: {manifest['code_commit']}."]
     (out / "summary.md").write_text("\n".join(lines)+"\n", encoding="utf-8")

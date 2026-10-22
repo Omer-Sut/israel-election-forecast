@@ -2,6 +2,7 @@ import unittest
 
 from scripts.robustness import FRACTIONS, SEEDS, evaluate_fraction, project
 from scripts.experiments import reconcile
+from scripts.baseline import rounded_mean
 
 
 class RobustnessTests(unittest.TestCase):
@@ -33,6 +34,14 @@ class RobustnessTests(unittest.TestCase):
             evaluate_fraction([120], [120], [120], 2)
         with self.assertRaises(ValueError):
             evaluate_fraction([120], [60,60], [120], .25)
+
+    def test_exact_mean_and_float_pipeline_ties_are_not_equivalent(self):
+        vectors = [[1,10,109], [0,11,109], [0,10,110]]
+        anchor = [sum(c)/3 for c in zip(*vectors)]
+        exact = rounded_mean(vectors, 120)
+        self.assertEqual(exact, [1,10,109])
+        self.assertNotEqual(reconcile(anchor), exact)
+        self.assertEqual(evaluate_fraction(anchor, [20,50,50], exact, 0)[1], reconcile(anchor))
 
 
 if __name__ == '__main__':
