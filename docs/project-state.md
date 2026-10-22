@@ -1,6 +1,18 @@
 # Current project state
 
-Last updated: October 22, 2026 (E004 robustness verified).
+Last updated: October 22, 2026 (E005 verified).
+
+## E005 verified results and next step
+
+Implementation4275c5484ccd2525923d89c9f45e13b7dce2b272, PR #16, branch feat/poll-quality-feature-trial stacked on PR #15. [Screen39776060120](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39776060120) and [baseline39776062476](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39776062476) succeeded:55tests, frozen references, deterministic repeats and new trials. New compute37.133seconds. Tested output merge refefb6675b548d6a0dc6174ed5b45926486f9a064e is not a merged PR. [Readable analysis](../reports/poll-quality-feature-trial-2026-10-22/analysis.md) and compact CSV/SVG/HTML/provenance preserve actual hosted results; complete artifact12424098121 verified203126bytes/unexpired untilNovember21. Full parameter CSV stays in artifact/rebuild rather than committing2MBtext.
+
+324/790index candidates scorable under explicit mapping/total rules,466exclusions;27audited releases separate. Campaign error means/variances and creator/horizon statistics now available. Index rows/date proxies are descriptive, not certified independent releases or forecast-training inputs.22/27audited sample sizes known. Creator aliases normalized while retaining originals. Expected-error prototype OOF MAE9.233versus earlier campaign-mean8.668: no quality weights adopted. No selected feature/parameter configuration beats mean20/12on2021/2022. Smaller/zero corrections frequently selected, not evidence for any universal optimum.
+
+209broad age/sex/SES area footprints remain descriptive. A separate dated CBS2015index release fromNovember28,2018enabled a real partial geographic ablation: prior-election votes,15large cities, three explicit Shas/UTJ/Yisrael Beiteinu cores; area index/coverage/missingness features alone or with dynamic gap. No future/same-election targets enter features; source city codes/names checked. Partial features do not establish full party identity or individual demographic voting behavior. Next: broader dated demographic coverage and explicit merger/split lineage, not more tuning of the same limited matrix. Turnout/war/economic features later. Final rounding assertion added; original forecasts unchanged. No merge/submission. Local Git HEAD still3055db4; source/report files are newer API-published work and must be reconciled deliberately.
+
+## E005 newly authorized trial (preparation)
+
+User requested trying geographic/party identity features, dynamic features, regularization validation and broad poll-accuracy analysis. Protocol: [poll-quality-feature-trial.md](poll-quality-feature-trial.md). Implemented separate audited/index poll-error tiers and campaign variance/creator/horizon summaries; audited-only chronological expected-error/severity prototype; earlier-OOF parameter/blending selection including2.5/5/10%; dynamic-gap feature ablation; descriptive party-area footprints. Geographic profiles NOT admitted to historical learners before CBS release availability and prior-election lineage review. Explicit final post-rounding invariant added. Hosted execution pending at preparation; no final selection/forecast change. Turnout/political-war-economic research later. Publish isolated branch stacked on PR #15, preserving live parent and unrelated changes.
 
 ## E004 completed online
 

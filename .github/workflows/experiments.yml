@@ -8,10 +8,12 @@ on:
       - 'scripts/prepare_screening_panel.py'
       - 'scripts/campaign_history.py'
       - 'scripts/robustness.py'
+      - 'scripts/research_trial.py'
       - 'scripts/*diagnostics.mjs'
       - 'tests/test_experiments.py'
       - 'tests/test_campaign_history.py'
       - 'tests/test_robustness.py'
+      - 'tests/test_research_trial.py'
       - 'config/**'
       - 'data/snapshots/**'
       - 'requirements-experiments.txt'
@@ -81,6 +83,24 @@ jobs:
         run: |
           python scripts/robustness.py
           cat output/robustness/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Run poll accuracy, chronological tuning and feature-readiness trial
+        run: |
+          python scripts/research_trial.py
+          cat output/research-trial/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve bounded research trial
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: poll-quality-and-feature-trial
+          path: |
+            output/research-trial/*.csv
+            output/research-trial/*.json
+            output/research-trial/*.html
+            output/research-trial/*.svg
+            output/research-trial/*.md
+            output/research-trial/inputs/
+          if-no-files-found: error
+          retention-days: 30
       - name: Preserve robustness plots, predictions and provenance
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         if: always()

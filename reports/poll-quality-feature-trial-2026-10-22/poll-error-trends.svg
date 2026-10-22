@@ -1,0 +1,471 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1630"><rect width="100%" height="100%" fill="white"/><g font-family="sans-serif" font-size="12"><text x="20" y="25" font-size="20">Individual poll absolute seat error vs days before election</text><text x="20" y="48">Last90 days; shared scales; index dates are proxies. Blue=audited, orange=index-only. Lower is better.</text>
+<text x="55" y="93">knesset_20_2015 / audited (n=3)</text>
+<path d="M55 265.0h460" stroke="#ddd"/><text x="30" y="269.0">0</text>
+<path d="M55 198.33333333333331h460" stroke="#ddd"/><text x="30" y="202.33333333333331">20</text>
+<path d="M55 131.66666666666666h460" stroke="#ddd"/><text x="30" y="135.66666666666666">40</text>
+<text x="55.0" y="285">0</text>
+<text x="90.77777777777777" y="285">7</text>
+<text x="208.33333333333331" y="285">30</text>
+<text x="361.66666666666663" y="285">60</text>
+<text x="515.0" y="285">90</text>
+<circle cx="80.55555555555556" cy="191.66666666666669" r="3" opacity=".55" fill="#2266aa"><title>smith: 22</title></circle>
+<circle cx="75.44444444444444" cy="191.66666666666669" r="3" opacity=".55" fill="#2266aa"><title>midgam: 22</title></circle>
+<circle cx="126.55555555555556" cy="185.0" r="3" opacity=".55" fill="#2266aa"><title>panels_politics: 24</title></circle>
+<text x="185" y="310">Days before election (date basis differs by tier)</text>
+<text x="605" y="93">knesset_21_2019apr / audited (n=4)</text>
+<path d="M605 265.0h460" stroke="#ddd"/><text x="580" y="269.0">0</text>
+<path d="M605 198.33333333333331h460" stroke="#ddd"/><text x="580" y="202.33333333333331">20</text>
+<path d="M605 131.66666666666666h460" stroke="#ddd"/><text x="580" y="135.66666666666666">40</text>
+<text x="605.0" y="285">0</text>
+<text x="640.7777777777778" y="285">7</text>
+<text x="758.3333333333333" y="285">30</text>
+<text x="911.6666666666666" y="285">60</text>
+<text x="1065.0" y="285">90</text>
+<circle cx="625.4444444444445" cy="138.33333333333334" r="3" opacity=".55" fill="#2266aa"><title>smith: 38</title></circle>
+<circle cx="625.4444444444445" cy="138.33333333333334" r="3" opacity=".55" fill="#2266aa"><title>midgam: 38</title></circle>
+<circle cx="625.4444444444445" cy="131.66666666666666" r="3" opacity=".55" fill="#2266aa"><title>camil_fuchs: 40</title></circle>
+<circle cx="651.0" cy="165.0" r="3" opacity=".55" fill="#2266aa"><title>midgam: 30</title></circle>
+<text x="735" y="310">Days before election (date basis differs by tier)</text>
+<text x="55" y="353">knesset_22_2019sep / audited (n=4)</text>
+<path d="M55 525.0h460" stroke="#ddd"/><text x="30" y="529.0">0</text>
+<path d="M55 458.3333333333333h460" stroke="#ddd"/><text x="30" y="462.3333333333333">20</text>
+<path d="M55 391.6666666666667h460" stroke="#ddd"/><text x="30" y="395.6666666666667">40</text>
+<text x="55.0" y="545">0</text>
+<text x="90.77777777777777" y="545">7</text>
+<text x="208.33333333333331" y="545">30</text>
+<text x="361.66666666666663" y="545">60</text>
+<text x="515.0" y="545">90</text>
+<circle cx="75.44444444444444" cy="498.33333333333337" r="3" opacity=".55" fill="#2266aa"><title>smith: 8</title></circle>
+<circle cx="90.77777777777777" cy="471.6666666666667" r="3" opacity=".55" fill="#2266aa"><title>camil_fuchs: 16</title></circle>
+<circle cx="95.88888888888889" cy="478.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>midgam: 14</title></circle>
+<circle cx="126.55555555555556" cy="478.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>midgam: 14</title></circle>
+<text x="185" y="570">Days before election (date basis differs by tier)</text>
+<text x="605" y="353">knesset_23_2020 / audited (n=4)</text>
+<path d="M605 525.0h460" stroke="#ddd"/><text x="580" y="529.0">0</text>
+<path d="M605 458.3333333333333h460" stroke="#ddd"/><text x="580" y="462.3333333333333">20</text>
+<path d="M605 391.6666666666667h460" stroke="#ddd"/><text x="580" y="395.6666666666667">40</text>
+<text x="605.0" y="545">0</text>
+<text x="640.7777777777778" y="545">7</text>
+<text x="758.3333333333333" y="545">30</text>
+<text x="911.6666666666666" y="545">60</text>
+<text x="1065.0" y="545">90</text>
+<circle cx="620.3333333333334" cy="498.33333333333337" r="3" opacity=".55" fill="#2266aa"><title>camil_fuchs: 8</title></circle>
+<circle cx="630.5555555555555" cy="491.66666666666663" r="3" opacity=".55" fill="#2266aa"><title>panels_politics: 10</title></circle>
+<circle cx="630.5555555555555" cy="491.66666666666663" r="3" opacity=".55" fill="#2266aa"><title>midgam: 10</title></circle>
+<circle cx="645.8888888888889" cy="491.66666666666663" r="3" opacity=".55" fill="#2266aa"><title>midgam: 10</title></circle>
+<text x="735" y="570">Days before election (date basis differs by tier)</text>
+<text x="55" y="613">knesset_24_2021 / audited (n=6)</text>
+<path d="M55 785.0h460" stroke="#ddd"/><text x="30" y="789.0">0</text>
+<path d="M55 718.3333333333333h460" stroke="#ddd"/><text x="30" y="722.3333333333333">20</text>
+<path d="M55 651.6666666666666h460" stroke="#ddd"/><text x="30" y="655.6666666666666">40</text>
+<text x="55.0" y="805">0</text>
+<text x="90.77777777777777" y="805">7</text>
+<text x="208.33333333333331" y="805">30</text>
+<text x="361.66666666666663" y="805">60</text>
+<text x="515.0" y="805">90</text>
+<circle cx="116.33333333333334" cy="705.0" r="3" opacity=".55" fill="#2266aa"><title>maagar_mohot: 24</title></circle>
+<circle cx="101.0" cy="705.0" r="3" opacity=".55" fill="#2266aa"><title>camil_fuchs: 24</title></circle>
+<circle cx="90.77777777777777" cy="718.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>midgam: 20</title></circle>
+<circle cx="80.55555555555556" cy="698.3333333333334" r="3" opacity=".55" fill="#2266aa"><title>maagar_mohot: 26</title></circle>
+<circle cx="75.44444444444444" cy="718.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>camil_fuchs: 20</title></circle>
+<circle cx="75.44444444444444" cy="718.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>midgam: 20</title></circle>
+<text x="185" y="830">Days before election (date basis differs by tier)</text>
+<text x="605" y="613">knesset_25_2022 / audited (n=6)</text>
+<path d="M605 785.0h460" stroke="#ddd"/><text x="580" y="789.0">0</text>
+<path d="M605 718.3333333333333h460" stroke="#ddd"/><text x="580" y="722.3333333333333">20</text>
+<path d="M605 651.6666666666666h460" stroke="#ddd"/><text x="580" y="655.6666666666666">40</text>
+<text x="605.0" y="805">0</text>
+<text x="640.7777777777778" y="805">7</text>
+<text x="758.3333333333333" y="805">30</text>
+<text x="911.6666666666666" y="805">60</text>
+<text x="1065.0" y="805">90</text>
+<circle cx="645.8888888888889" cy="738.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>midgam: 14</title></circle>
+<circle cx="645.8888888888889" cy="738.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>direct_polls: 14</title></circle>
+<circle cx="640.7777777777778" cy="738.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>camil_fuchs: 14</title></circle>
+<circle cx="630.5555555555555" cy="738.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>direct_polls: 14</title></circle>
+<circle cx="625.4444444444445" cy="718.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>camil_fuchs: 20</title></circle>
+<circle cx="625.4444444444445" cy="738.3333333333333" r="3" opacity=".55" fill="#2266aa"><title>midgam: 14</title></circle>
+<text x="735" y="830">Days before election (date basis differs by tier)</text>
+<text x="55" y="873">knesset_20_2015 / index exploratory (n=84)</text>
+<path d="M55 1045.0h460" stroke="#ddd"/><text x="30" y="1049.0">0</text>
+<path d="M55 978.3333333333333h460" stroke="#ddd"/><text x="30" y="982.3333333333333">20</text>
+<path d="M55 911.6666666666666h460" stroke="#ddd"/><text x="30" y="915.6666666666666">40</text>
+<text x="55.0" y="1065">0</text>
+<text x="90.77777777777777" y="1065">7</text>
+<text x="208.33333333333331" y="1065">30</text>
+<text x="361.66666666666663" y="1065">60</text>
+<text x="515.0" y="1065">90</text>
+<circle cx="75.44444444444444" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Channel 2: 22</title></circle>
+<circle cx="75.44444444444444" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Channel 10: 22</title></circle>
+<circle cx="75.44444444444444" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Reshet Bet: 20</title></circle>
+<circle cx="75.44444444444444" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels/Jerusalem Post: 22</title></circle>
+<circle cx="75.44444444444444" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla: 20</title></circle>
+<circle cx="75.44444444444444" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Yedioth Ahronoth: 22</title></circle>
+<circle cx="75.44444444444444" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Channel 1: 22</title></circle>
+<circle cx="80.55555555555556" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels/Maariv: 22</title></circle>
+<circle cx="80.55555555555556" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Smith/Globes: 22</title></circle>
+<circle cx="80.55555555555556" cy="958.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot/Kol Bramah Radio: 26</title></circle>
+<circle cx="80.55555555555556" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Dialog/Haaretz: 22</title></circle>
+<circle cx="85.66666666666667" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Israel Army Radio (Galatz): 24</title></circle>
+<circle cx="90.77777777777777" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels/Knesset Channel: 22</title></circle>
+<circle cx="90.77777777777777" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Channel 2: 22</title></circle>
+<circle cx="101.0" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Geocartography: 20</title></circle>
+<circle cx="111.22222222222223" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla!: 20</title></circle>
+<circle cx="111.22222222222223" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels/Maariv: 22</title></circle>
+<circle cx="116.33333333333334" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Channel 1: 22</title></circle>
+<circle cx="121.44444444444444" cy="985.0" r="3" opacity=".55" fill="#bf7400"><title>Dialog/Channel 10: 18</title></circle>
+<circle cx="121.44444444444444" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Channel 2: 20</title></circle>
+<circle cx="126.55555555555556" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Panels/Knesset Channel: 24</title></circle>
+<circle cx="126.55555555555556" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Israel Army Radio (Galatz): 24</title></circle>
+<circle cx="131.66666666666666" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot/Kol Bramah Radio: 20</title></circle>
+<circle cx="136.77777777777777" cy="951.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Geocartography: 28</title></circle>
+<circle cx="147.0" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Israel Radio: 20</title></circle>
+<circle cx="147.0" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Maariv: 20</title></circle>
+<circle cx="147.0" cy="958.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla!: 26</title></circle>
+<circle cx="152.11111111111111" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels/Maariv-Jerusalem Post: 20</title></circle>
+<circle cx="152.11111111111111" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Channel 1: 22</title></circle>
+<circle cx="152.11111111111111" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Channel 10: 24</title></circle>
+<circle cx="162.33333333333331" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam /Channel 2: 24</title></circle>
+<circle cx="162.33333333333331" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Dialog/Haaretz: 20</title></circle>
+<circle cx="162.33333333333331" cy="985.0" r="3" opacity=".55" fill="#bf7400"><title>Panels/Knesset Channel: 18</title></circle>
+<circle cx="172.55555555555554" cy="951.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Nana 10: 28</title></circle>
+<circle cx="172.55555555555554" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Geocartography: 20</title></circle>
+<circle cx="182.77777777777777" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Smith/Israel Radio: 22</title></circle>
+<circle cx="182.77777777777777" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla: 22</title></circle>
+<circle cx="187.88888888888889" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Panels/Maariv: 24</title></circle>
+<circle cx="187.88888888888889" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Channel 1: 20</title></circle>
+<circle cx="193.0" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Channel 10: 22</title></circle>
+<circle cx="198.11111111111111" cy="951.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>TRI/Bizportal: 28</title></circle>
+<circle cx="198.11111111111111" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels/Knesset Channel: 22</title></circle>
+<circle cx="208.33333333333331" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Channel 2: 22</title></circle>
+<circle cx="208.33333333333331" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Geocartography: 20</title></circle>
+<circle cx="218.55555555555557" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Smith/Israel Radio: 22</title></circle>
+<circle cx="218.55555555555557" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla: 22</title></circle>
+<circle cx="218.55555555555557" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels/Maariv: 22</title></circle>
+<circle cx="223.66666666666666" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Smith/Globes: 22</title></circle>
+<circle cx="228.77777777777777" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Channel 1: 20</title></circle>
+<circle cx="233.88888888888889" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels/Knesset Channel: 22</title></circle>
+<circle cx="239.0" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>202 Strategies/Times of Israel: 24</title></circle>
+<circle cx="244.11111111111111" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Channel 10: 22</title></circle>
+<circle cx="249.22222222222223" cy="985.0" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Channel 1: 18</title></circle>
+<circle cx="254.33333333333334" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot/NRG: 22</title></circle>
+<circle cx="254.33333333333334" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Smith/Israel Radio: 22</title></circle>
+<circle cx="254.33333333333334" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Panels/Maariv: 24</title></circle>
+<circle cx="254.33333333333334" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Yedioth Ahronoth: 20</title></circle>
+<circle cx="259.44444444444446" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla: 20</title></circle>
+<circle cx="269.66666666666663" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels/Knesset Channel: 20</title></circle>
+<circle cx="279.8888888888889" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Dialog/Haaretz: 24</title></circle>
+<circle cx="290.1111111111111" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Smith/Israel Radio: 24</title></circle>
+<circle cx="290.1111111111111" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla: 22</title></circle>
+<circle cx="290.1111111111111" cy="985.0" r="3" opacity=".55" fill="#bf7400"><title>Panels/Maariv: 18</title></circle>
+<circle cx="295.22222222222223" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Smith/Globes: 24</title></circle>
+<circle cx="295.22222222222223" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Channel 1: 22</title></circle>
+<circle cx="300.33333333333337" cy="958.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Channel 10: 26</title></circle>
+<circle cx="305.44444444444446" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels/Knesset Channel: 20</title></circle>
+<circle cx="310.55555555555554" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Channel 2/Midgam: 24</title></circle>
+<circle cx="320.77777777777777" cy="945.0" r="3" opacity=".55" fill="#bf7400"><title>Panels: 30</title></circle>
+<circle cx="325.8888888888889" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Israel Radio: 24</title></circle>
+<circle cx="331.0" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Channel 1: 24</title></circle>
+<circle cx="361.66666666666663" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Panels/Maariv: 24</title></circle>
+<circle cx="361.66666666666663" cy="951.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla: 28</title></circle>
+<circle cx="366.77777777777777" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Channel 2: 20</title></circle>
+<circle cx="366.77777777777777" cy="951.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Channel 10: 28</title></circle>
+<circle cx="397.44444444444446" cy="978.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla-Maariv: 20</title></circle>
+<circle cx="412.77777777777777" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Channel 1: 24</title></circle>
+<circle cx="412.77777777777777" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Panels/Knesset Channel: 24</title></circle>
+<circle cx="433.22222222222223" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Teleseker/Walla: 24</title></circle>
+<circle cx="443.44444444444446" cy="938.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Channel 10: 32</title></circle>
+<circle cx="448.55555555555554" cy="958.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Panels/Knesset Channel: 26</title></circle>
+<circle cx="474.1111111111111" cy="931.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Sarid/Channel 2: 34</title></circle>
+<circle cx="494.5555555555556" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Arutz 7/Geocartography: 22</title></circle>
+<circle cx="504.77777777777777" cy="938.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Smith/Reshet Bet: 32</title></circle>
+<text x="185" y="1090">Days before election (date basis differs by tier)</text>
+<text x="605" y="873">knesset_21_2019apr / index exploratory (n=60)</text>
+<path d="M605 1045.0h460" stroke="#ddd"/><text x="580" y="1049.0">0</text>
+<path d="M605 978.3333333333333h460" stroke="#ddd"/><text x="580" y="982.3333333333333">20</text>
+<path d="M605 911.6666666666666h460" stroke="#ddd"/><text x="580" y="915.6666666666666">40</text>
+<text x="605.0" y="1065">0</text>
+<text x="640.7777777777778" y="1065">7</text>
+<text x="758.3333333333333" y="1065">30</text>
+<text x="911.6666666666666" y="1065">60</text>
+<text x="1065.0" y="1065">90</text>
+<circle cx="625.4444444444445" cy="911.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam/Statnet/Channel 13: 40</title></circle>
+<circle cx="625.4444444444445" cy="925.0" r="3" opacity=".55" fill="#bf7400"><title>Smith/Maariv: 36</title></circle>
+<circle cx="625.4444444444445" cy="891.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot/Radio 103FM: 46</title></circle>
+<circle cx="630.5555555555555" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Smith/Jerusalem Post: 38</title></circle>
+<circle cx="630.5555555555555" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Yedioth Ahronoth: 38</title></circle>
+<circle cx="630.5555555555555" cy="891.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot/Israel Hayom &amp; i24 News: 46</title></circle>
+<circle cx="630.5555555555555" cy="911.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>TNS/Kan: 40</title></circle>
+<circle cx="630.5555555555555" cy="925.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel/Channel 12: 36</title></circle>
+<circle cx="630.5555555555555" cy="885.0" r="3" opacity=".55" fill="#bf7400"><title>Miskar: 48</title></circle>
+<circle cx="635.6666666666666" cy="905.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics/Walla!: 42</title></circle>
+<circle cx="635.6666666666666" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Dialog/Haaretz: 38</title></circle>
+<circle cx="640.7777777777778" cy="891.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam/Statnet/Channel 13: 46</title></circle>
+<circle cx="651.0" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics/Channel 12: 38</title></circle>
+<circle cx="651.0" cy="945.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel/Channel 12: 30</title></circle>
+<circle cx="661.2222222222222" cy="925.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot/Radio 103 FM: 36</title></circle>
+<circle cx="666.3333333333334" cy="931.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Yedioth Ahronoth: 34</title></circle>
+<circle cx="666.3333333333334" cy="925.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot/Israel Hayom &amp; i24 News: 36</title></circle>
+<circle cx="666.3333333333334" cy="938.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Smith/Maariv: 32</title></circle>
+<circle cx="666.3333333333334" cy="911.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam/Statnet/Channel 13: 40</title></circle>
+<circle cx="666.3333333333334" cy="911.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls/Makor Rishon: 40</title></circle>
+<circle cx="671.4444444444445" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics/Walla!: 38</title></circle>
+<circle cx="676.5555555555555" cy="911.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Army Radio: 40</title></circle>
+<circle cx="676.5555555555555" cy="911.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>TNS/Kan: 40</title></circle>
+<circle cx="676.5555555555555" cy="898.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Miskar: 44</title></circle>
+<circle cx="686.7777777777778" cy="925.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Channel 12: 36</title></circle>
+<circle cx="686.7777777777778" cy="905.0" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam/Statnet/Channel 13: 42</title></circle>
+<circle cx="697.0" cy="925.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics/Maariv: 36</title></circle>
+<circle cx="697.0" cy="898.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot/Israel Hayom &amp; i24 News: 44</title></circle>
+<circle cx="697.0" cy="931.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Smith/Jerusalem Post: 34</title></circle>
+<circle cx="707.2222222222222" cy="938.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel/Channel 12: 32</title></circle>
+<circle cx="707.2222222222222" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam/Channel 13: 38</title></circle>
+<circle cx="712.3333333333334" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics/Walla!: 38</title></circle>
+<circle cx="717.4444444444445" cy="891.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Miskar: 46</title></circle>
+<circle cx="722.5555555555555" cy="925.0" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls/Kan: 36</title></circle>
+<circle cx="737.8888888888889" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot/Israel Hayom &amp; i24 News: 38</title></circle>
+<circle cx="737.8888888888889" cy="945.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel/Channel 12: 30</title></circle>
+<circle cx="743.0" cy="898.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls/Makor Rishon: 44</title></circle>
+<circle cx="753.2222222222222" cy="931.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Panel HaMidgam Project/Statnet/Channel 13: 34</title></circle>
+<circle cx="768.5555555555555" cy="931.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot/Radio 103FM: 34</title></circle>
+<circle cx="768.5555555555555" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel/Yediot Ahronot: 24</title></circle>
+<circle cx="773.6666666666666" cy="911.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>Dialog/Haaretz: 40</title></circle>
+<circle cx="773.6666666666666" cy="885.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot/Israel Hayom &amp; i24 News: 48</title></circle>
+<circle cx="783.8888888888889" cy="951.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>TNS/Kan: 28</title></circle>
+<circle cx="783.8888888888889" cy="938.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Smith/Channel 20: 32</title></circle>
+<circle cx="783.8888888888889" cy="958.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Channel 12: 26</title></circle>
+<circle cx="783.8888888888889" cy="925.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics/Walla! News: 36</title></circle>
+<circle cx="794.1111111111111" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics/Channel 12: 38</title></circle>
+<circle cx="804.3333333333334" cy="958.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Panel HaMidgam Project/Statnet/Channel 13: 26</title></circle>
+<circle cx="804.3333333333334" cy="951.6666666666666" r="3" opacity=".55" fill="#bf7400"><title>TNS/Kan: 28</title></circle>
+<circle cx="809.4444444444445" cy="945.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics/Maariv: 30</title></circle>
+<circle cx="809.4444444444445" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot/Israel Hayom &amp; i24 News: 38</title></circle>
+<circle cx="814.5555555555555" cy="965.0" r="3" opacity=".55" fill="#bf7400"><title>Number 10 Strategies/The Times of Israel: 24</title></circle>
+<circle cx="829.8888888888889" cy="918.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot/Israel Hayom &amp; i24 News: 38</title></circle>
+<circle cx="829.8888888888889" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel/Yediot Ahronot: 22</title></circle>
+<circle cx="845.2222222222222" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics/Maariv: 22</title></circle>
+<circle cx="845.2222222222222" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Yediot Ahronot: 22</title></circle>
+<circle cx="845.2222222222222" cy="945.0" r="3" opacity=".55" fill="#bf7400"><title>Direct polls/Makor Rishon: 30</title></circle>
+<circle cx="845.2222222222222" cy="945.0" r="3" opacity=".55" fill="#bf7400"><title>Direct polls/Kan: 30</title></circle>
+<circle cx="845.2222222222222" cy="971.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam/Channel 12: 22</title></circle>
+<circle cx="845.2222222222222" cy="958.3333333333334" r="3" opacity=".55" fill="#bf7400"><title>Panel HaMidgam Project/Statnet/Channel 13: 26</title></circle>
+<text x="735" y="1090">Days before election (date basis differs by tier)</text>
+<text x="55" y="1133">knesset_22_2019sep / index exploratory (n=41)</text>
+<path d="M55 1305.0h460" stroke="#ddd"/><text x="30" y="1309.0">0</text>
+<path d="M55 1238.3333333333333h460" stroke="#ddd"/><text x="30" y="1242.3333333333333">20</text>
+<path d="M55 1171.6666666666667h460" stroke="#ddd"/><text x="30" y="1175.6666666666667">40</text>
+<text x="55.0" y="1325">0</text>
+<text x="90.77777777777777" y="1325">7</text>
+<text x="208.33333333333331" y="1325">30</text>
+<text x="361.66666666666663" y="1325">60</text>
+<text x="515.0" y="1325">90</text>
+<circle cx="75.44444444444444" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 14</title></circle>
+<circle cx="75.44444444444444" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 14</title></circle>
+<circle cx="75.44444444444444" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Shvakim Panorama / HOT: 14</title></circle>
+<circle cx="80.55555555555556" cy="1278.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Smith / Maariv: 8</title></circle>
+<circle cx="80.55555555555556" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Knesset Channel: 16</title></circle>
+<circle cx="80.55555555555556" cy="1271.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Smith / 103fm: 10</title></circle>
+<circle cx="80.55555555555556" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>KANTAR / Kan 11: 14</title></circle>
+<circle cx="85.66666666666667" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 12</title></circle>
+<circle cx="90.77777777777777" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 16</title></circle>
+<circle cx="90.77777777777777" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 16</title></circle>
+<circle cx="95.88888888888889" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>KANTAR / Kan 11: 16</title></circle>
+<circle cx="95.88888888888889" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Walla!: 14</title></circle>
+<circle cx="116.33333333333334" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 16</title></circle>
+<circle cx="116.33333333333334" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 16</title></circle>
+<circle cx="116.33333333333334" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Smith / 103fm &amp; Maariv: 12</title></circle>
+<circle cx="116.33333333333334" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 12</title></circle>
+<circle cx="121.44444444444444" cy="1245.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Knesset Channel: 18</title></circle>
+<circle cx="131.66666666666666" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Walla!: 14</title></circle>
+<circle cx="136.77777777777777" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 16</title></circle>
+<circle cx="136.77777777777777" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>KANTAR / Kan 11: 12</title></circle>
+<circle cx="152.11111111111111" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 14</title></circle>
+<circle cx="157.22222222222223" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Smith / 103fm/Maariv: 14</title></circle>
+<circle cx="157.22222222222223" cy="1245.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 18</title></circle>
+<circle cx="172.55555555555554" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>KANTAR / Kan 11: 12</title></circle>
+<circle cx="187.88888888888889" cy="1245.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 18</title></circle>
+<circle cx="187.88888888888889" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Smith / 103fm: 14</title></circle>
+<circle cx="187.88888888888889" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 12</title></circle>
+<circle cx="193.0" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Walla!: 16</title></circle>
+<circle cx="208.33333333333331" cy="1245.0" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Makor Rishon: 18</title></circle>
+<circle cx="223.66666666666666" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Smith / 103fm: 12</title></circle>
+<circle cx="223.66666666666666" cy="1231.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 22</title></circle>
+<circle cx="233.88888888888889" cy="1238.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 20</title></circle>
+<circle cx="259.44444444444446" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Smith / 103fm: 14</title></circle>
+<circle cx="274.7777777777778" cy="1238.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 13: 20</title></circle>
+<circle cx="274.7777777777778" cy="1245.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Walla!: 18</title></circle>
+<circle cx="279.8888888888889" cy="1238.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>KANTAR / Reshet Bet: 20</title></circle>
+<circle cx="290.1111111111111" cy="1238.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 20</title></circle>
+<circle cx="290.1111111111111" cy="1245.0" r="3" opacity=".55" fill="#bf7400"><title>Smith / 103fm: 18</title></circle>
+<circle cx="295.22222222222223" cy="1231.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 22</title></circle>
+<circle cx="295.22222222222223" cy="1238.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 20</title></circle>
+<circle cx="305.44444444444446" cy="1238.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 20</title></circle>
+<text x="185" y="1350">Days before election (date basis differs by tier)</text>
+<text x="605" y="1133">knesset_23_2020 / index exploratory (n=42)</text>
+<path d="M605 1305.0h460" stroke="#ddd"/><text x="580" y="1309.0">0</text>
+<path d="M605 1238.3333333333333h460" stroke="#ddd"/><text x="580" y="1242.3333333333333">20</text>
+<path d="M605 1171.6666666666667h460" stroke="#ddd"/><text x="580" y="1175.6666666666667">40</text>
+<text x="605.0" y="1325">0</text>
+<text x="640.7777777777778" y="1325">7</text>
+<text x="758.3333333333333" y="1325">30</text>
+<text x="911.6666666666666" y="1325">60</text>
+<text x="1065.0" y="1325">90</text>
+<circle cx="620.3333333333334" cy="1285.0" r="3" opacity=".55" fill="#bf7400"><title>Smith / Maariv: 6</title></circle>
+<circle cx="620.3333333333334" cy="1278.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 8</title></circle>
+<circle cx="620.3333333333334" cy="1278.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 8</title></circle>
+<circle cx="625.4444444444445" cy="1278.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv &amp; The Jerusalem Post: 8</title></circle>
+<circle cx="625.4444444444445" cy="1271.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom &amp; i24 News: 10</title></circle>
+<circle cx="625.4444444444445" cy="1278.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 8</title></circle>
+<circle cx="630.5555555555555" cy="1278.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Arutz Sheva: 8</title></circle>
+<circle cx="635.6666666666666" cy="1271.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Walla!: 10</title></circle>
+<circle cx="635.6666666666666" cy="1271.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / 103fm: 10</title></circle>
+<circle cx="640.7777777777778" cy="1278.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 8</title></circle>
+<circle cx="640.7777777777778" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 12</title></circle>
+<circle cx="645.8888888888889" cy="1285.0" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 6</title></circle>
+<circle cx="645.8888888888889" cy="1271.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 10</title></circle>
+<circle cx="661.2222222222222" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom &amp; i24 News: 12</title></circle>
+<circle cx="661.2222222222222" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Arutz Sheva: 12</title></circle>
+<circle cx="666.3333333333334" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 12</title></circle>
+<circle cx="676.5555555555555" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 12</title></circle>
+<circle cx="676.5555555555555" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Walla!: 12</title></circle>
+<circle cx="691.8888888888889" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / 103fm: 12</title></circle>
+<circle cx="697.0" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 12</title></circle>
+<circle cx="697.0" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom &amp; i24 News: 12</title></circle>
+<circle cx="697.0" cy="1278.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Smith / Maariv: 8</title></circle>
+<circle cx="702.1111111111111" cy="1271.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Makor Rishon: 10</title></circle>
+<circle cx="727.6666666666666" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 12</title></circle>
+<circle cx="732.7777777777778" cy="1271.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 20: 10</title></circle>
+<circle cx="732.7777777777778" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom &amp; i24 News: 12</title></circle>
+<circle cx="737.8888888888889" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 14</title></circle>
+<circle cx="737.8888888888889" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Walla!: 14</title></circle>
+<circle cx="768.5555555555555" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot / 103fm: 12</title></circle>
+<circle cx="773.6666666666666" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 12</title></circle>
+<circle cx="773.6666666666666" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 14</title></circle>
+<circle cx="773.6666666666666" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 12</title></circle>
+<circle cx="773.6666666666666" cy="1271.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 10</title></circle>
+<circle cx="778.7777777777778" cy="1278.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Israel Hayom: 8</title></circle>
+<circle cx="804.3333333333334" cy="1265.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Makor Rishon: 12</title></circle>
+<circle cx="804.3333333333334" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Walla!: 14</title></circle>
+<circle cx="814.5555555555555" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 16</title></circle>
+<circle cx="824.7777777777778" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 13: 14</title></circle>
+<circle cx="840.1111111111111" cy="1251.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot / 103fm: 16</title></circle>
+<circle cx="840.1111111111111" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Channel 12: 14</title></circle>
+<circle cx="840.1111111111111" cy="1245.0" r="3" opacity=".55" fill="#bf7400"><title>Panel Project HaMidgam / Channel 13: 18</title></circle>
+<circle cx="840.1111111111111" cy="1258.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 14</title></circle>
+<text x="735" y="1350">Days before election (date basis differs by tier)</text>
+<text x="55" y="1393">knesset_24_2021 / index exploratory (n=46)</text>
+<path d="M55 1565.0h460" stroke="#ddd"/><text x="30" y="1569.0">0</text>
+<path d="M55 1498.3333333333333h460" stroke="#ddd"/><text x="30" y="1502.3333333333333">20</text>
+<path d="M55 1431.6666666666667h460" stroke="#ddd"/><text x="30" y="1435.6666666666667">40</text>
+<text x="55.0" y="1585">0</text>
+<text x="90.77777777777777" y="1585">7</text>
+<text x="208.33333333333331" y="1585">30</text>
+<text x="361.66666666666663" y="1585">60</text>
+<text x="515.0" y="1585">90</text>
+<circle cx="75.44444444444444" cy="1498.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 20</title></circle>
+<circle cx="75.44444444444444" cy="1498.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel / Channel 12: 20</title></circle>
+<circle cx="80.55555555555556" cy="1498.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 20</title></circle>
+<circle cx="80.55555555555556" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / –: 14</title></circle>
+<circle cx="80.55555555555556" cy="1498.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 20</title></circle>
+<circle cx="80.55555555555556" cy="1498.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Smith / Mako: 20</title></circle>
+<circle cx="80.55555555555556" cy="1478.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 26</title></circle>
+<circle cx="90.77777777777777" cy="1498.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel / Channel 12: 20</title></circle>
+<circle cx="95.88888888888889" cy="1478.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / 103fm: 26</title></circle>
+<circle cx="101.0" cy="1485.0" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 24</title></circle>
+<circle cx="116.33333333333334" cy="1485.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 24</title></circle>
+<circle cx="116.33333333333334" cy="1471.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 28</title></circle>
+<circle cx="126.55555555555556" cy="1485.0" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 24</title></circle>
+<circle cx="131.66666666666666" cy="1458.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / 103fm: 32</title></circle>
+<circle cx="152.11111111111111" cy="1451.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel / Channel 12: 34</title></circle>
+<circle cx="152.11111111111111" cy="1445.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 36</title></circle>
+<circle cx="152.11111111111111" cy="1485.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 24</title></circle>
+<circle cx="152.11111111111111" cy="1465.0" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 30</title></circle>
+<circle cx="157.22222222222223" cy="1458.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / –: 32</title></circle>
+<circle cx="162.33333333333331" cy="1478.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 26</title></circle>
+<circle cx="162.33333333333331" cy="1465.0" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Channel 20: 30</title></circle>
+<circle cx="162.33333333333331" cy="1445.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel / Channel 12: 36</title></circle>
+<circle cx="172.55555555555554" cy="1458.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / 103fm: 32</title></circle>
+<circle cx="187.88888888888889" cy="1465.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 30</title></circle>
+<circle cx="187.88888888888889" cy="1471.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 28</title></circle>
+<circle cx="198.11111111111111" cy="1465.0" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 30</title></circle>
+<circle cx="198.11111111111111" cy="1458.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / 103fm: 32</title></circle>
+<circle cx="198.11111111111111" cy="1465.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel / Channel 12: 30</title></circle>
+<circle cx="223.66666666666666" cy="1438.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 38</title></circle>
+<circle cx="233.88888888888889" cy="1471.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel / Channel 12: 28</title></circle>
+<circle cx="239.0" cy="1478.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 26</title></circle>
+<circle cx="244.11111111111111" cy="1445.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / 103fm: 36</title></circle>
+<circle cx="259.44444444444446" cy="1471.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 28</title></circle>
+<circle cx="259.44444444444446" cy="1458.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 32</title></circle>
+<circle cx="264.55555555555554" cy="1465.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel / Channel 12: 30</title></circle>
+<circle cx="269.66666666666663" cy="1445.0" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 36</title></circle>
+<circle cx="274.7777777777778" cy="1471.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Channel 20: 28</title></circle>
+<circle cx="279.8888888888889" cy="1465.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / 103fm: 30</title></circle>
+<circle cx="279.8888888888889" cy="1458.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / –: 32</title></circle>
+<circle cx="290.1111111111111" cy="1485.0" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 24</title></circle>
+<circle cx="290.1111111111111" cy="1465.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel / Channel 12: 30</title></circle>
+<circle cx="295.22222222222223" cy="1438.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 38</title></circle>
+<circle cx="331.0" cy="1431.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mohot / Israel Hayom: 40</title></circle>
+<circle cx="331.0" cy="1438.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 38</title></circle>
+<circle cx="341.22222222222223" cy="1425.0" r="3" opacity=".55" fill="#bf7400"><title>Midgam/iPanel / Channel 12: 42</title></circle>
+<circle cx="402.55555555555554" cy="1405.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 48</title></circle>
+<text x="185" y="1610">Days before election (date basis differs by tier)</text>
+<text x="605" y="1393">knesset_25_2022 / index exploratory (n=49)</text>
+<path d="M605 1565.0h460" stroke="#ddd"/><text x="580" y="1569.0">0</text>
+<path d="M605 1498.3333333333333h460" stroke="#ddd"/><text x="580" y="1502.3333333333333">20</text>
+<path d="M605 1431.6666666666667h460" stroke="#ddd"/><text x="580" y="1435.6666666666667">40</text>
+<text x="605.0" y="1585">0</text>
+<text x="640.7777777777778" y="1585">7</text>
+<text x="758.3333333333333" y="1585">30</text>
+<text x="911.6666666666666" y="1585">60</text>
+<text x="1065.0" y="1585">90</text>
+<circle cx="625.4444444444445" cy="1498.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 20</title></circle>
+<circle cx="625.4444444444445" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / HaHadashot 12: 14</title></circle>
+<circle cx="630.5555555555555" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Smith / Galei Israel: 12</title></circle>
+<circle cx="630.5555555555555" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 14: 14</title></circle>
+<circle cx="630.5555555555555" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 14</title></circle>
+<circle cx="630.5555555555555" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 12</title></circle>
+<circle cx="635.6666666666666" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot / Israel Hayom: 16</title></circle>
+<circle cx="640.7777777777778" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Smith / Galei Israel: 12</title></circle>
+<circle cx="640.7777777777778" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Galei Tzahal: 16</title></circle>
+<circle cx="640.7777777777778" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 14</title></circle>
+<circle cx="640.7777777777778" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Mako/Knesset Channel: 12</title></circle>
+<circle cx="645.8888888888889" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 14: 14</title></circle>
+<circle cx="645.8888888888889" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / HaHadashot 12: 14</title></circle>
+<circle cx="651.0" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 12</title></circle>
+<circle cx="651.0" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 12</title></circle>
+<circle cx="666.3333333333334" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 14: 14</title></circle>
+<circle cx="666.3333333333334" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 16</title></circle>
+<circle cx="666.3333333333334" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 14</title></circle>
+<circle cx="671.4444444444445" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Keshet: 14</title></circle>
+<circle cx="671.4444444444445" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Mako/Knesset Channel: 14</title></circle>
+<circle cx="676.5555555555555" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / HaHadashot 12: 14</title></circle>
+<circle cx="676.5555555555555" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 14</title></circle>
+<circle cx="702.1111111111111" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 14: 14</title></circle>
+<circle cx="702.1111111111111" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 16</title></circle>
+<circle cx="702.1111111111111" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 12</title></circle>
+<circle cx="707.2222222222222" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Mako/Knesset Channel: 12</title></circle>
+<circle cx="712.3333333333334" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / 103fm: 14</title></circle>
+<circle cx="712.3333333333334" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / HaHadashot 12: 14</title></circle>
+<circle cx="712.3333333333334" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 12</title></circle>
+<circle cx="737.8888888888889" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 12</title></circle>
+<circle cx="737.8888888888889" cy="1505.0" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 14: 18</title></circle>
+<circle cx="748.1111111111111" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Mako/Knesset Channel: 14</title></circle>
+<circle cx="753.2222222222222" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Maagar Mochot / Israel Hayom: 16</title></circle>
+<circle cx="758.3333333333333" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / Galei Tzahal: 14</title></circle>
+<circle cx="758.3333333333333" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 14</title></circle>
+<circle cx="763.4444444444445" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 14</title></circle>
+<circle cx="773.6666666666666" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 14: 16</title></circle>
+<circle cx="773.6666666666666" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 14</title></circle>
+<circle cx="773.6666666666666" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Mako/Knesset Channel: 12</title></circle>
+<circle cx="778.7777777777778" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Midgam / HaHadashot 12: 14</title></circle>
+<circle cx="809.4444444444445" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 14: 14</title></circle>
+<circle cx="809.4444444444445" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 14</title></circle>
+<circle cx="809.4444444444445" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam / HaHadashot 12: 16</title></circle>
+<circle cx="809.4444444444445" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Maariv: 16</title></circle>
+<circle cx="814.5555555555555" cy="1518.3333333333333" r="3" opacity=".55" fill="#bf7400"><title>Panels Politics / Mako/Knesset Channel: 14</title></circle>
+<circle cx="829.8888888888889" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Direct Polls / Channel 14: 16</title></circle>
+<circle cx="835.0" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Kantar / Kan 11: 16</title></circle>
+<circle cx="840.1111111111111" cy="1525.0" r="3" opacity=".55" fill="#bf7400"><title>Camil Fuchs / Channel 13: 12</title></circle>
+<circle cx="840.1111111111111" cy="1511.6666666666667" r="3" opacity=".55" fill="#bf7400"><title>Midgam / HaHadashot 12: 16</title></circle>
+<text x="735" y="1610">Days before election (date basis differs by tier)</text>
+</g></svg>

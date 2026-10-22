@@ -54,6 +54,8 @@ def reconcile(values, total=120):
     order = sorted(range(len(seats)), key=lambda i: (-(projected[i] - seats[i]), i))
     for index in order[:remaining]:
         seats[index] += 1
+    if sum(seats) != total or any(type(v) is not int or v < 0 for v in seats):
+        raise ValueError("Post-rounding allocation must be nonnegative integers summing to total")
     return seats
 
 
@@ -512,3 +514,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

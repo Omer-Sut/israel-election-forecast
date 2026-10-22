@@ -2,6 +2,10 @@
 
 ## Accepted
 
+- E005 checked outcome: preserve the dated geographic/dynamic ablation and chronological-selection results; no feature configuration establishes2021/2022gains. Do not adopt prototype poll-quality weights: OOF expected-error MAE9.233loses to8.668prior-campaign-average baseline. These are working evidence-based keep/reject decisions for this trial, not a permanent family exclusion or user-selected final forecast. Broader dated demographics/lineages are the next information-gathering step; turnout remains later.
+
+- E005 October22: user requested another bounded geographic/party-identity and dynamic-feature trial, chronological regularization validation and campaign poll accuracy/severity analysis before adopting weights. Supersedes prior blanket locality/active-tabular deferral, not data availability safeguards. Party votes first; turnout/war/economics later. No final method/weight/forecast change selected.
+
 - E004 (October22): user approved bounded unattended sensitivity: correction strengths0/10/25/50/100%, original versus expanded campaign history, every eligible chronological fold, and20 forest seeds. No additional families, L0, final model selection or forecast changes. Hosted CPU, plots and downloadable provenance/results.
 
 - October22: user reaffirmed online-first work and collaboration across people/agents/sessions, with guidance in AGENTS.md. Use connected GitHub publication when local Git metadata/networking is unavailable, isolated topic branches, expected-parent updates and verified hosted checks. Local restrictions do not revoke authorized project publication; respect machine access controls and retain a precise remote/local handoff.
