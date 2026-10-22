@@ -6,7 +6,10 @@ on:
     paths:
       - 'scripts/experiments.py'
       - 'scripts/prepare_screening_panel.py'
+      - 'scripts/campaign_history.py'
+      - 'scripts/*diagnostics.mjs'
       - 'tests/test_experiments.py'
+      - 'tests/test_campaign_history.py'
       - 'config/**'
       - 'data/snapshots/**'
       - 'requirements-experiments.txt'
@@ -55,6 +58,23 @@ jobs:
         run: |
           python -m pip freeze > output/experiments/environment.txt
           cat output/experiments/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Run data-only campaign-history sensitivities on hosted CPU
+        run: |
+          python scripts/campaign_history.py --out-dir output/campaign-history
+          python scripts/campaign_history.py --out-dir output/campaign-history-repeat
+          for variant in reference publication_age expanded_history expanded_publication_age; do
+            diff -u "output/campaign-history/$variant/results/predictions.csv" "output/campaign-history-repeat/$variant/results/predictions.csv"
+          done
+          node scripts/compare_campaign_diagnostics.mjs output/campaign-history
+          cat output/campaign-history/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve campaign-history sensitivities and pre-rounding plots
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: campaign-history-sensitivities
+          path: output/campaign-history/
+          if-no-files-found: error
+          retention-days: 30
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         if: always()
         with:

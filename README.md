@@ -22,6 +22,8 @@ Build a reproducible model to forecast the results of Israel's 26th Knesset elec
 
 The original Hebrew guidelines are preserved unchanged as [the source PDF](תחרות%20תחזית%20בחירות%20לכנסת%20ה26.pdf). They are authoritative if the English summary is ambiguous.
 
+October 22 diagnostics: [plots before and after rounding](reports/diagnostics-2026-10-22/index.html) now include every available historical fold. [Data readiness and zero-seat modeling](docs/diagnostics-and-data-readiness.md) explains what remains before expanding the panel. No model refitting or forecast changes.
+
 ## Objective
 
 Predict seats for every electoral list in the submission form and national turnout (%). The primary competition loss is:

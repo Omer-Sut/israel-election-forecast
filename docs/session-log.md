@@ -1,5 +1,18 @@
 # Session log
 
+## 2026-10-22 - Online-first continuation and E003 preparation
+
+- User requested resolving publication access, recording collaboration guidance in AGENTS.md and proceeding with data expansion. Local `.git` protection/network restriction are distinct from valid user authentication; connected GitHub tools successfully created isolated `feat/campaign-history-diagnostics` from3055db4, preserving PR #13. AGENTS now documents this fallback, expected-SHA updates, remote verification and stale local metadata.
+- Reviewed original publisher sources near fixed cutoffs. Added three earlier releases within existing groups; preserved latest anchors, all outcomes, grid and25% correction. New2015 primary releases remain inaccessible; February17 Walla is not added while duplicate-fieldwork metadata is unresolved. Audit records explicit source derivations/access failures without fabricated response hashes.
+- Prepared four declared data variants, boundary tests, hosted deterministic reruns and pre-rounding comparison/artifact generation. A002 source/report is included. Source freeze precedes new scores. Hosted Python execution/publication evidence will follow only after verification. Local checkout metadata remains at3055db4; project files may be newer after API publication.
+
+## 2026-10-22 - Pre-rounding diagnostics and data-readiness explanation (A002)
+
+- User asked to inspect predictions before rounding, broaden historical coverage, add plots, discuss L0 for zero-seat outcomes, and explain the remaining data preparation. Added an offline diagnostic generator with all available historical folds, four stages, CSV/per-list JSON, HTML/SVG and optional base-R PNG exports. No models refitted or forecasts changed.
+- Tests independently check configured outcomes, total/signed scores, shrinkage and rounding; corrupted targets/scores/stages are rejected. Five outputs are byte-identical on repeat; PNG plots visually checked. Local Python could not launch, so existing Python suite was not rerun; baseline workflow diagnostic step awaits hosted verification.
+- Explained 790 candidate index rows versus 24 reviewed releases; publication dates, syndication, historical lineups, mixed units, old coverage and repeated releases still need review. L0 feature selection does not directly zero seats; eligibility and threshold uncertainty need separate treatment. Publisher reports support current Blue and White withdrawal; no direct CEC notice archived and no live forecast altered. Work is local pending Git publication verification.
+- Git staging failed with permission denied creating `.git/index.lock`; changes remain local, uncommitted and unpushed. This is session filesystem access, not evidence that the user's GitHub authentication failed.
+
 ## 2026-10-21 - Analyze E002 and prepare cross-session handoff
 
 - User requested analysis committed to Git for another session/device. Reviewed full saved predictions, per-list errors, continuous/unshrunk corrections, feature coverage and ensemble weights; no refitting or new forecasts.
