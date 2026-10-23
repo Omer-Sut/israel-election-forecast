@@ -19,9 +19,9 @@ if __package__ in (None, ''):
 from scripts.baseline import ROOT, load_json
 from scripts.build_database import records
 from scripts.campaign_history import prepare_variants, write_json
-from scripts.experiments import build_case, evaluate_cases, project
+from scripts.experiments import build_case, evaluate_cases
 from scripts.research_trial import write_csv
-from scripts.robustness import evaluate_fraction
+from scripts.robustness import evaluate_fraction, project
 
 OUT = ROOT / 'output/party-area-trial'
 LINEAGE = ROOT / 'config/party-area-lineage.json'
