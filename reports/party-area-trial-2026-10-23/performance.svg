@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="530" viewBox="0 0 1160 530">
+<rect width="1160" height="530" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#222">
+<text x="30" y="28" font-size="19">E006: fixed 25% correction — total absolute seat error</text>
+<text x="30" y="50" font-size="13">Exploratory retrospective comparisons; edition-linked inputs retain revision uncertainty.</text>
+<text x="55" y="85" font-size="16">ridge_10</text>
+<path d="M55,380.0h290" stroke="#ddd"/><text x="27" y="384.0" font-size="12">0</text>
+<path d="M55,292.5h290" stroke="#ddd"/><text x="27" y="296.5" font-size="12">10</text>
+<path d="M55,205.0h290" stroke="#ddd"/><text x="27" y="209.0" font-size="12">20</text>
+<path d="M55,117.5h290" stroke="#ddd"/><text x="27" y="121.5" font-size="12">30</text>
+<text x="34.0" y="402" font-size="12">2019sep</text>
+<text x="130.66666666666669" y="402" font-size="12">2020</text>
+<text x="227.33333333333334" y="402" font-size="12">2021</text>
+<text x="324.0" y="402" font-size="12">2022</text>
+<polyline points="55.0,275.0 151.66666666666669,310.0 248.33333333333334,170.0 345.0,275.0" fill="none" stroke="#333333" stroke-width="2"/>
+<polyline points="55.0,292.5 151.66666666666669,310.0 248.33333333333334,170.0 345.0,257.5" fill="none" stroke="#0072b2" stroke-width="2"/>
+<polyline points="55.0,292.5 151.66666666666669,310.0 248.33333333333334,170.0 345.0,257.5" fill="none" stroke="#009e73" stroke-width="2"/>
+<polyline points="55.0,292.5 151.66666666666669,310.0 248.33333333333334,170.0 345.0,257.5" fill="none" stroke="#d55e00" stroke-width="2"/>
+<polyline points="55.0,310.0 151.66666666666669,310.0 248.33333333333334,170.0 345.0,257.5" fill="none" stroke="#cc79a7" stroke-width="2"/>
+<polyline points="55.0,275.0 151.66666666666669,310.0 248.33333333333334,205.0 345.0,275.0" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="440" y="85" font-size="16">forest_3_5</text>
+<path d="M440,380.0h290" stroke="#ddd"/><text x="412" y="384.0" font-size="12">0</text>
+<path d="M440,292.5h290" stroke="#ddd"/><text x="412" y="296.5" font-size="12">10</text>
+<path d="M440,205.0h290" stroke="#ddd"/><text x="412" y="209.0" font-size="12">20</text>
+<path d="M440,117.5h290" stroke="#ddd"/><text x="412" y="121.5" font-size="12">30</text>
+<text x="419.0" y="402" font-size="12">2019sep</text>
+<text x="515.6666666666666" y="402" font-size="12">2020</text>
+<text x="612.3333333333334" y="402" font-size="12">2021</text>
+<text x="709.0" y="402" font-size="12">2022</text>
+<polyline points="440.0,292.5 536.6666666666666,310.0 633.3333333333334,152.5 730.0,257.5" fill="none" stroke="#333333" stroke-width="2"/>
+<polyline points="440.0,292.5 536.6666666666666,310.0 633.3333333333334,170.0 730.0,275.0" fill="none" stroke="#0072b2" stroke-width="2"/>
+<polyline points="440.0,292.5 536.6666666666666,310.0 633.3333333333334,170.0 730.0,275.0" fill="none" stroke="#009e73" stroke-width="2"/>
+<polyline points="440.0,292.5 536.6666666666666,310.0 633.3333333333334,170.0 730.0,275.0" fill="none" stroke="#d55e00" stroke-width="2"/>
+<polyline points="440.0,292.5 536.6666666666666,310.0 633.3333333333334,170.0 730.0,275.0" fill="none" stroke="#cc79a7" stroke-width="2"/>
+<polyline points="440.0,275.0 536.6666666666666,310.0 633.3333333333334,205.0 730.0,275.0" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="825" y="85" font-size="16">xgb_2_50</text>
+<path d="M825,380.0h290" stroke="#ddd"/><text x="797" y="384.0" font-size="12">0</text>
+<path d="M825,292.5h290" stroke="#ddd"/><text x="797" y="296.5" font-size="12">10</text>
+<path d="M825,205.0h290" stroke="#ddd"/><text x="797" y="209.0" font-size="12">20</text>
+<path d="M825,117.5h290" stroke="#ddd"/><text x="797" y="121.5" font-size="12">30</text>
+<text x="804.0" y="402" font-size="12">2019sep</text>
+<text x="900.6666666666666" y="402" font-size="12">2020</text>
+<text x="997.3333333333334" y="402" font-size="12">2021</text>
+<text x="1094.0" y="402" font-size="12">2022</text>
+<polyline points="825.0,275.0 921.6666666666666,310.0 1018.3333333333334,187.5 1115.0,257.5" fill="none" stroke="#333333" stroke-width="2"/>
+<polyline points="825.0,275.0 921.6666666666666,310.0 1018.3333333333334,187.5 1115.0,257.5" fill="none" stroke="#0072b2" stroke-width="2"/>
+<polyline points="825.0,275.0 921.6666666666666,310.0 1018.3333333333334,170.0 1115.0,275.0" fill="none" stroke="#009e73" stroke-width="2"/>
+<polyline points="825.0,275.0 921.6666666666666,310.0 1018.3333333333334,187.5 1115.0,257.5" fill="none" stroke="#d55e00" stroke-width="2"/>
+<polyline points="825.0,292.5 921.6666666666666,310.0 1018.3333333333334,205.0 1115.0,257.5" fill="none" stroke="#cc79a7" stroke-width="2"/>
+<polyline points="825.0,275.0 921.6666666666666,310.0 1018.3333333333334,205.0 1115.0,275.0" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="6 4"/>
+<path d="M35,435h25" stroke="#333333" stroke-width="3"/><text x="67" y="439" font-size="13">original</text>
+<path d="M420,435h25" stroke="#0072b2" stroke-width="3"/><text x="452" y="439" font-size="13">cities_continuity</text>
+<path d="M805,435h25" stroke="#009e73" stroke-width="3"/><text x="837" y="439" font-size="13">cities_pooled</text>
+<path d="M35,462h25" stroke="#d55e00" stroke-width="3"/><text x="67" y="466" font-size="13">edition2015_continuity</text>
+<path d="M420,462h25" stroke="#cc79a7" stroke-width="3"/><text x="452" y="466" font-size="13">edition2015_pooled</text>
+<path d="M805,462h25" stroke="#888" stroke-width="3"/><text x="837" y="466" font-size="13">mean_reference</text>
+<text x="30" y="515" font-size="12">Lower is better. Sep2019 and 2020 provide earlier OOF history; 2021/2022 were already inspected.</text>
+</g></svg>

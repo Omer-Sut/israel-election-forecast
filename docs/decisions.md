@@ -1,6 +1,6 @@
 # Decisions and open questions
 
-October23 E006: explicit prior-election continuity/pooling context proxies. Keep full2015CBS edition-linked data in separate retrospective sensitivity; source month/spot checks do not authenticate all1183historical rows. Three fixed existing learners, separate continuous/integer earlier-OOF strength selection. No age/sex inclusion, final adoption or2026lineage claim. Protocol: party-area-trial.md.
+October23 E006 decision: keep explicit prior-election continuity/pooling context machinery, reject forecast correction adoption now because no fixed25% or earlier-OOF-selected integer gain in2021/2022. Full2015edition-linked data stays separate archive-unverified sensitivity; coverage is not individual demographic identification. Preserve tiny hindsight-only continuous gain without selecting it. Next prioritize current polls/threshold measurements rather than enlarging this matrix; age/sex/2026lineage still audited separately. No merge/submission authorized. See party-area-trial.md and its verified report.
 
 ## Accepted
 

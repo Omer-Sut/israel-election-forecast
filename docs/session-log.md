@@ -1,8 +1,8 @@
 # Session log
 
-## October23 - E006 party-area continuation (prepared)
+## October23 - E006 verified party-area trial
 
-Verified live PR16head5125934 and main507fdd8 unchanged. Added explicit immediately-prior list mappings, five pooled-proxy sensitivities, fail-closed missing reasons and full2015CBS edition audit. Three fixed learners, five ablations, continuous/integer earlier-OOF strength selection, five new tests and hosted deterministic repeats. Full edition is an archive-unverified retrospective assumption, not blanket source certification. Age/sex still gated. Hosted validation/publication pending; no local Python run, forecast change or merge claimed. See project-state for completion evidence.
+Published PR17 on feat/explicit-party-area-context, stacked on unchanged PR16head5125934. Implementation1fcca3d passed screen39921492239 and baseline39921492335:60tests, frozen references, deterministic repeats; E0066.231s. Initial770065d import failure corrected. Explicit prior-list proxies plus separately labeled1183locality2015edition sensitivity; archive uncertainty retained, age/sex not fitted.2022profiles11/16with pools, average conditional predecessor coverage90%;2021only4/14. No fixed25% or earlier-OOF-selected integer improvement over mean20/12. Tiny hindsight continuous2022gain is not a selected win. Curated reports and artifact12486559561 available; see project-state/analysis for details. No final method/current forecast/turnout change, merge or submission. Cumulative user effort unmeasured; local Git HEAD remains stale3055db4.
 
 ## October22 - E005 verified user-directed trial
 

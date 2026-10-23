@@ -1,8 +1,10 @@
 # Experiment and effort log
 
-## E006 - Explicit party-area context, October23 (prepared)
+## E006 - Explicit party-area context, October23 (verified)
 
-Question: do broader prior-list mappings and SES coverage improve fixed tabular learners? Expanded27audited releases, six elections T-1, previous-election locality votes only. Seed20261021; ridge_10/forest_3_5/xgb_2_50 unchanged. Five ablations, seven existing strengths. Select per fixed learner/feature set using >=2earlier OOF elections, separately by continuous/final integer L1. Dated15cities versus full2015edition after2019-08-31 under explicit archive-unverified assumption. Five pools are context proxies, splits/new lists missing. No age/sex or current forecast/turnout change. Run python scripts/party_area_trial.py on hosted CPU twice; five new tests/determinism checks. Code/run/results/runtime pending. User hands-on/cumulative effort unmeasured, eight-hour budget not reset.
+Implementation1fcca3da08f4c6a66bdf55c20f345db351b1c961 / PR17. Screen39921492239 and baseline39921492335 succeeded:60tests, frozen references, repeated E006contexts/coverage/scores/selections/SVG identical. E006runtime6.231s; seed20261021. Input hashes/configs in reports/party-area-trial-2026-10-23/manifest.json and full artifact12486559561 (138283bytes, unexpired throughNovember22). Tested output PR merge ref93e1e7dd is not a merge claim. Initial770065d run39921070292 failed on wrong-module import; corrected, no failed results used.
+
+Expanded27audited releases, six elections T-1, previous-election locality votes only. Fixed ridge_10/forest_3_5/xgb_2_50; five ablations, seven existing strengths; per-fixed-learner/feature-set selection on >=2earlier OOF elections by continuous or integer L1. Dated15cities versus full2015edition after2019-08-31, explicitly archive-unverified sensitivity. Five pools are context proxies; splits/new entrants missing.2022profiles11/16with pools, conditional unweighted mean predecessor coverage39.6%→90.0%;2021only4/14despite52.3%→93.9%coverage. All420scalar scores/180selection rows preserved. No fixed25% or selected integer improvement in2021/2022over20/12. Hindsight2022edition+pools ridge5% continuous12.576vs12.667 ties integer12, not chosen earlier; not adoption evidence. Keep lineage/audit tooling, reject correction adoption now; prioritize current polls/threshold inputs. No age/sex/current forecast/turnout/merge change. Local Python unavailable; user hands-on/cumulative effort unmeasured, budget not reset.
 
 ## E005 - poll quality and feature trial (verified)
 

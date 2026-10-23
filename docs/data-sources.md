@@ -16,6 +16,8 @@ Historical execution update: [historical-backtest.md](historical-backtest.md) no
 
 ## Sources supplied in the competition guidelines
 
+E006 October23 source audit: [CBS publication1765](https://www.cbs.gov.il/he/publications/DocLib/2019/1765_socio_economic_2015/h_print.pdf) is dated August2019 and includes locality table8. The frozen t08.xlsx is edition-linked; source hash, conservative2019-08-31availability and four spot checks are recorded in data/snapshots/party-area-edition-audit-2026-10-23.json.1183localities enter only separately labeled retrospective sensitivities, NOT authenticated-archive certification; original cbs_sources flags unchanged. [CBS403/2020](https://www.cbs.gov.il/he/mediarelease/DocLib/2020/403/24_20_403b.pdf) explicitly dates2017index release December15,2020 and replacement March4,2021; this is an audit lead, not fitted E006input. Age/sex dates remain unresolved. See party-area-trial.md for actual model use and explicit lineage assumptions, not observed voter transfers.
+
 E005 new dated-source audit October22: CBS press release351/2018, [November28,2018](https://www.cbs.gov.il/he/mediarelease/DocLib/2018/351/24_18_351b.pdf), tableA/page2 supplies2015index values for all15cities above100000residents. Factual transcription/source URL/date/vintage limitation in data/snapshots/party-area-vintage-2018-2026-10-22.json; official locality codes/names independently matched against stored CEC data. This dated subset supports a restricted previous-election party-area feature, not certification of later CBS workbooks or individual voter demographics. A [2017index book](https://www.cbs.gov.il/he/publications/doclib/2021/socio_eco17_1832/h_print.pdf) explicitly dates itself August2021; matching table vintages remains further work. No raw PDF prose or restricted respondent records republished. Broad polling-index error summaries remain lower-tier descriptive, separate from27audited releases.
 
 ### S1. Wikipedia poll compilation
@@ -99,4 +101,3 @@ The [alliance's own website](https://jointlist.org.il/en/) names Hadash, Ta'al, 
 ## Online storage policy
 
 GitHub is the durable source of truth. Prefer small redistributable input snapshots and a source manifest in a tracked path such as `data/snapshots/` (the existing `data/raw/` and `data/processed/` paths are ignored). Review rights before copying data; do not accidentally force-add a restricted source. For larger or restricted inputs, record a shared store, access procedure, version/hash, and a reproducible retrieval path. Nothing required to reproduce the final run should exist only on one laptop or a temporary Colab disk.
-
