@@ -28,6 +28,8 @@ E003 follow-up: [campaign-history comparison and plots](reports/campaign-history
 
 ## Objective
 
+October23 E006: [party-area findings](reports/party-area-trial-2026-10-23/analysis.md) and [performance plot](reports/party-area-trial-2026-10-23/performance.svg). Explicit previous-list mappings, broader socioeconomic coverage in a separate vintage-assumption sensitivity,60passing hosted tests; no demonstrated gain warranting a forecast correction. See project-state before resuming.
+
 E005: [poll accuracy and feature-trial findings](reports/poll-quality-feature-trial-2026-10-22/analysis.md), [poll-error plot](reports/poll-quality-feature-trial-2026-10-22/poll-error-trends.svg), and [full local HTML dashboard](reports/poll-quality-feature-trial-2026-10-22/index.html). Separate audited/index tiers, chronological regularization selection, dynamic-feature ablation and a dated prior-election geographic trial;55hosted tests passed. No current forecast or poll-weight change.
 
 Predict seats for every electoral list in the submission form and national turnout (%). The primary competition loss is:
@@ -94,4 +96,3 @@ For online work, use the repository's [Actions tab](https://github.com/Omer-Sut/
 | `AGENTS.md` | Instructions for future coding agents |
 
 No open-source license has been selected. Public visibility alone does not grant an open-source license.
-

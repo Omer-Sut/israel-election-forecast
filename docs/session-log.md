@@ -1,5 +1,9 @@
 # Session log
 
+## October23 - E006 verified party-area trial
+
+Published PR17 on feat/explicit-party-area-context, stacked on unchanged PR16head5125934. Implementation1fcca3d passed screen39921492239 and baseline39921492335:60tests, frozen references, deterministic repeats; E0066.231s. Initial770065d import failure corrected. Explicit prior-list proxies plus separately labeled1183locality2015edition sensitivity; archive uncertainty retained, age/sex not fitted.2022profiles11/16with pools, average conditional predecessor coverage90%;2021only4/14. No fixed25% or earlier-OOF-selected integer improvement over mean20/12. Tiny hindsight continuous2022gain is not a selected win. Curated reports and artifact12486559561 available; see project-state/analysis for details. No final method/current forecast/turnout change, merge or submission. Cumulative user effort unmeasured; local Git HEAD remains stale3055db4.
+
 ## October22 - E005 verified user-directed trial
 
 Final implementation4275c548, PR #16; screen39776060120/baseline39776062476 passed55tests and all frozen/deterministic checks. New trial37.133s.324exploratory index rows,466explicit exclusions;27audited releases separate,22known sample sizes. Dated2018CBS15city/2015SES source enables prior-election three-core geographic ablation; broad209age/sex/SESprofiles descriptive only. Original/dynamic/prior-city/both feature sets, earlier-OOF parameter/fraction selection: no2021/2022selected gains. Quality prototype MAE9.233versus8.668baseline, no weights adopted. Compact hosted results saved in reports/poll-quality-feature-trial-2026-10-22; fullartifact12424098121 verified203126bytes/unexpired. Corpus/source files preserved, no forecast/turnout/final model/merge change. Next: extend dated coverage/party lineages; no further same-matrix parameter sweep. Local metadata remains3055db4.
@@ -172,4 +176,3 @@ User approved robustness work before a two-hour absence. Added scripts/robustnes
 - Created the documentation and collaboration scaffold, ignore/text settings, and first-publication helper. The helper passed PowerShell syntax parsing; execution is pending.
 - Blockers: no usable Git/GitHub CLI, GitHub network requests failed, browser inventory was empty, and workspace permissions denied writing repository contents inside `.git`. An empty `.git` directory exists, but initialization did not complete. No remote repository has been created, no commit has been made, and nothing has been pushed.
 - Next: validate/init with Git on a suitable computer, publish the public repository, verify the form and current rules, then collect data and choose a baseline.
-

@@ -1,6 +1,12 @@
-# Current project state
+﻿# Current project state
 
-Last updated: October 22, 2026 (E005 verified).
+## E006 verified: broader area coverage, no adopted correction
+
+Implementation1fcca3da08f4c6a66bdf55c20f345db351b1c961, branch feat/explicit-party-area-context / PR17, stacked on PR16, unmerged. [Screen39921492239](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39921492239) and [baseline39921492335](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39921492335) succeeded: all60tests, frozen references and identical E006context/coverage/score/selection/SVG repeats. New compute6.231seconds. Output93e1e7dd is the tested PR merge ref, not a merge. [Readable findings](../reports/party-area-trial-2026-10-23/analysis.md), plot, all420scalar scores,180selection rows and source/context audits are committed. Artifact12486559561 verified138283bytes/unexpired throughNovember22; full per-list vectors/configs remain rebuildable.
+
+Explicit prior-list continuity/pooling proxies expand party scope. Full2015edition-linked sensitivity covers1183localities after2019-08-31 but is NOT an authenticated archive; strict dated15cities remain separate. In2022,11/16lists have profiles with pools, mean predecessor-vote coverage39.6%→90.0%;2021only4/14identifiable. No fixed25% or earlier-OOF-selected result beats mean20/12 in2021/2022. Tiny hindsight2022ridge5% continuous improvement12.667→12.576 ties integer12, not chosen by prior OOF; do not cherry-pick. Preserve machinery, reject forecast adoption. Age/sex and2026lineage/status still require audits; next practical task final current polls/below-threshold inputs, not a larger sweep of this matrix. Turnout/war/economics later. No forecast change, merge or submission. Initial import failure770065d corrected before successful run. Local HEAD3055db4 stale; reconcile protected Git metadata deliberately, do not blindly commit/push the newer source tree.
+
+Last updated: October 23, 2026 (E006 verified).
 
 ## E005 verified results and next step
 
@@ -201,4 +207,3 @@ See docs/baseline-method.md, docs/historical-backtest.md, data/README.md, and ex
 Git/gh may not appear on the inherited PATH. Executables are C:\Users\omersu\AppData\Local\Programs\Git\cmd\git.exe and C:\Program Files\GitHub CLI\gh.exe. Approved outside-sandbox operations successfully use the existing keyring login; in-sandbox failures do not prove login is invalid. A safe.directory exception exists only for this exact project path because .git was initially created by the sandbox user.
 
 Local checks used QGIS Python 3.12 via PYTHONHOME, but this is not a project dependency: a normal Python 3.12 runtime suffices. Network/Git writes may need approval. Raw source images/renderings under tmp/ are ignored and are not the sole record of any numerical input. No credentials or personal form responses are committed.
-
