@@ -45,6 +45,7 @@ jobs:
           python scripts/current_poll_audit.py --out-dir output/current-poll-audit
           python scripts/current_poll_audit.py --out-dir output/current-poll-audit-repeat > /dev/null
           diff -ru output/current-poll-audit output/current-poll-audit-repeat
+          python -c "import json; from pathlib import Path; print('E007_FILES_JSON=' + json.dumps({p.name:p.read_text(encoding='utf-8') for p in sorted(Path('output/current-poll-audit').iterdir())}, ensure_ascii=False))"
           if [ -d reports/current-poll-audit-2026-10-23 ]; then
             diff -ru reports/current-poll-audit-2026-10-23 output/current-poll-audit
           fi
