@@ -1,0 +1,405 @@
+{
+  "snapshot_id": "polls-2026-10-23-a",
+  "reviewed_on": "2026-10-23",
+  "coverage": "Bounded update: four newer original releases plus six unchanged archived records; latest audited group selection, not exhaustive Friday coverage.",
+  "measurement": "published seat projections, with separate reported below-threshold percentages",
+  "rights_note": "Factual numerical transcriptions with attribution; publisher prose and graphics are not redistributed or relicensed",
+  "polls": [
+    {
+      "id": "n12-midgam-2026-10-19",
+      "pollster_group": "midgam_rc",
+      "pollster": "Midgam Research & Consulting / Mano Geva",
+      "publisher": "N12",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm",
+      "published_on": "2026-10-19",
+      "source_updated_on": "2026-10-20",
+      "fieldwork_start": "2026-10-19",
+      "fieldwork_end": "2026-10-19",
+      "sample_size": 507,
+      "population": "Israel population aged 18+",
+      "mode": "internet and telephone",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud": 21,
+        "yashar": 24,
+        "beyachad": 14,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 8,
+        "religious_zionism_zehut": 7,
+        "raam": 5,
+        "joint_list": 9
+      },
+      "reported_below_threshold_pct": {
+        "amcha_yisrael": 2.8,
+        "reservists_economic": 2.1,
+        "blue_and_white": 1.4,
+        "haredi_public": 0.2
+      },
+      "turnout_intention_pct": 72,
+      "audit": "Seat values and fieldwork/sample metadata checked in original article text. Turnout is stated intention, not observed participation. Article says Blue and White withdrew after this fieldwork."
+    },
+    {
+      "id": "c14-nextdata-2026-10-19",
+      "pollster_group": "next_data",
+      "pollster": "NEXT DATA / Shlomo Filber",
+      "publisher": "Channel 14",
+      "source_url": "https://www.c14.co.il/article/1745051",
+      "published_on": "2026-10-19",
+      "fieldwork_start": "2026-10-19",
+      "fieldwork_end": "2026-10-19",
+      "sample_size": 454,
+      "population": "Israel adult population",
+      "mode": null,
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud": 30,
+        "yashar": 19,
+        "beyachad": 10,
+        "democrats": 10,
+        "yisrael_beiteinu": 6,
+        "shas": 10,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 7,
+        "religious_zionism_zehut": 7,
+        "raam": 5,
+        "joint_list": 8
+      },
+      "reported_below_threshold_pct": {
+        "reservists_economic": 2.6,
+        "amcha_yisrael": 2.2,
+        "noam_israel": 1.5,
+        "ahi": 0.5,
+        "haredi_public": 0.3
+      },
+      "audit": "All positive seat values and date/sample metadata checked in original publisher text. A later October 20 release is referenced by aggregators but has not been audited; this is the latest audited release in this snapshot, not necessarily the latest published."
+    },
+    {
+      "id": "c13-consortium-2026-10-19",
+      "pollster_group": "c13_consortium",
+      "pollster": "The Madad / Stat-Net / Midgam Project / Askaria consortium",
+      "publisher": "Channel 13",
+      "source_url": "https://13tv.co.il/item/news/politics/politics/jw3wm-905406894/",
+      "graphic_url": "https://media3.reshet.tv/image/upload/t_image_article_800/t_image_article_800/v1792429526/uploads/2026/905407620.webp",
+      "graphic_sha256": "ef9b577719f8852da394f345de34e1375d4bfa6d6e32db9455769558569c90cd",
+      "published_on": "2026-10-19",
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": 1016,
+      "population": null,
+      "mode": null,
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud": 18,
+        "yashar": 20,
+        "beyachad": 14,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 7,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 7,
+        "religious_zionism_zehut": 7,
+        "raam": 6,
+        "joint_list": 9,
+        "amcha_yisrael": 4,
+        "reservists_economic": 4
+      },
+      "reported_below_threshold_pct": {},
+      "audit": "Visually transcribed the original dated graphic: Likud=18 and UTJ=7; full positive-seat table sums to 120. Article body instead says Likud=17 and omits UTJ. Prefer the original complete graphic; preserve conflict rather than claim a publisher correction. Sample size from article, not borrowed from October 14. Fieldwork dates remain unknown."
+    },
+    {
+      "id": "walla-lazar-2026-10-20",
+      "pollster_group": "lazar_panel4all",
+      "pollster": "Lazar Research / Menachem Lazar / Panel4All",
+      "publisher": "Walla",
+      "source_url": "https://www.walla.co.il/news/politics/383958175",
+      "published_on": "2026-10-20",
+      "fieldwork_start": "2026-10-19",
+      "fieldwork_end": "2026-10-19",
+      "sample_size": 601,
+      "population": "Israel adult population",
+      "mode": "internet panel",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud": 19,
+        "yashar": 23,
+        "beyachad": 14,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 8,
+        "religious_zionism_zehut": 6,
+        "raam": 6,
+        "joint_list": 8,
+        "reservists_economic": 4
+      },
+      "reported_below_threshold_pct": {
+        "amcha_yisrael": 2.9
+      },
+      "audit": "Original article checked for all seat values, fieldwork and sample size. Replaces the older Maariv release from the same polling group. Confidence in party choice is not used as turnout."
+    },
+    {
+      "id": "zman-tatika-2026-10-15",
+      "pollster_group": "tatika_adgenda",
+      "pollster": "Yossi Tatika / Tatika Research & Media / Adgenda",
+      "publisher": "Zman Yisrael / Times of Israel",
+      "source_url": "https://www.timesofisrael.com/toi-poll-eisenkot-opens-up-big-lead-on-netanyahu-but-both-blocs-short-of-majority/",
+      "published_on": "2026-10-15",
+      "fieldwork_start": "2026-10-14",
+      "fieldwork_end": "2026-10-15",
+      "sample_size": 500,
+      "population": null,
+      "mode": "Adgenda panel; further mode details not established",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud": 20,
+        "yashar": 26,
+        "beyachad": 11,
+        "democrats": 8,
+        "yisrael_beiteinu": 9,
+        "shas": 8,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 7,
+        "religious_zionism_zehut": 6,
+        "raam": 5,
+        "joint_list": 8,
+        "reservists_economic": 4
+      },
+      "reported_below_threshold_pct": {
+        "amcha_yisrael": 2.8,
+        "blue_and_white": 1.2
+      },
+      "audit": "Transcribed the first poll in the commissioning group's article, not the separate Channel 13 poll also discussed there. Source shortens the Religious Zionism name; mapping to current form slot is recorded separately."
+    },
+    {
+      "id": "maariv-lazar-2026-10-16",
+      "pollster_group": "lazar_panel4all",
+      "pollster": "Lazar Research / Menachem Lazar / Panel4All",
+      "publisher": "Maariv",
+      "source_url": "https://madad120.co.il/sources/Survey_4216.pdf",
+      "corroborating_url": "https://www.jpost.com/israel-election-2026/article-911902",
+      "source_relationship": "Pollster-authored CEC report mirrored by a third-party site; not downloaded directly from CEC",
+      "published_on": "2026-10-16",
+      "fieldwork_start": "2026-10-14",
+      "fieldwork_end": "2026-10-15",
+      "sample_size": 700,
+      "population": "Israel citizens aged 18+, Jews and Arabs",
+      "mode": "internet panel",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud": 18,
+        "yashar": 21,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 7,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 8,
+        "religious_zionism_zehut": 6,
+        "raam": 6,
+        "joint_list": 8,
+        "amcha_yisrael": 4,
+        "reservists_economic": 4
+      },
+      "reported_below_threshold_pct": {
+        "blue_and_white": 1.1,
+        "haredi_public": 0.5,
+        "noam_israel": 0.5,
+        "tzomet_beit_yisrael": 0.2
+      },
+      "audit": "Report page 1 visually checked and matched to sibling publisher's seat reporting. Archived automatically when newer Walla/Lazar poll is selected. Full percentage column is not ingested because its denominator/relationship to projected seats has not been audited."
+    },
+    {
+      "reviewed_on": "2026-10-23",
+      "source_updated_on": "2026-10-23",
+      "source_version_note": "Current article reviewed October 23; update timestamp not independently authenticated. Conservatively unavailable to earlier retrospective cutoffs.",
+      "seat_projection_complete": true,
+      "population": "Israel population aged 18+",
+      "mode": "internet and telephone",
+      "fieldwork_start": "2026-10-21",
+      "fieldwork_end": "2026-10-21",
+      "sample_size": 505,
+      "id": "n12-midgam-2026-10-21",
+      "pollster_group": "midgam_rc",
+      "pollster": "Midgam Research & Consulting / Mano Geva",
+      "publisher": "N12",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+      "published_on": "2026-10-21",
+      "reported_seats": {
+        "likud": 19,
+        "yashar": 23,
+        "beyachad": 15,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 7,
+        "religious_zionism_zehut": 6,
+        "raam": 5,
+        "joint_list": 9,
+        "amcha_yisrael": 4
+      },
+      "reported_below_threshold_pct": {
+        "reservists_economic": 2.8,
+        "haredi_public": 0.3,
+        "tzeva_shahor": 0.3
+      },
+      "turnout_intention_pct": 75,
+      "audit": "Main lineup only; three hypothetical withdrawal scenarios excluded. Actual respondents 505; initial target 500 and invited 2523 are not sample size. Article has relative yesterday wording despite October 21 publication. Tzeva Shahor (צבע שחור - מגן עולם התורה) is kept distinct from Haredi Public."
+    },
+    {
+      "reviewed_on": "2026-10-23",
+      "source_updated_on": "2026-10-23",
+      "source_version_note": "Current article reviewed October 23; update timestamp not independently authenticated. Conservatively unavailable to earlier retrospective cutoffs.",
+      "seat_projection_complete": true,
+      "population": null,
+      "mode": null,
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": 1084,
+      "id": "c13-consortium-2026-10-21",
+      "pollster_group": "c13_consortium",
+      "pollster": "The Madad / Stat-Net / Midgam Project / Askaria consortium",
+      "publisher": "Channel 13",
+      "source_url": "https://13tv.co.il/item/news/politics/politics/ksgoq-905411865/",
+      "published_on": "2026-10-21",
+      "reported_seats": {
+        "likud": 19,
+        "yashar": 20,
+        "beyachad": 14,
+        "democrats": 10,
+        "yisrael_beiteinu": 8,
+        "shas": 7,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 7,
+        "religious_zionism_zehut": 8,
+        "raam": 6,
+        "joint_list": 9,
+        "reservists_economic": 4
+      },
+      "reported_below_threshold_pct": {
+        "amcha_yisrael": 3.2,
+        "haredi_public": 1.2
+      },
+      "reported_above_threshold_pct": {
+        "reservists_economic": 3.6
+      },
+      "audit": "Complete main table, sample size and consortium checked in original article text, including final methodology paragraph. Fieldwork remains unknown. Source percentages 3.6/3.2 preserved despite differing secondary aggregator transcriptions."
+    },
+    {
+      "reviewed_on": "2026-10-23",
+      "source_updated_on": "2026-10-23",
+      "source_version_note": "Current article reviewed October 23; update timestamp not independently authenticated. Conservatively unavailable to earlier retrospective cutoffs.",
+      "seat_projection_complete": true,
+      "population": "Israel adult population",
+      "mode": null,
+      "fieldwork_start": "2026-10-22",
+      "fieldwork_end": "2026-10-22",
+      "sample_size": 7937,
+      "id": "c14-nextdata-2026-10-22",
+      "pollster_group": "next_data",
+      "pollster": "NEXT DATA / Shlomo Filber",
+      "publisher": "Channel 14",
+      "source_url": "https://www.c14.co.il/article/1750553",
+      "published_on": "2026-10-22",
+      "publication_date_basis": "Relative yesterday label reviewed October 23 and body explicitly October 22, 2026",
+      "reported_seats": {
+        "likud": 30,
+        "yashar": 20,
+        "beyachad": 11,
+        "democrats": 8,
+        "yisrael_beiteinu": 5,
+        "shas": 9,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 8,
+        "religious_zionism_zehut": 7,
+        "raam": 6,
+        "joint_list": 8
+      },
+      "reported_below_threshold_pct": {
+        "reservists_economic": 1.9,
+        "amcha_yisrael": 1.5,
+        "noam_israel": 0.6,
+        "haredi_public": 0.3,
+        "ahi": 0.2
+      },
+      "audit": "Full seat table and stated sample 7937 checked in original article. Sample size is not a weight or evidence eliminating systematic error."
+    },
+    {
+      "reviewed_on": "2026-10-23",
+      "source_updated_on": "2026-10-23",
+      "source_version_note": "Current article reviewed October 23; update timestamp not independently authenticated. Conservatively unavailable to earlier retrospective cutoffs.",
+      "seat_projection_complete": true,
+      "population": "Jewish and Arab respondents",
+      "mode": "Adgenda panel; further mode details not established",
+      "fieldwork_start": "2026-10-21",
+      "fieldwork_end": "2026-10-22",
+      "sample_size": 500,
+      "id": "zman-tatika-2026-10-22",
+      "pollster_group": "tatika_adgenda",
+      "pollster": "Yossi Tatika / Tatika Research & Media / Adgenda",
+      "publisher": "Zman Yisrael",
+      "source_url": "https://www.zman.co.il/735649/",
+      "published_on": "2026-10-22",
+      "publication_date_basis": "Relative yesterday label and October 23 page footer; October 22 questions and fieldwork end corroborate",
+      "reported_seats": {
+        "likud": 21,
+        "yashar": 23,
+        "beyachad": 11,
+        "democrats": 8,
+        "yisrael_beiteinu": 9,
+        "shas": 8,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 8,
+        "religious_zionism_zehut": 6,
+        "raam": 5,
+        "joint_list": 9,
+        "reservists_economic": 4
+      },
+      "reported_below_threshold_pct": {
+        "amcha_yisrael": 3
+      },
+      "reported_above_threshold_pct": {
+        "reservists_economic": 3.6
+      },
+      "audit": "Complete original table and fieldwork/sample checked. Party decision certainty and PM retirement responses are not turnout. Text shortens RZ and Reservists labels; full text identifies Hendel/Zelekha."
+    }
+  ],
+  "not_ingested": [
+    {
+      "source_url": "https://www.kan.org.il/content/kan-news/politic/1110393/",
+      "reason": "Original page returned no readable poll text; aggregator transcription alone not promoted to audited input."
+    },
+    {
+      "source_url": "https://t.me/Direct_Polls/927",
+      "reason": "October 20 i24/Direct Polls values found in a secondary transcript, but original Telegram post text could not be retrieved. Retain for next audit, not as a current input."
+    },
+    {
+      "source_url": "https://madad120.co.il/polls",
+      "reason": "Discovery index indicates additional October 20 releases, including Channel 16. No original full release audited for those polls; do not copy this site's model weights or claim current sample is exhaustive."
+    },
+    {
+      "source_url": "https://www.inn.co.il/news/709154",
+      "reason": "October 23 Maariv/Lazar release discovered in secondary coverage. Direct page inaccessible and primary full table not located in bounded search; do not substitute partial values. Walla October 20 remains latest audited Lazar record, not latest published."
+    }
+  ],
+  "inherited_snapshot": "data/snapshots/polls-2026-10-21.json",
+  "rule_and_eligibility_audit": {
+    "reviewed_on": "2026-10-23",
+    "threshold_pct": 3.25,
+    "threshold_evidence": "Official-domain indexed CEC and Knesset text supports 3.25%; direct pages blocked (403/geographic restriction). No full operative allocator or surplus agreements authenticated.",
+    "threshold_sources": [
+      "https://www.gov.il/he/pages/election-about-info?chapterindex=4",
+      "https://main.knesset.gov.il/About/Lexicon/pages/qualifying-threshold.aspx"
+    ],
+    "official_current_lists_url": "https://www.gov.il/he/departments/units/elections-26",
+    "official_current_lists_status": "403; current eligibility/withdrawal not independently authenticated",
+    "blue_and_white_status": "Earlier publisher reports withdrawal; no newly verified official hard-zero constraint. Zero seats in complete current tables do not imply zero support.",
+    "publication_restriction": "Friday October 23 cutoff stated in competition PDF; operative legal restriction not independently verified.",
+    "mapping": "Existing Joint List to Hadash-Taal form-slot assumption retained. Historical identities untouched.",
+    "vote_share_limit": "Partial published percentages only; denominator, undecided treatment, effective weighted sample sizes and joint vote-share covariance not established. No crossing probabilities inferred."
+  }
+}

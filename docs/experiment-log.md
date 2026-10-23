@@ -1,5 +1,9 @@
 # Experiment and effort log
 
+## E007 - current-source and threshold audit (verified)
+
+Cutoff2026-10-23,14days; original six plus four new original releases, five latest audited equal-weight groups. Deterministic unchanged mean/L1; no fitting or seed. Implementation11e8930, log-recovery528d60f, PR18 stacked on PR17. Baseline39948181011/screen39948181004 successful:64 scientific tests (22.928s), standard suite64 with four optional skips (35.003s), frozen original reports and identical audit repeats. Separate audit compute time was not instrumented. Artifact12498898382:9486bytes/unexpired through November22; five outputs recovered from logs, no local binary hash claim. Rounded mean changes four total absolute seats from Oct21; Amcha1/Reservists2, versus L1 0/3. Current disagreement14.4/12 is descriptive, not election accuracy. Keep audited inputs/tooling, no model/weight/threshold-probability/final-vector adoption. LatestMaariv/official-lineup gaps remain. User cumulative effort unmeasured, budget not reset. See current-poll-audit.md and dated report.
+
 ## E006 - Explicit party-area context, October23 (verified)
 
 Implementation1fcca3da08f4c6a66bdf55c20f345db351b1c961 / PR17. Screen39921492239 and baseline39921492335 succeeded:60tests, frozen references, repeated E006contexts/coverage/scores/selections/SVG identical. E006runtime6.231s; seed20261021. Input hashes/configs in reports/party-area-trial-2026-10-23/manifest.json and full artifact12486559561 (138283bytes, unexpired throughNovember22). Tested output PR merge ref93e1e7dd is not a merge claim. Initial770065d run39921070292 failed on wrong-module import; corrected, no failed results used.
