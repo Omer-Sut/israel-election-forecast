@@ -1,8 +1,8 @@
 # Session log
 
-## October23 - E007 current-poll audit preparation
+## October23 - E007 current-poll audit verified
 
-Resumed interruption, no partial E007 files existed. Rechecked PR17head92f1111. Four newer original releases, conservativeOctober23version availability, original six retained. Partial percentages/unknown support/complete-seat zeros distinguished; hypothetical lineups excluded. NewMaariv primary table not yet audited. Added isolated config/script/tests and deterministic hosted artifact step. Execution/publication pending; no fitted correction/hard eligibility/final selection. User cumulative hands-on effort unmeasured.
+Resumed interruption, no partial E007 files existed. Published 11e8930/528d60f in PR18 stacked on live PR17head92f1111. Baseline39948181011/screen39948181004 passed:64 scientific tests, original frozen checks, deterministic new audit. Four newer original releases replace anchors; original six retained exactly. Source-version availability conservatively October23; hypothetical withdrawal scenarios excluded. Mean/L1 Amcha1/0 and Reservists2/3 illustrate remaining threshold decision; no final vector adopted. Five report files recovered exactly from public hosted logs, artifact12498898382 verified9486bytes/unexpired (binary bytes not locally verified). Known newer Maariv and other source/official-lineup gaps retained. No model/weight/turnout/merge/submission change. Local GitHEAD3055db4 stale; user cumulative hands-on effort unmeasured.
 
 ## October23 - E006 verified party-area trial
 

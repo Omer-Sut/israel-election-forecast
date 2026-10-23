@@ -46,7 +46,7 @@ The first implementation is documented in `docs/baseline-method.md`: Python 3.12
 - Never commit secrets, credentials, university login information, personal submission responses, local environments, or large generated artifacts.
 - Do not submit the competition entry or send messages to people without explicit authorization.
 
-E007 continuation: read docs/current-poll-audit.md. Separate October23snapshot preserves old records and four newer original releases; conservative current-source-version availabilityOctober23. Unknown vote support is not zero, pass-frequency is not probability, N12 withdrawal scenarios excluded. LatestOctober23Maariv and operative official-lineup/rule audit incomplete. No new fitted correction/final selection. See project-state for actual hosted validation/publication status.
+E007 continuation: read docs/current-poll-audit.md and reports/current-poll-audit-2026-10-23/analysis.md. PR18 stacks on PR17; implementation11e8930/log-recovery528d60f passed baseline39948181011/screen39948181004,64 scientific tests and deterministic audit/frozen checks. Separate October23snapshot preserves six old records and four newer releases; conservative current-version cutoffOctober23. Unknown support is not zero, poll pass-frequency is not probability, N12 hypothetical lineups excluded. LatestOctober23Maariv and official-lineup/operative-rule audit incomplete. Mean/L1 borderline seats differ; no final model/vector/weight/turnout/merge selected. Check latest remote head before publishing; local Git remains stale.
 
 ## Session completion and continuity
 
