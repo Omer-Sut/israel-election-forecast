@@ -1,5 +1,9 @@
 # Session log
 
+## October23 - E008 preparation
+
+User approved training-focused poll-quality integration after clarification. Reviewed individual source metadata and current aggregate-feature bottleneck. Prepared four controlled representations, three fixed learners, strict earlier-campaign reliability for training rows, capped weights and balanced campaign/firm totals. Test target-label invariance, unseen categories, duplicate-release weights and chronological selection. Hosted run pending; source/forecast frozen outputs retained. No merge/submission; cumulative user effort unmeasured.
+
 ## October23 - E007 current-poll audit verified
 
 Resumed interruption, no partial E007 files existed. Published 11e8930/528d60f in PR18 stacked on live PR17head92f1111. Baseline39948181011/screen39948181004 passed:64 scientific tests, original frozen checks, deterministic new audit. Four newer original releases replace anchors; original six retained exactly. Source-version availability conservatively October23; hypothetical withdrawal scenarios excluded. Mean/L1 Amcha1/0 and Reservists2/3 illustrate remaining threshold decision; no final vector adopted. Five report files recovered exactly from public hosted logs, artifact12498898382 verified9486bytes/unexpired (binary bytes not locally verified). Known newer Maariv and other source/official-lineup gaps retained. No model/weight/turnout/merge/submission change. Local GitHEAD3055db4 stale; user cumulative hands-on effort unmeasured.

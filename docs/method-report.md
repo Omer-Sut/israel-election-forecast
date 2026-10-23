@@ -1,5 +1,7 @@
 # Method report working draft
 
+E008 preparation: user authorized poll-level metadata features and strictly past-only reliability training weights for main learners. Four controlled ablations, three fixed existing learners; no fit results yet, no final method adopted. See poll-metadata-trial.md. Final draft remains based on methods actually selected.
+
 E007 verified current-source refresh: four newer original releases, five latest audited equal-weight groups, unchanged mean/L1, partial threshold plot and conservative October23 source-version cutoff. Baseline39948181011/screen39948181004 passed64 scientific tests, frozen checks and deterministic audit repeats. Both outputs sum120; Amcha1/0 and Reservists2/3 remain arithmetic references rather than a selected final vector. No calibrated threshold model, learned weight or turnout change. See current-poll-audit.md and reports/current-poll-audit-2026-10-23/analysis.md. Original final-method draft remains unchanged pending selection.
 
 E006 verified October23:60hosted tests and deterministic repeats passed. Broader prior-list area proxies and separately labeled1183locality2015edition sensitivity did not produce fixed25% or earlier-OOF-selected integer gains over mean20/12. Do not adopt into the forecast/submission draft. Full workbook archive uncertainty and2021split/new-list missingness remain material; age/sex dates and2026lineage unresolved. See party-area-trial.md and reports/party-area-trial-2026-10-23/analysis.md. Final method draft remains unchanged.

@@ -10,6 +10,8 @@ on:
       - 'scripts/robustness.py'
       - 'scripts/research_trial.py'
       - 'scripts/party_area_trial.py'
+      - 'scripts/poll_metadata_trial.py'
+      - 'tests/test_poll_metadata_trial.py'
       - 'scripts/*diagnostics.mjs'
       - 'tests/test_experiments.py'
       - 'tests/test_campaign_history.py'
@@ -120,11 +122,28 @@ jobs:
           if-no-files-found: error
           retention-days: 30
       - name: Preserve robustness plots, predictions and provenance
+        # E008 is independent of the original forecast and frozen model screen.
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         if: always()
         with:
           name: robustness-correction-seeds
           path: output/robustness/
+          if-no-files-found: error
+          retention-days: 30
+      - name: Run poll metadata training ablation
+        run: |
+          python scripts/poll_metadata_trial.py
+          python scripts/poll_metadata_trial.py --out-dir output/poll-metadata-repeat > output/poll-metadata-repeat.log
+          for result in results.json summary.md performance.svg; do
+            diff -u "output/poll-metadata-trial/$result" "output/poll-metadata-repeat/$result"
+          done
+          cat output/poll-metadata-trial/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve poll metadata training trial
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: poll-metadata-training-trial
+          path: output/poll-metadata-trial/
           if-no-files-found: error
           retention-days: 30
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7

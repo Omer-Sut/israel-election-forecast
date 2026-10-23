@@ -1,5 +1,9 @@
 # Experiment and effort log
 
+## E008 - poll metadata training trial (prepared)
+
+Protocol docs/poll-metadata-trial.md, expanded audited history only, T-1/14days, seed20261021, ridge10/forest3_5/xgb2_50. Four ablations include poll-basic control; quality affects training only. Fractions0/.05/.25/1, fixed25% plus >=2earlier-OOF integer-selected fraction. Expected-error ridge10 uses earlier campaigns only, warm-up uniform, bounded [.75,1.5] multipliers before campaign normalization. No own-outcome-derived weights. Implementation/tests and hosted repeats prepared; actual commit/results/effort pending, user budget not reset. No current forecast adoption.
+
 ## E007 - current-source and threshold audit (verified)
 
 Cutoff2026-10-23,14days; original six plus four new original releases, five latest audited equal-weight groups. Deterministic unchanged mean/L1; no fitting or seed. Implementation11e8930, log-recovery528d60f, PR18 stacked on PR17. Baseline39948181011/screen39948181004 successful:64 scientific tests (22.928s), standard suite64 with four optional skips (35.003s), frozen original reports and identical audit repeats. Separate audit compute time was not instrumented. Artifact12498898382:9486bytes/unexpired through November22; five outputs recovered from logs, no local binary hash claim. Rounded mean changes four total absolute seats from Oct21; Amcha1/Reservists2, versus L1 0/3. Current disagreement14.4/12 is descriptive, not election accuracy. Keep audited inputs/tooling, no model/weight/threshold-probability/final-vector adoption. LatestMaariv/official-lineup gaps remain. User cumulative effort unmeasured, budget not reset. See current-poll-audit.md and dated report.

@@ -1,5 +1,7 @@
 # Instructions for project agents
 
+E008 continuation: read docs/poll-metadata-trial.md. User wants poll quality to improve main-model training. Four ablations (aggregate, poll-basic, metadata, metadata plus past-only training weights), three fixed existing learners. Preserve campaign/firm balance, unseen categories, missing methodology and strict earlier-campaign reliability for each training row. No current-form historical aliases or own-label-derived weights. Check project-state for actual execution/adoption; do not equate software checks with prediction gains.
+
 ## Read before working
 
 Read `README.md`, `docs/competition-brief.md`, `docs/project-state.md`, and `docs/decisions.md`. Consult `docs/session-log.md` for history and `docs/data-sources.md` before collecting data. The original Hebrew PDF remains the requirements source of truth.

@@ -1,5 +1,9 @@
 ﻿# Current project state
 
+## E008 poll metadata training trial prepared
+
+User clarified that poll quality should improve main-model learning. New scripts/poll_metadata_trial.py retains individual polls and tests aggregate / poll-basic / metadata / metadata+past-only-training-weight ablations, three fixed existing learners, six chronological elections. See docs/poll-metadata-trial.md. Source identity, sample/mode/timing metadata and missing flags; future target outcomes excluded, campaigns/firms balanced. Fixed25% and earlier-OOF-selected corrections, full continuous/integer vectors and plots. Hosted tests/execution pending. No current forecast or final method adoption. New topic branch stacks on PR18 fa1699d; local Git HEAD remains stale3055db4. Next verify run, assess whether metadata improves the main forecast relative to poll-basic, preserve keep/reject reasoning.
+
 ## E007 current-poll audit verified
 
 Implementation 11e8930 and log-recovery update 528d60f are published through [PR18](https://github.com/Omer-Sut/israel-election-forecast/pull/18), branch feat/current-poll-threshold-audit, stacked on PR17 head92f1111. [Baseline39948181011](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39948181011) and [screen39948181004](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39948181004) succeeded: 64 scientific tests, standard-library suite (four optional-dependency skips), original frozen baseline/backtest/database/CBS reproduction and identical new-report repeats. Prior implementation runs39947879391/39947879356 also passed. [New report and threshold plot](../reports/current-poll-audit-2026-10-23/analysis.md) are preserved in Git; no final forecast is selected.
