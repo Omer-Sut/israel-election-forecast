@@ -1,5 +1,9 @@
 ﻿# Current project state
 
+## E007 current-poll audit prepared; hosted verification pending
+
+Four newer original releases added separately in polls-2026-10-23.json; original six preserved. Latest selection has five groups, retainingOctober20Walla. NewOctober23Maariv discovered but primary full table unaudited. Separate config/script/tests report continuous means, both integer references, changes and partial support plot. Old baseline/config/code/results unchanged. Direct official pages blocked; indexed3.25% evidence retained, no hard withdrawal/threshold probabilities inferred. Conservative new article-version availabilityOctober23. See current-poll-audit.md. Execution/publication pending; turnout70.63% persistence unchanged. Next: hosted verification/results, then final-source/lineup audit before final vector. No merge/submission; localHEAD3055db4 remains stale.
+
 ## E006 verified: broader area coverage, no adopted correction
 
 Implementation1fcca3da08f4c6a66bdf55c20f345db351b1c961, branch feat/explicit-party-area-context / PR17, stacked on PR16, unmerged. [Screen39921492239](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39921492239) and [baseline39921492335](https://github.com/Omer-Sut/israel-election-forecast/actions/runs/39921492335) succeeded: all60tests, frozen references and identical E006context/coverage/score/selection/SVG repeats. New compute6.231seconds. Output93e1e7dd is the tested PR merge ref, not a merge. [Readable findings](../reports/party-area-trial-2026-10-23/analysis.md), plot, all420scalar scores,180selection rows and source/context audits are committed. Artifact12486559561 verified138283bytes/unexpired throughNovember22; full per-list vectors/configs remain rebuildable.

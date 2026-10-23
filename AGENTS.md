@@ -46,6 +46,8 @@ The first implementation is documented in `docs/baseline-method.md`: Python 3.12
 - Never commit secrets, credentials, university login information, personal submission responses, local environments, or large generated artifacts.
 - Do not submit the competition entry or send messages to people without explicit authorization.
 
+E007 continuation: read docs/current-poll-audit.md. Separate October23snapshot preserves old records and four newer original releases; conservative current-source-version availabilityOctober23. Unknown vote support is not zero, pass-frequency is not probability, N12 withdrawal scenarios excluded. LatestOctober23Maariv and operative official-lineup/rule audit incomplete. No new fitted correction/final selection. See project-state for actual hosted validation/publication status.
+
 ## Session completion and continuity
 
 After meaningful changes, update `docs/project-state.md` with what changed, what was validated, what remains blocked, and the next concrete actions. Add a concise entry to `docs/session-log.md`; add durable decisions to `docs/decisions.md`. Keep these records consistent and self-contained so a new session can resume without chat history.

@@ -1,5 +1,9 @@
 # Session log
 
+## October23 - E007 current-poll audit preparation
+
+Resumed interruption, no partial E007 files existed. Rechecked PR17head92f1111. Four newer original releases, conservativeOctober23version availability, original six retained. Partial percentages/unknown support/complete-seat zeros distinguished; hypothetical lineups excluded. NewMaariv primary table not yet audited. Added isolated config/script/tests and deterministic hosted artifact step. Execution/publication pending; no fitted correction/hard eligibility/final selection. User cumulative hands-on effort unmeasured.
+
 ## October23 - E006 verified party-area trial
 
 Published PR17 on feat/explicit-party-area-context, stacked on unchanged PR16head5125934. Implementation1fcca3d passed screen39921492239 and baseline39921492335:60tests, frozen references, deterministic repeats; E0066.231s. Initial770065d import failure corrected. Explicit prior-list proxies plus separately labeled1183locality2015edition sensitivity; archive uncertainty retained, age/sex not fitted.2022profiles11/16with pools, average conditional predecessor coverage90%;2021only4/14. No fixed25% or earlier-OOF-selected integer improvement over mean20/12. Tiny hindsight continuous2022gain is not a selected win. Curated reports and artifact12486559561 available; see project-state/analysis for details. No final method/current forecast/turnout change, merge or submission. Cumulative user effort unmeasured; local Git HEAD remains stale3055db4.

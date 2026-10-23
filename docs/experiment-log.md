@@ -1,5 +1,9 @@
 # Experiment and effort log
 
+## E007 - current-source and threshold audit (prepared)
+
+Cutoff2026-10-23,14days; inherited six records plus four new original releases, five latest audited equal-weight groups. Deterministic unchanged mean/L1, no fitting/seed. Four focused tests, hosted repeats/new artifact and old frozen checks prepared; commit/execution/results pending. User cumulative effort unmeasured, budget not reset. Keep source audit, no new learned weight/threshold probability/final-vector adoption. LatestMaariv/official-lineup gaps recorded. See current-poll-audit.md.
+
 ## E006 - Explicit party-area context, October23 (verified)
 
 Implementation1fcca3da08f4c6a66bdf55c20f345db351b1c961 / PR17. Screen39921492239 and baseline39921492335 succeeded:60tests, frozen references, repeated E006contexts/coverage/scores/selections/SVG identical. E006runtime6.231s; seed20261021. Input hashes/configs in reports/party-area-trial-2026-10-23/manifest.json and full artifact12486559561 (138283bytes, unexpired throughNovember22). Tested output PR merge ref93e1e7dd is not a merge claim. Initial770065d run39921070292 failed on wrong-module import; corrected, no failed results used.
