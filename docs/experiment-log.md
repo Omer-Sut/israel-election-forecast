@@ -1,5 +1,9 @@
 # Experiment and effort log
 
+## E006 - Explicit party-area context, October23 (prepared)
+
+Question: do broader prior-list mappings and SES coverage improve fixed tabular learners? Expanded27audited releases, six elections T-1, previous-election locality votes only. Seed20261021; ridge_10/forest_3_5/xgb_2_50 unchanged. Five ablations, seven existing strengths. Select per fixed learner/feature set using >=2earlier OOF elections, separately by continuous/final integer L1. Dated15cities versus full2015edition after2019-08-31 under explicit archive-unverified assumption. Five pools are context proxies, splits/new lists missing. No age/sex or current forecast/turnout change. Run python scripts/party_area_trial.py on hosted CPU twice; five new tests/determinism checks. Code/run/results/runtime pending. User hands-on/cumulative effort unmeasured, eight-hour budget not reset.
+
 ## E005 - poll quality and feature trial (verified)
 
 Final4275c5484ccd2525923d89c9f45e13b7dce2b272 / PR #16. Screen39776060120 and baseline39776062476 succeeded:55tests and frozen/deterministic reproduction. New trial37.133s; outputsfrozen at tested PR merge refefb6675 (not a merge claim).324mapped exploratory index rows/466exclusions,27audited releases,22known sizes. Source2018-11-28CBS2015index15city table transcribed and matched to official city codes/names; previous-election vote profiles for three explicit cores enter two additional ablations. Broad209profiles remain descriptive; age/sex/lineage integration still gated. Fourfeature sets/twohistory variants; correction0/.025/.05/.1/.25/.5/1 and existing family parameters selected on>=2earlier OOF elections. No selected2021/2022improvement, oftenzero corrections. Audited-only quality MAE9.233vs prior-campaign-average8.668, reject weight adoption for now. Compact report preserves CSV/SVG/HTML/provenance; artifact12424098121 verified203126bytes/unexpiredthroughNovember21, full2MBparameterCSV rebuildable. No current forecast/turnout/final model/merge change. Hands-on effort unmeasured/not reset.
@@ -123,4 +127,3 @@ Limitations / next step:
 ```
 
 Log failed or rejected approaches briefly too. Keep the authoritative source manifest and outputs durable in GitHub or a documented shared store; a session-only path is insufficient.
-

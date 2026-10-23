@@ -1,5 +1,7 @@
 # Method report working draft
 
+E006 preparation October23: explicit previous-list area context and separately labeled full2015CBS edition sensitivity, three fixed learners. Hosted results pending; no adoption into forecast/submission draft. Age/sex dates and2026lineage remain unresolved. See party-area-trial.md/project-state for checked evidence.
+
 E005 verified:55hosted tests passed. Chronological parameter/blending validation, dynamic-gap features and a dated prior-election geographic subset were tried; no selected2021/2022configuration beat the mean. Broad CBS profiles remain descriptive. Audited-only expected-poll-error prototype MAE9.233versus8.668simple baseline, so no quality weights adopted. These are research diagnostics, not a change to the final forecasting method. Turnout/war/economics later. See poll-quality-feature-trial.md and project-state.
 
 E004 preparation: user approved hosted correction-strength/forest-seed sensitivity on unchanged audited inputs. Diagnostic work, not an adopted forecasting method; final description remains unchanged until evaluated selection. See robustness-batch.md/project-state for actual execution status.
@@ -57,4 +59,3 @@ Replace each item with the method actually implemented; remove placeholders befo
 Code repository: https://github.com/Omer-Sut/israel-election-forecast
 
 Preliminary input/config/code hashes and outputs: `reports/baseline-2026-10-21/`. Final code revision, chosen method, final forecast, validation results, and submission status: **pending**.
-

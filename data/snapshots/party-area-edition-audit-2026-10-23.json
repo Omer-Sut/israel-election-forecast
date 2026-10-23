@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-23",
+  "reference_year": 2015,
+  "source_id": "ses2015.xlsx",
+  "table": "8",
+  "conservative_available_after": "2019-08-31",
+  "publication_month": "2019-08",
+  "publication_url": "https://www.cbs.gov.il/he/publications/DocLib/2019/1765_socio_economic_2015/h_print.pdf",
+  "workbook_url": "https://www.cbs.gov.il/he/publications/doclib/2019/1765_socio_economic_2015/t08.xlsx",
+  "workbook_sha256": "1097ff13776a941e4c0b59765c8889cf6e38da0672563b14c8f8a1bec4e04eb5",
+  "availability_status": "edition_linked_retrospective_assumption_not_authenticated_archive",
+  "round_index_decimals": 3,
+  "policy": "Use only in separately labeled sensitivity after the last day of the publication month. Publication title/table8 matches workbook collection. Spot checks are not exhaustive certification of all 1183 rows or absence of later revisions. Keep cbs_sources historical_availability_verified=false. Use rounded published index units; never ranks.",
+  "spot_checks": [
+    {
+      "locality_code": "472",
+      "name_he": "אבו גוש",
+      "index": -0.762,
+      "pdf_page": 69
+    },
+    {
+      "locality_code": "1342",
+      "name_he": "אבו קורינאת (יישוב)",
+      "index": -2.221,
+      "pdf_page": 69
+    },
+    {
+      "locality_code": "3000",
+      "name_he": "ירושלים",
+      "index": -0.919,
+      "source": "dated 2018 press release"
+    },
+    {
+      "locality_code": "5000",
+      "name_he": "תל אביב-יפו",
+      "index": 1.208,
+      "source": "dated 2018 press release"
+    }
+  ],
+  "later_vintage_review": {
+    "reference_year": 2017,
+    "release": "2020-12-15",
+    "known_revision": "2021-03-04",
+    "book_month": "2021-08",
+    "url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2020/403/24_20_403b.pdf",
+    "status": "Not fitted in E006; avoid changing index vintage and lineage simultaneously."
+  }
+}

@@ -1,5 +1,7 @@
 # Decisions and open questions
 
+October23 E006: explicit prior-election continuity/pooling context proxies. Keep full2015CBS edition-linked data in separate retrospective sensitivity; source month/spot checks do not authenticate all1183historical rows. Three fixed existing learners, separate continuous/integer earlier-OOF strength selection. No age/sex inclusion, final adoption or2026lineage claim. Protocol: party-area-trial.md.
+
 ## Accepted
 
 - E005 checked outcome: preserve the dated geographic/dynamic ablation and chronological-selection results; no feature configuration establishes2021/2022gains. Do not adopt prototype poll-quality weights: OOF expected-error MAE9.233loses to8.668prior-campaign-average baseline. These are working evidence-based keep/reject decisions for this trial, not a permanent family exclusion or user-selected final forecast. Broader dated demographics/lineages are the next information-gathering step; turnout remains later.
@@ -72,4 +74,3 @@
 - Collaborator invitations (public read access does not grant write access).
 
 Record decisions here when made, including rationale and relevant evidence. Do not retroactively describe proposals as user-approved decisions.
-

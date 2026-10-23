@@ -1,5 +1,9 @@
 # Session log
 
+## October23 - E006 party-area continuation (prepared)
+
+Verified live PR16head5125934 and main507fdd8 unchanged. Added explicit immediately-prior list mappings, five pooled-proxy sensitivities, fail-closed missing reasons and full2015CBS edition audit. Three fixed learners, five ablations, continuous/integer earlier-OOF strength selection, five new tests and hosted deterministic repeats. Full edition is an archive-unverified retrospective assumption, not blanket source certification. Age/sex still gated. Hosted validation/publication pending; no local Python run, forecast change or merge claimed. See project-state for completion evidence.
+
 ## October22 - E005 verified user-directed trial
 
 Final implementation4275c548, PR #16; screen39776060120/baseline39776062476 passed55tests and all frozen/deterministic checks. New trial37.133s.324exploratory index rows,466explicit exclusions;27audited releases separate,22known sample sizes. Dated2018CBS15city/2015SES source enables prior-election three-core geographic ablation; broad209age/sex/SESprofiles descriptive only. Original/dynamic/prior-city/both feature sets, earlier-OOF parameter/fraction selection: no2021/2022selected gains. Quality prototype MAE9.233versus8.668baseline, no weights adopted. Compact hosted results saved in reports/poll-quality-feature-trial-2026-10-22; fullartifact12424098121 verified203126bytes/unexpired. Corpus/source files preserved, no forecast/turnout/final model/merge change. Next: extend dated coverage/party lineages; no further same-matrix parameter sweep. Local metadata remains3055db4.
@@ -172,4 +176,3 @@ User approved robustness work before a two-hour absence. Added scripts/robustnes
 - Created the documentation and collaboration scaffold, ignore/text settings, and first-publication helper. The helper passed PowerShell syntax parsing; execution is pending.
 - Blockers: no usable Git/GitHub CLI, GitHub network requests failed, browser inventory was empty, and workspace permissions denied writing repository contents inside `.git`. An empty `.git` directory exists, but initialization did not complete. No remote repository has been created, no commit has been made, and nothing has been pushed.
 - Next: validate/init with Git on a suitable computer, publish the public repository, verify the form and current rules, then collect data and choose a baseline.
-

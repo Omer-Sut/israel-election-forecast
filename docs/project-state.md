@@ -1,4 +1,8 @@
-# Current project state
+﻿# Current project state
+
+## E006 continuation (October23, prepared)
+
+User authorized broader dated area coverage and explicit prior-list lineage. See docs/party-area-trial.md. Three fixed existing learners, five ablations: original, dated15cities with continuity/pools, full2015edition-linked sensitivity with continuity/pools.1183localities only after2019-08-31; workbook archive remains unauthenticated. Splits/new lists missing; no target-result features. Seven existing correction strengths selected on >=2earlier OOF elections, continuous/integer loss separately. No current forecast, turnout or model adoption. Local Python unavailable; hosted tests and repeated outputs pending. Live PR16head5125934 and main507fdd8 unchanged at start. New isolated work stacks on PR16; no merge. Local Git HEAD3055db4 stale: preserve newer source files.
 
 Last updated: October 22, 2026 (E005 verified).
 
@@ -201,4 +205,3 @@ See docs/baseline-method.md, docs/historical-backtest.md, data/README.md, and ex
 Git/gh may not appear on the inherited PATH. Executables are C:\Users\omersu\AppData\Local\Programs\Git\cmd\git.exe and C:\Program Files\GitHub CLI\gh.exe. Approved outside-sandbox operations successfully use the existing keyring login; in-sandbox failures do not prove login is invalid. A safe.directory exception exists only for this exact project path because .git was initially created by the sandbox user.
 
 Local checks used QGIS Python 3.12 via PYTHONHOME, but this is not a project dependency: a normal Python 3.12 runtime suffices. Network/Git writes may need approval. Raw source images/renderings under tmp/ are ignored and are not the sole record of any numerical input. No credentials or personal form responses are committed.
-
