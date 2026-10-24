@@ -28,7 +28,7 @@ jobs:
         run: |
           python scripts/forecast_review.py
           python scripts/forecast_review.py --out-dir output/forecast-review-repeat > output/forecast-review-repeat.log
-          for file in review.json seat-options.csv summary.md decision-sensitivity.svg method-draft.txt inputs-manifest.json; do
+          for file in review.json submission-draft.json seat-options.csv summary.md decision-sensitivity.svg method-draft.txt inputs-manifest.json; do
             diff -u "output/forecast-review/$file" "output/forecast-review-repeat/$file"
             if [ -d reports/forecast-review-2026-10-24 ]; then
               diff -u "reports/forecast-review-2026-10-24/$file" "output/forecast-review/$file"

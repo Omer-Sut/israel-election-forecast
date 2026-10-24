@@ -1,0 +1,9 @@
+The forecast uses the latest reviewed eligible release from each polling group within a 14-day window, with equal group weights. Published complete seat allocations are mapped explicitly to the competition fields. Their mean is rounded by the largest-remainder method so that all 15 seat fields sum to120. Current alliance mappings retain their source labels; historical elections retain their own identities. Zero seats inferred from a complete table do not imply zero voter support.
+
+Ridge, random forests, XGBoost, ensembles, trend/geographic features and past-only poll reliability weights were evaluated chronologically using earlier elections. None established a dependable improvement over the reference, so their corrections are not included. Historical outcomes have already been inspected and do not constitute an untouched holdout.
+
+Alternative absolute-loss and threshold-sensitive allocations are documented for review. Partial vote percentages do not support a complete vote-to-seat simulation or calibrated threshold probabilities. The arithmetic reference can assign small positive seat estimates to borderline lists; it represents a point estimate rather than a simulated election outcome.
+
+Turnout uses the previous official election's70.63% as a persistence reference, validated against the form's inclusive40–100% bounds and displayed to two decimals. Self-reported voting intentions are diagnostic only.
+
+Source versions, dates, exclusions, code and results are versioned in GitHub. The package remains provisional because final-source conflicts and direct official-list/rule verification are unresolved. No competition entry has been submitted.

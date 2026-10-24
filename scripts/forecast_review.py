@@ -128,6 +128,7 @@ def build_review():
 def write_review(report,out):
     out.mkdir(parents=True,exist_ok=True)
     (out/'review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+    (out/'submission-draft.json').write_text(json.dumps(report['recommendation'],ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     contract = baseline.load_json(ROOT/'config/submission-fields.json')
     columns = {'continuous_mean':report['continuous_mean'],**report['methods'],**report['threshold_scenarios']}
     with (out/'seat-options.csv').open('w',encoding='utf-8',newline='') as f:
@@ -163,6 +164,9 @@ def write_review(report,out):
         '<rect width="1150" height="650" fill="white"/><g font-family="Arial,sans-serif" fill="#18324a">',
         '<text x="25" y="35" font-size="23">Forecast decisions: how threshold assumptions change seats</text>',
         '<text x="25" y="62" font-size="14">Provisional reviewed inputs. Scenario markers are assumptions, not probabilities or a verified vote allocator.</text>']
+    for tick in range(0,26,5):
+        x=400+tick*25
+        parts.append(f'<path d="M{x},83V555" stroke="#e0e5ea"/><text x="{x-5}" y="575" font-size="12">{tick}</text>')
     for i,field in enumerate(contract['seat_fields']):
         y=100+31*i
         label = 'Other qualifying lists (combined)' if field['id']=='other_qualifying_lists' else field['label_en']

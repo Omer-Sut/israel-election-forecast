@@ -69,3 +69,6 @@ E009 research-only diagnostic (October24): broader source-tiered final-poll and 
 
 
 E010 preparation: seven-group current reference refresh and explicit seat-space threshold sensitivities; no new learned correction. Standard-library hosted run will export a concrete<=500word method draft alongside decisions and validation. Do not call the package final or source freeze complete: Kan/Channel16 source gaps and direct official verification remain. Check PR execution before treating prepared diagnostics as run.
+
+
+E010 executed: initial forecast-review40070762691 passed five tests and exact repeats. Seven-group reference and six-election threshold sensitivities are preserved; all rules tie2021/2022, mixed earlier outcomes. Retain mean provisionally. A221word executed-method draft is in reports/forecast-review-2026-10-24/method-draft.txt, alongside source gaps and an explicit provisional export. Final committed-reference comparison is checked on the PR head.
