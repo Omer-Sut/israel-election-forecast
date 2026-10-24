@@ -1,0 +1,20 @@
+{
+  "scripts/bader_ofer.py": "9da447c18b286e521db3a3854ac7781f8ca1a08ebf6fbf81f9518e857b2078a7",
+  "scripts/electoral_review.py": "cb9a9eb39cf2903362b30b45eab508039b8586bd201e07625dd4cfaf590fd97d",
+  "scripts/forecast_review.py": "73ca86d57a4e91623b9c02ff275715beeb6c1a3372920f13c05b2c5aca641574",
+  "config/forecast-review.json": "0f9cad66ea784db8e0b9a618ac06f9fe9cf9b33c2dc04f7b0f07f4bd0d26c746",
+  "config/submission-fields.json": "e0d7dfff3b587801b761a296220e3ffe012fa1af63fcd7aeae488810381f656a",
+  "config/poll-mappings.json": "59e288422cc1f0b47d882f4361029b813574e724baa31c71741e065b277da4d2",
+  "data/snapshots/polls-2026-10-24.json": "287ce7446115d860f940f6e949bd7546088f225208c0595d117938d64654e9c1",
+  "data/database/official_lists.jsonl.gz": "ef383995b58092963b20473d8d7288cd0555057846f71d3e5bb365db5271ac01",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/historical.json": "c07e271dc8836e1bfde8e0a6745208065b278a3954054fd55427763d3013aa01",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/outcomes.json": "b788a1be3b0a85d25f80bf76163f504b255e2238f1aa0e62fb6fc4c16a6db3ae",
+  "data/snapshots/results-2022.json": "227cc14bd619ba4b1b7bfe7d6277ba2478c8c55a61ea2201a0000080200c1cb1",
+  "scripts/baseline.py": "08322eaedd2098193db6a2914ad6898fbcbd8a399c5d17502de38cca394844bb",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/polls-20.json": "fa97b57a3a187f0bb441a92c1ac13ff32d87b312f3f5c62af88c5bfbc6dfd2ac",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/polls-21.json": "a62786c6408c0f7d038dab2edfd2b1aab13aebcd1949815ea4367b29e3660669",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/polls-22.json": "e7cf9fd09fb97d5f2d20434a1b0baa6d37542d7ab06efc050668c79e8da1f5c0",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/polls-23.json": "be43f1df47d6d83bd05c98449081a5edf6a57e7209b5d909ba42d5fd0b188d84",
+  "data/snapshots/historical-2026-10-21/polls-2021.json": "ccc0fd9dd8373e1825e7300ea2d695bede9e2cad964f34879528b336d5fbfbcf",
+  "data/snapshots/historical-2026-10-21/polls-2022.json": "362bb8701aa1d82448e69107398095fbde44a386ddf101aa0a477062205b1e7a"
+}

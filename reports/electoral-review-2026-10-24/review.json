@@ -1,0 +1,261 @@
+{
+  "active_draft": {
+    "method": "nearest_mean_zero_or_3plus",
+    "seats": {
+      "likud": 22,
+      "yashar": 22,
+      "beyachad": 13,
+      "democrats": 9,
+      "yisrael_beiteinu": 7,
+      "shas": 8,
+      "united_torah_judaism": 7,
+      "otzma_yehudit": 8,
+      "religious_zionism": 7,
+      "raam": 5,
+      "hadash_taal": 9,
+      "blue_and_white": 0,
+      "amcha_yisrael": 0,
+      "reservists_economic": 3,
+      "other_qualifying_lists": 0
+    },
+    "national_turnout_pct": "70.63",
+    "status": "provisional_constrained_seat_space_decision_not_submitted",
+    "no_one_or_two_seats": true,
+    "sum_seats": 120,
+    "exact_current_bader_ofer": false,
+    "source_freeze_complete": false,
+    "other_individual_list_allocations": {},
+    "limitation": "Complete current vote shares and officially verified agreements are missing; do not infer votes from seats."
+  },
+  "previous_draft_status": "superseded: contains prohibited 1/2-seat entries",
+  "changed_fields": {
+    "amcha_yisrael": {
+      "before": 1,
+      "after": 0
+    },
+    "reservists_economic": {
+      "before": 2,
+      "after": 3
+    }
+  },
+  "selected_poll_ids": [
+    "c13-consortium-2026-10-23",
+    "i24-directpolls-2026-10-23",
+    "israelhayom-kantar-2026-10-22",
+    "maariv-lazar-2026-10-23",
+    "n12-midgam-2026-10-23",
+    "c14-nextdata-2026-10-22",
+    "zman-tatika-2026-10-22"
+  ],
+  "official_2022_verification": {
+    "all_40_lists_match": true,
+    "allocation": {
+      "seats": {
+        "מחל": 32,
+        "פה": 24,
+        "ט": 14,
+        "כן": 12,
+        "שס": 11,
+        "ג": 7,
+        "ל": 6,
+        "עם": 5,
+        "ום": 5,
+        "אמת": 4,
+        "מרצ": 0,
+        "ד": 0,
+        "ב": 0,
+        "אצ": 0,
+        "קץ": 0,
+        "יז": 0,
+        "צ": 0,
+        "ף": 0,
+        "ק": 0,
+        "ת": 0,
+        "ני": 0,
+        "קנ": 0,
+        "נק": 0,
+        "י": 0,
+        "קך": 0,
+        "נץ": 0,
+        "ץ": 0,
+        "רז": 0,
+        "ך": 0,
+        "ז": 0,
+        "קי": 0,
+        "יק": 0,
+        "נז": 0,
+        "נר": 0,
+        "זץ": 0,
+        "יץ": 0,
+        "נף": 0,
+        "ינ": 0,
+        "זך": 0,
+        "זנ": 0
+      },
+      "quota": 36227,
+      "eligible_votes": 4347342,
+      "initial_seats": {
+        "מחל": 30,
+        "פה": 23,
+        "ט": 14,
+        "כן": 11,
+        "שס": 10,
+        "ג": 7,
+        "ל": 5,
+        "עם": 5,
+        "ום": 4,
+        "אמת": 4
+      },
+      "active_agreements": [
+        [
+          "ט",
+          "מחל"
+        ],
+        [
+          "כן",
+          "פה"
+        ],
+        [
+          "ג",
+          "שס"
+        ]
+      ],
+      "remainder_trace": [
+        {
+          "recipient": [
+            "ג",
+            "שס"
+          ],
+          "quotient": "112193/3"
+        },
+        {
+          "recipient": [
+            "כן",
+            "פה"
+          ],
+          "quotient": "1279917/35"
+        },
+        {
+          "recipient": [
+            "ט",
+            "מחל"
+          ],
+          "quotient": "1631806/45"
+        },
+        {
+          "recipient": [
+            "ום"
+          ],
+          "quotient": "35747"
+        },
+        {
+          "recipient": [
+            "ל"
+          ],
+          "quotient": "71229/2"
+        },
+        {
+          "recipient": [
+            "כן",
+            "פה"
+          ],
+          "quotient": "142213/4"
+        },
+        {
+          "recipient": [
+            "ט",
+            "מחל"
+          ],
+          "quotient": "815903/23"
+        }
+      ],
+      "internal_allocations": [
+        {
+          "pair": [
+            "ט",
+            "מחל"
+          ],
+          "quota": 35474,
+          "remainders": [
+            {
+              "recipient": [
+                "מחל"
+              ],
+              "quotient": "139417/4"
+            }
+          ]
+        },
+        {
+          "pair": [
+            "כן",
+            "פה"
+          ],
+          "quota": 35553,
+          "remainders": [
+            {
+              "recipient": [
+                "פה"
+              ],
+              "quotient": "847435/24"
+            }
+          ]
+        },
+        {
+          "pair": [
+            "ג",
+            "שס"
+          ],
+          "quota": 37397,
+          "remainders": [
+            {
+              "recipient": [
+                "שס"
+              ],
+              "quotient": "35724"
+            }
+          ]
+        }
+      ]
+    },
+    "purpose": "Post-election allocator verification, not forecast accuracy or backtest input",
+    "agreement_provenance": "2022 original publisher reports; CEC notice indexed but full notice not retrieved"
+  },
+  "historical_rounding_comparison": [
+    {
+      "election": "knesset_20_2015",
+      "continuous_l1_error": 22.666666666666668,
+      "largest_remainder_l1_error": 22,
+      "constrained_l1_error": 22
+    },
+    {
+      "election": "knesset_21_2019apr",
+      "continuous_l1_error": 38.666666666666664,
+      "largest_remainder_l1_error": 40,
+      "constrained_l1_error": 38
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "continuous_l1_error": 11.999999999999998,
+      "largest_remainder_l1_error": 12,
+      "constrained_l1_error": 12
+    },
+    {
+      "election": "knesset_23_2020",
+      "continuous_l1_error": 8.666666666666668,
+      "largest_remainder_l1_error": 8,
+      "constrained_l1_error": 8
+    },
+    {
+      "election": "knesset_24_2021",
+      "continuous_l1_error": 20.666666666666664,
+      "largest_remainder_l1_error": 20,
+      "constrained_l1_error": 20
+    },
+    {
+      "election": "knesset_25_2022",
+      "continuous_l1_error": 12.666666666666664,
+      "largest_remainder_l1_error": 12,
+      "constrained_l1_error": 12
+    }
+  ]
+}

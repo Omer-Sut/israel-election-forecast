@@ -31,3 +31,6 @@ The same six decision rules run on the unchanged six-election T−1 panel. Outco
 All options are checked against the actual field configuration, exact120seat total and inclusive turnout bounds. Turnout stays at the official2022 persistence70.63%, displayed to two decimals. Self-reported intentions are descriptive only. The package includes CSV, full JSON, plot, input hashes and a method draft below500words; no personal responses or presentation consent is recorded.
 
 Five tests cover exhaustive small-decision comparison, scenario constraints, aggregate-other treatment, preservation of earlier records and source-version cutoffs. Hosted `Prepare forecast review` runs the package twice and compares saved results when present. Check the PR execution record before claiming success. Preserve original frozen baseline/model reports.
+
+
+E011 supersedes this package as an active forecast. The archived draft includes 1/2-seat entries now prohibited by the user. Use scripts/electoral_review.py and reports/electoral-review-2026-10-24 instead. Old outputs are retained for reproducibility only.
