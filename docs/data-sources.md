@@ -16,6 +16,8 @@ Historical execution update: [historical-backtest.md](historical-backtest.md) no
 
 ## E007 October23 current-source refresh
 
+E008 metadata use: existing27 audited historical releases only;22 known sample sizes,11 reported modes,13 reported fieldwork durations. Creator aliases reuse E005's explicit mapping; publishers remain separate. Training-only vocabulary preserves unseen categories, original strings/URLs and missingness in reports/poll-metadata-trial-2026-10-23/results.json. No new bulk-index promotion, guessed methodology, effective sample size or party identity alias. Protocol/results: docs/poll-metadata-trial.md. Source facts and inherited temporal caveats remain unchanged.
+
 Four original newer releases and retrieval/date/sample/lineup caveats in data/snapshots/polls-2026-10-23.json; see current-poll-audit.md. Prior six records preserved. Live article versions conservatively availableOctober23; relative publication dates corroborated, no archived HTTP hash claimed. C13 original3.2/3.6percent conflicts with secondary figures retained explicitly. NewOctober23Maariv exists in secondary coverage but primary complete table not located. Direct official current lists/rule pages blocked403/geography; indexed CEC/Knesset threshold3.25% evidence retained with limits. No official withdrawal hard constraint or full allocator adopted.
 
 ## Sources supplied in the competition guidelines

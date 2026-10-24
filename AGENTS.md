@@ -1,6 +1,6 @@
 # Instructions for project agents
 
-E008 continuation: read docs/poll-metadata-trial.md. User wants poll quality to improve main-model training. Four ablations (aggregate, poll-basic, metadata, metadata plus past-only training weights), three fixed existing learners. Preserve campaign/firm balance, unseen categories, missing methodology and strict earlier-campaign reliability for each training row. No current-form historical aliases or own-label-derived weights. Check project-state for actual execution/adoption; do not equate software checks with prediction gains.
+E008 continuation: read docs/poll-metadata-trial.md and reports/poll-metadata-trial-2026-10-23/analysis.md. User wants poll quality to improve main-model training. Implementation66d76c3 / PR19 stacks onPR18; screen39952455330/baseline39952455404 passed70 scientific tests, deterministic E008/frozen checks. Four ablations isolate poll representation, metadata and past-only training weights; preserve campaign/firm balance, unseen categories, missing methodology and strict earlier-campaign weights for each training row. No historical/current alias conflation. Metadata/weighted25% rounded vectors equal poll-basic in2021/2022; small continuous changes, no adopted correction/weights. Further evidence needs audited methodology coverage, not another same-grid sweep. LocalGit remains stale; verify live remote before publishing.
 
 ## Read before working
 

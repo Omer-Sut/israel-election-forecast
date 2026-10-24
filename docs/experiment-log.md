@@ -1,8 +1,8 @@
 # Experiment and effort log
 
-## E008 - poll metadata training trial (prepared)
+## E008 - poll metadata training trial (verified)
 
-Protocol docs/poll-metadata-trial.md, expanded audited history only, T-1/14days, seed20261021, ridge10/forest3_5/xgb2_50. Four ablations include poll-basic control; quality affects training only. Fractions0/.05/.25/1, fixed25% plus >=2earlier-OOF integer-selected fraction. Expected-error ridge10 uses earlier campaigns only, warm-up uniform, bounded [.75,1.5] multipliers before campaign normalization. No own-outcome-derived weights. Implementation/tests and hosted repeats prepared; actual commit/results/effort pending, user budget not reset. No current forecast adoption.
+Implementation66d76c33e5168399ef1adfee74d780bb75dd72c3, PR19 stacked onPR18. Screen39952455330/baseline39952455404 succeeded:70 scientific tests, baseline70 with five optional skips, deterministic E008 results/summary/SVG, frozen checks. New compute1.190s; output commit1fb0fb97 is tested merge ref, not merged PR. Protocol poll-metadata-trial.md:27 audited releases/six campaigns, T-1/14days, seed20261021, ridge10/forest3_5/xgb2_50, four ablations and fractions0/.05/.25/1. Earlier-OOF selection uses>=2campaigns; quality-training estimates strictly earlier than each training release's campaign. Metadata coverage22sizes/11modes/13durations;7uniform warmups, actual multipliers0.889–1.121, normalized per campaign.192 scalar score rows/48 selections and full vectors preserved; all48 aggregate control scores match E006 independently. At25% no metadata/weight increment over poll-basic integer vectors in2021/2022. Small continuous mixed changes; earlier-selected metadata Ridge2021error22 versus poll-basic20, all2022zero-correction12. Keep implementation, reject current correction/weight adoption. Artifact12499774990 verified105815bytes/unexpired throughNovember22; text outputs recovered exactly from public encoded logs, no archive-byte hash claim. Report completion resumedOctober24 after usage limit. No user effort measurement/budget reset or current forecast/turnout/merge/submission change.
 
 ## E007 - current-source and threshold audit (verified)
 

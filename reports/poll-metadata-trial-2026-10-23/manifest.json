@@ -1,0 +1,23 @@
+{
+  "commit": "1fb0fb97c7bd97c27943fa739113e6fcc0a1c3c5",
+  "runtime_seconds": 1.19,
+  "hashes": {
+    "poll_metadata_trial.py": "8fc9de4e350ff8c6e57ee668fd0857265ef6559c153b1192dc99859d2bf1f33e",
+    "experiments.py": "5df48594ce2ce4ee81ed82c091092dcf278612d8c0203dfb367bcbe7d701cce2",
+    "research_trial.py": "37fd79109db4eb46eb03346f42546e9a2e9ec157a1d957377ae6a9139ed15182",
+    "robustness.py": "26ff3d9010ddb2181fd4ff8a3d61c198de00eaccf45a7aa67d5402e8b5f7600d",
+    "campaign_history.py": "797a9028f7d7870c40be3a88f65eed9dab9ecca1bf15bd9a44227f93417d234c",
+    "backtest.py": "97b872d57be67d5610cc0bf4e42ce57d84b97d894f178bda68fc0b49041de9e2",
+    "baseline.py": "08322eaedd2098193db6a2914ad6898fbcbd8a399c5d17502de38cca394844bb",
+    "experiments.json": "68627969354920b6707538d745e7c52d92f9dc258e1ec82a59d28727ea8e084c",
+    "outcomes.json": "b788a1be3b0a85d25f80bf76163f504b255e2238f1aa0e62fb6fc4c16a6db3ae",
+    "polls-knesset_20_2015.json": "fc3c03f0502b527a4ce711ada07917bf153f620de34c5378026f524507cd42ac",
+    "polls-knesset_21_2019apr.json": "315c433031c4925553e65fbbabd5b971d0397e32491c97f3f609099ee21f674f",
+    "polls-knesset_22_2019sep.json": "9cb1be36b23ee9ecf9971e3e5b19ac06751089bfc95cceea7f90dc581bbddd14",
+    "polls-knesset_23_2020.json": "d55bb2efdd6d95288aabbb5b81b52c4f4a1c0d3ac08376156ec86d88d21410d3",
+    "polls-knesset_24_2021.json": "eb5d3c0c16a0e3bf2c0b4746216c8672ebf90e96b74f0b22c56c1154097c8618",
+    "polls-knesset_25_2022.json": "2403afb1bb7d6bf95f1145b3de2dfa398dd64af63299bac33f7745d1f3db5be1",
+    "audit.json": "c06a1616b7909d9117d778c7cc52ec6c08183d0259858ce62caf905825ba406b",
+    "historical.json": "c07e271dc8836e1bfde8e0a6745208065b278a3954054fd55427763d3013aa01"
+  }
+}

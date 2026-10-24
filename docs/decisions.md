@@ -1,8 +1,8 @@
 # Decisions and open questions
 
-## E008 user clarification and protocol
+## E008 training-quality decision (verified)
 
-Poll-quality purpose is improving main-model training using pollster/methodology beyond age. Separate metadata features (directional correction) from reliability weighting (expected noise). E005's failed standalone expected-error model does not reject metadata as main-learner input. Approve bounded comparison including poll-basic to isolate representation effects; train vocabularies/scalers/quality on earlier campaigns only, preserve unavailable metadata, no final forecast adoption without outcome evidence.
+Poll quality now enters individual-poll learners as source/methodology features and a separately tested past-only training weight. Four ablations isolate representation versus metadata effects; no outcome leakage or raw poll count as independent campaign evidence. Retain this machinery, but do not adopt learned corrections/weights now: no incremental25% integer improvement over poll-basic on2021/2022, and earlier-selected metadata Ridge worsens2021. Small continuous differences are insufficient adoption evidence. Further research needs better audited historical methodology coverage; no more same-data parameter sweep selected. Current forecast/turnout unchanged. See poll-metadata-trial.md and dated analysis.
 
 October23 E006 decision: keep explicit prior-election continuity/pooling context machinery, reject forecast correction adoption now because no fixed25% or earlier-OOF-selected integer gain in2021/2022. Full2015edition-linked data stays separate archive-unverified sensitivity; coverage is not individual demographic identification. Preserve tiny hindsight-only continuous gain without selecting it. Next prioritize current polls/threshold measurements rather than enlarging this matrix; age/sex/2026lineage still audited separately. No merge/submission authorized. See party-area-trial.md and its verified report.
 

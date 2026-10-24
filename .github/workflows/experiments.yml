@@ -136,6 +136,9 @@ jobs:
           python scripts/poll_metadata_trial.py --out-dir output/poll-metadata-repeat > output/poll-metadata-repeat.log
           for result in results.json summary.md performance.svg; do
             diff -u "output/poll-metadata-trial/$result" "output/poll-metadata-repeat/$result"
+            if [ -d reports/poll-metadata-trial-2026-10-23 ]; then
+              diff -u "reports/poll-metadata-trial-2026-10-23/$result" "output/poll-metadata-trial/$result"
+            fi
           done
           cat output/poll-metadata-trial/summary.md >> "$GITHUB_STEP_SUMMARY"
       - name: Preserve poll metadata training trial

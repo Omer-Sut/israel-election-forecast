@@ -1,8 +1,8 @@
 # Session log
 
-## October23 - E008 preparation
+## October24 - E008 verified report completion after usage limit
 
-User approved training-focused poll-quality integration after clarification. Reviewed individual source metadata and current aggregate-feature bottleneck. Prepared four controlled representations, three fixed learners, strict earlier-campaign reliability for training rows, capped weights and balanced campaign/firm totals. Test target-label invariance, unseen categories, duplicate-release weights and chronological selection. Hosted run pending; source/forecast frozen outputs retained. No merge/submission; cumulative user effort unmeasured.
+Implementation66d76c3 / PR19 stacked on PR18 fa1699d completed October23; screen39952455330/baseline39952455404 succeeded,70 scientific tests, deterministic E008 and frozen checks. Runtime1.190s. Four recovered report files already existed after interruption and matched hosted output exactly; completed analysis/handoff publication. All48 aggregate controls independently match E006.27 audited releases,22 sample sizes/11 modes/13 durations; strict earlier-campaign quality and balanced training. Metadata/weighted25% vectors equal poll-basic on2021/2022 despite small continuous changes; no incremental integer gain. Past-selected metadata Ridge2021worsens20→22;2022allzero corrections. Keep machinery, reject forecast adoption now. Artifact12499774990 verified105815bytes/unexpired, local binary hash not verified. No current/turnout/merge/submission change; localGit3055db4 stale and user cumulative effort unmeasured.
 
 ## October23 - E007 current-poll audit verified
 
