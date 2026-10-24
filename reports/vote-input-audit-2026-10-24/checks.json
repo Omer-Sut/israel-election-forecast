@@ -1,0 +1,11 @@
+{
+  "polls_checked": 7,
+  "complete_vote_vectors_recovered": 0,
+  "amcha_reports_with_seats": 1,
+  "reservists_reports_with_seats": 3,
+  "active_draft_sha256": "848b92494e1aeeff3e076c6005508c623827adda655a3bd4d4acaecce9078507",
+  "draft_unchanged": true,
+  "sum_seats": 120,
+  "one_or_two_seat_fields": [],
+  "turnout": "70.63"
+}

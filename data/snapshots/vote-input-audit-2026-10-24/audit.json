@@ -1,0 +1,307 @@
+{
+  "id": "E012",
+  "reviewed_on": "2026-10-24",
+  "forecast_cutoff": "2026-10-24",
+  "parent_commit": "3ccfcfb402ec3854e888c28b4e7b0cdb6a48a329",
+  "status": "bounded_vote_input_audit_completed_current_allocator_inputs_incomplete",
+  "scope": "Seven previously selected releases, not a new poll collection or model experiment",
+  "polls": [
+    {
+      "poll_id": "c13-consortium-2026-10-23",
+      "pollster_group": "c13_consortium",
+      "publisher": "Channel13 / HaMadad consortium",
+      "source_url": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+      "published_on": "2026-10-23",
+      "reviewed_on": "2026-10-24",
+      "inspection_scope": "Retrieved publisher article text and linked-source inventory; graphics/embedded content not certified as exhaustively extracted.",
+      "complete_current_vote_vector_recovered": false,
+      "reported_vote_percentages": {
+        "amcha_yisrael": 3.1,
+        "reservists_economic": 3,
+        "haredi_public": 1.3
+      },
+      "below_threshold_percentages": {
+        "amcha_yisrael": 3.1,
+        "reservists_economic": 3,
+        "haredi_public": 1.3
+      },
+      "above_threshold_percentages": {},
+      "borderline_seats": {
+        "amcha_yisrael": 0,
+        "reservists_economic": 0
+      },
+      "complete_vote_denominator_verified": false,
+      "full_inventory_verified": false,
+      "note": "Complete published seat vector retained. Exact percentages for most qualifying lists and complete valid-vote denominator not recovered. Published zero seats are not zero support."
+    },
+    {
+      "poll_id": "i24-directpolls-2026-10-23",
+      "pollster_group": "direct_polls_sharon",
+      "publisher": "i24NEWS / Direct Polls",
+      "source_url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+      "published_on": "2026-10-23",
+      "reviewed_on": "2026-10-24",
+      "inspection_scope": "Retrieved publisher article text and linked-source inventory; graphics/embedded content not certified as exhaustively extracted.",
+      "complete_current_vote_vector_recovered": false,
+      "reported_vote_percentages": {
+        "reservists_economic": 2.2
+      },
+      "below_threshold_percentages": {
+        "reservists_economic": 2.2
+      },
+      "above_threshold_percentages": {},
+      "borderline_seats": {
+        "amcha_yisrael": 4,
+        "reservists_economic": 0
+      },
+      "complete_vote_denominator_verified": false,
+      "full_inventory_verified": false,
+      "note": "Complete published seat vector retained. Exact percentages for most qualifying lists and complete valid-vote denominator not recovered. Published zero seats are not zero support."
+    },
+    {
+      "poll_id": "israelhayom-kantar-2026-10-22",
+      "pollster_group": "kantar",
+      "publisher": "Israel Hayom / Kantar",
+      "source_url": "https://www.israelhayom.co.il/news/politics/article/21687549",
+      "published_on": "2026-10-22",
+      "reviewed_on": "2026-10-24",
+      "inspection_scope": "Retrieved publisher article text and linked-source inventory; graphics/embedded content not certified as exhaustively extracted.",
+      "complete_current_vote_vector_recovered": false,
+      "reported_vote_percentages": {
+        "amcha_yisrael": 2.7
+      },
+      "below_threshold_percentages": {
+        "amcha_yisrael": 2.7
+      },
+      "above_threshold_percentages": {},
+      "borderline_seats": {
+        "amcha_yisrael": 0,
+        "reservists_economic": 4
+      },
+      "complete_vote_denominator_verified": false,
+      "full_inventory_verified": false,
+      "note": "Complete published seat vector retained. Exact percentages for most qualifying lists and complete valid-vote denominator not recovered. Published zero seats are not zero support."
+    },
+    {
+      "poll_id": "maariv-lazar-2026-10-23",
+      "pollster_group": "lazar_panel4all",
+      "publisher": "Maariv via Walla",
+      "source_url": "https://www.walla.co.il/news/israel/383958572",
+      "published_on": "2026-10-23",
+      "reviewed_on": "2026-10-24",
+      "inspection_scope": "Retrieved publisher article text and linked-source inventory; graphics/embedded content not certified as exhaustively extracted.",
+      "complete_current_vote_vector_recovered": false,
+      "reported_vote_percentages": {
+        "amcha_yisrael": 3,
+        "reservists_economic": 3.5
+      },
+      "below_threshold_percentages": {
+        "amcha_yisrael": 3
+      },
+      "above_threshold_percentages": {
+        "reservists_economic": 3.5
+      },
+      "borderline_seats": {
+        "amcha_yisrael": 0,
+        "reservists_economic": 4
+      },
+      "complete_vote_denominator_verified": false,
+      "full_inventory_verified": false,
+      "note": "Complete published seat vector retained. Exact percentages for most qualifying lists and complete valid-vote denominator not recovered. Published zero seats are not zero support."
+    },
+    {
+      "poll_id": "n12-midgam-2026-10-23",
+      "pollster_group": "midgam_rc",
+      "publisher": "N12 / Midgam",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+      "published_on": "2026-10-23",
+      "reviewed_on": "2026-10-24",
+      "inspection_scope": "Retrieved publisher article text and linked-source inventory; graphics/embedded content not certified as exhaustively extracted.",
+      "complete_current_vote_vector_recovered": false,
+      "reported_vote_percentages": {
+        "amcha_yisrael": 2.5,
+        "reservists_economic": 2.4,
+        "haredi_public": 0.5,
+        "noam_yisrael": 0.5
+      },
+      "below_threshold_percentages": {
+        "amcha_yisrael": 2.5,
+        "reservists_economic": 2.4,
+        "haredi_public": 0.5,
+        "noam_yisrael": 0.5
+      },
+      "above_threshold_percentages": {},
+      "borderline_seats": {
+        "amcha_yisrael": 0,
+        "reservists_economic": 0
+      },
+      "complete_vote_denominator_verified": false,
+      "full_inventory_verified": false,
+      "note": "Complete published seat vector retained. Exact percentages for most qualifying lists and complete valid-vote denominator not recovered. Published zero seats are not zero support."
+    },
+    {
+      "poll_id": "c14-nextdata-2026-10-22",
+      "pollster_group": "next_data",
+      "publisher": "Channel 14",
+      "source_url": "https://www.c14.co.il/article/1750553",
+      "published_on": "2026-10-22",
+      "reviewed_on": "2026-10-24",
+      "inspection_scope": "Retrieved publisher article text and linked-source inventory; graphics/embedded content not certified as exhaustively extracted.",
+      "complete_current_vote_vector_recovered": false,
+      "reported_vote_percentages": {
+        "reservists_economic": 1.9,
+        "amcha_yisrael": 1.5,
+        "noam_israel": 0.6,
+        "haredi_public": 0.3,
+        "ahi": 0.2
+      },
+      "below_threshold_percentages": {
+        "reservists_economic": 1.9,
+        "amcha_yisrael": 1.5,
+        "noam_israel": 0.6,
+        "haredi_public": 0.3,
+        "ahi": 0.2
+      },
+      "above_threshold_percentages": {},
+      "borderline_seats": {
+        "amcha_yisrael": 0,
+        "reservists_economic": 0
+      },
+      "complete_vote_denominator_verified": false,
+      "full_inventory_verified": false,
+      "note": "Complete published seat vector retained. Exact percentages for most qualifying lists and complete valid-vote denominator not recovered. Published zero seats are not zero support."
+    },
+    {
+      "poll_id": "zman-tatika-2026-10-22",
+      "pollster_group": "tatika_adgenda",
+      "publisher": "Zman Yisrael",
+      "source_url": "https://www.zman.co.il/735649/",
+      "published_on": "2026-10-22",
+      "reviewed_on": "2026-10-24",
+      "inspection_scope": "Retrieved publisher article text and linked-source inventory; graphics/embedded content not certified as exhaustively extracted.",
+      "complete_current_vote_vector_recovered": false,
+      "reported_vote_percentages": {
+        "amcha_yisrael": 3,
+        "reservists_economic": 3.6
+      },
+      "below_threshold_percentages": {
+        "amcha_yisrael": 3
+      },
+      "above_threshold_percentages": {
+        "reservists_economic": 3.6
+      },
+      "borderline_seats": {
+        "amcha_yisrael": 0,
+        "reservists_economic": 4
+      },
+      "complete_vote_denominator_verified": false,
+      "full_inventory_verified": false,
+      "note": "Complete published seat vector retained. Exact percentages for most qualifying lists and complete valid-vote denominator not recovered. Published zero seats are not zero support."
+    }
+  ],
+  "additional_original_source": {
+    "url": "https://themadad.com/סקר-המדד-סקר-אחרון-23-באוקטובר-2026/",
+    "poll_id": "c13-consortium-2026-10-23",
+    "finding": "Pollster release confirms same seat vector and partial borderline percentages. Reports collection22–23 October and1875 respondents; a relative weekday/date discrepancy remains. No full vote table recovered; no existing snapshot changed."
+  },
+  "official_attempts": [
+    {
+      "url": "https://www.gov.il/he/Departments/DynamicCollectors/knesset_election_polls_26",
+      "result": "Introduction readable; returned content contains unpopulated Angular template, not actual report rows. Does not establish no filed reports exist."
+    },
+    {
+      "url": "https://www.gov.il/he/Departments/DynamicCollectors/knesset_election_polls_26?skip=0",
+      "result": "403 through available web reader"
+    },
+    {
+      "url": "https://www.gov.il/he/pages/candidates-lists-26?chapterIndex=4",
+      "result": "Not accessible through available web reader; direct current agreement notice not retrieved"
+    },
+    {
+      "url": "https://www.gov.il/he/departments/units/elections-26",
+      "result": "403 through available web reader"
+    },
+    {
+      "url": "https://www.gov.il/he/pages/election-about-info?chapterindex=4",
+      "result": "Indexed official text updated15 September2026 explicitly says3.25% applies toK26 and describes120 seats/Bader–Ofer; direct opened page empty. Broad rule corroborated, full current legal consolidation not verified."
+    }
+  ],
+  "unmatched_pdf_leads": [
+    {
+      "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election133/he/Survey_4243.pdf",
+      "association": "i24 earlier20October fieldwork per secondary directory",
+      "source_directory": "https://data24.co.il/elections/polls",
+      "result": "403; contents and match not verified; not substituted for final release"
+    },
+    {
+      "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election129/he/Survey_4240.pdf",
+      "association": "Channel14 earlier21October fieldwork per secondary directory",
+      "source_directory": "https://data24.co.il/elections/polls",
+      "result": "403; contents and match not verified; not substituted for final release"
+    },
+    {
+      "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election127/he/Survey_4235.pdf",
+      "association": "Channel13 earlier18October fieldwork per secondary directory",
+      "source_directory": "https://data24.co.il/elections/polls",
+      "result": "403; contents and match not verified; not substituted for final release"
+    },
+    {
+      "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election125/he/Survey_4232.pdf",
+      "association": "N12 earlier19October fieldwork per secondary directory",
+      "source_directory": "https://data24.co.il/elections/polls",
+      "result": "403; contents and match not verified; not substituted for final release"
+    }
+  ],
+  "agreements": {
+    "status": "original_news_report_not_direct_official_filing",
+    "source_url": "https://www.ynet.co.il/news/elections2026/article/hjextlj2gl",
+    "pairs": [
+      [
+        "likud",
+        "religious_zionism_zehut"
+      ],
+      [
+        "yashar",
+        "democrats"
+      ],
+      [
+        "beyachad",
+        "yisrael_beiteinu"
+      ],
+      [
+        "raam",
+        "joint_list"
+      ],
+      [
+        "shas",
+        "united_torah_judaism"
+      ]
+    ],
+    "reported_without_agreement": [
+      "otzma_yehudit",
+      "amcha_yisrael",
+      "reservists_economic"
+    ],
+    "used_for_current_allocation": false
+  },
+  "secondary_discovery_caveats": [
+    {
+      "url": "https://data24.co.il/elections/polls",
+      "note": "Directory leads concern earlier fieldwork, include date/sample mismatches, and do not certify final release shares."
+    },
+    {
+      "url": "https://littlepolls.com/",
+      "note": "Dynamic page; indexed material describes derived sector recombinations/seat-derived percentages and older releases. Not raw final-poll observations; excluded."
+    }
+  ],
+  "decision": {
+    "action": "Carry forward E011 constrained draft unchanged; pause broader model search",
+    "active_draft_path": "reports/electoral-review-2026-10-24/submission-draft.json",
+    "exact_current_bader_ofer": false,
+    "source_freeze_complete": false,
+    "reason": "No complete audited current vote vector or directly verified agreement filing recovered. Do not reconstruct votes from seats or combine partial percentages across different polls.",
+    "next_reopen_condition": "A source-matched full vote table with denominator, all individual lists, decided/undecided treatment and original availability, plus verified agreements, becomes available.",
+    "submitted": false,
+    "merged": false
+  }
+}
