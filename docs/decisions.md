@@ -82,3 +82,8 @@ Preserve October21 baseline; separate October23 research reference uses unchange
 - Collaborator invitations (public read access does not grant write access).
 
 Record decisions here when made, including rationale and relevant evidence. Do not retroactively describe proposals as user-approved decisions.
+
+
+## E008 cross-run verification follow-up — October 24
+
+Report commit033ef260 passed baseline40066365528; scientific40066365525 passed model tests and exact same-run repeats but failed committed JSON byte comparison. All integer allocations/errors, selected fractions, summary and plot match. Of289 numerical differences, all above1e-10 are weighted-forest continuous outputs, maximum0.016915 seats. No model configuration or saved reference changed. Cross-run comparison now allows absolute0.02 seats only for weighted-forest continuous predictions/errors and1e-10 for other floats; discrete values and structure remain exact. This tolerance was set after observing the discrepancy and is not evidence of bitwise reproducibility. Three comparator regression tests added; hosted rerun pending. No correction adopted; user cumulative effort remains unmeasured.

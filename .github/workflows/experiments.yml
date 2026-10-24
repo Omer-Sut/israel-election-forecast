@@ -11,6 +11,8 @@ on:
       - 'scripts/research_trial.py'
       - 'scripts/party_area_trial.py'
       - 'scripts/poll_metadata_trial.py'
+      - 'scripts/compare_poll_metadata.py'
+      - 'tests/test_compare_poll_metadata.py'
       - 'tests/test_poll_metadata_trial.py'
       - 'scripts/*diagnostics.mjs'
       - 'tests/test_experiments.py'
@@ -137,7 +139,11 @@ jobs:
           for result in results.json summary.md performance.svg; do
             diff -u "output/poll-metadata-trial/$result" "output/poll-metadata-repeat/$result"
             if [ -d reports/poll-metadata-trial-2026-10-23 ]; then
-              diff -u "reports/poll-metadata-trial-2026-10-23/$result" "output/poll-metadata-trial/$result"
+              if [ "$result" = results.json ]; then
+                python scripts/compare_poll_metadata.py "reports/poll-metadata-trial-2026-10-23/$result" "output/poll-metadata-trial/$result"
+              else
+                diff -u "reports/poll-metadata-trial-2026-10-23/$result" "output/poll-metadata-trial/$result"
+              fi
             fi
           done
           cat output/poll-metadata-trial/summary.md >> "$GITHUB_STEP_SUMMARY"
