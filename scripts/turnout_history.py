@@ -153,7 +153,7 @@ def write(report,out):
         '![National turnout history](turnout-history.svg)','', '## What changed historically?','']
     for label,s in report['period_summaries'].items():
         lines.append(f"- {label.replace('_','–')}: {s['n']} elections, mean{s['mean']:.2f}%, sample SD{s['sample_sd']:.2f} percentage points.")
-    lines += ['', 'The low2003–2006 period followed a large break from the1990s. Repeated elections did not produce a monotone decline: turnout rose in September2019 and March2020, then fell in2021 and rose in2022. Election fatigue alone is not an established forecast rule. Pandemic, participation composition, competition and election spacing are possible explanations; none is isolated causally here.', '',
+    lines += ['', 'The low2003–2006 period followed a large break from the pre-2000 period. Repeated elections did not produce a monotone decline: turnout rose in September2019 and March2020, then fell in2021 and rose in2022. Election fatigue alone is not an established forecast rule. Pandemic, participation composition, competition and election spacing are possible explanations; none is isolated causally here.', '',
         '## Does the previous election predict the next one?','',
         'For each election t, use only elections before t: previous=T(t−1); mean3=(T(t−1)+T(t−2)+T(t−3))/3; median3=median of those three. Loss is absolute error in percentage points. No fitted coefficients, parameter search or future outcomes enter these predictors. The common comparison begins at K4 after three warm-up elections. Retrospective source versions are used; original historical releases were not reconstructed.', '',
         '| Election | Actual | Previous prediction / error | Mean3 prediction / error | Median3 prediction / error |',
