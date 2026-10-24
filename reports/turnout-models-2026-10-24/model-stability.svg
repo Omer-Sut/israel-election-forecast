@@ -109,7 +109,7 @@
 <circle cx="566.39" cy="303.50" r="3.5" fill="#298269" opacity=".55"><title>linear_change__smooth_gap__wall__a1: MAE2.988, next70.36%</title></circle>
 <circle cx="674.20" cy="282.61" r="3.5" fill="#b87922" opacity=".55"><title>fractional_logit__smooth_gap__wall__a0.001: MAE3.664, next71.51%</title></circle>
 <circle cx="647.40" cy="276.23" r="3.5" fill="#b87922" opacity=".55"><title>fractional_logit__smooth_gap__wall__a0.01: MAE3.496, next71.86%</title></circle>
-<circle cx="533.27" cy="248.02" r="3.5" fill="#b87922" opacity=".55"><title>fractional_logit__smooth_gap__wall__a0.1: MAE2.781, next73.41%</title></circle>
+<circle cx="533.28" cy="248.02" r="3.5" fill="#b87922" opacity=".55"><title>fractional_logit__smooth_gap__wall__a0.1: MAE2.781, next73.41%</title></circle>
 <circle cx="713.99" cy="294.42" r="3.5" fill="#216aa4" opacity=".55"><title>linear_level__smooth_gap__w12__a0: MAE3.914, next70.86%</title></circle>
 <circle cx="710.66" cy="294.36" r="3.5" fill="#216aa4" opacity=".55"><title>linear_level__smooth_gap__w12__a0.01: MAE3.893, next70.86%</title></circle>
 <circle cx="682.55" cy="294.12" r="3.5" fill="#216aa4" opacity=".55"><title>linear_level__smooth_gap__w12__a0.1: MAE3.717, next70.87%</title></circle>

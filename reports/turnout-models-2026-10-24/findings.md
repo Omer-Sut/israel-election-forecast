@@ -41,3 +41,7 @@ There are240 distinct historical prediction vectors at7-decimal precision among2
 The broad grid is now complete. No second adaptive sweep, war adjustment, current-poll calibration or automatic replacement of the70.63% working forecast is adopted. The learned candidates worth discussing are69.43%(recent AR1 ridge) and69.92%(calendar ridge), alongside the simple69.86% mean. The evidence supports considering a value around69–70%, while the apparent0.105-point hindsight gain is too small and selection-sensitive to claim a forecasting improvement.
 
 All configurations, chronological selections, scalers/current coefficients and invalid diagnostics are preserved; inputs are unchanged from E014. No seat forecast, merge or competition submission.
+
+## Numerical verification
+
+The initial L-BFGS report showed cross-CPU numerical variation above the predeclared1e-7 comparison tolerance. Analytic damped Newton now solves the same penalized objective with current maximum gradient below8.2e-14. Fresh repeats passed; old references deliberately require regeneration. Configuration definitions, all chronological selection IDs, rounded conclusions and current selected forecasts remain unchanged. The tolerance was not increased. See PR26 for final committed-reference verification.
