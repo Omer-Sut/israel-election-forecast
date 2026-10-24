@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="510" viewBox="0 0 1120 510">
+<rect width="1120" height="510" fill="white"/><g font-family="Arial,sans-serif" fill="#18314a">
+<text x="25" y="28" font-size="21">Poll metadata: fixed 25% correction, total absolute seat error</text>
+<text x="55" y="65" font-size="17">ridge_10</text>
+<path d="M55,365.0h280" stroke="#ddd"/><text x="27" y="369.0" font-size="12">0</text>
+<path d="M55,297.5h280" stroke="#ddd"/><text x="27" y="301.5" font-size="12">10</text>
+<path d="M55,230.0h280" stroke="#ddd"/><text x="27" y="234.0" font-size="12">20</text>
+<path d="M55,162.5h280" stroke="#ddd"/><text x="27" y="166.5" font-size="12">30</text>
+<path d="M55,95.0h280" stroke="#ddd"/><text x="27" y="99.0" font-size="12">40</text>
+<circle cx="75" cy="284.0" r="4" fill="#777"/>
+<circle cx="155" cy="311.0" r="4" fill="#777"/>
+<circle cx="235" cy="203.0" r="4" fill="#777"/>
+<circle cx="315" cy="284.0" r="4" fill="#777"/>
+<polyline points="75,284.0 155,311.0 235,203.0 315,284.0" fill="none" stroke="#777" stroke-width="2"/>
+<circle cx="75" cy="270.5" r="4" fill="#ab6400"/>
+<circle cx="155" cy="311.0" r="4" fill="#ab6400"/>
+<circle cx="235" cy="203.0" r="4" fill="#ab6400"/>
+<circle cx="315" cy="284.0" r="4" fill="#ab6400"/>
+<polyline points="75,270.5 155,311.0 235,203.0 315,284.0" fill="none" stroke="#ab6400" stroke-width="2"/>
+<circle cx="75" cy="270.5" r="4" fill="#176caa"/>
+<circle cx="155" cy="311.0" r="4" fill="#176caa"/>
+<circle cx="235" cy="203.0" r="4" fill="#176caa"/>
+<circle cx="315" cy="284.0" r="4" fill="#176caa"/>
+<polyline points="75,270.5 155,311.0 235,203.0 315,284.0" fill="none" stroke="#176caa" stroke-width="2"/>
+<circle cx="75" cy="270.5" r="4" fill="#00806b"/>
+<circle cx="155" cy="311.0" r="4" fill="#00806b"/>
+<circle cx="235" cy="203.0" r="4" fill="#00806b"/>
+<circle cx="315" cy="284.0" r="4" fill="#00806b"/>
+<polyline points="75,270.5 155,311.0 235,203.0 315,284.0" fill="none" stroke="#00806b" stroke-width="2"/>
+<text x="55" y="390" font-size="12">Sep2019</text>
+<text x="135" y="390" font-size="12">2020</text>
+<text x="215" y="390" font-size="12">2021</text>
+<text x="295" y="390" font-size="12">2022</text>
+<text x="420" y="65" font-size="17">forest_3_5</text>
+<path d="M420,365.0h280" stroke="#ddd"/><text x="392" y="369.0" font-size="12">0</text>
+<path d="M420,297.5h280" stroke="#ddd"/><text x="392" y="301.5" font-size="12">10</text>
+<path d="M420,230.0h280" stroke="#ddd"/><text x="392" y="234.0" font-size="12">20</text>
+<path d="M420,162.5h280" stroke="#ddd"/><text x="392" y="166.5" font-size="12">30</text>
+<path d="M420,95.0h280" stroke="#ddd"/><text x="392" y="99.0" font-size="12">40</text>
+<circle cx="440" cy="297.5" r="4" fill="#777"/>
+<circle cx="520" cy="311.0" r="4" fill="#777"/>
+<circle cx="600" cy="189.5" r="4" fill="#777"/>
+<circle cx="680" cy="270.5" r="4" fill="#777"/>
+<polyline points="440,297.5 520,311.0 600,189.5 680,270.5" fill="none" stroke="#777" stroke-width="2"/>
+<circle cx="440" cy="270.5" r="4" fill="#ab6400"/>
+<circle cx="520" cy="311.0" r="4" fill="#ab6400"/>
+<circle cx="600" cy="216.5" r="4" fill="#ab6400"/>
+<circle cx="680" cy="270.5" r="4" fill="#ab6400"/>
+<polyline points="440,270.5 520,311.0 600,216.5 680,270.5" fill="none" stroke="#ab6400" stroke-width="2"/>
+<circle cx="440" cy="270.5" r="4" fill="#176caa"/>
+<circle cx="520" cy="311.0" r="4" fill="#176caa"/>
+<circle cx="600" cy="216.5" r="4" fill="#176caa"/>
+<circle cx="680" cy="270.5" r="4" fill="#176caa"/>
+<polyline points="440,270.5 520,311.0 600,216.5 680,270.5" fill="none" stroke="#176caa" stroke-width="2"/>
+<circle cx="440" cy="270.5" r="4" fill="#00806b"/>
+<circle cx="520" cy="311.0" r="4" fill="#00806b"/>
+<circle cx="600" cy="216.5" r="4" fill="#00806b"/>
+<circle cx="680" cy="270.5" r="4" fill="#00806b"/>
+<polyline points="440,270.5 520,311.0 600,216.5 680,270.5" fill="none" stroke="#00806b" stroke-width="2"/>
+<text x="420" y="390" font-size="12">Sep2019</text>
+<text x="500" y="390" font-size="12">2020</text>
+<text x="580" y="390" font-size="12">2021</text>
+<text x="660" y="390" font-size="12">2022</text>
+<text x="785" y="65" font-size="17">xgb_2_50</text>
+<path d="M785,365.0h280" stroke="#ddd"/><text x="757" y="369.0" font-size="12">0</text>
+<path d="M785,297.5h280" stroke="#ddd"/><text x="757" y="301.5" font-size="12">10</text>
+<path d="M785,230.0h280" stroke="#ddd"/><text x="757" y="234.0" font-size="12">20</text>
+<path d="M785,162.5h280" stroke="#ddd"/><text x="757" y="166.5" font-size="12">30</text>
+<path d="M785,95.0h280" stroke="#ddd"/><text x="757" y="99.0" font-size="12">40</text>
+<circle cx="805" cy="284.0" r="4" fill="#777"/>
+<circle cx="885" cy="311.0" r="4" fill="#777"/>
+<circle cx="965" cy="216.5" r="4" fill="#777"/>
+<circle cx="1045" cy="270.5" r="4" fill="#777"/>
+<polyline points="805,284.0 885,311.0 965,216.5 1045,270.5" fill="none" stroke="#777" stroke-width="2"/>
+<circle cx="805" cy="284.0" r="4" fill="#ab6400"/>
+<circle cx="885" cy="311.0" r="4" fill="#ab6400"/>
+<circle cx="965" cy="230.0" r="4" fill="#ab6400"/>
+<circle cx="1045" cy="270.5" r="4" fill="#ab6400"/>
+<polyline points="805,284.0 885,311.0 965,230.0 1045,270.5" fill="none" stroke="#ab6400" stroke-width="2"/>
+<circle cx="805" cy="270.5" r="4" fill="#176caa"/>
+<circle cx="885" cy="311.0" r="4" fill="#176caa"/>
+<circle cx="965" cy="230.0" r="4" fill="#176caa"/>
+<circle cx="1045" cy="270.5" r="4" fill="#176caa"/>
+<polyline points="805,270.5 885,311.0 965,230.0 1045,270.5" fill="none" stroke="#176caa" stroke-width="2"/>
+<circle cx="805" cy="270.5" r="4" fill="#00806b"/>
+<circle cx="885" cy="311.0" r="4" fill="#00806b"/>
+<circle cx="965" cy="230.0" r="4" fill="#00806b"/>
+<circle cx="1045" cy="270.5" r="4" fill="#00806b"/>
+<polyline points="805,270.5 885,311.0 965,230.0 1045,270.5" fill="none" stroke="#00806b" stroke-width="2"/>
+<text x="785" y="390" font-size="12">Sep2019</text>
+<text x="865" y="390" font-size="12">2020</text>
+<text x="945" y="390" font-size="12">2021</text>
+<text x="1025" y="390" font-size="12">2022</text>
+<path d="M25,430h20" stroke="#777" stroke-width="3"/><text x="50" y="435" font-size="13">aggregate</text>
+<path d="M300,430h20" stroke="#ab6400" stroke-width="3"/><text x="325" y="435" font-size="13">poll_basic</text>
+<path d="M575,430h20" stroke="#176caa" stroke-width="3"/><text x="600" y="435" font-size="13">poll_metadata</text>
+<path d="M850,430h20" stroke="#00806b" stroke-width="3"/><text x="875" y="435" font-size="13">poll_metadata_weighted</text>
+<text x="25" y="475" font-size="13">Lower is better. Full continuous and earlier-OOF-selected results are saved alongside this plot.</text>
+</g></svg>

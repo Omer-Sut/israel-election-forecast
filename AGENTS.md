@@ -1,5 +1,7 @@
 # Instructions for project agents
 
+E008 continuation: read docs/poll-metadata-trial.md and reports/poll-metadata-trial-2026-10-23/analysis.md. User wants poll quality to improve main-model training. Implementation66d76c3 / PR19 stacks onPR18; screen39952455330/baseline39952455404 passed70 scientific tests, deterministic E008/frozen checks. Four ablations isolate poll representation, metadata and past-only training weights; preserve campaign/firm balance, unseen categories, missing methodology and strict earlier-campaign weights for each training row. No historical/current alias conflation. Metadata/weighted25% rounded vectors equal poll-basic in2021/2022; small continuous changes, no adopted correction/weights. Further evidence needs audited methodology coverage, not another same-grid sweep. LocalGit remains stale; verify live remote before publishing.
+
 ## Read before working
 
 Read `README.md`, `docs/competition-brief.md`, `docs/project-state.md`, and `docs/decisions.md`. Consult `docs/session-log.md` for history and `docs/data-sources.md` before collecting data. The original Hebrew PDF remains the requirements source of truth.
