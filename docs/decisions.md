@@ -1,6 +1,13 @@
 # Decisions and open questions
 
 
+## E010 — current forecast review, October 24
+
+User authorized preparing final options. Added five complete current releases in a separate snapshot, preserving all ten old records: N12/C13/Maariv/i24 October23 and IsraelHayom/Kantar October22. Seven reporting groups. Kan23 Democrats8/9 source conflict and Channel16 original-graphic gap stay excluded from the main reference, with explicit secondary sensitivities. Official CEC403/Knesset geo-block persist. Completed BlueandWhite list withdrawal is news-reported, not direct-official verified; all selected polls already allocate zero. Existing current form mappings retained.
+
+Standard-library scripts/forecast_review.py prepares rounded mean, L1, zero-or-3/4 sensitivities, four fixed0/4 scenarios, omission checks, six-election retrospective threshold diagnostics, validated outputs, plot and<=500word method draft. Rounded mean remains provisional; no learned correction or threshold policy adopted. No probability/official allocator claim. Turnout persistence70.63%, configured bounds enforced. See [forecast-review.md](forecast-review.md). Implementation and five contract tests prepared; hosted execution pending at this commit. Source freeze remains incomplete; next resolve Kan/Channel16 source gaps and direct official verification, then user review of a concrete final vector. No merge/submission; localGitHEAD3055db4 stale; cumulative user effort unmeasured.
+
+
 ## E009 — final-poll coverage comparison, October 24
 
 User requested testing whether2021's larger error is due to available polls. Separate diagnostic adds six factual transcriptions: one original publisher, one attributed republication, four dated secondary reports. Both broader panels have the same six firms; secondary records remain excluded from training/frozen inputs. [Analysis and plot](../reports/final-poll-coverage-2026-10-24/analysis.md), [protocol](final-poll-coverage.md). Continuous error2021/2022: old different three-firm sets20.667/12.667; same six19.333/13; same original-publisher trio20.667/16.667; matched five excluding Direct20.4/15.2. Selection therefore matters, but shared2021 party misses persist. All single-firm deletion continuous errors remain higher for2021. No causal attribution to late movement or turnout; no hindsight best-firm exclusion or learned correction adopted.

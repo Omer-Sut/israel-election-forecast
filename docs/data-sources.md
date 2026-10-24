@@ -112,3 +112,6 @@ GitHub is the durable source of truth. Prefer small redistributable input snapsh
 ## E009 final-poll coverage audit (October24)
 
 Separate source-tiered diagnostic: data/snapshots/final-poll-coverage-2026-10-24/audit.json. One original-publisher addition, one attributed republication, four complete dated secondary reports. These are not silently promoted into training. Smith incomplete source/graphic excluded. Original Hebrew publisher labels are preserved through historical Hebrew list identifiers; see the audit for exact transcriptions, source URLs, dates and limits. No raw page hashes fabricated.
+
+
+E010 October24 source review: five complete current releases added in data/snapshots/polls-2026-10-24.json; original records preserved. Seven groups after grouping Kantar and Lazar by firm. Kan final secondary8/9 conflict and Channel16 original-graphic gap remain explicit exclusions; unknown metadata not copied from indexes. New versions conservatively availableOctober24. Direct official inventory remains inaccessible; news-reported BlueandWhite withdrawal distinguished from official verification. See docs/forecast-review.md and embedded source URLs/audits.
