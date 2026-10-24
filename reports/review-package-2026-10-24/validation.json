@@ -1,0 +1,10 @@
+{
+  "reference_equal_to_fresh_E011": true,
+  "forecast_copy_sha256": "848b92494e1aeeff3e076c6005508c623827adda655a3bd4d4acaecce9078507",
+  "reference_sha256": "848b92494e1aeeff3e076c6005508c623827adda655a3bd4d4acaecce9078507",
+  "scenarios_pass_contract_total_minimum_and_turnout": true,
+  "scenario3_matches_reference": true,
+  "method_word_count": 309,
+  "source_freeze_complete": false,
+  "submitted": false
+}

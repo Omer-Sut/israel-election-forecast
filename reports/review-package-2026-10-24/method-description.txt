@@ -1,0 +1,11 @@
+We use the latest reviewed release from each polling group within a 14-day window, with equal weights across seven groups. Complete published seat tables are mapped explicitly to the competition fields. We select the integer vector minimizing squared distance to their mean, subject to a total of 120 and each electoral list receiving either zero or at least three seats. Ties minimize absolute poll disagreement, then follow fixed field order. This implements the requested exclusion of one- and two-seat predictions. The retained forecast gives Amcha zero and Reservists three seats; the latter is a constrained compromise, not a poll-reported outcome or estimated mode.
+
+Conditional alternatives fix Reservists at zero or four while keeping Amcha, Blue and White and other qualifying lists at zero, then reallocate the remaining seats under the same objective and constraints. They have no assigned probabilities and are not vote-to-seat simulations.
+
+A separate exact vote allocator implements Bader–Ofer thresholding, surplus agreements and remainder allocation, and reproduces all 40 official 2022 list results using historically reported agreements. Current polls provide only partial vote percentages, so we cannot identify a complete current vote-based allocation. We do not infer votes from published seats. Current alliance-to-form mappings remain explicit assumptions; historical identities remain separate. Other qualifying lists must be allocated individually before aggregation.
+
+Chronological trials of alternative models and features did not establish dependable improvements warranting learned corrections. Historical outcomes have already been inspected and are not an untouched holdout. Continuous errors remain diagnostics; the competition loss is total absolute seat error.
+
+Turnout uses the last official election’s 70.63% as a persistence estimate, checked against the inclusive 40–100% form bounds and displayed to two decimals. Poll voting intentions are not substituted for turnout.
+
+Inputs, code and outputs are versioned in GitHub. Source conflicts and official inventory/agreement verification remain unresolved. The package is provisional and no competition entry has been submitted.

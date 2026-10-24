@@ -1,0 +1,42 @@
+name: Freeze forecast review package
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/review_package.py'
+      - 'tests/test_review_package.py'
+      - 'reports/review-package-2026-10-24/**'
+      - '.github/workflows/review-package.yml'
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Verify reference preservation and scenario reallocations
+        run: python -m unittest discover -s tests -p test_review_package.py -v
+      - name: Freeze and reproduce package
+        run: |
+          python scripts/review_package.py
+          python scripts/review_package.py --out-dir output/review-package-repeat > output/review-package-repeat.log
+          for file in package.json forecast.json review.md scenario-comparison.csv reservists-scenarios.svg method-description.txt inputs-manifest.json validation.json; do
+            diff -u "output/review-package/$file" "output/review-package-repeat/$file"
+            if [ -d reports/review-package-2026-10-24 ]; then
+              diff -u "reports/review-package-2026-10-24/$file" "output/review-package/$file"
+            fi
+          done
+          cat output/review-package/review.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: forecast-review-package
+          path: output/review-package/
+          if-no-files-found: error
+          retention-days: 30
