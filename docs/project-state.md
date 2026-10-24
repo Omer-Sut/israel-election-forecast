@@ -1,5 +1,10 @@
 ﻿# Current project state
 
+## E011 — electoral allocation, October 24, 2026
+
+User requires excluding 1/2-seat predictions. E010's archived submission draft is superseded; earlier continuous scores remain diagnostics. Active entry point: python scripts/electoral_review.py. New constrained mean decision uses each list0or3+ and total120, changing Amcha1→0 and Reservists2→3; turnout70.63%. This is interim seat-space projection, not an exact current Bader–Ofer outcome. A separate exact vote allocator implements threshold, integer quota, surplus pairing, remainder quotients, half-seat safeguard and unresolved lottery errors. Complete2022 votes and reported historical agreements are used only for calculation verification, not forecasting. Current full vote-share inventory and official agreements remain missing; no votes inferred from published seats. Other qualifiers must be disaggregated. Hosted tests/report reproduction pending on implementation commit; inspect PR for verified results. Preserve frozen reports. Local HEAD3055db4 remains stale; publish on a new branch stacked on PR21 after verifying remote parent. Cumulative user effort unmeasured.
+
+
 
 ## E010 — current forecast review, October 24
 

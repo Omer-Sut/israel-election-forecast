@@ -65,3 +65,5 @@ E009 continuation: read docs/final-poll-coverage.md and reports/final-poll-cover
 
 
 E010 continuation: read docs/forecast-review.md. Separate October24snapshot preserves old10records and adds5complete releases/seven groups. Kan23Democrats8/9 conflict and Channel16 original-graphic gap excluded from reference; secondary sensitivities explicit. Official inventory/allocator not verified; BlueandWhite completed withdrawal news-reported. Source freeze incomplete. scripts/forecast_review.py prepares concrete options, zero-or-3/4 assumptions and four0/4 scenarios, six-election retrospective check and<=500word method draft; no threshold policy adopted merely from inspected historical gains. Check latest PR/Actions status; localGitHEAD remains stale.
+
+E011 continuation: user requires no1/2-seat current outputs. Use scripts/electoral_review.py with scripts/bader_ofer.py strict export gate. E010 draft superseded; preserve archived outputs. True allocator takes complete individual vote counts, no seat-as-vote reconstruction. Current shares/official agreements incomplete. Hosted verification pending; inspect latest topic PR. Local Git stale.
