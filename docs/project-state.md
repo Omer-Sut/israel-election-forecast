@@ -1,5 +1,12 @@
 ﻿# Current project state
 
+## E014 — turnout history work, October 24, 2026
+
+User reopened turnout as a priority and requested past-event analysis. Added separate25-election1949–2022 snapshot, preserving CBS publication/coverage mismatch, recent CEC precision, ballots/eligible denominator and source conflicts (1984 explicit78.8 override; raw retrieved79.8 retained).2001 PM-only excluded. scripts/turnout_history.py compares three fixed past-only references, recent six/equal-three-block sensitivity, curated onset-based conflict context and two2022 turnout-intention observations. No fitted coefficient, calibrated probability, causal war/COVID claim or new turnout/seat decision. Current70.63% remains a placeholder; frozen E013 package unchanged.
+
+Read docs/turnout-history.md. Four new tests and dedicated hosted repeat/reference workflow prepared; execution pending at preparation. E014 stacks on verified PR24 headc31d176, whose package40091721369 and baseline40091721373 passed (87 discovered tests,5 optional skips); all14 report/handoff paths verified, artifact12558789469 available. Source/publication-vintage limitations remain explicit. Publish on a separate topic branch, no merge/submission. Local GitHEAD3055db4 stale. Cumulative user hands-on effort unmeasured; bounded historical diagnostic, no broad model search.
+
+
 ## E013 — frozen review package, October 24, 2026
 
 User approved preparing one review package: full forecast, conditional Reservists0/3/4 allocations and an actual-method description below500words. New scripts/review_package.py preserves the E011 reference byte-for-byte and derives alternatives from the same seven-group mean, minimum3 and total120, fixing Amcha/BlueandWhite/other qualifiers at zero. It isolates the Reservists assumption rather than mixing minimum3/4 policies. No current forecast change, fitted model, new source, probability, full current Bader–Ofer claim, merge or submission. Source freeze remains incomplete.

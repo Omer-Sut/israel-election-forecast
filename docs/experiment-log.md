@@ -181,3 +181,10 @@ Package outputs go to reports/review-package-2026-10-24: full table, signed chan
 
 
 E013 implementation05949c6f272bdb3587c1c3e51ac949637bd766de / PR24 (stacked on PR23): hosted package40091489461 passed both new tests and exact repeat. Method309words; reference copy SHA256848b92494e1aeeff3e076c6005508c623827adda655a3bd4d4acaecce9078507 unchanged. Reservists0 redistributes one seat each to Likud/UTJ/Raam; Reservists4 removes one from ReligiousZionism. All options120/no1/2. Reports saved in reports/review-package-2026-10-24; final report-commit comparison pending. Keep reference Reservists3. No merge/submission; source freeze incomplete. Use PR final verification for latest checks and authoritative remote head; local Git remains stale.
+
+
+## E014 — turnout history work, October 24, 2026
+
+User reopened turnout as a priority and requested past-event analysis. Added separate25-election1949–2022 snapshot, preserving CBS publication/coverage mismatch, recent CEC precision, ballots/eligible denominator and source conflicts (1984 explicit78.8 override; raw retrieved79.8 retained).2001 PM-only excluded. scripts/turnout_history.py compares three fixed past-only references, recent six/equal-three-block sensitivity, curated onset-based conflict context and two2022 turnout-intention observations. No fitted coefficient, calibrated probability, causal war/COVID claim or new turnout/seat decision. Current70.63% remains a placeholder; frozen E013 package unchanged.
+
+Read docs/turnout-history.md. Four new tests and dedicated hosted repeat/reference workflow prepared; execution pending at preparation. E014 stacks on verified PR24 headc31d176, whose package40091721369 and baseline40091721373 passed (87 discovered tests,5 optional skips); all14 report/handoff paths verified, artifact12558789469 available. Source/publication-vintage limitations remain explicit. Publish on a separate topic branch, no merge/submission. Local GitHEAD3055db4 stale. Cumulative user hands-on effort unmeasured; bounded historical diagnostic, no broad model search.
