@@ -62,3 +62,6 @@ The public repository is https://github.com/Omer-Sut/israel-election-forecast. I
 
 
 E009 continuation: read docs/final-poll-coverage.md and reports/final-poll-coverage-2026-10-24/analysis.md. Source-tiered six-firm diagnostic is separate from training: one new original publisher, one attributed republication, four secondary reports. Never silently promote additions into frozen inputs.2021 gap partly depends on selected firms; no causal attribution or correction adopted. Direct2021 adjusted-projection status uncertain; Smith excluded for source gaps. Check live topic branch/PR checks; local Git HEAD remains stale.
+
+
+E010 continuation: read docs/forecast-review.md. Separate October24snapshot preserves old10records and adds5complete releases/seven groups. Kan23Democrats8/9 conflict and Channel16 original-graphic gap excluded from reference; secondary sensitivities explicit. Official inventory/allocator not verified; BlueandWhite completed withdrawal news-reported. Source freeze incomplete. scripts/forecast_review.py prepares concrete options, zero-or-3/4 assumptions and four0/4 scenarios, six-election retrospective check and<=500word method draft; no threshold policy adopted merely from inspected historical gains. Check latest PR/Actions status; localGitHEAD remains stale.

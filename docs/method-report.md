@@ -66,3 +66,9 @@ Preliminary input/config/code hashes and outputs: `reports/baseline-2026-10-21/`
 
 
 E009 research-only diagnostic (October24): broader source-tiered final-poll and common-firm comparison executed without fitting. The2021/2022 continuous-error gap falls from8 to6.333 with six matched firms and to4 with three matched original publishers. Shared directional party misses persist; this does not identify a cause or change the forecast method. See final-poll-coverage.md.
+
+
+E010 preparation: seven-group current reference refresh and explicit seat-space threshold sensitivities; no new learned correction. Standard-library hosted run will export a concrete<=500word method draft alongside decisions and validation. Do not call the package final or source freeze complete: Kan/Channel16 source gaps and direct official verification remain. Check PR execution before treating prepared diagnostics as run.
+
+
+E010 executed: initial forecast-review40070762691 passed five tests and exact repeats. Seven-group reference and six-election threshold sensitivities are preserved; all rules tie2021/2022, mixed earlier outcomes. Retain mean provisionally. A221word executed-method draft is in reports/forecast-review-2026-10-24/method-draft.txt, alongside source gaps and an explicit provisional export. Final committed-reference comparison is checked on the PR head.
