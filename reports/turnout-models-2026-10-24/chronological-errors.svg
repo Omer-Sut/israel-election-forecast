@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="550" viewBox="0 0 1100 550"><rect width="1100" height="550" fill="white"/><g font-family="Arial,sans-serif" fill="#18324a">
+<text x="25" y="30" font-size="22">Turnout errors: model choice made before each target election</text>
+<text x="25" y="55" font-size="13">Six recent outcomes, including the correlated 2019–2021 cluster. Lower error is better.</text>
+<path d="M90,440.00H1030" stroke="#e1e6ea"/><text x="25" y="444.00" font-size="12">0.0pp</text>
+<path d="M90,355.00H1030" stroke="#e1e6ea"/><text x="25" y="359.00" font-size="12">2.9pp</text>
+<path d="M90,270.00H1030" stroke="#e1e6ea"/><text x="25" y="274.00" font-size="12">5.9pp</text>
+<path d="M90,185.00H1030" stroke="#e1e6ea"/><text x="25" y="189.00" font-size="12">8.8pp</text>
+<path d="M90,100.00H1030" stroke="#e1e6ea"/><text x="25" y="104.00" font-size="12">11.8pp</text>
+<polyline points="120,308.99 295,328.94 470,400.38 645,391.12 820,322.00 995,347.74" fill="none" stroke="#216aa4" stroke-width="2"/>
+<circle cx="120" cy="308.99" r="4" fill="#216aa4"><title>previous_election: 4.530pp</title></circle>
+<circle cx="295" cy="328.94" r="4" fill="#216aa4"><title>previous_election: 3.840pp</title></circle>
+<circle cx="470" cy="400.38" r="4" fill="#216aa4"><title>previous_election: 1.370pp</title></circle>
+<circle cx="645" cy="391.12" r="4" fill="#216aa4"><title>previous_election: 1.690pp</title></circle>
+<circle cx="820" cy="322.00" r="4" fill="#216aa4"><title>previous_election: 4.080pp</title></circle>
+<circle cx="995" cy="347.74" r="4" fill="#216aa4"><title>previous_election: 3.190pp</title></circle>
+<text x="25" y="500" fill="#216aa4" font-size="14">previous_election</text>
+<polyline points="120,238.23 295,434.12 470,430.75 645,401.73 820,367.79 995,410.11" fill="none" stroke="#298269" stroke-width="2"/>
+<circle cx="120" cy="238.23" r="4" fill="#298269"><title>last_three_mean: 6.977pp</title></circle>
+<circle cx="295" cy="434.12" r="4" fill="#298269"><title>last_three_mean: 0.203pp</title></circle>
+<circle cx="470" cy="430.75" r="4" fill="#298269"><title>last_three_mean: 0.320pp</title></circle>
+<circle cx="645" cy="401.73" r="4" fill="#298269"><title>last_three_mean: 1.323pp</title></circle>
+<circle cx="820" cy="367.79" r="4" fill="#298269"><title>last_three_mean: 2.497pp</title></circle>
+<circle cx="995" cy="410.11" r="4" fill="#298269"><title>last_three_mean: 1.033pp</title></circle>
+<text x="565" y="500" fill="#298269" font-size="14">last_three_mean</text>
+<polyline points="120,291.70 295,212.23 470,393.75 645,130.91 820,324.51 995,365.47" fill="none" stroke="#b87922" stroke-width="2"/>
+<circle cx="120" cy="291.70" r="4" fill="#b87922"><title>nested:all_recent6: 5.128pp</title></circle>
+<circle cx="295" cy="212.23" r="4" fill="#b87922"><title>nested:all_recent6: 7.876pp</title></circle>
+<circle cx="470" cy="393.75" r="4" fill="#b87922"><title>nested:all_recent6: 1.599pp</title></circle>
+<circle cx="645" cy="130.91" r="4" fill="#b87922"><title>nested:all_recent6: 10.687pp</title></circle>
+<circle cx="820" cy="324.51" r="4" fill="#b87922"><title>nested:all_recent6: 3.993pp</title></circle>
+<circle cx="995" cy="365.47" r="4" fill="#b87922"><title>nested:all_recent6: 2.577pp</title></circle>
+<text x="25" y="527" fill="#b87922" font-size="14">nested:all_recent6</text>
+<polyline points="120,291.70 295,212.23 470,393.75 645,130.91 820,324.51 995,364.12" fill="none" stroke="#a15aa3" stroke-width="2"/>
+<circle cx="120" cy="291.70" r="4" fill="#a15aa3"><title>nested:glm_recent6: 5.128pp</title></circle>
+<circle cx="295" cy="212.23" r="4" fill="#a15aa3"><title>nested:glm_recent6: 7.876pp</title></circle>
+<circle cx="470" cy="393.75" r="4" fill="#a15aa3"><title>nested:glm_recent6: 1.599pp</title></circle>
+<circle cx="645" cy="130.91" r="4" fill="#a15aa3"><title>nested:glm_recent6: 10.687pp</title></circle>
+<circle cx="820" cy="324.51" r="4" fill="#a15aa3"><title>nested:glm_recent6: 3.993pp</title></circle>
+<circle cx="995" cy="364.12" r="4" fill="#a15aa3"><title>nested:glm_recent6: 2.624pp</title></circle>
+<text x="565" y="527" fill="#a15aa3" font-size="14">nested:glm_recent6</text>
+<text x="85" y="465" font-size="12">2015-03-17</text>
+<text x="260" y="465" font-size="12">2019-04-09</text>
+<text x="435" y="465" font-size="12">2019-09-17</text>
+<text x="610" y="465" font-size="12">2020-03-02</text>
+<text x="785" y="465" font-size="12">2021-03-23</text>
+<text x="960" y="465" font-size="12">2022-11-01</text>
+</g></svg>

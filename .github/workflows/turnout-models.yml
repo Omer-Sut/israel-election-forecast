@@ -1,0 +1,53 @@
+name: Screen turnout time-series regressions
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/turnout_models.py'
+      - 'scripts/compare_turnout_models.py'
+      - 'tests/test_turnout_models.py'
+      - 'config/turnout-models.json'
+      - 'requirements-turnout.txt'
+      - 'reports/turnout-models-2026-10-24/**'
+      - '.github/workflows/turnout-models.yml'
+permissions:
+  contents: read
+jobs:
+  screen:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-turnout.txt
+      - name: Install optional locked turnout dependencies
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-turnout.txt
+          python -m pip check
+      - name: Test regression fits and information boundaries
+        run: python -m unittest discover -s tests -p test_turnout_models.py -v
+      - name: Fit and verify time-series configurations
+        run: |
+          python scripts/turnout_models.py
+          python scripts/turnout_models.py --out-dir output/turnout-models-repeat > output/turnout-models-repeat.log
+          python scripts/compare_turnout_models.py output/turnout-models output/turnout-models-repeat
+          if [ -d reports/turnout-models-2026-10-24 ]; then
+            python scripts/compare_turnout_models.py reports/turnout-models-2026-10-24 output/turnout-models
+          fi
+          cat output/turnout-models/analysis.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: turnout-models
+          path: output/turnout-models/
+          if-no-files-found: error
+          retention-days: 30
