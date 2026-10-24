@@ -1,5 +1,12 @@
 ﻿# Current project state
 
+## E015 — turnout time-series fitting, October 24, 2026
+
+User requested many linear/GLM configurations. Prepared264 fits across8 strictly historical feature groups,3 training windows and level/change ridge plus fractional-logit penalties. No new observations, war/poll calibration or baseline dependencies. Six earlier lag-complete training rows;16 common outer targets; tune from earlier OOF errors only. Four predeclared chronological selectors retain simple references; hindsight rankings separate. Form bounds applied before point selection, unconstrained/convergence diagnostics preserved. Read docs/turnout-models.md and config/turnout-models.json. Optional hosted NumPy/SciPy workflow and5 tests prepared; execution pending.
+
+Current70.63% remains unchanged at preparation. E014 PR25 head2c5f2e7 passed turnout40093149064, baseline40093149045 and scientific40093149051 (91 scientific tests), with14 final file hashes verified and artifact12560240122 available. E015 stacks on verified PR25. Local GitHEAD3055db4 stale. User's explicit many-configuration request authorizes this bounded screen; cumulative hands-on effort unmeasured. No merge/submission. Record executed results and keep/reject reasoning before any adoption.
+
+
 ## E014 — turnout history work, October 24, 2026
 
 User reopened turnout as a priority and requested past-event analysis. Added separate25-election1949–2022 snapshot, preserving CBS publication/coverage mismatch, recent CEC precision, ballots/eligible denominator and source conflicts (1984 explicit78.8 override; raw retrieved79.8 retained).2001 PM-only excluded. scripts/turnout_history.py compares three fixed past-only references, recent six/equal-three-block sensitivity, curated onset-based conflict context and two2022 turnout-intention observations. No fitted coefficient, calibrated probability, causal war/COVID claim or new turnout/seat decision. Current70.63% remains a placeholder; frozen E013 package unchanged.
