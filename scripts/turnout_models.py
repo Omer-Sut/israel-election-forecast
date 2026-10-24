@@ -214,10 +214,13 @@ def build(config=None,rows=None):
 def write(report,out):
     out.mkdir(parents=True,exist_ok=True)
     def save(name,text):(out/name).write_text(text,encoding='utf-8',newline='\n')
-    save('results.json',json.dumps(report,ensure_ascii=False,indent=2,allow_nan=False)+'\n')
+    # Store historical rows once in CSV, keeping versioned result files small.
+    compact={k:v for k,v in report.items() if k!='historical_predictions'}
+    compact['historical_predictions_file']='predictions.csv'
+    save('results.json',json.dumps(compact,ensure_ascii=False,indent=2,allow_nan=False)+'\n')
     with (out/'predictions.csv').open('w',encoding='utf-8',newline='') as f:
-        w=csv.writer(f,lineterminator='\n');w.writerow(['id','knesset','date','prediction_pct','actual_pct','error_pp','eligible'])
-        for r in report['historical_predictions']:w.writerow([r['id'],r['knesset'],r['election_date'],f"{r['prediction_pct']:.6f}",f"{r['actual_pct']:.6f}",f"{r['absolute_error_pp']:.6f}",r['eligible']])
+        w=csv.writer(f,lineterminator='\n');w.writerow(['id','knesset','date','family','prediction_pct','actual_pct','error_pp','eligible','fit_status','training_knessets'])
+        for r in report['historical_predictions']:w.writerow([r['id'],r['knesset'],r['election_date'],r['family'],r['prediction_pct'],r['actual_pct'],r['absolute_error_pp'],r['eligible'],r['fit_status'],json.dumps(r['training_knessets'])])
     with (out/'configurations.csv').open('w',encoding='utf-8',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(['id','family','recent_mae_pp','all_mae_pp','block_mae_pp','recent_worst_pp','next_prediction_pct','invalid_folds','current_eligible'])
         for ident,v in report['scores'].items():w.writerow([ident,v['family'],*[f'{v[k]:.6f}' for k in ('recent_mae','all_mae','recent_block_mae','recent_worst','current_prediction_pct')],v['invalid_folds'],v['current_eligible']])

@@ -13,3 +13,11 @@ Recent six-election and equal-three-block scores retain the2019–2021 dependenc
 Reproduce with requirements-turnout.txt then python scripts/turnout_models.py. Outputs include full JSON, prediction/configuration CSVs, chronological error and stability plots, analysis and hashes. Dedicated workflow runs twice and compares numeric JSON/CSV values within absolute1e-7, exact text/plots and exact configuration/selection IDs. The same tolerance is fixed before execution; meaningful changes or discrete selection changes fail. Five tests cover feature boundaries, past-only selection/admissibility, known linear fit/train-only scaling, fractional-logit constant-response fit and comparator sensitivity. Baseline skips optional fits when dependencies are absent.
 
 No final model, vote/seat change, merge or competition entry is selected by preparing this screen. Read the topic PR for executed results and validation.
+
+## Method references
+
+The [Papke–Wooldridge original fractional-response paper](https://www.nber.org/papers/t0147) motivates a logistic conditional mean with quasi-likelihood for proportions. Our small-election sample does not justify its large-sample inference claims; we report chronological prediction errors. Implementation uses [NumPy2.2 least squares](https://numpy.org/doc/2.2/reference/generated/numpy.linalg.lstsq.html) and [SciPy1.15.3 minimize](https://docs.scipy.org/doc/scipy-1.15.3/reference/generated/scipy.optimize.minimize.html), with exact objectives documented above. No statsmodels dependency is installed.
+
+## Executed evidence
+
+Read reports/turnout-models-2026-10-24/findings.md for numerical findings and keep/reject reasoning. The saved coefficients/scalers are for current fits; historical rows preserve training IDs, status and predictions and are reproducible from the code. No claim is made that every historical fit’s coefficient array is stored.
