@@ -1,5 +1,12 @@
 ﻿# Current project state
 
+## E015 publication repair — authoritative replacement PR27
+
+The regenerated analytic-Newton reference commit63a66de9cf44e8f2b8ff1d7c22a1708ab4a29a3f is verified in the remote tree. PR26 remained indexed at older674e67a and did not schedule checks for63a66de despite the branch ref advancing. Created feat/turnout-models-verified from63a66de and PR27 stacked on PR25; fresh PR head correctly matches63a66de. PR26 is explicitly titled/body-marked superseded; do not merge its old reference. No force-push, merge or data/grid/selection/tolerance change.
+
+Use PR27 and live feat/turnout-models-verified for final execution evidence and handoff. Tests on regenerated outputs are pending at this documentation commit; PR final record supersedes pending wording. Analytical conclusions remain: AR1 ridge69.43%, calendar ridge69.92%, best fixed GLM69.56%; simple mean3=69.86%. Hindsight recent1.954 versus2.059pp is not validated selection skill. All past-only selector IDs unchanged after numerical repair. Working70.63% and seat draft remain unchanged. Local GitHEAD3055db4 stale; do not publish a local snapshot blindly.
+
+
 ## E015 — turnout time-series fitting, October 24, 2026
 
 User requested many linear/GLM configurations. Prepared264 fits across8 strictly historical feature groups,3 training windows and level/change ridge plus fractional-logit penalties. No new observations, war/poll calibration or baseline dependencies. Six earlier lag-complete training rows;16 common outer targets; tune from earlier OOF errors only. Four predeclared chronological selectors retain simple references; hindsight rankings separate. Form bounds applied before point selection, unconstrained/convergence diagnostics preserved. Read docs/turnout-models.md and config/turnout-models.json. Optional hosted NumPy/SciPy workflow and5 tests prepared; execution pending.
