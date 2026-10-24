@@ -1,5 +1,12 @@
 ﻿# Current project state
 
+## E013 — frozen review package, October 24, 2026
+
+User approved preparing one review package: full forecast, conditional Reservists0/3/4 allocations and an actual-method description below500words. New scripts/review_package.py preserves the E011 reference byte-for-byte and derives alternatives from the same seven-group mean, minimum3 and total120, fixing Amcha/BlueandWhite/other qualifiers at zero. It isolates the Reservists assumption rather than mixing minimum3/4 policies. No current forecast change, fitted model, new source, probability, full current Bader–Ofer claim, merge or submission. Source freeze remains incomplete.
+
+Package outputs go to reports/review-package-2026-10-24: full table, signed changes/plot, method text, exact forecast copy, input hashes and validation. Two new tests check scenario redistribution and reference preservation; dedicated hosted workflow runs twice and compares committed results when present. Hosted validation pending at implementation preparation; inspect topic PR for final evidence. PR23 head8bccf36 passed baseline40090777155 and scientific40090777187 (85 scientific tests), with all10 audit/handoff paths verified. E013 stacks on that verified parent; local GitHEAD3055db4 is stale. Cumulative user hands-on effort remains unmeasured. Next: review the package, resolve remaining official inventory/form/source questions if evidence becomes available, and obtain explicit authorization before any actual submission.
+
+
 ## E012 — bounded vote-share audit, October 24, 2026
 
 Checked all seven selected publisher releases and a new original HaMadad final release. No complete matching vote-share vector recovered; this does not prove reports do not exist. CEC dynamic poll index exposes a template, parameterized index and four older PDF leads return403; do not substitute older waves or secondary reconstructions. Indexed CEC text updatedSeptember15 explicitly corroborates3.25% forK26 and120seats/Bader–Ofer, but full legal/official agreement inventory remains unverified. Five current pairs are original-news reported only. See reports/vote-input-audit-2026-10-24/analysis.md and data/snapshots/vote-input-audit-2026-10-24/audit.json.
