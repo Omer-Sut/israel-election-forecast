@@ -63,3 +63,6 @@ Replace each item with the method actually implemented; remove placeholders befo
 Code repository: https://github.com/Omer-Sut/israel-election-forecast
 
 Preliminary input/config/code hashes and outputs: `reports/baseline-2026-10-21/`. Final code revision, chosen method, final forecast, validation results, and submission status: **pending**.
+
+
+E009 research-only diagnostic (October24): broader source-tiered final-poll and common-firm comparison executed without fitting. The2021/2022 continuous-error gap falls from8 to6.333 with six matched firms and to4 with three matched original publishers. Shared directional party misses persist; this does not identify a cause or change the forecast method. See final-poll-coverage.md.

@@ -1,0 +1,39 @@
+name: Audit final-poll coverage
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/final_poll_coverage.mjs'
+      - 'tests/test_final_poll_coverage.mjs'
+      - 'data/snapshots/final-poll-coverage-2026-10-24/**'
+      - 'data/snapshots/historical-2026-10-21/**'
+      - 'reports/final-poll-coverage-2026-10-24/**'
+      - '.github/workflows/final-poll-coverage.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Test cutoff, grouping, identity and metric contracts
+        run: node --test tests/test_final_poll_coverage.mjs
+      - name: Reproduce diagnostic and saved reports
+        run: |
+          node scripts/final_poll_coverage.mjs
+          node scripts/final_poll_coverage.mjs output/final-poll-coverage-repeat
+          for file in results.json summary.md comparison.svg inputs-manifest.json; do
+            diff -u "output/final-poll-coverage/$file" "output/final-poll-coverage-repeat/$file"
+            diff -u "reports/final-poll-coverage-2026-10-24/$file" "output/final-poll-coverage/$file"
+          done
+          cat output/final-poll-coverage/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: final-poll-coverage
+          path: output/final-poll-coverage/
+          if-no-files-found: error
+          retention-days: 30
