@@ -1,0 +1,3 @@
+# Separate optional hosted CPU environment; no additions to standard-library baseline.
+numpy==2.2.6
+scipy==1.15.3

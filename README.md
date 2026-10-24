@@ -1,5 +1,7 @@
 # Israeli Election Forecast
 
+Turnout model fits: [264-configuration findings](reports/turnout-models-2026-10-24/findings.md), [chronological errors](reports/turnout-models-2026-10-24/chronological-errors.svg), [model stability](reports/turnout-models-2026-10-24/model-stability.svg). Hindsight winners and past-only selection are reported separately. No forecast change adopted.
+
 Turnout analysis: [25-election history and chronological comparisons](reports/turnout-history-2026-10-24/analysis.md), [history plot](reports/turnout-history-2026-10-24/turnout-history.svg), [forecast-error plot](reports/turnout-history-2026-10-24/turnout-errors.svg). Run `python scripts/turnout_history.py`. No turnout change adopted; 70.63% remains the working placeholder.
 
 Review package: [full forecast and Reservists 0/3/4 comparison](reports/review-package-2026-10-24/review.md), [scenario plot](reports/review-package-2026-10-24/reservists-scenarios.svg), [309-word method](reports/review-package-2026-10-24/method-description.txt). Run `python scripts/review_package.py`. The working forecast is unchanged; source freeze remains incomplete. No competition entry submitted.
