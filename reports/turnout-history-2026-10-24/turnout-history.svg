@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520"><rect width="1100" height="520" fill="white"/><g font-family="Arial,sans-serif" fill="#18324a">
+<text x="25" y="30" font-size="22">National turnout: 25 Knesset elections, 1949–2022</text>
+<text x="25" y="55" font-size="13">Ballots / registered eligible voters. 2001 PM-only election excluded. Older published values have one decimal.</text>
+<path d="M65,420H1060" stroke="#e1e6ea"/><text x="25" y="424">60%</text>
+<path d="M65,370H1060" stroke="#e1e6ea"/><text x="25" y="374">65%</text>
+<path d="M65,320H1060" stroke="#e1e6ea"/><text x="25" y="324">70%</text>
+<path d="M65,270H1060" stroke="#e1e6ea"/><text x="25" y="274">75%</text>
+<path d="M65,220H1060" stroke="#e1e6ea"/><text x="25" y="224">80%</text>
+<path d="M65,170H1060" stroke="#e1e6ea"/><text x="25" y="174">85%</text>
+<path d="M65,120H1060" stroke="#e1e6ea"/><text x="25" y="124">90%</text>
+<polyline points="70.87,151.00 103.97,269.00 156.63,192.00 213.04,204.00 236.55,204.00 292.20,190.00 344.82,203.00 399.93,234.00 444.50,228.00 498.89,235.00 539.36,232.00 595.80,223.00 643.88,246.00 695.77,227.00 734.90,233.00 783.77,342.00 825.50,385.00 863.44,373.00 915.56,342.30 943.90,297.00 997.53,335.40 1003.34,321.70 1009.40,304.80 1023.32,345.60 1044.56,313.70" fill="none" stroke="#216aa4" stroke-width="2.5"/>
+<circle cx="70.87" cy="151.00" r="4" fill="#216aa4"><title>1949-01-25: 86.9%</title></circle>
+<text x="55.87" y="139.00" font-size="12">86.9%</text>
+<circle cx="103.97" cy="269.00" r="4" fill="#216aa4"><title>1951-07-30: 75.1%</title></circle>
+<text x="88.97" y="257.00" font-size="12">75.1%</text>
+<circle cx="156.63" cy="192.00" r="4" fill="#216aa4"><title>1955-07-26: 82.8%</title></circle>
+<circle cx="213.04" cy="204.00" r="4" fill="#216aa4"><title>1959-11-03: 81.6%</title></circle>
+<circle cx="236.55" cy="204.00" r="4" fill="#216aa4"><title>1961-08-15: 81.6%</title></circle>
+<circle cx="292.20" cy="190.00" r="4" fill="#216aa4"><title>1965-11-02: 83%</title></circle>
+<circle cx="344.82" cy="203.00" r="4" fill="#216aa4"><title>1969-10-28: 81.7%</title></circle>
+<circle cx="399.93" cy="234.00" r="4" fill="#216aa4"><title>1973-12-31: 78.6%</title></circle>
+<circle cx="444.50" cy="228.00" r="4" fill="#216aa4"><title>1977-05-17: 79.2%</title></circle>
+<circle cx="498.89" cy="235.00" r="4" fill="#216aa4"><title>1981-06-30: 78.5%</title></circle>
+<circle cx="539.36" cy="232.00" r="4" fill="#216aa4"><title>1984-07-23: 78.8%</title></circle>
+<circle cx="595.80" cy="223.00" r="4" fill="#216aa4"><title>1988-11-01: 79.7%</title></circle>
+<circle cx="643.88" cy="246.00" r="4" fill="#216aa4"><title>1992-06-23: 77.4%</title></circle>
+<circle cx="695.77" cy="227.00" r="4" fill="#216aa4"><title>1996-05-29: 79.3%</title></circle>
+<circle cx="734.90" cy="233.00" r="4" fill="#216aa4"><title>1999-05-17: 78.7%</title></circle>
+<text x="719.90" y="221.00" font-size="12">78.7%</text>
+<circle cx="783.77" cy="342.00" r="4" fill="#216aa4"><title>2003-01-28: 67.8%</title></circle>
+<text x="768.77" y="330.00" font-size="12">67.8%</text>
+<circle cx="825.50" cy="385.00" r="4" fill="#216aa4"><title>2006-03-28: 63.5%</title></circle>
+<text x="810.50" y="373.00" font-size="12">63.5%</text>
+<circle cx="863.44" cy="373.00" r="4" fill="#216aa4"><title>2009-02-10: 64.7%</title></circle>
+<circle cx="915.56" cy="342.30" r="4" fill="#216aa4"><title>2013-01-22: 67.77%</title></circle>
+<circle cx="943.90" cy="297.00" r="4" fill="#216aa4"><title>2015-03-17: 72.3%</title></circle>
+<text x="928.90" y="285.00" font-size="12">72.3%</text>
+<circle cx="997.53" cy="335.40" r="4" fill="#216aa4"><title>2019-04-09: 68.46%</title></circle>
+<circle cx="1003.34" cy="321.70" r="4" fill="#216aa4"><title>2019-09-17: 69.83%</title></circle>
+<circle cx="1009.40" cy="304.80" r="4" fill="#216aa4"><title>2020-03-02: 71.52%</title></circle>
+<circle cx="1023.32" cy="345.60" r="4" fill="#216aa4"><title>2021-03-23: 67.44%</title></circle>
+<circle cx="1044.56" cy="313.70" r="4" fill="#216aa4"><title>2022-11-01: 70.63%</title></circle>
+<text x="67.2" y="450" font-size="12">1950</text>
+<text x="199.2" y="450" font-size="12">1960</text>
+<text x="331.2" y="450" font-size="12">1970</text>
+<text x="463.2" y="450" font-size="12">1980</text>
+<text x="595.1999999999999" y="450" font-size="12">1990</text>
+<text x="727.1999999999999" y="450" font-size="12">2000</text>
+<text x="859.1999999999999" y="450" font-size="12">2010</text>
+<text x="991.1999999999999" y="450" font-size="12">2020</text>
+<text x="25" y="485" font-size="14">1999 → 2003: large decline. Recent elections fluctuate around a lower level.</text>
+<text x="25" y="507" font-size="12">The long-run level is context, not a stationary average to substitute into the 2026 forecast.</text></g></svg>
