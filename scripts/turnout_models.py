@@ -60,7 +60,6 @@ def configurations(config):
 def fit_predict(examples,target_features,previous_turnout,candidate):
     """One election=one equally weighted row; not millions of Bernoulli trials."""
     import numpy as np
-    from scipy.optimize import minimize
     from scipy.special import expit
     names=list(target_features)
     x=np.asarray([[r['features'][k] for k in names] for r in examples],dtype=float)
@@ -75,15 +74,30 @@ def fit_predict(examples,target_features,previous_turnout,candidate):
     if candidate['family']=='fractional_logit':
         def objective(beta):
             eta=z@beta
+            prob=expit(eta)
             loss=np.mean(np.logaddexp(0,eta)-y*eta)+.5*float(beta@penalty@beta)
-            jac=z.T@(expit(eta)-y)/len(y)+penalty@beta
-            return loss,jac
-        initial=np.zeros(z.shape[1]);initial[0]=math.log(float(y.mean())/(1-float(y.mean())))
-        fitted=minimize(objective,initial,jac=True,method='L-BFGS-B',
-            options={'maxiter':1000,'ftol':1e-13,'gtol':1e-9,'maxls':50})
-        beta=fitted.x;gradient=float(np.max(np.abs(objective(beta)[1])))
-        if not fitted.success and gradient>1e-7:status='not_converged'
-        message=str(fitted.message)
+            jac=z.T@(prob-y)/len(y)+penalty@beta
+            hessian=z.T@((prob*(1-prob))[:,None]*z)/len(y)+penalty
+            return loss,jac,hessian
+        beta=np.zeros(z.shape[1]);beta[0]=math.log(float(y.mean())/(1-float(y.mean())))
+        # Analytic damped Newton avoids relative-loss stopping at machine precision.
+        # This changes the solver, not the penalized objective or candidate grid.
+        for iteration in range(80):
+            loss,jac,hessian=objective(beta)
+            if np.max(np.abs(jac))<1e-13:break
+            direction=np.linalg.solve(hessian,jac)
+            step=1.
+            while step>2**-30:
+                trial=beta-step*direction
+                new_loss,new_jac,_=objective(trial)
+                if (new_loss<=loss-1e-4*step*float(jac@direction)
+                        or (abs(new_loss-loss)<1e-15 and np.max(np.abs(new_jac))<np.max(np.abs(jac)))):
+                    break
+                step*=.5
+            beta=trial
+        gradient=float(np.max(np.abs(objective(beta)[1])))
+        if gradient>1e-10:status='not_converged'
+        message='analytic_damped_newton'
         prediction=100*float(expit(target@beta))
     else:
         # Minimize mean squared fraction error /2 + alpha*||slopes||²/2.

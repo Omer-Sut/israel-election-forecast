@@ -21,3 +21,7 @@ The [Papke–Wooldridge original fractional-response paper](https://www.nber.org
 ## Executed evidence
 
 Read reports/turnout-models-2026-10-24/findings.md for numerical findings and keep/reject reasoning. The saved coefficients/scalers are for current fits; historical rows preserve training IDs, status and predictions and are reproducible from the code. No claim is made that every historical fit’s coefficient array is stored.
+
+## Numerical reproduction repair
+
+Report-commit run40095082959 detected a cross-CPU GLM recent-MAE difference of1.72e-7pp under L-BFGS relative-loss stopping, just above the prespecified1e-7 tolerance. Keep the tolerance unchanged. Replace that optimizer with analytic damped Newton steps using the exact penalized logistic Hessian, gradient stopping below1e-13 (fit rejected above1e-10). The objective, data, grid and selection rule do not change. Regenerate the consumed-code reference deliberately and compare fresh repeats before publication; do not claim success until verified. Coefficients/scalers in results remain current-fit metadata; historical prediction provenance is in CSV.
