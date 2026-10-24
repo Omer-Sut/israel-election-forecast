@@ -1,5 +1,7 @@
 # Israeli Election Forecast
 
+Active October24 forecast: [electoral allocation review](reports/electoral-review-2026-10-24/analysis.md), [rounding plot](reports/electoral-review-2026-10-24/rounding-error.svg), and [constrained draft](reports/electoral-review-2026-10-24/submission-draft.json). Run `python scripts/electoral_review.py`. E010 and earlier drafts are archived diagnostics; the user now requires no1/2-seat outputs. Exact current Bader–Ofer allocation still requires complete vote shares and verified agreements.
+
 Build a reproducible model to forecast the results of Israel's 26th Knesset election for the departmental forecasting competition. All project discussion, documentation, and code should be in English; Hebrew source material and party names may be retained where needed.
 
 ## Start here
