@@ -229,6 +229,13 @@ def write(report, out):
     out.mkdir(parents=True, exist_ok=True)
     def save(name, text): (out/name).write_text(text, encoding='utf-8', newline='\n')
     save('results.json', json.dumps(report, ensure_ascii=False, indent=2, allow_nan=False)+'\n')
+    summary = {'config': report['config'], 'decision': report['decision'], 'limits': report['limits'], 'panels': {}}
+    for panel, item in report['panels'].items():
+        summary['panels'][panel] = {'coverage': item['coverage'], 'summaries': item['summaries'], 'selections': item['selections'],
+            'records': [{k: r[k] for k in ('election', 'method', 'learned_available', 'candidate_ids', 'seat_l1',
+                'candidate_brier', 'candidate_log_loss', 'false_positive', 'false_negative')} for r in item['records']],
+            'current': {m: None if r is None else {'seats': r['seats'], 'probabilities': r['probabilities']} for m, r in item['current'].items()}}
+    save('summary.json', json.dumps(summary, ensure_ascii=False, indent=2, allow_nan=False)+'\n')
     lines = ['# E020: matched reported-percentage ablation', '', report['decision'], '',
         'Primary: T−1/latest, fixed alpha0.1. Missingness-only isolates selective coverage; other panels/penalties are sensitivity diagnostics, not a new grid-selected winner.', '']
     for panel, item in report['panels'].items():

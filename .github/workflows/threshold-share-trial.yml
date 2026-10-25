@@ -44,9 +44,11 @@ jobs:
           if reference.exists():pairs.append((reference,Path('output/threshold-share-trial')))
           for left,right in pairs:
               for name in ('results.json','inputs-manifest.json','analysis.md','matched-errors.svg','support-diagnostics.json','support-diagnostics.svg'):
+                  if left==reference and name=='results.json':continue
                   a=(left/name).read_text(encoding='utf-8');b=(right/name).read_text(encoding='utf-8')
                   if name.endswith('.json'):compare(json.loads(a),json.loads(b),name)
                   else:assert a==b,name
+              compare(json.loads((left/'summary.json').read_text(encoding='utf-8')),json.loads((right/'summary.json').read_text(encoding='utf-8')),'summary.json')
           PY
           cat output/threshold-share-trial/analysis.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
