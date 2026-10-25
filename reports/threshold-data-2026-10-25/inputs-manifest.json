@@ -1,0 +1,15 @@
+{
+  "data/snapshots/historical-2026-10-21/polls-2021.json": "ccc0fd9dd8373e1825e7300ea2d695bede9e2cad964f34879528b336d5fbfbcf",
+  "data/snapshots/historical-2026-10-21/polls-2022.json": "362bb8701aa1d82448e69107398095fbde44a386ddf101aa0a477062205b1e7a",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/historical.json": "c07e271dc8836e1bfde8e0a6745208065b278a3954054fd55427763d3013aa01",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/outcomes.json": "b788a1be3b0a85d25f80bf76163f504b255e2238f1aa0e62fb6fc4c16a6db3ae",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/polls-20.json": "fa97b57a3a187f0bb441a92c1ac13ff32d87b312f3f5c62af88c5bfbc6dfd2ac",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/polls-21.json": "a62786c6408c0f7d038dab2edfd2b1aab13aebcd1949815ea4367b29e3660669",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/polls-22.json": "e7cf9fd09fb97d5f2d20434a1b0baa6d37542d7ab06efc050668c79e8da1f5c0",
+  "data/snapshots/screening-six-elections-2026-10-21/prepared/polls-23.json": "be43f1df47d6d83bd05c98449081a5edf6a57e7209b5d909ba42d5fd0b188d84",
+  "data/snapshots/threshold-data-2026-10-25/additions.json": "8147509d9c6a1aee66657695145bf5c4b1c2591b5f2a3bae4f544c0164af3f5e",
+  "data/snapshots/threshold-data-2026-10-25/protocol.json": "7a37cff0012dda86c978448b2e1d0580defa45173f366334eb20ee20510d8ac7",
+  "data/snapshots/threshold-data-2026-10-25/source-audit.json": "c04389fdd303e2bc5d4ae69188be415f6efdb2635d8ee55b81496bae6b514622",
+  "scripts/baseline.py": "08322eaedd2098193db6a2914ad6898fbcbd8a399c5d17502de38cca394844bb",
+  "scripts/prepare_threshold_data.py": "f0807c8c6d6d93e4ebf480e39d6393b56cb0e10a013ed2226b3fefb7535a806a"
+}

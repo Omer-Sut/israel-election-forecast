@@ -142,3 +142,6 @@ E018 executed separately: representation-first threshold learners did not beat t
 
 
 E019 data collection only: separate historical threshold overlay with original-source percentages and complete seat releases, source/denominator/horizon gates and target-free predictor export. No new model fitted or adopted; active forecast and333-word submission method unchanged. Hosted evidence pending at preparation.
+
+
+E019 executed40192307814: data extension and five tests/repeats passed; no new model fit/adoption.32releases/37exact reported percentages, common valid-vote basis not verified. Active forecast/method remain unchanged; this data-only work is not part of the adopted333-word forecasting method.

@@ -1,0 +1,112 @@
+{
+  "summary": {
+    "original_releases": 24,
+    "extended_releases": 32,
+    "new_releases": 8,
+    "enriched_existing_releases": 2,
+    "original_exact_percentages": 20,
+    "extended_exact_percentages": 37,
+    "percentage_campaigns": 5,
+    "eventual_pass_observations": 7,
+    "eventual_fail_observations": 30,
+    "unique_percentage_list_outcomes": 12,
+    "unique_eventual_pass_list_outcomes": 3,
+    "unmapped_percentage_observations": 1,
+    "strict_valid_vote_comparable_observations": 0,
+    "model_fitted": false,
+    "forecast_changed": false
+  },
+  "coverage": [
+    {
+      "election_id": "knesset_20_2015",
+      "original_releases": 3,
+      "extended_releases": 3,
+      "original_exact_percentage_observations": 0,
+      "extended_exact_percentage_observations": 0,
+      "eventual_pass_observations": 0,
+      "eventual_fail_observations": 0,
+      "unique_percentage_list_outcomes": 0,
+      "horizon_counts": {
+        "1_7": 0,
+        "8_14": 0,
+        "15_28": 0
+      }
+    },
+    {
+      "election_id": "knesset_21_2019apr",
+      "original_releases": 3,
+      "extended_releases": 4,
+      "original_exact_percentage_observations": 0,
+      "extended_exact_percentage_observations": 3,
+      "eventual_pass_observations": 1,
+      "eventual_fail_observations": 2,
+      "unique_percentage_list_outcomes": 2,
+      "horizon_counts": {
+        "1_7": 1,
+        "8_14": 2,
+        "15_28": 0
+      }
+    },
+    {
+      "election_id": "knesset_22_2019sep",
+      "original_releases": 3,
+      "extended_releases": 4,
+      "original_exact_percentage_observations": 0,
+      "extended_exact_percentage_observations": 1,
+      "eventual_pass_observations": 0,
+      "eventual_fail_observations": 1,
+      "unique_percentage_list_outcomes": 1,
+      "horizon_counts": {
+        "1_7": 0,
+        "8_14": 1,
+        "15_28": 0
+      }
+    },
+    {
+      "election_id": "knesset_23_2020",
+      "original_releases": 3,
+      "extended_releases": 5,
+      "original_exact_percentage_observations": 0,
+      "extended_exact_percentage_observations": 3,
+      "eventual_pass_observations": 0,
+      "eventual_fail_observations": 3,
+      "unique_percentage_list_outcomes": 1,
+      "horizon_counts": {
+        "1_7": 1,
+        "8_14": 2,
+        "15_28": 0
+      }
+    },
+    {
+      "election_id": "knesset_24_2021",
+      "original_releases": 6,
+      "extended_releases": 10,
+      "original_exact_percentage_observations": 2,
+      "extended_exact_percentage_observations": 12,
+      "eventual_pass_observations": 6,
+      "eventual_fail_observations": 6,
+      "unique_percentage_list_outcomes": 3,
+      "horizon_counts": {
+        "1_7": 2,
+        "8_14": 2,
+        "15_28": 8
+      }
+    },
+    {
+      "election_id": "knesset_25_2022",
+      "original_releases": 6,
+      "extended_releases": 6,
+      "original_exact_percentage_observations": 18,
+      "extended_exact_percentage_observations": 18,
+      "eventual_pass_observations": 0,
+      "eventual_fail_observations": 18,
+      "unique_percentage_list_outcomes": 5,
+      "horizon_counts": {
+        "1_7": 11,
+        "8_14": 7,
+        "15_28": 0
+      }
+    }
+  ],
+  "decision": "Keep audited overlay; no automatic training promotion, model fit or forecast change."
+}

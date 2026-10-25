@@ -159,3 +159,6 @@ E018 executed decision: retain the representation-first machinery as research, r
 
 
 E019 — October25: extend data through a separate audited overlay, retaining all frozen model/database inputs. Use original-publisher numeric facts and explicit campaign identities; expand discovery to28publication days while exporting actual horizons/fieldwork/revisions. No observed percentages inferred from seats, no undecided renormalization without denominator/weighting evidence, no unverified secondary/graphic numbers promoted. Preserve eventual-pass and eventual-fail cases without outcome-based source selection; repeated rows are not independent elections. No new fit or forecast change by collecting data.
+
+
+E019 executed decision: retain reviewed extension as separate research data, not an adopted model input. Verified32releases/37exact percentage observations, including7measurements of eventual winners that repeat3election/list outcomes. Denominators and positive-share censoring remain unresolved; no valid-vote normalization or current allocation. Subsequent model comparison must match source/horizon/chronology, include missingness and balance dependent campaigns/firms. Active forecast unchanged.

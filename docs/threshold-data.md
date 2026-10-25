@@ -15,3 +15,8 @@ All percentages remain **as published**. Their exact denominator and undecided a
 Run `python scripts/prepare_threshold_data.py` with standard-library Python3.12. It validates dates, identity, complete seat totals, duplicate URL/ID guards and conflicting enrichment values, preserves frozen inputs, and exports all observations with outcome labels plus a separate pre-election predictor whitelist. Reports include source release JSON, CSV, missing/unmapped records, input hashes and a coverage figure. The dedicated hosted workflow tests gates and repeats/reference-compares all outputs byte-for-byte. Raw publisher pages/images are not redistributed, and unavailable raw-response hashes are not invented.
 
 This collection makes a later reported-share model test more meaningful, but does not itself establish predictive improvement or certify a full vote-based allocator. Any later fit must be chronological, preserve shared campaign/firm/outcome dependence, handle informative missingness and compare source-matched horizons. PR execution evidence is authoritative; local Git metadata remains stale. No source promotion into the adopted model, merge or submission.
+
+
+## Executed evidence
+
+Run40192307814 passed all five tests and byte-identical repeats at implementation7fcfdb5. Verified32releases/37exact percentages across five campaigns,7eventual-pass observations repeating3election/list outcomes. Read reports/threshold-data-2026-10-25/findings.md for source links, limitations and the next matched model test. Final report-commit checks are on PR31. No fit/adoption or forecast change.
