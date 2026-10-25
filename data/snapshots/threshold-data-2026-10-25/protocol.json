@@ -1,0 +1,16 @@
+{
+  "experiment": "E019",
+  "reviewed_on": "2026-10-25",
+  "purpose": "Extend historical threshold evidence without changing frozen training inputs or fitting a new model",
+  "historical_config": "data/snapshots/screening-six-elections-2026-10-21/prepared/historical.json",
+  "discovery_window_days": 28,
+  "publication_horizon_bands_days": [[1,7],[8,14],[15,28]],
+  "source_frame": "Recheck existing audited original releases; follow original-publisher links/searches for the final28days of each of the six campaigns. Convenience extension, not an exhaustive/random poll sample.",
+  "inclusion": "Original commissioner/publisher, actual historical lineup, explicit pre-election publication date, numeric party vote-intention percentages when reported and complete seat tables when recoverable. Include all such percentages in a reviewed release, retaining unresolved labels separately, without selecting by final result.",
+  "exclusions": "Secondary republications remain discovery-only; exit polls, actual results as predictors, hypothetical/incorrect lineups, dates outside28days and unverified graphic/PDF numbers are not admitted as new observations.",
+  "unknowns": "Unknown percentage, denominator, weighting/undecided treatment, fieldwork or sample remain null. No vote shares inferred from seats; positive seats do not supply a numerical percentage bound on a different questionnaire denominator.",
+  "historical_vintage": "Retrospective publisher-source audit; no authenticated contemporary archive versions. Preserve known revision dates and temporal gates; publication dates are not fieldwork proxies.",
+  "identity": "Reuse election-specific IDs and Hebrew labels; no current form aliases applied to historical records. Preserve firm and commissioner separately; shared firms do not become independent because publishers differ.",
+  "model_use": "Separate reviewed overlay and coverage/availability exports only. No automatic promotion into frozen models, no new fit or current forecast change.",
+  "rights": "Factual numerical transcriptions with attribution; publisher prose/images/full pages are not redistributed. Downloaded raw publisher bytes were not available through the reader; no raw-response checksum is invented. Versioned numerical inputs/code are hashed."
+}

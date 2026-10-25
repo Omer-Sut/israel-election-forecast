@@ -135,3 +135,6 @@ E016 source audit2026-10-25: frozen primary World Bank WDI API observations/meta
 
 
 E017 October 25 bounded recheck: source URLs and reader outcomes are preserved in data/snapshots/forecast-decision-2026-10-25/audit.json. Official unit/rules pages403, candidate page inaccessible, poll repository dynamic template. Ynet Kan vector remains121; legacy Zman corroboration URL now unrelated feed; Channel16 remains secondary-only. BlueandWhite withdrawal again news-reported, direct official notice not authenticated. No raw byte hashes invented, source promotion or change to frozen poll inputs.
+
+
+E019: eight new original-publisher releases plus two percentage enrichments, with raw numerical/Hebrew-label transcriptions and exact URLs/metadata in data/snapshots/threshold-data-2026-10-25/additions.json. Source-audit.json records inaccessible originals, secondary conflicting values, unverified graphics and a blocked official2022PDF discovery lead. No raw publisher byte hashes invented. Raam–Balad2019Apr and Raam/Meretz2021 add eventual-pass cases absent from the prior exact-percentage subset; old snapshots unchanged. Walla2020fieldwork reuse unresolved, percentage denominators unknown. See docs/threshold-data.md for usage gates.

@@ -1,0 +1,43 @@
+name: Audit extended historical threshold data
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/prepare_threshold_data.py'
+      - 'tests/test_prepare_threshold_data.py'
+      - 'data/snapshots/threshold-data-2026-10-25/**'
+      - 'reports/threshold-data-2026-10-25/**'
+      - '.github/workflows/threshold-data.yml'
+permissions:
+  contents: read
+jobs:
+  data:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Test source identity, temporal gates, missingness and target separation
+        run: python -m unittest discover -s tests -p test_prepare_threshold_data.py -v
+      - name: Build and reproduce reviewed overlay
+        run: |
+          python scripts/prepare_threshold_data.py
+          python scripts/prepare_threshold_data.py --out-dir output/threshold-data-repeat > output/threshold-data-repeat.log
+          for file in coverage.json releases.json unmapped.json observations.csv predictor-records.json analysis.md inputs-manifest.json percentage-coverage.svg; do
+            diff -u "output/threshold-data/$file" "output/threshold-data-repeat/$file"
+            if [ -d reports/threshold-data-2026-10-25 ]; then
+              diff -u "reports/threshold-data-2026-10-25/$file" "output/threshold-data/$file"
+            fi
+          done
+          cat output/threshold-data/analysis.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: threshold-data
+          path: output/threshold-data/
+          if-no-files-found: error
+          retention-days: 30

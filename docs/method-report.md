@@ -139,3 +139,6 @@ E018 research preparation is separate from the adopted forecast. A representatio
 
 
 E018 executed separately: representation-first threshold learners did not beat the reference and are not adopted. Current submission method/forecast unchanged. Candidate probability evaluation only13rows across three informative campaigns; do not describe exploratory outputs as calibrated crossing probabilities.
+
+
+E019 data collection only: separate historical threshold overlay with original-source percentages and complete seat releases, source/denominator/horizon gates and target-free predictor export. No new model fitted or adopted; active forecast and333-word submission method unchanged. Hosted evidence pending at preparation.
