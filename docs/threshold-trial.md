@@ -23,3 +23,8 @@ Report every campaign's total absolute seat error and representation false posit
 Optional pinned NumPy/SciPy CPU environment reuses requirements-turnout.txt; standard-library baseline remains independent. Dedicated workflow tests source/feature boundaries, candidate coverage, training-only scaling/weights, expected-loss DP against enumeration, future-outcome invariance and output arithmetic; repeated/reference comparisons use fixed absolute1e−7 with exact discrete outputs/text/plots. Do not claim execution or calibrated crossing probabilities before hosted results are verified.
 
 Probability scoring follows the original [Gneiting–Raftery paper](https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf); no numerical calibration claim is transferred from that literature. No new model/weight/forecast adoption, merging or competition submission by preparing this trial.
+
+
+## Executed finding
+
+Run40189471181 passed five tests and fresh repeats at implementation1d765e82. Learned mean total seat error13.5 versus square control13.0; no adoption.2020 has no threshold candidate, leaving only three informative probability campaigns/13candidate predictions. Current fitting uses25rows/five campaigns. Read reports/threshold-trial-2026-10-25/findings.md for the Raam2021 failure and Reservists0/4 regularization sensitivity. Current active forecast and69.86% turnout remain unchanged; research continues toward original historical percentage coverage. Final PR30 checks/head are authoritative.

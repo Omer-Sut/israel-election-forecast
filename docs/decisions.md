@@ -153,3 +153,6 @@ E017 — October 25: user explicitly accepted the recommendation to adopt 69.86%
 
 
 E018 — October 25: user supersedes the submission-only/research-stop direction and authorizes continuing model/data research until they indicate otherwise. Focus on Reservists-Economic and Amcha Yisrael, retaining zero-or-positive seats. Test representation separately from conditional positive seat counts; do not modify current predictions to match intuition. Keep 69.86% turnout and reviewed seats as the reference until evidence supports an explicit replacement. Freeze candidate population, features, penalties, controls and chronology before execution; score threshold mistakes and full seat loss. No automatic adoption or calibrated-probability claim.
+
+
+E018 executed decision: retain the representation-first machinery as research, reject current adoption. All three fixed penalties fail to beat the13.0-seat reference mean (each13.5), and current Reservists outcome flips0/4 with regularization. Probability evaluation has only three informative campaigns/13candidate rows; no calibrated crossing probabilities. Keep adopted seats/turnout reference. Prioritize comparable historical percentages and ascertainment/censoring over further same-input tuning. Research remains authorized.

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="820" viewBox="0 0 1120 820"><rect width="1120" height="820" fill="white"/><g font-family="Arial,sans-serif" fill="#17334a">
+<text x="25" y="30" font-size="22">Threshold trial: historical errors and current model sensitivity</text>
+<text x="25" y="55" font-size="13">Exploratory forecasts, not calibrated crossing probabilities. Adopted forecast unchanged.</text>
+<path d="M85,350.0H1050" stroke="#e0e5ea"/><text x="25" y="354.0" font-size="12">0</text>
+<path d="M85,287.5H1050" stroke="#e0e5ea"/><text x="25" y="291.5" font-size="12">7</text>
+<path d="M85,225.0H1050" stroke="#e0e5ea"/><text x="25" y="229.0" font-size="12">13</text>
+<path d="M85,162.5H1050" stroke="#e0e5ea"/><text x="25" y="166.5" font-size="12">20</text>
+<path d="M85,100.0H1050" stroke="#e0e5ea"/><text x="25" y="104.0" font-size="12">26</text>
+<polyline points="130,236.36 410,274.24 690,160.61 970,236.36" fill="none" stroke="#33485c" stroke-width="2"/>
+<circle cx="130" cy="236.36" r="4" fill="#33485c"/>
+<circle cx="410" cy="274.24" r="4" fill="#33485c"/>
+<circle cx="690" cy="160.61" r="4" fill="#33485c"/>
+<circle cx="970" cy="236.36" r="4" fill="#33485c"/>
+<text x="25" y="410" font-size="13" fill="#33485c">square_0or3</text>
+<polyline points="130,217.42 410,274.24 690,160.61 970,236.36" fill="none" stroke="#777777" stroke-width="2"/>
+<circle cx="130" cy="217.42" r="4" fill="#777777"/>
+<circle cx="410" cy="274.24" r="4" fill="#777777"/>
+<circle cx="690" cy="160.61" r="4" fill="#777777"/>
+<circle cx="970" cy="236.36" r="4" fill="#777777"/>
+<text x="390" y="410" font-size="13" fill="#777777">absolute_0or3</text>
+<polyline points="130,255.30 410,274.24 690,122.73 970,236.36" fill="none" stroke="#2279ac" stroke-width="2"/>
+<circle cx="130" cy="255.30" r="4" fill="#2279ac"/>
+<circle cx="410" cy="274.24" r="4" fill="#2279ac"/>
+<circle cx="690" cy="122.73" r="4" fill="#2279ac"/>
+<circle cx="970" cy="236.36" r="4" fill="#2279ac"/>
+<text x="755" y="410" font-size="13" fill="#2279ac">hurdle_a0.01</text>
+<polyline points="130,255.30 410,274.24 690,122.73 970,236.36" fill="none" stroke="#b97919" stroke-width="2"/>
+<circle cx="130" cy="255.30" r="4" fill="#b97919"/>
+<circle cx="410" cy="274.24" r="4" fill="#b97919"/>
+<circle cx="690" cy="122.73" r="4" fill="#b97919"/>
+<circle cx="970" cy="236.36" r="4" fill="#b97919"/>
+<text x="25" y="435" font-size="13" fill="#b97919">hurdle_a0.1</text>
+<polyline points="130,217.42 410,274.24 690,160.61 970,236.36" fill="none" stroke="#98589d" stroke-width="2"/>
+<circle cx="130" cy="217.42" r="4" fill="#98589d"/>
+<circle cx="410" cy="274.24" r="4" fill="#98589d"/>
+<circle cx="690" cy="160.61" r="4" fill="#98589d"/>
+<circle cx="970" cy="236.36" r="4" fill="#98589d"/>
+<text x="390" y="435" font-size="13" fill="#98589d">hurdle_a1</text>
+<text x="95" y="375" font-size="12">2019-09-17</text>
+<text x="375" y="375" font-size="12">2020-03-02</text>
+<text x="655" y="375" font-size="12">2021-03-23</text>
+<text x="935" y="375" font-size="12">2022-11-01</text>
+<text x="25" y="485" font-size="19">Current focus: estimated representation probability by fixed penalty</text>
+<text x="25" y="554" font-size="15">reservists_economic</text><path d="M320,550H1020" stroke="#ccd6dd"/>
+<circle cx="437.34" cy="540" r="5" fill="#2279ac"><title>hurdle_a0.01: 0.1676</title></circle>
+<circle cx="516.16" cy="550" r="5" fill="#b97919"><title>hurdle_a0.1: 0.2802</title></circle>
+<circle cx="753.58" cy="560" r="5" fill="#98589d"><title>hurdle_a1: 0.6194</title></circle>
+<text x="25" y="639" font-size="15">amcha_yisrael</text><path d="M320,635H1020" stroke="#ccd6dd"/>
+<circle cx="361.42" cy="625" r="5" fill="#2279ac"><title>hurdle_a0.01: 0.0592</title></circle>
+<circle cx="414.68" cy="635" r="5" fill="#b97919"><title>hurdle_a0.1: 0.1353</title></circle>
+<circle cx="704.35" cy="645" r="5" fill="#98589d"><title>hurdle_a1: 0.5491</title></circle>
+<text x="310" y="700" font-size="12">0.0</text>
+<text x="450" y="700" font-size="12">0.2</text>
+<text x="590" y="700" font-size="12">0.4</text>
+<text x="730" y="700" font-size="12">0.6</text>
+<text x="870" y="700" font-size="12">0.8</text>
+<text x="1010" y="700" font-size="12">1.0</text>
+<text x="25" y="750" font-size="13">Dots vary regularization only. Same current inputs; historical three-firm to current seven-firm shift remains uncalibrated.</text><text x="25" y="778" font-size="13">A numerical p is a model estimate, not evidence that historical calibration is reliable.</text></g></svg>

@@ -136,3 +136,6 @@ E017 executed: adopted-turnout method is333words in reports/forecast-decision-20
 
 
 E018 research preparation is separate from the adopted forecast. A representation-first threshold trial is implemented, not yet executed: two poll-only features, earlier-campaign logistic fits and marginal expected-seat-loss decisions. No change to the active333-word submission description or forecast; do not describe this unadopted research as the submitted method.
+
+
+E018 executed separately: representation-first threshold learners did not beat the reference and are not adopted. Current submission method/forecast unchanged. Candidate probability evaluation only13rows across three informative campaigns; do not describe exploratory outputs as calibrated crossing probabilities.
