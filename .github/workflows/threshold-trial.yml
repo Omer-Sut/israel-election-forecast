@@ -1,0 +1,58 @@
+name: Test representation-first seat model
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/threshold_trial.py'
+      - 'tests/test_threshold_trial.py'
+      - 'config/threshold-trial.json'
+      - 'reports/threshold-trial-2026-10-25/**'
+      - '.github/workflows/threshold-trial.yml'
+permissions:
+  contents: read
+jobs:
+  threshold:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Install optional locked CPU dependencies
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-turnout.txt
+          python -m pip check
+      - name: Test representation features, chronology and loss minimization
+        run: python -m unittest discover -s tests -p test_threshold_trial.py -v
+      - name: Run and reproduce the threshold trial
+        run: |
+          python scripts/threshold_trial.py
+          python scripts/threshold_trial.py --out-dir output/threshold-trial-repeat > output/threshold-trial-repeat.log
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.compare_turnout_models import compare
+          reference=Path('reports/threshold-trial-2026-10-25')
+          pairs=[(Path('output/threshold-trial'),Path('output/threshold-trial-repeat'))]
+          if reference.exists():pairs.append((reference,Path('output/threshold-trial')))
+          for left,right in pairs:
+              for name in ('results.json','inputs-manifest.json','analysis.md','threshold-diagnostics.svg'):
+                  a=(left/name).read_text(encoding='utf-8');b=(right/name).read_text(encoding='utf-8')
+                  if name.endswith('.json'):compare(json.loads(a),json.loads(b),name)
+                  else:assert a==b,name
+          PY
+          cat output/threshold-trial/analysis.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: threshold-trial
+          path: output/threshold-trial/
+          if-no-files-found: error
+          retention-days: 30

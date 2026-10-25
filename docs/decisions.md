@@ -150,3 +150,6 @@ E016 executed decision: retain context ablations as retrospective diagnostics; n
 
 
 E017 — October 25: user explicitly accepted the recommendation to adopt 69.86% national turnout from the last three completed Knesset elections. Stop turnout experimentation for now. Retain the reviewed seat recommendation and conditional alternatives. Create a separate dated active export and preserve old frozen reports. This authorizes the forecast decision, not merging or submitting the competition form. Source freeze remains incomplete; no unverified additions promoted.
+
+
+E018 — October 25: user supersedes the submission-only/research-stop direction and authorizes continuing model/data research until they indicate otherwise. Focus on Reservists-Economic and Amcha Yisrael, retaining zero-or-positive seats. Test representation separately from conditional positive seat counts; do not modify current predictions to match intuition. Keep 69.86% turnout and reviewed seats as the reference until evidence supports an explicit replacement. Freeze candidate population, features, penalties, controls and chronology before execution; score threshold mistakes and full seat loss. No automatic adoption or calibrated-probability claim.
