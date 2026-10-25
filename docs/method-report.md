@@ -124,3 +124,6 @@ E015 solver regeneration: analytic-Newton674e67a19ba7820caa5b8dc75c6cdc3f1170d5f
 
 
 E016 preparation: approved national turnout context ablations are implemented separately from the forecast. No result or adjustment is claimed before hosted execution; read docs/turnout-context.md for vintage/coverage exclusions.
+
+
+E016 executed separately:48matched national-turnout ridge/fractional-logit ablations with earlier-only outcomes/scalers/OOF selection. Two resident-age and two curated-onset measures are revised-vintage retrospective sensitivities, not certified real-time inputs. Combined selector recentMAE2.500pp versus simplemean3=2.059; no adopted adjustment. Current conflict fits unavailable. Working forecast unchanged; final submission method must omit these unadopted features.

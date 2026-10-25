@@ -144,3 +144,6 @@ Use PR27 and live feat/turnout-models-verified for final execution evidence and 
 
 
 E016: User-approved context trial uses a separate retrospective tier because historical demographic revisions/releases and event-page vintages are unverified. Lagged reference years do not certify availability. Freeze48configurations before execution, identical training/evaluation rows, past-only selectors, paired fixed-hyperparameter contrasts. Preserve resident denominators; do not combine incompatible source revisions. Unknown conflict ends/active status and incomplete current coverage stay missing. No automatic forecast adoption.
+
+
+E016 executed decision: retain context ablations as retrospective diagnostics; no learned model adopted. Combined selector recentMAE2.500 exceeds mean3=2.059, despite better equal-block metric2.487vs3.032. Gains are fragile and current conflict catalogue incomplete. No current forecast change; prioritize release-vintage/conflict-coverage evidence over another grid search.

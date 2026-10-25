@@ -21,3 +21,8 @@ Each block selects only among its12configurations and three simple references us
 Run `python scripts/turnout_context.py` after installing optional `requirements-turnout.txt`. `Audit and screen turnout context` Actions workflow tests source hashes, missing/reference-year gates, denominator handling, unknown ends/current gaps, future-target invariance and matched folds, runs twice and compares reports at absolute1e-7 with exact IDs/text/plots. Sources are collected only if no frozen manifest exists; repeated model runs do not use live network inputs. Results/CSV/SVG and manifests are retained. No existing forecast, baseline input, merge or competition entry changes.
 
 See PR28 and the dated report for executed results; preparation alone does not establish an improvement.
+
+
+## Executed result
+
+Implementationeccf3a6 ran successfully on40168196842:7tests and deterministic repeats.12matched outer targets1996-2022. Read reports/turnout-context-2026-10-25/findings.md for full reasoning. Recent selectedMAE history/demographics/conflict/both2.684/2.663/2.634/2.500pp versus mean3=2.059; no adoption. Current conflict estimates unavailable; reference fallback is not a conflict forecast. Final report-commit validation is on PR28.
