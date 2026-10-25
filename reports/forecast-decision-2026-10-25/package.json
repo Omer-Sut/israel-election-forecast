@@ -1,0 +1,275 @@
+{
+  "config": {
+    "decision_date": "2026-10-25",
+    "poll_cutoff": "2026-10-24",
+    "seat_reference": "reports/review-package-2026-10-24/forecast.json",
+    "turnout_history": "data/snapshots/turnout-history-2026-10-24/inputs.json",
+    "turnout_method": "last_three_mean",
+    "turnout_authority": "User accepted the recommendation on2026-10-25",
+    "turnout_display": "69.86",
+    "active_report": "reports/forecast-decision-2026-10-25/forecast.json",
+    "source_audit": "data/snapshots/forecast-decision-2026-10-25/audit.json",
+    "seat_decision": "Retain the reviewed zero-or-at-least3 seat vector and conditional Reservists alternatives",
+    "source_freeze_complete": false,
+    "submitted": false
+  },
+  "forecast": {
+    "method": "nearest_mean_zero_or_3plus",
+    "seats": {
+      "likud": 22,
+      "yashar": 22,
+      "beyachad": 13,
+      "democrats": 9,
+      "yisrael_beiteinu": 7,
+      "shas": 8,
+      "united_torah_judaism": 7,
+      "otzma_yehudit": 8,
+      "religious_zionism": 7,
+      "raam": 5,
+      "hadash_taal": 9,
+      "blue_and_white": 0,
+      "amcha_yisrael": 0,
+      "reservists_economic": 3,
+      "other_qualifying_lists": 0
+    },
+    "national_turnout_pct": "69.86",
+    "status": "user_approved_turnout_with_provisional_seats_not_submitted",
+    "no_one_or_two_seats": true,
+    "sum_seats": 120,
+    "exact_current_bader_ofer": false,
+    "source_freeze_complete": false,
+    "other_individual_list_allocations": {},
+    "limitation": "Complete current vote shares and officially verified agreements are missing; do not infer votes from seats.",
+    "turnout_method": "last_three_mean",
+    "decision_date": "2026-10-25"
+  },
+  "previous_forecast": {
+    "method": "nearest_mean_zero_or_3plus",
+    "seats": {
+      "likud": 22,
+      "yashar": 22,
+      "beyachad": 13,
+      "democrats": 9,
+      "yisrael_beiteinu": 7,
+      "shas": 8,
+      "united_torah_judaism": 7,
+      "otzma_yehudit": 8,
+      "religious_zionism": 7,
+      "raam": 5,
+      "hadash_taal": 9,
+      "blue_and_white": 0,
+      "amcha_yisrael": 0,
+      "reservists_economic": 3,
+      "other_qualifying_lists": 0
+    },
+    "national_turnout_pct": "70.63",
+    "status": "provisional_constrained_seat_space_decision_not_submitted",
+    "no_one_or_two_seats": true,
+    "sum_seats": 120,
+    "exact_current_bader_ofer": false,
+    "source_freeze_complete": false,
+    "other_individual_list_allocations": {},
+    "limitation": "Complete current vote shares and officially verified agreements are missing; do not infer votes from seats."
+  },
+  "turnout": {
+    "method": "last_three_mean",
+    "input_elections": [
+      {
+        "knesset": 23,
+        "election_date": "2020-03-02",
+        "turnout_pct": 71.52
+      },
+      {
+        "knesset": 24,
+        "election_date": "2021-03-23",
+        "turnout_pct": 67.44
+      },
+      {
+        "knesset": 25,
+        "election_date": "2022-11-01",
+        "turnout_pct": 70.63
+      }
+    ],
+    "unrounded_pct": 69.86333333333333,
+    "formatted_pct": "69.86",
+    "change_from_previous_pp": -0.769999999999996,
+    "authority": "User accepted the recommendation on2026-10-25",
+    "war_or_demographic_adjustment": false
+  },
+  "reservists_scenarios": {
+    "0": {
+      "seats": {
+        "likud": 23,
+        "yashar": 22,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 7,
+        "shas": 8,
+        "united_torah_judaism": 8,
+        "otzma_yehudit": 8,
+        "religious_zionism": 7,
+        "raam": 6,
+        "hadash_taal": 9,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 0,
+        "other_qualifying_lists": 0
+      },
+      "delta_from_reference": {
+        "likud": 1,
+        "yashar": 0,
+        "beyachad": 0,
+        "democrats": 0,
+        "yisrael_beiteinu": 0,
+        "shas": 0,
+        "united_torah_judaism": 1,
+        "otzma_yehudit": 0,
+        "religious_zionism": 0,
+        "raam": 1,
+        "hadash_taal": 0,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": -3,
+        "other_qualifying_lists": 0
+      },
+      "total": 120,
+      "sum_squared_distance_to_mean": 4.612244897959184,
+      "interpretation": "Conditional seat-space decision. No probability assigned; not a vote-to-seat simulation."
+    },
+    "3": {
+      "seats": {
+        "likud": 22,
+        "yashar": 22,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 7,
+        "shas": 8,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 8,
+        "religious_zionism": 7,
+        "raam": 5,
+        "hadash_taal": 9,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 3,
+        "other_qualifying_lists": 0
+      },
+      "delta_from_reference": {
+        "likud": 0,
+        "yashar": 0,
+        "beyachad": 0,
+        "democrats": 0,
+        "yisrael_beiteinu": 0,
+        "shas": 0,
+        "united_torah_judaism": 0,
+        "otzma_yehudit": 0,
+        "religious_zionism": 0,
+        "raam": 0,
+        "hadash_taal": 0,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 0,
+        "other_qualifying_lists": 0
+      },
+      "total": 120,
+      "sum_squared_distance_to_mean": 2.8979591836734686,
+      "interpretation": "Conditional seat-space decision. No probability assigned; not a vote-to-seat simulation."
+    },
+    "4": {
+      "seats": {
+        "likud": 22,
+        "yashar": 22,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 7,
+        "shas": 8,
+        "united_torah_judaism": 7,
+        "otzma_yehudit": 8,
+        "religious_zionism": 6,
+        "raam": 5,
+        "hadash_taal": 9,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 4,
+        "other_qualifying_lists": 0
+      },
+      "delta_from_reference": {
+        "likud": 0,
+        "yashar": 0,
+        "beyachad": 0,
+        "democrats": 0,
+        "yisrael_beiteinu": 0,
+        "shas": 0,
+        "united_torah_judaism": 0,
+        "otzma_yehudit": 0,
+        "religious_zionism": -1,
+        "raam": 0,
+        "hadash_taal": 0,
+        "blue_and_white": 0,
+        "amcha_yisrael": 0,
+        "reservists_economic": 1,
+        "other_qualifying_lists": 0
+      },
+      "total": 120,
+      "sum_squared_distance_to_mean": 6.612244897959181,
+      "interpretation": "Conditional seat-space decision. No probability assigned; not a vote-to-seat simulation."
+    }
+  },
+  "source_audit": {
+    "reviewed_on": "2026-10-25",
+    "scope": "Bounded recheck of existing source gaps; no post-cutoff poll added or old snapshot changed",
+    "source_freeze_complete": false,
+    "attempts": [
+      {
+        "url": "https://www.gov.il/he/pages/candidates-lists-26?chapterIndex=4",
+        "result": "Not accessible through available web reader; official candidate/agreements inventory remains unverified"
+      },
+      {
+        "url": "https://www.gov.il/he/departments/units/elections-26",
+        "result": "403; official candidate/withdrawal inventory remains unverified"
+      },
+      {
+        "url": "https://www.gov.il/he/pages/election-about-info?chapterindex=4",
+        "result": "403; full operative rules not newly authenticated"
+      },
+      {
+        "url": "https://www.gov.il/he/Departments/DynamicCollectors/knesset_election_polls_26",
+        "result": "Introduction/dynamic template readable; no matching complete final-poll vote vector recovered"
+      },
+      {
+        "url": "https://www.ynet.co.il/news/elections2026/article/hy500sxt2mx",
+        "result": "Kan allocation still lists Democrats9 and JointList9, giving121 seats. No silent normalization or repair; excluded from reference"
+      },
+      {
+        "url": "https://www.zman.co.il/feed/10490/",
+        "result": "Now renders a generic YatedNeeman feed with no October23 poll found; this legacy corroboration link is not reliable current poll evidence"
+      },
+      {
+        "url": "https://www.skarim.org/polls/channel-16-2026-10-22",
+        "result": "Secondary120-seat table readable; original full graphic/report not recovered. Remains excluded from recommendation"
+      },
+      {
+        "url": "https://www.zman.co.il/live/735242/",
+        "result": "News article again reports CEC notification of complete BlueandWhite withdrawal. Direct official notice still not retrieved; selected polls already give zero. No support redistribution"
+      },
+      {
+        "url": "https://elections2026.underwar.co.il/polls.html",
+        "result": "Secondary discovery only. Kan final link points to Maariv, not a Kan original; Democrats8/JointList9. Does not resolve original-source conflict or justify promoting its table"
+      }
+    ],
+    "decision": "Preserve seven reviewed groups and existing seats. No new firm weights, aliases, current exact BaderOfer allocation, inferred vote shares or threshold probabilities",
+    "turnout_decision": "User-authorized last-three-election mean:2020=71.52,2021=67.44,2022=70.63; arithmetic mean69.86333333333333, displayed69.86. No demographic/war adjustment",
+    "raw_capture_note": "Audit records URLs and observed reader outcomes; raw page byte hashes are not available and are not invented",
+    "remaining": [
+      "Kan original source and8/9 discrepancy",
+      "Channel16 original complete report",
+      "Official current list/agreements/operative legal inventory",
+      "Complete matching vote-share vectors and denominators",
+      "Accepted form decimal increments and personal/team choices"
+    ]
+  },
+  "seat_forecast_changed": false,
+  "source_freeze_complete": false,
+  "exact_current_bader_ofer": false,
+  "submitted": false
+}

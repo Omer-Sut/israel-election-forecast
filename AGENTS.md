@@ -106,3 +106,5 @@ E016 executed40168196842:7tests/repeats passed; reports/turnout-context-2026-10-
 
 
 E017 continuation: user accepted 69.86% turnout (mean of last three elections), closing turnout experiments for now. Read docs/forecast-decision.md and config/forecast-decision.json. Active export is reports/forecast-decision-2026-10-25/forecast.json; old70.63% frozen reports stay historical. Seat vector/Reservists scenarios unchanged. Source audit remains incomplete: Kan121-seat discrepancy, stale Zman feed link, Channel16 original gap, official candidate/agreements access. No new inputs promoted. Validate hosted export tests, repeats, <=500-word method and final PR head. No merge/submission authorized; local Git stale.
+
+E017 executed40187726289: two tests/repeats passed, method333words. New active forecast SHA2563a02e8c53ef2b85af839b6d048650c4a581ad64e6a24cae0bd9c316ab449ca97; historical forecast hash848b9249 unchanged. Reports in reports/forecast-decision-2026-10-25. Verify final PR29 head/checks before claiming publication.

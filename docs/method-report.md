@@ -130,3 +130,6 @@ E016 executed separately:48matched national-turnout ridge/fractional-logit ablat
 
 
 E017 supersedes persistence in the active forecast: user-approved national turnout is the mean of 2020/2021/2022 (71.52%, 67.44%, 70.63%), displayed 69.86%. No fitted context adjustment. Seat method unchanged. Actual updated <=500-word description is generated in reports/forecast-decision-2026-10-25/method-description.txt; execution/word count pending at preparation. Historical method files remain historical.
+
+
+E017 executed: adopted-turnout method is333words in reports/forecast-decision-2026-10-25/method-description.txt; validated by hosted40187726289. Active forecast69.86% turnout, unchanged seats. Use this actual description for review; historical descriptions remain frozen.

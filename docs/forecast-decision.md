@@ -11,3 +11,8 @@ The bounded October25 source recheck is recorded in `data/snapshots/forecast-dec
 Run `python scripts/forecast_decision.py` with standard-library Python3.12. It verifies the inherited package against a fresh build, applies only the approved turnout decision, validates every scenario, updates the actual method description below500words and hashes all consumed inputs. The dedicated hosted workflow tests the exported decision and historical preservation, repeats byte-for-byte and compares the dated report when present.
 
 This package is ready for forecast review, with source gaps explicit. Exact form decimal increments and personal/team choices remain unverified. No competition entry is submitted or PR merged. Read the topic PR for final checks and authoritative remote SHA; local Git metadata is stale.
+
+
+## Executed verification
+
+Implementation32f2693 / PR29 ran on40187726289: two new tests and byte-identical repeat passed. Actual method333words; active forecast SHA2563a02e8c53ef2b85af839b6d048650c4a581ad64e6a24cae0bd9c316ab449ca97. All alternatives satisfy arithmetic/turnout bounds and unchanged seat assumptions. Final report-commit checks are recorded on PR29.
