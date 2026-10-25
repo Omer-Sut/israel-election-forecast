@@ -127,3 +127,6 @@ E016 preparation: approved national turnout context ablations are implemented se
 
 
 E016 executed separately:48matched national-turnout ridge/fractional-logit ablations with earlier-only outcomes/scalers/OOF selection. Two resident-age and two curated-onset measures are revised-vintage retrospective sensitivities, not certified real-time inputs. Combined selector recentMAE2.500pp versus simplemean3=2.059; no adopted adjustment. Current conflict fits unavailable. Working forecast unchanged; final submission method must omit these unadopted features.
+
+
+E017 supersedes persistence in the active forecast: user-approved national turnout is the mean of 2020/2021/2022 (71.52%, 67.44%, 70.63%), displayed 69.86%. No fitted context adjustment. Seat method unchanged. Actual updated <=500-word description is generated in reports/forecast-decision-2026-10-25/method-description.txt; execution/word count pending at preparation. Historical method files remain historical.

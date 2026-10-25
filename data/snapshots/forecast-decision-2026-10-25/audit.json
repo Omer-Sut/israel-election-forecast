@@ -1,0 +1,20 @@
+{
+  "reviewed_on": "2026-10-25",
+  "scope": "Bounded recheck of existing source gaps; no post-cutoff poll added or old snapshot changed",
+  "source_freeze_complete": false,
+  "attempts": [
+    {"url": "https://www.gov.il/he/pages/candidates-lists-26?chapterIndex=4", "result": "Not accessible through available web reader; official candidate/agreements inventory remains unverified"},
+    {"url": "https://www.gov.il/he/departments/units/elections-26", "result": "403; official candidate/withdrawal inventory remains unverified"},
+    {"url": "https://www.gov.il/he/pages/election-about-info?chapterindex=4", "result": "403; full operative rules not newly authenticated"},
+    {"url": "https://www.gov.il/he/Departments/DynamicCollectors/knesset_election_polls_26", "result": "Introduction/dynamic template readable; no matching complete final-poll vote vector recovered"},
+    {"url": "https://www.ynet.co.il/news/elections2026/article/hy500sxt2mx", "result": "Kan allocation still lists Democrats9 and JointList9, giving121 seats. No silent normalization or repair; excluded from reference"},
+    {"url": "https://www.zman.co.il/feed/10490/", "result": "Now renders a generic YatedNeeman feed with no October23 poll found; this legacy corroboration link is not reliable current poll evidence"},
+    {"url": "https://www.skarim.org/polls/channel-16-2026-10-22", "result": "Secondary120-seat table readable; original full graphic/report not recovered. Remains excluded from recommendation"},
+    {"url": "https://www.zman.co.il/live/735242/", "result": "News article again reports CEC notification of complete BlueandWhite withdrawal. Direct official notice still not retrieved; selected polls already give zero. No support redistribution"},
+    {"url": "https://elections2026.underwar.co.il/polls.html", "result": "Secondary discovery only. Kan final link points to Maariv, not a Kan original; Democrats8/JointList9. Does not resolve original-source conflict or justify promoting its table"}
+  ],
+  "decision": "Preserve seven reviewed groups and existing seats. No new firm weights, aliases, current exact BaderOfer allocation, inferred vote shares or threshold probabilities",
+  "turnout_decision": "User-authorized last-three-election mean:2020=71.52,2021=67.44,2022=70.63; arithmetic mean69.86333333333333, displayed69.86. No demographic/war adjustment",
+  "raw_capture_note": "Audit records URLs and observed reader outcomes; raw page byte hashes are not available and are not invented",
+  "remaining": ["Kan original source and8/9 discrepancy", "Channel16 original complete report", "Official current list/agreements/operative legal inventory", "Complete matching vote-share vectors and denominators", "Accepted form decimal increments and personal/team choices"]
+}

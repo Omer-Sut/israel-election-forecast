@@ -147,3 +147,6 @@ E016: User-approved context trial uses a separate retrospective tier because his
 
 
 E016 executed decision: retain context ablations as retrospective diagnostics; no learned model adopted. Combined selector recentMAE2.500 exceeds mean3=2.059, despite better equal-block metric2.487vs3.032. Gains are fragile and current conflict catalogue incomplete. No current forecast change; prioritize release-vintage/conflict-coverage evidence over another grid search.
+
+
+E017 — October 25: user explicitly accepted the recommendation to adopt 69.86% national turnout from the last three completed Knesset elections. Stop turnout experimentation for now. Retain the reviewed seat recommendation and conditional alternatives. Create a separate dated active export and preserve old frozen reports. This authorizes the forecast decision, not merging or submitting the competition form. Source freeze remains incomplete; no unverified additions promoted.

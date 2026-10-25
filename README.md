@@ -104,3 +104,8 @@ For online work, use the repository's [Actions tab](https://github.com/Omer-Sut/
 | `AGENTS.md` | Instructions for future coding agents |
 
 No open-source license has been selected. Public visibility alone does not grant an open-source license.
+
+
+## Active forecast decision — October 25
+
+The user-approved turnout is **69.86%**, the average of the last three Knesset elections. The reviewed seat vector is retained. Use [the active decision](docs/forecast-decision.md), [configuration](config/forecast-decision.json) and [dated forecast](reports/forecast-decision-2026-10-25/forecast.json). Earlier frozen reports contain historical decisions, including the old70.63% turnout. Source gaps remain explicit; no entry has been submitted.
