@@ -1,0 +1,16 @@
+{
+  "experiment": "E020",
+  "parent": "58b7733f18130197f3ee5b9aaf52d0b5b7fcd81f",
+  "horizons_days": [1, 8],
+  "percentage_modes": ["latest", "eligible_history"],
+  "window_days": 14,
+  "primary": "t1_latest",
+  "primary_alpha": 0.1,
+  "share_sensitivity_alphas": [0.01, 1.0],
+  "minimum_training_campaigns": 2,
+  "candidate_mean_max": 6.0,
+  "candidate_poll_max": 8,
+  "minimum_positive_seats": 3,
+  "all_zero_positive_branch_seats": 4,
+  "decision": "Research only; no adopted forecast, source promotion, merge or submission"
+}
