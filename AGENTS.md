@@ -121,3 +121,6 @@ E019 executed40192307814: five tests/repeats passed;32releases/37mapped exact pe
 
 
 E020 continuation: read docs/threshold-share-trial.md. Matched seat/missingness/reported-percentage ablations are separate from frozen models; primary T−1/latest/fixed0.1, earlier-horizon/history/penalty sensitivities labelled. All-zero percentage candidates share an explicit four-seat conditional-positive assumption. No backfilled latest percentages. Hosted execution pending at preparation; inspect live topic PR/final findings. Forecast/69.86% turnout unchanged.
+
+
+E020 executed: read reports/threshold-share-trial-2026-10-25/findings.md. Primary matched seat/missing/share mean L1 is 13.5/13.5/15.0 versus constrained mean 13.0; 20 dependent candidate predictions across four learned campaigns. Early training shares only 2.1/2.2 lead to negative slope/extrapolated Otzma2020 p≈0.99865. History alpha1 hindsight12.5 is not adopted; past-only history selector14.0. Current learned outputs do not replace adopted Reservists3/Amcha0/turnout69.86%. PR32 stacks on PR31; final head/checks/artifact on PR32 supersede preparation wording. Six tests/repeats first passed40202667646; final support diagnostics/reference checks must be verified. Next useful work is comparable near-threshold measured shares on both sides/denominator review, not another same-grid sweep.

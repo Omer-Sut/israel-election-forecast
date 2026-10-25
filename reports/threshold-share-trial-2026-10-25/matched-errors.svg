@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="930" viewBox="0 0 1160 930"><rect width="1160" height="930" fill="white"/><g font-family="Arial,sans-serif" fill="#21384b">
+<text x="25" y="30" font-size="22">Matched historical seat errors: percentages versus reporting coverage</text>
+<text x="25" y="55" font-size="13">Same sources, cutoff and candidate roster within each panel. Lower is better. Forecast unchanged.</text>
+<text x="60" y="100" font-size="18">t1_latest</text>
+<path d="M60,360h480" stroke="#dce2e6"/><text x="30" y="364" font-size="11">0</text>
+<path d="M60,305h480" stroke="#dce2e6"/><text x="30" y="309" font-size="11">7</text>
+<path d="M60,250h480" stroke="#dce2e6"/><text x="30" y="254" font-size="11">13</text>
+<path d="M60,195h480" stroke="#dce2e6"/><text x="30" y="199" font-size="11">20</text>
+<path d="M60,140h480" stroke="#dce2e6"/><text x="30" y="144" font-size="11">26</text>
+<circle cx="95.00" cy="260.00" r="4" fill="#777777"><title>square_0or3 knesset_22_2019sep: 12</title></circle>
+<circle cx="231.67" cy="293.33" r="4" fill="#777777"><title>square_0or3 knesset_23_2020: 8</title></circle>
+<circle cx="368.33" cy="193.33" r="4" fill="#777777"><title>square_0or3 knesset_24_2021: 20</title></circle>
+<circle cx="505.00" cy="260.00" r="4" fill="#777777"><title>square_0or3 knesset_25_2022: 12</title></circle>
+<polyline points="95.00,260.00 231.67,293.33 368.33,193.33 505.00,260.00" fill="none" stroke="#777777" stroke-width="2"/>
+<circle cx="95.00" cy="243.33" r="4" fill="#246e9b"><title>seat_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="231.67" cy="293.33" r="4" fill="#246e9b"><title>seat_a0.1 knesset_23_2020: 8</title></circle>
+<circle cx="368.33" cy="193.33" r="4" fill="#246e9b"><title>seat_a0.1 knesset_24_2021: 20</title></circle>
+<circle cx="505.00" cy="260.00" r="4" fill="#246e9b"><title>seat_a0.1 knesset_25_2022: 12</title></circle>
+<polyline points="95.00,243.33 231.67,293.33 368.33,193.33 505.00,260.00" fill="none" stroke="#246e9b" stroke-width="2"/>
+<circle cx="95.00" cy="243.33" r="4" fill="#b47822"><title>missing_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="231.67" cy="293.33" r="4" fill="#b47822"><title>missing_a0.1 knesset_23_2020: 8</title></circle>
+<circle cx="368.33" cy="193.33" r="4" fill="#b47822"><title>missing_a0.1 knesset_24_2021: 20</title></circle>
+<circle cx="505.00" cy="260.00" r="4" fill="#b47822"><title>missing_a0.1 knesset_25_2022: 12</title></circle>
+<polyline points="95.00,243.33 231.67,293.33 368.33,193.33 505.00,260.00" fill="none" stroke="#b47822" stroke-width="2"/>
+<circle cx="95.00" cy="243.33" r="4" fill="#8a4284"><title>share_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="231.67" cy="243.33" r="4" fill="#8a4284"><title>share_a0.1 knesset_23_2020: 14</title></circle>
+<circle cx="368.33" cy="193.33" r="4" fill="#8a4284"><title>share_a0.1 knesset_24_2021: 20</title></circle>
+<circle cx="505.00" cy="260.00" r="4" fill="#8a4284"><title>share_a0.1 knesset_25_2022: 12</title></circle>
+<polyline points="95.00,243.33 231.67,243.33 368.33,193.33 505.00,260.00" fill="none" stroke="#8a4284" stroke-width="2"/>
+<text x="60.0" y="385" font-size="11">2019-09-17</text>
+<text x="196.66666666666666" y="385" font-size="11">2020-03-02</text>
+<text x="333.3333333333333" y="385" font-size="11">2021-03-23</text>
+<text x="470.0" y="385" font-size="11">2022-11-01</text>
+<text x="630" y="100" font-size="18">t1_eligible_history</text>
+<path d="M630,360h480" stroke="#dce2e6"/><text x="600" y="364" font-size="11">0</text>
+<path d="M630,305h480" stroke="#dce2e6"/><text x="600" y="309" font-size="11">7</text>
+<path d="M630,250h480" stroke="#dce2e6"/><text x="600" y="254" font-size="11">13</text>
+<path d="M630,195h480" stroke="#dce2e6"/><text x="600" y="199" font-size="11">20</text>
+<path d="M630,140h480" stroke="#dce2e6"/><text x="600" y="144" font-size="11">26</text>
+<circle cx="665.00" cy="260.00" r="4" fill="#777777"><title>square_0or3 knesset_22_2019sep: 12</title></circle>
+<circle cx="801.67" cy="293.33" r="4" fill="#777777"><title>square_0or3 knesset_23_2020: 8</title></circle>
+<circle cx="938.33" cy="193.33" r="4" fill="#777777"><title>square_0or3 knesset_24_2021: 20</title></circle>
+<circle cx="1075.00" cy="260.00" r="4" fill="#777777"><title>square_0or3 knesset_25_2022: 12</title></circle>
+<polyline points="665.00,260.00 801.67,293.33 938.33,193.33 1075.00,260.00" fill="none" stroke="#777777" stroke-width="2"/>
+<circle cx="665.00" cy="243.33" r="4" fill="#246e9b"><title>seat_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="801.67" cy="293.33" r="4" fill="#246e9b"><title>seat_a0.1 knesset_23_2020: 8</title></circle>
+<circle cx="938.33" cy="193.33" r="4" fill="#246e9b"><title>seat_a0.1 knesset_24_2021: 20</title></circle>
+<circle cx="1075.00" cy="260.00" r="4" fill="#246e9b"><title>seat_a0.1 knesset_25_2022: 12</title></circle>
+<polyline points="665.00,243.33 801.67,293.33 938.33,193.33 1075.00,260.00" fill="none" stroke="#246e9b" stroke-width="2"/>
+<circle cx="665.00" cy="243.33" r="4" fill="#b47822"><title>missing_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="801.67" cy="293.33" r="4" fill="#b47822"><title>missing_a0.1 knesset_23_2020: 8</title></circle>
+<circle cx="938.33" cy="193.33" r="4" fill="#b47822"><title>missing_a0.1 knesset_24_2021: 20</title></circle>
+<circle cx="1075.00" cy="260.00" r="4" fill="#b47822"><title>missing_a0.1 knesset_25_2022: 12</title></circle>
+<polyline points="665.00,243.33 801.67,293.33 938.33,193.33 1075.00,260.00" fill="none" stroke="#b47822" stroke-width="2"/>
+<circle cx="665.00" cy="276.67" r="4" fill="#8a4284"><title>share_a0.1 knesset_22_2019sep: 10</title></circle>
+<circle cx="801.67" cy="293.33" r="4" fill="#8a4284"><title>share_a0.1 knesset_23_2020: 8</title></circle>
+<circle cx="938.33" cy="160.00" r="4" fill="#8a4284"><title>share_a0.1 knesset_24_2021: 24</title></circle>
+<circle cx="1075.00" cy="260.00" r="4" fill="#8a4284"><title>share_a0.1 knesset_25_2022: 12</title></circle>
+<polyline points="665.00,276.67 801.67,293.33 938.33,160.00 1075.00,260.00" fill="none" stroke="#8a4284" stroke-width="2"/>
+<text x="630.0" y="385" font-size="11">2019-09-17</text>
+<text x="766.6666666666666" y="385" font-size="11">2020-03-02</text>
+<text x="903.3333333333333" y="385" font-size="11">2021-03-23</text>
+<text x="1040.0" y="385" font-size="11">2022-11-01</text>
+<text x="60" y="470" font-size="18">t8_latest</text>
+<path d="M60,730h480" stroke="#dce2e6"/><text x="30" y="734" font-size="11">0</text>
+<path d="M60,675h480" stroke="#dce2e6"/><text x="30" y="679" font-size="11">8</text>
+<path d="M60,620h480" stroke="#dce2e6"/><text x="30" y="624" font-size="11">15</text>
+<path d="M60,565h480" stroke="#dce2e6"/><text x="30" y="569" font-size="11">23</text>
+<path d="M60,510h480" stroke="#dce2e6"/><text x="30" y="514" font-size="11">31</text>
+<circle cx="95.00" cy="630.00" r="4" fill="#777777"><title>square_0or3 knesset_22_2019sep: 14</title></circle>
+<circle cx="231.67" cy="644.29" r="4" fill="#777777"><title>square_0or3 knesset_23_2020: 12</title></circle>
+<circle cx="368.33" cy="530.00" r="4" fill="#777777"><title>square_0or3 knesset_24_2021: 28</title></circle>
+<circle cx="505.00" cy="630.00" r="4" fill="#777777"><title>square_0or3 knesset_25_2022: 14</title></circle>
+<polyline points="95.00,630.00 231.67,644.29 368.33,530.00 505.00,630.00" fill="none" stroke="#777777" stroke-width="2"/>
+<circle cx="95.00" cy="630.00" r="4" fill="#246e9b"><title>seat_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="231.67" cy="644.29" r="4" fill="#246e9b"><title>seat_a0.1 knesset_23_2020: 12</title></circle>
+<circle cx="368.33" cy="544.29" r="4" fill="#246e9b"><title>seat_a0.1 knesset_24_2021: 26</title></circle>
+<circle cx="505.00" cy="630.00" r="4" fill="#246e9b"><title>seat_a0.1 knesset_25_2022: 14</title></circle>
+<polyline points="95.00,630.00 231.67,644.29 368.33,544.29 505.00,630.00" fill="none" stroke="#246e9b" stroke-width="2"/>
+<circle cx="95.00" cy="630.00" r="4" fill="#b47822"><title>missing_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="231.67" cy="644.29" r="4" fill="#b47822"><title>missing_a0.1 knesset_23_2020: 12</title></circle>
+<circle cx="368.33" cy="544.29" r="4" fill="#b47822"><title>missing_a0.1 knesset_24_2021: 26</title></circle>
+<circle cx="505.00" cy="630.00" r="4" fill="#b47822"><title>missing_a0.1 knesset_25_2022: 14</title></circle>
+<polyline points="95.00,630.00 231.67,644.29 368.33,544.29 505.00,630.00" fill="none" stroke="#b47822" stroke-width="2"/>
+<circle cx="95.00" cy="630.00" r="4" fill="#8a4284"><title>share_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="231.67" cy="644.29" r="4" fill="#8a4284"><title>share_a0.1 knesset_23_2020: 12</title></circle>
+<circle cx="368.33" cy="544.29" r="4" fill="#8a4284"><title>share_a0.1 knesset_24_2021: 26</title></circle>
+<circle cx="505.00" cy="630.00" r="4" fill="#8a4284"><title>share_a0.1 knesset_25_2022: 14</title></circle>
+<polyline points="95.00,630.00 231.67,644.29 368.33,544.29 505.00,630.00" fill="none" stroke="#8a4284" stroke-width="2"/>
+<text x="60.0" y="755" font-size="11">2019-09-17</text>
+<text x="196.66666666666666" y="755" font-size="11">2020-03-02</text>
+<text x="333.3333333333333" y="755" font-size="11">2021-03-23</text>
+<text x="470.0" y="755" font-size="11">2022-11-01</text>
+<text x="630" y="470" font-size="18">t8_eligible_history</text>
+<path d="M630,730h480" stroke="#dce2e6"/><text x="600" y="734" font-size="11">0</text>
+<path d="M630,675h480" stroke="#dce2e6"/><text x="600" y="679" font-size="11">9</text>
+<path d="M630,620h480" stroke="#dce2e6"/><text x="600" y="624" font-size="11">19</text>
+<path d="M630,565h480" stroke="#dce2e6"/><text x="600" y="569" font-size="11">28</text>
+<path d="M630,510h480" stroke="#dce2e6"/><text x="600" y="514" font-size="11">37</text>
+<circle cx="665.00" cy="647.65" r="4" fill="#777777"><title>square_0or3 knesset_22_2019sep: 14</title></circle>
+<circle cx="801.67" cy="659.41" r="4" fill="#777777"><title>square_0or3 knesset_23_2020: 12</title></circle>
+<circle cx="938.33" cy="565.29" r="4" fill="#777777"><title>square_0or3 knesset_24_2021: 28</title></circle>
+<circle cx="1075.00" cy="647.65" r="4" fill="#777777"><title>square_0or3 knesset_25_2022: 14</title></circle>
+<polyline points="665.00,647.65 801.67,659.41 938.33,565.29 1075.00,647.65" fill="none" stroke="#777777" stroke-width="2"/>
+<circle cx="665.00" cy="647.65" r="4" fill="#246e9b"><title>seat_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="801.67" cy="659.41" r="4" fill="#246e9b"><title>seat_a0.1 knesset_23_2020: 12</title></circle>
+<circle cx="938.33" cy="577.06" r="4" fill="#246e9b"><title>seat_a0.1 knesset_24_2021: 26</title></circle>
+<circle cx="1075.00" cy="647.65" r="4" fill="#246e9b"><title>seat_a0.1 knesset_25_2022: 14</title></circle>
+<polyline points="665.00,647.65 801.67,659.41 938.33,577.06 1075.00,647.65" fill="none" stroke="#246e9b" stroke-width="2"/>
+<circle cx="665.00" cy="647.65" r="4" fill="#b47822"><title>missing_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="801.67" cy="659.41" r="4" fill="#b47822"><title>missing_a0.1 knesset_23_2020: 12</title></circle>
+<circle cx="938.33" cy="577.06" r="4" fill="#b47822"><title>missing_a0.1 knesset_24_2021: 26</title></circle>
+<circle cx="1075.00" cy="647.65" r="4" fill="#b47822"><title>missing_a0.1 knesset_25_2022: 14</title></circle>
+<polyline points="665.00,647.65 801.67,659.41 938.33,577.06 1075.00,647.65" fill="none" stroke="#b47822" stroke-width="2"/>
+<circle cx="665.00" cy="647.65" r="4" fill="#8a4284"><title>share_a0.1 knesset_22_2019sep: 14</title></circle>
+<circle cx="801.67" cy="659.41" r="4" fill="#8a4284"><title>share_a0.1 knesset_23_2020: 12</title></circle>
+<circle cx="938.33" cy="530.00" r="4" fill="#8a4284"><title>share_a0.1 knesset_24_2021: 34</title></circle>
+<circle cx="1075.00" cy="647.65" r="4" fill="#8a4284"><title>share_a0.1 knesset_25_2022: 14</title></circle>
+<polyline points="665.00,647.65 801.67,659.41 938.33,530.00 1075.00,647.65" fill="none" stroke="#8a4284" stroke-width="2"/>
+<text x="630.0" y="755" font-size="11">2019-09-17</text>
+<text x="766.6666666666666" y="755" font-size="11">2020-03-02</text>
+<text x="903.3333333333333" y="755" font-size="11">2021-03-23</text>
+<text x="1040.0" y="755" font-size="11">2022-11-01</text>
+<text x="25" y="875" font-size="14" fill="#777777">square_0or3</text>
+<text x="310" y="875" font-size="14" fill="#246e9b">seat_a0.1</text>
+<text x="595" y="875" font-size="14" fill="#b47822">missing_a0.1</text>
+<text x="880" y="875" font-size="14" fill="#8a4284">share_a0.1</text>
+<text x="25" y="910" font-size="13">Sparse dependent campaigns; reporting denominators unknown. T−8 coverage differs; no cross-panel ranking.</text></g></svg>

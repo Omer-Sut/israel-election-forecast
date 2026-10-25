@@ -165,3 +165,6 @@ E019 executed decision: retain reviewed extension as separate research data, not
 
 
 E020 preparation: compare arms internally on matched sources/horizons/roster; expanded all-zero roster Brier is not directly comparable with E018. Latest shares never receive older-wave backfill. History/T−8 are labelled sensitivities. Fixed0.1 primary is not selected by historical outcome inspection. All-zero candidates require measured share; conditional positive support4 is an assumption. No adoption pending hosted evidence, no forecast/turnout/merge/submission change.
+
+
+E020 result: retain original-source extension and diagnostics, reject adoption of this unconstrained reported-share learner. Primary15.0 worsens matched seat13.5/reference13.0; coverage-only leaves historical integer vectors unchanged. Do not cherry-pick history penalty1 mean12.5 after inspection: earlier-only selector14.0. Sparse/selective percentage reporting plus out-of-support extrapolation is a concrete limitation, not evidence percentages are inherently unhelpful. Do not repair by silently constraining slopes or altering data after observing outcomes. Comparable measured near-threshold shares/denominators are the next data priority. Current forecast/turnout unchanged.

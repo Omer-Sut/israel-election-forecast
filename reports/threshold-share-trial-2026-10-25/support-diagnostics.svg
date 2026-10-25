@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600"><rect width="1100" height="600" fill="white"/><g font-family="Arial,sans-serif" fill="#21384b">
+<text x="25" y="32" font-size="23">Why the percentage model is unstable</text>
+<text x="25" y="60" font-size="14">Primary T−1/latest. Range of measured training features versus measured target features.</text>
+<text x="25" y="125" font-size="14">knesset_22_2019sep</text>
+<path d="M300,125H1000" stroke="#dce2e6"/>
+<path d="M720.00,125H740.00" stroke="#4d839d" stroke-width="12"/>
+<text x="300" y="152" font-size="12">Observed training rows: 2; standardized share slope: -0.531</text>
+<text x="25" y="220" font-size="14">knesset_23_2020</text>
+<path d="M300,220H1000" stroke="#dce2e6"/>
+<path d="M720.00,220H740.00" stroke="#4d839d" stroke-width="12"/>
+<circle cx="640.00" cy="220" r="5" fill="#bf513a"><title>otzma_yehudit_2020: 1.700%, p=0.9986</title></circle>
+<text x="300" y="247" font-size="12">Observed training rows: 2; standardized share slope: -0.421</text>
+<text x="25" y="315" font-size="14">knesset_24_2021</text>
+<path d="M300,315H1000" stroke="#dce2e6"/>
+<path d="M640.00,315H740.00" stroke="#4d839d" stroke-width="12"/>
+<circle cx="560.00" cy="315" r="5" fill="#bf513a"><title>new_economic_2021: 1.300%, p=0.0229</title></circle>
+<text x="300" y="342" font-size="12">Observed training rows: 3; standardized share slope: 0.158</text>
+<text x="25" y="410" font-size="14">knesset_25_2022</text>
+<path d="M300,410H1000" stroke="#dce2e6"/>
+<path d="M560.00,410H740.00" stroke="#4d839d" stroke-width="12"/>
+<circle cx="730.00" cy="410" r="5" fill="#21384b"><title>balad_2022: 2.150%, p=0.0230</title></circle>
+<circle cx="420.00" cy="410" r="5" fill="#bf513a"><title>economic_freedom_2022: 0.600%, p=0.0215</title></circle>
+<circle cx="660.00" cy="410" r="5" fill="#21384b"><title>jewish_home_2022: 1.800%, p=0.0160</title></circle>
+<circle cx="400.00" cy="410" r="5" fill="#bf513a"><title>new_economic_2022: 0.500%, p=0.0194</title></circle>
+<circle cx="400.00" cy="410" r="5" fill="#bf513a"><title>tzeirim_boarim_2022: 0.500%, p=0.0194</title></circle>
+<text x="300" y="437" font-size="12">Observed training rows: 4; standardized share slope: 0.127</text>
+<text x="292" y="505" font-size="12">0.0%</text>
+<text x="392" y="505" font-size="12">0.5%</text>
+<text x="492" y="505" font-size="12">1.0%</text>
+<text x="592" y="505" font-size="12">1.5%</text>
+<text x="692" y="505" font-size="12">2.0%</text>
+<text x="792" y="505" font-size="12">2.5%</text>
+<text x="892" y="505" font-size="12">3.0%</text>
+<text x="992" y="505" font-size="12">3.5%</text>
+<text x="25" y="550" font-size="14">Blue: training range. Dots: target shares; red means outside measured training range.</text><text x="25" y="580" font-size="13">Repeated party/campaign rows are dependent. No measured shares in September2019 target latest polls.</text></g></svg>

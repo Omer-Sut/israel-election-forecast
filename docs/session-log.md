@@ -296,3 +296,6 @@ E019 executed: implementation7fcfdb599d32472948bac1d3f79457dec8dc5757 / PR31, ho
 
 
 E020 preparation October25: user approved matched share test. Added bounded three-arm/fixed0.1 primary plus penalty/source-age/horizon sensitivities, missingness/all-zero support assumptions, six tests and hosted CPU repeat/reference workflow. Execution pending. Read docs/threshold-share-trial.md. Stacks on PR31 at58b7733; local Git stale; adopted forecast/69.86% turnout unchanged, no merge/submission.
+
+
+E020 executed: primary percentages worsen mean seat L1 to15.0 versus seat/missing13.5 and constrained mean13.0. History's best inspected12.5 is not adopted; earlier-only history selection14.0. Sparse selective share support produces a negative early slope and overconfident Otzma2020 failure. Six tests/repeats first passed40202667646; baseline40202667583/scientific40202667571 succeeded. Added nonintervening support diagnostics. Read findings/plots under reports/threshold-share-trial-2026-10-25; final checks/head on PR32. Adopted forecast/69.86% turnout unchanged; no merge/submission.

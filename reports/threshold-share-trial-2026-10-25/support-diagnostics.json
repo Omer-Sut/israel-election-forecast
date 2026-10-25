@@ -1,0 +1,79 @@
+[
+  {
+    "election": "knesset_22_2019sep",
+    "training_observed_count": 2,
+    "training_observed_min": 2.1,
+    "training_observed_max": 2.2,
+    "standardized_share_coefficient": -0.5307899650911218,
+    "observed_targets": []
+  },
+  {
+    "election": "knesset_23_2020",
+    "training_observed_count": 2,
+    "training_observed_min": 2.1,
+    "training_observed_max": 2.2,
+    "standardized_share_coefficient": -0.4210164036889881,
+    "observed_targets": [
+      {
+        "id": "otzma_yehudit_2020",
+        "reported_pct": 1.7,
+        "outside_training_range": true,
+        "p": 0.9986481887845275
+      }
+    ]
+  },
+  {
+    "election": "knesset_24_2021",
+    "training_observed_count": 3,
+    "training_observed_min": 1.7,
+    "training_observed_max": 2.2,
+    "standardized_share_coefficient": 0.1576322499869866,
+    "observed_targets": [
+      {
+        "id": "new_economic_2021",
+        "reported_pct": 1.3,
+        "outside_training_range": true,
+        "p": 0.022912406745076417
+      }
+    ]
+  },
+  {
+    "election": "knesset_25_2022",
+    "training_observed_count": 4,
+    "training_observed_min": 1.3,
+    "training_observed_max": 2.2,
+    "standardized_share_coefficient": 0.12726957161720812,
+    "observed_targets": [
+      {
+        "id": "balad_2022",
+        "reported_pct": 2.15,
+        "outside_training_range": false,
+        "p": 0.0230245313856555
+      },
+      {
+        "id": "economic_freedom_2022",
+        "reported_pct": 0.6,
+        "outside_training_range": true,
+        "p": 0.021524406732315274
+      },
+      {
+        "id": "jewish_home_2022",
+        "reported_pct": 1.8,
+        "outside_training_range": false,
+        "p": 0.015975371835652553
+      },
+      {
+        "id": "new_economic_2022",
+        "reported_pct": 0.5,
+        "outside_training_range": true,
+        "p": 0.019392337083397024
+      },
+      {
+        "id": "tzeirim_boarim_2022",
+        "reported_pct": 0.5,
+        "outside_training_range": true,
+        "p": 0.019392337083397024
+      }
+    ]
+  }
+]

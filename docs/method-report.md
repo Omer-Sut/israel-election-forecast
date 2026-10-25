@@ -148,3 +148,6 @@ E019 executed40192307814: data extension and five tests/repeats passed; no new m
 
 
 E020 research prepared separately: matched historical seat/missingness/reported-percentage ridge-logit arms with strict earlier-campaign training. Execution/results pending; not part of adopted forecast or final method. Preserve69.86% turnout/seat vector; read docs/threshold-share-trial.md and executed findings before citing.
+
+
+E020 was executed as research, not adopted: matched primary reported-share ridge-logit worsens mean seat error15.0 versus seat-only13.5 and constrained mean13.0. Coverage-only leaves historical integer outputs unchanged. Best history sensitivity12.5 is hindsight; earlier-only history selector14.0. No correction or percentage-based probabilities enter the active method. Preserve adopted seats/69.86% turnout. Full assumptions/results/plots and final PR32 evidence are in the threshold-share-trial report.
