@@ -243,7 +243,7 @@ def write(report, out):
         if r is None: continue
         cells = [f"{r['seats'][ids.index(k)]} / {r['probabilities'].get(k, float('nan')):.4f}" for k in ('reservists_economic', 'amcha_yisrael')]
         lines.append('|'+method+'|'+'|'.join(cells)+'|')
-    lines += ['', '![Matched campaign errors](matched-errors.svg)', '', '## Limits', '']+['- '+x for x in report['limits']]
+    lines += ['', '![Matched campaign errors](matched-errors.svg)', '', '![Training support and extrapolation](support-diagnostics.svg)', '', '## Limits', '']+['- '+x for x in report['limits']]
     save('analysis.md', '\n'.join(lines)+'\n')
     historical = baseline.load_json(ROOT/'config/threshold-trial.json')['historical_config']
     hc = baseline.load_json(ROOT/historical)
@@ -256,6 +256,46 @@ def write(report, out):
     paths += [s['polls_path'] for s in hc['elections']]
     save('inputs-manifest.json', json.dumps({p: hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in sorted(set(paths))}, indent=2)+'\n')
     plot(report, out)
+    support_diagnostics(report, out)
+
+
+def support_diagnostics(report, out):
+    """Post-fit support warnings only; no modification of features or predictions."""
+    primary = report['panels']['t1_latest']['records']; diagnostics = []
+    for target in primary:
+        if target['method'] != 'share_a0.1':
+            continue
+        campaigns = set(target['fit']['training_campaigns'])
+        training = [row['share'] for r in primary if r['method']=='square_0or3' and r['election'] in campaigns
+                    for row in r['target_rows'] if row['share'] is not None]
+        lo = min(training) if training else None; hi = max(training) if training else None
+        observed = [{'id': row['id'], 'reported_pct': row['share'],
+                     'outside_training_range': lo is None or not lo <= row['share'] <= hi,
+                     'p': target['probabilities'][row['id']]}
+                    for row in target['target_rows'] if row['share'] is not None]
+        diagnostics.append({'election': target['election'], 'training_observed_count': len(training),
+            'training_observed_min': lo, 'training_observed_max': hi,
+            'standardized_share_coefficient': target['fit']['coefficients'][-1],
+            'observed_targets': observed})
+    (out/'support-diagnostics.json').write_text(json.dumps(diagnostics, indent=2)+'\n', encoding='utf-8', newline='\n')
+    p = ['<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="600" viewBox="0 0 1100 600"><rect width="1100" height="600" fill="white"/><g font-family="Arial,sans-serif" fill="#21384b">',
+        '<text x="25" y="32" font-size="23">Why the percentage model is unstable</text>',
+        '<text x="25" y="60" font-size="14">Primary T−1/latest. Range of measured training features versus measured target features.</text>']
+    for i, d in enumerate(diagnostics):
+        y = 125+i*95
+        p.append(f'<text x="25" y="{y}" font-size="14">{escape(d["election"])}</text>')
+        p.append(f'<path d="M300,{y}H1000" stroke="#dce2e6"/>')
+        if d['training_observed_min'] is not None:
+            x1 = 300+700*d['training_observed_min']/3.5; x2 = 300+700*d['training_observed_max']/3.5
+            p.append(f'<path d="M{x1:.2f},{y}H{x2:.2f}" stroke="#4d839d" stroke-width="12"/>')
+        for row in d['observed_targets']:
+            x = 300+700*row['reported_pct']/3.5; color = '#bf513a' if row['outside_training_range'] else '#21384b'
+            p.append(f'<circle cx="{x:.2f}" cy="{y}" r="5" fill="{color}"><title>{escape(row["id"])}: {row["reported_pct"]:.3f}%, p={row["p"]:.4f}</title></circle>')
+        p.append(f'<text x="300" y="{y+27}" font-size="12">Observed training rows: {d["training_observed_count"]}; standardized share slope: {d["standardized_share_coefficient"]:.3f}</text>')
+    for i in range(8):
+        p.append(f'<text x="{292+i*100}" y="505" font-size="12">{i*.5:.1f}%</text>')
+    p.append('<text x="25" y="550" font-size="14">Blue: training range. Dots: target shares; red means outside measured training range.</text><text x="25" y="580" font-size="13">Repeated party/campaign rows are dependent. No measured shares in September2019 target latest polls.</text></g></svg>')
+    (out/'support-diagnostics.svg').write_text('\n'.join(p)+'\n', encoding='utf-8', newline='\n')
 
 
 def plot(report, out):
