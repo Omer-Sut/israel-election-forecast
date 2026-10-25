@@ -1,0 +1,23 @@
+# E016: turnout history, demographics and conflict ablation
+
+The user approved national historical/demographic/conflict extension before implementation. This is a bounded48-configuration experiment: four blocks(history, plus demographics, plus conflict, plus both), two families(level ridge and fractional-logit GLM), penalties.01/.1/1, and expanding/last8 training windows. At most six predictors: previous turnout and election gap;65+total resident share and20-29female resident share; curated365-day onset count and years since last onset capped10. Predictor/penalty definitions and equal-election losses reuse E015. No extra search chosen after results.
+
+## Compatibility audit and scope reduction
+
+Collection on hosted CPU preserves twelve raw World Bank API responses and metadata, retrieval time, provider update date2026-10-08 and SHA256. Six indicators cover1960-2025. Source is UN Population Division/WDI; original historical release/revision vintages are unverified. Reference year minus2 is a modeling lag, not evidence the table was published then. Therefore demographic models are **retrospective revised-vintage sensitivities**, excluded from certified real-time evidence. No future interpolation/backfill. Cap reference years at2022 to omit2024/2025 estimates/projections and make current context deliberately stale, not to certify older estimates.
+
+Female20-24 and25-29 use the same female-resident denominator and may be added; the resulting feature is female20-29share, not all-person20-29share.65+ uses total de facto residents, not registered voters. Female-total weighting metadata additionally cites WPP2022, preventing an unverified cross-revision combination. Collected male/female-total series remain audit material only. Existing CBS locality data have insufficient audited national history/vintages; no mean of local medians/ranks, census backcasting or voter-level inference.
+
+Conflict catalogue retains E014ten named onsets and adds three directly checked original IDF onsets(Accountability1993-07-25, GrapesofWrath1996-04-11, DefensiveShield2002-03-29). The sources were published later than many elections. This is a non-exhaustive event-date sensitivity; zeros mean no catalogue entry, not peace. WarofAttrition/intifadas/other operations remain coverage gaps. End dates/active status/severity are not inferred or fitted; unknowns remain null. Current post2022 coverage is incomplete, so conflict/both current model estimates are unavailable. The2026IDF catalogue now lists additional operations; it cannot justify extrapolating the old catalogue as complete. A larger duration/severity database requires a separately audited inclusion rule.
+
+This narrows the approved proposal based on source compatibility; no fabricated economic, population or war inputs. The audit was bounded before model execution. Chronological earlier-numberical outcomes are preserved, while source-vintage uncertainty remains explicit for history too.
+
+## Evaluation
+
+Require exact demographic years and all four blocks for each training/evaluation row. Every block shares those rows, including history-only control; minimum8 training elections, minimum6 outer targets including all six recent elections. Each target cutoff is day before election; only earlier completed election outcomes and onsets enter. Current cutoff2026-10-25/date2026-10-27 retain the competition date assumption. Scalers train per fold. One election=one equal row; no voter-count trials or standard errors.
+
+Each block selects only among its12configurations and three simple references using last6 earlier OOF errors. Require3 prior OOF folds, otherwise persistence. Enforce configured40-100bounds and convergence before selection, with unconstrained estimates retained. Fixed-parameter paired error deltas isolate added features from best-of-grid cherry-picking. Compare recent six MAE, all common folds and equal2015/2019-21/2022blocks; no untouched holdout or causal war effect.
+
+Run `python scripts/turnout_context.py` after installing optional `requirements-turnout.txt`. `Audit and screen turnout context` Actions workflow tests source hashes, missing/reference-year gates, denominator handling, unknown ends/current gaps, future-target invariance and matched folds, runs twice and compares reports at absolute1e-7 with exact IDs/text/plots. Sources are collected only if no frozen manifest exists; repeated model runs do not use live network inputs. Results/CSV/SVG and manifests are retained. No existing forecast, baseline input, merge or competition entry changes.
+
+See PR28 and the dated report for executed results; preparation alone does not establish an improvement.

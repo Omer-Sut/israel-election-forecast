@@ -29,6 +29,24 @@ jobs:
       - name: Collect primary demographic source snapshot when absent
         if: ${{ hashFiles('data/snapshots/turnout-context-2026-10-25/worldbank/manifest.json') == '' }}
         run: python scripts/collect_turnout_context.py
+      - name: Install optional locked turnout dependencies
+        if: ${{ hashFiles('scripts/turnout_context.py') != '' }}
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-turnout.txt
+          python -m pip check
+      - name: Test provenance gates and chronological evaluation
+        if: ${{ hashFiles('scripts/turnout_context.py') != '' }}
+        run: python -m unittest discover -s tests -p test_turnout_context.py -v
+      - name: Fit controlled context ablations and verify reproduction
+        if: ${{ hashFiles('scripts/turnout_context.py') != '' }}
+        run: |
+          python scripts/turnout_context.py
+          python scripts/turnout_context.py --out-dir output/turnout-context-repeat > output/turnout-context-repeat.log
+          python scripts/compare_turnout_context.py output/turnout-context output/turnout-context-repeat
+          if [ -d reports/turnout-context-2026-10-25 ]; then
+            python scripts/compare_turnout_context.py reports/turnout-context-2026-10-25 output/turnout-context
+          fi
+          cat output/turnout-context/analysis.md >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         if: always()
         with:

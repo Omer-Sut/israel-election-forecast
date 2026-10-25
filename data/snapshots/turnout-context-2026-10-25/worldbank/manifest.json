@@ -1,0 +1,103 @@
+{
+  "retrieved_at": "2026-10-25T06:04:59.369964+00:00",
+  "historical_availability_verified": false,
+  "usage": "Retrospective revised-vintage sensitivity only; not real-time backtest data.",
+  "sources": [
+    {
+      "indicator": "SP.POP.2024.FE.5Y",
+      "kind": "observations",
+      "url": "https://api.worldbank.org/v2/country/ISR/indicator/SP.POP.2024.FE.5Y?format=json&per_page=20000",
+      "file": "SP.POP.2024.FE.5Y-observations.json",
+      "sha256": "4766ba2c771f3c168b4d4a8b99998df8e02b6e47cc7145f1e4424e7f1b064be3",
+      "bytes": 16322
+    },
+    {
+      "indicator": "SP.POP.2024.FE.5Y",
+      "kind": "metadata",
+      "url": "https://api.worldbank.org/v2/indicator/SP.POP.2024.FE.5Y?format=json",
+      "file": "SP.POP.2024.FE.5Y-metadata.json",
+      "sha256": "0641ab851d8103bfc94b93e391ebc8aa5f90d9fb0b5246ddbaf6042288b7723d",
+      "bytes": 463
+    },
+    {
+      "indicator": "SP.POP.2024.MA.5Y",
+      "kind": "observations",
+      "url": "https://api.worldbank.org/v2/country/ISR/indicator/SP.POP.2024.MA.5Y?format=json&per_page=20000",
+      "file": "SP.POP.2024.MA.5Y-observations.json",
+      "sha256": "e32dc09d68d198e9149bb20c9d0380938ba4865cbb06527815949ac434f353e5",
+      "bytes": 16055
+    },
+    {
+      "indicator": "SP.POP.2024.MA.5Y",
+      "kind": "metadata",
+      "url": "https://api.worldbank.org/v2/indicator/SP.POP.2024.MA.5Y?format=json",
+      "file": "SP.POP.2024.MA.5Y-metadata.json",
+      "sha256": "9b089ef0b0741d4925944492f96ce7a74eb78236bdc803cbeb1fe436234517d2",
+      "bytes": 455
+    },
+    {
+      "indicator": "SP.POP.2529.FE.5Y",
+      "kind": "observations",
+      "url": "https://api.worldbank.org/v2/country/ISR/indicator/SP.POP.2529.FE.5Y?format=json&per_page=20000",
+      "file": "SP.POP.2529.FE.5Y-observations.json",
+      "sha256": "2cfb0dc28e9123858a10114ef1595293710cae2df6aee1329c4290643f155570",
+      "bytes": 16326
+    },
+    {
+      "indicator": "SP.POP.2529.FE.5Y",
+      "kind": "metadata",
+      "url": "https://api.worldbank.org/v2/indicator/SP.POP.2529.FE.5Y?format=json",
+      "file": "SP.POP.2529.FE.5Y-metadata.json",
+      "sha256": "15ef540e53845c22a7a5d371b6681e315255b96dfc75555517c61aa9b6e01d13",
+      "bytes": 463
+    },
+    {
+      "indicator": "SP.POP.2529.MA.5Y",
+      "kind": "observations",
+      "url": "https://api.worldbank.org/v2/country/ISR/indicator/SP.POP.2529.MA.5Y?format=json&per_page=20000",
+      "file": "SP.POP.2529.MA.5Y-observations.json",
+      "sha256": "904b00f63d4bfdf4bce1ba2d15fa92ea5210732ceb6a1289524aa5542d2d1727",
+      "bytes": 16055
+    },
+    {
+      "indicator": "SP.POP.2529.MA.5Y",
+      "kind": "metadata",
+      "url": "https://api.worldbank.org/v2/indicator/SP.POP.2529.MA.5Y?format=json",
+      "file": "SP.POP.2529.MA.5Y-metadata.json",
+      "sha256": "107a96d3d0c2e69084f48c4cb7452d70162b4150b79b5b36af87babd69b1ae91",
+      "bytes": 455
+    },
+    {
+      "indicator": "SP.POP.TOTL.FE.ZS",
+      "kind": "observations",
+      "url": "https://api.worldbank.org/v2/country/ISR/indicator/SP.POP.TOTL.FE.ZS?format=json&per_page=20000",
+      "file": "SP.POP.TOTL.FE.ZS-observations.json",
+      "sha256": "3e7807dbbef724689ae69f520189b63a509ec0978660308317cbb9310660cbc0",
+      "bytes": 15532
+    },
+    {
+      "indicator": "SP.POP.TOTL.FE.ZS",
+      "kind": "metadata",
+      "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL.FE.ZS?format=json",
+      "file": "SP.POP.TOTL.FE.ZS-metadata.json",
+      "sha256": "e578cd566bd3d878367c5004e83c7b043a98114934b2bc07da7d4df373110227",
+      "bytes": 748
+    },
+    {
+      "indicator": "SP.POP.65UP.TO.ZS",
+      "kind": "observations",
+      "url": "https://api.worldbank.org/v2/country/ISR/indicator/SP.POP.65UP.TO.ZS?format=json&per_page=20000",
+      "file": "SP.POP.65UP.TO.ZS-observations.json",
+      "sha256": "137568b24b921c669834f7de87d108a758ec8a04cca9ca26cda9f66477a3acf5",
+      "bytes": 16190
+    },
+    {
+      "indicator": "SP.POP.65UP.TO.ZS",
+      "kind": "metadata",
+      "url": "https://api.worldbank.org/v2/indicator/SP.POP.65UP.TO.ZS?format=json",
+      "file": "SP.POP.65UP.TO.ZS-metadata.json",
+      "sha256": "7e879654023471e82357bde5a072b0197de8e637832e4b61410c56aac6ac82f4",
+      "bytes": 571
+    }
+  ]
+}
