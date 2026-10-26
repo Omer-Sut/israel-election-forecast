@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="650" viewBox="0 0 1150 650">
+<rect width="1150" height="650" fill="white"/><g font-family="Arial,sans-serif" fill="#18324a">
+<text x="25" y="35" font-size="23">Forecast decisions: how threshold assumptions change seats</text>
+<text x="25" y="62" font-size="14">Provisional reviewed inputs. Scenario markers are assumptions, not probabilities or a verified vote allocator.</text>
+<path d="M400,83V555" stroke="#e0e5ea"/><text x="395" y="575" font-size="12">0</text>
+<path d="M525,83V555" stroke="#e0e5ea"/><text x="520" y="575" font-size="12">5</text>
+<path d="M650,83V555" stroke="#e0e5ea"/><text x="645" y="575" font-size="12">10</text>
+<path d="M775,83V555" stroke="#e0e5ea"/><text x="770" y="575" font-size="12">15</text>
+<path d="M900,83V555" stroke="#e0e5ea"/><text x="895" y="575" font-size="12">20</text>
+<path d="M1025,83V555" stroke="#e0e5ea"/><text x="1020" y="575" font-size="12">25</text>
+<text x="25" y="105" font-size="13">Likud</text>
+<path d="M950,100H975" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="950" cy="97" r="4" fill="#216aa4"/>
+<circle cx="925" cy="103" r="4" fill="#298269"/>
+<text x="25" y="136" font-size="13">Yashar! (Eisenkot)</text>
+<path d="M925,131H950" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="950" cy="128" r="4" fill="#216aa4"/>
+<circle cx="950" cy="134" r="4" fill="#298269"/>
+<text x="25" y="167" font-size="13">Beyachad / Together (Bennett)</text>
+<path d="M725,162H725" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="725" cy="159" r="4" fill="#216aa4"/>
+<circle cx="750" cy="165" r="4" fill="#298269"/>
+<text x="25" y="198" font-size="13">The Democrats</text>
+<path d="M600,193H625" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="625" cy="190" r="4" fill="#216aa4"/>
+<circle cx="625" cy="196" r="4" fill="#298269"/>
+<text x="25" y="229" font-size="13">Yisrael Beiteinu</text>
+<path d="M575,224H575" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="575" cy="221" r="4" fill="#216aa4"/>
+<circle cx="600" cy="227" r="4" fill="#298269"/>
+<text x="25" y="260" font-size="13">Shas</text>
+<path d="M600,255H600" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="600" cy="252" r="4" fill="#216aa4"/>
+<circle cx="600" cy="258" r="4" fill="#298269"/>
+<text x="25" y="291" font-size="13">United Torah Judaism</text>
+<path d="M575,286H600" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="575" cy="283" r="4" fill="#216aa4"/>
+<circle cx="575" cy="289" r="4" fill="#298269"/>
+<text x="25" y="322" font-size="13">Otzma Yehudit</text>
+<path d="M575,317H600" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="600" cy="314" r="4" fill="#216aa4"/>
+<circle cx="600" cy="320" r="4" fill="#298269"/>
+<text x="25" y="353" font-size="13">Religious Zionism</text>
+<path d="M550,348H575" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="575" cy="345" r="4" fill="#216aa4"/>
+<circle cx="575" cy="351" r="4" fill="#298269"/>
+<text x="25" y="384" font-size="13">Ra&#x27;am</text>
+<path d="M525,379H550" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="525" cy="376" r="4" fill="#216aa4"/>
+<circle cx="525" cy="382" r="4" fill="#298269"/>
+<text x="25" y="415" font-size="13">Hadash-Ta&#x27;al</text>
+<path d="M600,410H625" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="625" cy="407" r="4" fill="#216aa4"/>
+<circle cx="625" cy="413" r="4" fill="#298269"/>
+<text x="25" y="446" font-size="13">Blue and White</text>
+<path d="M400,441H400" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="400" cy="438" r="4" fill="#216aa4"/>
+<circle cx="400" cy="444" r="4" fill="#298269"/>
+<text x="25" y="477" font-size="13">Amcha Yisrael</text>
+<path d="M400,472H500" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="425" cy="469" r="4" fill="#216aa4"/>
+<circle cx="400" cy="475" r="4" fill="#298269"/>
+<text x="25" y="508" font-size="13">Reservists-Economic</text>
+<path d="M400,503H500" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="450" cy="500" r="4" fill="#216aa4"/>
+<circle cx="450" cy="506" r="4" fill="#298269"/>
+<text x="25" y="539" font-size="13">Other qualifying lists (combined)</text>
+<path d="M400,534H400" stroke="#d18b2c" stroke-width="5"/>
+<circle cx="400" cy="531" r="4" fill="#216aa4"/>
+<circle cx="400" cy="537" r="4" fill="#298269"/>
+<text x="25" y="590" font-size="14" fill="#216aa4">Blue: rounded mean</text><text x="240" y="590" font-size="14" fill="#298269">Green: empirical L1</text><text x="470" y="590" font-size="14" fill="#a36916">Orange: four fixed0/4 scenarios</text>
+<text x="25" y="625" font-size="13">All options sum120. Saved JSON/CSV includes all vectors, omitted-source sensitivities and historical checks.</text></g></svg>
