@@ -1,5 +1,7 @@
 # Decisions and open questions
 
+October23 E006 decision: keep explicit prior-election continuity/pooling context machinery, reject forecast correction adoption now because no fixed25% or earlier-OOF-selected integer gain in2021/2022. Full2015edition-linked data stays separate archive-unverified sensitivity; coverage is not individual demographic identification. Preserve tiny hindsight-only continuous gain without selecting it. Next prioritize current polls/threshold measurements rather than enlarging this matrix; age/sex/2026lineage still audited separately. No merge/submission authorized. See party-area-trial.md and its verified report.
+
 ## Accepted
 
 - E005 checked outcome: preserve the dated geographic/dynamic ablation and chronological-selection results; no feature configuration establishes2021/2022gains. Do not adopt prototype poll-quality weights: OOF expected-error MAE9.233loses to8.668prior-campaign-average baseline. These are working evidence-based keep/reject decisions for this trial, not a permanent family exclusion or user-selected final forecast. Broader dated demographics/lineages are the next information-gathering step; turnout remains later.
@@ -72,4 +74,3 @@
 - Collaborator invitations (public read access does not grant write access).
 
 Record decisions here when made, including rationale and relevant evidence. Do not retroactively describe proposals as user-approved decisions.
-

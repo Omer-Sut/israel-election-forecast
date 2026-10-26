@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-23",
+  "purpose": "Explicit retrospective area-context proxies, not individual voter transfers or certified lineage truth.",
+  "evidence": [
+    "data/snapshots/screening-six-elections-2026-10-21/audit.json",
+    "data/snapshots/historical-2026-10-21/polls-2021.json",
+    "data/snapshots/historical-2026-10-21/polls-2022.json",
+    "data/database/official_lists.jsonl.gz"
+  ],
+  "policy": "Only immediately preceding election. Election-scoped codes, never code/name inference. Missing is explicit. Pooled proxies enabled only in a separate sensitivity. Original pre-election poll sources establish target labels; continuity/pooling is an analyst assumption.",
+  "elections": {
+    "21": {
+      "source_knesset": 20,
+      "unmapped_reason": "New alliance/party or split from a combined 2015 list; no defensible component allocation.",
+      "mappings": [
+        {
+          "target_id": "likud_2019apr",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "מחל"
+          ],
+          "rationale": "Retained Likud party; electorate continuity is a proxy, not a voter-transfer claim."
+        },
+        {
+          "target_id": "shas_2019apr",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "שס"
+          ],
+          "rationale": "Retained Shas list."
+        },
+        {
+          "target_id": "united_torah_judaism_2019apr",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ג"
+          ],
+          "rationale": "Retained UTJ alliance."
+        },
+        {
+          "target_id": "yisrael_beiteinu_2019apr",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ל"
+          ],
+          "rationale": "Retained Yisrael Beiteinu party."
+        },
+        {
+          "target_id": "meretz_2019apr",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "מרצ"
+          ],
+          "rationale": "Retained Meretz party."
+        },
+        {
+          "target_id": "kulanu_2019apr",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "כ"
+          ],
+          "rationale": "Retained Kulanu party."
+        }
+      ]
+    },
+    "22": {
+      "source_knesset": 21,
+      "unmapped_reason": "Changed components, split or new entrant; no whole-list predecessor pool approved.",
+      "mappings": [
+        {
+          "target_id": "blue_and_white_2019sep",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "פה"
+          ],
+          "rationale": "Same Blue and White electoral alliance, not the later 2021 remnant."
+        },
+        {
+          "target_id": "shas_2019sep",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "שס"
+          ],
+          "rationale": "Retained Shas list."
+        },
+        {
+          "target_id": "united_torah_judaism_2019sep",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ג"
+          ],
+          "rationale": "Retained UTJ alliance."
+        },
+        {
+          "target_id": "yisrael_beiteinu_2019sep",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ל"
+          ],
+          "rationale": "Retained Yisrael Beiteinu party."
+        },
+        {
+          "target_id": "likud_2019sep",
+          "status": "pooled_proxy",
+          "source_ballot_codes": [
+            "מחל",
+            "כ"
+          ],
+          "rationale": "Likud/Kulanu predecessor-area pool; no claim every earlier voter transferred."
+        },
+        {
+          "target_id": "joint_list_2019sep",
+          "status": "pooled_proxy",
+          "source_ballot_codes": [
+            "ום",
+            "דעם"
+          ],
+          "rationale": "Reassembled Joint List: pool Hadash-Taal and Raam-Balad area votes, not seats."
+        },
+        {
+          "target_id": "labor_gesher_2019sep",
+          "status": "pooled_proxy",
+          "source_ballot_codes": [
+            "אמת",
+            "נר"
+          ],
+          "rationale": "Labor/Gesher predecessor-area pool; geographic-context assumption."
+        }
+      ]
+    },
+    "23": {
+      "source_knesset": 22,
+      "unmapped_reason": "Unmapped predecessor; fail closed.",
+      "mappings": [
+        {
+          "target_id": "likud_2020",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "מחל"
+          ],
+          "rationale": "Retained post-Kulanu Likud list."
+        },
+        {
+          "target_id": "blue_and_white_2020",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "פה"
+          ],
+          "rationale": "Same three-party Blue and White alliance."
+        },
+        {
+          "target_id": "joint_list_2020",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ודעם"
+          ],
+          "rationale": "Same four-party Joint List, before Raam departure."
+        },
+        {
+          "target_id": "shas_2020",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "שס"
+          ],
+          "rationale": "Retained Shas list."
+        },
+        {
+          "target_id": "united_torah_judaism_2020",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ג"
+          ],
+          "rationale": "Retained UTJ alliance."
+        },
+        {
+          "target_id": "yisrael_beiteinu_2020",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ל"
+          ],
+          "rationale": "Retained Yisrael Beiteinu party."
+        },
+        {
+          "target_id": "yamina_2020",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "טב"
+          ],
+          "rationale": "Same New Right/Jewish Home/National Union alliance proxy."
+        },
+        {
+          "target_id": "otzma_yehudit_2020",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "כף"
+          ],
+          "rationale": "Retained standalone Otzma; changed ballot code explicitly."
+        },
+        {
+          "target_id": "labor_gesher_meretz_2020",
+          "status": "pooled_proxy",
+          "source_ballot_codes": [
+            "אמת",
+            "מרצ"
+          ],
+          "rationale": "Pool Labor-Gesher and Democratic Union geographic votes; changed fringe components make this imperfect."
+        }
+      ]
+    },
+    "24": {
+      "source_knesset": 23,
+      "unmapped_reason": "New party, changed alliance or split from a combined 2020 list; no component transfer estimates.",
+      "mappings": [
+        {
+          "target_id": "likud_2021",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "מחל"
+          ],
+          "rationale": "Retained Likud core despite New Hope breakaway; not exact electorate continuity."
+        },
+        {
+          "target_id": "shas_2021",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "שס"
+          ],
+          "rationale": "Retained Shas list."
+        },
+        {
+          "target_id": "united_torah_judaism_2021",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ג"
+          ],
+          "rationale": "Retained UTJ alliance."
+        },
+        {
+          "target_id": "yisrael_beiteinu_2021",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ל"
+          ],
+          "rationale": "Retained Yisrael Beiteinu party."
+        }
+      ]
+    },
+    "25": {
+      "source_knesset": 24,
+      "unmapped_reason": "New entrant or split/changed alliance; no subdivision of 2021 Joint List or Yamina votes.",
+      "mappings": [
+        {
+          "target_id": "likud_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "מחל"
+          ],
+          "rationale": "Retained Likud party."
+        },
+        {
+          "target_id": "yesh_atid_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "פה"
+          ],
+          "rationale": "Standalone Yesh Atid since 2021; never use 2020 Blue and White code as its predecessor."
+        },
+        {
+          "target_id": "shas_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "שס"
+          ],
+          "rationale": "Retained Shas list."
+        },
+        {
+          "target_id": "united_torah_judaism_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ג"
+          ],
+          "rationale": "Retained UTJ alliance."
+        },
+        {
+          "target_id": "yisrael_beiteinu_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ל"
+          ],
+          "rationale": "Retained Yisrael Beiteinu party."
+        },
+        {
+          "target_id": "raam_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "עם"
+          ],
+          "rationale": "Standalone Raam since 2021; no subdivision of 2020 Joint List votes."
+        },
+        {
+          "target_id": "labor_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "אמת"
+          ],
+          "rationale": "Standalone Labor since 2021; no subdivision of 2020 joint alliance votes."
+        },
+        {
+          "target_id": "meretz_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "מרצ"
+          ],
+          "rationale": "Standalone Meretz since 2021; retains below-threshold target."
+        },
+        {
+          "target_id": "religious_zionism_otzma_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "ט"
+          ],
+          "rationale": "Same RZ/Otzma/Noam electoral alliance proxy; not later parliamentary factions."
+        },
+        {
+          "target_id": "new_economic_2022",
+          "status": "continuity",
+          "source_ballot_codes": [
+            "יז"
+          ],
+          "rationale": "Retained New Economic Party; explicit low-vote predecessor."
+        },
+        {
+          "target_id": "national_unity_2022",
+          "status": "pooled_proxy",
+          "source_ballot_codes": [
+            "כן",
+            "ת"
+          ],
+          "rationale": "Pool 2021 Blue and White and New Hope; new candidates and departures are not quantified."
+        }
+      ]
+    }
+  },
+  "initial_election": {
+    "knesset": 20,
+    "reason": "No preceding-election geographic votes in this six-election database."
+  }
+}

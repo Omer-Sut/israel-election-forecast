@@ -1,5 +1,11 @@
 # Experiment and effort log
 
+## E006 - Explicit party-area context, October23 (verified)
+
+Implementation1fcca3da08f4c6a66bdf55c20f345db351b1c961 / PR17. Screen39921492239 and baseline39921492335 succeeded:60tests, frozen references, repeated E006contexts/coverage/scores/selections/SVG identical. E006runtime6.231s; seed20261021. Input hashes/configs in reports/party-area-trial-2026-10-23/manifest.json and full artifact12486559561 (138283bytes, unexpired throughNovember22). Tested output PR merge ref93e1e7dd is not a merge claim. Initial770065d run39921070292 failed on wrong-module import; corrected, no failed results used.
+
+Expanded27audited releases, six elections T-1, previous-election locality votes only. Fixed ridge_10/forest_3_5/xgb_2_50; five ablations, seven existing strengths; per-fixed-learner/feature-set selection on >=2earlier OOF elections by continuous or integer L1. Dated15cities versus full2015edition after2019-08-31, explicitly archive-unverified sensitivity. Five pools are context proxies; splits/new entrants missing.2022profiles11/16with pools, conditional unweighted mean predecessor coverage39.6%→90.0%;2021only4/14despite52.3%→93.9%coverage. All420scalar scores/180selection rows preserved. No fixed25% or selected integer improvement in2021/2022over20/12. Hindsight2022edition+pools ridge5% continuous12.576vs12.667 ties integer12, not chosen earlier; not adoption evidence. Keep lineage/audit tooling, reject correction adoption now; prioritize current polls/threshold inputs. No age/sex/current forecast/turnout/merge change. Local Python unavailable; user hands-on/cumulative effort unmeasured, budget not reset.
+
 ## E005 - poll quality and feature trial (verified)
 
 Final4275c5484ccd2525923d89c9f45e13b7dce2b272 / PR #16. Screen39776060120 and baseline39776062476 succeeded:55tests and frozen/deterministic reproduction. New trial37.133s; outputsfrozen at tested PR merge refefb6675 (not a merge claim).324mapped exploratory index rows/466exclusions,27audited releases,22known sizes. Source2018-11-28CBS2015index15city table transcribed and matched to official city codes/names; previous-election vote profiles for three explicit cores enter two additional ablations. Broad209profiles remain descriptive; age/sex/lineage integration still gated. Fourfeature sets/twohistory variants; correction0/.025/.05/.1/.25/.5/1 and existing family parameters selected on>=2earlier OOF elections. No selected2021/2022improvement, oftenzero corrections. Audited-only quality MAE9.233vs prior-campaign-average8.668, reject weight adoption for now. Compact report preserves CSV/SVG/HTML/provenance; artifact12424098121 verified203126bytes/unexpiredthroughNovember21, full2MBparameterCSV rebuildable. No current forecast/turnout/final model/merge change. Hands-on effort unmeasured/not reset.
@@ -123,4 +129,3 @@ Limitations / next step:
 ```
 
 Log failed or rejected approaches briefly too. Keep the authoritative source manifest and outputs durable in GitHub or a documented shared store; a session-only path is insufficient.
-
