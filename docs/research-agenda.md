@@ -62,3 +62,8 @@ Plot turnout and its change, then compare post-conflict changes with other chang
 - A pretrained tabular foundation model is optional. It still needs labeled examples and compatible inputs; pretraining does not provide current Israeli election knowledge. No election-specific, ready-to-run pretrained checkpoint was verified in this review.
 
 Choose the input table and evaluation design before choosing ML software. See [the evidence and prioritized data inventory](forecasting-research.md).
+
+
+## Active priority — October 25, E018
+
+The user reopened research and will decide when to return to submission-only work. Their concern is specifically Reservists-Economic and Amcha Yisrael near the threshold, with support for zero-or-positive outputs. Implement the bounded representation-first protocol in docs/threshold-trial.md; preserve adopted turnout69.86% and reference seats. This supersedes E017 stopping research. Candidate model probabilities are exploratory until earlier-election scoring supports them; current below-threshold percentages and firm dependence remain source limitations.

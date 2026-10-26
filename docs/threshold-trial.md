@@ -1,0 +1,30 @@
+# E018: representation first, conditional seats second
+
+The user reopened model/data research on October25 and will decide when to switch to submission-only work. This supersedes the E017 research stop, without resetting measured/cumulative effort or changing the adopted forecast. Their concern specifically targets Reservists-Economic and AmchaYisrael and they support the zero-or-positive output principle. The current69.86% turnout and reviewed seats remain the reference.
+
+## Question and frozen protocol
+
+Can we improve threshold decisions by learning representation separately from conditional positive seats, rather than applying a smooth residual correction to the mean? Freeze the protocol before E018 scores. Use the existing six-election audited T−1 panel, its same14-day window and latest three firms. Historical identities stay election-specific; source versions remain retrospective, not certified real-time archives. No secondary E009 releases silently enter training.
+
+Define a candidate **using polls alone**: at least one selected poll projects positive seats, mean<=6 and maximum<=8. This restricts fitting to borderline/small lists with observed positive support in the seat tables. It avoids training on the many never-polled zero-seat lists whose roster inclusion varies across campaigns. All-zero lists and any winners absent from this candidate population remain explicit coverage limitations, not evidence of impossible qualification. Report their representation misses separately. Published seats are not observed vote shares; zero seats do not mean zero support.
+
+For candidates, fit penalized logistic regression to actual representation(official seats>0). Two inputs: fraction of selected firms projecting positive seats and mean seats among positive projections. Train only on earlier completed campaigns, weighting each campaign equally and its candidate lists equally within campaign. Fit weighted training-only centers/scales. Mean weighted logistic loss plus alpha/2 times standardized slope norm squared; intercept unpenalized. Three fixed penalties(.01,.1,1), no other search. At least two earlier campaigns with candidate rows; single-class training uses an explicit half-count-smoothed campaign-balanced intercept fallback. No party names, historical/current aliases, target outcomes or later quality weights enter features.
+
+Conditional positive-seat distribution is the empirical distribution of that target list's positive poll projections, with any1/2 projections mapped to3 only in the candidate positive branch. This is an explicit limited support assumption, not a vote reconstruction. Combine zero mass1−p and positive massp. Noncandidates retain empirical poll-seat distributions. All-zero polls retain their descriptive point mass at zero; this is not a calibrated statement of certainty. No probabilities for those lists are exported as learned estimates.
+
+Choose the integer vector minimizing sum of marginal expected absolute seat errors, subject to total120 and each individual list0or>=3. Expected additive loss needs no independence assumption; these marginal distributions do not establish a feasible joint electoral distribution. Ties at1e−10 favor squared distance to the same mean then field order. Current combined-other field stays0 because no disaggregated new qualifying list is introduced. This remains seat-space decision research, not a current Bader–Ofer simulation. Three can still arise from joint constraints; the aim is to examine threshold evidence, not to force an intuitively preferred current outcome.
+
+Controls are the same poll mean with squared-distance0/3 allocation and empirical absolute-disagreement0/3 allocation. Match every historical fold. Four learned outer folds begin September2019 after two training campaigns; early warm-up gaps remain explicit. Choose among controls/three penalties using at least two earlier complete OOF campaign seat errors; ties favor controls. No target truth enters selection. Current estimates are diagnostic only.
+
+Report every campaign's total absolute seat error and representation false positives/negatives, candidate counts, Brier loss and log loss, and mean errors treating2019–21 as one block. Brier/log losses assess numerical probability forecasts; small dependent samples do not certify calibration. Fixed-grid gains are hindsight diagnostics, not automatic selection/adoption. Plot historical losses and current focus probabilities/sensitivity; show per-poll below-threshold percentages from the E012 audit separately, including missing data. Those percentages do not train a model without comparable historical coverage.
+
+## Reproduction and evidence
+
+Optional pinned NumPy/SciPy CPU environment reuses requirements-turnout.txt; standard-library baseline remains independent. Dedicated workflow tests source/feature boundaries, candidate coverage, training-only scaling/weights, expected-loss DP against enumeration, future-outcome invariance and output arithmetic; repeated/reference comparisons use fixed absolute1e−7 with exact discrete outputs/text/plots. Do not claim execution or calibrated crossing probabilities before hosted results are verified.
+
+Probability scoring follows the original [Gneiting–Raftery paper](https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf); no numerical calibration claim is transferred from that literature. No new model/weight/forecast adoption, merging or competition submission by preparing this trial.
+
+
+## Executed finding
+
+Run40189471181 passed five tests and fresh repeats at implementation1d765e82. Learned mean total seat error13.5 versus square control13.0; no adoption.2020 has no threshold candidate, leaving only three informative probability campaigns/13candidate predictions. Current fitting uses25rows/five campaigns. Read reports/threshold-trial-2026-10-25/findings.md for the Raam2021 failure and Reservists0/4 regularization sensitivity. Current active forecast and69.86% turnout remain unchanged; research continues toward original historical percentage coverage. Final PR30 checks/head are authoritative.

@@ -1,0 +1,8190 @@
+{
+  "config": {
+    "historical_config": "data/snapshots/screening-six-elections-2026-10-21/prepared/historical.json",
+    "alphas": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "minimum_training_campaigns": 2,
+    "minimum_selection_campaigns": 2,
+    "candidate_mean_max": 6.0,
+    "candidate_poll_max": 8,
+    "minimum_positive_seats": 3,
+    "current_focus": [
+      "reservists_economic",
+      "amcha_yisrael"
+    ],
+    "current_percentage_audit": "data/snapshots/vote-input-audit-2026-10-24/audit.json",
+    "decision": "Focused research only; preserve adopted forecast and69.86% turnout",
+    "numeric_tolerance": 1e-07
+  },
+  "records": [
+    {
+      "election": "knesset_20_2015",
+      "election_date": "2015-03-17",
+      "period": "election_2015",
+      "party_ids": [
+        "jewish_home_2015",
+        "joint_list_2015",
+        "kulanu_2015",
+        "likud_2015",
+        "meretz_2015",
+        "shas_2015",
+        "united_torah_judaism_2015",
+        "yachad_2015",
+        "yesh_atid_2015",
+        "yisrael_beiteinu_2015",
+        "zionist_union_2015"
+      ],
+      "actual": {
+        "likud_2015": 30,
+        "zionist_union_2015": 24,
+        "joint_list_2015": 13,
+        "yesh_atid_2015": 11,
+        "kulanu_2015": 10,
+        "jewish_home_2015": 8,
+        "shas_2015": 7,
+        "yisrael_beiteinu_2015": 6,
+        "united_torah_judaism_2015": 6,
+        "meretz_2015": 5,
+        "yachad_2015": 0
+      },
+      "method": "square_0or3",
+      "learned_available": false,
+      "seats": [
+        12,
+        13,
+        8,
+        21,
+        5,
+        8,
+        6,
+        4,
+        12,
+        6,
+        25
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 22,
+      "false_positive": [
+        "yachad_2015"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_20_2015",
+      "election_date": "2015-03-17",
+      "period": "election_2015",
+      "party_ids": [
+        "jewish_home_2015",
+        "joint_list_2015",
+        "kulanu_2015",
+        "likud_2015",
+        "meretz_2015",
+        "shas_2015",
+        "united_torah_judaism_2015",
+        "yachad_2015",
+        "yesh_atid_2015",
+        "yisrael_beiteinu_2015",
+        "zionist_union_2015"
+      ],
+      "actual": {
+        "likud_2015": 30,
+        "zionist_union_2015": 24,
+        "joint_list_2015": 13,
+        "yesh_atid_2015": 11,
+        "kulanu_2015": 10,
+        "jewish_home_2015": 8,
+        "shas_2015": 7,
+        "yisrael_beiteinu_2015": 6,
+        "united_torah_judaism_2015": 6,
+        "meretz_2015": 5,
+        "yachad_2015": 0
+      },
+      "method": "absolute_0or3",
+      "learned_available": false,
+      "seats": [
+        12,
+        13,
+        8,
+        21,
+        5,
+        8,
+        6,
+        4,
+        12,
+        6,
+        25
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 22,
+      "false_positive": [
+        "yachad_2015"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_21_2019apr",
+      "election_date": "2019-04-09",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2019apr",
+        "gesher_2019apr",
+        "hadash_taal_2019apr",
+        "kulanu_2019apr",
+        "labor_2019apr",
+        "likud_2019apr",
+        "meretz_2019apr",
+        "new_right_2019apr",
+        "raam_balad_2019apr",
+        "shas_2019apr",
+        "union_right_wing_parties_2019apr",
+        "united_torah_judaism_2019apr",
+        "yisrael_beiteinu_2019apr",
+        "zehut_2019apr"
+      ],
+      "actual": {
+        "likud_2019apr": 35,
+        "blue_and_white_2019apr": 35,
+        "labor_2019apr": 6,
+        "shas_2019apr": 8,
+        "united_torah_judaism_2019apr": 8,
+        "hadash_taal_2019apr": 6,
+        "raam_balad_2019apr": 4,
+        "yisrael_beiteinu_2019apr": 5,
+        "union_right_wing_parties_2019apr": 5,
+        "meretz_2019apr": 4,
+        "kulanu_2019apr": 4,
+        "new_right_2019apr": 0,
+        "zehut_2019apr": 0,
+        "gesher_2019apr": 0
+      },
+      "method": "square_0or3",
+      "learned_available": false,
+      "seats": [
+        29,
+        0,
+        6,
+        5,
+        11,
+        27,
+        5,
+        6,
+        4,
+        5,
+        6,
+        6,
+        5,
+        5
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 38,
+      "false_positive": [
+        "new_right_2019apr",
+        "zehut_2019apr"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_21_2019apr",
+      "election_date": "2019-04-09",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2019apr",
+        "gesher_2019apr",
+        "hadash_taal_2019apr",
+        "kulanu_2019apr",
+        "labor_2019apr",
+        "likud_2019apr",
+        "meretz_2019apr",
+        "new_right_2019apr",
+        "raam_balad_2019apr",
+        "shas_2019apr",
+        "union_right_wing_parties_2019apr",
+        "united_torah_judaism_2019apr",
+        "yisrael_beiteinu_2019apr",
+        "zehut_2019apr"
+      ],
+      "actual": {
+        "likud_2019apr": 35,
+        "blue_and_white_2019apr": 35,
+        "labor_2019apr": 6,
+        "shas_2019apr": 8,
+        "united_torah_judaism_2019apr": 8,
+        "hadash_taal_2019apr": 6,
+        "raam_balad_2019apr": 4,
+        "yisrael_beiteinu_2019apr": 5,
+        "union_right_wing_parties_2019apr": 5,
+        "meretz_2019apr": 4,
+        "kulanu_2019apr": 4,
+        "new_right_2019apr": 0,
+        "zehut_2019apr": 0,
+        "gesher_2019apr": 0
+      },
+      "method": "absolute_0or3",
+      "learned_available": false,
+      "seats": [
+        29,
+        0,
+        6,
+        5,
+        11,
+        27,
+        5,
+        6,
+        4,
+        5,
+        6,
+        6,
+        5,
+        5
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 38,
+      "false_positive": [
+        "new_right_2019apr",
+        "zehut_2019apr"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "election_date": "2019-09-17",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2019sep",
+        "democratic_union_2019sep",
+        "joint_list_2019sep",
+        "labor_gesher_2019sep",
+        "likud_2019sep",
+        "otzma_yehudit_2019sep",
+        "shas_2019sep",
+        "united_torah_judaism_2019sep",
+        "yamina_2019sep",
+        "yisrael_beiteinu_2019sep"
+      ],
+      "actual": {
+        "likud_2019sep": 32,
+        "blue_and_white_2019sep": 33,
+        "joint_list_2019sep": 13,
+        "shas_2019sep": 9,
+        "united_torah_judaism_2019sep": 7,
+        "yamina_2019sep": 7,
+        "labor_gesher_2019sep": 6,
+        "yisrael_beiteinu_2019sep": 8,
+        "democratic_union_2019sep": 5,
+        "otzma_yehudit_2019sep": 0
+      },
+      "method": "square_0or3",
+      "learned_available": true,
+      "seats": [
+        32,
+        6,
+        11,
+        5,
+        32,
+        3,
+        7,
+        7,
+        9,
+        8
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 12,
+      "false_positive": [
+        "otzma_yehudit_2019sep"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "election_date": "2019-09-17",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2019sep",
+        "democratic_union_2019sep",
+        "joint_list_2019sep",
+        "labor_gesher_2019sep",
+        "likud_2019sep",
+        "otzma_yehudit_2019sep",
+        "shas_2019sep",
+        "united_torah_judaism_2019sep",
+        "yamina_2019sep",
+        "yisrael_beiteinu_2019sep"
+      ],
+      "actual": {
+        "likud_2019sep": 32,
+        "blue_and_white_2019sep": 33,
+        "joint_list_2019sep": 13,
+        "shas_2019sep": 9,
+        "united_torah_judaism_2019sep": 7,
+        "yamina_2019sep": 7,
+        "labor_gesher_2019sep": 6,
+        "yisrael_beiteinu_2019sep": 8,
+        "democratic_union_2019sep": 5,
+        "otzma_yehudit_2019sep": 0
+      },
+      "method": "absolute_0or3",
+      "learned_available": true,
+      "seats": [
+        32,
+        6,
+        11,
+        5,
+        32,
+        4,
+        6,
+        7,
+        9,
+        8
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 14,
+      "false_positive": [
+        "otzma_yehudit_2019sep"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "election_date": "2019-09-17",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2019sep",
+        "democratic_union_2019sep",
+        "joint_list_2019sep",
+        "labor_gesher_2019sep",
+        "likud_2019sep",
+        "otzma_yehudit_2019sep",
+        "shas_2019sep",
+        "united_torah_judaism_2019sep",
+        "yamina_2019sep",
+        "yisrael_beiteinu_2019sep"
+      ],
+      "actual": {
+        "likud_2019sep": 32,
+        "blue_and_white_2019sep": 33,
+        "joint_list_2019sep": 13,
+        "shas_2019sep": 9,
+        "united_torah_judaism_2019sep": 7,
+        "yamina_2019sep": 7,
+        "labor_gesher_2019sep": 6,
+        "yisrael_beiteinu_2019sep": 8,
+        "democratic_union_2019sep": 5,
+        "otzma_yehudit_2019sep": 0
+      },
+      "method": "hurdle_a0.01",
+      "learned_available": true,
+      "seats": [
+        33,
+        6,
+        11,
+        5,
+        33,
+        0,
+        7,
+        7,
+        9,
+        9
+      ],
+      "probabilities": {
+        "democratic_union_2019sep": 0.9296217486038655,
+        "labor_gesher_2019sep": 0.8319779978269449,
+        "otzma_yehudit_2019sep": 0.12706743814854082
+      },
+      "fit": {
+        "status": "converged",
+        "alpha": 0.01,
+        "gradient_max": 2.060851489460447e-15,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.16666666666666666
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.16666666666666666
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.16666666666666666
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.05555555555555555
+          }
+        ],
+        "centers": [
+          0.962962962962963,
+          4.888888888888888
+        ],
+        "scales": [
+          0.15270761576361708,
+          0.6478835438717
+        ],
+        "coefficients": [
+          0.7717575981146686,
+          0.7167270271615606,
+          0.9535379304104205
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "blue_and_white_2019sep": [
+          [
+            32,
+            0.3333333333333333
+          ],
+          [
+            33,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ]
+        ],
+        "democratic_union_2019sep": [
+          [
+            0.0,
+            0.07037825139613452
+          ],
+          [
+            6,
+            0.3098739162012885
+          ],
+          [
+            6,
+            0.3098739162012885
+          ],
+          [
+            6,
+            0.3098739162012885
+          ]
+        ],
+        "joint_list_2019sep": [
+          [
+            11,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            12,
+            0.3333333333333333
+          ]
+        ],
+        "labor_gesher_2019sep": [
+          [
+            0.0,
+            0.16802200217305507
+          ],
+          [
+            5,
+            0.2773259992756483
+          ],
+          [
+            6,
+            0.2773259992756483
+          ],
+          [
+            5,
+            0.2773259992756483
+          ]
+        ],
+        "likud_2019sep": [
+          [
+            31,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ],
+          [
+            33,
+            0.3333333333333333
+          ]
+        ],
+        "otzma_yehudit_2019sep": [
+          [
+            0.0,
+            0.8729325618514592
+          ],
+          [
+            4,
+            0.06353371907427041
+          ],
+          [
+            4,
+            0.06353371907427041
+          ]
+        ],
+        "shas_2019sep": [
+          [
+            6,
+            0.3333333333333333
+          ],
+          [
+            6,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2019sep": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yamina_2019sep": [
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2019sep": [
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "seat_l1": 10,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [
+        {
+          "id": "democratic_union_2019sep",
+          "p": 0.9296217486038655,
+          "represented": 1,
+          "brier": 0.00495309826957751,
+          "log_loss": 0.07297749749996144
+        },
+        {
+          "id": "labor_gesher_2019sep",
+          "p": 0.8319779978269449,
+          "represented": 1,
+          "brier": 0.028231393214242125,
+          "log_loss": 0.18394928343013886
+        },
+        {
+          "id": "otzma_yehudit_2019sep",
+          "p": 0.12706743814854082,
+          "represented": 0,
+          "brier": 0.016146133837633247,
+          "log_loss": 0.13589697486467794
+        }
+      ],
+      "candidate_brier": 0.016443541773817627,
+      "candidate_log_loss": 0.13094125193159276
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "election_date": "2019-09-17",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2019sep",
+        "democratic_union_2019sep",
+        "joint_list_2019sep",
+        "labor_gesher_2019sep",
+        "likud_2019sep",
+        "otzma_yehudit_2019sep",
+        "shas_2019sep",
+        "united_torah_judaism_2019sep",
+        "yamina_2019sep",
+        "yisrael_beiteinu_2019sep"
+      ],
+      "actual": {
+        "likud_2019sep": 32,
+        "blue_and_white_2019sep": 33,
+        "joint_list_2019sep": 13,
+        "shas_2019sep": 9,
+        "united_torah_judaism_2019sep": 7,
+        "yamina_2019sep": 7,
+        "labor_gesher_2019sep": 6,
+        "yisrael_beiteinu_2019sep": 8,
+        "democratic_union_2019sep": 5,
+        "otzma_yehudit_2019sep": 0
+      },
+      "method": "hurdle_a0.1",
+      "learned_available": true,
+      "seats": [
+        33,
+        6,
+        11,
+        5,
+        33,
+        0,
+        7,
+        7,
+        9,
+        9
+      ],
+      "probabilities": {
+        "democratic_union_2019sep": 0.8786397395753117,
+        "labor_gesher_2019sep": 0.7864201762251001,
+        "otzma_yehudit_2019sep": 0.2950255192774353
+      },
+      "fit": {
+        "status": "converged",
+        "alpha": 0.1,
+        "gradient_max": 3.8528208401444886e-14,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.16666666666666666
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.16666666666666666
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.16666666666666666
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.05555555555555555
+          }
+        ],
+        "centers": [
+          0.962962962962963,
+          4.888888888888888
+        ],
+        "scales": [
+          0.15270761576361708,
+          0.6478835438717
+        ],
+        "coefficients": [
+          0.7613579218902031,
+          0.37672290476901144,
+          0.6570811252821159
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "blue_and_white_2019sep": [
+          [
+            32,
+            0.3333333333333333
+          ],
+          [
+            33,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ]
+        ],
+        "democratic_union_2019sep": [
+          [
+            0.0,
+            0.12136026042468828
+          ],
+          [
+            6,
+            0.2928799131917706
+          ],
+          [
+            6,
+            0.2928799131917706
+          ],
+          [
+            6,
+            0.2928799131917706
+          ]
+        ],
+        "joint_list_2019sep": [
+          [
+            11,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            12,
+            0.3333333333333333
+          ]
+        ],
+        "labor_gesher_2019sep": [
+          [
+            0.0,
+            0.21357982377489992
+          ],
+          [
+            5,
+            0.26214005874170004
+          ],
+          [
+            6,
+            0.26214005874170004
+          ],
+          [
+            5,
+            0.26214005874170004
+          ]
+        ],
+        "likud_2019sep": [
+          [
+            31,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ],
+          [
+            33,
+            0.3333333333333333
+          ]
+        ],
+        "otzma_yehudit_2019sep": [
+          [
+            0.0,
+            0.7049744807225646
+          ],
+          [
+            4,
+            0.14751275963871766
+          ],
+          [
+            4,
+            0.14751275963871766
+          ]
+        ],
+        "shas_2019sep": [
+          [
+            6,
+            0.3333333333333333
+          ],
+          [
+            6,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2019sep": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yamina_2019sep": [
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2019sep": [
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "seat_l1": 10,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [
+        {
+          "id": "democratic_union_2019sep",
+          "p": 0.8786397395753117,
+          "represented": 1,
+          "brier": 0.01472831281034816,
+          "log_loss": 0.12938031789730162
+        },
+        {
+          "id": "labor_gesher_2019sep",
+          "p": 0.7864201762251001,
+          "represented": 1,
+          "brier": 0.045616341123717305,
+          "log_loss": 0.24026405403743123
+        },
+        {
+          "id": "otzma_yehudit_2019sep",
+          "p": 0.2950255192774353,
+          "represented": 0,
+          "brier": 0.08704005702492035,
+          "log_loss": 0.34959367438166167
+        }
+      ],
+      "candidate_brier": 0.04912823698632861,
+      "candidate_log_loss": 0.23974601543879817
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "election_date": "2019-09-17",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2019sep",
+        "democratic_union_2019sep",
+        "joint_list_2019sep",
+        "labor_gesher_2019sep",
+        "likud_2019sep",
+        "otzma_yehudit_2019sep",
+        "shas_2019sep",
+        "united_torah_judaism_2019sep",
+        "yamina_2019sep",
+        "yisrael_beiteinu_2019sep"
+      ],
+      "actual": {
+        "likud_2019sep": 32,
+        "blue_and_white_2019sep": 33,
+        "joint_list_2019sep": 13,
+        "shas_2019sep": 9,
+        "united_torah_judaism_2019sep": 7,
+        "yamina_2019sep": 7,
+        "labor_gesher_2019sep": 6,
+        "yisrael_beiteinu_2019sep": 8,
+        "democratic_union_2019sep": 5,
+        "otzma_yehudit_2019sep": 0
+      },
+      "method": "hurdle_a1",
+      "learned_available": true,
+      "seats": [
+        32,
+        6,
+        11,
+        5,
+        32,
+        4,
+        6,
+        7,
+        9,
+        8
+      ],
+      "probabilities": {
+        "democratic_union_2019sep": 0.7385387319939047,
+        "labor_gesher_2019sep": 0.7013647687768492,
+        "otzma_yehudit_2019sep": 0.5559200787185058
+      },
+      "fit": {
+        "status": "converged",
+        "alpha": 1.0,
+        "gradient_max": 2.7755575615628914e-17,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.16666666666666666
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.16666666666666666
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.16666666666666666
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.05555555555555555
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.05555555555555555
+          }
+        ],
+        "centers": [
+          0.962962962962963,
+          4.888888888888888
+        ],
+        "scales": [
+          0.15270761576361708,
+          0.6478835438717
+        ],
+        "coefficients": [
+          0.7018592575666126,
+          0.1191215382269637,
+          0.1793816054241722
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "blue_and_white_2019sep": [
+          [
+            32,
+            0.3333333333333333
+          ],
+          [
+            33,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ]
+        ],
+        "democratic_union_2019sep": [
+          [
+            0.0,
+            0.26146126800609526
+          ],
+          [
+            6,
+            0.24617957733130158
+          ],
+          [
+            6,
+            0.24617957733130158
+          ],
+          [
+            6,
+            0.24617957733130158
+          ]
+        ],
+        "joint_list_2019sep": [
+          [
+            11,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            12,
+            0.3333333333333333
+          ]
+        ],
+        "labor_gesher_2019sep": [
+          [
+            0.0,
+            0.29863523122315083
+          ],
+          [
+            5,
+            0.23378825625894972
+          ],
+          [
+            6,
+            0.23378825625894972
+          ],
+          [
+            5,
+            0.23378825625894972
+          ]
+        ],
+        "likud_2019sep": [
+          [
+            31,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ],
+          [
+            33,
+            0.3333333333333333
+          ]
+        ],
+        "otzma_yehudit_2019sep": [
+          [
+            0.0,
+            0.4440799212814942
+          ],
+          [
+            4,
+            0.2779600393592529
+          ],
+          [
+            4,
+            0.2779600393592529
+          ]
+        ],
+        "shas_2019sep": [
+          [
+            6,
+            0.3333333333333333
+          ],
+          [
+            6,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2019sep": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yamina_2019sep": [
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2019sep": [
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "seat_l1": 14,
+      "false_positive": [
+        "otzma_yehudit_2019sep"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [
+        {
+          "id": "democratic_union_2019sep",
+          "p": 0.7385387319939047,
+          "represented": 1,
+          "brier": 0.06836199466735517,
+          "log_loss": 0.3030817315425173
+        },
+        {
+          "id": "labor_gesher_2019sep",
+          "p": 0.7013647687768492,
+          "represented": 1,
+          "brier": 0.08918300132770476,
+          "log_loss": 0.3547271723966897
+        },
+        {
+          "id": "otzma_yehudit_2019sep",
+          "p": 0.5559200787185058,
+          "represented": 0,
+          "brier": 0.3090471339223897,
+          "log_loss": 0.8117507298622398
+        }
+      ],
+      "candidate_brier": 0.1555307099724832,
+      "candidate_log_loss": 0.4898532112671489
+    },
+    {
+      "election": "knesset_23_2020",
+      "election_date": "2020-03-02",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2020",
+        "joint_list_2020",
+        "labor_gesher_meretz_2020",
+        "likud_2020",
+        "otzma_yehudit_2020",
+        "shas_2020",
+        "united_torah_judaism_2020",
+        "yamina_2020",
+        "yisrael_beiteinu_2020"
+      ],
+      "actual": {
+        "likud_2020": 36,
+        "blue_and_white_2020": 33,
+        "joint_list_2020": 15,
+        "shas_2020": 9,
+        "united_torah_judaism_2020": 7,
+        "labor_gesher_meretz_2020": 7,
+        "yisrael_beiteinu_2020": 7,
+        "yamina_2020": 6,
+        "otzma_yehudit_2020": 0
+      },
+      "method": "square_0or3",
+      "learned_available": true,
+      "seats": [
+        33,
+        14,
+        9,
+        34,
+        0,
+        8,
+        7,
+        8,
+        7
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 8,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_23_2020",
+      "election_date": "2020-03-02",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2020",
+        "joint_list_2020",
+        "labor_gesher_meretz_2020",
+        "likud_2020",
+        "otzma_yehudit_2020",
+        "shas_2020",
+        "united_torah_judaism_2020",
+        "yamina_2020",
+        "yisrael_beiteinu_2020"
+      ],
+      "actual": {
+        "likud_2020": 36,
+        "blue_and_white_2020": 33,
+        "joint_list_2020": 15,
+        "shas_2020": 9,
+        "united_torah_judaism_2020": 7,
+        "labor_gesher_meretz_2020": 7,
+        "yisrael_beiteinu_2020": 7,
+        "yamina_2020": 6,
+        "otzma_yehudit_2020": 0
+      },
+      "method": "absolute_0or3",
+      "learned_available": true,
+      "seats": [
+        33,
+        14,
+        9,
+        34,
+        0,
+        8,
+        7,
+        8,
+        7
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 8,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_23_2020",
+      "election_date": "2020-03-02",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2020",
+        "joint_list_2020",
+        "labor_gesher_meretz_2020",
+        "likud_2020",
+        "otzma_yehudit_2020",
+        "shas_2020",
+        "united_torah_judaism_2020",
+        "yamina_2020",
+        "yisrael_beiteinu_2020"
+      ],
+      "actual": {
+        "likud_2020": 36,
+        "blue_and_white_2020": 33,
+        "joint_list_2020": 15,
+        "shas_2020": 9,
+        "united_torah_judaism_2020": 7,
+        "labor_gesher_meretz_2020": 7,
+        "yisrael_beiteinu_2020": 7,
+        "yamina_2020": 6,
+        "otzma_yehudit_2020": 0
+      },
+      "method": "hurdle_a0.01",
+      "learned_available": true,
+      "seats": [
+        33,
+        14,
+        9,
+        34,
+        0,
+        8,
+        7,
+        8,
+        7
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "converged",
+        "alpha": 0.01,
+        "gradient_max": 4.914124662747099e-14,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr",
+          "knesset_22_2019sep"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "democratic_union_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "labor_gesher_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "otzma_yehudit_2019sep",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          }
+        ],
+        "centers": [
+          0.9382716049382713,
+          4.962962962962961
+        ],
+        "scales": [
+          0.1581018330230333,
+          0.7219847662821454
+        ],
+        "coefficients": [
+          0.8057434505500747,
+          1.1968255104647547,
+          1.296121569230417
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "blue_and_white_2020": [
+          [
+            33,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ]
+        ],
+        "joint_list_2020": [
+          [
+            15,
+            0.3333333333333333
+          ],
+          [
+            13,
+            0.3333333333333333
+          ],
+          [
+            14,
+            0.3333333333333333
+          ]
+        ],
+        "labor_gesher_meretz_2020": [
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "likud_2020": [
+          [
+            33,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ]
+        ],
+        "otzma_yehudit_2020": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "shas_2020": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2020": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yamina_2020": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2020": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "seat_l1": 8,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_23_2020",
+      "election_date": "2020-03-02",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2020",
+        "joint_list_2020",
+        "labor_gesher_meretz_2020",
+        "likud_2020",
+        "otzma_yehudit_2020",
+        "shas_2020",
+        "united_torah_judaism_2020",
+        "yamina_2020",
+        "yisrael_beiteinu_2020"
+      ],
+      "actual": {
+        "likud_2020": 36,
+        "blue_and_white_2020": 33,
+        "joint_list_2020": 15,
+        "shas_2020": 9,
+        "united_torah_judaism_2020": 7,
+        "labor_gesher_meretz_2020": 7,
+        "yisrael_beiteinu_2020": 7,
+        "yamina_2020": 6,
+        "otzma_yehudit_2020": 0
+      },
+      "method": "hurdle_a0.1",
+      "learned_available": true,
+      "seats": [
+        33,
+        14,
+        9,
+        34,
+        0,
+        8,
+        7,
+        8,
+        7
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "converged",
+        "alpha": 0.1,
+        "gradient_max": 4.163336342344337e-17,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr",
+          "knesset_22_2019sep"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "democratic_union_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "labor_gesher_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "otzma_yehudit_2019sep",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          }
+        ],
+        "centers": [
+          0.9382716049382713,
+          4.962962962962961
+        ],
+        "scales": [
+          0.1581018330230333,
+          0.7219847662821454
+        ],
+        "coefficients": [
+          0.8159170008899376,
+          0.5969091595687533,
+          0.8434731906101662
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "blue_and_white_2020": [
+          [
+            33,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ]
+        ],
+        "joint_list_2020": [
+          [
+            15,
+            0.3333333333333333
+          ],
+          [
+            13,
+            0.3333333333333333
+          ],
+          [
+            14,
+            0.3333333333333333
+          ]
+        ],
+        "labor_gesher_meretz_2020": [
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "likud_2020": [
+          [
+            33,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ]
+        ],
+        "otzma_yehudit_2020": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "shas_2020": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2020": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yamina_2020": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2020": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "seat_l1": 8,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_23_2020",
+      "election_date": "2020-03-02",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2020",
+        "joint_list_2020",
+        "labor_gesher_meretz_2020",
+        "likud_2020",
+        "otzma_yehudit_2020",
+        "shas_2020",
+        "united_torah_judaism_2020",
+        "yamina_2020",
+        "yisrael_beiteinu_2020"
+      ],
+      "actual": {
+        "likud_2020": 36,
+        "blue_and_white_2020": 33,
+        "joint_list_2020": 15,
+        "shas_2020": 9,
+        "united_torah_judaism_2020": 7,
+        "labor_gesher_meretz_2020": 7,
+        "yisrael_beiteinu_2020": 7,
+        "yamina_2020": 6,
+        "otzma_yehudit_2020": 0
+      },
+      "method": "hurdle_a1",
+      "learned_available": true,
+      "seats": [
+        33,
+        14,
+        9,
+        34,
+        0,
+        8,
+        7,
+        8,
+        7
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "converged",
+        "alpha": 1.0,
+        "gradient_max": 5.551115123125783e-17,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr",
+          "knesset_22_2019sep"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "democratic_union_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "labor_gesher_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "otzma_yehudit_2019sep",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          }
+        ],
+        "centers": [
+          0.9382716049382713,
+          4.962962962962961
+        ],
+        "scales": [
+          0.1581018330230333,
+          0.7219847662821454
+        ],
+        "coefficients": [
+          0.7118092978862324,
+          0.18752830802810339,
+          0.2334002409529637
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "blue_and_white_2020": [
+          [
+            33,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ]
+        ],
+        "joint_list_2020": [
+          [
+            15,
+            0.3333333333333333
+          ],
+          [
+            13,
+            0.3333333333333333
+          ],
+          [
+            14,
+            0.3333333333333333
+          ]
+        ],
+        "labor_gesher_meretz_2020": [
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "likud_2020": [
+          [
+            33,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ]
+        ],
+        "otzma_yehudit_2020": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "shas_2020": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2020": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yamina_2020": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2020": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "seat_l1": 8,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_24_2021",
+      "election_date": "2021-03-23",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2021",
+        "joint_list_2021",
+        "labor_2021",
+        "likud_2021",
+        "meretz_2021",
+        "new_economic_2021",
+        "new_hope_2021",
+        "raam_2021",
+        "religious_zionism_otzma_2021",
+        "shas_2021",
+        "united_torah_judaism_2021",
+        "yamina_2021",
+        "yesh_atid_2021",
+        "yisrael_beiteinu_2021"
+      ],
+      "actual": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 17,
+        "blue_and_white_2021": 8,
+        "joint_list_2021": 6,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 6,
+        "raam_2021": 4,
+        "yamina_2021": 7,
+        "new_hope_2021": 6,
+        "labor_2021": 7,
+        "religious_zionism_otzma_2021": 6,
+        "new_economic_2021": 0
+      },
+      "method": "square_0or3",
+      "learned_available": true,
+      "seats": [
+        4,
+        8,
+        6,
+        30,
+        4,
+        0,
+        10,
+        3,
+        5,
+        8,
+        7,
+        10,
+        18,
+        7
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 20,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_24_2021",
+      "election_date": "2021-03-23",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2021",
+        "joint_list_2021",
+        "labor_2021",
+        "likud_2021",
+        "meretz_2021",
+        "new_economic_2021",
+        "new_hope_2021",
+        "raam_2021",
+        "religious_zionism_otzma_2021",
+        "shas_2021",
+        "united_torah_judaism_2021",
+        "yamina_2021",
+        "yesh_atid_2021",
+        "yisrael_beiteinu_2021"
+      ],
+      "actual": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 17,
+        "blue_and_white_2021": 8,
+        "joint_list_2021": 6,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 6,
+        "raam_2021": 4,
+        "yamina_2021": 7,
+        "new_hope_2021": 6,
+        "labor_2021": 7,
+        "religious_zionism_otzma_2021": 6,
+        "new_economic_2021": 0
+      },
+      "method": "absolute_0or3",
+      "learned_available": true,
+      "seats": [
+        4,
+        8,
+        6,
+        30,
+        4,
+        0,
+        10,
+        3,
+        5,
+        8,
+        7,
+        10,
+        18,
+        7
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 20,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_24_2021",
+      "election_date": "2021-03-23",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2021",
+        "joint_list_2021",
+        "labor_2021",
+        "likud_2021",
+        "meretz_2021",
+        "new_economic_2021",
+        "new_hope_2021",
+        "raam_2021",
+        "religious_zionism_otzma_2021",
+        "shas_2021",
+        "united_torah_judaism_2021",
+        "yamina_2021",
+        "yesh_atid_2021",
+        "yisrael_beiteinu_2021"
+      ],
+      "actual": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 17,
+        "blue_and_white_2021": 8,
+        "joint_list_2021": 6,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 6,
+        "raam_2021": 4,
+        "yamina_2021": 7,
+        "new_hope_2021": 6,
+        "labor_2021": 7,
+        "religious_zionism_otzma_2021": 6,
+        "new_economic_2021": 0
+      },
+      "method": "hurdle_a0.01",
+      "learned_available": true,
+      "seats": [
+        4,
+        9,
+        6,
+        31,
+        4,
+        0,
+        10,
+        0,
+        5,
+        9,
+        7,
+        10,
+        18,
+        7
+      ],
+      "probabilities": {
+        "blue_and_white_2021": 0.38800517084534897,
+        "labor_2021": 0.9266496544915785,
+        "meretz_2021": 0.5356149665453648,
+        "raam_2021": 0.04838239881702962,
+        "religious_zionism_otzma_2021": 0.6772381497376538
+      },
+      "fit": {
+        "status": "converged",
+        "alpha": 0.01,
+        "gradient_max": 4.914124662747099e-14,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr",
+          "knesset_22_2019sep"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "democratic_union_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "labor_gesher_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "otzma_yehudit_2019sep",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          }
+        ],
+        "centers": [
+          0.9382716049382713,
+          4.962962962962961
+        ],
+        "scales": [
+          0.1581018330230333,
+          0.7219847662821454
+        ],
+        "coefficients": [
+          0.8057434505500747,
+          1.1968255104647547,
+          1.296121569230417
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "blue_and_white_2021": [
+          [
+            0.0,
+            0.6119948291546511
+          ],
+          [
+            4,
+            0.12933505694844966
+          ],
+          [
+            4,
+            0.12933505694844966
+          ],
+          [
+            4,
+            0.12933505694844966
+          ]
+        ],
+        "joint_list_2021": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "labor_2021": [
+          [
+            0.0,
+            0.07335034550842146
+          ],
+          [
+            6,
+            0.3088832181638595
+          ],
+          [
+            5,
+            0.3088832181638595
+          ],
+          [
+            6,
+            0.3088832181638595
+          ]
+        ],
+        "likud_2021": [
+          [
+            30,
+            0.3333333333333333
+          ],
+          [
+            29,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ]
+        ],
+        "meretz_2021": [
+          [
+            0.0,
+            0.4643850334546352
+          ],
+          [
+            4,
+            0.17853832218178825
+          ],
+          [
+            5,
+            0.17853832218178825
+          ],
+          [
+            4,
+            0.17853832218178825
+          ]
+        ],
+        "new_economic_2021": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "new_hope_2021": [
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "raam_2021": [
+          [
+            0.0,
+            0.9516176011829703
+          ],
+          [
+            4,
+            0.02419119940851481
+          ],
+          [
+            4,
+            0.02419119940851481
+          ]
+        ],
+        "religious_zionism_otzma_2021": [
+          [
+            0.0,
+            0.32276185026234616
+          ],
+          [
+            5,
+            0.2257460499125513
+          ],
+          [
+            5,
+            0.2257460499125513
+          ],
+          [
+            4,
+            0.2257460499125513
+          ]
+        ],
+        "shas_2021": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2021": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yamina_2021": [
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "yesh_atid_2021": [
+          [
+            18,
+            0.3333333333333333
+          ],
+          [
+            18,
+            0.3333333333333333
+          ],
+          [
+            18,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2021": [
+          [
+            6,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "seat_l1": 24,
+      "false_positive": [],
+      "false_negative": [
+        "raam_2021"
+      ],
+      "candidate_probability_scores": [
+        {
+          "id": "blue_and_white_2021",
+          "p": 0.38800517084534897,
+          "represented": 1,
+          "brier": 0.37453767091203055,
+          "log_loss": 0.9467366125266637
+        },
+        {
+          "id": "labor_2021",
+          "p": 0.9266496544915785,
+          "represented": 1,
+          "brier": 0.005380273186204804,
+          "log_loss": 0.07617971959640793
+        },
+        {
+          "id": "meretz_2021",
+          "p": 0.5356149665453648,
+          "represented": 1,
+          "brier": 0.2156534592966627,
+          "log_loss": 0.624339722042902
+        },
+        {
+          "id": "raam_2021",
+          "p": 0.04838239881702962,
+          "represented": 1,
+          "brier": 0.9055760588812308,
+          "log_loss": 3.0286191922053507
+        },
+        {
+          "id": "religious_zionism_otzma_2021",
+          "p": 0.6772381497376538,
+          "represented": 1,
+          "brier": 0.10417521198477317,
+          "log_loss": 0.38973229578883817
+        }
+      ],
+      "candidate_brier": 0.3210645348521804,
+      "candidate_log_loss": 1.0131215084320324
+    },
+    {
+      "election": "knesset_24_2021",
+      "election_date": "2021-03-23",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2021",
+        "joint_list_2021",
+        "labor_2021",
+        "likud_2021",
+        "meretz_2021",
+        "new_economic_2021",
+        "new_hope_2021",
+        "raam_2021",
+        "religious_zionism_otzma_2021",
+        "shas_2021",
+        "united_torah_judaism_2021",
+        "yamina_2021",
+        "yesh_atid_2021",
+        "yisrael_beiteinu_2021"
+      ],
+      "actual": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 17,
+        "blue_and_white_2021": 8,
+        "joint_list_2021": 6,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 6,
+        "raam_2021": 4,
+        "yamina_2021": 7,
+        "new_hope_2021": 6,
+        "labor_2021": 7,
+        "religious_zionism_otzma_2021": 6,
+        "new_economic_2021": 0
+      },
+      "method": "hurdle_a0.1",
+      "learned_available": true,
+      "seats": [
+        4,
+        9,
+        6,
+        31,
+        4,
+        0,
+        10,
+        0,
+        5,
+        9,
+        7,
+        10,
+        18,
+        7
+      ],
+      "probabilities": {
+        "blue_and_white_2021": 0.481001668080476,
+        "labor_2021": 0.8665839844895469,
+        "meretz_2021": 0.5777133406588861,
+        "raam_2021": 0.2084125481604344,
+        "religious_zionism_otzma_2021": 0.6688119923369645
+      },
+      "fit": {
+        "status": "converged",
+        "alpha": 0.1,
+        "gradient_max": 4.163336342344337e-17,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr",
+          "knesset_22_2019sep"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "democratic_union_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "labor_gesher_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "otzma_yehudit_2019sep",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          }
+        ],
+        "centers": [
+          0.9382716049382713,
+          4.962962962962961
+        ],
+        "scales": [
+          0.1581018330230333,
+          0.7219847662821454
+        ],
+        "coefficients": [
+          0.8159170008899376,
+          0.5969091595687533,
+          0.8434731906101662
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "blue_and_white_2021": [
+          [
+            0.0,
+            0.5189983319195239
+          ],
+          [
+            4,
+            0.16033388936015866
+          ],
+          [
+            4,
+            0.16033388936015866
+          ],
+          [
+            4,
+            0.16033388936015866
+          ]
+        ],
+        "joint_list_2021": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "labor_2021": [
+          [
+            0.0,
+            0.13341601551045312
+          ],
+          [
+            6,
+            0.2888613281631823
+          ],
+          [
+            5,
+            0.2888613281631823
+          ],
+          [
+            6,
+            0.2888613281631823
+          ]
+        ],
+        "likud_2021": [
+          [
+            30,
+            0.3333333333333333
+          ],
+          [
+            29,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ]
+        ],
+        "meretz_2021": [
+          [
+            0.0,
+            0.42228665934111387
+          ],
+          [
+            4,
+            0.19257111355296205
+          ],
+          [
+            5,
+            0.19257111355296205
+          ],
+          [
+            4,
+            0.19257111355296205
+          ]
+        ],
+        "new_economic_2021": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "new_hope_2021": [
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "raam_2021": [
+          [
+            0.0,
+            0.7915874518395656
+          ],
+          [
+            4,
+            0.1042062740802172
+          ],
+          [
+            4,
+            0.1042062740802172
+          ]
+        ],
+        "religious_zionism_otzma_2021": [
+          [
+            0.0,
+            0.33118800766303547
+          ],
+          [
+            5,
+            0.22293733077898817
+          ],
+          [
+            5,
+            0.22293733077898817
+          ],
+          [
+            4,
+            0.22293733077898817
+          ]
+        ],
+        "shas_2021": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2021": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yamina_2021": [
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "yesh_atid_2021": [
+          [
+            18,
+            0.3333333333333333
+          ],
+          [
+            18,
+            0.3333333333333333
+          ],
+          [
+            18,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2021": [
+          [
+            6,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "seat_l1": 24,
+      "false_positive": [],
+      "false_negative": [
+        "raam_2021"
+      ],
+      "candidate_probability_scores": [
+        {
+          "id": "blue_and_white_2021",
+          "p": 0.481001668080476,
+          "represented": 1,
+          "brier": 0.26935926853524833,
+          "log_loss": 0.7318845409396116
+        },
+        {
+          "id": "labor_2021",
+          "p": 0.8665839844895469,
+          "represented": 1,
+          "brier": 0.017799833194685467,
+          "log_loss": 0.14319625070384373
+        },
+        {
+          "id": "meretz_2021",
+          "p": 0.5777133406588861,
+          "represented": 1,
+          "brier": 0.17832602265747796,
+          "log_loss": 0.5486774837509973
+        },
+        {
+          "id": "raam_2021",
+          "p": 0.2084125481604344,
+          "represented": 1,
+          "brier": 0.6266106939098566,
+          "log_loss": 1.5682357590133127
+        },
+        {
+          "id": "religious_zionism_otzma_2021",
+          "p": 0.6688119923369645,
+          "represented": 1,
+          "brier": 0.10968549641981083,
+          "log_loss": 0.4022522862465618
+        }
+      ],
+      "candidate_brier": 0.24035626294341583,
+      "candidate_log_loss": 0.6788492641308654
+    },
+    {
+      "election": "knesset_24_2021",
+      "election_date": "2021-03-23",
+      "period": "repeated_elections_2019_2021",
+      "party_ids": [
+        "blue_and_white_2021",
+        "joint_list_2021",
+        "labor_2021",
+        "likud_2021",
+        "meretz_2021",
+        "new_economic_2021",
+        "new_hope_2021",
+        "raam_2021",
+        "religious_zionism_otzma_2021",
+        "shas_2021",
+        "united_torah_judaism_2021",
+        "yamina_2021",
+        "yesh_atid_2021",
+        "yisrael_beiteinu_2021"
+      ],
+      "actual": {
+        "likud_2021": 30,
+        "yesh_atid_2021": 17,
+        "blue_and_white_2021": 8,
+        "joint_list_2021": 6,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yisrael_beiteinu_2021": 7,
+        "meretz_2021": 6,
+        "raam_2021": 4,
+        "yamina_2021": 7,
+        "new_hope_2021": 6,
+        "labor_2021": 7,
+        "religious_zionism_otzma_2021": 6,
+        "new_economic_2021": 0
+      },
+      "method": "hurdle_a1",
+      "learned_available": true,
+      "seats": [
+        4,
+        8,
+        6,
+        30,
+        4,
+        0,
+        10,
+        4,
+        4,
+        8,
+        7,
+        10,
+        18,
+        7
+      ],
+      "probabilities": {
+        "blue_and_white_2021": 0.6162648279807054,
+        "labor_2021": 0.7335124834299883,
+        "meretz_2021": 0.6414085147125058,
+        "raam_2021": 0.5195773886964058,
+        "religious_zionism_otzma_2021": 0.6657981430114783
+      },
+      "fit": {
+        "status": "converged",
+        "alpha": 1.0,
+        "gradient_max": 5.551115123125783e-17,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr",
+          "knesset_22_2019sep"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.03703703703703703
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "democratic_union_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "labor_gesher_2019sep",
+            "represented": 1,
+            "weight": 0.11111111111111109
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "otzma_yehudit_2019sep",
+            "represented": 0,
+            "weight": 0.11111111111111109
+          }
+        ],
+        "centers": [
+          0.9382716049382713,
+          4.962962962962961
+        ],
+        "scales": [
+          0.1581018330230333,
+          0.7219847662821454
+        ],
+        "coefficients": [
+          0.7118092978862324,
+          0.18752830802810339,
+          0.2334002409529637
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "blue_and_white_2021": [
+          [
+            0.0,
+            0.38373517201929463
+          ],
+          [
+            4,
+            0.2054216093269018
+          ],
+          [
+            4,
+            0.2054216093269018
+          ],
+          [
+            4,
+            0.2054216093269018
+          ]
+        ],
+        "joint_list_2021": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "labor_2021": [
+          [
+            0.0,
+            0.2664875165700117
+          ],
+          [
+            6,
+            0.24450416114332943
+          ],
+          [
+            5,
+            0.24450416114332943
+          ],
+          [
+            6,
+            0.24450416114332943
+          ]
+        ],
+        "likud_2021": [
+          [
+            30,
+            0.3333333333333333
+          ],
+          [
+            29,
+            0.3333333333333333
+          ],
+          [
+            32,
+            0.3333333333333333
+          ]
+        ],
+        "meretz_2021": [
+          [
+            0.0,
+            0.3585914852874942
+          ],
+          [
+            4,
+            0.21380283823750193
+          ],
+          [
+            5,
+            0.21380283823750193
+          ],
+          [
+            4,
+            0.21380283823750193
+          ]
+        ],
+        "new_economic_2021": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "new_hope_2021": [
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "raam_2021": [
+          [
+            0.0,
+            0.4804226113035942
+          ],
+          [
+            4,
+            0.2597886943482029
+          ],
+          [
+            4,
+            0.2597886943482029
+          ]
+        ],
+        "religious_zionism_otzma_2021": [
+          [
+            0.0,
+            0.3342018569885217
+          ],
+          [
+            5,
+            0.22193271433715944
+          ],
+          [
+            5,
+            0.22193271433715944
+          ],
+          [
+            4,
+            0.22193271433715944
+          ]
+        ],
+        "shas_2021": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2021": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yamina_2021": [
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ]
+        ],
+        "yesh_atid_2021": [
+          [
+            18,
+            0.3333333333333333
+          ],
+          [
+            18,
+            0.3333333333333333
+          ],
+          [
+            18,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2021": [
+          [
+            6,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ]
+      },
+      "seat_l1": 20,
+      "false_positive": [],
+      "false_negative": [],
+      "candidate_probability_scores": [
+        {
+          "id": "blue_and_white_2021",
+          "p": 0.6162648279807054,
+          "represented": 1,
+          "brier": 0.14725268224467764,
+          "log_loss": 0.48407849228273736
+        },
+        {
+          "id": "labor_2021",
+          "p": 0.7335124834299883,
+          "represented": 1,
+          "brier": 0.07101559648765225,
+          "log_loss": 0.3099106625527996
+        },
+        {
+          "id": "meretz_2021",
+          "p": 0.6414085147125058,
+          "represented": 1,
+          "brier": 0.12858785332069117,
+          "log_loss": 0.4440887166124042
+        },
+        {
+          "id": "raam_2021",
+          "p": 0.5195773886964058,
+          "represented": 1,
+          "brier": 0.23080588545176436,
+          "log_loss": 0.6547395118831401
+        },
+        {
+          "id": "religious_zionism_otzma_2021",
+          "p": 0.6657981430114783,
+          "represented": 1,
+          "brier": 0.11169088121457629,
+          "log_loss": 0.4067687429537258
+        }
+      ],
+      "candidate_brier": 0.13787057974387235,
+      "candidate_log_loss": 0.4599172252569614
+    },
+    {
+      "election": "knesset_25_2022",
+      "election_date": "2022-11-01",
+      "period": "election_2022",
+      "party_ids": [
+        "balad_2022",
+        "economic_freedom_2022",
+        "hadash_taal_2022",
+        "jewish_home_2022",
+        "labor_2022",
+        "likud_2022",
+        "meretz_2022",
+        "national_unity_2022",
+        "new_economic_2022",
+        "raam_2022",
+        "religious_zionism_otzma_2022",
+        "shas_2022",
+        "tzeirim_boarim_2022",
+        "united_torah_judaism_2022",
+        "yesh_atid_2022",
+        "yisrael_beiteinu_2022"
+      ],
+      "actual": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 12,
+        "shas_2022": 11,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 5,
+        "meretz_2022": 0,
+        "raam_2022": 5,
+        "balad_2022": 0,
+        "new_economic_2022": 0,
+        "economic_freedom_2022": 0,
+        "tzeirim_boarim_2022": 0
+      },
+      "method": "square_0or3",
+      "learned_available": true,
+      "seats": [
+        0,
+        0,
+        4,
+        0,
+        5,
+        32,
+        4,
+        11,
+        0,
+        4,
+        14,
+        8,
+        0,
+        7,
+        25,
+        6
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 12,
+      "false_positive": [
+        "meretz_2022"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_25_2022",
+      "election_date": "2022-11-01",
+      "period": "election_2022",
+      "party_ids": [
+        "balad_2022",
+        "economic_freedom_2022",
+        "hadash_taal_2022",
+        "jewish_home_2022",
+        "labor_2022",
+        "likud_2022",
+        "meretz_2022",
+        "national_unity_2022",
+        "new_economic_2022",
+        "raam_2022",
+        "religious_zionism_otzma_2022",
+        "shas_2022",
+        "tzeirim_boarim_2022",
+        "united_torah_judaism_2022",
+        "yesh_atid_2022",
+        "yisrael_beiteinu_2022"
+      ],
+      "actual": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 12,
+        "shas_2022": 11,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 5,
+        "meretz_2022": 0,
+        "raam_2022": 5,
+        "balad_2022": 0,
+        "new_economic_2022": 0,
+        "economic_freedom_2022": 0,
+        "tzeirim_boarim_2022": 0
+      },
+      "method": "absolute_0or3",
+      "learned_available": true,
+      "seats": [
+        0,
+        0,
+        4,
+        0,
+        5,
+        32,
+        4,
+        11,
+        0,
+        4,
+        14,
+        8,
+        0,
+        7,
+        25,
+        6
+      ],
+      "probabilities": {},
+      "fit": {
+        "status": "control"
+      },
+      "seat_l1": 12,
+      "false_positive": [
+        "meretz_2022"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [],
+      "candidate_brier": null,
+      "candidate_log_loss": null
+    },
+    {
+      "election": "knesset_25_2022",
+      "election_date": "2022-11-01",
+      "period": "election_2022",
+      "party_ids": [
+        "balad_2022",
+        "economic_freedom_2022",
+        "hadash_taal_2022",
+        "jewish_home_2022",
+        "labor_2022",
+        "likud_2022",
+        "meretz_2022",
+        "national_unity_2022",
+        "new_economic_2022",
+        "raam_2022",
+        "religious_zionism_otzma_2022",
+        "shas_2022",
+        "tzeirim_boarim_2022",
+        "united_torah_judaism_2022",
+        "yesh_atid_2022",
+        "yisrael_beiteinu_2022"
+      ],
+      "actual": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 12,
+        "shas_2022": 11,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 5,
+        "meretz_2022": 0,
+        "raam_2022": 5,
+        "balad_2022": 0,
+        "new_economic_2022": 0,
+        "economic_freedom_2022": 0,
+        "tzeirim_boarim_2022": 0
+      },
+      "method": "hurdle_a0.01",
+      "learned_available": true,
+      "seats": [
+        0,
+        0,
+        4,
+        0,
+        5,
+        32,
+        4,
+        11,
+        0,
+        4,
+        14,
+        8,
+        0,
+        7,
+        25,
+        6
+      ],
+      "probabilities": {
+        "hadash_taal_2022": 0.6487584421529479,
+        "labor_2022": 0.8601192036700092,
+        "meretz_2022": 0.7338968168719748,
+        "raam_2022": 0.6487584421529479,
+        "yisrael_beiteinu_2022": 0.9320159281543324
+      },
+      "fit": {
+        "status": "converged",
+        "alpha": 0.01,
+        "gradient_max": 1.7895407378176742e-14,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr",
+          "knesset_22_2019sep",
+          "knesset_24_2021"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "democratic_union_2019sep",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "labor_gesher_2019sep",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "otzma_yehudit_2019sep",
+            "represented": 0,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "blue_and_white_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "labor_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "meretz_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "raam_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "religious_zionism_otzma_2021",
+            "represented": 1,
+            "weight": 0.05
+          }
+        ],
+        "centers": [
+          0.937037037037037,
+          4.855555555555555
+        ],
+        "scales": [
+          0.1523028532959414,
+          0.7218802609235906
+        ],
+        "coefficients": [
+          1.4028736204699481,
+          0.5797789337972368,
+          0.868201146487195
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "balad_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "economic_freedom_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "hadash_taal_2022": [
+          [
+            0.0,
+            0.35124155784705213
+          ],
+          [
+            4,
+            0.21625281405098262
+          ],
+          [
+            4,
+            0.21625281405098262
+          ],
+          [
+            4,
+            0.21625281405098262
+          ]
+        ],
+        "jewish_home_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "labor_2022": [
+          [
+            0.0,
+            0.13988079632999084
+          ],
+          [
+            6,
+            0.2867064012233364
+          ],
+          [
+            4,
+            0.2867064012233364
+          ],
+          [
+            5,
+            0.2867064012233364
+          ]
+        ],
+        "likud_2022": [
+          [
+            30,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ],
+          [
+            31,
+            0.3333333333333333
+          ]
+        ],
+        "meretz_2022": [
+          [
+            0.0,
+            0.26610318312802517
+          ],
+          [
+            4,
+            0.2446322722906583
+          ],
+          [
+            4,
+            0.2446322722906583
+          ],
+          [
+            5,
+            0.2446322722906583
+          ]
+        ],
+        "national_unity_2022": [
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            13,
+            0.3333333333333333
+          ],
+          [
+            11,
+            0.3333333333333333
+          ]
+        ],
+        "new_economic_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "raam_2022": [
+          [
+            0.0,
+            0.35124155784705213
+          ],
+          [
+            4,
+            0.21625281405098262
+          ],
+          [
+            4,
+            0.21625281405098262
+          ],
+          [
+            4,
+            0.21625281405098262
+          ]
+        ],
+        "religious_zionism_otzma_2022": [
+          [
+            15,
+            0.3333333333333333
+          ],
+          [
+            12,
+            0.3333333333333333
+          ],
+          [
+            14,
+            0.3333333333333333
+          ]
+        ],
+        "shas_2022": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "tzeirim_boarim_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2022": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yesh_atid_2022": [
+          [
+            27,
+            0.3333333333333333
+          ],
+          [
+            23,
+            0.3333333333333333
+          ],
+          [
+            25,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2022": [
+          [
+            0.0,
+            0.06798407184566757
+          ],
+          [
+            5,
+            0.31067197605144414
+          ],
+          [
+            6,
+            0.31067197605144414
+          ],
+          [
+            6,
+            0.31067197605144414
+          ]
+        ]
+      },
+      "seat_l1": 12,
+      "false_positive": [
+        "meretz_2022"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [
+        {
+          "id": "hadash_taal_2022",
+          "p": 0.6487584421529479,
+          "represented": 1,
+          "brier": 0.12337063195882407,
+          "log_loss": 0.4326948316341856
+        },
+        {
+          "id": "labor_2022",
+          "p": 0.8601192036700092,
+          "represented": 1,
+          "brier": 0.01956663718191238,
+          "log_loss": 0.1506842904212969
+        },
+        {
+          "id": "meretz_2022",
+          "p": 0.7338968168719748,
+          "represented": 0,
+          "brier": 0.538604537814817,
+          "log_loss": 1.323871138920377
+        },
+        {
+          "id": "raam_2022",
+          "p": 0.6487584421529479,
+          "represented": 1,
+          "brier": 0.12337063195882407,
+          "log_loss": 0.4326948316341856
+        },
+        {
+          "id": "yisrael_beiteinu_2022",
+          "p": 0.9320159281543324,
+          "represented": 1,
+          "brier": 0.00462183402471689,
+          "log_loss": 0.07040537414823518
+        }
+      ],
+      "candidate_brier": 0.16190685458781887,
+      "candidate_log_loss": 0.48207009335165607
+    },
+    {
+      "election": "knesset_25_2022",
+      "election_date": "2022-11-01",
+      "period": "election_2022",
+      "party_ids": [
+        "balad_2022",
+        "economic_freedom_2022",
+        "hadash_taal_2022",
+        "jewish_home_2022",
+        "labor_2022",
+        "likud_2022",
+        "meretz_2022",
+        "national_unity_2022",
+        "new_economic_2022",
+        "raam_2022",
+        "religious_zionism_otzma_2022",
+        "shas_2022",
+        "tzeirim_boarim_2022",
+        "united_torah_judaism_2022",
+        "yesh_atid_2022",
+        "yisrael_beiteinu_2022"
+      ],
+      "actual": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 12,
+        "shas_2022": 11,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 5,
+        "meretz_2022": 0,
+        "raam_2022": 5,
+        "balad_2022": 0,
+        "new_economic_2022": 0,
+        "economic_freedom_2022": 0,
+        "tzeirim_boarim_2022": 0
+      },
+      "method": "hurdle_a0.1",
+      "learned_available": true,
+      "seats": [
+        0,
+        0,
+        4,
+        0,
+        5,
+        32,
+        4,
+        11,
+        0,
+        4,
+        14,
+        8,
+        0,
+        7,
+        25,
+        6
+      ],
+      "probabilities": {
+        "hadash_taal_2022": 0.6891535246609444,
+        "labor_2022": 0.8261786822794365,
+        "meretz_2022": 0.7408461391033856,
+        "raam_2022": 0.6891535246609444,
+        "yisrael_beiteinu_2022": 0.8876736210015692
+      },
+      "fit": {
+        "status": "converged",
+        "alpha": 0.1,
+        "gradient_max": 4.163336342344337e-17,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr",
+          "knesset_22_2019sep",
+          "knesset_24_2021"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "democratic_union_2019sep",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "labor_gesher_2019sep",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "otzma_yehudit_2019sep",
+            "represented": 0,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "blue_and_white_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "labor_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "meretz_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "raam_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "religious_zionism_otzma_2021",
+            "represented": 1,
+            "weight": 0.05
+          }
+        ],
+        "centers": [
+          0.937037037037037,
+          4.855555555555555
+        ],
+        "scales": [
+          0.1523028532959414,
+          0.7218802609235906
+        ],
+        "coefficients": [
+          1.2549931523040523,
+          0.46838684349136556,
+          0.550519085697813
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "balad_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "economic_freedom_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "hadash_taal_2022": [
+          [
+            0.0,
+            0.31084647533905563
+          ],
+          [
+            4,
+            0.22971784155364813
+          ],
+          [
+            4,
+            0.22971784155364813
+          ],
+          [
+            4,
+            0.22971784155364813
+          ]
+        ],
+        "jewish_home_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "labor_2022": [
+          [
+            0.0,
+            0.17382131772056353
+          ],
+          [
+            6,
+            0.2753928940931455
+          ],
+          [
+            4,
+            0.2753928940931455
+          ],
+          [
+            5,
+            0.2753928940931455
+          ]
+        ],
+        "likud_2022": [
+          [
+            30,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ],
+          [
+            31,
+            0.3333333333333333
+          ]
+        ],
+        "meretz_2022": [
+          [
+            0.0,
+            0.2591538608966144
+          ],
+          [
+            4,
+            0.24694871303446186
+          ],
+          [
+            4,
+            0.24694871303446186
+          ],
+          [
+            5,
+            0.24694871303446186
+          ]
+        ],
+        "national_unity_2022": [
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            13,
+            0.3333333333333333
+          ],
+          [
+            11,
+            0.3333333333333333
+          ]
+        ],
+        "new_economic_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "raam_2022": [
+          [
+            0.0,
+            0.31084647533905563
+          ],
+          [
+            4,
+            0.22971784155364813
+          ],
+          [
+            4,
+            0.22971784155364813
+          ],
+          [
+            4,
+            0.22971784155364813
+          ]
+        ],
+        "religious_zionism_otzma_2022": [
+          [
+            15,
+            0.3333333333333333
+          ],
+          [
+            12,
+            0.3333333333333333
+          ],
+          [
+            14,
+            0.3333333333333333
+          ]
+        ],
+        "shas_2022": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "tzeirim_boarim_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2022": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yesh_atid_2022": [
+          [
+            27,
+            0.3333333333333333
+          ],
+          [
+            23,
+            0.3333333333333333
+          ],
+          [
+            25,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2022": [
+          [
+            0.0,
+            0.11232637899843079
+          ],
+          [
+            5,
+            0.29589120700052307
+          ],
+          [
+            6,
+            0.29589120700052307
+          ],
+          [
+            6,
+            0.29589120700052307
+          ]
+        ]
+      },
+      "seat_l1": 12,
+      "false_positive": [
+        "meretz_2022"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [
+        {
+          "id": "hadash_taal_2022",
+          "p": 0.6891535246609444,
+          "represented": 1,
+          "brier": 0.09662553123071412,
+          "log_loss": 0.37229121035002416
+        },
+        {
+          "id": "labor_2022",
+          "p": 0.8261786822794365,
+          "represented": 1,
+          "brier": 0.03021385049411309,
+          "log_loss": 0.19094420648327048
+        },
+        {
+          "id": "meretz_2022",
+          "p": 0.7408461391033856,
+          "represented": 0,
+          "brier": 0.548853001824393,
+          "log_loss": 1.3503333361490288
+        },
+        {
+          "id": "raam_2022",
+          "p": 0.6891535246609444,
+          "represented": 1,
+          "brier": 0.09662553123071412,
+          "log_loss": 0.37229121035002416
+        },
+        {
+          "id": "yisrael_beiteinu_2022",
+          "p": 0.8876736210015692,
+          "represented": 1,
+          "brier": 0.012617215418899113,
+          "log_loss": 0.11915114746793917
+        }
+      ],
+      "candidate_brier": 0.1569870260397667,
+      "candidate_log_loss": 0.4810022221600574
+    },
+    {
+      "election": "knesset_25_2022",
+      "election_date": "2022-11-01",
+      "period": "election_2022",
+      "party_ids": [
+        "balad_2022",
+        "economic_freedom_2022",
+        "hadash_taal_2022",
+        "jewish_home_2022",
+        "labor_2022",
+        "likud_2022",
+        "meretz_2022",
+        "national_unity_2022",
+        "new_economic_2022",
+        "raam_2022",
+        "religious_zionism_otzma_2022",
+        "shas_2022",
+        "tzeirim_boarim_2022",
+        "united_torah_judaism_2022",
+        "yesh_atid_2022",
+        "yisrael_beiteinu_2022"
+      ],
+      "actual": {
+        "likud_2022": 32,
+        "yesh_atid_2022": 24,
+        "national_unity_2022": 12,
+        "shas_2022": 11,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "united_torah_judaism_2022": 7,
+        "yisrael_beiteinu_2022": 6,
+        "religious_zionism_otzma_2022": 14,
+        "hadash_taal_2022": 5,
+        "meretz_2022": 0,
+        "raam_2022": 5,
+        "balad_2022": 0,
+        "new_economic_2022": 0,
+        "economic_freedom_2022": 0,
+        "tzeirim_boarim_2022": 0
+      },
+      "method": "hurdle_a1",
+      "learned_available": true,
+      "seats": [
+        0,
+        0,
+        4,
+        0,
+        5,
+        32,
+        4,
+        11,
+        0,
+        4,
+        14,
+        8,
+        0,
+        7,
+        25,
+        6
+      ],
+      "probabilities": {
+        "hadash_taal_2022": 0.7311249405009278,
+        "labor_2022": 0.7700939370157583,
+        "meretz_2022": 0.7445662846290283,
+        "raam_2022": 0.7311249405009278,
+        "yisrael_beiteinu_2022": 0.7937770010222555
+      },
+      "fit": {
+        "status": "converged",
+        "alpha": 1.0,
+        "gradient_max": 1.1102230246251565e-16,
+        "training_campaigns": [
+          "knesset_20_2015",
+          "knesset_21_2019apr",
+          "knesset_22_2019sep",
+          "knesset_24_2021"
+        ],
+        "training_rows": [
+          {
+            "election": "knesset_20_2015",
+            "id": "meretz_2015",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yachad_2015",
+            "represented": 0,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_20_2015",
+            "id": "yisrael_beiteinu_2015",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "gesher_2019apr",
+            "represented": 0,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "kulanu_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "meretz_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "new_right_2019apr",
+            "represented": 0,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "raam_balad_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "shas_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "union_right_wing_parties_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "yisrael_beiteinu_2019apr",
+            "represented": 1,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_21_2019apr",
+            "id": "zehut_2019apr",
+            "represented": 0,
+            "weight": 0.027777777777777776
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "democratic_union_2019sep",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "labor_gesher_2019sep",
+            "represented": 1,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_22_2019sep",
+            "id": "otzma_yehudit_2019sep",
+            "represented": 0,
+            "weight": 0.08333333333333333
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "blue_and_white_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "labor_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "meretz_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "raam_2021",
+            "represented": 1,
+            "weight": 0.05
+          },
+          {
+            "election": "knesset_24_2021",
+            "id": "religious_zionism_otzma_2021",
+            "represented": 1,
+            "weight": 0.05
+          }
+        ],
+        "centers": [
+          0.937037037037037,
+          4.855555555555555
+        ],
+        "scales": [
+          0.1523028532959414,
+          0.7218802609235906
+        ],
+        "coefficients": [
+          1.115127315747474,
+          0.1538368297033246,
+          0.1505150275609272
+        ],
+        "feature_names": [
+          "fraction_firms_projecting_seats",
+          "mean_positive_projection"
+        ]
+      },
+      "marginals": {
+        "balad_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "economic_freedom_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "hadash_taal_2022": [
+          [
+            0.0,
+            0.2688750594990722
+          ],
+          [
+            4,
+            0.24370831350030928
+          ],
+          [
+            4,
+            0.24370831350030928
+          ],
+          [
+            4,
+            0.24370831350030928
+          ]
+        ],
+        "jewish_home_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "labor_2022": [
+          [
+            0.0,
+            0.22990606298424165
+          ],
+          [
+            6,
+            0.25669797900525276
+          ],
+          [
+            4,
+            0.25669797900525276
+          ],
+          [
+            5,
+            0.25669797900525276
+          ]
+        ],
+        "likud_2022": [
+          [
+            30,
+            0.3333333333333333
+          ],
+          [
+            34,
+            0.3333333333333333
+          ],
+          [
+            31,
+            0.3333333333333333
+          ]
+        ],
+        "meretz_2022": [
+          [
+            0.0,
+            0.2554337153709717
+          ],
+          [
+            4,
+            0.24818876154300942
+          ],
+          [
+            4,
+            0.24818876154300942
+          ],
+          [
+            5,
+            0.24818876154300942
+          ]
+        ],
+        "national_unity_2022": [
+          [
+            10,
+            0.3333333333333333
+          ],
+          [
+            13,
+            0.3333333333333333
+          ],
+          [
+            11,
+            0.3333333333333333
+          ]
+        ],
+        "new_economic_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "raam_2022": [
+          [
+            0.0,
+            0.2688750594990722
+          ],
+          [
+            4,
+            0.24370831350030928
+          ],
+          [
+            4,
+            0.24370831350030928
+          ],
+          [
+            4,
+            0.24370831350030928
+          ]
+        ],
+        "religious_zionism_otzma_2022": [
+          [
+            15,
+            0.3333333333333333
+          ],
+          [
+            12,
+            0.3333333333333333
+          ],
+          [
+            14,
+            0.3333333333333333
+          ]
+        ],
+        "shas_2022": [
+          [
+            8,
+            0.3333333333333333
+          ],
+          [
+            9,
+            0.3333333333333333
+          ],
+          [
+            8,
+            0.3333333333333333
+          ]
+        ],
+        "tzeirim_boarim_2022": [
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ],
+          [
+            0,
+            0.3333333333333333
+          ]
+        ],
+        "united_torah_judaism_2022": [
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ],
+          [
+            7,
+            0.3333333333333333
+          ]
+        ],
+        "yesh_atid_2022": [
+          [
+            27,
+            0.3333333333333333
+          ],
+          [
+            23,
+            0.3333333333333333
+          ],
+          [
+            25,
+            0.3333333333333333
+          ]
+        ],
+        "yisrael_beiteinu_2022": [
+          [
+            0.0,
+            0.20622299897774454
+          ],
+          [
+            5,
+            0.26459233367408513
+          ],
+          [
+            6,
+            0.26459233367408513
+          ],
+          [
+            6,
+            0.26459233367408513
+          ]
+        ]
+      },
+      "seat_l1": 12,
+      "false_positive": [
+        "meretz_2022"
+      ],
+      "false_negative": [],
+      "candidate_probability_scores": [
+        {
+          "id": "hadash_taal_2022",
+          "p": 0.7311249405009278,
+          "represented": 1,
+          "brier": 0.07229379762062961,
+          "log_loss": 0.3131709165991142
+        },
+        {
+          "id": "labor_2022",
+          "p": 0.7700939370157583,
+          "represented": 1,
+          "brier": 0.052856797796914094,
+          "log_loss": 0.261242775450968
+        },
+        {
+          "id": "meretz_2022",
+          "p": 0.7445662846290283,
+          "represented": 0,
+          "brier": 0.5543789522062752,
+          "log_loss": 1.3647923340298087
+        },
+        {
+          "id": "raam_2022",
+          "p": 0.7311249405009278,
+          "represented": 1,
+          "brier": 0.07229379762062961,
+          "log_loss": 0.3131709165991142
+        },
+        {
+          "id": "yisrael_beiteinu_2022",
+          "p": 0.7937770010222555,
+          "represented": 1,
+          "brier": 0.04252792530737483,
+          "log_loss": 0.2309527123178895
+        }
+      ],
+      "candidate_brier": 0.15887025411036468,
+      "candidate_log_loss": 0.49666593099937895
+    }
+  ],
+  "selections": [
+    {
+      "election": "knesset_20_2015",
+      "election_date": "2015-03-17",
+      "id": "square_0or3",
+      "status": "warmup_control",
+      "validation_dates": [],
+      "seat_l1": 22,
+      "false_positive": [
+        "yachad_2015"
+      ],
+      "false_negative": []
+    },
+    {
+      "election": "knesset_21_2019apr",
+      "election_date": "2019-04-09",
+      "id": "square_0or3",
+      "status": "warmup_control",
+      "validation_dates": [],
+      "seat_l1": 38,
+      "false_positive": [
+        "new_right_2019apr",
+        "zehut_2019apr"
+      ],
+      "false_negative": []
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "election_date": "2019-09-17",
+      "id": "square_0or3",
+      "status": "warmup_control",
+      "validation_dates": [],
+      "seat_l1": 12,
+      "false_positive": [
+        "otzma_yehudit_2019sep"
+      ],
+      "false_negative": []
+    },
+    {
+      "election": "knesset_23_2020",
+      "election_date": "2020-03-02",
+      "id": "square_0or3",
+      "status": "warmup_control",
+      "validation_dates": [
+        "2019-09-17"
+      ],
+      "seat_l1": 8,
+      "false_positive": [],
+      "false_negative": []
+    },
+    {
+      "election": "knesset_24_2021",
+      "election_date": "2021-03-23",
+      "id": "hurdle_a0.01",
+      "status": "earlier_campaign_selection",
+      "validation_dates": [
+        "2019-09-17",
+        "2020-03-02"
+      ],
+      "seat_l1": 24,
+      "false_positive": [],
+      "false_negative": [
+        "raam_2021"
+      ]
+    },
+    {
+      "election": "knesset_25_2022",
+      "election_date": "2022-11-01",
+      "id": "square_0or3",
+      "status": "earlier_campaign_selection",
+      "validation_dates": [
+        "2019-09-17",
+        "2020-03-02",
+        "2021-03-23"
+      ],
+      "seat_l1": 12,
+      "false_positive": [
+        "meretz_2022"
+      ],
+      "false_negative": []
+    }
+  ],
+  "coverage": [
+    {
+      "election": "knesset_20_2015",
+      "election_date": "2015-03-17",
+      "candidate_ids": [
+        "meretz_2015",
+        "yachad_2015",
+        "yisrael_beiteinu_2015"
+      ],
+      "positive_projected_count": 11,
+      "all_zero_winners": [],
+      "selected_poll_ids": [
+        "2015_ynet_midgam_0313",
+        "2015_knesset_panels_0303",
+        "2015_globes_smith_0312"
+      ]
+    },
+    {
+      "election": "knesset_21_2019apr",
+      "election_date": "2019-04-09",
+      "candidate_ids": [
+        "gesher_2019apr",
+        "kulanu_2019apr",
+        "meretz_2019apr",
+        "new_right_2019apr",
+        "raam_balad_2019apr",
+        "shas_2019apr",
+        "union_right_wing_parties_2019apr",
+        "yisrael_beiteinu_2019apr",
+        "zehut_2019apr"
+      ],
+      "positive_projected_count": 14,
+      "all_zero_winners": [],
+      "selected_poll_ids": [
+        "2019apr_channel13_0405",
+        "2019apr_ynet_midgam_0405",
+        "2019apr_jpost_smith_0405"
+      ]
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "election_date": "2019-09-17",
+      "candidate_ids": [
+        "democratic_union_2019sep",
+        "labor_gesher_2019sep",
+        "otzma_yehudit_2019sep"
+      ],
+      "positive_projected_count": 10,
+      "all_zero_winners": [],
+      "selected_poll_ids": [
+        "2019sep_channel13_0910",
+        "2019sep_walla_midgam_0909",
+        "2019sep_maariv_smith_0913"
+      ]
+    },
+    {
+      "election": "knesset_23_2020",
+      "election_date": "2020-03-02",
+      "candidate_ids": [],
+      "positive_projected_count": 8,
+      "all_zero_winners": [],
+      "selected_poll_ids": [
+        "2020_channel13_0228",
+        "2020_walla_midgam_0226",
+        "2020_103fm_panels_0226"
+      ]
+    },
+    {
+      "election": "knesset_24_2021",
+      "election_date": "2021-03-23",
+      "candidate_ids": [
+        "blue_and_white_2021",
+        "labor_2021",
+        "meretz_2021",
+        "raam_2021",
+        "religious_zionism_otzma_2021"
+      ],
+      "positive_projected_count": 13,
+      "all_zero_winners": [],
+      "selected_poll_ids": [
+        "camil_fuchs-2021-03-19",
+        "maagar_mohot-2021-03-18",
+        "midgam_rc-2021-03-19"
+      ]
+    },
+    {
+      "election": "knesset_25_2022",
+      "election_date": "2022-11-01",
+      "candidate_ids": [
+        "hadash_taal_2022",
+        "labor_2022",
+        "meretz_2022",
+        "raam_2022",
+        "yisrael_beiteinu_2022"
+      ],
+      "positive_projected_count": 11,
+      "all_zero_winners": [],
+      "selected_poll_ids": [
+        "camil_fuchs-2022-10-28",
+        "direct_polls-2022-10-27",
+        "midgam_rc-2022-10-28"
+      ]
+    }
+  ],
+  "summaries": {
+    "square_0or3": {
+      "folds": 4,
+      "mean_seat_l1": 13,
+      "equal_period_seat_l1": 12.666666666666668,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "mean_campaign_brier": null
+    },
+    "absolute_0or3": {
+      "folds": 4,
+      "mean_seat_l1": 13.5,
+      "equal_period_seat_l1": 13,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "mean_campaign_brier": null
+    },
+    "hurdle_a0.01": {
+      "folds": 4,
+      "mean_seat_l1": 13.5,
+      "equal_period_seat_l1": 13,
+      "false_positives": 1,
+      "false_negatives": 1,
+      "mean_campaign_brier": 0.16647164373793896
+    },
+    "hurdle_a0.1": {
+      "folds": 4,
+      "mean_seat_l1": 13.5,
+      "equal_period_seat_l1": 13,
+      "false_positives": 1,
+      "false_negatives": 1,
+      "mean_campaign_brier": 0.14882384198983706
+    },
+    "hurdle_a1": {
+      "folds": 4,
+      "mean_seat_l1": 13.5,
+      "equal_period_seat_l1": 13,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "mean_campaign_brier": 0.15075718127557342
+    }
+  },
+  "current": {
+    "case": {
+      "election_id": "current_2026",
+      "cutoff": "2026-10-24",
+      "ids": [
+        "likud",
+        "yashar",
+        "beyachad",
+        "democrats",
+        "yisrael_beiteinu",
+        "shas",
+        "united_torah_judaism",
+        "otzma_yehudit",
+        "religious_zionism",
+        "raam",
+        "hadash_taal",
+        "blue_and_white",
+        "amcha_yisrael",
+        "reservists_economic",
+        "other_qualifying_lists"
+      ],
+      "anchor": [
+        22.428571428571427,
+        21.857142857142858,
+        13.142857142857142,
+        8.857142857142858,
+        7.285714285714286,
+        8.0,
+        7.428571428571429,
+        7.857142857142857,
+        6.571428571428571,
+        5.428571428571429,
+        8.857142857142858,
+        0.0,
+        0.5714285714285714,
+        1.7142857142857142,
+        0.0
+      ]
+    },
+    "selected_polls": [
+      {
+        "id": "c13-consortium-2026-10-23",
+        "pollster_group": "c13_consortium",
+        "source_url": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+        "published_on": "2026-10-23"
+      },
+      {
+        "id": "i24-directpolls-2026-10-23",
+        "pollster_group": "direct_polls_sharon",
+        "source_url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+        "published_on": "2026-10-23"
+      },
+      {
+        "id": "israelhayom-kantar-2026-10-22",
+        "pollster_group": "kantar",
+        "source_url": "https://www.israelhayom.co.il/news/politics/article/21687549",
+        "published_on": "2026-10-22"
+      },
+      {
+        "id": "maariv-lazar-2026-10-23",
+        "pollster_group": "lazar_panel4all",
+        "source_url": "https://www.walla.co.il/news/israel/383958572",
+        "published_on": "2026-10-23"
+      },
+      {
+        "id": "n12-midgam-2026-10-23",
+        "pollster_group": "midgam_rc",
+        "source_url": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+        "published_on": "2026-10-23"
+      },
+      {
+        "id": "c14-nextdata-2026-10-22",
+        "pollster_group": "next_data",
+        "source_url": "https://www.c14.co.il/article/1750553",
+        "published_on": "2026-10-22"
+      },
+      {
+        "id": "zman-tatika-2026-10-22",
+        "pollster_group": "tatika_adgenda",
+        "source_url": "https://www.zman.co.il/735649/",
+        "published_on": "2026-10-22"
+      }
+    ],
+    "targets": [
+      {
+        "id": "likud",
+        "index": 0,
+        "poll_seats": [
+          19,
+          26,
+          21,
+          19,
+          21,
+          30,
+          21
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          22.428571428571427
+        ],
+        "positive_seats": [
+          19,
+          26,
+          21,
+          19,
+          21,
+          30,
+          21
+        ]
+      },
+      {
+        "id": "yashar",
+        "index": 1,
+        "poll_seats": [
+          22,
+          21,
+          23,
+          21,
+          23,
+          20,
+          23
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          21.857142857142858
+        ],
+        "positive_seats": [
+          22,
+          21,
+          23,
+          21,
+          23,
+          20,
+          23
+        ]
+      },
+      {
+        "id": "beyachad",
+        "index": 2,
+        "poll_seats": [
+          14,
+          12,
+          14,
+          15,
+          15,
+          11,
+          11
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          13.142857142857142
+        ],
+        "positive_seats": [
+          14,
+          12,
+          14,
+          15,
+          15,
+          11,
+          11
+        ]
+      },
+      {
+        "id": "democrats",
+        "index": 3,
+        "poll_seats": [
+          10,
+          8,
+          8,
+          10,
+          10,
+          8,
+          8
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          8.857142857142858
+        ],
+        "positive_seats": [
+          10,
+          8,
+          8,
+          10,
+          10,
+          8,
+          8
+        ]
+      },
+      {
+        "id": "yisrael_beiteinu",
+        "index": 4,
+        "poll_seats": [
+          8,
+          6,
+          7,
+          8,
+          8,
+          5,
+          9
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          7.285714285714286
+        ],
+        "positive_seats": [
+          8,
+          6,
+          7,
+          8,
+          8,
+          5,
+          9
+        ]
+      },
+      {
+        "id": "shas",
+        "index": 5,
+        "poll_seats": [
+          7,
+          8,
+          8,
+          8,
+          8,
+          9,
+          8
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          8
+        ],
+        "positive_seats": [
+          7,
+          8,
+          8,
+          8,
+          8,
+          9,
+          8
+        ]
+      },
+      {
+        "id": "united_torah_judaism",
+        "index": 6,
+        "poll_seats": [
+          8,
+          7,
+          7,
+          7,
+          7,
+          8,
+          8
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          7.428571428571429
+        ],
+        "positive_seats": [
+          8,
+          7,
+          7,
+          7,
+          7,
+          8,
+          8
+        ]
+      },
+      {
+        "id": "otzma_yehudit",
+        "index": 7,
+        "poll_seats": [
+          8,
+          8,
+          8,
+          7,
+          8,
+          8,
+          8
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          7.857142857142857
+        ],
+        "positive_seats": [
+          8,
+          8,
+          8,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      {
+        "id": "religious_zionism",
+        "index": 8,
+        "poll_seats": [
+          8,
+          6,
+          6,
+          7,
+          6,
+          7,
+          6
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          6.571428571428571
+        ],
+        "positive_seats": [
+          8,
+          6,
+          6,
+          7,
+          6,
+          7,
+          6
+        ]
+      },
+      {
+        "id": "raam",
+        "index": 9,
+        "poll_seats": [
+          7,
+          5,
+          5,
+          5,
+          5,
+          6,
+          5
+        ],
+        "candidate": true,
+        "features": [
+          1.0,
+          5.428571428571429
+        ],
+        "positive_seats": [
+          7,
+          5,
+          5,
+          5,
+          5,
+          6,
+          5
+        ]
+      },
+      {
+        "id": "hadash_taal",
+        "index": 10,
+        "poll_seats": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8,
+          9
+        ],
+        "candidate": false,
+        "features": [
+          1.0,
+          8.857142857142858
+        ],
+        "positive_seats": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          8,
+          9
+        ]
+      },
+      {
+        "id": "blue_and_white",
+        "index": 11,
+        "poll_seats": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "candidate": false,
+        "features": null,
+        "positive_seats": []
+      },
+      {
+        "id": "amcha_yisrael",
+        "index": 12,
+        "poll_seats": [
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "candidate": true,
+        "features": [
+          0.14285714285714285,
+          4
+        ],
+        "positive_seats": [
+          4
+        ]
+      },
+      {
+        "id": "reservists_economic",
+        "index": 13,
+        "poll_seats": [
+          0,
+          0,
+          4,
+          4,
+          0,
+          0,
+          4
+        ],
+        "candidate": true,
+        "features": [
+          0.42857142857142855,
+          4
+        ],
+        "positive_seats": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "id": "other_qualifying_lists",
+        "index": 14,
+        "poll_seats": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "candidate": false,
+        "features": null,
+        "positive_seats": []
+      }
+    ],
+    "methods": {
+      "square_0or3": {
+        "seats": [
+          22,
+          22,
+          13,
+          9,
+          7,
+          8,
+          7,
+          8,
+          7,
+          5,
+          9,
+          0,
+          0,
+          3,
+          0
+        ],
+        "probabilities": {},
+        "fit": {
+          "status": "control"
+        }
+      },
+      "absolute_0or3": {
+        "seats": [
+          21,
+          22,
+          14,
+          9,
+          8,
+          8,
+          7,
+          8,
+          6,
+          5,
+          9,
+          0,
+          0,
+          3,
+          0
+        ],
+        "probabilities": {},
+        "fit": {
+          "status": "control"
+        }
+      },
+      "hurdle_a0.01": {
+        "seats": [
+          21,
+          22,
+          14,
+          10,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          9,
+          0,
+          0,
+          0,
+          0
+        ],
+        "probabilities": {
+          "raam": 0.9098245892491399,
+          "amcha_yisrael": 0.059169084034443764,
+          "reservists_economic": 0.1676265108216749
+        },
+        "fit": {
+          "status": "converged",
+          "alpha": 0.01,
+          "gradient_max": 2.4494295480792516e-15,
+          "training_campaigns": [
+            "knesset_20_2015",
+            "knesset_21_2019apr",
+            "knesset_22_2019sep",
+            "knesset_24_2021",
+            "knesset_25_2022"
+          ],
+          "training_rows": [
+            {
+              "election": "knesset_20_2015",
+              "id": "meretz_2015",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_20_2015",
+              "id": "yachad_2015",
+              "represented": 0,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_20_2015",
+              "id": "yisrael_beiteinu_2015",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "gesher_2019apr",
+              "represented": 0,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "kulanu_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "meretz_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "new_right_2019apr",
+              "represented": 0,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "raam_balad_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "shas_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "union_right_wing_parties_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "yisrael_beiteinu_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "zehut_2019apr",
+              "represented": 0,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_22_2019sep",
+              "id": "democratic_union_2019sep",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_22_2019sep",
+              "id": "labor_gesher_2019sep",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_22_2019sep",
+              "id": "otzma_yehudit_2019sep",
+              "represented": 0,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "blue_and_white_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "labor_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "meretz_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "raam_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "religious_zionism_otzma_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "hadash_taal_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "labor_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "meretz_2022",
+              "represented": 0,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "raam_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "yisrael_beiteinu_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            }
+          ],
+          "centers": [
+            0.9496296296296298,
+            4.804444444444445
+          ],
+          "scales": [
+            0.1385323819562781,
+            0.7147683730835424
+          ],
+          "coefficients": [
+            1.4132392113988819,
+            0.5642943134075923,
+            0.7937335757431271
+          ],
+          "feature_names": [
+            "fraction_firms_projecting_seats",
+            "mean_positive_projection"
+          ]
+        },
+        "marginals": {
+          "likud": [
+            [
+              19,
+              0.14285714285714285
+            ],
+            [
+              26,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              19,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              30,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ]
+          ],
+          "yashar": [
+            [
+              22,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              23,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              23,
+              0.14285714285714285
+            ],
+            [
+              20,
+              0.14285714285714285
+            ],
+            [
+              23,
+              0.14285714285714285
+            ]
+          ],
+          "beyachad": [
+            [
+              14,
+              0.14285714285714285
+            ],
+            [
+              12,
+              0.14285714285714285
+            ],
+            [
+              14,
+              0.14285714285714285
+            ],
+            [
+              15,
+              0.14285714285714285
+            ],
+            [
+              15,
+              0.14285714285714285
+            ],
+            [
+              11,
+              0.14285714285714285
+            ],
+            [
+              11,
+              0.14285714285714285
+            ]
+          ],
+          "democrats": [
+            [
+              10,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              10,
+              0.14285714285714285
+            ],
+            [
+              10,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "yisrael_beiteinu": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              5,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ]
+          ],
+          "shas": [
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "united_torah_judaism": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "otzma_yehudit": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "religious_zionism": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ]
+          ],
+          "raam": [
+            [
+              0.0,
+              0.09017541075086011
+            ],
+            [
+              7,
+              0.1299749413213057
+            ],
+            [
+              5,
+              0.1299749413213057
+            ],
+            [
+              5,
+              0.1299749413213057
+            ],
+            [
+              5,
+              0.1299749413213057
+            ],
+            [
+              5,
+              0.1299749413213057
+            ],
+            [
+              6,
+              0.1299749413213057
+            ],
+            [
+              5,
+              0.1299749413213057
+            ]
+          ],
+          "hadash_taal": [
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ]
+          ],
+          "blue_and_white": [
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ]
+          ],
+          "amcha_yisrael": [
+            [
+              0.0,
+              0.9408309159655562
+            ],
+            [
+              4,
+              0.059169084034443764
+            ]
+          ],
+          "reservists_economic": [
+            [
+              0.0,
+              0.8323734891783251
+            ],
+            [
+              4,
+              0.055875503607224965
+            ],
+            [
+              4,
+              0.055875503607224965
+            ],
+            [
+              4,
+              0.055875503607224965
+            ]
+          ],
+          "other_qualifying_lists": [
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ]
+          ]
+        }
+      },
+      "hurdle_a0.1": {
+        "seats": [
+          21,
+          22,
+          14,
+          10,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          9,
+          0,
+          0,
+          0,
+          0
+        ],
+        "probabilities": {
+          "raam": 0.8681785222737565,
+          "amcha_yisrael": 0.1352581681237968,
+          "reservists_economic": 0.28023382123399626
+        },
+        "fit": {
+          "status": "converged",
+          "alpha": 0.1,
+          "gradient_max": 4.163336342344337e-17,
+          "training_campaigns": [
+            "knesset_20_2015",
+            "knesset_21_2019apr",
+            "knesset_22_2019sep",
+            "knesset_24_2021",
+            "knesset_25_2022"
+          ],
+          "training_rows": [
+            {
+              "election": "knesset_20_2015",
+              "id": "meretz_2015",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_20_2015",
+              "id": "yachad_2015",
+              "represented": 0,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_20_2015",
+              "id": "yisrael_beiteinu_2015",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "gesher_2019apr",
+              "represented": 0,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "kulanu_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "meretz_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "new_right_2019apr",
+              "represented": 0,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "raam_balad_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "shas_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "union_right_wing_parties_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "yisrael_beiteinu_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "zehut_2019apr",
+              "represented": 0,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_22_2019sep",
+              "id": "democratic_union_2019sep",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_22_2019sep",
+              "id": "labor_gesher_2019sep",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_22_2019sep",
+              "id": "otzma_yehudit_2019sep",
+              "represented": 0,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "blue_and_white_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "labor_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "meretz_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "raam_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "religious_zionism_otzma_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "hadash_taal_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "labor_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "meretz_2022",
+              "represented": 0,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "raam_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "yisrael_beiteinu_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            }
+          ],
+          "centers": [
+            0.9496296296296298,
+            4.804444444444445
+          ],
+          "scales": [
+            0.1385323819562781,
+            0.7147683730835424
+          ],
+          "coefficients": [
+            1.2853812006432583,
+            0.4421680248688161,
+            0.5025211568644651
+          ],
+          "feature_names": [
+            "fraction_firms_projecting_seats",
+            "mean_positive_projection"
+          ]
+        },
+        "marginals": {
+          "likud": [
+            [
+              19,
+              0.14285714285714285
+            ],
+            [
+              26,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              19,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              30,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ]
+          ],
+          "yashar": [
+            [
+              22,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              23,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              23,
+              0.14285714285714285
+            ],
+            [
+              20,
+              0.14285714285714285
+            ],
+            [
+              23,
+              0.14285714285714285
+            ]
+          ],
+          "beyachad": [
+            [
+              14,
+              0.14285714285714285
+            ],
+            [
+              12,
+              0.14285714285714285
+            ],
+            [
+              14,
+              0.14285714285714285
+            ],
+            [
+              15,
+              0.14285714285714285
+            ],
+            [
+              15,
+              0.14285714285714285
+            ],
+            [
+              11,
+              0.14285714285714285
+            ],
+            [
+              11,
+              0.14285714285714285
+            ]
+          ],
+          "democrats": [
+            [
+              10,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              10,
+              0.14285714285714285
+            ],
+            [
+              10,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "yisrael_beiteinu": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              5,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ]
+          ],
+          "shas": [
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "united_torah_judaism": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "otzma_yehudit": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "religious_zionism": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ]
+          ],
+          "raam": [
+            [
+              0.0,
+              0.13182147772624353
+            ],
+            [
+              7,
+              0.12402550318196522
+            ],
+            [
+              5,
+              0.12402550318196522
+            ],
+            [
+              5,
+              0.12402550318196522
+            ],
+            [
+              5,
+              0.12402550318196522
+            ],
+            [
+              5,
+              0.12402550318196522
+            ],
+            [
+              6,
+              0.12402550318196522
+            ],
+            [
+              5,
+              0.12402550318196522
+            ]
+          ],
+          "hadash_taal": [
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ]
+          ],
+          "blue_and_white": [
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ]
+          ],
+          "amcha_yisrael": [
+            [
+              0.0,
+              0.8647418318762032
+            ],
+            [
+              4,
+              0.1352581681237968
+            ]
+          ],
+          "reservists_economic": [
+            [
+              0.0,
+              0.7197661787660037
+            ],
+            [
+              4,
+              0.09341127374466542
+            ],
+            [
+              4,
+              0.09341127374466542
+            ],
+            [
+              4,
+              0.09341127374466542
+            ]
+          ],
+          "other_qualifying_lists": [
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ]
+          ]
+        }
+      },
+      "hurdle_a1": {
+        "seats": [
+          21,
+          22,
+          14,
+          8,
+          8,
+          8,
+          7,
+          8,
+          6,
+          5,
+          9,
+          0,
+          0,
+          4,
+          0
+        ],
+        "probabilities": {
+          "raam": 0.7913961009549163,
+          "amcha_yisrael": 0.5490698455668562,
+          "reservists_economic": 0.6193989211297449
+        },
+        "fit": {
+          "status": "converged",
+          "alpha": 1.0,
+          "gradient_max": 2.0816681711721685e-17,
+          "training_campaigns": [
+            "knesset_20_2015",
+            "knesset_21_2019apr",
+            "knesset_22_2019sep",
+            "knesset_24_2021",
+            "knesset_25_2022"
+          ],
+          "training_rows": [
+            {
+              "election": "knesset_20_2015",
+              "id": "meretz_2015",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_20_2015",
+              "id": "yachad_2015",
+              "represented": 0,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_20_2015",
+              "id": "yisrael_beiteinu_2015",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "gesher_2019apr",
+              "represented": 0,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "kulanu_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "meretz_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "new_right_2019apr",
+              "represented": 0,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "raam_balad_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "shas_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "union_right_wing_parties_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "yisrael_beiteinu_2019apr",
+              "represented": 1,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_21_2019apr",
+              "id": "zehut_2019apr",
+              "represented": 0,
+              "weight": 0.022222222222222227
+            },
+            {
+              "election": "knesset_22_2019sep",
+              "id": "democratic_union_2019sep",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_22_2019sep",
+              "id": "labor_gesher_2019sep",
+              "represented": 1,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_22_2019sep",
+              "id": "otzma_yehudit_2019sep",
+              "represented": 0,
+              "weight": 0.06666666666666668
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "blue_and_white_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "labor_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "meretz_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "raam_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_24_2021",
+              "id": "religious_zionism_otzma_2021",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "hadash_taal_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "labor_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "meretz_2022",
+              "represented": 0,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "raam_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            },
+            {
+              "election": "knesset_25_2022",
+              "id": "yisrael_beiteinu_2022",
+              "represented": 1,
+              "weight": 0.04000000000000001
+            }
+          ],
+          "centers": [
+            0.9496296296296298,
+            4.804444444444445
+          ],
+          "scales": [
+            0.1385323819562781,
+            0.7147683730835424
+          ],
+          "coefficients": [
+            1.1659230953855255,
+            0.14065135747075855,
+            0.13318721398961034
+          ],
+          "feature_names": [
+            "fraction_firms_projecting_seats",
+            "mean_positive_projection"
+          ]
+        },
+        "marginals": {
+          "likud": [
+            [
+              19,
+              0.14285714285714285
+            ],
+            [
+              26,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              19,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              30,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ]
+          ],
+          "yashar": [
+            [
+              22,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              23,
+              0.14285714285714285
+            ],
+            [
+              21,
+              0.14285714285714285
+            ],
+            [
+              23,
+              0.14285714285714285
+            ],
+            [
+              20,
+              0.14285714285714285
+            ],
+            [
+              23,
+              0.14285714285714285
+            ]
+          ],
+          "beyachad": [
+            [
+              14,
+              0.14285714285714285
+            ],
+            [
+              12,
+              0.14285714285714285
+            ],
+            [
+              14,
+              0.14285714285714285
+            ],
+            [
+              15,
+              0.14285714285714285
+            ],
+            [
+              15,
+              0.14285714285714285
+            ],
+            [
+              11,
+              0.14285714285714285
+            ],
+            [
+              11,
+              0.14285714285714285
+            ]
+          ],
+          "democrats": [
+            [
+              10,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              10,
+              0.14285714285714285
+            ],
+            [
+              10,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "yisrael_beiteinu": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              5,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ]
+          ],
+          "shas": [
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "united_torah_judaism": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "otzma_yehudit": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ]
+          ],
+          "religious_zionism": [
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ],
+            [
+              7,
+              0.14285714285714285
+            ],
+            [
+              6,
+              0.14285714285714285
+            ]
+          ],
+          "raam": [
+            [
+              0.0,
+              0.2086038990450837
+            ],
+            [
+              7,
+              0.11305658585070233
+            ],
+            [
+              5,
+              0.11305658585070233
+            ],
+            [
+              5,
+              0.11305658585070233
+            ],
+            [
+              5,
+              0.11305658585070233
+            ],
+            [
+              5,
+              0.11305658585070233
+            ],
+            [
+              6,
+              0.11305658585070233
+            ],
+            [
+              5,
+              0.11305658585070233
+            ]
+          ],
+          "hadash_taal": [
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ],
+            [
+              8,
+              0.14285714285714285
+            ],
+            [
+              9,
+              0.14285714285714285
+            ]
+          ],
+          "blue_and_white": [
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ]
+          ],
+          "amcha_yisrael": [
+            [
+              0.0,
+              0.45093015443314377
+            ],
+            [
+              4,
+              0.5490698455668562
+            ]
+          ],
+          "reservists_economic": [
+            [
+              0.0,
+              0.38060107887025507
+            ],
+            [
+              4,
+              0.2064663070432483
+            ],
+            [
+              4,
+              0.2064663070432483
+            ],
+            [
+              4,
+              0.2064663070432483
+            ]
+          ],
+          "other_qualifying_lists": [
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ],
+            [
+              0,
+              0.14285714285714285
+            ]
+          ]
+        }
+      }
+    },
+    "selection": {
+      "id": "square_0or3",
+      "status": "earlier_campaign_selection",
+      "validation_dates": [
+        "2019-09-17",
+        "2020-03-02",
+        "2021-03-23",
+        "2022-11-01"
+      ]
+    }
+  },
+  "current_reported_percentages": [
+    {
+      "poll_id": "c13-consortium-2026-10-23",
+      "source_url": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+      "percentages": {
+        "reservists_economic": 3,
+        "amcha_yisrael": 3.1
+      },
+      "reported_seats": {
+        "reservists_economic": 0,
+        "amcha_yisrael": 0
+      }
+    },
+    {
+      "poll_id": "i24-directpolls-2026-10-23",
+      "source_url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+      "percentages": {
+        "reservists_economic": 2.2,
+        "amcha_yisrael": null
+      },
+      "reported_seats": {
+        "reservists_economic": 0,
+        "amcha_yisrael": 4
+      }
+    },
+    {
+      "poll_id": "israelhayom-kantar-2026-10-22",
+      "source_url": "https://www.israelhayom.co.il/news/politics/article/21687549",
+      "percentages": {
+        "reservists_economic": null,
+        "amcha_yisrael": 2.7
+      },
+      "reported_seats": {
+        "reservists_economic": 4,
+        "amcha_yisrael": 0
+      }
+    },
+    {
+      "poll_id": "maariv-lazar-2026-10-23",
+      "source_url": "https://www.walla.co.il/news/israel/383958572",
+      "percentages": {
+        "reservists_economic": 3.5,
+        "amcha_yisrael": 3
+      },
+      "reported_seats": {
+        "reservists_economic": 4,
+        "amcha_yisrael": 0
+      }
+    },
+    {
+      "poll_id": "n12-midgam-2026-10-23",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+      "percentages": {
+        "reservists_economic": 2.4,
+        "amcha_yisrael": 2.5
+      },
+      "reported_seats": {
+        "reservists_economic": 0,
+        "amcha_yisrael": 0
+      }
+    },
+    {
+      "poll_id": "c14-nextdata-2026-10-22",
+      "source_url": "https://www.c14.co.il/article/1750553",
+      "percentages": {
+        "reservists_economic": 1.9,
+        "amcha_yisrael": 1.5
+      },
+      "reported_seats": {
+        "reservists_economic": 0,
+        "amcha_yisrael": 0
+      }
+    },
+    {
+      "poll_id": "zman-tatika-2026-10-22",
+      "source_url": "https://www.zman.co.il/735649/",
+      "percentages": {
+        "reservists_economic": 3.6,
+        "amcha_yisrael": 3
+      },
+      "reported_seats": {
+        "reservists_economic": 4,
+        "amcha_yisrael": 0
+      }
+    }
+  ],
+  "decision": "Research only; adopted forecast/turnout unchanged. No calibrated threshold probabilities claimed.",
+  "limitations": [
+    "Six inspected campaigns, four learned outer folds; party rows are dependent.",
+    "Training candidate roster requires at least one positive projection; all-zero lists are not modelled probabilities.",
+    "Current has seven firms; history has three. Firm count/fraction precision shift is uncalibrated.",
+    "Conditional positive support is a limited empirical poll distribution, not a complete seat scenario.",
+    "Current below-threshold percentages are descriptive, not historical training features.",
+    "Marginal expected-loss decision is not a feasible joint vote/allocation simulation."
+  ]
+}

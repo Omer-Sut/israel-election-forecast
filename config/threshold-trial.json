@@ -1,0 +1,13 @@
+{
+  "historical_config": "data/snapshots/screening-six-elections-2026-10-21/prepared/historical.json",
+  "alphas": [0.01, 0.1, 1.0],
+  "minimum_training_campaigns": 2,
+  "minimum_selection_campaigns": 2,
+  "candidate_mean_max": 6.0,
+  "candidate_poll_max": 8,
+  "minimum_positive_seats": 3,
+  "current_focus": ["reservists_economic", "amcha_yisrael"],
+  "current_percentage_audit": "data/snapshots/vote-input-audit-2026-10-24/audit.json",
+  "decision": "Focused research only; preserve adopted forecast and69.86% turnout",
+  "numeric_tolerance": 0.0000001
+}
