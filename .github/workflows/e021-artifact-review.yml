@@ -12,10 +12,19 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
       - name: Download existing result without rerunning the search
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh run download 40311428283 --repo Omer-Sut/israel-election-forecast --name numerical-search-E021 --dir output/e021-review
+      - name: Independently audit saved objectives and reproduce compact analysis
+        run: |
+          node scripts/analyze_numerical_search.mjs output/e021-review output/e021-review-analysis
+          for file in audit.json source-summary.json source-inputs-manifest.json historical-errors.svg threshold-regret.svg; do
+            diff -u "reports/numerical-search-2026-10-26/$file" "output/e021-review-analysis/$file"
+          done
       - name: Print existing report and lossless connector-readable evidence
         run: |
           python - <<'PY'

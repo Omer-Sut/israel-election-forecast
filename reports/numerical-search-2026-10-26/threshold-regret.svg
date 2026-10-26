@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620"><rect width="1120" height="620" fill="white"/><g font-family="Arial,sans-serif" fill="#21384b">
+<text x="25" y="32" font-size="23">E021: Reservists 4 remains close under the assumed objective</text>
+<text x="25" y="62" font-size="14">Budget12. Extra worst-model regret above optimum; these are not probabilities or actual-election error forecasts.</text>
+<rect x="90" y="430" width="90" height="1" fill="#246e9b"/><text x="102" y="415" font-size="16">0.000</text><text x="65" y="465" font-size="13">Res3 / Amcha0</text>
+<rect x="295" y="409.07738095238096" width="90" height="20.922619047619047" fill="#8a4284"/><text x="307" y="394.07738095238096" font-size="16">0.220</text><text x="270" y="465" font-size="13">Res4 / Amcha0</text>
+<rect x="500" y="321.42857142857144" width="90" height="108.57142857142857" fill="#8a4284"/><text x="512" y="306.42857142857144" font-size="16">1.143</text><text x="475" y="465" font-size="13">Res0 / Amcha0</text>
+<rect x="705" y="222.1875" width="90" height="207.8125" fill="#8a4284"/><text x="717" y="207.1875" font-size="16">2.188</text><text x="680" y="465" font-size="13">Res0 / Amcha3</text>
+<rect x="910" y="152.63392857142856" width="90" height="277.36607142857144" fill="#8a4284"/><text x="922" y="137.63392857142856" font-size="16">2.920</text><text x="885" y="465" font-size="13">Res0 / Amcha4</text>
+<text x="25" y="520" font-size="15">Adopted vector is also in the near-optimal set; its extra regret is 0.220.</text>
+<text x="25" y="555" font-size="14">140 vectors were fully enumerated within one regret unit. This is a model-defined band.</text>
+<text x="25" y="600" font-size="13">Conditional bars fix the displayed pair exactly. They do not establish party crossing probabilities.</text></g></svg>

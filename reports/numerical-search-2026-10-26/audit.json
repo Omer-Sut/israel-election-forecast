@@ -1,0 +1,782 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 47.176,
+  "cases": 7,
+  "cells": 21,
+  "certified_oracles": 267,
+  "certified_robust_cells": 21,
+  "independent_checks": [
+    {
+      "election": "current_2026",
+      "budget": 6,
+      "same_vector": true
+    },
+    {
+      "election": "current_2026",
+      "budget": 12,
+      "same_vector": true
+    },
+    {
+      "election": "current_2026",
+      "budget": null,
+      "same_vector": true
+    },
+    {
+      "election": "knesset_20_2015",
+      "budget": 12,
+      "same_vector": false
+    },
+    {
+      "election": "knesset_21_2019apr",
+      "budget": 12,
+      "same_vector": true
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "budget": 12,
+      "same_vector": false
+    },
+    {
+      "election": "knesset_23_2020",
+      "budget": 12,
+      "same_vector": true
+    },
+    {
+      "election": "knesset_24_2021",
+      "budget": 12,
+      "same_vector": true
+    },
+    {
+      "election": "knesset_25_2022",
+      "budget": 12,
+      "same_vector": false
+    }
+  ],
+  "conditional_statuses": {
+    "OPTIMAL": 23,
+    "INFEASIBLE": 4
+  },
+  "historical": [
+    {
+      "election": "knesset_20_2015",
+      "period": "election_2015",
+      "mean_error": 22,
+      "l1_error": 22,
+      "cells": [
+        {
+          "budget": 6,
+          "highs_error": 24,
+          "cp_error": null
+        },
+        {
+          "budget": 12,
+          "highs_error": 22,
+          "cp_error": 22
+        },
+        {
+          "budget": null,
+          "highs_error": 22,
+          "cp_error": null
+        }
+      ]
+    },
+    {
+      "election": "knesset_21_2019apr",
+      "period": "repeated_elections_2019_2021",
+      "mean_error": 38,
+      "l1_error": 38,
+      "cells": [
+        {
+          "budget": 6,
+          "highs_error": 38,
+          "cp_error": null
+        },
+        {
+          "budget": 12,
+          "highs_error": 38,
+          "cp_error": 38
+        },
+        {
+          "budget": null,
+          "highs_error": 38,
+          "cp_error": null
+        }
+      ]
+    },
+    {
+      "election": "knesset_22_2019sep",
+      "period": "repeated_elections_2019_2021",
+      "mean_error": 12,
+      "l1_error": 14,
+      "cells": [
+        {
+          "budget": 6,
+          "highs_error": 14,
+          "cp_error": null
+        },
+        {
+          "budget": 12,
+          "highs_error": 12,
+          "cp_error": 12
+        },
+        {
+          "budget": null,
+          "highs_error": 12,
+          "cp_error": null
+        }
+      ]
+    },
+    {
+      "election": "knesset_23_2020",
+      "period": "repeated_elections_2019_2021",
+      "mean_error": 8,
+      "l1_error": 8,
+      "cells": [
+        {
+          "budget": 6,
+          "highs_error": 8,
+          "cp_error": null
+        },
+        {
+          "budget": 12,
+          "highs_error": 8,
+          "cp_error": 8
+        },
+        {
+          "budget": null,
+          "highs_error": 8,
+          "cp_error": null
+        }
+      ]
+    },
+    {
+      "election": "knesset_24_2021",
+      "period": "repeated_elections_2019_2021",
+      "mean_error": 20,
+      "l1_error": 20,
+      "cells": [
+        {
+          "budget": 6,
+          "highs_error": 20,
+          "cp_error": null
+        },
+        {
+          "budget": 12,
+          "highs_error": 20,
+          "cp_error": 20
+        },
+        {
+          "budget": null,
+          "highs_error": 20,
+          "cp_error": null
+        }
+      ]
+    },
+    {
+      "election": "knesset_25_2022",
+      "period": "election_2022",
+      "mean_error": 12,
+      "l1_error": 12,
+      "cells": [
+        {
+          "budget": 6,
+          "highs_error": 14,
+          "cp_error": null
+        },
+        {
+          "budget": 12,
+          "highs_error": 14,
+          "cp_error": 12
+        },
+        {
+          "budget": null,
+          "highs_error": 14,
+          "cp_error": null
+        }
+      ]
+    }
+  ],
+  "current": [
+    {
+      "budget": 6,
+      "optimum_regret": 1.4017857142857142,
+      "reference_regret": 1.6666666666666667,
+      "reference_gap": 0.2648809523809524,
+      "near_count": 143,
+      "exact_optimum_count": 2,
+      "exact_optima": [
+        [
+          21,
+          22,
+          13,
+          9,
+          8,
+          8,
+          7,
+          8,
+          7,
+          5,
+          9,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          21,
+          22,
+          14,
+          9,
+          7,
+          8,
+          7,
+          8,
+          7,
+          5,
+          9,
+          0,
+          0,
+          3,
+          0
+        ]
+      ],
+      "near_ranges": [
+        {
+          "id": "likud",
+          "minimum": 21,
+          "maximum": 23
+        },
+        {
+          "id": "yashar",
+          "minimum": 21,
+          "maximum": 23
+        },
+        {
+          "id": "beyachad",
+          "minimum": 12,
+          "maximum": 14
+        },
+        {
+          "id": "democrats",
+          "minimum": 8,
+          "maximum": 10
+        },
+        {
+          "id": "yisrael_beiteinu",
+          "minimum": 6,
+          "maximum": 8
+        },
+        {
+          "id": "shas",
+          "minimum": 7,
+          "maximum": 9
+        },
+        {
+          "id": "united_torah_judaism",
+          "minimum": 6,
+          "maximum": 8
+        },
+        {
+          "id": "otzma_yehudit",
+          "minimum": 7,
+          "maximum": 9
+        },
+        {
+          "id": "religious_zionism",
+          "minimum": 6,
+          "maximum": 8
+        },
+        {
+          "id": "raam",
+          "minimum": 4,
+          "maximum": 6
+        },
+        {
+          "id": "hadash_taal",
+          "minimum": 8,
+          "maximum": 10
+        },
+        {
+          "id": "blue_and_white",
+          "minimum": 0,
+          "maximum": 0
+        },
+        {
+          "id": "amcha_yisrael",
+          "minimum": 0,
+          "maximum": 0
+        },
+        {
+          "id": "reservists_economic",
+          "minimum": 3,
+          "maximum": 4
+        },
+        {
+          "id": "other_qualifying_lists",
+          "minimum": 0,
+          "maximum": 0
+        }
+      ],
+      "conditions": [
+        {
+          "values": [
+            0,
+            0
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 1.1875
+        },
+        {
+          "values": [
+            0,
+            3
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 2.931547619047619
+        },
+        {
+          "values": [
+            0,
+            4
+          ],
+          "status": "INFEASIBLE",
+          "extra_regret": null
+        },
+        {
+          "values": [
+            3,
+            0
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 0
+        },
+        {
+          "values": [
+            3,
+            3
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 2.330357142857143
+        },
+        {
+          "values": [
+            3,
+            4
+          ],
+          "status": "INFEASIBLE",
+          "extra_regret": null
+        },
+        {
+          "values": [
+            4,
+            0
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 0.10714285714285714
+        },
+        {
+          "values": [
+            4,
+            3
+          ],
+          "status": "INFEASIBLE",
+          "extra_regret": null
+        },
+        {
+          "values": [
+            4,
+            4
+          ],
+          "status": "INFEASIBLE",
+          "extra_regret": null
+        }
+      ]
+    },
+    {
+      "budget": 12,
+      "optimum_regret": 1.4464285714285714,
+      "reference_regret": 1.6666666666666667,
+      "reference_gap": 0.22023809523809523,
+      "near_count": 140,
+      "exact_optimum_count": 1,
+      "exact_optima": [
+        [
+          22,
+          22,
+          13,
+          9,
+          8,
+          8,
+          7,
+          8,
+          6,
+          5,
+          9,
+          0,
+          0,
+          3,
+          0
+        ]
+      ],
+      "near_ranges": [
+        {
+          "id": "likud",
+          "minimum": 21,
+          "maximum": 23
+        },
+        {
+          "id": "yashar",
+          "minimum": 21,
+          "maximum": 23
+        },
+        {
+          "id": "beyachad",
+          "minimum": 12,
+          "maximum": 15
+        },
+        {
+          "id": "democrats",
+          "minimum": 8,
+          "maximum": 10
+        },
+        {
+          "id": "yisrael_beiteinu",
+          "minimum": 6,
+          "maximum": 8
+        },
+        {
+          "id": "shas",
+          "minimum": 7,
+          "maximum": 9
+        },
+        {
+          "id": "united_torah_judaism",
+          "minimum": 6,
+          "maximum": 8
+        },
+        {
+          "id": "otzma_yehudit",
+          "minimum": 7,
+          "maximum": 9
+        },
+        {
+          "id": "religious_zionism",
+          "minimum": 6,
+          "maximum": 8
+        },
+        {
+          "id": "raam",
+          "minimum": 4,
+          "maximum": 6
+        },
+        {
+          "id": "hadash_taal",
+          "minimum": 8,
+          "maximum": 10
+        },
+        {
+          "id": "blue_and_white",
+          "minimum": 0,
+          "maximum": 0
+        },
+        {
+          "id": "amcha_yisrael",
+          "minimum": 0,
+          "maximum": 0
+        },
+        {
+          "id": "reservists_economic",
+          "minimum": 3,
+          "maximum": 4
+        },
+        {
+          "id": "other_qualifying_lists",
+          "minimum": 0,
+          "maximum": 0
+        }
+      ],
+      "conditions": [
+        {
+          "values": [
+            0,
+            0
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 1.1428571428571428
+        },
+        {
+          "values": [
+            0,
+            3
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 2.1875
+        },
+        {
+          "values": [
+            0,
+            4
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 2.919642857142857
+        },
+        {
+          "values": [
+            3,
+            0
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 0
+        },
+        {
+          "values": [
+            3,
+            3
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 2.2857142857142856
+        },
+        {
+          "values": [
+            3,
+            4
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 3.5535714285714284
+        },
+        {
+          "values": [
+            4,
+            0
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 0.22023809523809523
+        },
+        {
+          "values": [
+            4,
+            3
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 3.294642857142857
+        },
+        {
+          "values": [
+            4,
+            4
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 4.705357142857143
+        }
+      ]
+    },
+    {
+      "budget": null,
+      "optimum_regret": 1.4464285714285714,
+      "reference_regret": 1.6666666666666667,
+      "reference_gap": 0.22023809523809523,
+      "near_count": 140,
+      "exact_optimum_count": 1,
+      "exact_optima": [
+        [
+          22,
+          22,
+          13,
+          9,
+          8,
+          8,
+          7,
+          8,
+          6,
+          5,
+          9,
+          0,
+          0,
+          3,
+          0
+        ]
+      ],
+      "near_ranges": [
+        {
+          "id": "likud",
+          "minimum": 21,
+          "maximum": 23
+        },
+        {
+          "id": "yashar",
+          "minimum": 21,
+          "maximum": 23
+        },
+        {
+          "id": "beyachad",
+          "minimum": 12,
+          "maximum": 15
+        },
+        {
+          "id": "democrats",
+          "minimum": 8,
+          "maximum": 10
+        },
+        {
+          "id": "yisrael_beiteinu",
+          "minimum": 6,
+          "maximum": 8
+        },
+        {
+          "id": "shas",
+          "minimum": 7,
+          "maximum": 9
+        },
+        {
+          "id": "united_torah_judaism",
+          "minimum": 6,
+          "maximum": 8
+        },
+        {
+          "id": "otzma_yehudit",
+          "minimum": 7,
+          "maximum": 9
+        },
+        {
+          "id": "religious_zionism",
+          "minimum": 6,
+          "maximum": 8
+        },
+        {
+          "id": "raam",
+          "minimum": 4,
+          "maximum": 6
+        },
+        {
+          "id": "hadash_taal",
+          "minimum": 8,
+          "maximum": 10
+        },
+        {
+          "id": "blue_and_white",
+          "minimum": 0,
+          "maximum": 0
+        },
+        {
+          "id": "amcha_yisrael",
+          "minimum": 0,
+          "maximum": 0
+        },
+        {
+          "id": "reservists_economic",
+          "minimum": 3,
+          "maximum": 4
+        },
+        {
+          "id": "other_qualifying_lists",
+          "minimum": 0,
+          "maximum": 0
+        }
+      ],
+      "conditions": [
+        {
+          "values": [
+            0,
+            0
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 1.1428571428571428
+        },
+        {
+          "values": [
+            0,
+            3
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 2.1875
+        },
+        {
+          "values": [
+            0,
+            4
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 2.919642857142857
+        },
+        {
+          "values": [
+            3,
+            0
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 0
+        },
+        {
+          "values": [
+            3,
+            3
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 2.2857142857142856
+        },
+        {
+          "values": [
+            3,
+            4
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 3.5535714285714284
+        },
+        {
+          "values": [
+            4,
+            0
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 0.22023809523809523
+        },
+        {
+          "values": [
+            4,
+            3
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 3.294642857142857
+        },
+        {
+          "values": [
+            4,
+            4
+          ],
+          "status": "OPTIMAL",
+          "extra_regret": 4.705357142857143
+        }
+      ]
+    }
+  ],
+  "forecast_changed": false,
+  "averages": {
+    "mean": 18.666666666666668,
+    "l1": 19,
+    "robust": [
+      {
+        "budget": 6,
+        "highs": 19.666666666666668
+      },
+      {
+        "budget": 12,
+        "highs": 19
+      },
+      {
+        "budget": null,
+        "highs": 19
+      }
+    ],
+    "cp_budget12": 18.666666666666668
+  },
+  "provenance": {
+    "run": 40311428283,
+    "artifact": 12645121746,
+    "artifact_zip_digest_from_api": "sha256:9f958c4cd1562b31f4ed4a70111bfc34c4ff3d871c7d4c448c2735a7c2338a2c",
+    "producer_head": "3d5d3190fc3616ed2049b07ac9ef74d5a63c2c4f",
+    "executed_commit": "e9556671e391b9b92328288bb48178b8caa22d10",
+    "checkpoint_sha256": "72c95783b04d0af0b0b8e2a8a24e82a84dff4a7250c4b7f2ce813f4af8fffe55",
+    "postprocessor_sha256": "f57dff426b21994a09bbf12140e94bfa775c216659925eaa1234e2d5721b8026",
+    "adopted_forecast_sha256": "3a02e8c53ef2b85af839b6d048650c4a581ad64e6a24cae0bd9c316ab449ca97"
+  }
+}
