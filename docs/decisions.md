@@ -1,5 +1,7 @@
 # Decisions and open questions
 
+October26: user authorized merging completed validated project work as the final stretch approaches. Integrated PRs13–25 and27–32 into main, preserving dependency order and history; closed superseded26. Consolidation a35673d35268deda807dfa2f3aa4610d1db8878e is tree-identical to validated PR32 ff36791. Historical research is now available from main without adopting rejected learners. The active forecast and69.86% turnout are unchanged. Future topics should branch from verified live main. Competition submission still requires explicit user authorization. Local protected/stale metadata must not be treated as authoritative or overwritten through ACL changes.
+
 
 ## E010 — current forecast review, October 24
 
