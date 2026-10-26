@@ -32,6 +32,7 @@ The first implementation is documented in `docs/baseline-method.md`: Python 3.12
 - For new candidate experiments, read `docs/model-screening.md` and use the separate `Screen lightweight forecast models` Actions workflow. Its optional scientific dependencies must not become requirements of the frozen standard-library baseline. Preserve real diagnostic versus synthetic smoke evidence; two audited elections do not establish a model ranking. The user's approved 18-configuration lightweight screen supersedes the earlier one-improvement scope, with locality forecasting still deferred.
 
 - Communicate and document in English. Preserve original Hebrew identifiers alongside stable English/internal identifiers when necessary.
+- E005 user direction supersedes blanket geographic-feature deferral: read docs/poll-quality-feature-trial.md and reports/poll-quality-feature-trial-2026-10-22/analysis.md. A dated2018CBS15city subset supports prior-election three-core geographic ablation; broad age/sex/SES profiles remain descriptive pending vintage/lineage review. Do not use same-election outcomes to build its features. Index poll quality statistics remain exploratory; no learned poll weights adopted. Turnout/war/economic research is explicitly later.
 - Inspect working-tree changes before editing; do not overwrite another contributor's work.
 - Treat the competition as a forecasting task: optimize and evaluate total absolute seat error, with turnout as the tie-breaker.
 - Distinguish PDF requirements, independently verified facts, modeling assumptions, and proposed work. Do not present an unimplemented method as implemented.
@@ -53,3 +54,4 @@ For consequential experiments, update `docs/experiment-log.md` with inputs/cutof
 Review diffs, run checks appropriate to the change, and commit coherent work on a topic branch once Git is available. Push authorized project work to the configured remote when authenticated and reachable; otherwise explicitly record uncommitted/unpushed status in the handoff and final response. Never claim a commit, push, test, or remote creation succeeded without verification. Do not force-push shared branches or merge conflicting work blindly.
 
 The public repository is https://github.com/Omer-Sut/israel-election-forecast. Initial sandbox restrictions were resolved using approved outside-sandbox commands. If an in-sandbox authentication check fails, do not assume the user's login is invalid; retry with the available approval mechanism. Use `docs/project-state.md` and actual Git state for current status.
+

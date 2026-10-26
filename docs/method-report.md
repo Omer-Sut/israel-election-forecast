@@ -1,5 +1,7 @@
 # Method report working draft
 
+E005 verified:55hosted tests passed. Chronological parameter/blending validation, dynamic-gap features and a dated prior-election geographic subset were tried; no selected2021/2022configuration beat the mean. Broad CBS profiles remain descriptive. Audited-only expected-poll-error prototype MAE9.233versus8.668simple baseline, so no quality weights adopted. These are research diagnostics, not a change to the final forecasting method. Turnout/war/economics later. See poll-quality-feature-trial.md and project-state.
+
 E004 preparation: user approved hosted correction-strength/forest-seed sensitivity on unchanged audited inputs. Diagnostic work, not an adopted forecasting method; final description remains unchanged until evaluated selection. See robustness-batch.md/project-state for actual execution status.
 
 October22 continuation: A002 adds independently checked pre-rounding plots over all saved historical folds. E003 adds three earlier original-source-reviewed releases (24 to27) and runs four fixed data sensitivities while preserving latest-group anchors, model settings, outcomes and the preliminary2026 forecast. All46 hosted tests and deterministic repeats passed; none beats reference20/12 on2021/2022. Some ensembles improve to ties, some forests worsen. See [campaign-history.md](campaign-history.md) and project-state for checked run/provenance evidence. No L0 penalty or final model is adopted. The final submission description remains the baseline draft until a method is selected.
