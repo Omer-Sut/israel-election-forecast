@@ -1,3 +1,5 @@
+October26 submission preparation: user chose individual systematic entry and both English/Hebrew method descriptions. Built copy sheets and one-page PDFs from adopted seats/69.86% turnout; checked 15-field sum120, zero-or-at-least-three, form bounds and method word counts334/289. English/Hebrew PDFs visually and text-extraction checked; forecast-decision tests2/2 passed. Source freeze and live form authentication remain open. No identity details, consent or submission. Published branch/PR details are in the package PR.
+
 # Session log
 
 October26 main consolidation: user explicitly authorized merging. Verified19 completed PR heads, passing workflows and zero unresolved review threads. Merged PRs13–25/27–32 into main in dependency order with expected-head guards; closed obsolete PR26. Main a35673d35268deda807dfa2f3aa4610d1db8878e tree exactly matches validated PR32 ff36791. No adopted source/model/seat/turnout change or competition submission. Added prominent current handoff to README/AGENTS/project-state; final documentation PR records its final merge/baseline evidence. Start from live main; local GitHEAD3055db4 remains stale/protected.
