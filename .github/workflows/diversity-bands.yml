@@ -1,0 +1,91 @@
+name: Explore diverse forecasts and prediction-band widths
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/diversity_bands.py'
+      - 'tests/test_diversity_bands.py'
+      - 'config/diversity-bands.json'
+      - '.github/workflows/diversity-bands.yml'
+permissions:
+  contents: read
+  actions: read
+env:
+  OMP_NUM_THREADS: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+jobs:
+  validate:
+    name: Validate coverage, finite-sample limits and diversity
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-numerical-search.txt
+      - name: Install pinned optional solver dependencies
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-numerical-search.txt
+          python -m pip check
+      - name: Test band optimality, missing coverage and diversity certificates
+        run: python -m unittest discover -s tests -p test_diversity_bands.py -v
+      - name: Download and independently audit original E021 results
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 40311428283 --repo Omer-Sut/israel-election-forecast --name numerical-search-E021 --dir output/e022-source
+          node scripts/analyze_numerical_search.mjs output/e022-source output/e022-source-audit
+      - name: Reproduce preserved standard-library baseline
+        run: |
+          python scripts/baseline.py --out-dir output/baseline
+          diff -ru reports/baseline-2026-10-21 output/baseline
+  research:
+    name: Explore diversity and widths (up to 3 hours)
+    needs: validate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-numerical-search.txt
+      - name: Install pinned optional solver dependencies
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-numerical-search.txt
+          python -m pip check
+          mkdir -p output/diversity-bands-2026-10-26
+          python -m pip freeze > output/diversity-bands-2026-10-26/environment.txt
+      - name: Download saved input without rerunning E021
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 40311428283 --repo Omer-Sut/israel-election-forecast --name numerical-search-E021 --dir output/e022-source
+      - name: Run checkpointed diversity and band diagnostics
+        run: python -u scripts/diversity_bands.py --source-dir output/e022-source 2>&1 | tee output/diversity-bands-2026-10-26/run.log
+      - name: Preserve unchanged adopted forecast and display report
+        if: always()
+        run: |
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          p=Path('reports/forecast-decision-2026-10-25/forecast.json')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='3a02e8c53ef2b85af839b6d048650c4a581ad64e6a24cae0bd9c316ab449ca97'
+          PY
+          if [ -f output/diversity-bands-2026-10-26/START_HERE.md ]; then
+            cat output/diversity-bands-2026-10-26/START_HERE.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: diversity-bands-E022
+          path: output/diversity-bands-2026-10-26/
+          if-no-files-found: warn
+          retention-days: 30

@@ -157,3 +157,6 @@ E021 solver research is prepared separately and not part of the adopted method. 
 
 
 E021 was executed and not adopted: finite-model minimax regret solved completely47.176s;267oracle/21robust certificates and9CP objective checks. HiGHS historical mean19.0 versus pollmean18.667; equally optimal CP choices tie18.667. No reliable improvement or hindsight tie-rule selection. Current robust optima keepReservists3/Amcha0, with4nearby under assumed regret; no calibrated probabilities. Adopted333word method/forecast and turnout69.86% remain unchanged. Read reports/numerical-search-2026-10-26/findings.md and PR35 final evidence.
+
+
+E022 is prepared research, not an adopted method: model-coverage band-width optimization, chronological max-miss inflation diagnostic and greedy diverse candidate vectors. These are not calibrated confidence bands, a selected new forecast or a globally optimal diversity batch. Actual execution must be checked from the hosted run after user return. Preserve the adopted333word description, seats and69.86%turnout; no automatic adoption/submission.
