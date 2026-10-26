@@ -1,0 +1,60 @@
+name: Test matched reported-percentage threshold models
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/threshold_share_trial.py'
+      - 'tests/test_threshold_share_trial.py'
+      - 'config/threshold-share-trial.json'
+      - 'reports/threshold-share-trial-2026-10-25/**'
+      - '.github/workflows/threshold-share-trial.yml'
+permissions:
+  contents: read
+jobs:
+  share:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Install optional locked CPU dependencies
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-turnout.txt
+          python -m pip check
+      - name: Test matched sources, missingness and past-only learning
+        run: python -m unittest discover -s tests -p test_threshold_share_trial.py -v
+      - name: Run and reproduce matched share trial
+        run: |
+          python scripts/threshold_share_trial.py
+          python scripts/threshold_share_trial.py --out-dir output/threshold-share-repeat > output/threshold-share-repeat.log
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts.compare_turnout_models import compare
+          reference=Path('reports/threshold-share-trial-2026-10-25')
+          pairs=[(Path('output/threshold-share-trial'),Path('output/threshold-share-repeat'))]
+          if reference.exists():pairs.append((reference,Path('output/threshold-share-trial')))
+          for left,right in pairs:
+              for name in ('results.json','inputs-manifest.json','analysis.md','matched-errors.svg','support-diagnostics.json','support-diagnostics.svg'):
+                  if left==reference and name=='results.json':continue
+                  a=(left/name).read_text(encoding='utf-8');b=(right/name).read_text(encoding='utf-8')
+                  if name.endswith('.json'):compare(json.loads(a),json.loads(b),name)
+                  else:assert a==b,name
+              compare(json.loads((left/'summary.json').read_text(encoding='utf-8')),json.loads((right/'summary.json').read_text(encoding='utf-8')),'summary.json')
+          PY
+          cat output/threshold-share-trial/analysis.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: threshold-share-trial
+          path: output/threshold-share-trial/
+          if-no-files-found: error
+          retention-days: 30

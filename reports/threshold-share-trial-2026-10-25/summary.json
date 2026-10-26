@@ -1,0 +1,3399 @@
+{
+  "config": {
+    "experiment": "E020",
+    "parent": "58b7733f18130197f3ee5b9aaf52d0b5b7fcd81f",
+    "horizons_days": [
+      1,
+      8
+    ],
+    "percentage_modes": [
+      "latest",
+      "eligible_history"
+    ],
+    "window_days": 14,
+    "primary": "t1_latest",
+    "primary_alpha": 0.1,
+    "share_sensitivity_alphas": [
+      0.01,
+      1.0
+    ],
+    "minimum_training_campaigns": 2,
+    "candidate_mean_max": 6.0,
+    "candidate_poll_max": 8,
+    "minimum_positive_seats": 3,
+    "all_zero_positive_branch_seats": 4,
+    "decision": "Research only; no adopted forecast, source promotion, merge or submission"
+  },
+  "decision": "Research only; no adopted forecast, source promotion, merge or submission",
+  "limits": [
+    "Repeated campaigns/firm/list outcomes are dependent; no untouched holdout or calibrated crossing probabilities.",
+    "Reported percentages have unknown denominator/undecided treatment, not valid-vote shares.",
+    "Percentage reporting is selective. Candidate roster includes all-zero lists with any observed share in the chosen mode, identically in all arms.",
+    "For all-zero candidates, conditional representation is assigned four seats as an explicit assumption, not inferred votes.",
+    "Latest-firm seat projections are identical across arms; eligible-history shares are a separately labelled source-age sensitivity, never backfilled latest values.",
+    "History averages within firm then across observed firms; coverage averages within every eligible firm. No independent-sample weight for repeated releases.",
+    "T-8 may have one firm and different campaign coverage; compare arms only within a panel, not panel averages as model gains.",
+    "Current percentages are only the audited seven latest releases; its October24 cutoff is T-3, not historical T-1.",
+    "Current/history firm count and reporting patterns differ. Combined other is fixed at zero; no new unmapped list is predicted.",
+    "Sum120 and zero-or-at-least3 are seat-space decision assumptions, not a complete Bader–Ofer simulation."
+  ],
+  "panels": {
+    "t1_latest": {
+      "coverage": [
+        {
+          "election": "knesset_20_2015",
+          "cutoff": "2015-03-16",
+          "firms": 3,
+          "selected_ids": [
+            "2015_ynet_midgam_0313",
+            "2015_knesset_panels_0303",
+            "2015_globes_smith_0312"
+          ],
+          "history_ids": [
+            "2015_ynet_midgam_0313",
+            "2015_knesset_panels_0303",
+            "2015_globes_smith_0312"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "cutoff": "2019-04-08",
+          "firms": 4,
+          "selected_ids": [
+            "2019apr_channel13_0405",
+            "2019apr_ynet_midgam_0405",
+            "2019apr_mako_panels_0401",
+            "2019apr_jpost_smith_0405"
+          ],
+          "history_ids": [
+            "2019apr_channel13_0405",
+            "2019apr_ynet_midgam_0405",
+            "2019apr_mako_panels_0401",
+            "2019apr_jpost_smith_0405"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "cutoff": "2019-09-16",
+          "firms": 3,
+          "selected_ids": [
+            "2019sep_channel13_0910",
+            "2019sep_walla_midgam_0909",
+            "2019sep_maariv_smith_0913"
+          ],
+          "history_ids": [
+            "2019sep_channel13_0910",
+            "2019sep_walla_midgam_0903",
+            "2019sep_walla_midgam_0909",
+            "2019sep_maariv_smith_0913"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_23_2020",
+          "cutoff": "2020-03-01",
+          "firms": 3,
+          "selected_ids": [
+            "2020_channel13_0228",
+            "2020_walla_midgam_0226",
+            "2020_103fm_panels_0226"
+          ],
+          "history_ids": [
+            "2020_channel13_0228",
+            "2020_walla_midgam_0217",
+            "2020_n12_midgam_0219",
+            "2020_walla_midgam_0226",
+            "2020_103fm_panels_0226"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_24_2021",
+          "cutoff": "2021-03-22",
+          "firms": 3,
+          "selected_ids": [
+            "camil_fuchs-2021-03-19",
+            "maagar_mohot-2021-03-18",
+            "midgam_rc-2021-03-19"
+          ],
+          "history_ids": [
+            "camil_fuchs-2021-03-14",
+            "camil_fuchs-2021-03-19",
+            "maagar_mohot-2021-03-11",
+            "maagar_mohot-2021-03-18",
+            "midgam_rc-2021-03-10",
+            "midgam_rc-2021-03-16",
+            "midgam_rc-2021-03-19"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_25_2022",
+          "cutoff": "2022-10-31",
+          "firms": 3,
+          "selected_ids": [
+            "camil_fuchs-2022-10-28",
+            "direct_polls-2022-10-27",
+            "midgam_rc-2022-10-28"
+          ],
+          "history_ids": [
+            "camil_fuchs-2022-10-25",
+            "camil_fuchs-2022-10-28",
+            "direct_polls-2022-10-24",
+            "direct_polls-2022-10-27",
+            "midgam_rc-2022-10-24",
+            "midgam_rc-2022-10-28"
+          ],
+          "status": "available"
+        }
+      ],
+      "summaries": {
+        "square_0or3": {
+          "folds": 4,
+          "mean_seat_l1": 13,
+          "equal_period_seat_l1": 12.666666666666668,
+          "brier": null,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "absolute_0or3": {
+          "folds": 4,
+          "mean_seat_l1": 13.5,
+          "equal_period_seat_l1": 13,
+          "brier": null,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "seat_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 13.5,
+          "equal_period_seat_l1": 13,
+          "brier": 0.07217556872810628,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "missing_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 13.5,
+          "equal_period_seat_l1": 13,
+          "brier": 0.06911604001006212,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "share_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 15,
+          "equal_period_seat_l1": 14,
+          "brier": 0.3203810506167398,
+          "false_positive": 3,
+          "false_negative": 0
+        },
+        "share_a0.01": {
+          "folds": 4,
+          "mean_seat_l1": 15,
+          "equal_period_seat_l1": 14,
+          "brier": 0.33095648214820267,
+          "false_positive": 2,
+          "false_negative": 1
+        },
+        "share_a1": {
+          "folds": 4,
+          "mean_seat_l1": 15,
+          "equal_period_seat_l1": 14,
+          "brier": 0.2754541164988913,
+          "false_positive": 3,
+          "false_negative": 0
+        }
+      },
+      "selections": [
+        {
+          "election": "knesset_20_2015",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 22
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 38
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 12
+        },
+        {
+          "election": "knesset_23_2020",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [
+            "2019-09-17"
+          ],
+          "seat_l1": 8
+        },
+        {
+          "election": "knesset_24_2021",
+          "id": "square_0or3",
+          "status": "earlier_campaign_selection",
+          "validation_dates": [
+            "2019-09-17",
+            "2020-03-02"
+          ],
+          "seat_l1": 20
+        },
+        {
+          "election": "knesset_25_2022",
+          "id": "square_0or3",
+          "status": "earlier_campaign_selection",
+          "validation_dates": [
+            "2019-09-17",
+            "2020-03-02",
+            "2021-03-23"
+          ],
+          "seat_l1": 12
+        }
+      ],
+      "records": [
+        {
+          "election": "knesset_20_2015",
+          "method": "square_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "meretz_2015",
+            "yachad_2015",
+            "yisrael_beiteinu_2015"
+          ],
+          "seat_l1": 22,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "yachad_2015"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_20_2015",
+          "method": "absolute_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "meretz_2015",
+            "yachad_2015",
+            "yisrael_beiteinu_2015"
+          ],
+          "seat_l1": 22,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "yachad_2015"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "method": "square_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "gesher_2019apr",
+            "kulanu_2019apr",
+            "meretz_2019apr",
+            "new_right_2019apr",
+            "raam_balad_2019apr",
+            "shas_2019apr",
+            "union_right_wing_parties_2019apr",
+            "yisrael_beiteinu_2019apr",
+            "zehut_2019apr"
+          ],
+          "seat_l1": 38,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "new_right_2019apr",
+            "zehut_2019apr"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "method": "absolute_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "gesher_2019apr",
+            "kulanu_2019apr",
+            "meretz_2019apr",
+            "new_right_2019apr",
+            "raam_balad_2019apr",
+            "shas_2019apr",
+            "union_right_wing_parties_2019apr",
+            "yisrael_beiteinu_2019apr",
+            "zehut_2019apr"
+          ],
+          "seat_l1": 38,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "new_right_2019apr",
+            "zehut_2019apr"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.07420638426022994,
+          "candidate_log_loss": 0.29720654537828656,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.07370140179383786,
+          "candidate_log_loss": 0.29614752341021855,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.08156358021083727,
+          "candidate_log_loss": 0.31204384262803,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 10,
+          "candidate_brier": 0.042245479408891264,
+          "candidate_log_loss": 0.20670084870853012,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.17056605009981113,
+          "candidate_log_loss": 0.5206437893417081,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": 5.222393449131451e-07,
+          "candidate_log_loss": 0.0007229225388961423,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": 6.039761908785806e-07,
+          "candidate_log_loss": 0.0007774611958591103,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.9972982049626173,
+          "candidate_log_loss": 6.606309944637324,
+          "false_positive": [
+            "otzma_yehudit_2020"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.999999988020225,
+          "candidate_log_loss": 18.933193210486166,
+          "false_positive": [
+            "otzma_yehudit_2020"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.6510463831400216,
+          "candidate_log_loss": 1.6444147997288348,
+          "false_positive": [
+            "otzma_yehudit_2020"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": 0.13053818488147562,
+          "candidate_log_loss": 0.42448190137131386,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": 0.12142779179143824,
+          "candidate_log_loss": 0.40451891618167996,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": 0.12254416229903099,
+          "candidate_log_loss": 0.4026794693120624,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 24,
+          "candidate_brier": 0.2026266191345676,
+          "candidate_log_loss": 0.5753328656874079,
+          "false_positive": [],
+          "false_negative": [
+            "raam_2021"
+          ]
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": 0.16386810682281586,
+          "candidate_log_loss": 0.5138414309227444,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.08395718353137466,
+          "candidate_log_loss": 0.2945749601849664,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.08133436247878151,
+          "candidate_log_loss": 0.27451623481208764,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.08011825499447361,
+          "candidate_log_loss": 0.2593387089740233,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.07895384202912677,
+          "candidate_log_loss": 0.24222634332493945,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.11633592593291667,
+          "candidate_log_loss": 0.4039507888975148,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        }
+      ],
+      "current": {
+        "seat_a0.1": {
+          "seats": [
+            21,
+            22,
+            14,
+            8,
+            8,
+            8,
+            7,
+            8,
+            6,
+            5,
+            9,
+            0,
+            0,
+            4,
+            0
+          ],
+          "probabilities": {
+            "raam": 0.7787582931380195,
+            "amcha_yisrael": 0.32786328619523875,
+            "reservists_economic": 0.44452448736769706
+          }
+        },
+        "missing_a0.1": {
+          "seats": [
+            21,
+            22,
+            14,
+            10,
+            8,
+            8,
+            8,
+            8,
+            7,
+            5,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          "probabilities": {
+            "raam": 0.7821134276065325,
+            "amcha_yisrael": 0.14363622892021433,
+            "reservists_economic": 0.20473161922362423
+          }
+        },
+        "share_a0.1": {
+          "seats": [
+            21,
+            22,
+            14,
+            10,
+            8,
+            8,
+            8,
+            8,
+            7,
+            5,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          "probabilities": {
+            "raam": 0.7808934427276192,
+            "amcha_yisrael": 0.17994659560407072,
+            "reservists_economic": 0.25939263921547756
+          }
+        },
+        "share_a0.01": {
+          "seats": [
+            21,
+            22,
+            14,
+            10,
+            8,
+            8,
+            8,
+            8,
+            7,
+            5,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          "probabilities": {
+            "raam": 0.8564371319874944,
+            "amcha_yisrael": 0.18914960743218348,
+            "reservists_economic": 0.396348352409696
+          }
+        },
+        "share_a1": {
+          "seats": [
+            21,
+            22,
+            14,
+            10,
+            8,
+            8,
+            8,
+            8,
+            7,
+            5,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          "probabilities": {
+            "raam": 0.6482488807668969,
+            "amcha_yisrael": 0.3737607704927206,
+            "reservists_economic": 0.4114502278787007
+          }
+        }
+      }
+    },
+    "t1_eligible_history": {
+      "coverage": [
+        {
+          "election": "knesset_20_2015",
+          "cutoff": "2015-03-16",
+          "firms": 3,
+          "selected_ids": [
+            "2015_ynet_midgam_0313",
+            "2015_knesset_panels_0303",
+            "2015_globes_smith_0312"
+          ],
+          "history_ids": [
+            "2015_ynet_midgam_0313",
+            "2015_knesset_panels_0303",
+            "2015_globes_smith_0312"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "cutoff": "2019-04-08",
+          "firms": 4,
+          "selected_ids": [
+            "2019apr_channel13_0405",
+            "2019apr_ynet_midgam_0405",
+            "2019apr_mako_panels_0401",
+            "2019apr_jpost_smith_0405"
+          ],
+          "history_ids": [
+            "2019apr_channel13_0405",
+            "2019apr_ynet_midgam_0405",
+            "2019apr_mako_panels_0401",
+            "2019apr_jpost_smith_0405"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "cutoff": "2019-09-16",
+          "firms": 3,
+          "selected_ids": [
+            "2019sep_channel13_0910",
+            "2019sep_walla_midgam_0909",
+            "2019sep_maariv_smith_0913"
+          ],
+          "history_ids": [
+            "2019sep_channel13_0910",
+            "2019sep_walla_midgam_0903",
+            "2019sep_walla_midgam_0909",
+            "2019sep_maariv_smith_0913"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_23_2020",
+          "cutoff": "2020-03-01",
+          "firms": 3,
+          "selected_ids": [
+            "2020_channel13_0228",
+            "2020_walla_midgam_0226",
+            "2020_103fm_panels_0226"
+          ],
+          "history_ids": [
+            "2020_channel13_0228",
+            "2020_walla_midgam_0217",
+            "2020_n12_midgam_0219",
+            "2020_walla_midgam_0226",
+            "2020_103fm_panels_0226"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_24_2021",
+          "cutoff": "2021-03-22",
+          "firms": 3,
+          "selected_ids": [
+            "camil_fuchs-2021-03-19",
+            "maagar_mohot-2021-03-18",
+            "midgam_rc-2021-03-19"
+          ],
+          "history_ids": [
+            "camil_fuchs-2021-03-14",
+            "camil_fuchs-2021-03-19",
+            "maagar_mohot-2021-03-11",
+            "maagar_mohot-2021-03-18",
+            "midgam_rc-2021-03-10",
+            "midgam_rc-2021-03-16",
+            "midgam_rc-2021-03-19"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_25_2022",
+          "cutoff": "2022-10-31",
+          "firms": 3,
+          "selected_ids": [
+            "camil_fuchs-2022-10-28",
+            "direct_polls-2022-10-27",
+            "midgam_rc-2022-10-28"
+          ],
+          "history_ids": [
+            "camil_fuchs-2022-10-25",
+            "camil_fuchs-2022-10-28",
+            "direct_polls-2022-10-24",
+            "direct_polls-2022-10-27",
+            "midgam_rc-2022-10-24",
+            "midgam_rc-2022-10-28"
+          ],
+          "status": "available"
+        }
+      ],
+      "summaries": {
+        "square_0or3": {
+          "folds": 4,
+          "mean_seat_l1": 13,
+          "equal_period_seat_l1": 12.666666666666668,
+          "brier": null,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "absolute_0or3": {
+          "folds": 4,
+          "mean_seat_l1": 13.5,
+          "equal_period_seat_l1": 13,
+          "brier": null,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "seat_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 13.5,
+          "equal_period_seat_l1": 13,
+          "brier": 0.07217556872810628,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "missing_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 13.5,
+          "equal_period_seat_l1": 13,
+          "brier": 0.06799036515381032,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "share_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 13.5,
+          "equal_period_seat_l1": 13,
+          "brier": 0.07347315214445316,
+          "false_positive": 1,
+          "false_negative": 1
+        },
+        "share_a0.01": {
+          "folds": 4,
+          "mean_seat_l1": 13.5,
+          "equal_period_seat_l1": 13,
+          "brier": 0.08228623954968681,
+          "false_positive": 1,
+          "false_negative": 1
+        },
+        "share_a1": {
+          "folds": 4,
+          "mean_seat_l1": 12.5,
+          "equal_period_seat_l1": 12.333333333333332,
+          "brier": 0.0970189031171771,
+          "false_positive": 1,
+          "false_negative": 0
+        }
+      },
+      "selections": [
+        {
+          "election": "knesset_20_2015",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 22
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 38
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 12
+        },
+        {
+          "election": "knesset_23_2020",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [
+            "2019-09-17"
+          ],
+          "seat_l1": 8
+        },
+        {
+          "election": "knesset_24_2021",
+          "id": "share_a0.01",
+          "status": "earlier_campaign_selection",
+          "validation_dates": [
+            "2019-09-17",
+            "2020-03-02"
+          ],
+          "seat_l1": 24
+        },
+        {
+          "election": "knesset_25_2022",
+          "id": "share_a1",
+          "status": "earlier_campaign_selection",
+          "validation_dates": [
+            "2019-09-17",
+            "2020-03-02",
+            "2021-03-23"
+          ],
+          "seat_l1": 12
+        }
+      ],
+      "records": [
+        {
+          "election": "knesset_20_2015",
+          "method": "square_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "meretz_2015",
+            "yachad_2015",
+            "yisrael_beiteinu_2015"
+          ],
+          "seat_l1": 22,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "yachad_2015"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_20_2015",
+          "method": "absolute_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "meretz_2015",
+            "yachad_2015",
+            "yisrael_beiteinu_2015"
+          ],
+          "seat_l1": 22,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "yachad_2015"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "method": "square_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "gesher_2019apr",
+            "kulanu_2019apr",
+            "meretz_2019apr",
+            "new_right_2019apr",
+            "raam_balad_2019apr",
+            "shas_2019apr",
+            "union_right_wing_parties_2019apr",
+            "yisrael_beiteinu_2019apr",
+            "zehut_2019apr"
+          ],
+          "seat_l1": 38,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "new_right_2019apr",
+            "zehut_2019apr"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "method": "absolute_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "gesher_2019apr",
+            "kulanu_2019apr",
+            "meretz_2019apr",
+            "new_right_2019apr",
+            "raam_balad_2019apr",
+            "shas_2019apr",
+            "union_right_wing_parties_2019apr",
+            "yisrael_beiteinu_2019apr",
+            "zehut_2019apr"
+          ],
+          "seat_l1": 38,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "new_right_2019apr",
+            "zehut_2019apr"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.07420638426022994,
+          "candidate_log_loss": 0.29720654537828656,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.07415602547179902,
+          "candidate_log_loss": 0.2970972921967003,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 10,
+          "candidate_brier": 0.021667398783795384,
+          "candidate_log_loss": 0.1282209938663546,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 10,
+          "candidate_brier": 0.011617614952178723,
+          "candidate_log_loss": 0.08631869883097566,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep"
+          ],
+          "seat_l1": 10,
+          "candidate_brier": 0.05255601246163835,
+          "candidate_log_loss": 0.22650470062899788,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": 5.222393449131451e-07,
+          "candidate_log_loss": 0.0007229225388961423,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": 6.072464316165933e-07,
+          "candidate_log_loss": 0.0007795639632772167,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": 5.04034468256044e-05,
+          "candidate_log_loss": 0.007124860136418335,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": 1.8735002784606853e-07,
+          "candidate_log_loss": 0.0004329331963767987,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 8,
+          "candidate_brier": 0.04273855511093504,
+          "candidate_log_loss": 0.23159548445843173,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": 0.13053818488147562,
+          "candidate_log_loss": 0.42448190137131386,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": 0.11741037746962228,
+          "candidate_log_loss": 0.39367672462102266,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 24,
+          "candidate_brier": 0.19183684089212885,
+          "candidate_log_loss": 0.6094821437679012,
+          "false_positive": [],
+          "false_negative": [
+            "raam_2021"
+          ]
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 24,
+          "candidate_brier": 0.23913018984553708,
+          "candidate_log_loss": 1.166619608031978,
+          "false_positive": [],
+          "false_negative": [
+            "raam_2021"
+          ]
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 20,
+          "candidate_brier": 0.17741627480307268,
+          "candidate_log_loss": 0.5440266549321084,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.08395718353137466,
+          "candidate_log_loss": 0.2945749601849664,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.0803944504273884,
+          "candidate_log_loss": 0.2696858968181043,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.08033796545506282,
+          "candidate_log_loss": 0.26920391847688563,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.07839696605100359,
+          "candidate_log_loss": 0.24209926984216187,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.11536477009306234,
+          "candidate_log_loss": 0.3998479240198628,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        }
+      ],
+      "current": {}
+    },
+    "t8_latest": {
+      "coverage": [
+        {
+          "election": "knesset_20_2015",
+          "cutoff": "2015-03-09",
+          "firms": 1,
+          "selected_ids": [
+            "2015_knesset_panels_0303"
+          ],
+          "history_ids": [
+            "2015_knesset_panels_0303"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "cutoff": "2019-04-01",
+          "firms": 1,
+          "selected_ids": [
+            "2019apr_mako_panels_0401"
+          ],
+          "history_ids": [
+            "2019apr_mako_panels_0401"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "cutoff": "2019-09-09",
+          "firms": 1,
+          "selected_ids": [
+            "2019sep_walla_midgam_0909"
+          ],
+          "history_ids": [
+            "2019sep_walla_midgam_0903",
+            "2019sep_walla_midgam_0909"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_23_2020",
+          "cutoff": "2020-02-23",
+          "firms": 1,
+          "selected_ids": [
+            "2020_n12_midgam_0219"
+          ],
+          "history_ids": [
+            "2020_walla_midgam_0217",
+            "2020_n12_midgam_0219"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_24_2021",
+          "cutoff": "2021-03-15",
+          "firms": 3,
+          "selected_ids": [
+            "camil_fuchs-2021-03-14",
+            "maagar_mohot-2021-03-11",
+            "midgam_rc-2021-03-10"
+          ],
+          "history_ids": [
+            "camil_fuchs-2021-03-14",
+            "maagar_mohot-2021-03-11",
+            "midgam_rc-2021-03-02",
+            "midgam_rc-2021-03-07",
+            "midgam_rc-2021-03-10"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_25_2022",
+          "cutoff": "2022-10-24",
+          "firms": 1,
+          "selected_ids": [
+            "direct_polls-2022-10-24"
+          ],
+          "history_ids": [
+            "direct_polls-2022-10-24"
+          ],
+          "status": "available"
+        }
+      ],
+      "summaries": {
+        "square_0or3": {
+          "folds": 4,
+          "mean_seat_l1": 17,
+          "equal_period_seat_l1": 16,
+          "brier": null,
+          "false_positive": 2,
+          "false_negative": 1
+        },
+        "absolute_0or3": {
+          "folds": 4,
+          "mean_seat_l1": 17,
+          "equal_period_seat_l1": 16,
+          "brier": null,
+          "false_positive": 2,
+          "false_negative": 1
+        },
+        "seat_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 16.5,
+          "equal_period_seat_l1": 15.666666666666666,
+          "brier": 0.13445628141993413,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "missing_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 16.5,
+          "equal_period_seat_l1": 15.666666666666666,
+          "brier": 0.13866642474250618,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "share_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 16.5,
+          "equal_period_seat_l1": 15.666666666666666,
+          "brier": 0.3348619964729604,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "share_a0.01": {
+          "folds": 4,
+          "mean_seat_l1": 16.5,
+          "equal_period_seat_l1": 15.666666666666666,
+          "brier": 0.32629037565563174,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "share_a1": {
+          "folds": 4,
+          "mean_seat_l1": 16.5,
+          "equal_period_seat_l1": 15.666666666666666,
+          "brier": 0.36290223625717155,
+          "false_positive": 2,
+          "false_negative": 0
+        }
+      },
+      "selections": [
+        {
+          "election": "knesset_20_2015",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 24
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 38
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 14
+        },
+        {
+          "election": "knesset_23_2020",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [
+            "2019-09-17"
+          ],
+          "seat_l1": 12
+        },
+        {
+          "election": "knesset_24_2021",
+          "id": "absolute_0or3",
+          "status": "earlier_campaign_selection",
+          "validation_dates": [
+            "2019-09-17",
+            "2020-03-02"
+          ],
+          "seat_l1": 28
+        },
+        {
+          "election": "knesset_25_2022",
+          "id": "missing_a0.1",
+          "status": "earlier_campaign_selection",
+          "validation_dates": [
+            "2019-09-17",
+            "2020-03-02",
+            "2021-03-23"
+          ],
+          "seat_l1": 14
+        }
+      ],
+      "records": [
+        {
+          "election": "knesset_20_2015",
+          "method": "square_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "meretz_2015",
+            "yachad_2015",
+            "yisrael_beiteinu_2015"
+          ],
+          "seat_l1": 24,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "yachad_2015"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_20_2015",
+          "method": "absolute_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "meretz_2015",
+            "yachad_2015",
+            "yisrael_beiteinu_2015"
+          ],
+          "seat_l1": 24,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "yachad_2015"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "method": "square_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "gesher_2019apr",
+            "kulanu_2019apr",
+            "meretz_2019apr",
+            "new_right_2019apr",
+            "raam_balad_2019apr",
+            "shas_2019apr",
+            "union_right_wing_parties_2019apr",
+            "united_torah_judaism_2019apr",
+            "yisrael_beiteinu_2019apr",
+            "zehut_2019apr"
+          ],
+          "seat_l1": 38,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "new_right_2019apr",
+            "zehut_2019apr"
+          ],
+          "false_negative": [
+            "raam_balad_2019apr"
+          ]
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "method": "absolute_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "gesher_2019apr",
+            "kulanu_2019apr",
+            "meretz_2019apr",
+            "new_right_2019apr",
+            "raam_balad_2019apr",
+            "shas_2019apr",
+            "union_right_wing_parties_2019apr",
+            "united_torah_judaism_2019apr",
+            "yisrael_beiteinu_2019apr",
+            "zehut_2019apr"
+          ],
+          "seat_l1": 38,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "new_right_2019apr",
+            "zehut_2019apr"
+          ],
+          "false_negative": [
+            "raam_balad_2019apr"
+          ]
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.14696632643845273,
+          "candidate_log_loss": 0.4640185203855726,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.14493776443301587,
+          "candidate_log_loss": 0.4592923183894805,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.1445730818206048,
+          "candidate_log_loss": 0.4584439955607599,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.08094520780140851,
+          "candidate_log_loss": 0.2951099623803939,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.18093659419566305,
+          "candidate_log_loss": 0.5471338017144837,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.15809142014873473,
+          "candidate_log_loss": 0.5068454183523929,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.1879842629725736,
+          "candidate_log_loss": 0.5684044554164271,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.9999999677110087,
+          "candidate_log_loss": 17.94168666640586,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 1.0,
+          "candidate_log_loss": 34.538776394910684,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.9822082126383432,
+          "candidate_log_loss": 4.7176875729039445,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 28,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": [
+            "raam_2021"
+          ]
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 28,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": [
+            "raam_2021"
+          ]
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 26,
+          "candidate_brier": 0.12669339180218603,
+          "candidate_log_loss": 0.42448354205019667,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 26,
+          "candidate_brier": 0.12206958943020059,
+          "candidate_log_loss": 0.4174822475277285,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 26,
+          "candidate_brier": 0.10020722283743291,
+          "candidate_log_loss": 0.35392967054789515,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 26,
+          "candidate_brier": 0.11034543022439933,
+          "candidate_log_loss": 0.3612709978262614,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 26,
+          "candidate_brier": 0.1511422720793595,
+          "candidate_log_loss": 0.4900950664180306,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.10607398729036303,
+          "candidate_log_loss": 0.37149696224175655,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.0996740821342346,
+          "candidate_log_loss": 0.350986311557225,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.09466771352279509,
+          "candidate_log_loss": 0.31243012996506914,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.11387086459671902,
+          "candidate_log_loss": 0.34442592803113764,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.13732186611532038,
+          "candidate_log_loss": 0.45433469627120954,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        }
+      ],
+      "current": {}
+    },
+    "t8_eligible_history": {
+      "coverage": [
+        {
+          "election": "knesset_20_2015",
+          "cutoff": "2015-03-09",
+          "firms": 1,
+          "selected_ids": [
+            "2015_knesset_panels_0303"
+          ],
+          "history_ids": [
+            "2015_knesset_panels_0303"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "cutoff": "2019-04-01",
+          "firms": 1,
+          "selected_ids": [
+            "2019apr_mako_panels_0401"
+          ],
+          "history_ids": [
+            "2019apr_mako_panels_0401"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "cutoff": "2019-09-09",
+          "firms": 1,
+          "selected_ids": [
+            "2019sep_walla_midgam_0909"
+          ],
+          "history_ids": [
+            "2019sep_walla_midgam_0903",
+            "2019sep_walla_midgam_0909"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_23_2020",
+          "cutoff": "2020-02-23",
+          "firms": 1,
+          "selected_ids": [
+            "2020_n12_midgam_0219"
+          ],
+          "history_ids": [
+            "2020_walla_midgam_0217",
+            "2020_n12_midgam_0219"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_24_2021",
+          "cutoff": "2021-03-15",
+          "firms": 3,
+          "selected_ids": [
+            "camil_fuchs-2021-03-14",
+            "maagar_mohot-2021-03-11",
+            "midgam_rc-2021-03-10"
+          ],
+          "history_ids": [
+            "camil_fuchs-2021-03-14",
+            "maagar_mohot-2021-03-11",
+            "midgam_rc-2021-03-02",
+            "midgam_rc-2021-03-07",
+            "midgam_rc-2021-03-10"
+          ],
+          "status": "available"
+        },
+        {
+          "election": "knesset_25_2022",
+          "cutoff": "2022-10-24",
+          "firms": 1,
+          "selected_ids": [
+            "direct_polls-2022-10-24"
+          ],
+          "history_ids": [
+            "direct_polls-2022-10-24"
+          ],
+          "status": "available"
+        }
+      ],
+      "summaries": {
+        "square_0or3": {
+          "folds": 4,
+          "mean_seat_l1": 17,
+          "equal_period_seat_l1": 16,
+          "brier": null,
+          "false_positive": 2,
+          "false_negative": 1
+        },
+        "absolute_0or3": {
+          "folds": 4,
+          "mean_seat_l1": 17,
+          "equal_period_seat_l1": 16,
+          "brier": null,
+          "false_positive": 2,
+          "false_negative": 1
+        },
+        "seat_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 16.5,
+          "equal_period_seat_l1": 15.666666666666666,
+          "brier": 0.13445628141993413,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "missing_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 16.5,
+          "equal_period_seat_l1": 15.666666666666666,
+          "brier": 0.12226644520052395,
+          "false_positive": 2,
+          "false_negative": 0
+        },
+        "share_a0.1": {
+          "folds": 4,
+          "mean_seat_l1": 18.5,
+          "equal_period_seat_l1": 17,
+          "brier": 0.19506086441782636,
+          "false_positive": 2,
+          "false_negative": 2
+        },
+        "share_a0.01": {
+          "folds": 4,
+          "mean_seat_l1": 18.5,
+          "equal_period_seat_l1": 17,
+          "brier": 0.2787033680255798,
+          "false_positive": 2,
+          "false_negative": 2
+        },
+        "share_a1": {
+          "folds": 4,
+          "mean_seat_l1": 16.5,
+          "equal_period_seat_l1": 15.666666666666666,
+          "brier": 0.18753304505474838,
+          "false_positive": 2,
+          "false_negative": 0
+        }
+      },
+      "selections": [
+        {
+          "election": "knesset_20_2015",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 24
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 38
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [],
+          "seat_l1": 14
+        },
+        {
+          "election": "knesset_23_2020",
+          "id": "square_0or3",
+          "status": "warmup_control",
+          "validation_dates": [
+            "2019-09-17"
+          ],
+          "seat_l1": 12
+        },
+        {
+          "election": "knesset_24_2021",
+          "id": "absolute_0or3",
+          "status": "earlier_campaign_selection",
+          "validation_dates": [
+            "2019-09-17",
+            "2020-03-02"
+          ],
+          "seat_l1": 28
+        },
+        {
+          "election": "knesset_25_2022",
+          "id": "missing_a0.1",
+          "status": "earlier_campaign_selection",
+          "validation_dates": [
+            "2019-09-17",
+            "2020-03-02",
+            "2021-03-23"
+          ],
+          "seat_l1": 14
+        }
+      ],
+      "records": [
+        {
+          "election": "knesset_20_2015",
+          "method": "square_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "meretz_2015",
+            "yachad_2015",
+            "yisrael_beiteinu_2015"
+          ],
+          "seat_l1": 24,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "yachad_2015"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_20_2015",
+          "method": "absolute_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "meretz_2015",
+            "yachad_2015",
+            "yisrael_beiteinu_2015"
+          ],
+          "seat_l1": 24,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "yachad_2015"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "method": "square_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "gesher_2019apr",
+            "kulanu_2019apr",
+            "meretz_2019apr",
+            "new_right_2019apr",
+            "raam_balad_2019apr",
+            "shas_2019apr",
+            "union_right_wing_parties_2019apr",
+            "united_torah_judaism_2019apr",
+            "yisrael_beiteinu_2019apr",
+            "zehut_2019apr"
+          ],
+          "seat_l1": 38,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "new_right_2019apr",
+            "zehut_2019apr"
+          ],
+          "false_negative": [
+            "raam_balad_2019apr"
+          ]
+        },
+        {
+          "election": "knesset_21_2019apr",
+          "method": "absolute_0or3",
+          "learned_available": false,
+          "candidate_ids": [
+            "gesher_2019apr",
+            "kulanu_2019apr",
+            "meretz_2019apr",
+            "new_right_2019apr",
+            "raam_balad_2019apr",
+            "shas_2019apr",
+            "union_right_wing_parties_2019apr",
+            "united_torah_judaism_2019apr",
+            "yisrael_beiteinu_2019apr",
+            "zehut_2019apr"
+          ],
+          "seat_l1": 38,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "new_right_2019apr",
+            "zehut_2019apr"
+          ],
+          "false_negative": [
+            "raam_balad_2019apr"
+          ]
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.14696632643845273,
+          "candidate_log_loss": 0.4640185203855726,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.15430023366863982,
+          "candidate_log_loss": 0.4800191966039391,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.042223909149778194,
+          "candidate_log_loss": 0.2031414828549409,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.015272863647526691,
+          "candidate_log_loss": 0.11547714155120878,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_22_2019sep",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "democratic_union_2019sep",
+            "labor_gesher_2019sep",
+            "otzma_yehudit_2019sep",
+            "shas_2019sep"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.06494564761697894,
+          "candidate_log_loss": 0.2670316689605774,
+          "false_positive": [
+            "otzma_yehudit_2019sep"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.15809142014873473,
+          "candidate_log_loss": 0.5068454183523929,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.11899919886621724,
+          "candidate_log_loss": 0.4230629534129513,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.3768294436585367,
+          "candidate_log_loss": 0.951566553675567,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.6502520310165081,
+          "candidate_log_loss": 1.6418684569995319,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_23_2020",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "otzma_yehudit_2020"
+          ],
+          "seat_l1": 12,
+          "candidate_brier": 0.3665903979417342,
+          "candidate_log_loss": 0.9300527219406334,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 28,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": [
+            "raam_2021"
+          ]
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 28,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [],
+          "false_negative": [
+            "raam_2021"
+          ]
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 26,
+          "candidate_brier": 0.12669339180218603,
+          "candidate_log_loss": 0.42448354205019667,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 26,
+          "candidate_brier": 0.12065868098706112,
+          "candidate_log_loss": 0.41632117165329385,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 34,
+          "candidate_brier": 0.27130223477290283,
+          "candidate_log_loss": 0.7996664811783631,
+          "false_positive": [],
+          "false_negative": [
+            "meretz_2021",
+            "raam_2021"
+          ]
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 34,
+          "candidate_brier": 0.3472713241027218,
+          "candidate_log_loss": 1.2914715427533217,
+          "false_positive": [],
+          "false_negative": [
+            "meretz_2021",
+            "raam_2021"
+          ]
+        },
+        {
+          "election": "knesset_24_2021",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "blue_and_white_2021",
+            "labor_2021",
+            "meretz_2021",
+            "new_economic_2021",
+            "raam_2021",
+            "religious_zionism_otzma_2021"
+          ],
+          "seat_l1": 26,
+          "candidate_brier": 0.19071674668909486,
+          "candidate_log_loss": 0.5723701590929585,
+          "false_positive": [],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "square_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "absolute_0or3",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": null,
+          "candidate_log_loss": null,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "seat_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.10607398729036303,
+          "candidate_log_loss": 0.37149696224175655,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "missing_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.09510766728017761,
+          "candidate_log_loss": 0.33662324124172793,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a0.1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.08988787009008765,
+          "candidate_log_loss": 0.3030182194104556,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a0.01",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.10201725333556269,
+          "candidate_log_loss": 0.31496612920717393,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        },
+        {
+          "election": "knesset_25_2022",
+          "method": "share_a1",
+          "learned_available": true,
+          "candidate_ids": [
+            "balad_2022",
+            "economic_freedom_2022",
+            "hadash_taal_2022",
+            "jewish_home_2022",
+            "labor_2022",
+            "meretz_2022",
+            "new_economic_2022",
+            "raam_2022",
+            "tzeirim_boarim_2022",
+            "yisrael_beiteinu_2022"
+          ],
+          "seat_l1": 14,
+          "candidate_brier": 0.12787938797118556,
+          "candidate_log_loss": 0.43193066390779744,
+          "false_positive": [
+            "meretz_2022"
+          ],
+          "false_negative": []
+        }
+      ],
+      "current": {}
+    }
+  }
+}

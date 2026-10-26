@@ -244,3 +244,13 @@ User authorized extending/improving data after E018. Read docs/threshold-data.md
 
 
 E019 executed: implementation7fcfdb599d32472948bac1d3f79457dec8dc5757 / PR31, hosted40192307814 passed five tests and byte-identical repeats. Separate overlay24→32complete releases;20→37mapped exact reported percentages across five campaigns. Seven eventual-pass observations repeat three election/list outcomes across two campaigns; total12unique percentage-linked election/list outcomes. Original exact subset had zero eventual-pass examples. All denominators/undecided allocation and archival vintages remain unverified; zero certified common-valid-vote observations. Walla2020wave linkage flagged, Maan.8%unmapped,2015numeric-share gap remains. Reports/data/predictor whitelist/coverage plot in reports/threshold-data-2026-10-25. No fit or active forecast/69.86%turnout change. Next: source/horizon-matched reported-share+missingness ablation, respecting dependence and denominator limits, not automatic promotion. Final report-commit checks pending; PR31 final record authoritative. Research open, no merge/submission, local Git stale.
+
+
+## E020 — matched reported-share ablations (prepared October25)
+
+Parent58b7733f18130197f3ee5b9aaf52d0b5b7fcd81f / PR31. E019 overlay plus unchanged historical outcomes/current E012 audit. Config config/threshold-share-trial.json; primary T−1/latest/0.1; share0.01/1,T−8,eligible-history sensitivities. No seed (deterministic optimizer/DP). Campaign-balanced past-only ridge-logit, train-only imputation/scaling, same roster across arms. Six tests and hosted repeat/reference checks pending. Results/keep-reject pending execution. No forecast/turnout change. Bounded CPU scope, hands-on effort unmeasured. Read docs/threshold-share-trial.md.
+
+
+### E020 executed evidence and keep/reject
+
+Implementation8a97b44 / PR32:40202667646 passed six tests/repeats; baseline40202667583 and scientific40202667571 passed. Primary T−1/latest fixed0.1 yields mean L1 seat13.5,missing13.5,share15.0, constrained mean13.0; Brier .0722/.0691/.3204 on20 dependent candidate predictions/four campaigns. History share1 hindsight12.5, earlier-OOF history selector14.0; no adoption. T−8 latest shares tie matched seat16.5, history0.1 worsens18.5. Current diagnostic percentages0/0 for focus parties are not a new forecast. Added support-range plots after execution, without changing predictions. Final commit/runs/artifact recorded on PR32; local GitHEAD stale. No random seed; bounded hosted CPU, cumulative hands-on effort unmeasured. Keep data/diagnostics; reject this learner for forecast adoption. Next data work: comparable above/below near-threshold percentages and denominator review.
