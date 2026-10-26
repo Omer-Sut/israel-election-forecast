@@ -1,0 +1,225 @@
+{
+  "snapshot_id": "screening-knesset_20_2015-2026-10-21-a",
+  "election_id": "knesset_20_2015",
+  "election_date": "2015-03-17",
+  "retrieved_on": "2026-10-21",
+  "audit_tier": "original_source_audited_retrospective_not_archival_vintage",
+  "rights_note": "Factual numerical transcriptions and original source attribution. Publisher prose, full pages and graphics are not redistributed. English-normalized poll labels map explicitly to election-specific list definitions retaining Hebrew names. Existing index archives remain unchanged.",
+  "historical_vintage_limit": "Original publisher pages and known publication/update metadata checked retrospectively; no authenticated contemporary archive copies. Some migrated-site metadata is inconsistent and is documented per release. This is not certified real-time reconstruction.",
+  "coverage": "Three declared polling groups; retrospective convenience panel, not exhaustive campaign coverage or necessarily each group's final release.",
+  "zero_seat_policy": "Only complete reviewed 120-seat allocations; percentages stay separate. No zero-support inference.",
+  "lists": [
+    {
+      "id": "jewish_home_2015",
+      "ballot_code": "טב",
+      "label_en": "Jewish Home",
+      "label_he": "הבית היהודי",
+      "official_source_label_he": null
+    },
+    {
+      "id": "joint_list_2015",
+      "ballot_code": "ודעם",
+      "label_en": "Joint List",
+      "label_he": "הרשימה המשותפת",
+      "official_source_label_he": null
+    },
+    {
+      "id": "kulanu_2015",
+      "ballot_code": "כ",
+      "label_en": "Kulanu",
+      "label_he": "כולנו",
+      "official_source_label_he": null
+    },
+    {
+      "id": "likud_2015",
+      "ballot_code": "מחל",
+      "label_en": "Likud",
+      "label_he": "הליכוד",
+      "official_source_label_he": null
+    },
+    {
+      "id": "meretz_2015",
+      "ballot_code": "מרצ",
+      "label_en": "Meretz",
+      "label_he": "מרצ",
+      "official_source_label_he": null
+    },
+    {
+      "id": "shas_2015",
+      "ballot_code": "שס",
+      "label_en": "Shas",
+      "label_he": "ש״ס",
+      "official_source_label_he": null
+    },
+    {
+      "id": "united_torah_judaism_2015",
+      "ballot_code": "ג",
+      "label_en": "United Torah Judaism",
+      "label_he": "יהדות התורה",
+      "official_source_label_he": null
+    },
+    {
+      "id": "yachad_2015",
+      "ballot_code": "קץ",
+      "label_en": "Yachad",
+      "label_he": "יחד",
+      "official_source_label_he": null
+    },
+    {
+      "id": "yesh_atid_2015",
+      "ballot_code": "פה",
+      "label_en": "Yesh Atid",
+      "label_he": "יש עתיד",
+      "official_source_label_he": null
+    },
+    {
+      "id": "yisrael_beiteinu_2015",
+      "ballot_code": "ל",
+      "label_en": "Yisrael Beiteinu",
+      "label_he": "ישראל ביתנו",
+      "official_source_label_he": null
+    },
+    {
+      "id": "zionist_union_2015",
+      "ballot_code": "אמת",
+      "label_en": "Zionist Union",
+      "label_he": "המחנה הציוני",
+      "official_source_label_he": null
+    }
+  ],
+  "polls": [
+    {
+      "id": "2015_globes_smith_0312",
+      "published_on": "2015-03-12",
+      "source_updated_on": "2015-03-12",
+      "pollster_group": "smith",
+      "publisher": "Globes",
+      "fieldwork_end": null,
+      "sample_size": null,
+      "source_url": "https://en.globes.co.il/en/article-herzog-opens-four-seat-gap-1001018362",
+      "bulk_poll_id": "20:0:20",
+      "notes": "Use the current-poll column, not February 26 or incumbent seats. Publication/modified metadata agree on March 12. Fieldwork dates and sample size not stated in the inspected table.",
+      "retrieved_response_sha256": "9262886c265b8fc2d3a02dbea550a1b58ef8594bf3eb27afc319d8fa6ed708c3",
+      "retrieved_response_bytes": 49645,
+      "election_id": "knesset_20_2015",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2015": 20,
+        "yisrael_beiteinu_2015": 6,
+        "yesh_atid_2015": 12,
+        "zionist_union_2015": 24,
+        "jewish_home_2015": 12,
+        "joint_list_2015": 13,
+        "shas_2015": 9,
+        "yachad_2015": 4,
+        "united_torah_judaism_2015": 6,
+        "meretz_2015": 5,
+        "kulanu_2015": 9
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 20,
+        "Yisrael Beiteinu": 6,
+        "Yesh Atid": 12,
+        "Zionist Union": 24,
+        "Jewish Home": 12,
+        "Joint List": 13,
+        "Shas": 9,
+        "Yachad": 4,
+        "United Torah Judaism": 6,
+        "Meretz": 5,
+        "Kulanu": 9
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    },
+    {
+      "id": "2015_ynet_midgam_0313",
+      "published_on": "2015-03-13",
+      "pollster_group": "midgam_geva",
+      "publisher": "Yedioth Ahronoth / Ynet",
+      "fieldwork_end": "2015-03-12",
+      "sample_size": 1032,
+      "source_url": "https://www.ynetnews.com/articles/0,7340,L-4636623,00.html",
+      "bulk_poll_id": "20:0:17",
+      "notes": "Original English article gives all other values and states Meretz and Yisrael Beiteinu are tied, omitting their number in prose. Their remaining 10 of 120 seats and the tie imply 5 each, also matching the archived index. These two values are explicit arithmetic derivations, not independently printed numbers. Thursday fieldwork is March 12.",
+      "retrieved_response_sha256": "c35bd85e2c018e6417fb8eb426a099a92ed019119eb431117a5518b095e9ae48",
+      "retrieved_response_bytes": 415302,
+      "election_id": "knesset_20_2015",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2015": 22,
+        "yisrael_beiteinu_2015": 5,
+        "yesh_atid_2015": 12,
+        "zionist_union_2015": 26,
+        "jewish_home_2015": 12,
+        "joint_list_2015": 13,
+        "shas_2015": 7,
+        "yachad_2015": 4,
+        "united_torah_judaism_2015": 6,
+        "meretz_2015": 5,
+        "kulanu_2015": 8
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 22,
+        "Yisrael Beiteinu": 5,
+        "Yesh Atid": 12,
+        "Zionist Union": 26,
+        "Jewish Home": 12,
+        "Joint List": 13,
+        "Shas": 7,
+        "Yachad": 4,
+        "United Torah Judaism": 6,
+        "Meretz": 5,
+        "Kulanu": 8
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    },
+    {
+      "id": "2015_knesset_panels_0303",
+      "published_on": "2015-03-03",
+      "pollster_group": "panels_politics",
+      "publisher": "Knesset Channel official YouTube",
+      "fieldwork_end": "2015-03-02",
+      "sample_size": 800,
+      "source_url": "https://www.youtube.com/watch?v=d0qYlsOyNR0",
+      "bulk_poll_id": null,
+      "notes": "All eleven values in official channel description. Upload metadata March 3; description says survey conducted yesterday. At T-1, March 2 is exactly the inclusive 14-day effective-age lower boundary. This older third group is not claimed to be its final campaign release.",
+      "retrieved_response_sha256": "924c0bd1476d925576304db58adfa66318add82ac4d5b6f68983400e12ab3f35",
+      "retrieved_response_bytes": 1269298,
+      "election_id": "knesset_20_2015",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2015": 21,
+        "yisrael_beiteinu_2015": 5,
+        "yesh_atid_2015": 13,
+        "zionist_union_2015": 24,
+        "jewish_home_2015": 12,
+        "joint_list_2015": 13,
+        "shas_2015": 7,
+        "yachad_2015": 4,
+        "united_torah_judaism_2015": 7,
+        "meretz_2015": 6,
+        "kulanu_2015": 8
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 21,
+        "Yisrael Beiteinu": 5,
+        "Yesh Atid": 13,
+        "Zionist Union": 24,
+        "Jewish Home": 12,
+        "Joint List": 13,
+        "Shas": 7,
+        "Yachad": 4,
+        "United Torah Judaism": 7,
+        "Meretz": 6,
+        "Kulanu": 8
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    }
+  ]
+}

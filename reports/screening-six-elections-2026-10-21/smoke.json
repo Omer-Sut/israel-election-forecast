@@ -1,0 +1,43 @@
+{
+  "status": "synthetic_software_smoke_only_not_accuracy_evidence",
+  "synthetic_elections": 6,
+  "exercised_configurations": [
+    "dynamic_001",
+    "dynamic_01",
+    "dynamic_1",
+    "empirical_l1_consensus",
+    "ensemble_1",
+    "ensemble_5",
+    "ensemble_equal",
+    "forest_2_5",
+    "forest_3_10",
+    "forest_3_5",
+    "recency_14",
+    "recency_3",
+    "recency_7",
+    "ridge_1",
+    "ridge_10",
+    "ridge_100",
+    "rounded_mean_reference",
+    "xgb_1_50",
+    "xgb_2_100",
+    "xgb_2_50"
+  ],
+  "all_integer_nonnegative_sum_120": true,
+  "optimized_ensemble_weights": {
+    "ensemble_1": {
+      "recency_7": 0.0,
+      "ridge_10": 0.19999999999927343,
+      "forest_3_5": 0.0,
+      "xgb_2_50": 0.8000000000007135,
+      "dynamic_01": 0.0
+    },
+    "ensemble_5": {
+      "recency_7": 0.2000000000000026,
+      "ridge_10": 0.19999999999998747,
+      "forest_3_5": 0.19999999999998602,
+      "xgb_2_50": 0.20000000000006768,
+      "dynamic_01": 0.19999999999995843
+    }
+  }
+}

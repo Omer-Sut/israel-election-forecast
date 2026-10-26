@@ -1,0 +1,267 @@
+{
+  "snapshot_id": "screening-knesset_21_2019apr-2026-10-21-a",
+  "election_id": "knesset_21_2019apr",
+  "election_date": "2019-04-09",
+  "retrieved_on": "2026-10-21",
+  "audit_tier": "original_source_audited_retrospective_not_archival_vintage",
+  "rights_note": "Factual numerical transcriptions and original source attribution. Publisher prose, full pages and graphics are not redistributed. English-normalized poll labels map explicitly to election-specific list definitions retaining Hebrew names. Existing index archives remain unchanged.",
+  "historical_vintage_limit": "Original publisher pages and known publication/update metadata checked retrospectively; no authenticated contemporary archive copies. Some migrated-site metadata is inconsistent and is documented per release. This is not certified real-time reconstruction.",
+  "coverage": "Three declared polling groups; retrospective convenience panel, not exhaustive campaign coverage or necessarily each group's final release.",
+  "zero_seat_policy": "Only complete reviewed 120-seat allocations; percentages stay separate. No zero-support inference.",
+  "lists": [
+    {
+      "id": "blue_and_white_2019apr",
+      "ballot_code": "פה",
+      "label_en": "Blue and White",
+      "label_he": "כחול לבן",
+      "official_source_label_he": "כחול לבן בראשות בני גנץ ויאיר לפיד"
+    },
+    {
+      "id": "gesher_2019apr",
+      "ballot_code": "נר",
+      "label_en": "Gesher",
+      "label_he": "גשר",
+      "official_source_label_he": "גשר בראשות אורלי לוי אבקסיס"
+    },
+    {
+      "id": "hadash_taal_2019apr",
+      "ballot_code": "ום",
+      "label_en": "Hadash–Taal",
+      "label_he": "חד״ש–תע״ל",
+      "official_source_label_he": "חד"
+    },
+    {
+      "id": "kulanu_2019apr",
+      "ballot_code": "כ",
+      "label_en": "Kulanu",
+      "label_he": "כולנו",
+      "official_source_label_he": "כולנו הימין השפוי בראשות משה כחלון"
+    },
+    {
+      "id": "labor_2019apr",
+      "ballot_code": "אמת",
+      "label_en": "Labor",
+      "label_he": "העבודה",
+      "official_source_label_he": "מפלגת העבודה בראשות אבי גבאי"
+    },
+    {
+      "id": "likud_2019apr",
+      "ballot_code": "מחל",
+      "label_en": "Likud",
+      "label_he": "הליכוד",
+      "official_source_label_he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה"
+    },
+    {
+      "id": "meretz_2019apr",
+      "ballot_code": "מרצ",
+      "label_en": "Meretz",
+      "label_he": "מרצ",
+      "official_source_label_he": "מרצ- השמאל של ישראל"
+    },
+    {
+      "id": "new_right_2019apr",
+      "ballot_code": "נ",
+      "label_en": "New Right",
+      "label_he": "הימין החדש",
+      "official_source_label_he": "הימין החדש בראשות שקד ובנט"
+    },
+    {
+      "id": "raam_balad_2019apr",
+      "ballot_code": "דעם",
+      "label_en": "Raam–Balad",
+      "label_he": "רע״ם–בל״ד",
+      "official_source_label_he": "רע"
+    },
+    {
+      "id": "shas_2019apr",
+      "ballot_code": "שס",
+      "label_en": "Shas",
+      "label_he": "ש״ס",
+      "official_source_label_he": "התאחדות הספרדים שומרי התורה תנועתו של מרן הרב עובד"
+    },
+    {
+      "id": "union_right_wing_parties_2019apr",
+      "ballot_code": "טב",
+      "label_en": "Union of Right-wing Parties",
+      "label_he": "איחוד מפלגות הימין",
+      "official_source_label_he": "איחוד מפלגות הימין הבית היהודי-האיחוד הלאומי- עוצמ"
+    },
+    {
+      "id": "united_torah_judaism_2019apr",
+      "ballot_code": "ג",
+      "label_en": "United Torah Judaism",
+      "label_he": "יהדות התורה",
+      "official_source_label_he": "יהדות התורה והשבת אגודת ישראל - דגל התורה"
+    },
+    {
+      "id": "yisrael_beiteinu_2019apr",
+      "ballot_code": "ל",
+      "label_en": "Yisrael Beiteinu",
+      "label_he": "ישראל ביתנו",
+      "official_source_label_he": "ישראל ביתנו"
+    },
+    {
+      "id": "zehut_2019apr",
+      "ballot_code": "ז",
+      "label_en": "Zehut",
+      "label_he": "זהות",
+      "official_source_label_he": "זהות - תנועה ישראלית יהודית בהנהגת משה פייגלין"
+    }
+  ],
+  "polls": [
+    {
+      "id": "2019apr_jpost_smith_0405",
+      "published_on": "2019-04-05",
+      "source_updated_on": "2019-04-05",
+      "pollster_group": "smith",
+      "publisher": "The Jerusalem Post",
+      "fieldwork_start": "2019-04-03",
+      "fieldwork_end": "2019-04-04",
+      "sample_size": 1097,
+      "source_url": "https://www.jpost.com/israel-news/post-poll-predicts-easy-win-for-right-585821",
+      "bulk_poll_id": "21:0:11",
+      "notes": "Own Smith Research poll, all fourteen values explicitly listed in the article body. Primary datePublished/dateModified are April 5, despite index date proxy April 4. Not pooled with Maariv's different Smith release.",
+      "retrieved_response_sha256": "fd6dd971067c9b58e203cccd87caf04ec614248591b32bb6482657592e26c2b9",
+      "retrieved_response_bytes": 263371,
+      "election_id": "knesset_21_2019apr",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2019apr": 27,
+        "blue_and_white_2019apr": 28,
+        "labor_2019apr": 9,
+        "shas_2019apr": 6,
+        "united_torah_judaism_2019apr": 6,
+        "hadash_taal_2019apr": 6,
+        "raam_balad_2019apr": 4,
+        "yisrael_beiteinu_2019apr": 5,
+        "union_right_wing_parties_2019apr": 6,
+        "meretz_2019apr": 5,
+        "kulanu_2019apr": 5,
+        "new_right_2019apr": 5,
+        "zehut_2019apr": 4,
+        "gesher_2019apr": 4
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 27,
+        "Blue and White": 28,
+        "Labor": 9,
+        "Shas": 6,
+        "United Torah Judaism": 6,
+        "Hadash–Taal": 6,
+        "Raam–Balad": 4,
+        "Yisrael Beiteinu": 5,
+        "Union of Right-wing Parties": 6,
+        "Meretz": 5,
+        "Kulanu": 5,
+        "New Right": 5,
+        "Zehut": 4,
+        "Gesher": 4
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    },
+    {
+      "id": "2019apr_ynet_midgam_0405",
+      "published_on": "2019-04-05",
+      "pollster_group": "midgam_geva",
+      "publisher": "Yedioth Ahronoth / Ynet",
+      "fieldwork_start": "2019-04-03",
+      "fieldwork_end": "2019-04-04",
+      "sample_size": 1023,
+      "source_url": "https://www.ynet.co.il/articles/0,7340,L-5489848,00.html",
+      "bulk_poll_id": "21:0:12",
+      "notes": "All positive seats in article; Gesher explicitly below threshold at 2.2%. Primary publication April 5, not index date proxy April 4. Same Midgam group as Channel 12, so no Channel 12 release is added as a separate group.",
+      "retrieved_response_sha256": "6c4adfe57d4cc794ec0ae4fe736494c964d1770f51840285c4df132f0aeff769",
+      "retrieved_response_bytes": 182523,
+      "election_id": "knesset_21_2019apr",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2019apr": 26,
+        "blue_and_white_2019apr": 30,
+        "labor_2019apr": 11,
+        "shas_2019apr": 5,
+        "united_torah_judaism_2019apr": 7,
+        "hadash_taal_2019apr": 7,
+        "raam_balad_2019apr": 4,
+        "yisrael_beiteinu_2019apr": 4,
+        "union_right_wing_parties_2019apr": 5,
+        "meretz_2019apr": 5,
+        "kulanu_2019apr": 5,
+        "new_right_2019apr": 6,
+        "zehut_2019apr": 5,
+        "gesher_2019apr": 0
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 26,
+        "Blue and White": 30,
+        "Labor": 11,
+        "Shas": 5,
+        "United Torah Judaism": 7,
+        "Hadash–Taal": 7,
+        "Raam–Balad": 4,
+        "Yisrael Beiteinu": 4,
+        "Union of Right-wing Parties": 5,
+        "Meretz": 5,
+        "Kulanu": 5,
+        "New Right": 6,
+        "Zehut": 5,
+        "Gesher": 0
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    },
+    {
+      "id": "2019apr_channel13_0405",
+      "published_on": "2019-04-05",
+      "source_updated_on": "2019-04-06",
+      "pollster_group": "channel13_fuchs",
+      "publisher": "Channel 13",
+      "fieldwork_end": null,
+      "sample_size": null,
+      "source_url": "https://13tv.co.il/item/news/opinions/goverment_coalition/",
+      "bulk_poll_id": "21:0:8",
+      "notes": "The original poll URL now serves a 404 page; use the broadcaster's own contemporaneous companion article, which repeats every seat value. DatePublished April 5, modified April 6; eligible at April 8 cutoff. Fieldwork/sample details not reconstructed. Polling-group identity follows Channel 13/Fuchs, consistent with the archived index; not Midgam/Geva.",
+      "retrieved_response_sha256": "2d2513e0b7dec7939d08c59657025f8c4e8d3ce8533e1c86538859b17bfd0799",
+      "retrieved_response_bytes": 125197,
+      "election_id": "knesset_21_2019apr",
+      "kind": "pre_election_poll",
+      "seat_projection_complete": true,
+      "reported_seats": {
+        "likud_2019apr": 28,
+        "blue_and_white_2019apr": 28,
+        "labor_2019apr": 11,
+        "shas_2019apr": 5,
+        "united_torah_judaism_2019apr": 6,
+        "hadash_taal_2019apr": 6,
+        "raam_balad_2019apr": 4,
+        "yisrael_beiteinu_2019apr": 4,
+        "union_right_wing_parties_2019apr": 7,
+        "meretz_2019apr": 5,
+        "kulanu_2019apr": 4,
+        "new_right_2019apr": 6,
+        "zehut_2019apr": 6,
+        "gesher_2019apr": 0
+      },
+      "source_reported_seats_english_labels": {
+        "Likud": 28,
+        "Blue and White": 28,
+        "Labor": 11,
+        "Shas": 5,
+        "United Torah Judaism": 6,
+        "Hadash–Taal": 6,
+        "Raam–Balad": 4,
+        "Yisrael Beiteinu": 4,
+        "Union of Right-wing Parties": 7,
+        "Meretz": 5,
+        "Kulanu": 4,
+        "New Right": 6,
+        "Zehut": 6,
+        "Gesher": 0
+      },
+      "audit_status": "original_source_audited_retrospective_not_archival_vintage",
+      "retrieved_on": "2026-10-21"
+    }
+  ]
+}

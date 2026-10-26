@@ -1,0 +1,31 @@
+{
+  "status": "exploratory_screen_not_model_selection",
+  "historical_config": "config/historical-backtest.json",
+  "seed": 20261021,
+  "correction_fraction": 0.25,
+  "minimum_training_elections": 2,
+  "allow_one_election_diagnostic": true,
+  "minimum_ensemble_oof_elections": 2,
+  "dynamic_observation_variance": 4.0,
+  "models": [
+    {"id": "recency_3", "family": "recency", "half_life_days": 3},
+    {"id": "recency_7", "family": "recency", "half_life_days": 7},
+    {"id": "recency_14", "family": "recency", "half_life_days": 14},
+    {"id": "ridge_1", "family": "ridge", "alpha": 1},
+    {"id": "ridge_10", "family": "ridge", "alpha": 10},
+    {"id": "ridge_100", "family": "ridge", "alpha": 100},
+    {"id": "forest_2_5", "family": "forest", "max_depth": 2, "min_samples_leaf": 5, "n_estimators": 100},
+    {"id": "forest_3_5", "family": "forest", "max_depth": 3, "min_samples_leaf": 5, "n_estimators": 100},
+    {"id": "forest_3_10", "family": "forest", "max_depth": 3, "min_samples_leaf": 10, "n_estimators": 100},
+    {"id": "xgb_1_50", "family": "xgboost", "max_depth": 1, "n_estimators": 50, "learning_rate": 0.05},
+    {"id": "xgb_2_50", "family": "xgboost", "max_depth": 2, "n_estimators": 50, "learning_rate": 0.05},
+    {"id": "xgb_2_100", "family": "xgboost", "max_depth": 2, "n_estimators": 100, "learning_rate": 0.05},
+    {"id": "dynamic_001", "family": "dynamic", "variance_ratio": 0.01},
+    {"id": "dynamic_01", "family": "dynamic", "variance_ratio": 0.1},
+    {"id": "dynamic_1", "family": "dynamic", "variance_ratio": 1.0},
+    {"id": "ensemble_equal", "family": "ensemble", "penalty": null},
+    {"id": "ensemble_1", "family": "ensemble", "penalty": 1.0},
+    {"id": "ensemble_5", "family": "ensemble", "penalty": 5.0}
+  ],
+  "ensemble_members": ["recency_7", "ridge_10", "forest_3_5", "xgb_2_50", "dynamic_01"]
+}
