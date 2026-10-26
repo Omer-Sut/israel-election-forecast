@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="640" viewBox="0 0 1140 640"><rect width="1140" height="640" fill="white"/><g font-family="Arial,sans-serif" fill="#21384b">
+<text x="25" y="32" font-size="23">E022: model coverage did not translate into historical election coverage</text>
+<text x="25" y="62" font-size="14">Bars show each election’s largest party miss outside its raw scenario band. Zero means full coverage.</text>
+<rect x="90" y="150" width="35" height="270" fill="#246e9b"/><text x="100" y="140" font-size="15">6</text>
+<rect x="135" y="285" width="35" height="135" fill="#8a4284"/><text x="145" y="275" font-size="15">3</text>
+<text x="85" y="455" font-size="14">2015</text>
+<rect x="260" y="195" width="35" height="225" fill="#246e9b"/><text x="270" y="185" font-size="15">5</text>
+<rect x="305" y="195" width="35" height="225" fill="#8a4284"/><text x="315" y="185" font-size="15">5</text>
+<text x="255" y="455" font-size="14">2019 Apr</text>
+<rect x="430" y="375" width="35" height="45" fill="#246e9b"/><text x="440" y="365" font-size="15">1</text>
+<rect x="475" y="375" width="35" height="45" fill="#8a4284"/><text x="485" y="365" font-size="15">1</text>
+<text x="425" y="455" font-size="14">2019 Sep</text>
+<rect x="600" y="330" width="35" height="90" fill="#246e9b"/><text x="610" y="320" font-size="15">2</text>
+<rect x="645" y="375" width="35" height="45" fill="#8a4284"/><text x="655" y="365" font-size="15">1</text>
+<text x="595" y="455" font-size="14">2020</text>
+<rect x="770" y="240" width="35" height="180" fill="#246e9b"/><text x="780" y="230" font-size="15">4</text>
+<rect x="815" y="240" width="35" height="180" fill="#8a4284"/><text x="825" y="230" font-size="15">4</text>
+<text x="765" y="455" font-size="14">2021</text>
+<rect x="940" y="240" width="35" height="180" fill="#246e9b"/><text x="950" y="230" font-size="15">4</text>
+<rect x="985" y="240" width="35" height="180" fill="#8a4284"/><text x="995" y="230" font-size="15">4</text>
+<text x="935" y="455" font-size="14">2022</text>
+<text x="25" y="505" font-size="16" fill="#246e9b">Blue:80%model mass; full historical coverage0/6.</text>
+<text x="25" y="535" font-size="16" fill="#8a4284">Purple:90%model mass; full historical coverage0/6.</text>
+<text x="25" y="575" font-size="14">Many individual parties are covered; every election has at least one miss. These are not confidence bands.</text>
+<text x="25" y="615" font-size="13">The independently optimized levels need not be nested. All six campaigns were previously inspected.</text></g></svg>

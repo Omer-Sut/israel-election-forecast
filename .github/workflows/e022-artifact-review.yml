@@ -12,10 +12,22 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
       - name: Download existing result without rerunning experiments
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh run download 40317447939 --repo Omer-Sut/israel-election-forecast --name diversity-bands-E022 --dir output/e022-review
+      - name: Download audited E021 source and reproduce compact analysis
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 40311428283 --repo Omer-Sut/israel-election-forecast --name numerical-search-E021 --dir output/e021-source
+          node scripts/analyze_diversity_bands.mjs output/e022-review output/e021-source output/e022-analysis
+          for file in audit.json source-inputs-manifest.json review-candidates.csv historical-band-misses.svg diversity-distance.svg; do
+            diff -u "reports/diversity-bands-2026-10-26/$file" "output/e022-analysis/$file"
+          done
       - name: Print saved report and lossless evidence
         run: |
           python - <<'PY'
