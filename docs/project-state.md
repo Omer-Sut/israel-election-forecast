@@ -1,5 +1,10 @@
 ﻿# Current project state
 
+## Forecast graphic — October 26
+
+Prepared a shareable Hebrew poll-style card from the unchanged adopted 15-field forecast: 120 seats and 69.86% turnout. The graphic labels itself a model forecast, not a new opinion poll, and records the 24 October source cutoff and current Joint List form-mapping assumption. `reports/submission-package-2026-10-26/forecast-card.he.png` is generated from the versioned forecast by `scripts/render_forecast_card.cjs`. No model, source freeze, prediction or submission changed.
+
+
 ## Concise form answers — October 26
 
 Added `reports/submission-package-2026-10-26/form-answers.he.txt` and `.en.txt` with formal, concise copy for the screenshot's method, sources, code, optional document and consent fields. They reuse the unchanged adopted forecast and public method PDFs; consent remains the participant's own choice. Checked method length, turnout and links. No form submission.

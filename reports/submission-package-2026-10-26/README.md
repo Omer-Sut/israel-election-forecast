@@ -8,6 +8,9 @@ Prepared 26 October 2026. This is a review and copying package, **not a submitte
 - `method.en.pdf` and `method.he.pdf`: printable versions of the same descriptions and source notes. A document link is preferred by the form transcription, but not marked required.
 - `source-notes.md`: source manifest, mapping and validation limits.
 - `validation.json`: machine-checked source hash, seat total, turnout bound, word counts and PDF identity.
+- `forecast-card.he.png`: shareable Hebrew poll-style image of the adopted forecast. It is clearly labeled as a model forecast, not a new poll. `forecast-card.he.html` and `scripts/render_forecast_card.cjs` reproduce the image from the versioned forecast and form-field labels.
+
+![Hebrew forecast card with all 15 fields and 69.86% turnout](forecast-card.he.png)
 
 Required email, full name, track choice and presentation agreement belong to the participant. The intended track is **systematic/competitive, individual**; no personal responses or assumed consent appear in the public package. The exact live form layout/hidden validation has not been authenticated in this session; field order follows `config/submission-fields.json`, transcribed by the user on 21 October 2026.
 
