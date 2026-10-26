@@ -1,5 +1,10 @@
 ﻿# Current project state
 
+## Concise form answers — October 26
+
+Added `reports/submission-package-2026-10-26/form-answers.he.txt` and `.en.txt` with formal, concise copy for the screenshot's method, sources, code, optional document and consent fields. They reuse the unchanged adopted forecast and public method PDFs; consent remains the participant's own choice. Checked method length, turnout and links. No form submission.
+
+
 ## Individual submission package — October 26
 
 An English/Hebrew individual systematic-entry review package is prepared on `feat/individual-submission-package`: 15 copy-ready seat fields, 69.86% turnout, method descriptions of 334/289 whitespace-separated words, printable PDFs, sources and limits. It copies the adopted forecast SHA-256 `3a02e8c53ef2b85af839b6d048650c4a581ad64e6a24cae0bd9c316ab449ca97` unchanged. The live form was not authenticated; personal identity, presentation agreement and submission remain with the user. Source freeze, official lists and agreements remain incomplete. No new model or point change was adopted.
