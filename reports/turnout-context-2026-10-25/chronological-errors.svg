@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="610" viewBox="0 0 1120 610"><rect width="1120" height="610" fill="white"/><g font-family="Arial,sans-serif" fill="#19334a">
+<text x="25" y="30" font-size="23">Turnout context: chronological selected-model errors</text>
+<text x="25" y="55" font-size="14">Retrospective revised-vintage sensitivity. Lower is better; no forecast adoption.</text>
+<path d="M85,440.0H1060" stroke="#e1e6ea"/><text x="25" y="444.0" font-size="12">0.0pp</text>
+<path d="M85,355.0H1060" stroke="#e1e6ea"/><text x="25" y="359.0" font-size="12">2.2pp</text>
+<path d="M85,270.0H1060" stroke="#e1e6ea"/><text x="25" y="274.0" font-size="12">4.4pp</text>
+<path d="M85,185.0H1060" stroke="#e1e6ea"/><text x="25" y="189.0" font-size="12">6.6pp</text>
+<path d="M85,100.0H1060" stroke="#e1e6ea"/><text x="25" y="104.0" font-size="12">8.8pp</text>
+<polyline points="110,264.98 295,291.64 480,387.07 665,374.70 850,351.08 1035,348.34" fill="none" stroke="#2468a0" stroke-width="2"/>
+<circle cx="110" cy="264.98" r="4" fill="#2468a0"><title>history: 4.530pp</title></circle>
+<circle cx="295" cy="291.64" r="4" fill="#2468a0"><title>history: 3.840pp</title></circle>
+<circle cx="480" cy="387.07" r="4" fill="#2468a0"><title>history: 1.370pp</title></circle>
+<circle cx="665" cy="374.70" r="4" fill="#2468a0"><title>history: 1.690pp</title></circle>
+<circle cx="850" cy="351.08" r="4" fill="#2468a0"><title>history: 2.302pp</title></circle>
+<circle cx="1035" cy="348.34" r="4" fill="#2468a0"><title>history: 2.372pp</title></circle>
+<text x="25" y="510" fill="#2468a0" font-size="15">history</text>
+<polyline points="110,264.98 295,291.64 480,387.07 665,374.70 850,307.04 1035,397.27" fill="none" stroke="#269073" stroke-width="2"/>
+<circle cx="110" cy="264.98" r="4" fill="#269073"><title>demographics: 4.530pp</title></circle>
+<circle cx="295" cy="291.64" r="4" fill="#269073"><title>demographics: 3.840pp</title></circle>
+<circle cx="480" cy="387.07" r="4" fill="#269073"><title>demographics: 1.370pp</title></circle>
+<circle cx="665" cy="374.70" r="4" fill="#269073"><title>demographics: 1.690pp</title></circle>
+<circle cx="850" cy="307.04" r="4" fill="#269073"><title>demographics: 3.441pp</title></circle>
+<circle cx="1035" cy="397.27" r="4" fill="#269073"><title>demographics: 1.106pp</title></circle>
+<text x="390" y="510" fill="#269073" font-size="15">demographics</text>
+<polyline points="110,264.98 295,291.64 480,387.07 665,374.70 850,364.91 1035,345.98" fill="none" stroke="#c27717" stroke-width="2"/>
+<circle cx="110" cy="264.98" r="4" fill="#c27717"><title>conflict: 4.530pp</title></circle>
+<circle cx="295" cy="291.64" r="4" fill="#c27717"><title>conflict: 3.840pp</title></circle>
+<circle cx="480" cy="387.07" r="4" fill="#c27717"><title>conflict: 1.370pp</title></circle>
+<circle cx="665" cy="374.70" r="4" fill="#c27717"><title>conflict: 1.690pp</title></circle>
+<circle cx="850" cy="364.91" r="4" fill="#c27717"><title>conflict: 1.943pp</title></circle>
+<circle cx="1035" cy="345.98" r="4" fill="#c27717"><title>conflict: 2.434pp</title></circle>
+<text x="755" y="510" fill="#c27717" font-size="15">conflict</text>
+<polyline points="110,264.98 295,291.64 480,387.07 665,374.70 850,318.22 1035,423.86" fill="none" stroke="#9558a5" stroke-width="2"/>
+<circle cx="110" cy="264.98" r="4" fill="#9558a5"><title>both: 4.530pp</title></circle>
+<circle cx="295" cy="291.64" r="4" fill="#9558a5"><title>both: 3.840pp</title></circle>
+<circle cx="480" cy="387.07" r="4" fill="#9558a5"><title>both: 1.370pp</title></circle>
+<circle cx="665" cy="374.70" r="4" fill="#9558a5"><title>both: 1.690pp</title></circle>
+<circle cx="850" cy="318.22" r="4" fill="#9558a5"><title>both: 3.152pp</title></circle>
+<circle cx="1035" cy="423.86" r="4" fill="#9558a5"><title>both: 0.418pp</title></circle>
+<text x="25" y="537" fill="#9558a5" font-size="15">both</text>
+<polyline points="110,170.45 295,432.14 480,427.64 665,388.87 850,343.54 1035,400.08" fill="none" stroke="#46525d" stroke-width="2"/>
+<circle cx="110" cy="170.45" r="4" fill="#46525d"><title>last-three mean: 6.977pp</title></circle>
+<circle cx="295" cy="432.14" r="4" fill="#46525d"><title>last-three mean: 0.203pp</title></circle>
+<circle cx="480" cy="427.64" r="4" fill="#46525d"><title>last-three mean: 0.320pp</title></circle>
+<circle cx="665" cy="388.87" r="4" fill="#46525d"><title>last-three mean: 1.323pp</title></circle>
+<circle cx="850" cy="343.54" r="4" fill="#46525d"><title>last-three mean: 2.497pp</title></circle>
+<circle cx="1035" cy="400.08" r="4" fill="#46525d"><title>last-three mean: 1.033pp</title></circle>
+<text x="390" y="537" fill="#46525d" font-size="15">last-three mean</text>
+<text x="75" y="466" font-size="12">2015-03-17</text>
+<text x="260" y="466" font-size="12">2019-04-09</text>
+<text x="445" y="466" font-size="12">2019-09-17</text>
+<text x="630" y="466" font-size="12">2020-03-02</text>
+<text x="815" y="466" font-size="12">2021-03-23</text>
+<text x="1000" y="466" font-size="12">2022-11-01</text>
+<text x="25" y="580" font-size="13">2019-2021 outcomes are correlated. Each block selects only from earlier OOF errors and simple references.</text></g></svg>

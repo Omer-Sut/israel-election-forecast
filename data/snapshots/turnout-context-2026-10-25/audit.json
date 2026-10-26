@@ -1,0 +1,35 @@
+{
+  "reviewed_on": "2026-10-25",
+  "demographics": {
+    "historical_availability_verified": false,
+    "usage": "Retrospective revised-vintage sensitivity only",
+    "strict_backtest_decision": "Exclude demographic blocks until historical releases are reconstructed",
+    "source": "World Bank WDI, UN Population Division World Population Prospects",
+    "features": ["65+ percent of total de facto resident population", "20-29 percent of female resident population"],
+    "denominator_note": "Separate, explicitly named denominators; neither is the registered electorate. Female20-24 and25-29 shares can be summed within female population. Do not multiply by the collected female-total weight: its metadata additionally cites WPP2022, so cross-series vintage alignment is not certified.",
+    "reference_rule": "Exact election-year minus2, capped at2022; no interpolation, no nearest future year, no2024/2025 values or population forecasts. Cap makes current inputs deliberately stale; not an availability certificate.",
+    "omitted": "CBS locality age/sex/SES lacks compatible national historical coverage and verified release vintages; locality medians/ranks are not averaged. Male/female-total WB series retained as audit material, not fitted. No individual voter inference."
+  },
+  "conflicts": {
+    "historical_availability_verified": false,
+    "coverage_end": "2022-12-31",
+    "definition": "Non-exhaustive curated named-onset index: E014 six wars and four Gaza operations, plus three onsets directly checked in E016. No claim of complete conflict coverage or peace when the index is zero.",
+    "features": ["count of catalogued onsets in365 days through forecast cutoff", "years since latest catalogued onset, capped at10"],
+    "strict_backtest_decision": "Retrospective event-date sensitivity; source pages are later publications, not archived real-time versions",
+    "unknown_end_rule": "End/active status/severity are not inferred or fitted. Unknown ends remain null. No current conflict prediction: post2022 catalogue incomplete.",
+    "catalogue_url": "https://www.idf.il/en/mini-sites/wars-and-operations/",
+    "additional_events": [
+      {"id": "accountability", "label": "Operation Accountability", "onset": "1993-07-25", "end": "1993-07-31", "kind": "operation", "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-accountability/", "source_publication": "2017-10-30", "reviewed_on": "2026-10-25", "note": "Page has inconsistent40-day evacuation narrative versus six-day duration; use explicitly dated onset only."},
+      {"id": "grapes", "label": "Operation Grapes of Wrath", "onset": "1996-04-11", "end": null, "kind": "operation", "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-grapes-of-wrath/", "source_publication": "2017-10-30", "reviewed_on": "2026-10-25"},
+      {"id": "defensive_shield", "label": "Operation Defensive Shield", "onset": "2002-03-29", "end": null, "kind": "operation", "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-defensive-shield/", "source_publication": "2017-10-30", "reviewed_on": "2026-10-25"}
+    ],
+    "excluded_pending_audit": ["War of Attrition: phase/onset ambiguity", "First/Second Intifada: start/end/inclusion rule", "Gulf War1991, Litani1978 and other operations: bounded audit incomplete", "Post2022 wars/operations including2023-2026: current duration/intensity/coverage not audited"],
+    "effect_interpretation": "Predictive association only; outcome-inspected history, era and demographic trends confound effects. Narrow catalogue chosen before E016 model execution, not claimed exhaustive."
+  },
+  "history": {
+    "historical_availability_verified": false,
+    "usage": "Earlier numerical outcomes only; original publication vintages not reconstructed, as E014/E015",
+    "features": ["previous Knesset turnout percent", "years since previous Knesset election"]
+  },
+  "scope": "Audit timebox narrowed broad demographic/conflict proposal to two compatible age context measures and onset sensitivity. Historical/economic/severity expansion not silently invented. No forecast adoption."
+}

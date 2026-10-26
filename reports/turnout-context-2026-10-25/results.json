@@ -1,0 +1,4874 @@
+{
+  "config": {
+    "history_path": "data/snapshots/turnout-history-2026-10-24/inputs.json",
+    "context_path": "data/snapshots/turnout-context-2026-10-25",
+    "forecast_election_date": "2026-10-27",
+    "forecast_cutoff": "2026-10-25",
+    "demographic_lag_years": 2,
+    "demographic_max_reference_year": 2022,
+    "minimum_training_elections": 8,
+    "minimum_selection_folds": 3,
+    "selection_lookback": 6,
+    "training_windows": [
+      null,
+      8
+    ],
+    "blocks": [
+      "history",
+      "demographics",
+      "conflict",
+      "both"
+    ],
+    "families": [
+      "linear_level",
+      "fractional_logit"
+    ],
+    "alphas": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "numeric_reproduction_absolute_tolerance": 1e-07,
+    "decision": "Retrospective controlled ablation only; no automatic forecast replacement"
+  },
+  "tier": "retrospective_revised_vintage_sensitivity",
+  "strict_context_eligible": false,
+  "configuration_count": 48,
+  "configurations": [
+    {
+      "id": "linear_level__history__wall__a0.01",
+      "family": "linear_level",
+      "block": "history",
+      "window": null,
+      "alpha": 0.01
+    },
+    {
+      "id": "linear_level__history__wall__a0.1",
+      "family": "linear_level",
+      "block": "history",
+      "window": null,
+      "alpha": 0.1
+    },
+    {
+      "id": "linear_level__history__wall__a1",
+      "family": "linear_level",
+      "block": "history",
+      "window": null,
+      "alpha": 1.0
+    },
+    {
+      "id": "linear_level__history__w8__a0.01",
+      "family": "linear_level",
+      "block": "history",
+      "window": 8,
+      "alpha": 0.01
+    },
+    {
+      "id": "linear_level__history__w8__a0.1",
+      "family": "linear_level",
+      "block": "history",
+      "window": 8,
+      "alpha": 0.1
+    },
+    {
+      "id": "linear_level__history__w8__a1",
+      "family": "linear_level",
+      "block": "history",
+      "window": 8,
+      "alpha": 1.0
+    },
+    {
+      "id": "fractional_logit__history__wall__a0.01",
+      "family": "fractional_logit",
+      "block": "history",
+      "window": null,
+      "alpha": 0.01
+    },
+    {
+      "id": "fractional_logit__history__wall__a0.1",
+      "family": "fractional_logit",
+      "block": "history",
+      "window": null,
+      "alpha": 0.1
+    },
+    {
+      "id": "fractional_logit__history__wall__a1",
+      "family": "fractional_logit",
+      "block": "history",
+      "window": null,
+      "alpha": 1.0
+    },
+    {
+      "id": "fractional_logit__history__w8__a0.01",
+      "family": "fractional_logit",
+      "block": "history",
+      "window": 8,
+      "alpha": 0.01
+    },
+    {
+      "id": "fractional_logit__history__w8__a0.1",
+      "family": "fractional_logit",
+      "block": "history",
+      "window": 8,
+      "alpha": 0.1
+    },
+    {
+      "id": "fractional_logit__history__w8__a1",
+      "family": "fractional_logit",
+      "block": "history",
+      "window": 8,
+      "alpha": 1.0
+    },
+    {
+      "id": "linear_level__demographics__wall__a0.01",
+      "family": "linear_level",
+      "block": "demographics",
+      "window": null,
+      "alpha": 0.01
+    },
+    {
+      "id": "linear_level__demographics__wall__a0.1",
+      "family": "linear_level",
+      "block": "demographics",
+      "window": null,
+      "alpha": 0.1
+    },
+    {
+      "id": "linear_level__demographics__wall__a1",
+      "family": "linear_level",
+      "block": "demographics",
+      "window": null,
+      "alpha": 1.0
+    },
+    {
+      "id": "linear_level__demographics__w8__a0.01",
+      "family": "linear_level",
+      "block": "demographics",
+      "window": 8,
+      "alpha": 0.01
+    },
+    {
+      "id": "linear_level__demographics__w8__a0.1",
+      "family": "linear_level",
+      "block": "demographics",
+      "window": 8,
+      "alpha": 0.1
+    },
+    {
+      "id": "linear_level__demographics__w8__a1",
+      "family": "linear_level",
+      "block": "demographics",
+      "window": 8,
+      "alpha": 1.0
+    },
+    {
+      "id": "fractional_logit__demographics__wall__a0.01",
+      "family": "fractional_logit",
+      "block": "demographics",
+      "window": null,
+      "alpha": 0.01
+    },
+    {
+      "id": "fractional_logit__demographics__wall__a0.1",
+      "family": "fractional_logit",
+      "block": "demographics",
+      "window": null,
+      "alpha": 0.1
+    },
+    {
+      "id": "fractional_logit__demographics__wall__a1",
+      "family": "fractional_logit",
+      "block": "demographics",
+      "window": null,
+      "alpha": 1.0
+    },
+    {
+      "id": "fractional_logit__demographics__w8__a0.01",
+      "family": "fractional_logit",
+      "block": "demographics",
+      "window": 8,
+      "alpha": 0.01
+    },
+    {
+      "id": "fractional_logit__demographics__w8__a0.1",
+      "family": "fractional_logit",
+      "block": "demographics",
+      "window": 8,
+      "alpha": 0.1
+    },
+    {
+      "id": "fractional_logit__demographics__w8__a1",
+      "family": "fractional_logit",
+      "block": "demographics",
+      "window": 8,
+      "alpha": 1.0
+    },
+    {
+      "id": "linear_level__conflict__wall__a0.01",
+      "family": "linear_level",
+      "block": "conflict",
+      "window": null,
+      "alpha": 0.01
+    },
+    {
+      "id": "linear_level__conflict__wall__a0.1",
+      "family": "linear_level",
+      "block": "conflict",
+      "window": null,
+      "alpha": 0.1
+    },
+    {
+      "id": "linear_level__conflict__wall__a1",
+      "family": "linear_level",
+      "block": "conflict",
+      "window": null,
+      "alpha": 1.0
+    },
+    {
+      "id": "linear_level__conflict__w8__a0.01",
+      "family": "linear_level",
+      "block": "conflict",
+      "window": 8,
+      "alpha": 0.01
+    },
+    {
+      "id": "linear_level__conflict__w8__a0.1",
+      "family": "linear_level",
+      "block": "conflict",
+      "window": 8,
+      "alpha": 0.1
+    },
+    {
+      "id": "linear_level__conflict__w8__a1",
+      "family": "linear_level",
+      "block": "conflict",
+      "window": 8,
+      "alpha": 1.0
+    },
+    {
+      "id": "fractional_logit__conflict__wall__a0.01",
+      "family": "fractional_logit",
+      "block": "conflict",
+      "window": null,
+      "alpha": 0.01
+    },
+    {
+      "id": "fractional_logit__conflict__wall__a0.1",
+      "family": "fractional_logit",
+      "block": "conflict",
+      "window": null,
+      "alpha": 0.1
+    },
+    {
+      "id": "fractional_logit__conflict__wall__a1",
+      "family": "fractional_logit",
+      "block": "conflict",
+      "window": null,
+      "alpha": 1.0
+    },
+    {
+      "id": "fractional_logit__conflict__w8__a0.01",
+      "family": "fractional_logit",
+      "block": "conflict",
+      "window": 8,
+      "alpha": 0.01
+    },
+    {
+      "id": "fractional_logit__conflict__w8__a0.1",
+      "family": "fractional_logit",
+      "block": "conflict",
+      "window": 8,
+      "alpha": 0.1
+    },
+    {
+      "id": "fractional_logit__conflict__w8__a1",
+      "family": "fractional_logit",
+      "block": "conflict",
+      "window": 8,
+      "alpha": 1.0
+    },
+    {
+      "id": "linear_level__both__wall__a0.01",
+      "family": "linear_level",
+      "block": "both",
+      "window": null,
+      "alpha": 0.01
+    },
+    {
+      "id": "linear_level__both__wall__a0.1",
+      "family": "linear_level",
+      "block": "both",
+      "window": null,
+      "alpha": 0.1
+    },
+    {
+      "id": "linear_level__both__wall__a1",
+      "family": "linear_level",
+      "block": "both",
+      "window": null,
+      "alpha": 1.0
+    },
+    {
+      "id": "linear_level__both__w8__a0.01",
+      "family": "linear_level",
+      "block": "both",
+      "window": 8,
+      "alpha": 0.01
+    },
+    {
+      "id": "linear_level__both__w8__a0.1",
+      "family": "linear_level",
+      "block": "both",
+      "window": 8,
+      "alpha": 0.1
+    },
+    {
+      "id": "linear_level__both__w8__a1",
+      "family": "linear_level",
+      "block": "both",
+      "window": 8,
+      "alpha": 1.0
+    },
+    {
+      "id": "fractional_logit__both__wall__a0.01",
+      "family": "fractional_logit",
+      "block": "both",
+      "window": null,
+      "alpha": 0.01
+    },
+    {
+      "id": "fractional_logit__both__wall__a0.1",
+      "family": "fractional_logit",
+      "block": "both",
+      "window": null,
+      "alpha": 0.1
+    },
+    {
+      "id": "fractional_logit__both__wall__a1",
+      "family": "fractional_logit",
+      "block": "both",
+      "window": null,
+      "alpha": 1.0
+    },
+    {
+      "id": "fractional_logit__both__w8__a0.01",
+      "family": "fractional_logit",
+      "block": "both",
+      "window": 8,
+      "alpha": 0.01
+    },
+    {
+      "id": "fractional_logit__both__w8__a0.1",
+      "family": "fractional_logit",
+      "block": "both",
+      "window": 8,
+      "alpha": 0.1
+    },
+    {
+      "id": "fractional_logit__both__w8__a1",
+      "family": "fractional_logit",
+      "block": "both",
+      "window": 8,
+      "alpha": 1.0
+    }
+  ],
+  "matched_training_knessets": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "matched_outer_knessets": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "feature_panel": [
+    {
+      "knesset": 4,
+      "features": {
+        "history": {
+          "lag1": 82.8,
+          "gap_years": 4.27387283790906
+        },
+        "demographics": null,
+        "conflict": {
+          "lag1": 82.8,
+          "gap_years": 4.27387283790906,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 3.00895980068037
+        },
+        "both": null
+      },
+      "cutoff": "1959-11-02",
+      "demographics": {
+        "reference_year": 1957,
+        "status": "missing_exact_reference_year"
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "sinai",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 5,
+      "features": {
+        "history": {
+          "lag1": 81.6,
+          "gap_years": 1.7823774615495185
+        },
+        "demographics": null,
+        "conflict": {
+          "lag1": 81.6,
+          "gap_years": 1.7823774615495185,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 4.791337262229888
+        },
+        "both": null
+      },
+      "cutoff": "1961-08-14",
+      "demographics": {
+        "reference_year": 1959,
+        "status": "missing_exact_reference_year"
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "sinai",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 6,
+      "features": {
+        "history": {
+          "lag1": 81.6,
+          "gap_years": 4.216376790762301
+        },
+        "demographics": {
+          "lag1": 81.6,
+          "gap_years": 4.216376790762301,
+          "resident_65plus_pct": 5.4654922317651,
+          "female_resident_20_29_pct": 13.061287968737439
+        },
+        "conflict": {
+          "lag1": 81.6,
+          "gap_years": 4.216376790762301,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 9.00771405299219
+        },
+        "both": {
+          "lag1": 81.6,
+          "gap_years": 4.216376790762301,
+          "resident_65plus_pct": 5.4654922317651,
+          "female_resident_20_29_pct": 13.061287968737439,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 9.00771405299219
+        }
+      },
+      "cutoff": "1965-11-01",
+      "demographics": {
+        "reference_year": 1963,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "sinai",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 7,
+      "features": {
+        "history": {
+          "lag1": 83,
+          "gap_years": 3.986392602175267
+        },
+        "demographics": {
+          "lag1": 83,
+          "gap_years": 3.986392602175267,
+          "resident_65plus_pct": 6.02611932214553,
+          "female_resident_20_29_pct": 13.65958755327075
+        },
+        "conflict": {
+          "lag1": 83,
+          "gap_years": 3.986392602175267,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 2.395668631114944
+        },
+        "both": {
+          "lag1": 83,
+          "gap_years": 3.986392602175267,
+          "resident_65plus_pct": 6.02611932214553,
+          "female_resident_20_29_pct": 13.65958755327075,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 2.395668631114944
+        }
+      },
+      "cutoff": "1969-10-27",
+      "demographics": {
+        "reference_year": 1967,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "six_day",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 8,
+      "features": {
+        "history": {
+          "lag1": 81.7,
+          "gap_years": 4.175308185657474
+        },
+        "demographics": {
+          "lag1": 81.7,
+          "gap_years": 4.175308185657474,
+          "resident_65plus_pct": 6.77524938702852,
+          "female_resident_20_29_pct": 16.210760738548828
+        },
+        "conflict": {
+          "lag1": 81.7,
+          "gap_years": 4.175308185657474,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.23272209559402315
+        },
+        "both": {
+          "lag1": 81.7,
+          "gap_years": 4.175308185657474,
+          "resident_65plus_pct": 6.77524938702852,
+          "female_resident_20_29_pct": 16.210760738548828,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.23272209559402315
+        }
+      },
+      "cutoff": "1973-12-30",
+      "demographics": {
+        "reference_year": 1971,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "yom_kippur",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 9,
+      "features": {
+        "history": {
+          "lag1": 78.6,
+          "gap_years": 3.37583933961683
+        },
+        "demographics": {
+          "lag1": 78.6,
+          "gap_years": 3.37583933961683,
+          "resident_65plus_pct": 7.72263794009142,
+          "female_resident_20_29_pct": 17.59198478421868
+        },
+        "conflict": {
+          "lag1": 78.6,
+          "gap_years": 3.37583933961683,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 3.608561435210853
+        },
+        "both": {
+          "lag1": 78.6,
+          "gap_years": 3.37583933961683,
+          "resident_65plus_pct": 7.72263794009142,
+          "female_resident_20_29_pct": 17.59198478421868,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 3.608561435210853
+        }
+      },
+      "cutoff": "1977-05-16",
+      "demographics": {
+        "reference_year": 1975,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "yom_kippur",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 10,
+      "features": {
+        "history": {
+          "lag1": 79.2,
+          "gap_years": 4.120550045517704
+        },
+        "demographics": {
+          "lag1": 79.2,
+          "gap_years": 4.120550045517704,
+          "resident_65plus_pct": 8.62987843028899,
+          "female_resident_20_29_pct": 16.97716023549673
+        },
+        "conflict": {
+          "lag1": 79.2,
+          "gap_years": 4.120550045517704,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 7.729111480728557
+        },
+        "both": {
+          "lag1": 79.2,
+          "gap_years": 4.120550045517704,
+          "resident_65plus_pct": 8.62987843028899,
+          "female_resident_20_29_pct": 16.97716023549673,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 7.729111480728557
+        }
+      },
+      "cutoff": "1981-06-29",
+      "demographics": {
+        "reference_year": 1979,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "yom_kippur",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 11,
+      "features": {
+        "history": {
+          "lag1": 78.5,
+          "gap_years": 3.06371794082014
+        },
+        "demographics": {
+          "lag1": 78.5,
+          "gap_years": 3.06371794082014,
+          "resident_65plus_pct": 8.95929377448739,
+          "female_resident_20_29_pct": 16.06984219116584
+        },
+        "conflict": {
+          "lag1": 78.5,
+          "gap_years": 3.06371794082014,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 2.1273537444300703
+        },
+        "both": {
+          "lag1": 78.5,
+          "gap_years": 3.06371794082014,
+          "resident_65plus_pct": 8.95929377448739,
+          "female_resident_20_29_pct": 16.06984219116584,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 2.1273537444300703
+        }
+      },
+      "cutoff": "1984-07-22",
+      "demographics": {
+        "reference_year": 1982,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "lebanon_1",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 12,
+      "features": {
+        "history": {
+          "lag1": 78.8,
+          "gap_years": 4.276610744916049
+        },
+        "demographics": {
+          "lag1": 78.8,
+          "gap_years": 4.276610744916049,
+          "resident_65plus_pct": 8.97498555098915,
+          "female_resident_20_29_pct": 15.25524728126959
+        },
+        "conflict": {
+          "lag1": 78.8,
+          "gap_years": 4.276610744916049,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 6.403964489346119
+        },
+        "both": {
+          "lag1": 78.8,
+          "gap_years": 4.276610744916049,
+          "resident_65plus_pct": 8.97498555098915,
+          "female_resident_20_29_pct": 15.25524728126959,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 6.403964489346119
+        }
+      },
+      "cutoff": "1988-10-31",
+      "demographics": {
+        "reference_year": 1986,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "lebanon_1",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 13,
+      "features": {
+        "history": {
+          "lag1": 79.7,
+          "gap_years": 3.641416319294715
+        },
+        "demographics": {
+          "lag1": 79.7,
+          "gap_years": 3.641416319294715,
+          "resident_65plus_pct": 9.24083811679607,
+          "female_resident_20_29_pct": 15.04839639729574
+        },
+        "conflict": {
+          "lag1": 79.7,
+          "gap_years": 3.641416319294715,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 10.0
+        },
+        "both": {
+          "lag1": 79.7,
+          "gap_years": 3.641416319294715,
+          "resident_65plus_pct": 9.24083811679607,
+          "female_resident_20_29_pct": 15.04839639729574,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 10.0
+        }
+      },
+      "cutoff": "1992-06-22",
+      "demographics": {
+        "reference_year": 1990,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "lebanon_1",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 14,
+      "features": {
+        "history": {
+          "lag1": 77.4,
+          "gap_years": 3.931634462035497
+        },
+        "demographics": {
+          "lag1": 77.4,
+          "gap_years": 3.931634462035497,
+          "resident_65plus_pct": 9.57043816689077,
+          "female_resident_20_29_pct": 15.649932320547041
+        },
+        "conflict": {
+          "lag1": 77.4,
+          "gap_years": 3.931634462035497,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.12868162932845986
+        },
+        "both": {
+          "lag1": 77.4,
+          "gap_years": 3.931634462035497,
+          "resident_65plus_pct": 9.57043816689077,
+          "female_resident_20_29_pct": 15.649932320547041,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.12868162932845986
+        }
+      },
+      "cutoff": "1996-05-28",
+      "demographics": {
+        "reference_year": 1994,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "grapes",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 15,
+      "features": {
+        "history": {
+          "lag1": 79.3,
+          "gap_years": 2.965153288568554
+        },
+        "demographics": {
+          "lag1": 79.3,
+          "gap_years": 2.965153288568554,
+          "resident_65plus_pct": 9.79634543546033,
+          "female_resident_20_29_pct": 15.81860310877349
+        },
+        "conflict": {
+          "lag1": 79.3,
+          "gap_years": 2.965153288568554,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 3.0938349178970137
+        },
+        "both": {
+          "lag1": 79.3,
+          "gap_years": 2.965153288568554,
+          "resident_65plus_pct": 9.79634543546033,
+          "female_resident_20_29_pct": 15.81860310877349,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 3.0938349178970137
+        }
+      },
+      "cutoff": "1999-05-16",
+      "demographics": {
+        "reference_year": 1997,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "grapes",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 16,
+      "features": {
+        "history": {
+          "lag1": 78.7,
+          "gap_years": 3.7016502734484624
+        },
+        "demographics": {
+          "lag1": 78.7,
+          "gap_years": 3.7016502734484624,
+          "resident_65plus_pct": 9.74750406630562,
+          "female_resident_20_29_pct": 16.07315911536511
+        },
+        "conflict": {
+          "lag1": 78.7,
+          "gap_years": 3.7016502734484624,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.8323237301245063
+        },
+        "both": {
+          "lag1": 78.7,
+          "gap_years": 3.7016502734484624,
+          "resident_65plus_pct": 9.74750406630562,
+          "female_resident_20_29_pct": 16.07315911536511,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.8323237301245063
+        }
+      },
+      "cutoff": "2003-01-27",
+      "demographics": {
+        "reference_year": 2001,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "defensive_shield",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 17,
+      "features": {
+        "history": {
+          "lag1": 67.8,
+          "gap_years": 3.162282593071726
+        },
+        "demographics": {
+          "lag1": 67.8,
+          "gap_years": 3.162282593071726,
+          "resident_65plus_pct": 9.9373061958742,
+          "female_resident_20_29_pct": 15.75874167130928
+        },
+        "conflict": {
+          "lag1": 67.8,
+          "gap_years": 3.162282593071726,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 3.9946063231962325
+        },
+        "both": {
+          "lag1": 67.8,
+          "gap_years": 3.162282593071726,
+          "resident_65plus_pct": 9.9373061958742,
+          "female_resident_20_29_pct": 15.75874167130928,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 3.9946063231962325
+        }
+      },
+      "cutoff": "2006-03-27",
+      "demographics": {
+        "reference_year": 2004,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "defensive_shield",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 18,
+      "features": {
+        "history": {
+          "lag1": 63.5,
+          "gap_years": 2.874802357337933
+        },
+        "demographics": {
+          "lag1": 63.5,
+          "gap_years": 2.874802357337933,
+          "resident_65plus_pct": 9.89574079832473,
+          "female_resident_20_29_pct": 15.2426125137773
+        },
+        "conflict": {
+          "lag1": 63.5,
+          "gap_years": 2.874802357337933,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.12046790830749433
+        },
+        "both": {
+          "lag1": 63.5,
+          "gap_years": 2.874802357337933,
+          "resident_65plus_pct": 9.89574079832473,
+          "female_resident_20_29_pct": 15.2426125137773,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.12046790830749433
+        }
+      },
+      "cutoff": "2009-02-09",
+      "demographics": {
+        "reference_year": 2007,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "cast_lead",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 19,
+      "features": {
+        "history": {
+          "lag1": 64.7,
+          "gap_years": 3.948061904077428
+        },
+        "demographics": {
+          "lag1": 64.7,
+          "gap_years": 3.948061904077428,
+          "resident_65plus_pct": 10.0737415795495,
+          "female_resident_20_29_pct": 14.6065740931632
+        },
+        "conflict": {
+          "lag1": 64.7,
+          "gap_years": 3.948061904077428,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.18617767647521852
+        },
+        "both": {
+          "lag1": 64.7,
+          "gap_years": 3.948061904077428,
+          "resident_65plus_pct": 10.0737415795495,
+          "female_resident_20_29_pct": 14.6065740931632,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.18617767647521852
+        }
+      },
+      "cutoff": "2013-01-21",
+      "demographics": {
+        "reference_year": 2011,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "pillar",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 20,
+      "features": {
+        "history": {
+          "lag1": 67.77,
+          "gap_years": 2.14651909347899
+        },
+        "demographics": {
+          "lag1": 67.77,
+          "gap_years": 2.14651909347899,
+          "resident_65plus_pct": 10.5899969533043,
+          "female_resident_20_29_pct": 14.29641861897338
+        },
+        "conflict": {
+          "lag1": 67.77,
+          "gap_years": 2.14651909347899,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.6872146587541154
+        },
+        "both": {
+          "lag1": 67.77,
+          "gap_years": 2.14651909347899,
+          "resident_65plus_pct": 10.5899969533043,
+          "female_resident_20_29_pct": 14.29641861897338,
+          "catalogued_onsets_365d": 1.0,
+          "catalogued_onset_gap_capped10y": 0.6872146587541154
+        }
+      },
+      "cutoff": "2015-03-16",
+      "demographics": {
+        "reference_year": 2013,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "protective_edge",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 21,
+      "features": {
+        "history": {
+          "lag1": 72.3,
+          "gap_years": 4.063053998370945
+        },
+        "demographics": {
+          "lag1": 72.3,
+          "gap_years": 4.063053998370945,
+          "resident_65plus_pct": 11.4924645678713,
+          "female_resident_20_29_pct": 13.77597140389693
+        },
+        "conflict": {
+          "lag1": 72.3,
+          "gap_years": 4.063053998370945,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 4.75026865712506
+        },
+        "both": {
+          "lag1": 72.3,
+          "gap_years": 4.063053998370945,
+          "resident_65plus_pct": 11.4924645678713,
+          "female_resident_20_29_pct": 13.77597140389693,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 4.75026865712506
+        }
+      },
+      "cutoff": "2019-04-08",
+      "demographics": {
+        "reference_year": 2017,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "protective_edge",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 22,
+      "features": {
+        "history": {
+          "lag1": 68.46,
+          "gap_years": 0.4408030281251497
+        },
+        "demographics": {
+          "lag1": 68.46,
+          "gap_years": 0.4408030281251497,
+          "resident_65plus_pct": 11.4924645678713,
+          "female_resident_20_29_pct": 13.77597140389693
+        },
+        "conflict": {
+          "lag1": 68.46,
+          "gap_years": 0.4408030281251497,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 5.19107168525021
+        },
+        "both": {
+          "lag1": 68.46,
+          "gap_years": 0.4408030281251497,
+          "resident_65plus_pct": 11.4924645678713,
+          "female_resident_20_29_pct": 13.77597140389693,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 5.19107168525021
+        }
+      },
+      "cutoff": "2019-09-16",
+      "demographics": {
+        "reference_year": 2017,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "protective_edge",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 23,
+      "features": {
+        "history": {
+          "lag1": 69.83,
+          "gap_years": 0.4572304701670808
+        },
+        "demographics": {
+          "lag1": 69.83,
+          "gap_years": 0.4572304701670808,
+          "resident_65plus_pct": 11.7012951661424,
+          "female_resident_20_29_pct": 13.73725012103854
+        },
+        "conflict": {
+          "lag1": 69.83,
+          "gap_years": 0.4572304701670808,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 5.648302155417291
+        },
+        "both": {
+          "lag1": 69.83,
+          "gap_years": 0.4572304701670808,
+          "resident_65plus_pct": 11.7012951661424,
+          "female_resident_20_29_pct": 13.73725012103854,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 5.648302155417291
+        }
+      },
+      "cutoff": "2020-03-01",
+      "demographics": {
+        "reference_year": 2018,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "protective_edge",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 24,
+      "features": {
+        "history": {
+          "lag1": 71.52,
+          "gap_years": 1.056832104697564
+        },
+        "demographics": {
+          "lag1": 71.52,
+          "gap_years": 1.056832104697564,
+          "resident_65plus_pct": 11.8854991652299,
+          "female_resident_20_29_pct": 13.71566367919088
+        },
+        "conflict": {
+          "lag1": 71.52,
+          "gap_years": 1.056832104697564,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 6.705134260114855
+        },
+        "both": {
+          "lag1": 71.52,
+          "gap_years": 1.056832104697564,
+          "resident_65plus_pct": 11.8854991652299,
+          "female_resident_20_29_pct": 13.71566367919088,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 6.705134260114855
+        }
+      },
+      "cutoff": "2021-03-22",
+      "demographics": {
+        "reference_year": 2019,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "protective_edge",
+        "active_status": null,
+        "end_date_used": null
+      }
+    },
+    {
+      "knesset": 25,
+      "features": {
+        "history": {
+          "lag1": 67.44,
+          "gap_years": 1.6098893201092423
+        },
+        "demographics": {
+          "lag1": 67.44,
+          "gap_years": 1.6098893201092423,
+          "resident_65plus_pct": 12.0528770588893,
+          "female_resident_20_29_pct": 13.71788485930725
+        },
+        "conflict": {
+          "lag1": 67.44,
+          "gap_years": 1.6098893201092423,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 1.4757318767668055
+        },
+        "both": {
+          "lag1": 67.44,
+          "gap_years": 1.6098893201092423,
+          "resident_65plus_pct": 12.0528770588893,
+          "female_resident_20_29_pct": 13.71788485930725,
+          "catalogued_onsets_365d": 0.0,
+          "catalogued_onset_gap_capped10y": 1.4757318767668055
+        }
+      },
+      "cutoff": "2022-10-31",
+      "demographics": {
+        "reference_year": 2020,
+        "status": "retrospective_revised_vintage",
+        "historical_availability_verified": false
+      },
+      "conflict": {
+        "status": "retrospective_curated_onset_index",
+        "last_onset_id": "guardian",
+        "active_status": null,
+        "end_date_used": null
+      }
+    }
+  ],
+  "nested_selections": [
+    {
+      "block": "history",
+      "knesset": 14,
+      "election_date": "1996-05-29",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [],
+      "validation_mae": null,
+      "prediction_pct": 77.4,
+      "actual_pct": 79.3,
+      "absolute_error_pp": 1.8999999999999915
+    },
+    {
+      "block": "demographics",
+      "knesset": 14,
+      "election_date": "1996-05-29",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [],
+      "validation_mae": null,
+      "prediction_pct": 77.4,
+      "actual_pct": 79.3,
+      "absolute_error_pp": 1.8999999999999915
+    },
+    {
+      "block": "conflict",
+      "knesset": 14,
+      "election_date": "1996-05-29",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [],
+      "validation_mae": null,
+      "prediction_pct": 77.4,
+      "actual_pct": 79.3,
+      "absolute_error_pp": 1.8999999999999915
+    },
+    {
+      "block": "both",
+      "knesset": 14,
+      "election_date": "1996-05-29",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [],
+      "validation_mae": null,
+      "prediction_pct": 77.4,
+      "actual_pct": 79.3,
+      "absolute_error_pp": 1.8999999999999915
+    },
+    {
+      "block": "history",
+      "knesset": 15,
+      "election_date": "1999-05-17",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [
+        14
+      ],
+      "validation_mae": null,
+      "prediction_pct": 79.3,
+      "actual_pct": 78.7,
+      "absolute_error_pp": 0.5999999999999943
+    },
+    {
+      "block": "demographics",
+      "knesset": 15,
+      "election_date": "1999-05-17",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [
+        14
+      ],
+      "validation_mae": null,
+      "prediction_pct": 79.3,
+      "actual_pct": 78.7,
+      "absolute_error_pp": 0.5999999999999943
+    },
+    {
+      "block": "conflict",
+      "knesset": 15,
+      "election_date": "1999-05-17",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [
+        14
+      ],
+      "validation_mae": null,
+      "prediction_pct": 79.3,
+      "actual_pct": 78.7,
+      "absolute_error_pp": 0.5999999999999943
+    },
+    {
+      "block": "both",
+      "knesset": 15,
+      "election_date": "1999-05-17",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [
+        14
+      ],
+      "validation_mae": null,
+      "prediction_pct": 79.3,
+      "actual_pct": 78.7,
+      "absolute_error_pp": 0.5999999999999943
+    },
+    {
+      "block": "history",
+      "knesset": 16,
+      "election_date": "2003-01-28",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [
+        14,
+        15
+      ],
+      "validation_mae": null,
+      "prediction_pct": 78.7,
+      "actual_pct": 67.8,
+      "absolute_error_pp": 10.900000000000006
+    },
+    {
+      "block": "demographics",
+      "knesset": 16,
+      "election_date": "2003-01-28",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [
+        14,
+        15
+      ],
+      "validation_mae": null,
+      "prediction_pct": 78.7,
+      "actual_pct": 67.8,
+      "absolute_error_pp": 10.900000000000006
+    },
+    {
+      "block": "conflict",
+      "knesset": 16,
+      "election_date": "2003-01-28",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [
+        14,
+        15
+      ],
+      "validation_mae": null,
+      "prediction_pct": 78.7,
+      "actual_pct": 67.8,
+      "absolute_error_pp": 10.900000000000006
+    },
+    {
+      "block": "both",
+      "knesset": 16,
+      "election_date": "2003-01-28",
+      "selected": "previous_election",
+      "status": "warmup_reference",
+      "validation_knessets": [
+        14,
+        15
+      ],
+      "validation_mae": null,
+      "prediction_pct": 78.7,
+      "actual_pct": 67.8,
+      "absolute_error_pp": 10.900000000000006
+    },
+    {
+      "block": "history",
+      "knesset": 17,
+      "election_date": "2006-03-28",
+      "selected": "last_three_mean",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16
+      ],
+      "validation_mae": 3.811111111111108,
+      "prediction_pct": 75.26666666666667,
+      "actual_pct": 63.5,
+      "absolute_error_pp": 11.766666666666666
+    },
+    {
+      "block": "demographics",
+      "knesset": 17,
+      "election_date": "2006-03-28",
+      "selected": "fractional_logit__demographics__w8__a1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16
+      ],
+      "validation_mae": 3.7817979917424416,
+      "prediction_pct": 77.84231903372554,
+      "actual_pct": 63.5,
+      "absolute_error_pp": 14.342319033725545
+    },
+    {
+      "block": "conflict",
+      "knesset": 17,
+      "election_date": "2006-03-28",
+      "selected": "last_three_mean",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16
+      ],
+      "validation_mae": 3.811111111111108,
+      "prediction_pct": 75.26666666666667,
+      "actual_pct": 63.5,
+      "absolute_error_pp": 11.766666666666666
+    },
+    {
+      "block": "both",
+      "knesset": 17,
+      "election_date": "2006-03-28",
+      "selected": "last_three_mean",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16
+      ],
+      "validation_mae": 3.811111111111108,
+      "prediction_pct": 75.26666666666667,
+      "actual_pct": 63.5,
+      "absolute_error_pp": 11.766666666666666
+    },
+    {
+      "block": "history",
+      "knesset": 18,
+      "election_date": "2009-02-10",
+      "selected": "fractional_logit__history__wall__a0.01",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "validation_mae": 3.939131503414398,
+      "prediction_pct": 58.501831638040414,
+      "actual_pct": 64.7,
+      "absolute_error_pp": 6.198168361959588
+    },
+    {
+      "block": "demographics",
+      "knesset": 18,
+      "election_date": "2009-02-10",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "validation_mae": 4.424999999999997,
+      "prediction_pct": 63.5,
+      "actual_pct": 64.7,
+      "absolute_error_pp": 1.2000000000000028
+    },
+    {
+      "block": "conflict",
+      "knesset": 18,
+      "election_date": "2009-02-10",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "validation_mae": 4.424999999999997,
+      "prediction_pct": 63.5,
+      "actual_pct": 64.7,
+      "absolute_error_pp": 1.2000000000000028
+    },
+    {
+      "block": "both",
+      "knesset": 18,
+      "election_date": "2009-02-10",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "validation_mae": 4.424999999999997,
+      "prediction_pct": 63.5,
+      "actual_pct": 64.7,
+      "absolute_error_pp": 1.2000000000000028
+    },
+    {
+      "block": "history",
+      "knesset": 19,
+      "election_date": "2013-01-22",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "validation_mae": 3.7799999999999985,
+      "prediction_pct": 64.7,
+      "actual_pct": 67.77,
+      "absolute_error_pp": 3.069999999999993
+    },
+    {
+      "block": "demographics",
+      "knesset": 19,
+      "election_date": "2013-01-22",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "validation_mae": 3.7799999999999985,
+      "prediction_pct": 64.7,
+      "actual_pct": 67.77,
+      "absolute_error_pp": 3.069999999999993
+    },
+    {
+      "block": "conflict",
+      "knesset": 19,
+      "election_date": "2013-01-22",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "validation_mae": 3.7799999999999985,
+      "prediction_pct": 64.7,
+      "actual_pct": 67.77,
+      "absolute_error_pp": 3.069999999999993
+    },
+    {
+      "block": "both",
+      "knesset": 19,
+      "election_date": "2013-01-22",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "validation_mae": 3.7799999999999985,
+      "prediction_pct": 64.7,
+      "actual_pct": 67.77,
+      "absolute_error_pp": 3.069999999999993
+    },
+    {
+      "block": "history",
+      "knesset": 20,
+      "election_date": "2015-03-17",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "validation_mae": 3.661666666666664,
+      "prediction_pct": 67.77,
+      "actual_pct": 72.3,
+      "absolute_error_pp": 4.530000000000001
+    },
+    {
+      "block": "demographics",
+      "knesset": 20,
+      "election_date": "2015-03-17",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "validation_mae": 3.661666666666664,
+      "prediction_pct": 67.77,
+      "actual_pct": 72.3,
+      "absolute_error_pp": 4.530000000000001
+    },
+    {
+      "block": "conflict",
+      "knesset": 20,
+      "election_date": "2015-03-17",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "validation_mae": 3.661666666666664,
+      "prediction_pct": 67.77,
+      "actual_pct": 72.3,
+      "absolute_error_pp": 4.530000000000001
+    },
+    {
+      "block": "both",
+      "knesset": 20,
+      "election_date": "2015-03-17",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "validation_mae": 3.661666666666664,
+      "prediction_pct": 67.77,
+      "actual_pct": 72.3,
+      "absolute_error_pp": 4.530000000000001
+    },
+    {
+      "block": "history",
+      "knesset": 21,
+      "election_date": "2019-04-09",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "validation_mae": 4.099999999999999,
+      "prediction_pct": 72.3,
+      "actual_pct": 68.46,
+      "absolute_error_pp": 3.8400000000000034
+    },
+    {
+      "block": "demographics",
+      "knesset": 21,
+      "election_date": "2019-04-09",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "validation_mae": 4.099999999999999,
+      "prediction_pct": 72.3,
+      "actual_pct": 68.46,
+      "absolute_error_pp": 3.8400000000000034
+    },
+    {
+      "block": "conflict",
+      "knesset": 21,
+      "election_date": "2019-04-09",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "validation_mae": 4.099999999999999,
+      "prediction_pct": 72.3,
+      "actual_pct": 68.46,
+      "absolute_error_pp": 3.8400000000000034
+    },
+    {
+      "block": "both",
+      "knesset": 21,
+      "election_date": "2019-04-09",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "validation_mae": 4.099999999999999,
+      "prediction_pct": 72.3,
+      "actual_pct": 68.46,
+      "absolute_error_pp": 3.8400000000000034
+    },
+    {
+      "block": "history",
+      "knesset": 22,
+      "election_date": "2019-09-17",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "validation_mae": 4.640000000000001,
+      "prediction_pct": 68.46,
+      "actual_pct": 69.83,
+      "absolute_error_pp": 1.3700000000000045
+    },
+    {
+      "block": "demographics",
+      "knesset": 22,
+      "election_date": "2019-09-17",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "validation_mae": 4.640000000000001,
+      "prediction_pct": 68.46,
+      "actual_pct": 69.83,
+      "absolute_error_pp": 1.3700000000000045
+    },
+    {
+      "block": "conflict",
+      "knesset": 22,
+      "election_date": "2019-09-17",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "validation_mae": 4.640000000000001,
+      "prediction_pct": 68.46,
+      "actual_pct": 69.83,
+      "absolute_error_pp": 1.3700000000000045
+    },
+    {
+      "block": "both",
+      "knesset": 22,
+      "election_date": "2019-09-17",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "validation_mae": 4.640000000000001,
+      "prediction_pct": 68.46,
+      "actual_pct": 69.83,
+      "absolute_error_pp": 1.3700000000000045
+    },
+    {
+      "block": "history",
+      "knesset": 23,
+      "election_date": "2020-03-02",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "validation_mae": 3.051666666666667,
+      "prediction_pct": 69.83,
+      "actual_pct": 71.52,
+      "absolute_error_pp": 1.6899999999999977
+    },
+    {
+      "block": "demographics",
+      "knesset": 23,
+      "election_date": "2020-03-02",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "validation_mae": 3.051666666666667,
+      "prediction_pct": 69.83,
+      "actual_pct": 71.52,
+      "absolute_error_pp": 1.6899999999999977
+    },
+    {
+      "block": "conflict",
+      "knesset": 23,
+      "election_date": "2020-03-02",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "validation_mae": 3.051666666666667,
+      "prediction_pct": 69.83,
+      "actual_pct": 71.52,
+      "absolute_error_pp": 1.6899999999999977
+    },
+    {
+      "block": "both",
+      "knesset": 23,
+      "election_date": "2020-03-02",
+      "selected": "previous_election",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "validation_mae": 3.051666666666667,
+      "prediction_pct": 69.83,
+      "actual_pct": 71.52,
+      "absolute_error_pp": 1.6899999999999977
+    },
+    {
+      "block": "history",
+      "knesset": 24,
+      "election_date": "2021-03-23",
+      "selected": "fractional_logit__history__w8__a0.1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "validation_mae": 2.2381214371716993,
+      "prediction_pct": 69.74155509457181,
+      "actual_pct": 67.44,
+      "absolute_error_pp": 2.3015550945718104
+    },
+    {
+      "block": "demographics",
+      "knesset": 24,
+      "election_date": "2021-03-23",
+      "selected": "fractional_logit__demographics__w8__a0.1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "validation_mae": 1.9317777373085268,
+      "prediction_pct": 70.8812484457679,
+      "actual_pct": 67.44,
+      "absolute_error_pp": 3.441248445767897
+    },
+    {
+      "block": "conflict",
+      "knesset": 24,
+      "election_date": "2021-03-23",
+      "selected": "linear_level__conflict__w8__a1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "validation_mae": 2.1046237490481112,
+      "prediction_pct": 69.38341210557752,
+      "actual_pct": 67.44,
+      "absolute_error_pp": 1.9434121055775222
+    },
+    {
+      "block": "both",
+      "knesset": 24,
+      "election_date": "2021-03-23",
+      "selected": "fractional_logit__both__w8__a0.1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "validation_mae": 2.1691279267127057,
+      "prediction_pct": 70.59200684804442,
+      "actual_pct": 67.44,
+      "absolute_error_pp": 3.1520068480444223
+    },
+    {
+      "block": "history",
+      "knesset": 25,
+      "election_date": "2022-11-01",
+      "selected": "fractional_logit__history__w8__a1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "validation_mae": 2.240805208550455,
+      "prediction_pct": 68.2576544269668,
+      "actual_pct": 70.63,
+      "absolute_error_pp": 2.3723455730332006
+    },
+    {
+      "block": "demographics",
+      "knesset": 25,
+      "election_date": "2022-11-01",
+      "selected": "linear_level__demographics__w8__a1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "validation_mae": 2.226400967085089,
+      "prediction_pct": 69.52410169080774,
+      "actual_pct": 70.63,
+      "absolute_error_pp": 1.1058983091922556
+    },
+    {
+      "block": "conflict",
+      "knesset": 25,
+      "election_date": "2022-11-01",
+      "selected": "fractional_logit__conflict__w8__a1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "validation_mae": 2.224873776684239,
+      "prediction_pct": 68.19647126386612,
+      "actual_pct": 70.63,
+      "absolute_error_pp": 2.43352873613388
+    },
+    {
+      "block": "both",
+      "knesset": 25,
+      "election_date": "2022-11-01",
+      "selected": "fractional_logit__both__w8__a0.01",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "validation_mae": 2.0295747618550046,
+      "prediction_pct": 71.04774667866174,
+      "actual_pct": 70.63,
+      "absolute_error_pp": 0.417746678661743
+    }
+  ],
+  "scores": {
+    "previous_election": {
+      "folds": 12,
+      "all_mae_pp": 3.3891666666666658,
+      "recent_mae_pp": 3.116666666666667,
+      "recent_block_mae_pp": 3.4883333333333333,
+      "recent_worst_pp": 4.530000000000001,
+      "invalid_folds": 0
+    },
+    "last_three_mean": {
+      "folds": 12,
+      "all_mae_pp": 3.6074999999999995,
+      "recent_mae_pp": 2.0588888888888897,
+      "recent_block_mae_pp": 3.0319444444444428,
+      "recent_worst_pp": 6.9766666666666595,
+      "invalid_folds": 0
+    },
+    "last_three_median": {
+      "folds": 12,
+      "all_mae_pp": 3.9924999999999984,
+      "recent_mae_pp": 2.423333333333332,
+      "recent_block_mae_pp": 3.311666666666664,
+      "recent_worst_pp": 7.599999999999994,
+      "invalid_folds": 0
+    },
+    "linear_level__history__wall__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 3.7461032030501022,
+      "recent_mae_pp": 3.156329037151378,
+      "recent_block_mae_pp": 3.7736465775482757,
+      "recent_worst_pp": 6.131613876038983,
+      "invalid_folds": 0
+    },
+    "linear_level__history__wall__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 3.4871459647419094,
+      "recent_mae_pp": 3.0326931984151457,
+      "recent_block_mae_pp": 3.565672106917283,
+      "recent_worst_pp": 5.8765386642465245,
+      "invalid_folds": 0
+    },
+    "linear_level__history__wall__a1": {
+      "folds": 12,
+      "all_mae_pp": 3.6186178866532437,
+      "recent_mae_pp": 2.5614168759641536,
+      "recent_block_mae_pp": 2.141460414154617,
+      "recent_worst_pp": 6.082983367450865,
+      "invalid_folds": 0
+    },
+    "linear_level__history__w8__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 4.997364992656265,
+      "recent_mae_pp": 3.1962480551562678,
+      "recent_block_mae_pp": 4.049783054394442,
+      "recent_worst_pp": 7.747631398379511,
+      "invalid_folds": 0
+    },
+    "linear_level__history__w8__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 4.634190877288959,
+      "recent_mae_pp": 2.9936253166388647,
+      "recent_block_mae_pp": 3.8889800770865093,
+      "recent_worst_pp": 7.47565874202806,
+      "invalid_folds": 0
+    },
+    "linear_level__history__w8__a1": {
+      "folds": 12,
+      "all_mae_pp": 3.860722008019986,
+      "recent_mae_pp": 2.3754997403872053,
+      "recent_block_mae_pp": 3.029698154151152,
+      "recent_worst_pp": 5.11451374275731,
+      "invalid_folds": 0
+    },
+    "fractional_logit__history__wall__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 3.6684500783523695,
+      "recent_mae_pp": 3.2550897488346258,
+      "recent_block_mae_pp": 3.8480962317950493,
+      "recent_worst_pp": 6.333450133062371,
+      "invalid_folds": 0
+    },
+    "fractional_logit__history__wall__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 3.367460020989783,
+      "recent_mae_pp": 3.049072646274709,
+      "recent_block_mae_pp": 3.0152983295100313,
+      "recent_worst_pp": 5.783202103342745,
+      "invalid_folds": 0
+    },
+    "fractional_logit__history__wall__a1": {
+      "folds": 12,
+      "all_mae_pp": 5.122445363912303,
+      "recent_mae_pp": 3.298098440910304,
+      "recent_block_mae_pp": 2.3704690560343606,
+      "recent_worst_pp": 6.779834012974121,
+      "invalid_folds": 0
+    },
+    "fractional_logit__history__w8__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 4.903643281011102,
+      "recent_mae_pp": 3.163550180450931,
+      "recent_block_mae_pp": 4.038714565437174,
+      "recent_worst_pp": 7.774057017421214,
+      "invalid_folds": 0
+    },
+    "fractional_logit__history__w8__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 3.8814430428850812,
+      "recent_mae_pp": 2.6632091354017646,
+      "recent_block_mae_pp": 3.4850156329671407,
+      "recent_worst_pp": 6.4415735565196,
+      "invalid_folds": 0
+    },
+    "fractional_logit__history__w8__a1": {
+      "folds": 12,
+      "all_mae_pp": 4.134864195721472,
+      "recent_mae_pp": 1.8332275708689825,
+      "recent_block_mae_pp": 2.009491828951378,
+      "recent_worst_pp": 3.0920420417694743,
+      "invalid_folds": 0
+    },
+    "linear_level__demographics__wall__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 5.1638896623229575,
+      "recent_mae_pp": 3.0206070938525733,
+      "recent_block_mae_pp": 3.6646520106691036,
+      "recent_worst_pp": 5.269213975636305,
+      "invalid_folds": 0
+    },
+    "linear_level__demographics__wall__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 4.31736891317426,
+      "recent_mae_pp": 2.7905645932008247,
+      "recent_block_mae_pp": 3.5116065143721635,
+      "recent_worst_pp": 5.337379304019521,
+      "invalid_folds": 0
+    },
+    "linear_level__demographics__wall__a1": {
+      "folds": 12,
+      "all_mae_pp": 3.814270728642422,
+      "recent_mae_pp": 2.5594933586386333,
+      "recent_block_mae_pp": 2.524643558945744,
+      "recent_worst_pp": 4.079900886729092,
+      "invalid_folds": 0
+    },
+    "linear_level__demographics__w8__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 5.3633253570246175,
+      "recent_mae_pp": 3.629348474167157,
+      "recent_block_mae_pp": 3.524188026745675,
+      "recent_worst_pp": 8.289002537443054,
+      "invalid_folds": 0
+    },
+    "linear_level__demographics__w8__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 4.537905134751593,
+      "recent_mae_pp": 2.768470949449506,
+      "recent_block_mae_pp": 2.5186320981894768,
+      "recent_worst_pp": 5.767882632440347,
+      "invalid_folds": 0
+    },
+    "linear_level__demographics__w8__a1": {
+      "folds": 12,
+      "all_mae_pp": 3.694262782958409,
+      "recent_mae_pp": 2.2674380792971434,
+      "recent_block_mae_pp": 3.134074923368221,
+      "recent_worst_pp": 6.895525225686342,
+      "invalid_folds": 0
+    },
+    "fractional_logit__demographics__wall__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 4.741276538422839,
+      "recent_mae_pp": 2.9733011189069245,
+      "recent_block_mae_pp": 3.7111044211273807,
+      "recent_worst_pp": 5.331402725223782,
+      "invalid_folds": 0
+    },
+    "fractional_logit__demographics__wall__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 3.657678186389725,
+      "recent_mae_pp": 2.906400781137838,
+      "recent_block_mae_pp": 3.265231050989128,
+      "recent_worst_pp": 4.810985748180443,
+      "invalid_folds": 0
+    },
+    "fractional_logit__demographics__wall__a1": {
+      "folds": 12,
+      "all_mae_pp": 4.675251528483659,
+      "recent_mae_pp": 2.532501379445904,
+      "recent_block_mae_pp": 1.6551660246531128,
+      "recent_worst_pp": 5.882473518254471,
+      "invalid_folds": 0
+    },
+    "fractional_logit__demographics__w8__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 4.5256859346483305,
+      "recent_mae_pp": 2.6324140613629345,
+      "recent_block_mae_pp": 2.1827026880846945,
+      "recent_worst_pp": 5.7412606001983875,
+      "invalid_folds": 0
+    },
+    "fractional_logit__demographics__w8__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 3.7084085724758586,
+      "recent_mae_pp": 2.547800500183252,
+      "recent_block_mae_pp": 3.316156439648393,
+      "recent_worst_pp": 7.326320363573032,
+      "invalid_folds": 0
+    },
+    "fractional_logit__demographics__w8__a1": {
+      "folds": 12,
+      "all_mae_pp": 4.026467851617348,
+      "recent_mae_pp": 1.8572504450587435,
+      "recent_block_mae_pp": 2.273824783537608,
+      "recent_worst_pp": 3.5816372371895113,
+      "invalid_folds": 0
+    },
+    "linear_level__conflict__wall__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 5.108222637138171,
+      "recent_mae_pp": 3.8959667531633926,
+      "recent_block_mae_pp": 4.832253419107328,
+      "recent_worst_pp": 9.044163099744381,
+      "invalid_folds": 0
+    },
+    "linear_level__conflict__wall__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 4.613500829522986,
+      "recent_mae_pp": 3.689458735778141,
+      "recent_block_mae_pp": 4.414909964039901,
+      "recent_worst_pp": 8.177652033698607,
+      "invalid_folds": 0
+    },
+    "linear_level__conflict__wall__a1": {
+      "folds": 12,
+      "all_mae_pp": 3.7624159126472194,
+      "recent_mae_pp": 3.00816981662017,
+      "recent_block_mae_pp": 2.6625298356111826,
+      "recent_worst_pp": 6.994115412438177,
+      "invalid_folds": 0
+    },
+    "linear_level__conflict__w8__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 11.958508656500243,
+      "recent_mae_pp": 3.832732893550053,
+      "recent_block_mae_pp": 4.503982182278601,
+      "recent_worst_pp": 9.560978095517434,
+      "invalid_folds": 1
+    },
+    "linear_level__conflict__w8__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 9.04036000408054,
+      "recent_mae_pp": 2.8887071036028202,
+      "recent_block_mae_pp": 4.23339791489122,
+      "recent_worst_pp": 8.82273964241731,
+      "invalid_folds": 1
+    },
+    "linear_level__conflict__w8__a1": {
+      "folds": 12,
+      "all_mae_pp": 4.6695627417139525,
+      "recent_mae_pp": 2.5602825624432817,
+      "recent_block_mae_pp": 3.3961739759937744,
+      "recent_worst_pp": 5.9986124505720255,
+      "invalid_folds": 0
+    },
+    "fractional_logit__conflict__wall__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 5.232696680304494,
+      "recent_mae_pp": 4.031995473849634,
+      "recent_block_mae_pp": 4.957108297038,
+      "recent_worst_pp": 9.422586274025214,
+      "invalid_folds": 0
+    },
+    "fractional_logit__conflict__wall__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 3.9539115300504997,
+      "recent_mae_pp": 3.4161448762756854,
+      "recent_block_mae_pp": 3.587810098547442,
+      "recent_worst_pp": 6.808271846085717,
+      "invalid_folds": 0
+    },
+    "fractional_logit__conflict__wall__a1": {
+      "folds": 12,
+      "all_mae_pp": 5.127601329162598,
+      "recent_mae_pp": 3.4892873295812237,
+      "recent_block_mae_pp": 2.2876419836820183,
+      "recent_worst_pp": 7.226148230702734,
+      "invalid_folds": 0
+    },
+    "fractional_logit__conflict__w8__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 7.160679014644486,
+      "recent_mae_pp": 3.156098359804209,
+      "recent_block_mae_pp": 4.351740320341672,
+      "recent_worst_pp": 9.468022001080868,
+      "invalid_folds": 0
+    },
+    "fractional_logit__conflict__w8__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 5.177526689279703,
+      "recent_mae_pp": 2.7660635103106395,
+      "recent_block_mae_pp": 3.896049766741038,
+      "recent_worst_pp": 7.541083225287792,
+      "invalid_folds": 0
+    },
+    "fractional_logit__conflict__w8__a1": {
+      "folds": 12,
+      "all_mae_pp": 4.173810364174649,
+      "recent_mae_pp": 1.93203853451359,
+      "recent_block_mae_pp": 2.2093572860212602,
+      "recent_worst_pp": 3.468740359484883,
+      "invalid_folds": 0
+    },
+    "linear_level__both__wall__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 6.0045822725066245,
+      "recent_mae_pp": 3.6788467261264493,
+      "recent_block_mae_pp": 4.627468904853035,
+      "recent_worst_pp": 7.892362355877921,
+      "invalid_folds": 0
+    },
+    "linear_level__both__wall__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 5.143903546481778,
+      "recent_mae_pp": 3.4077787283100327,
+      "recent_block_mae_pp": 4.311464559656836,
+      "recent_worst_pp": 7.409835569850017,
+      "invalid_folds": 0
+    },
+    "linear_level__both__wall__a1": {
+      "folds": 12,
+      "all_mae_pp": 3.7886714216016855,
+      "recent_mae_pp": 2.7288629870750207,
+      "recent_block_mae_pp": 2.8957033368514664,
+      "recent_worst_pp": 5.076798388605482,
+      "invalid_folds": 0
+    },
+    "linear_level__both__w8__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 13.111148183910895,
+      "recent_mae_pp": 2.3286921733947943,
+      "recent_block_mae_pp": 2.2001605260882484,
+      "recent_worst_pp": 3.299195181467624,
+      "invalid_folds": 1
+    },
+    "linear_level__both__w8__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 8.01868350134289,
+      "recent_mae_pp": 1.951351636610094,
+      "recent_block_mae_pp": 1.8039973271133196,
+      "recent_worst_pp": 3.54735019300999,
+      "invalid_folds": 1
+    },
+    "linear_level__both__w8__a1": {
+      "folds": 12,
+      "all_mae_pp": 4.540299490907679,
+      "recent_mae_pp": 2.51198780585351,
+      "recent_block_mae_pp": 3.3285628823792925,
+      "recent_worst_pp": 7.279461060429611,
+      "invalid_folds": 0
+    },
+    "fractional_logit__both__wall__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 5.7631359343025155,
+      "recent_mae_pp": 3.6698926121332582,
+      "recent_block_mae_pp": 4.651732078654567,
+      "recent_worst_pp": 7.883694857359359,
+      "invalid_folds": 0
+    },
+    "fractional_logit__both__wall__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 3.92191874425907,
+      "recent_mae_pp": 3.124363815287803,
+      "recent_block_mae_pp": 3.7376856155035703,
+      "recent_worst_pp": 6.3347213794369,
+      "invalid_folds": 0
+    },
+    "fractional_logit__both__wall__a1": {
+      "folds": 12,
+      "all_mae_pp": 4.761166725946708,
+      "recent_mae_pp": 2.8421947129710765,
+      "recent_block_mae_pp": 1.805592526104358,
+      "recent_worst_pp": 6.36559238916513,
+      "invalid_folds": 0
+    },
+    "fractional_logit__both__w8__a0.01": {
+      "folds": 12,
+      "all_mae_pp": 5.702071101065422,
+      "recent_mae_pp": 1.4659007323788746,
+      "recent_block_mae_pp": 1.1235868205897492,
+      "recent_worst_pp": 3.5493480539647067,
+      "invalid_folds": 0
+    },
+    "fractional_logit__both__w8__a0.1": {
+      "folds": 12,
+      "all_mae_pp": 4.728478535040035,
+      "recent_mae_pp": 2.5241403274128706,
+      "recent_block_mae_pp": 3.3650394720045065,
+      "recent_worst_pp": 7.8120903301425955,
+      "invalid_folds": 0
+    },
+    "fractional_logit__both__w8__a1": {
+      "folds": 12,
+      "all_mae_pp": 4.130329994074317,
+      "recent_mae_pp": 2.0225985520491747,
+      "recent_block_mae_pp": 2.4545131584312045,
+      "recent_worst_pp": 3.9434460493861963,
+      "invalid_folds": 0
+    }
+  },
+  "policy_scores": {
+    "history": {
+      "folds": 12,
+      "all_mae_pp": 4.211561308019271,
+      "recent_mae_pp": 2.683983444600836,
+      "recent_block_mae_pp": 3.0675781155587187,
+      "recent_worst_pp": 4.530000000000001,
+      "invalid_folds": 0
+    },
+    "demographics": {
+      "folds": 12,
+      "all_mae_pp": 3.999122149057141,
+      "recent_mae_pp": 2.66285779249336,
+      "recent_block_mae_pp": 2.740403473544744,
+      "recent_worst_pp": 4.530000000000001,
+      "invalid_folds": 0
+    },
+    "conflict": {
+      "folds": 12,
+      "all_mae_pp": 3.7703006256981717,
+      "recent_mae_pp": 2.634490140285235,
+      "recent_block_mae_pp": 3.0581272541760876,
+      "recent_worst_pp": 4.530000000000001,
+      "invalid_folds": 0
+    },
+    "both": {
+      "folds": 12,
+      "all_mae_pp": 3.703035016114402,
+      "recent_mae_pp": 2.4999589211176954,
+      "recent_block_mae_pp": 2.4869161302242837,
+      "recent_worst_pp": 4.530000000000001,
+      "invalid_folds": 0
+    }
+  },
+  "paired_fixed_hyperparameter_deltas": [
+    {
+      "id": "linear_level__demographics__wall__a0.01",
+      "control_id": "linear_level__history__wall__a0.01",
+      "recent_mae_delta_pp": -0.1357219432988046,
+      "all_mae_delta_pp": 1.4177864592728553,
+      "block_mae_delta_pp": -0.10899456687917208
+    },
+    {
+      "id": "linear_level__demographics__wall__a0.1",
+      "control_id": "linear_level__history__wall__a0.1",
+      "recent_mae_delta_pp": -0.242128605214321,
+      "all_mae_delta_pp": 0.8302229484323504,
+      "block_mae_delta_pp": -0.05406559254511967
+    },
+    {
+      "id": "linear_level__demographics__wall__a1",
+      "control_id": "linear_level__history__wall__a1",
+      "recent_mae_delta_pp": -0.0019235173255203186,
+      "all_mae_delta_pp": 0.19565284198917832,
+      "block_mae_delta_pp": 0.3831831447911269
+    },
+    {
+      "id": "linear_level__demographics__w8__a0.01",
+      "control_id": "linear_level__history__w8__a0.01",
+      "recent_mae_delta_pp": 0.43310041901088914,
+      "all_mae_delta_pp": 0.36596036436835266,
+      "block_mae_delta_pp": -0.5255950276487673
+    },
+    {
+      "id": "linear_level__demographics__w8__a0.1",
+      "control_id": "linear_level__history__w8__a0.1",
+      "recent_mae_delta_pp": -0.22515436718935877,
+      "all_mae_delta_pp": -0.09628574253736577,
+      "block_mae_delta_pp": -1.3703479788970325
+    },
+    {
+      "id": "linear_level__demographics__w8__a1",
+      "control_id": "linear_level__history__w8__a1",
+      "recent_mae_delta_pp": -0.10806166109006199,
+      "all_mae_delta_pp": -0.16645922506157707,
+      "block_mae_delta_pp": 0.10437676921706895
+    },
+    {
+      "id": "fractional_logit__demographics__wall__a0.01",
+      "control_id": "fractional_logit__history__wall__a0.01",
+      "recent_mae_delta_pp": -0.28178862992770126,
+      "all_mae_delta_pp": 1.0728264600704693,
+      "block_mae_delta_pp": -0.13699181066766863
+    },
+    {
+      "id": "fractional_logit__demographics__wall__a0.1",
+      "control_id": "fractional_logit__history__wall__a0.1",
+      "recent_mae_delta_pp": -0.14267186513687102,
+      "all_mae_delta_pp": 0.29021816539994205,
+      "block_mae_delta_pp": 0.24993272147909673
+    },
+    {
+      "id": "fractional_logit__demographics__wall__a1",
+      "control_id": "fractional_logit__history__wall__a1",
+      "recent_mae_delta_pp": -0.7655970614643999,
+      "all_mae_delta_pp": -0.447193835428644,
+      "block_mae_delta_pp": -0.7153030313812478
+    },
+    {
+      "id": "fractional_logit__demographics__w8__a0.01",
+      "control_id": "fractional_logit__history__w8__a0.01",
+      "recent_mae_delta_pp": -0.5311361190879964,
+      "all_mae_delta_pp": -0.3779573463627717,
+      "block_mae_delta_pp": -1.8560118773524796
+    },
+    {
+      "id": "fractional_logit__demographics__w8__a0.1",
+      "control_id": "fractional_logit__history__w8__a0.1",
+      "recent_mae_delta_pp": -0.11540863521851241,
+      "all_mae_delta_pp": -0.1730344704092226,
+      "block_mae_delta_pp": -0.16885919331874755
+    },
+    {
+      "id": "fractional_logit__demographics__w8__a1",
+      "control_id": "fractional_logit__history__w8__a1",
+      "recent_mae_delta_pp": 0.024022874189761012,
+      "all_mae_delta_pp": -0.1083963441041238,
+      "block_mae_delta_pp": 0.2643329545862301
+    },
+    {
+      "id": "linear_level__conflict__wall__a0.01",
+      "control_id": "linear_level__history__wall__a0.01",
+      "recent_mae_delta_pp": 0.7396377160120147,
+      "all_mae_delta_pp": 1.362119434088069,
+      "block_mae_delta_pp": 1.0586068415590524
+    },
+    {
+      "id": "linear_level__conflict__wall__a0.1",
+      "control_id": "linear_level__history__wall__a0.1",
+      "recent_mae_delta_pp": 0.6567655373629955,
+      "all_mae_delta_pp": 1.1263548647810762,
+      "block_mae_delta_pp": 0.8492378571226178
+    },
+    {
+      "id": "linear_level__conflict__wall__a1",
+      "control_id": "linear_level__history__wall__a1",
+      "recent_mae_delta_pp": 0.44675294065601623,
+      "all_mae_delta_pp": 0.14379802599397573,
+      "block_mae_delta_pp": 0.5210694214565654
+    },
+    {
+      "id": "linear_level__conflict__w8__a0.01",
+      "control_id": "linear_level__history__w8__a0.01",
+      "recent_mae_delta_pp": 0.6364848383937853,
+      "all_mae_delta_pp": 6.961143663843978,
+      "block_mae_delta_pp": 0.4541991278841584
+    },
+    {
+      "id": "linear_level__conflict__w8__a0.1",
+      "control_id": "linear_level__history__w8__a0.1",
+      "recent_mae_delta_pp": -0.10491821303604443,
+      "all_mae_delta_pp": 4.406169126791581,
+      "block_mae_delta_pp": 0.34441783780471047
+    },
+    {
+      "id": "linear_level__conflict__w8__a1",
+      "control_id": "linear_level__history__w8__a1",
+      "recent_mae_delta_pp": 0.18478282205607632,
+      "all_mae_delta_pp": 0.8088407336939665,
+      "block_mae_delta_pp": 0.3664758218426223
+    },
+    {
+      "id": "fractional_logit__conflict__wall__a0.01",
+      "control_id": "fractional_logit__history__wall__a0.01",
+      "recent_mae_delta_pp": 0.7769057250150087,
+      "all_mae_delta_pp": 1.5642466019521248,
+      "block_mae_delta_pp": 1.109012065242951
+    },
+    {
+      "id": "fractional_logit__conflict__wall__a0.1",
+      "control_id": "fractional_logit__history__wall__a0.1",
+      "recent_mae_delta_pp": 0.36707223000097633,
+      "all_mae_delta_pp": 0.5864515090607165,
+      "block_mae_delta_pp": 0.5725117690374106
+    },
+    {
+      "id": "fractional_logit__conflict__wall__a1",
+      "control_id": "fractional_logit__history__wall__a1",
+      "recent_mae_delta_pp": 0.19118888867091988,
+      "all_mae_delta_pp": 0.005155965250295047,
+      "block_mae_delta_pp": -0.08282707235234232
+    },
+    {
+      "id": "fractional_logit__conflict__w8__a0.01",
+      "control_id": "fractional_logit__history__w8__a0.01",
+      "recent_mae_delta_pp": -0.007451820646721785,
+      "all_mae_delta_pp": 2.2570357336333835,
+      "block_mae_delta_pp": 0.3130257549044977
+    },
+    {
+      "id": "fractional_logit__conflict__w8__a0.1",
+      "control_id": "fractional_logit__history__w8__a0.1",
+      "recent_mae_delta_pp": 0.10285437490887483,
+      "all_mae_delta_pp": 1.2960836463946217,
+      "block_mae_delta_pp": 0.4110341337738972
+    },
+    {
+      "id": "fractional_logit__conflict__w8__a1",
+      "control_id": "fractional_logit__history__w8__a1",
+      "recent_mae_delta_pp": 0.09881096364460751,
+      "all_mae_delta_pp": 0.03894616845317689,
+      "block_mae_delta_pp": 0.19986545706988235
+    },
+    {
+      "id": "linear_level__both__wall__a0.01",
+      "control_id": "linear_level__history__wall__a0.01",
+      "recent_mae_delta_pp": 0.5225176889750713,
+      "all_mae_delta_pp": 2.258479069456522,
+      "block_mae_delta_pp": 0.8538223273047589
+    },
+    {
+      "id": "linear_level__both__wall__a0.1",
+      "control_id": "linear_level__history__wall__a0.1",
+      "recent_mae_delta_pp": 0.37508552989488697,
+      "all_mae_delta_pp": 1.6567575817398685,
+      "block_mae_delta_pp": 0.7457924527395532
+    },
+    {
+      "id": "linear_level__both__wall__a1",
+      "control_id": "linear_level__history__wall__a1",
+      "recent_mae_delta_pp": 0.16744611111086716,
+      "all_mae_delta_pp": 0.17005353494844178,
+      "block_mae_delta_pp": 0.7542429226968492
+    },
+    {
+      "id": "linear_level__both__w8__a0.01",
+      "control_id": "linear_level__history__w8__a0.01",
+      "recent_mae_delta_pp": -0.8675558817614735,
+      "all_mae_delta_pp": 8.11378319125463,
+      "block_mae_delta_pp": -1.849622528306194
+    },
+    {
+      "id": "linear_level__both__w8__a0.1",
+      "control_id": "linear_level__history__w8__a0.1",
+      "recent_mae_delta_pp": -1.0422736800287706,
+      "all_mae_delta_pp": 3.384492624053931,
+      "block_mae_delta_pp": -2.0849827499731894
+    },
+    {
+      "id": "linear_level__both__w8__a1",
+      "control_id": "linear_level__history__w8__a1",
+      "recent_mae_delta_pp": 0.13648806546630476,
+      "all_mae_delta_pp": 0.679577482887693,
+      "block_mae_delta_pp": 0.2988647282281405
+    },
+    {
+      "id": "fractional_logit__both__wall__a0.01",
+      "control_id": "fractional_logit__history__wall__a0.01",
+      "recent_mae_delta_pp": 0.4148028632986325,
+      "all_mae_delta_pp": 2.094685855950146,
+      "block_mae_delta_pp": 0.8036358468595179
+    },
+    {
+      "id": "fractional_logit__both__wall__a0.1",
+      "control_id": "fractional_logit__history__wall__a0.1",
+      "recent_mae_delta_pp": 0.07529116901309374,
+      "all_mae_delta_pp": 0.554458723269287,
+      "block_mae_delta_pp": 0.722387285993539
+    },
+    {
+      "id": "fractional_logit__both__wall__a1",
+      "control_id": "fractional_logit__history__wall__a1",
+      "recent_mae_delta_pp": -0.4559037279392273,
+      "all_mae_delta_pp": -0.36127863796559456,
+      "block_mae_delta_pp": -0.5648765299300027
+    },
+    {
+      "id": "fractional_logit__both__w8__a0.01",
+      "control_id": "fractional_logit__history__w8__a0.01",
+      "recent_mae_delta_pp": -1.6976494480720563,
+      "all_mae_delta_pp": 0.7984278200543198,
+      "block_mae_delta_pp": -2.9151277448474247
+    },
+    {
+      "id": "fractional_logit__both__w8__a0.1",
+      "control_id": "fractional_logit__history__w8__a0.1",
+      "recent_mae_delta_pp": -0.13906880798889398,
+      "all_mae_delta_pp": 0.8470354921549541,
+      "block_mae_delta_pp": -0.11997616096263419
+    },
+    {
+      "id": "fractional_logit__both__w8__a1",
+      "control_id": "fractional_logit__history__w8__a1",
+      "recent_mae_delta_pp": 0.18937098118019224,
+      "all_mae_delta_pp": -0.004534201647155456,
+      "block_mae_delta_pp": 0.44502132947982664
+    }
+  ],
+  "current_fits": {
+    "previous_election": {
+      "prediction_pct": 70.63,
+      "family": "reference",
+      "eligible": true,
+      "fit": {
+        "status": "reference"
+      }
+    },
+    "last_three_mean": {
+      "prediction_pct": 69.86333333333333,
+      "family": "reference",
+      "eligible": true,
+      "fit": {
+        "status": "reference"
+      }
+    },
+    "last_three_median": {
+      "prediction_pct": 70.63,
+      "family": "reference",
+      "eligible": true,
+      "fit": {
+        "status": "reference"
+      }
+    },
+    "linear_level__history__wall__a0.01": {
+      "prediction_pct": 70.59731472169963,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533
+        ],
+        "standardized_coefficients": [
+          0.739425,
+          0.05077260054224853,
+          -0.0019949617991955096
+        ],
+        "raw_intercept": 12.805944136202374,
+        "raw_coefficients": {
+          "lag1": 0.8274072063693165,
+          "gap_years": -0.16265342254893697
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__history__wall__a0.1": {
+      "prediction_pct": 71.18858578864939,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533
+        ],
+        "standardized_coefficients": [
+          0.7394249999999999,
+          0.045057454505059324,
+          0.0010746498822086935
+        ],
+        "raw_intercept": 18.977723464757712,
+        "raw_coefficients": {
+          "lag1": 0.734271283329713,
+          "gap_years": 0.0876184603903414
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__history__wall__a1": {
+      "prediction_pct": 72.9881331727806,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533
+        ],
+        "standardized_coefficients": [
+          0.739425,
+          0.02320752201975128,
+          0.00670243307493002
+        ],
+        "raw_intercept": 44.097625438733004,
+        "raw_coefficients": {
+          "lag1": 0.37819750723893925,
+          "gap_years": 0.5464634357821728
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__history__w8__a0.01": {
+      "prediction_pct": 68.34925358471361,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833
+        ],
+        "standardized_coefficients": [
+          0.6908124999999997,
+          0.0058209142381126875,
+          -0.008689702498196509
+        ],
+        "raw_intercept": 56.558493066616265,
+        "raw_coefficients": {
+          "lag1": 0.20318441133263782,
+          "gap_years": -0.642223360772308
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__history__w8__a0.1": {
+      "prediction_pct": 68.41115874369267,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833
+        ],
+        "standardized_coefficients": [
+          0.6908124999999998,
+          0.005498277701581601,
+          -0.00805707184381753
+        ],
+        "raw_intercept": 57.229442943662846,
+        "raw_coefficients": {
+          "lag1": 0.1919224837267907,
+          "gap_years": -0.5954679988865387
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__history__w8__a1": {
+      "prediction_pct": 68.71263054384103,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833
+        ],
+        "standardized_coefficients": [
+          0.6908124999999998,
+          0.003472140949337804,
+          -0.0047019903956523465
+        ],
+        "raw_intercept": 61.537691885637436,
+        "raw_coefficients": {
+          "lag1": 0.12119830081603934,
+          "gap_years": -0.34750649689580154
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "fractional_logit__history__wall__a0.01": {
+      "prediction_pct": 71.20510162553991,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 3.006966962752766e-17,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533
+        ],
+        "standardized_coefficients": [
+          1.0572265979606554,
+          0.24401389710888916,
+          0.0022173822132488573
+        ],
+        "raw_intercept": -1.9104650351206363,
+        "raw_coefficients": {
+          "lag1": 0.03976531727071045,
+          "gap_years": 0.001807878257265405
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__history__wall__a0.1": {
+      "prediction_pct": 72.59509844836134,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 2.2204460492503132e-17,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533
+        ],
+        "standardized_coefficients": [
+          1.05057528771115,
+          0.15909244638907286,
+          0.03140378198299839
+        ],
+        "raw_intercept": -0.9590626935868019,
+        "raw_coefficients": {
+          "lag1": 0.025926234861991856,
+          "gap_years": 0.02560416255877762
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__history__wall__a1": {
+      "prediction_pct": 73.7336573375929,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 5.051514762044462e-16,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533
+        ],
+        "standardized_coefficients": [
+          1.0436523133707136,
+          0.04037390990009322,
+          0.018446308348550523
+        ],
+        "raw_intercept": 0.5075092629494257,
+        "raw_coefficients": {
+          "lag1": 0.006579466807662401,
+          "gap_years": 0.015039662350901647
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__history__w8__a0.01": {
+      "prediction_pct": 68.37979743164802,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 1.6653345369377348e-16,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833
+        ],
+        "standardized_coefficients": [
+          0.8044540776286634,
+          0.026427031170075586,
+          -0.03940901362924642
+        ],
+        "raw_intercept": 0.23585423624914703,
+        "raw_coefficients": {
+          "lag1": 0.009224600383911598,
+          "gap_years": -0.02912572574601849
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__history__w8__a0.1": {
+      "prediction_pct": 68.58383385973636,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 1.8648277366750676e-17,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833
+        ],
+        "standardized_coefficients": [
+          0.8042255465513016,
+          0.020763906808133333,
+          -0.0291429510357438
+        ],
+        "raw_intercept": 0.3546804786571088,
+        "raw_coefficients": {
+          "lag1": 0.007247834290622043,
+          "gap_years": -0.021538463440932118
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__history__w8__a1": {
+      "prediction_pct": 68.94965549304291,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 2.7755575615628914e-17,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833
+        ],
+        "standardized_coefficients": [
+          0.8039464684938298,
+          0.006368882558033402,
+          -0.008213027837395677
+        ],
+        "raw_intercept": 0.6649450812254275,
+        "raw_coefficients": {
+          "lag1": 0.002223117538698342,
+          "gap_years": -0.006069941221743185
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "linear_level__demographics__wall__a0.01": {
+      "prediction_pct": 68.04589313414827,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534,
+          9.50150842376529,
+          15.002152502962144
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533,
+          1.834844608268009,
+          1.2303187491005976
+        ],
+        "standardized_coefficients": [
+          0.7394249999999999,
+          0.04164458350049646,
+          -0.008705003337861563,
+          -0.019266382367536923,
+          -0.0033432812257914745
+        ],
+        "raw_intercept": 39.6147327196377,
+        "raw_coefficients": {
+          "lag1": 0.6786540009091592,
+          "gap_years": -0.7097371923482847,
+          "resident_65plus_pct": -1.0500280122207903,
+          "female_resident_20_29_pct": -0.2717410612685144
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__demographics__wall__a0.1": {
+      "prediction_pct": 68.62694037134169,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534,
+          9.50150842376529,
+          15.002152502962144
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533,
+          1.834844608268009,
+          1.2303187491005976
+        ],
+        "standardized_coefficients": [
+          0.739425,
+          0.03671722058527421,
+          -0.005387728233589928,
+          -0.01873554751137699,
+          -0.002716856914400906
+        ],
+        "raw_intercept": 43.72966518859322,
+        "raw_coefficients": {
+          "lag1": 0.5983560539671005,
+          "gap_years": -0.4392727907423245,
+          "resident_65plus_pct": -1.0210972322643879,
+          "female_resident_20_29_pct": -0.22082545002155055
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__demographics__wall__a1": {
+      "prediction_pct": 70.90180885341059,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534,
+          9.50150842376529,
+          15.002152502962144
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533,
+          1.834844608268009,
+          1.2303187491005976
+        ],
+        "standardized_coefficients": [
+          0.7394249999999999,
+          0.01928565696551146,
+          0.003152796623623944,
+          -0.013330895142724054,
+          0.00030867368459652707
+        ],
+        "raw_intercept": 56.271138485939765,
+        "raw_coefficients": {
+          "lag1": 0.31428548828324615,
+          "gap_years": 0.2570541258684576,
+          "resident_65plus_pct": -0.7265408243648314,
+          "female_resident_20_29_pct": 0.02508891982847351
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__demographics__w8__a0.01": {
+      "prediction_pct": 66.03902906847794,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415,
+          11.14800998214784,
+          14.108543336655552
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833,
+          0.7857883294617848,
+          0.5286161129172169
+        ],
+        "standardized_coefficients": [
+          0.6908124999999997,
+          -0.00890920511141258,
+          -0.006188422453473679,
+          -0.02536775140849958,
+          -0.04190261526846115
+        ],
+        "raw_intercept": 239.0617810422351,
+        "raw_coefficients": {
+          "lag1": -0.31098406916076077,
+          "gap_years": -0.4573631222442343,
+          "resident_65plus_pct": -3.2283186778651807,
+          "female_resident_20_29_pct": -7.926851687743247
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__demographics__w8__a0.1": {
+      "prediction_pct": 68.10359086961967,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415,
+          11.14800998214784,
+          14.108543336655552
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833,
+          0.7857883294617848,
+          0.5286161129172169
+        ],
+        "standardized_coefficients": [
+          0.6908124999999998,
+          -0.003348631060975422,
+          -0.005148682130200569,
+          -0.006837435214039889,
+          -0.018786672145860453
+        ],
+        "raw_intercept": 137.68236441758037,
+        "raw_coefficients": {
+          "lag1": -0.11688707358710029,
+          "gap_years": -0.3805198097278934,
+          "resident_65plus_pct": -0.8701370277060617,
+          "female_resident_20_29_pct": -3.553934828468331
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "linear_level__demographics__w8__a1": {
+      "prediction_pct": 69.21115631803738,
+      "family": "linear_level",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "closed_form_lstsq",
+        "gradient_max_abs": null,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415,
+          11.14800998214784,
+          14.108543336655552
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833,
+          0.7857883294617848,
+          0.5286161129172169
+        ],
+        "standardized_coefficients": [
+          0.6908124999999998,
+          0.0009122204022528587,
+          -0.003287334125109411,
+          0.0016264065281135134,
+          -0.005014692368123115
+        ],
+        "raw_intercept": 78.49061150700723,
+        "raw_coefficients": {
+          "lag1": 0.03184189937446403,
+          "gap_years": -0.2429545511192618,
+          "resident_65plus_pct": 0.2069776894278258,
+          "female_resident_20_29_pct": -0.9486453866207505
+        },
+        "formula": "raw_intercept + raw_slopes*x"
+      }
+    },
+    "fractional_logit__demographics__wall__a0.01": {
+      "prediction_pct": 68.02771793678458,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 6.784937195414287e-16,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534,
+          9.50150842376529,
+          15.002152502962144
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533,
+          1.834844608268009,
+          1.2303187491005976
+        ],
+        "standardized_coefficients": [
+          1.0597689064081828,
+          0.196293119696639,
+          -0.035907508715656115,
+          -0.11706702171754353,
+          -0.02554385139233203
+        ],
+        "raw_intercept": -0.3157957744776767,
+        "raw_coefficients": {
+          "lag1": 0.03198858046724767,
+          "gap_years": -0.029276145488913566,
+          "resident_65plus_pct": -0.06380214498275594,
+          "female_resident_20_29_pct": -0.020761978479971476
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__demographics__wall__a0.1": {
+      "prediction_pct": 70.05949800113898,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 5.551115123125783e-17,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534,
+          9.50150842376529,
+          15.002152502962144
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533,
+          1.834844608268009,
+          1.2303187491005976
+        ],
+        "standardized_coefficients": [
+          1.0529523693058673,
+          0.13037567292030733,
+          0.005622590451098336,
+          -0.08654032739031073,
+          -0.007367116657867953
+        ],
+        "raw_intercept": -0.005777631544955586,
+        "raw_coefficients": {
+          "lag1": 0.021246453826951034,
+          "gap_years": 0.0045842160026869265,
+          "resident_65plus_pct": -0.047164935384909776,
+          "female_resident_20_29_pct": -0.005987973980932625
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__demographics__wall__a1": {
+      "prediction_pct": 72.74297528730264,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 8.809619700400617e-15,
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          74.491,
+          3.0607062431124534,
+          9.50150842376529,
+          15.002152502962144
+        ],
+        "training_scales": [
+          6.136349810758836,
+          1.2265108031128533,
+          1.834844608268009,
+          1.2303187491005976
+        ],
+        "standardized_coefficients": [
+          1.0443323387554815,
+          0.03690049101134604,
+          0.015060300311887648,
+          -0.029831362571224818,
+          0.005509297643057374
+        ],
+        "raw_intercept": 0.6461029198182393,
+        "raw_coefficients": {
+          "lag1": 0.006013426898617899,
+          "gap_years": 0.012278978932484726,
+          "resident_65plus_pct": -0.016258250119275203,
+          "female_resident_20_29_pct": 0.00447794333548509
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__demographics__w8__a0.01": {
+      "prediction_pct": 67.34912299516793,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 1.1941402727755346e-14,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415,
+          11.14800998214784,
+          14.108543336655552
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833,
+          0.7857883294617848,
+          0.5286161129172169
+        ],
+        "standardized_coefficients": [
+          0.8047485163810025,
+          -0.02587859935837691,
+          -0.026315182399810236,
+          -0.062031486011423,
+          -0.1258505093103104
+        ],
+        "raw_intercept": 5.700009678894258,
+        "raw_coefficients": {
+          "lag1": -0.009033165172434892,
+          "gap_years": -0.019448565567866047,
+          "resident_65plus_pct": -0.07894172474400407,
+          "female_resident_20_29_pct": -0.2380754317453411
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__demographics__w8__a0.1": {
+      "prediction_pct": 69.02637263894388,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 3.616898447411643e-16,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415,
+          11.14800998214784,
+          14.108543336655552
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833,
+          0.7857883294617848,
+          0.5286161129172169
+        ],
+        "standardized_coefficients": [
+          0.8044198984441371,
+          0.00041669133587730515,
+          -0.019314697145909852,
+          0.002804952061840979,
+          -0.03566544863232895
+        ],
+        "raw_intercept": 1.736218767537304,
+        "raw_coefficients": {
+          "lag1": 0.00014544997628257735,
+          "gap_years": -0.014274769148794188,
+          "resident_65plus_pct": 0.0035696025973842005,
+          "female_resident_20_29_pct": -0.06746946935746222
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "fractional_logit__demographics__w8__a1": {
+      "prediction_pct": 69.24856091922098,
+      "family": "fractional_logit",
+      "eligible": true,
+      "fit": {
+        "status": "converged",
+        "optimizer_message": "analytic_damped_newton",
+        "gradient_max_abs": 2.949029909160572e-17,
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "feature_names": [
+          "lag1",
+          "gap_years",
+          "resident_65plus_pct",
+          "female_resident_20_29_pct"
+        ],
+        "training_centers": [
+          68.19,
+          2.0746490345455415,
+          11.14800998214784,
+          14.108543336655552
+        ],
+        "training_scales": [
+          2.864842927631459,
+          1.3530654642874833,
+          0.7857883294617848,
+          0.5286161129172169
+        ],
+        "standardized_coefficients": [
+          0.8040201594161418,
+          0.004229115199239363,
+          -0.0068636573715387065,
+          0.005911951159684614,
+          -0.00930480339173418
+        ],
+        "raw_intercept": 0.8783495181144099,
+        "raw_coefficients": {
+          "lag1": 0.001476211892264485,
+          "gap_years": -0.005072672056671752,
+          "resident_65plus_pct": 0.007523592471440656,
+          "female_resident_20_29_pct": -0.017602194039044256
+        },
+        "formula": "100*sigmoid(raw_intercept + raw_slopes*x)"
+      }
+    },
+    "linear_level__conflict__wall__a0.01": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__conflict__wall__a0.1": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__conflict__wall__a1": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__conflict__w8__a0.01": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__conflict__w8__a0.1": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__conflict__w8__a1": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__conflict__wall__a0.01": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__conflict__wall__a0.1": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__conflict__wall__a1": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__conflict__w8__a0.01": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__conflict__w8__a0.1": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__conflict__w8__a1": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__both__wall__a0.01": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__both__wall__a0.1": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__both__wall__a1": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__both__w8__a0.01": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__both__w8__a0.1": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "linear_level__both__w8__a1": {
+      "prediction_pct": null,
+      "family": "linear_level",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__both__wall__a0.01": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__both__wall__a0.1": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__both__wall__a1": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__both__w8__a0.01": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__both__w8__a0.1": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    },
+    "fractional_logit__both__w8__a1": {
+      "prediction_pct": null,
+      "family": "fractional_logit",
+      "eligible": false,
+      "fit": {
+        "status": "missing_current_context",
+        "training_knessets": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ]
+      }
+    }
+  },
+  "current_selections": {
+    "history": {
+      "selected": "fractional_logit__history__w8__a1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "validation_mae": 1.8332275708689825
+    },
+    "demographics": {
+      "selected": "fractional_logit__demographics__w8__a1",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "validation_mae": 1.8572504450587435
+    },
+    "conflict": {
+      "selected": "last_three_mean",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "validation_mae": 2.0588888888888897
+    },
+    "both": {
+      "selected": "last_three_mean",
+      "status": "past_only_selection",
+      "validation_knessets": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "validation_mae": 2.0588888888888897
+    }
+  },
+  "current_features": {
+    "features": {
+      "history": {
+        "lag1": 70.63,
+        "gap_years": 3.986392602175267
+      },
+      "demographics": {
+        "lag1": 70.63,
+        "gap_years": 3.986392602175267,
+        "resident_65plus_pct": 12.3030366078735,
+        "female_resident_20_29_pct": 13.81590064257055
+      },
+      "conflict": null,
+      "both": null
+    },
+    "cutoff": "2026-10-25",
+    "demographics": {
+      "reference_year": 2022,
+      "status": "retrospective_revised_vintage",
+      "historical_availability_verified": false
+    },
+    "conflict": {
+      "status": "catalogue_coverage_incomplete"
+    }
+  },
+  "environment": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "seed": "not_applicable_deterministic"
+  },
+  "decision": "No model adoption. Existing turnout and seat forecast unchanged.",
+  "source_audit": {
+    "reviewed_on": "2026-10-25",
+    "demographics": {
+      "historical_availability_verified": false,
+      "usage": "Retrospective revised-vintage sensitivity only",
+      "strict_backtest_decision": "Exclude demographic blocks until historical releases are reconstructed",
+      "source": "World Bank WDI, UN Population Division World Population Prospects",
+      "features": [
+        "65+ percent of total de facto resident population",
+        "20-29 percent of female resident population"
+      ],
+      "denominator_note": "Separate, explicitly named denominators; neither is the registered electorate. Female20-24 and25-29 shares can be summed within female population. Do not multiply by the collected female-total weight: its metadata additionally cites WPP2022, so cross-series vintage alignment is not certified.",
+      "reference_rule": "Exact election-year minus2, capped at2022; no interpolation, no nearest future year, no2024/2025 values or population forecasts. Cap makes current inputs deliberately stale; not an availability certificate.",
+      "omitted": "CBS locality age/sex/SES lacks compatible national historical coverage and verified release vintages; locality medians/ranks are not averaged. Male/female-total WB series retained as audit material, not fitted. No individual voter inference."
+    },
+    "conflicts": {
+      "historical_availability_verified": false,
+      "coverage_end": "2022-12-31",
+      "definition": "Non-exhaustive curated named-onset index: E014 six wars and four Gaza operations, plus three onsets directly checked in E016. No claim of complete conflict coverage or peace when the index is zero.",
+      "features": [
+        "count of catalogued onsets in365 days through forecast cutoff",
+        "years since latest catalogued onset, capped at10"
+      ],
+      "strict_backtest_decision": "Retrospective event-date sensitivity; source pages are later publications, not archived real-time versions",
+      "unknown_end_rule": "End/active status/severity are not inferred or fitted. Unknown ends remain null. No current conflict prediction: post2022 catalogue incomplete.",
+      "catalogue_url": "https://www.idf.il/en/mini-sites/wars-and-operations/",
+      "additional_events": [
+        {
+          "id": "accountability",
+          "label": "Operation Accountability",
+          "onset": "1993-07-25",
+          "end": "1993-07-31",
+          "kind": "operation",
+          "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-accountability/",
+          "source_publication": "2017-10-30",
+          "reviewed_on": "2026-10-25",
+          "note": "Page has inconsistent40-day evacuation narrative versus six-day duration; use explicitly dated onset only."
+        },
+        {
+          "id": "grapes",
+          "label": "Operation Grapes of Wrath",
+          "onset": "1996-04-11",
+          "end": null,
+          "kind": "operation",
+          "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-grapes-of-wrath/",
+          "source_publication": "2017-10-30",
+          "reviewed_on": "2026-10-25"
+        },
+        {
+          "id": "defensive_shield",
+          "label": "Operation Defensive Shield",
+          "onset": "2002-03-29",
+          "end": null,
+          "kind": "operation",
+          "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-defensive-shield/",
+          "source_publication": "2017-10-30",
+          "reviewed_on": "2026-10-25"
+        }
+      ],
+      "excluded_pending_audit": [
+        "War of Attrition: phase/onset ambiguity",
+        "First/Second Intifada: start/end/inclusion rule",
+        "Gulf War1991, Litani1978 and other operations: bounded audit incomplete",
+        "Post2022 wars/operations including2023-2026: current duration/intensity/coverage not audited"
+      ],
+      "effect_interpretation": "Predictive association only; outcome-inspected history, era and demographic trends confound effects. Narrow catalogue chosen before E016 model execution, not claimed exhaustive."
+    },
+    "history": {
+      "historical_availability_verified": false,
+      "usage": "Earlier numerical outcomes only; original publication vintages not reconstructed, as E014/E015",
+      "features": [
+        "previous Knesset turnout percent",
+        "years since previous Knesset election"
+      ]
+    },
+    "scope": "Audit timebox narrowed broad demographic/conflict proposal to two compatible age context measures and onset sensitivity. Historical/economic/severity expansion not silently invented. No forecast adoption."
+  },
+  "historical_predictions_file": "predictions.csv"
+}

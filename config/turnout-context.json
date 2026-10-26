@@ -1,0 +1,17 @@
+{
+  "history_path": "data/snapshots/turnout-history-2026-10-24/inputs.json",
+  "context_path": "data/snapshots/turnout-context-2026-10-25",
+  "forecast_election_date": "2026-10-27",
+  "forecast_cutoff": "2026-10-25",
+  "demographic_lag_years": 2,
+  "demographic_max_reference_year": 2022,
+  "minimum_training_elections": 8,
+  "minimum_selection_folds": 3,
+  "selection_lookback": 6,
+  "training_windows": [null, 8],
+  "blocks": ["history", "demographics", "conflict", "both"],
+  "families": ["linear_level", "fractional_logit"],
+  "alphas": [0.01, 0.1, 1.0],
+  "numeric_reproduction_absolute_tolerance": 0.0000001,
+  "decision": "Retrospective controlled ablation only; no automatic forecast replacement"
+}
