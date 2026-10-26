@@ -45,3 +45,8 @@ Workflow **Explore diverse forecasts and prediction-band widths** first runs six
 The30-day artifact **diversity-bands-E022** contains START_HERE.md, results.json, diversity.csv, current-bands.svg, diversity.svg, source/code hashes, environment and run.log. It includes complete/partial/infeasible/unavailable statuses. Ordinary failures preserve partial files where possible; a hard runner termination may prevent upload. Full outputs remain artifact-only until a reviewed compact report is published.
 
 Open the supplied run link → inspect validation/research status → Summary → Artifacts → diversity-bands-E022. Extract into `output/diversity-bands-2026-10-26` within the repo; read START_HERE.md and open both SVGs. Return with the run ID for analysis. No personal/team/form information is collected. No adoption, new≤500word method claim or submission is authorized by launching this experiment.
+
+
+## Executed analysis
+
+Run40317447939succeeded12.485s; six tests/source audit/baseline and all14primary/14secondary/44greedy optima passed. Raw scenario80/90coverage does not calibrate actual elections:0/6whole-vector coverage; auxiliary marginal interval scores improve on descriptive envelopes. Prior80inflation6is very wide and90rank unavailable. Four diversity batches produce41unique math vectors; one BlueWhite3 conflict with working withdrawal assumption is flagged. Wider tolerance includes additional threshold cases; audited Amcha4witness exists despite greedy-sample omission. Read reports/diversity-bands-2026-10-26/findings.md, independent audit, plots and review CSV. Full detail artifact-only. PR37stacksPR36 and holds final head/checks; no adopted forecast/turnout change, merge or submission.

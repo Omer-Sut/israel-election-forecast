@@ -160,3 +160,6 @@ E021 was executed and not adopted: finite-model minimax regret solved completely
 
 
 E022 is prepared research, not an adopted method: model-coverage band-width optimization, chronological max-miss inflation diagnostic and greedy diverse candidate vectors. These are not calibrated confidence bands, a selected new forecast or a globally optimal diversity batch. Actual execution must be checked from the hosted run after user return. Preserve the adopted333word description, seats and69.86%turnout; no automatic adoption/submission.
+
+
+E022 executed as unadopted research: minimum-width model bands and diversity solve completely12.485s, but raw80/90model bands cover full actual election0/6. Auxiliary interval scores improve vs poll envelope; no calibrated confidence/point-accuracy claim. Earlier80inflation is very wide,90unavailable for finite rank. Diversity provides41math vectors with one working-roster conflict, not a probability sample. Preserve adopted333word method, seats and69.86%turnout. Read reports/diversity-bands-2026-10-26/findings.md and PR37 final evidence before citing.

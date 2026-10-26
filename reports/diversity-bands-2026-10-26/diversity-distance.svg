@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="640" viewBox="0 0 1140 640"><rect width="1140" height="640" fill="white"/><g font-family="Arial,sans-serif" fill="#21384b">
+<text x="25" y="32" font-size="23">E022: more diversity requires accepting worse assumed regret</text>
+<text x="25" y="62" font-size="14">Minimum pairwise total seat distance in each selected12-vector batch; counts are not probabilities.</text>
+<rect x="110" y="290" width="100" height="140" fill="#246e9b"/><text x="150" y="275" font-size="18">4</text><text x="90" y="465" font-size="14">Budget12, tolerance1</text>
+<rect x="370" y="150" width="100" height="280" fill="#8a4284"/><text x="410" y="135" font-size="18">8</text><text x="350" y="465" font-size="14">Budget12, tolerance3</text>
+<rect x="630" y="290" width="100" height="140" fill="#246e9b"/><text x="670" y="275" font-size="18">4</text><text x="610" y="465" font-size="14">Budgetnull, tolerance1</text>
+<rect x="890" y="150" width="100" height="280" fill="#8a4284"/><text x="930" y="135" font-size="18">8</text><text x="870" y="465" font-size="14">Budgetnull, tolerance3</text>
+<text x="25" y="525" font-size="15">41distinct greedy vectors;40respect working BlueandWhite0.</text>
+<text x="25" y="560" font-size="14">All44greedy steps are optimal; the batches are not proven jointly most diverse.</text>
+<text x="25" y="615" font-size="13">A separate valid Amcha4 witness is saved. Diversity is not new evidence about which outcome will occur.</text></g></svg>

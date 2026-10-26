@@ -310,3 +310,6 @@ E021 analysis October26: run40311428283 completed47.176s,8tests passed, all267or
 
 
 E022 preparation October26: user approved exploration of diverse forecasts and bandwidth diagnostics. Added frozen joint-scenario minimum-width bands80/90, past-only whole-election miss-rank diagnostic, and sequential max-min alternatives within expanded regret tolerance. Six gated tests/source audit/baseline, unattended job with30day artifact and no AI calls. Reuses original E021artifact, no numerical rerun. Explicit PR35dependency. Launch/results pending; final topic PR holds run URL. End turn after accepted launch, no polling. No adopted forecast/turnout/merge/submission change.
+
+
+E022 analysis October26: run40317447939completed12.485s, six tests and all14band-primary/14secondary/44greedy-step optima passed. Raw model-band full election coverage0/6 despite improved auxiliary marginal scores; no calibrated confidence interpretation.80prior inflation6very wide,90unavailable. Four batches yield41unique math vectors, one BlueWhite3 working-assumption conflict flagged; Amcha4witness independently feasible at wider tolerance. Saved compact audit/findings/plots/review CSV, full outputs artifact-only. PR37stacks36, final checks onPR37. Forecast/69.86%turnout unchanged, no submission or merge.
