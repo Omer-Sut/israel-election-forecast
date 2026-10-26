@@ -132,3 +132,6 @@ Read docs/turnout-history.md. Four new tests and dedicated hosted repeat/referen
 
 
 E016 source audit2026-10-25: frozen primary World Bank WDI API observations/metadata under data/snapshots/turnout-context-2026-10-25/worldbank,66annual values1960-2025 per indicator, provider update2026-10-08. Retrieval/hash manifest preserved. UN/WDI resident age shares are retrospective revised-vintage sensitivities, not historically available CBS electorate features. Only65+total and20-29female shares fitted; cross-vintage sex weighting excluded. Three additional original IDF onsets/URLs/publication dates in audit.json; non-exhaustive catalogue, unknown end/active/severity excluded and current post2022 coverage unavailable. See docs/turnout-context.md.
+
+
+E017 October 25 bounded recheck: source URLs and reader outcomes are preserved in data/snapshots/forecast-decision-2026-10-25/audit.json. Official unit/rules pages403, candidate page inaccessible, poll repository dynamic template. Ynet Kan vector remains121; legacy Zman corroboration URL now unrelated feed; Channel16 remains secondary-only. BlueandWhite withdrawal again news-reported, direct official notice not authenticated. No raw byte hashes invented, source promotion or change to frozen poll inputs.

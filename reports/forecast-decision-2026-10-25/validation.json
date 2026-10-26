@@ -1,0 +1,11 @@
+{
+  "seat_vector_equal_to_previous": true,
+  "total_seats": 120,
+  "turnout_pct": "69.86",
+  "unrounded_and_displayed_turnout_within_configured_bounds": true,
+  "all_scenarios_valid": true,
+  "method_word_count": 333,
+  "forecast_sha256": "3a02e8c53ef2b85af839b6d048650c4a581ad64e6a24cae0bd9c316ab449ca97",
+  "source_freeze_complete": false,
+  "submitted": false
+}

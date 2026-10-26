@@ -1,0 +1,44 @@
+name: Prepare approved forecast decision
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/forecast_decision.py'
+      - 'tests/test_forecast_decision.py'
+      - 'config/forecast-decision.json'
+      - 'data/snapshots/forecast-decision-2026-10-25/**'
+      - 'reports/forecast-decision-2026-10-25/**'
+      - '.github/workflows/forecast-decision.yml'
+permissions:
+  contents: read
+jobs:
+  decision:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Test approved decision and historical preservation
+        run: python -m unittest discover -s tests -p test_forecast_decision.py -v
+      - name: Prepare and reproduce decision package
+        run: |
+          python scripts/forecast_decision.py
+          python scripts/forecast_decision.py --out-dir output/forecast-decision-repeat > output/forecast-decision-repeat.log
+          for file in forecast.json package.json review.md scenario-comparison.csv reservists-scenarios.svg method-description.txt inputs-manifest.json validation.json; do
+            diff -u "output/forecast-decision/$file" "output/forecast-decision-repeat/$file"
+            if [ -d reports/forecast-decision-2026-10-25 ]; then
+              diff -u "reports/forecast-decision-2026-10-25/$file" "output/forecast-decision/$file"
+            fi
+          done
+          cat output/forecast-decision/review.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: forecast-decision
+          path: output/forecast-decision/
+          if-no-files-found: error
+          retention-days: 30

@@ -1,0 +1,14 @@
+{
+  "decision_date": "2026-10-25",
+  "poll_cutoff": "2026-10-24",
+  "seat_reference": "reports/review-package-2026-10-24/forecast.json",
+  "turnout_history": "data/snapshots/turnout-history-2026-10-24/inputs.json",
+  "turnout_method": "last_three_mean",
+  "turnout_authority": "User accepted the recommendation on2026-10-25",
+  "turnout_display": "69.86",
+  "active_report": "reports/forecast-decision-2026-10-25/forecast.json",
+  "source_audit": "data/snapshots/forecast-decision-2026-10-25/audit.json",
+  "seat_decision": "Retain the reviewed zero-or-at-least3 seat vector and conditional Reservists alternatives",
+  "source_freeze_complete": false,
+  "submitted": false
+}
