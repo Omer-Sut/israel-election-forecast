@@ -1,0 +1,9 @@
+{
+  "config/turnout-models.json": "dd243b8b2da2282d415bfc9778ae1b522cb10f4a64ca759df2b94cc107185877",
+  "data/snapshots/turnout-history-2026-10-24/inputs.json": "6bb6da010365c2fb0b89e251750cfb755a607af59f820511d679d1a7db741cc1",
+  "scripts/turnout_models.py": "5874c4e8b2498770d406d38a2d74792c8298f98de3f1462e2f212daed665c76b",
+  "scripts/turnout_history.py": "e0bc36645f9d3f8f00524e3e0aee00ef006193f743a36d60a0505eb3f22c5adf",
+  "config/submission-fields.json": "e0d7dfff3b587801b761a296220e3ffe012fa1af63fcd7aeae488810381f656a",
+  "requirements-turnout.txt": "746bd67291203d3b84ac6fbeee3528575d0fe466cba2dc6c56f9c59b16064caf",
+  "scripts/compare_turnout_models.py": "c6433a2c8eb76c49c4f2c61a3db5b821fc73748b9efbca64a8132bf2e5a132fc"
+}

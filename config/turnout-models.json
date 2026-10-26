@@ -1,0 +1,15 @@
+{
+  "history_path": "data/snapshots/turnout-history-2026-10-24/inputs.json",
+  "forecast_election_date": "2026-10-27",
+  "forecast_date_source": "Competition-provided election date; not a new independent verification",
+  "forecast_cutoff": "2026-10-24",
+  "minimum_training_elections": 6,
+  "minimum_selection_folds": 3,
+  "training_windows": [null, 12, 8],
+  "feature_sets": ["ar1", "ar3", "level_momentum", "smooth_gap", "spacing", "era_trend", "annual_momentum", "expanding_level"],
+  "linear_alphas": [0.0, 0.01, 0.1, 1.0],
+  "fractional_logit_alphas": [0.001, 0.01, 0.1],
+  "selection_lookbacks": [6, null],
+  "numeric_reproduction_absolute_tolerance": 0.0000001,
+  "decision": "Exploratory fits; no automatic forecast replacement"
+}
