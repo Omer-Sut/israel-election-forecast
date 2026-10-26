@@ -154,3 +154,6 @@ E020 was executed as research, not adopted: matched primary reported-share ridge
 
 
 E021 solver research is prepared separately and not part of the adopted method. HiGHS minimax model-regret and CP-SAT search use explicit sensitivity assumptions, not calibrated vote probabilities. Execution/result status must be read from the hosted run and START_HERE report after the user returns. The active333word method, seat forecast and69.86% turnout remain unchanged; no automatic adoption/submission.
+
+
+E021 was executed and not adopted: finite-model minimax regret solved completely47.176s;267oracle/21robust certificates and9CP objective checks. HiGHS historical mean19.0 versus pollmean18.667; equally optimal CP choices tie18.667. No reliable improvement or hindsight tie-rule selection. Current robust optima keepReservists3/Amcha0, with4nearby under assumed regret; no calibrated probabilities. Adopted333word method/forecast and turnout69.86% remain unchanged. Read reports/numerical-search-2026-10-26/findings.md and PR35 final evidence.

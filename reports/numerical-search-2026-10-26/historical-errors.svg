@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620"><rect width="1120" height="620" fill="white"/><g font-family="Arial,sans-serif" fill="#21384b">
+<text x="25" y="32" font-size="23">E021: exact numerical optimization did not improve historical accuracy</text>
+<text x="25" y="62" font-size="14">Total absolute seat error; lower is better. Same six campaigns. Equal optima can give different forecasts.</text>
+<path d="M70,430H1060" stroke="#dde4e8"/><text x="32" y="434" font-size="12">0</text>
+<path d="M70,368H1060" stroke="#dde4e8"/><text x="32" y="372" font-size="12">8</text>
+<path d="M70,306H1060" stroke="#dde4e8"/><text x="32" y="310" font-size="12">16</text>
+<path d="M70,244H1060" stroke="#dde4e8"/><text x="32" y="248" font-size="12">24</text>
+<path d="M70,182H1060" stroke="#dde4e8"/><text x="32" y="186" font-size="12">32</text>
+<path d="M70,120H1060" stroke="#dde4e8"/><text x="32" y="124" font-size="12">40</text>
+<circle cx="100" cy="259.5" r="5" fill="#246e9b"><title>Poll mean: 22</title></circle>
+<circle cx="280" cy="135.5" r="5" fill="#246e9b"><title>Poll mean: 38</title></circle>
+<circle cx="460" cy="337" r="5" fill="#246e9b"><title>Poll mean: 12</title></circle>
+<circle cx="640" cy="368" r="5" fill="#246e9b"><title>Poll mean: 8</title></circle>
+<circle cx="820" cy="275" r="5" fill="#246e9b"><title>Poll mean: 20</title></circle>
+<circle cx="1000" cy="337" r="5" fill="#246e9b"><title>Poll mean: 12</title></circle>
+<polyline points="100,259.5 280,135.5 460,337 640,368 820,275 1000,337" fill="none" stroke="#246e9b" stroke-width="2"/>
+<text x="25" y="520" fill="#246e9b" font-size="15">Poll mean; mean 18.67</text>
+<circle cx="100" cy="244" r="4.5" fill="#b47822"><title>Robust budget6: 24</title></circle>
+<circle cx="280" cy="135.5" r="4.5" fill="#b47822"><title>Robust budget6: 38</title></circle>
+<circle cx="460" cy="321.5" r="4.5" fill="#b47822"><title>Robust budget6: 14</title></circle>
+<circle cx="640" cy="368" r="4.5" fill="#b47822"><title>Robust budget6: 8</title></circle>
+<circle cx="820" cy="275" r="4.5" fill="#b47822"><title>Robust budget6: 20</title></circle>
+<circle cx="1000" cy="321.5" r="4.5" fill="#b47822"><title>Robust budget6: 14</title></circle>
+<polyline points="100,244 280,135.5 460,321.5 640,368 820,275 1000,321.5" fill="none" stroke="#b47822" stroke-width="2"/>
+<text x="575" y="520" fill="#b47822" font-size="15">Robust budget6; mean 19.67</text>
+<circle cx="100" cy="259.5" r="4" fill="#8a4284"><title>Robust budget12 HiGHS: 22</title></circle>
+<circle cx="280" cy="135.5" r="4" fill="#8a4284"><title>Robust budget12 HiGHS: 38</title></circle>
+<circle cx="460" cy="337" r="4" fill="#8a4284"><title>Robust budget12 HiGHS: 12</title></circle>
+<circle cx="640" cy="368" r="4" fill="#8a4284"><title>Robust budget12 HiGHS: 8</title></circle>
+<circle cx="820" cy="275" r="4" fill="#8a4284"><title>Robust budget12 HiGHS: 20</title></circle>
+<circle cx="1000" cy="321.5" r="4" fill="#8a4284"><title>Robust budget12 HiGHS: 14</title></circle>
+<polyline points="100,259.5 280,135.5 460,337 640,368 820,275 1000,321.5" fill="none" stroke="#8a4284" stroke-width="2"/>
+<text x="25" y="550" fill="#8a4284" font-size="15">Robust budget12 HiGHS; mean 19.00</text>
+<circle cx="100" cy="259.5" r="3.5" fill="#278267"><title>Same optimum CP-SAT: 22</title></circle>
+<circle cx="280" cy="135.5" r="3.5" fill="#278267"><title>Same optimum CP-SAT: 38</title></circle>
+<circle cx="460" cy="337" r="3.5" fill="#278267"><title>Same optimum CP-SAT: 12</title></circle>
+<circle cx="640" cy="368" r="3.5" fill="#278267"><title>Same optimum CP-SAT: 8</title></circle>
+<circle cx="820" cy="275" r="3.5" fill="#278267"><title>Same optimum CP-SAT: 20</title></circle>
+<circle cx="1000" cy="337" r="3.5" fill="#278267"><title>Same optimum CP-SAT: 12</title></circle>
+<polyline points="100,259.5 280,135.5 460,337 640,368 820,275 1000,337" fill="none" stroke="#278267" stroke-width="2"/>
+<text x="575" y="550" fill="#278267" font-size="15">Same optimum CP-SAT; mean 18.67</text>
+<text x="75" y="465" font-size="14">2015</text>
+<text x="255" y="465" font-size="14">2019 Apr</text>
+<text x="435" y="465" font-size="14">2019 Sep</text>
+<text x="615" y="465" font-size="14">2020</text>
+<text x="795" y="465" font-size="14">2021</text>
+<text x="975" y="465" font-size="14">2022</text>
+<text x="25" y="600" font-size="13">2019–2021 outcomes are dependent; all campaigns previously inspected. No fresh holdout or adopted correction.</text></g></svg>

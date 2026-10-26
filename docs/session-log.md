@@ -304,3 +304,6 @@ E020 executed: primary percentages worsen mean seat L1 to15.0 versus seat/missin
 
 
 E021 preparation October26: user requested final constrained numerical search then unattended GitHub execution to save Codex tokens. Added frozen finite-model regret protocol, HiGHS/CP-SAT implementation, eight correctness tests, separate pinned dependencies and gated180min workflow with partial checkpoints/artifact. No execution result claimed at preparation. Read docs/numerical-search.md for exact user monitoring/download steps. Topic from live main49c9534; final PR body holds launch URL. No forecast/turnout change, automatic merge or competition submission.
+
+
+E021 analysis October26: run40311428283 completed47.176s,8tests passed, all267oracle/21robust optima and9CP objective checks certified; independent exact-weight audit passed. No historical improvement: HiGHS budget12=19.0 versusmean18.667; equal-objective CP choices tie18.667. Current robust focus3/0 stable, near-band includes4/0 and adopted reference, not calibrated probabilities. Keep forecast/69.86% turnout. Saved compact findings/audit/plots; full checkpoint artifact-only. Network-blocked direct transfer recovered via read-only helper40312130309 without rerunning solvers. PR35stacksPR34; final evidence on PR35. No merge/submission.

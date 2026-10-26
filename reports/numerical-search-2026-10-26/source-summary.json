@@ -1,0 +1,910 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 47.176,
+  "historical": {
+    "robust_regret_budget_6": {
+      "campaigns": 6,
+      "mean_l1": 19.666666666666668,
+      "equal_period_l1": 19.333333333333332
+    },
+    "square_0or3_budget_6": {
+      "campaigns": 6,
+      "mean_l1": 18.666666666666668,
+      "equal_period_l1": 17.833333333333332
+    },
+    "absolute_0or3_budget_6": {
+      "campaigns": 6,
+      "mean_l1": 19,
+      "equal_period_l1": 18
+    },
+    "robust_regret_budget_12": {
+      "campaigns": 6,
+      "mean_l1": 19,
+      "equal_period_l1": 18.5
+    },
+    "square_0or3_budget_12": {
+      "campaigns": 6,
+      "mean_l1": 18.666666666666668,
+      "equal_period_l1": 17.833333333333332
+    },
+    "absolute_0or3_budget_12": {
+      "campaigns": 6,
+      "mean_l1": 19,
+      "equal_period_l1": 18
+    },
+    "robust_regret_budget_None": {
+      "campaigns": 6,
+      "mean_l1": 19,
+      "equal_period_l1": 18.5
+    },
+    "square_0or3_budget_None": {
+      "campaigns": 6,
+      "mean_l1": 18.666666666666668,
+      "equal_period_l1": 17.833333333333332
+    },
+    "absolute_0or3_budget_None": {
+      "campaigns": 6,
+      "mean_l1": 19,
+      "equal_period_l1": 18
+    }
+  },
+  "current": {
+    "party_ids": [
+      "likud",
+      "yashar",
+      "beyachad",
+      "democrats",
+      "yisrael_beiteinu",
+      "shas",
+      "united_torah_judaism",
+      "otzma_yehudit",
+      "religious_zionism",
+      "raam",
+      "hadash_taal",
+      "blue_and_white",
+      "amcha_yisrael",
+      "reservists_economic",
+      "other_qualifying_lists"
+    ],
+    "reference": [
+      22,
+      22,
+      13,
+      9,
+      7,
+      8,
+      7,
+      8,
+      7,
+      5,
+      9,
+      0,
+      0,
+      3,
+      0
+    ],
+    "scale": 672,
+    "cells": [
+      {
+        "budget": 6,
+        "status": "complete",
+        "highs": {
+          "status": 0,
+          "optimal": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "gap": 0.0,
+          "lower_bound": 942.0,
+          "seats": [
+            21,
+            22,
+            14,
+            9,
+            7,
+            8,
+            7,
+            8,
+            7,
+            5,
+            9,
+            0,
+            0,
+            3,
+            0
+          ],
+          "value_scaled": 942
+        },
+        "cp_sat": {
+          "status": "OPTIMAL",
+          "optimal": true,
+          "lower_bound": 942.0,
+          "seats": [
+            21,
+            22,
+            14,
+            9,
+            7,
+            8,
+            7,
+            8,
+            7,
+            5,
+            9,
+            0,
+            0,
+            3,
+            0
+          ],
+          "value_scaled": 942
+        },
+        "focus_conditions": [
+          {
+            "values": [
+              0,
+              0
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 1740.0,
+            "seats": [
+              22,
+              22,
+              14,
+              9,
+              8,
+              8,
+              8,
+              8,
+              7,
+              5,
+              9,
+              0,
+              0,
+              0,
+              0
+            ],
+            "value_scaled": 1740
+          },
+          {
+            "values": [
+              0,
+              3
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 2912.0,
+            "seats": [
+              22,
+              22,
+              13,
+              9,
+              7,
+              8,
+              7,
+              8,
+              7,
+              5,
+              9,
+              0,
+              3,
+              0,
+              0
+            ],
+            "value_scaled": 2912
+          },
+          {
+            "values": [
+              0,
+              4
+            ],
+            "status": "INFEASIBLE",
+            "optimal": false,
+            "lower_bound": 0.0
+          },
+          {
+            "values": [
+              3,
+              0
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 942.0,
+            "seats": [
+              21,
+              22,
+              14,
+              9,
+              7,
+              8,
+              7,
+              8,
+              7,
+              5,
+              9,
+              0,
+              0,
+              3,
+              0
+            ],
+            "value_scaled": 942
+          },
+          {
+            "values": [
+              3,
+              3
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 2508.0,
+            "seats": [
+              21,
+              22,
+              13,
+              8,
+              7,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              3,
+              3,
+              0
+            ],
+            "value_scaled": 2508
+          },
+          {
+            "values": [
+              3,
+              4
+            ],
+            "status": "INFEASIBLE",
+            "optimal": false,
+            "lower_bound": 0.0
+          },
+          {
+            "values": [
+              4,
+              0
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 1014.0,
+            "seats": [
+              21,
+              22,
+              13,
+              9,
+              7,
+              8,
+              7,
+              8,
+              7,
+              5,
+              9,
+              0,
+              0,
+              4,
+              0
+            ],
+            "value_scaled": 1014
+          },
+          {
+            "values": [
+              4,
+              3
+            ],
+            "status": "INFEASIBLE",
+            "optimal": false,
+            "lower_bound": 0.0
+          },
+          {
+            "values": [
+              4,
+              4
+            ],
+            "status": "INFEASIBLE",
+            "optimal": false,
+            "lower_bound": 0.0
+          }
+        ]
+      },
+      {
+        "budget": 12,
+        "status": "complete",
+        "highs": {
+          "status": 0,
+          "optimal": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "gap": 0.0,
+          "lower_bound": 972.0,
+          "seats": [
+            22,
+            22,
+            13,
+            9,
+            8,
+            8,
+            7,
+            8,
+            6,
+            5,
+            9,
+            0,
+            0,
+            3,
+            0
+          ],
+          "value_scaled": 972
+        },
+        "cp_sat": {
+          "status": "OPTIMAL",
+          "optimal": true,
+          "lower_bound": 972.0,
+          "seats": [
+            22,
+            22,
+            13,
+            9,
+            8,
+            8,
+            7,
+            8,
+            6,
+            5,
+            9,
+            0,
+            0,
+            3,
+            0
+          ],
+          "value_scaled": 972
+        },
+        "focus_conditions": [
+          {
+            "values": [
+              0,
+              0
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 1740.0,
+            "seats": [
+              22,
+              22,
+              14,
+              9,
+              8,
+              8,
+              8,
+              8,
+              7,
+              5,
+              9,
+              0,
+              0,
+              0,
+              0
+            ],
+            "value_scaled": 1740
+          },
+          {
+            "values": [
+              0,
+              3
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 2442.0,
+            "seats": [
+              21,
+              22,
+              14,
+              9,
+              7,
+              8,
+              7,
+              8,
+              7,
+              5,
+              9,
+              0,
+              3,
+              0,
+              0
+            ],
+            "value_scaled": 2442
+          },
+          {
+            "values": [
+              0,
+              4
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 2934.0,
+            "seats": [
+              21,
+              22,
+              13,
+              9,
+              8,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              4,
+              0,
+              0
+            ],
+            "value_scaled": 2934
+          },
+          {
+            "values": [
+              3,
+              0
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 972.0,
+            "seats": [
+              22,
+              22,
+              13,
+              9,
+              8,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              0,
+              3,
+              0
+            ],
+            "value_scaled": 972
+          },
+          {
+            "values": [
+              3,
+              3
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 2508.0,
+            "seats": [
+              21,
+              22,
+              13,
+              8,
+              7,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              3,
+              3,
+              0
+            ],
+            "value_scaled": 2508
+          },
+          {
+            "values": [
+              3,
+              4
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 3360.0,
+            "seats": [
+              21,
+              21,
+              13,
+              8,
+              7,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              4,
+              3,
+              0
+            ],
+            "value_scaled": 3360
+          },
+          {
+            "values": [
+              4,
+              0
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 1120.0,
+            "seats": [
+              21,
+              22,
+              13,
+              9,
+              7,
+              8,
+              7,
+              8,
+              7,
+              5,
+              9,
+              0,
+              0,
+              4,
+              0
+            ],
+            "value_scaled": 1120
+          },
+          {
+            "values": [
+              4,
+              3
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 3186.0,
+            "seats": [
+              21,
+              21,
+              13,
+              8,
+              7,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              3,
+              4,
+              0
+            ],
+            "value_scaled": 3186
+          },
+          {
+            "values": [
+              4,
+              4
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 4134.0,
+            "seats": [
+              20,
+              21,
+              13,
+              8,
+              7,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              4,
+              4,
+              0
+            ],
+            "value_scaled": 4134
+          }
+        ]
+      },
+      {
+        "budget": null,
+        "status": "complete",
+        "highs": {
+          "status": 0,
+          "optimal": true,
+          "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+          "gap": 0.0,
+          "lower_bound": 972.0,
+          "seats": [
+            22,
+            22,
+            13,
+            9,
+            8,
+            8,
+            7,
+            8,
+            6,
+            5,
+            9,
+            0,
+            0,
+            3,
+            0
+          ],
+          "value_scaled": 972
+        },
+        "cp_sat": {
+          "status": "OPTIMAL",
+          "optimal": true,
+          "lower_bound": 972.0,
+          "seats": [
+            22,
+            22,
+            13,
+            9,
+            8,
+            8,
+            7,
+            8,
+            6,
+            5,
+            9,
+            0,
+            0,
+            3,
+            0
+          ],
+          "value_scaled": 972
+        },
+        "focus_conditions": [
+          {
+            "values": [
+              0,
+              0
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 1740.0,
+            "seats": [
+              22,
+              22,
+              14,
+              9,
+              8,
+              8,
+              8,
+              8,
+              7,
+              5,
+              9,
+              0,
+              0,
+              0,
+              0
+            ],
+            "value_scaled": 1740
+          },
+          {
+            "values": [
+              0,
+              3
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 2442.0,
+            "seats": [
+              21,
+              22,
+              14,
+              9,
+              7,
+              8,
+              7,
+              8,
+              7,
+              5,
+              9,
+              0,
+              3,
+              0,
+              0
+            ],
+            "value_scaled": 2442
+          },
+          {
+            "values": [
+              0,
+              4
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 2934.0,
+            "seats": [
+              21,
+              22,
+              13,
+              9,
+              8,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              4,
+              0,
+              0
+            ],
+            "value_scaled": 2934
+          },
+          {
+            "values": [
+              3,
+              0
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 972.0,
+            "seats": [
+              22,
+              22,
+              13,
+              9,
+              8,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              0,
+              3,
+              0
+            ],
+            "value_scaled": 972
+          },
+          {
+            "values": [
+              3,
+              3
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 2508.0,
+            "seats": [
+              21,
+              22,
+              13,
+              8,
+              7,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              3,
+              3,
+              0
+            ],
+            "value_scaled": 2508
+          },
+          {
+            "values": [
+              3,
+              4
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 3360.0,
+            "seats": [
+              21,
+              21,
+              13,
+              8,
+              7,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              4,
+              3,
+              0
+            ],
+            "value_scaled": 3360
+          },
+          {
+            "values": [
+              4,
+              0
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 1120.0,
+            "seats": [
+              21,
+              22,
+              13,
+              9,
+              7,
+              8,
+              7,
+              8,
+              7,
+              5,
+              9,
+              0,
+              0,
+              4,
+              0
+            ],
+            "value_scaled": 1120
+          },
+          {
+            "values": [
+              4,
+              3
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 3186.0,
+            "seats": [
+              21,
+              21,
+              13,
+              8,
+              7,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              3,
+              4,
+              0
+            ],
+            "value_scaled": 3186
+          },
+          {
+            "values": [
+              4,
+              4
+            ],
+            "status": "OPTIMAL",
+            "optimal": true,
+            "lower_bound": 4134.0,
+            "seats": [
+              20,
+              21,
+              13,
+              8,
+              7,
+              8,
+              7,
+              8,
+              6,
+              5,
+              9,
+              0,
+              4,
+              4,
+              0
+            ],
+            "value_scaled": 4134
+          }
+        ]
+      }
+    ]
+  },
+  "forecast_changed": false
+}
