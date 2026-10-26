@@ -1,5 +1,7 @@
 # Method report working draft
 
+E004 preparation: user approved hosted correction-strength/forest-seed sensitivity on unchanged audited inputs. Diagnostic work, not an adopted forecasting method; final description remains unchanged until evaluated selection. See robustness-batch.md/project-state for actual execution status.
+
 October22 continuation: A002 adds independently checked pre-rounding plots over all saved historical folds. E003 adds three earlier original-source-reviewed releases (24 to27) and runs four fixed data sensitivities while preserving latest-group anchors, model settings, outcomes and the preliminary2026 forecast. All46 hosted tests and deterministic repeats passed; none beats reference20/12 on2021/2022. Some ensembles improve to ties, some forests worsen. See [campaign-history.md](campaign-history.md) and project-state for checked run/provenance evidence. No L0 penalty or final model is adopted. The final submission description remains the baseline draft until a method is selected.
 
 E002 analysis: [screening-results-analysis.md](screening-results-analysis.md) explains why matching reference scores often means reproducing its rounded vector, why the earlier four panels do not train a within-group trend effect, and which party-level misses dominate. No candidate improved either comparison outcome, and larger unshrunk supervised corrections worsened both. Treat this as limited retrospective evidence; retain references and audit source/trajectory coverage before adopting an adjustment. No final method or uncertainty interval is selected.
@@ -53,3 +55,4 @@ Replace each item with the method actually implemented; remove placeholders befo
 Code repository: https://github.com/Omer-Sut/israel-election-forecast
 
 Preliminary input/config/code hashes and outputs: `reports/baseline-2026-10-21/`. Final code revision, chosen method, final forecast, validation results, and submission status: **pending**.
+
