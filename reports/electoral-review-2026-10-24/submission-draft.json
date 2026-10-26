@@ -1,0 +1,28 @@
+{
+  "method": "nearest_mean_zero_or_3plus",
+  "seats": {
+    "likud": 22,
+    "yashar": 22,
+    "beyachad": 13,
+    "democrats": 9,
+    "yisrael_beiteinu": 7,
+    "shas": 8,
+    "united_torah_judaism": 7,
+    "otzma_yehudit": 8,
+    "religious_zionism": 7,
+    "raam": 5,
+    "hadash_taal": 9,
+    "blue_and_white": 0,
+    "amcha_yisrael": 0,
+    "reservists_economic": 3,
+    "other_qualifying_lists": 0
+  },
+  "national_turnout_pct": "70.63",
+  "status": "provisional_constrained_seat_space_decision_not_submitted",
+  "no_one_or_two_seats": true,
+  "sum_seats": 120,
+  "exact_current_bader_ofer": false,
+  "source_freeze_complete": false,
+  "other_individual_list_allocations": {},
+  "limitation": "Complete current vote shares and officially verified agreements are missing; do not infer votes from seats."
+}

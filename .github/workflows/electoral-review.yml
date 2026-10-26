@@ -1,0 +1,43 @@
+name: Verify electoral allocation and constrained forecast
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/bader_ofer.py'
+      - 'scripts/electoral_review.py'
+      - 'tests/test_bader_ofer.py'
+      - 'reports/electoral-review-2026-10-24/**'
+      - '.github/workflows/electoral-review.yml'
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Test allocation and active export gate
+        run: python -m unittest discover -s tests -p test_bader_ofer.py -v
+      - name: Reproduce electoral review
+        run: |
+          python scripts/electoral_review.py
+          python scripts/electoral_review.py --out-dir output/electoral-repeat > output/electoral-repeat.log
+          for file in review.json submission-draft.json analysis.md rounding-error.svg method-draft.txt inputs-manifest.json; do
+            diff -u "output/electoral-review/$file" "output/electoral-repeat/$file"
+            if [ -d reports/electoral-review-2026-10-24 ]; then
+              diff -u "reports/electoral-review-2026-10-24/$file" "output/electoral-review/$file"
+            fi
+          done
+          cat output/electoral-review/analysis.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: electoral-review
+          path: output/electoral-review/
+          if-no-files-found: error
+          retention-days: 30
