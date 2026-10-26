@@ -301,3 +301,6 @@ E020 preparation October25: user approved matched share test. Added bounded thre
 
 
 E020 executed: primary percentages worsen mean seat L1 to15.0 versus seat/missing13.5 and constrained mean13.0. History's best inspected12.5 is not adopted; earlier-only history selection14.0. Sparse selective share support produces a negative early slope and overconfident Otzma2020 failure. Six tests/repeats first passed40202667646; baseline40202667583/scientific40202667571 succeeded. Added nonintervening support diagnostics. Read findings/plots under reports/threshold-share-trial-2026-10-25; final checks/head on PR32. Adopted forecast/69.86% turnout unchanged; no merge/submission.
+
+
+E021 preparation October26: user requested final constrained numerical search then unattended GitHub execution to save Codex tokens. Added frozen finite-model regret protocol, HiGHS/CP-SAT implementation, eight correctness tests, separate pinned dependencies and gated180min workflow with partial checkpoints/artifact. No execution result claimed at preparation. Read docs/numerical-search.md for exact user monitoring/download steps. Topic from live main49c9534; final PR body holds launch URL. No forecast/turnout change, automatic merge or competition submission.

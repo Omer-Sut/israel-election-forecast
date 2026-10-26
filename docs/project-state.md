@@ -351,3 +351,8 @@ The matched primary test did not improve the forecast: seat-only and reporting-c
 
 
 E020 publication scope: automatic approval review rejected committing the 1.2 MB generated full fit-detail artifact under the repository large-artifact rule. Safer publication keeps it artifact-only; compact evaluation summary, findings, plots, source/code hashes remain durable and all detail is reproducible. No authorization bypass or forecast change. Final PR32 records checks.
+
+
+## E021 unattended numerical search — preparation October26
+
+User authorized one final solver experiment and asked to save tokens by ending the Codex turn once GitHub execution starts. Read docs/numerical-search.md. Dedicated gated workflow runs eight tests and frozen baseline before HiGHS minimax model-regret/CP-SAT checks, bounded near-optimal enumeration and current focus conditionals. Controls include exact DP mean/L1; budgets6/12/unrestricted; fixed scenario weights/stress are assumptions, no learned probabilities. All six campaigns evaluated with unchanged cutoffs/identities, outcome-free scenario construction and no fresh-holdout claim.150min soft/180min hard search limit; checkpoints and30day artifact numerical-search-E021, no auto-commits/merge/adoption/submission. Active forecast/69.86% turnout unchanged. Local Git metadata stale3055db4; verified live parent49c9534. Execution/tests pending until actual hosted status is inspected. Final topic PR records launched run URL. Agent ends after verifying launch; user returns with run ID to analyze. Full outputs go in output/numerical-search-2026-10-26, not reports/Git until compact review.

@@ -151,3 +151,6 @@ E020 research prepared separately: matched historical seat/missingness/reported-
 
 
 E020 was executed as research, not adopted: matched primary reported-share ridge-logit worsens mean seat error15.0 versus seat-only13.5 and constrained mean13.0. Coverage-only leaves historical integer outputs unchanged. Best history sensitivity12.5 is hindsight; earlier-only history selector14.0. No correction or percentage-based probabilities enter the active method. Preserve adopted seats/69.86% turnout. Full assumptions/results/plots and final PR32 evidence are in the threshold-share-trial report.
+
+
+E021 solver research is prepared separately and not part of the adopted method. HiGHS minimax model-regret and CP-SAT search use explicit sensitivity assumptions, not calibrated vote probabilities. Execution/result status must be read from the hosted run and START_HERE report after the user returns. The active333word method, seat forecast and69.86% turnout remain unchanged; no automatic adoption/submission.
