@@ -1,0 +1,543 @@
+{
+  "id": "final-poll-coverage-2026-10-24",
+  "retrieved_on": "2026-10-24",
+  "status": "retrospective_source_tiered_diagnostic_not_training_input",
+  "selection_policy": "Final dated pre-election national actual-lineup allocations from missing firms identified in final-week source indexes. One latest release per firm, equal firm weight, unchanged T-1 cutoff and historical identities. Outcomes already known; no source selected by its error. Availability-limited audit, not a census of all final polls.",
+  "rights": "Factual numeric transcriptions with attribution only; no publisher prose/images redistributed. Raw HTTP response hashes unavailable through retrieval tool and not invented.",
+  "zero_policy": "Full published seat allocations sum120. Remaining modeled lists receive zero allocated seats, not zero support. Original Hebrew labels retained through existing historical list dictionary.",
+  "vintage_limit": "Current versions of historically dated publications, not authenticated archived as-of copies. Secondary records stay separate and never silently enter the reviewed model panel.",
+  "additions": [
+    {
+      "id": "panels_politics-2021-03-19",
+      "election_id": "knesset_24_2021",
+      "pollster_group": "panels_politics",
+      "published_on": "2021-03-19",
+      "available_on": "2021-03-19",
+      "source_url": "https://www.inn.co.il/news/471452",
+      "source_tier": "contemporaneous_secondary",
+      "retrieved_on": "2026-10-24",
+      "source_updated_on": null,
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": null,
+      "mode": null,
+      "reported_seats": {
+        "blue_and_white_2021": 5,
+        "joint_list_2021": 8,
+        "labor_2021": 5,
+        "likud_2021": 30,
+        "meretz_2021": 4,
+        "new_economic_2021": 0,
+        "new_hope_2021": 8,
+        "raam_2021": 4,
+        "religious_zionism_otzma_2021": 5,
+        "shas_2021": 8,
+        "united_torah_judaism_2021": 6,
+        "yamina_2021": 10,
+        "yesh_atid_2021": 19,
+        "yisrael_beiteinu_2021": 8
+      },
+      "raw_seat_transcription": [
+        {
+          "label_he": "הליכוד",
+          "seats": 30
+        },
+        {
+          "label_he": "יש עתיד",
+          "seats": 19
+        },
+        {
+          "label_he": "כחול לבן",
+          "seats": 5
+        },
+        {
+          "label_he": "הרשימה המשותפת",
+          "seats": 8
+        },
+        {
+          "label_he": "ש״ס",
+          "seats": 8
+        },
+        {
+          "label_he": "יהדות התורה",
+          "seats": 6
+        },
+        {
+          "label_he": "ישראל ביתנו",
+          "seats": 8
+        },
+        {
+          "label_he": "מרצ",
+          "seats": 4
+        },
+        {
+          "label_he": "רע״מ",
+          "seats": 4
+        },
+        {
+          "label_he": "ימינה",
+          "seats": 10
+        },
+        {
+          "label_he": "תקווה חדשה",
+          "seats": 8
+        },
+        {
+          "label_he": "העבודה",
+          "seats": 5
+        },
+        {
+          "label_he": "הציונות הדתית",
+          "seats": 5
+        }
+      ],
+      "notes": "Maariv original inaccessible. Dated INN report has complete allocation; index is corroboration only.",
+      "original_url": "https://www.maariv.co.il/elections-2021/Article-828758",
+      "index_row_id": "24:0:10"
+    },
+    {
+      "id": "kantar-2021-03-18",
+      "election_id": "knesset_24_2021",
+      "pollster_group": "kantar",
+      "published_on": "2021-03-18",
+      "available_on": "2021-03-18",
+      "source_url": "https://www.ice.co.il/hotnews/news/article/814601",
+      "source_tier": "contemporaneous_secondary",
+      "retrieved_on": "2026-10-24",
+      "source_updated_on": null,
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": null,
+      "mode": null,
+      "reported_seats": {
+        "blue_and_white_2021": 4,
+        "joint_list_2021": 8,
+        "labor_2021": 5,
+        "likud_2021": 31,
+        "meretz_2021": 4,
+        "new_economic_2021": 0,
+        "new_hope_2021": 9,
+        "raam_2021": 4,
+        "religious_zionism_otzma_2021": 5,
+        "shas_2021": 8,
+        "united_torah_judaism_2021": 7,
+        "yamina_2021": 9,
+        "yesh_atid_2021": 19,
+        "yisrael_beiteinu_2021": 7
+      },
+      "raw_seat_transcription": [
+        {
+          "label_he": "הליכוד",
+          "seats": 31
+        },
+        {
+          "label_he": "יש עתיד",
+          "seats": 19
+        },
+        {
+          "label_he": "כחול לבן",
+          "seats": 4
+        },
+        {
+          "label_he": "הרשימה המשותפת",
+          "seats": 8
+        },
+        {
+          "label_he": "ש״ס",
+          "seats": 8
+        },
+        {
+          "label_he": "יהדות התורה",
+          "seats": 7
+        },
+        {
+          "label_he": "ישראל ביתנו",
+          "seats": 7
+        },
+        {
+          "label_he": "מרצ",
+          "seats": 4
+        },
+        {
+          "label_he": "רע״מ",
+          "seats": 4
+        },
+        {
+          "label_he": "ימינה",
+          "seats": 9
+        },
+        {
+          "label_he": "תקווה חדשה",
+          "seats": 9
+        },
+        {
+          "label_he": "העבודה",
+          "seats": 5
+        },
+        {
+          "label_he": "הציונות הדתית",
+          "seats": 5
+        }
+      ],
+      "notes": "Original Kan migrated page returns no readable text. ICE identifies Dudi Chassid/Kantar and supplies complete dated allocation.",
+      "original_url": "https://www.kan.org.il/content/kan-news/politic/280482/",
+      "index_row_id": "24:0:12"
+    },
+    {
+      "id": "direct_polls-2021-03-19",
+      "election_id": "knesset_24_2021",
+      "pollster_group": "direct_polls",
+      "published_on": "2021-03-19",
+      "available_on": "2021-03-19",
+      "source_url": "https://www.israelnationalnews.com/news/298828",
+      "source_tier": "contemporaneous_secondary",
+      "retrieved_on": "2026-10-24",
+      "source_updated_on": null,
+      "fieldwork_start": "2021-03-17",
+      "fieldwork_end": "2021-03-18",
+      "sample_size": 6436,
+      "mode": null,
+      "reported_seats": {
+        "blue_and_white_2021": 7,
+        "joint_list_2021": 7,
+        "labor_2021": 4,
+        "likud_2021": 32,
+        "meretz_2021": 4,
+        "new_economic_2021": 0,
+        "new_hope_2021": 7,
+        "raam_2021": 4,
+        "religious_zionism_otzma_2021": 5,
+        "shas_2021": 9,
+        "united_torah_judaism_2021": 7,
+        "yamina_2021": 8,
+        "yesh_atid_2021": 17,
+        "yisrael_beiteinu_2021": 9
+      },
+      "raw_seat_transcription": [
+        {
+          "label_he": "הליכוד",
+          "seats": 32
+        },
+        {
+          "label_he": "יש עתיד",
+          "seats": 17
+        },
+        {
+          "label_he": "כחול לבן",
+          "seats": 7
+        },
+        {
+          "label_he": "הרשימה המשותפת",
+          "seats": 7
+        },
+        {
+          "label_he": "ש״ס",
+          "seats": 9
+        },
+        {
+          "label_he": "יהדות התורה",
+          "seats": 7
+        },
+        {
+          "label_he": "ישראל ביתנו",
+          "seats": 9
+        },
+        {
+          "label_he": "מרצ",
+          "seats": 4
+        },
+        {
+          "label_he": "רע״מ",
+          "seats": 4
+        },
+        {
+          "label_he": "ימינה",
+          "seats": 8
+        },
+        {
+          "label_he": "תקווה חדשה",
+          "seats": 7
+        },
+        {
+          "label_he": "העבודה",
+          "seats": 4
+        },
+        {
+          "label_he": "הציונות הדתית",
+          "seats": 5
+        }
+      ],
+      "notes": "INN supplies full allocation including Labor omitted in Srugim prose. Srugim describes trend analysis; whether raw poll or adjusted projection is unresolved. Separate exclusion sensitivity required. No hindsight pollster promotion.",
+      "corroborating_url": "https://www.srugim.co.il/546514-הסוקר-שחזה-את-תוצאות-הבחירות-מציג-כך-זה",
+      "index_row_id": "24:0:11",
+      "projection_kind": "poll_or_trend_adjusted_unresolved"
+    },
+    {
+      "id": "maagar_mohot-2022-10-27",
+      "election_id": "knesset_25_2022",
+      "pollster_group": "maagar_mohot",
+      "published_on": "2022-10-27",
+      "available_on": "2022-10-27",
+      "source_url": "https://www.israelhayom.co.il/news/politics/article/13226572",
+      "source_tier": "original_publisher",
+      "retrieved_on": "2026-10-24",
+      "source_updated_on": "2022-10-27",
+      "fieldwork_start": "2022-10-23",
+      "fieldwork_end": "2022-10-26",
+      "sample_size": 1201,
+      "mode": "internet and telephone",
+      "reported_seats": {
+        "balad_2022": 0,
+        "economic_freedom_2022": 0,
+        "hadash_taal_2022": 4,
+        "jewish_home_2022": 0,
+        "labor_2022": 6,
+        "likud_2022": 30,
+        "meretz_2022": 4,
+        "national_unity_2022": 11,
+        "new_economic_2022": 0,
+        "raam_2022": 4,
+        "religious_zionism_otzma_2022": 15,
+        "shas_2022": 9,
+        "tzeirim_boarim_2022": 0,
+        "united_torah_judaism_2022": 7,
+        "yesh_atid_2022": 25,
+        "yisrael_beiteinu_2022": 5
+      },
+      "raw_seat_transcription": [
+        {
+          "label_he": "הליכוד",
+          "seats": 30
+        },
+        {
+          "label_he": "יש עתיד",
+          "seats": 25
+        },
+        {
+          "label_he": "המחנה הממלכתי",
+          "seats": 11
+        },
+        {
+          "label_he": "ש״ס",
+          "seats": 9
+        },
+        {
+          "label_he": "העבודה",
+          "seats": 6
+        },
+        {
+          "label_he": "יהדות התורה",
+          "seats": 7
+        },
+        {
+          "label_he": "ישראל ביתנו",
+          "seats": 5
+        },
+        {
+          "label_he": "הציונות הדתית",
+          "seats": 15
+        },
+        {
+          "label_he": "חד״ש-תע״ל",
+          "seats": 4
+        },
+        {
+          "label_he": "מרצ",
+          "seats": 4
+        },
+        {
+          "label_he": "רע״מ",
+          "seats": 4
+        }
+      ],
+      "notes": "Primary article states1201 respondents; index/aggregator1200 is not used. Fieldwork wording names23 and26 October; stored bounds do not prove daily interviewing throughout.",
+      "index_row_id": "25:0:17"
+    },
+    {
+      "id": "panels_politics-2022-10-28",
+      "election_id": "knesset_25_2022",
+      "pollster_group": "panels_politics",
+      "published_on": "2022-10-28",
+      "available_on": "2022-10-28",
+      "source_url": "https://elections.walla.co.il/item/3537369",
+      "source_tier": "attributed_republication",
+      "retrieved_on": "2026-10-24",
+      "source_updated_on": "2022-10-28",
+      "fieldwork_start": "2022-10-26",
+      "fieldwork_end": "2022-10-27",
+      "sample_size": null,
+      "mode": null,
+      "reported_seats": {
+        "balad_2022": 0,
+        "economic_freedom_2022": 0,
+        "hadash_taal_2022": 4,
+        "jewish_home_2022": 0,
+        "labor_2022": 4,
+        "likud_2022": 31,
+        "meretz_2022": 5,
+        "national_unity_2022": 12,
+        "new_economic_2022": 0,
+        "raam_2022": 4,
+        "religious_zionism_otzma_2022": 14,
+        "shas_2022": 9,
+        "tzeirim_boarim_2022": 0,
+        "united_torah_judaism_2022": 6,
+        "yesh_atid_2022": 25,
+        "yisrael_beiteinu_2022": 6
+      },
+      "raw_seat_transcription": [
+        {
+          "label_he": "הליכוד",
+          "seats": 31
+        },
+        {
+          "label_he": "יש עתיד",
+          "seats": 25
+        },
+        {
+          "label_he": "המחנה הממלכתי",
+          "seats": 12
+        },
+        {
+          "label_he": "ש״ס",
+          "seats": 9
+        },
+        {
+          "label_he": "העבודה",
+          "seats": 4
+        },
+        {
+          "label_he": "יהדות התורה",
+          "seats": 6
+        },
+        {
+          "label_he": "ישראל ביתנו",
+          "seats": 6
+        },
+        {
+          "label_he": "הציונות הדתית",
+          "seats": 14
+        },
+        {
+          "label_he": "חד״ש-תע״ל",
+          "seats": 4
+        },
+        {
+          "label_he": "מרצ",
+          "seats": 5
+        },
+        {
+          "label_he": "רע״מ",
+          "seats": 4
+        }
+      ],
+      "notes": "Arik Bender byline reports Maariv/Panels poll. Original Maariv inaccessible; distinguish attributed republication from original commissioner. No sample size in retrieved text; do not import aggregator500.",
+      "original_url": "https://www.maariv.co.il/elections-2022/Article-954614",
+      "index_row_id": "25:0:16"
+    },
+    {
+      "id": "kantar-2022-10-27",
+      "election_id": "knesset_25_2022",
+      "pollster_group": "kantar",
+      "published_on": "2022-10-27",
+      "available_on": "2022-10-27",
+      "source_url": "https://www.kore.co.il/viewArticle/116752",
+      "source_tier": "contemporaneous_secondary",
+      "retrieved_on": "2026-10-24",
+      "source_updated_on": null,
+      "fieldwork_start": null,
+      "fieldwork_end": null,
+      "sample_size": null,
+      "mode": null,
+      "reported_seats": {
+        "balad_2022": 0,
+        "economic_freedom_2022": 0,
+        "hadash_taal_2022": 4,
+        "jewish_home_2022": 0,
+        "labor_2022": 6,
+        "likud_2022": 31,
+        "meretz_2022": 5,
+        "national_unity_2022": 11,
+        "new_economic_2022": 0,
+        "raam_2022": 4,
+        "religious_zionism_otzma_2022": 14,
+        "shas_2022": 8,
+        "tzeirim_boarim_2022": 0,
+        "united_torah_judaism_2022": 7,
+        "yesh_atid_2022": 24,
+        "yisrael_beiteinu_2022": 6
+      },
+      "raw_seat_transcription": [
+        {
+          "label_he": "הליכוד",
+          "seats": 31
+        },
+        {
+          "label_he": "יש עתיד",
+          "seats": 24
+        },
+        {
+          "label_he": "המחנה הממלכתי",
+          "seats": 11
+        },
+        {
+          "label_he": "ש״ס",
+          "seats": 8
+        },
+        {
+          "label_he": "העבודה",
+          "seats": 6
+        },
+        {
+          "label_he": "יהדות התורה",
+          "seats": 7
+        },
+        {
+          "label_he": "ישראל ביתנו",
+          "seats": 6
+        },
+        {
+          "label_he": "הציונות הדתית",
+          "seats": 14
+        },
+        {
+          "label_he": "חד״ש-תע״ל",
+          "seats": 4
+        },
+        {
+          "label_he": "מרצ",
+          "seats": 5
+        },
+        {
+          "label_he": "רע״מ",
+          "seats": 4
+        }
+      ],
+      "notes": "Dated secondary report provides full allocation. Kan original inaccessible. Sample only described as more than1200, so exact N remains missing. Walla October28 independently repeats vector; not another poll.",
+      "original_url": "https://www.kan.org.il/content/kan-news/politic/248622/",
+      "corroborating_url": "https://elections.walla.co.il/item/3537463",
+      "index_row_id": "25:0:15"
+    }
+  ],
+  "excluded": [
+    {
+      "election": 2021,
+      "firm": "smith",
+      "url": "https://amp.mako.co.il/opinions-articles/Article-0a7cfc1d1d04871027.htm",
+      "reason": "Primary text verifies nine parties, fieldwork17-18March,N900,mixedmode,updated19March; remaining seat values are in inaccessible graphic. No residual inference or index fill. Excluded despite index matching Kan vector.",
+      "image_url": "https://img.mako.co.il/2021/03/19/elecmakob.png"
+    },
+    {
+      "election": 2022,
+      "firm": "smith",
+      "url": "https://twitter.com/israelgaley/status/1585881785442918400",
+      "reason": "Final publisher social source not retrieved; left as candidate, not counted. Original earlier October26 release is not a substitute for final October28 release."
+    }
+  ],
+  "additional_caveats": [
+    "Direct2021 may include trend adjustment; test exclusion in both years.",
+    "Kan and Smith2021 index vectors coincide, but that does not establish duplicated survey; Smith excluded for missing primary allocation, not because of identical numbers.",
+    "Channel13 official2022 PDF search excerpt has October28 title but October20 fieldwork; not used to override frozen metadata.",
+    "No current election forecast, trained model, reliability weight or turnout change."
+  ]
+}

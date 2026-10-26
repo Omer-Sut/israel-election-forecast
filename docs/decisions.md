@@ -1,5 +1,12 @@
 # Decisions and open questions
 
+
+## E009 — final-poll coverage comparison, October 24
+
+User requested testing whether2021's larger error is due to available polls. Separate diagnostic adds six factual transcriptions: one original publisher, one attributed republication, four dated secondary reports. Both broader panels have the same six firms; secondary records remain excluded from training/frozen inputs. [Analysis and plot](../reports/final-poll-coverage-2026-10-24/analysis.md), [protocol](final-poll-coverage.md). Continuous error2021/2022: old different three-firm sets20.667/12.667; same six19.333/13; same original-publisher trio20.667/16.667; matched five excluding Direct20.4/15.2. Selection therefore matters, but shared2021 party misses persist. All single-firm deletion continuous errors remain higher for2021. No causal attribution to late movement or turnout; no hindsight best-firm exclusion or learned correction adopted.
+
+Direct2021 may include trend adjustment; explicit exclusion sensitivity retained. Smith missing primary allocation/source remains excluded. Dates are historically reported, archive vintage unverified. Unknown metadata stays missing. Local Node-tool execution reproduced four output files exactly and original E008 vectors; full five-test hosted workflow pending at preparation. Inputs/code/results stay on a topic branch stacked on PR19 head58faf83; local GitHEAD3055db4 remains stale. No current forecast, turnout, merge or submission change. User cumulative hands-on effort remains unmeasured. Next: review diagnostic, then final current-poll/lineup audit; further historical expansion needs original-source recovery rather than another model sweep.
+
 ## E008 training-quality decision (verified)
 
 Poll quality now enters individual-poll learners as source/methodology features and a separately tested past-only training weight. Four ablations isolate representation versus metadata effects; no outcome leakage or raw poll count as independent campaign evidence. Retain this machinery, but do not adopt learned corrections/weights now: no incremental25% integer improvement over poll-basic on2021/2022, and earlier-selected metadata Ridge worsens2021. Small continuous differences are insufficient adoption evidence. Further research needs better audited historical methodology coverage; no more same-data parameter sweep selected. Current forecast/turnout unchanged. See poll-metadata-trial.md and dated analysis.

@@ -107,3 +107,8 @@ The [alliance's own website](https://jointlist.org.il/en/) names Hadash, Ta'al, 
 ## Online storage policy
 
 GitHub is the durable source of truth. Prefer small redistributable input snapshots and a source manifest in a tracked path such as `data/snapshots/` (the existing `data/raw/` and `data/processed/` paths are ignored). Review rights before copying data; do not accidentally force-add a restricted source. For larger or restricted inputs, record a shared store, access procedure, version/hash, and a reproducible retrieval path. Nothing required to reproduce the final run should exist only on one laptop or a temporary Colab disk.
+
+
+## E009 final-poll coverage audit (October24)
+
+Separate source-tiered diagnostic: data/snapshots/final-poll-coverage-2026-10-24/audit.json. One original-publisher addition, one attributed republication, four complete dated secondary reports. These are not silently promoted into training. Smith incomplete source/graphic excluded. Original Hebrew publisher labels are preserved through historical Hebrew list identifiers; see the audit for exact transcriptions, source URLs, dates and limits. No raw page hashes fabricated.

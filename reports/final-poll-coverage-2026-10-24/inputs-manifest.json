@@ -1,0 +1,11 @@
+{
+  "experiment": "E009",
+  "hashes": {
+    "data/snapshots/final-poll-coverage-2026-10-24/audit.json": "15bb196168d18a7e52d36bc6f4c4da01a981f38f6f681f09e4fa3fc739c23eaf",
+    "data/snapshots/historical-2026-10-21/outcomes.json": "76032d99f8e0368ce3d6d905e45f4da614a1b629cc7c0197b405ed64d332b330",
+    "data/snapshots/historical-2026-10-21/polls-2021.json": "ccc0fd9dd8373e1825e7300ea2d695bede9e2cad964f34879528b336d5fbfbcf",
+    "data/snapshots/historical-2026-10-21/polls-2022.json": "362bb8701aa1d82448e69107398095fbde44a386ddf101aa0a477062205b1e7a",
+    "reports/poll-metadata-trial-2026-10-23/results.json": "3b224e740162411ba6df083dacb2910f575d677f7384800da8836affe280deb6",
+    "scripts/final_poll_coverage.mjs": "db2064db04c1892740f35bcf0d45805945edabde2e08dc1643fbf1468b41911a"
+  }
+}
