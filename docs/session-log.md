@@ -1,5 +1,9 @@
 # Session log
 
+## October23 - E007 current-poll audit verified
+
+Resumed interruption, no partial E007 files existed. Published 11e8930/528d60f in PR18 stacked on live PR17head92f1111. Baseline39948181011/screen39948181004 passed:64 scientific tests, original frozen checks, deterministic new audit. Four newer original releases replace anchors; original six retained exactly. Source-version availability conservatively October23; hypothetical withdrawal scenarios excluded. Mean/L1 Amcha1/0 and Reservists2/3 illustrate remaining threshold decision; no final vector adopted. Five report files recovered exactly from public hosted logs, artifact12498898382 verified9486bytes/unexpired (binary bytes not locally verified). Known newer Maariv and other source/official-lineup gaps retained. No model/weight/turnout/merge/submission change. Local GitHEAD3055db4 stale; user cumulative hands-on effort unmeasured.
+
 ## October23 - E006 verified party-area trial
 
 Published PR17 on feat/explicit-party-area-context, stacked on unchanged PR16head5125934. Implementation1fcca3d passed screen39921492239 and baseline39921492335:60tests, frozen references, deterministic repeats; E0066.231s. Initial770065d import failure corrected. Explicit prior-list proxies plus separately labeled1183locality2015edition sensitivity; archive uncertainty retained, age/sex not fitted.2022profiles11/16with pools, average conditional predecessor coverage90%;2021only4/14. No fixed25% or earlier-OOF-selected integer improvement over mean20/12. Tiny hindsight continuous2022gain is not a selected win. Curated reports and artifact12486559561 available; see project-state/analysis for details. No final method/current forecast/turnout change, merge or submission. Cumulative user effort unmeasured; local Git HEAD remains stale3055db4.

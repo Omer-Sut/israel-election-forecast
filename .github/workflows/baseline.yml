@@ -40,6 +40,21 @@ jobs:
           diff -u reports/cbs-2026-10-21/cbs-linkage.json output/cbs-linkage.json
       - name: Check historical backtest reproduction
         run: diff -ru reports/backtest-2026-10-21 output/backtest
+      - name: Reproduce separate current poll audit
+        run: |
+          python scripts/current_poll_audit.py --out-dir output/current-poll-audit
+          python scripts/current_poll_audit.py --out-dir output/current-poll-audit-repeat > /dev/null
+          diff -ru output/current-poll-audit output/current-poll-audit-repeat
+          python -c "import json; from pathlib import Path; print('E007_FILES_JSON=' + json.dumps({p.name:p.read_text(encoding='utf-8') for p in sorted(Path('output/current-poll-audit').iterdir())}, ensure_ascii=False))"
+          if [ -d reports/current-poll-audit-2026-10-23 ]; then
+            diff -ru reports/current-poll-audit-2026-10-23 output/current-poll-audit
+          fi
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: current-poll-audit
+          path: output/current-poll-audit/
+          if-no-files-found: error
+          retention-days: 30
       - name: Show results in the run summary
         run: |
           cat output/baseline/summary.md >> "$GITHUB_STEP_SUMMARY"
