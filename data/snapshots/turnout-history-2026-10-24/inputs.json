@@ -1,0 +1,489 @@
+{
+  "reviewed_on": "2026-10-24",
+  "coverage": "All25 Knesset elections1949–2022; 2001 prime-minister-only election excluded",
+  "sources": [
+    {
+      "id": "CBS_table_27_2",
+      "url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "published_on": "2022-08-02",
+      "reviewed_on": "2026-10-24",
+      "note": "Heading1949–2022 but last row isMarch2021. Numerical factual transcription; raw PDF not downloaded and no raw hash claimed."
+    },
+    {
+      "id": "existing_CEC_national_results",
+      "path": "data/database/elections.jsonl.gz",
+      "reviewed_on": "2026-10-24",
+      "note": "Existing versioned2015–2022 totals and source inventory. Prefer exact published CEC percentages2019–2022, retain2015 published72.3; no old snapshot altered."
+    }
+  ],
+  "precision_policy": "Use CBS one-decimal published turnout for K1–18, official K19 reference67.77, existing recent panel targets for K20–25. Preserve count-derived ratios as diagnostics, not silent replacements. K11 explicit override78.8 is crosschecked against counts and archivedCEC; raw retrieved79.8 retained in source_conflicts.",
+  "historical_availability_limit": "Retrospective official table/source versions; original first-publication vintages not reconstructed. Algorithms use strictly earlier election outcomes; this is not a certified real-time backtest.",
+  "elections": [
+    {
+      "knesset": 1,
+      "election_date": "1949-01-25",
+      "electorate": 506567,
+      "ballots": 440095,
+      "valid": 434684,
+      "cbs_reported_turnout_pct": 86.9,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 86.9,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 86.87794506945774
+    },
+    {
+      "knesset": 2,
+      "election_date": "1951-07-30",
+      "electorate": 924885,
+      "ballots": 695007,
+      "valid": 687492,
+      "cbs_reported_turnout_pct": 75.1,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 75.1,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 75.145234272369
+    },
+    {
+      "knesset": 3,
+      "election_date": "1955-07-26",
+      "electorate": 1057795,
+      "ballots": 876085,
+      "valid": 853219,
+      "cbs_reported_turnout_pct": 82.8,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 82.8,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 82.82181330030866
+    },
+    {
+      "knesset": 4,
+      "election_date": "1959-11-03",
+      "electorate": 1218483,
+      "ballots": 994306,
+      "valid": 969337,
+      "cbs_reported_turnout_pct": 81.6,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 81.6,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 81.6019591574113
+    },
+    {
+      "knesset": 5,
+      "election_date": "1961-08-15",
+      "electorate": 1271285,
+      "ballots": 1037030,
+      "valid": 1006964,
+      "cbs_reported_turnout_pct": 81.6,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 81.6,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 81.57336867814848
+    },
+    {
+      "knesset": 6,
+      "election_date": "1965-11-02",
+      "electorate": 1499709,
+      "ballots": 1244706,
+      "valid": 1206728,
+      "cbs_reported_turnout_pct": 83,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 83,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 82.99650132125632
+    },
+    {
+      "knesset": 7,
+      "election_date": "1969-10-28",
+      "electorate": 1748710,
+      "ballots": 1427981,
+      "valid": 1367743,
+      "cbs_reported_turnout_pct": 81.7,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 81.7,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 81.65910871442378
+    },
+    {
+      "knesset": 8,
+      "election_date": "1973-12-31",
+      "electorate": 2037478,
+      "ballots": 1601098,
+      "valid": 1566855,
+      "cbs_reported_turnout_pct": 78.6,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 78.6,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 78.58234542900585
+    },
+    {
+      "knesset": 9,
+      "election_date": "1977-05-17",
+      "electorate": 2236293,
+      "ballots": 1771726,
+      "valid": 1747820,
+      "cbs_reported_turnout_pct": 79.2,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 79.2,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 79.22602270811562
+    },
+    {
+      "knesset": 10,
+      "election_date": "1981-06-30",
+      "electorate": 2490014,
+      "ballots": 1954609,
+      "valid": 1937366,
+      "cbs_reported_turnout_pct": 78.5,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 78.5,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 78.49791205993219
+    },
+    {
+      "knesset": 11,
+      "election_date": "1984-07-23",
+      "electorate": 2654613,
+      "ballots": 2091402,
+      "valid": 2073321,
+      "cbs_reported_turnout_pct": 79.8,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 78.8,
+      "analysis_source": "CEC_archival_percentage_crosschecked_ballots",
+      "source_url": "https://www.gov.il/apps/elections/elections-knesset-17/heb/history/PercentVotes.html",
+      "derived_ratio_pct": 78.78368711371488,
+      "source_conflict_note": "Retrieved CBS text says79.8; its counts give78.7837 and archivedCEC plusIDI give78.8. Raw retrieved value preserved; analysis uses explicit78.8 override. PDF rendering versus source-text error not established."
+    },
+    {
+      "knesset": 12,
+      "election_date": "1988-11-01",
+      "electorate": 2894267,
+      "ballots": 2305567,
+      "valid": 2283123,
+      "cbs_reported_turnout_pct": 79.7,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 79.7,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 79.65978950801706
+    },
+    {
+      "knesset": 13,
+      "election_date": "1992-06-23",
+      "electorate": 3409015,
+      "ballots": 2637943,
+      "valid": 2616841,
+      "cbs_reported_turnout_pct": 77.4,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 77.4,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 77.38138435882506
+    },
+    {
+      "knesset": 14,
+      "election_date": "1996-05-29",
+      "electorate": 3933250,
+      "ballots": 3119832,
+      "valid": 3052130,
+      "cbs_reported_turnout_pct": 79.3,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 79.3,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 79.31944320854255
+    },
+    {
+      "knesset": 15,
+      "election_date": "1999-05-17",
+      "electorate": 4285428,
+      "ballots": 3373748,
+      "valid": 3309416,
+      "cbs_reported_turnout_pct": 78.7,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 78.7,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 78.7260455665105
+    },
+    {
+      "knesset": 16,
+      "election_date": "2003-01-28",
+      "electorate": 4720075,
+      "ballots": 3200773,
+      "valid": 3148364,
+      "cbs_reported_turnout_pct": 67.8,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 67.8,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 67.81190976838292
+    },
+    {
+      "knesset": 17,
+      "election_date": "2006-03-28",
+      "electorate": 5014622,
+      "ballots": 3186739,
+      "valid": 3137064,
+      "cbs_reported_turnout_pct": 63.5,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 63.5,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 63.5489374872124
+    },
+    {
+      "knesset": 18,
+      "election_date": "2009-02-10",
+      "electorate": 5278985,
+      "ballots": 3416587,
+      "valid": 3313490,
+      "cbs_reported_turnout_pct": 64.7,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 64.7,
+      "analysis_source": "CBS_table_27_2",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 64.72052866223336
+    },
+    {
+      "knesset": 19,
+      "election_date": "2013-01-22",
+      "electorate": 5656705,
+      "ballots": 3833646,
+      "valid": 3792742,
+      "cbs_reported_turnout_pct": 67.8,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 67.77,
+      "analysis_source": "official_K19_reference_already_in_panel",
+      "source_url": "https://www.gov.il/apps/elections/elections-knesset-19/eng/list/Results_eng.html",
+      "derived_ratio_pct": 67.77171515926675
+    },
+    {
+      "knesset": 20,
+      "election_date": "2015-03-17",
+      "electorate": 5881696,
+      "ballots": 4254738,
+      "valid": 4210884,
+      "cbs_reported_turnout_pct": 72.3,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 72.3,
+      "analysis_source": "existing_2015_IDI_transcription_crosschecked_CBS",
+      "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2022/ShnatonElectionsTheKnessetandGovernment.27/st27_02.pdf",
+      "derived_ratio_pct": 72.33862477761517
+    },
+    {
+      "knesset": 21,
+      "election_date": "2019-04-09",
+      "electorate": 6339729,
+      "ballots": 4340253,
+      "valid": 4309270,
+      "cbs_reported_turnout_pct": 68.5,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 68.46,
+      "analysis_source": "existing_CEC_national_results",
+      "source_url": "https://votes21.bechirot.gov.il/nationalresults",
+      "derived_ratio_pct": 68.46117554867092
+    },
+    {
+      "knesset": 22,
+      "election_date": "2019-09-17",
+      "electorate": 6394030,
+      "ballots": 4465168,
+      "valid": 4436806,
+      "cbs_reported_turnout_pct": 69.8,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 69.83,
+      "analysis_source": "existing_CEC_national_results",
+      "source_url": "https://votes22.bechirot.gov.il/nationalresults",
+      "derived_ratio_pct": 69.83339146047172
+    },
+    {
+      "knesset": 23,
+      "election_date": "2020-03-02",
+      "electorate": 6453255,
+      "ballots": 4615135,
+      "valid": 4590062,
+      "cbs_reported_turnout_pct": 71.5,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 71.52,
+      "analysis_source": "existing_CEC_national_results",
+      "source_url": "https://votes23.bechirot.gov.il/nationalresults",
+      "derived_ratio_pct": 71.51638979088847
+    },
+    {
+      "knesset": 24,
+      "election_date": "2021-03-23",
+      "electorate": 6578084,
+      "ballots": 4436365,
+      "valid": 4410052,
+      "cbs_reported_turnout_pct": 67.4,
+      "cbs_decimal_places": 1,
+      "turnout_pct": 67.44,
+      "analysis_source": "existing_CEC_national_results",
+      "source_url": "https://votes24.bechirot.gov.il/nationalresults",
+      "derived_ratio_pct": 67.44159849585381
+    },
+    {
+      "ballots": 4794593,
+      "election_date": "2022-11-01",
+      "electorate": 6788804,
+      "invalid": 29851,
+      "knesset": 25,
+      "source_id": "cec25.html",
+      "valid": 4764742,
+      "turnout_pct": 70.63,
+      "analysis_source": "existing_CEC_national_results",
+      "source_url": "https://votes25.bechirot.gov.il/nationalresults",
+      "derived_ratio_pct": 70.62500257777364
+    }
+  ],
+  "conflict_events": [
+    {
+      "id": "independence",
+      "label": "War of Independence",
+      "onset": "1947-11-30",
+      "kind": "war",
+      "source_url": "https://archives.mod.gov.il/sites/English/theTimeAxis/Pages/1947-1949.aspx",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    },
+    {
+      "id": "sinai",
+      "label": "Sinai Campaign",
+      "onset": "1956-10-29",
+      "kind": "war",
+      "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/what-was-the-1956-sinai-campaign/",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    },
+    {
+      "id": "six_day",
+      "label": "Six-Day War",
+      "onset": "1967-06-05",
+      "kind": "war",
+      "source_url": "https://www.idf.il/en/articles/2023/six-day-war-timeline-1/",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    },
+    {
+      "id": "yom_kippur",
+      "label": "Yom Kippur War",
+      "onset": "1973-10-06",
+      "kind": "war",
+      "source_url": "https://archives.mod.gov.il/sites/English/docs/agranat/Pages/default.aspx",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    },
+    {
+      "id": "lebanon_1",
+      "label": "First Lebanon War: ground operation",
+      "onset": "1982-06-06",
+      "kind": "war",
+      "source_url": "https://www.idf.il/en/articles/2022/operation-peace-for-the-galilee-the-first-lebanon-war/",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    },
+    {
+      "id": "lebanon_2",
+      "label": "Second Lebanon War",
+      "onset": "2006-07-12",
+      "kind": "war",
+      "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/2006-israel-hezbollah-war-the-second-lebanon-war/",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    },
+    {
+      "id": "cast_lead",
+      "label": "Operation Cast Lead",
+      "onset": "2008-12-27",
+      "kind": "operation",
+      "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-cast-lead/",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    },
+    {
+      "id": "pillar",
+      "label": "Operation Pillar of Defense",
+      "onset": "2012-11-14",
+      "kind": "operation",
+      "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-pillar-of-defence/operation-pillar-of-defense/",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    },
+    {
+      "id": "protective_edge",
+      "label": "Operation Protective Edge",
+      "onset": "2014-07-08",
+      "kind": "operation",
+      "source_url": "https://www.idf.il/en/mini-sites/wars-and-operations/operation-protective-edge/operation-protective-edge/",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    },
+    {
+      "id": "guardian",
+      "label": "Operation Guardian of the Walls",
+      "onset": "2021-05-10",
+      "kind": "operation",
+      "source_url": "https://www.idf.il/28664",
+      "reviewed_on": "2026-10-24",
+      "usage": "Historical context only; dates do not encode duration, severity, end or ongoing status."
+    }
+  ],
+  "conflict_protocol": {
+    "core": "Six named wars; first Knesset election on or after onset.1949 has no previous turnout and is excluded from change comparisons.",
+    "sensitivity": "Add four specified Gaza operations; collapse multiple events mapping to one election so that2009 is not counted twice.",
+    "windows_days": [
+      365,
+      730,
+      1095
+    ],
+    "limitations": "Curated, non-exhaustive episodes. Omits intifadas, War of Attrition and other operations. Onset is not war end. Exploratory associations, not causal effects or a calibrated2026 adjustment."
+  },
+  "context": {
+    "covid_pandemic_characterization_date": "2020-03-11",
+    "source_url": "https://www.who.int/docs/default-source/coronaviruse/situation-REPORTS/20200311-SITREP-51-COVID-19.PDF",
+    "note": "March2020 election preceded WHO pandemic characterization, not the virus/PHEIC.2021 was after. Do not label2020 unaffected or attribute2021 decline causally."
+  },
+  "poll_intention_scope": {
+    "panel_elections": 6,
+    "panel_release_count": 24,
+    "known_numeric_release_count": 2,
+    "independent_elections_with_numeric_data": 1,
+    "missing_not_zero": true,
+    "reviewed_original_urls": [
+      "https://www.mako.co.il/news-israel-elections/2022_q4/Article-989f30b39aa0481027.htm",
+      "https://www.mako.co.il/news-israel-elections/election_2022/Article-afc48a535be1481026.htm",
+      "https://www.mako.co.il/news-israel-elections/2021/Article-3288575c4cb4871027.htm",
+      "https://13tv.co.il/item/news/politics/politics/elections-survey-1225553/"
+    ],
+    "note": "2022 N12:69% onOct24 (intend to vote);67% onOct28 (would you come to vote if held today). Different releases, one election; cannot fit independent historical calibration."
+  },
+  "source_conflicts": [
+    {
+      "knesset": 11,
+      "cbs_retrieved_pct": 79.8,
+      "count_ratio_pct": 78.78368711371488,
+      "analysis_pct": 78.8,
+      "archival_cec_url": "https://www.gov.il/apps/elections/elections-knesset-17/heb/history/PercentVotes.html",
+      "corroborating_url": "https://en.idi.org.il/israeli-elections-and-parties/elections/1984/",
+      "note": "Retrieved CBS text says79.8; its counts give78.7837 and archivedCEC plusIDI give78.8. Raw retrieved value preserved; analysis uses explicit78.8 override. PDF rendering versus source-text error not established."
+    },
+    {
+      "knesset": 5,
+      "note": "ArchivedCEC table says83.0 while CBS81.6 matches its counts; preserve CBS81.6. No claim every archivedCEC row is correct."
+    },
+    {
+      "knesset": 16,
+      "note": "ArchivedCEC table says68.9 while CBS67.8 matches its counts; preserve CBS67.8."
+    }
+  ]
+}

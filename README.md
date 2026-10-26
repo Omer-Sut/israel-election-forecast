@@ -1,5 +1,7 @@
 # Israeli Election Forecast
 
+Turnout analysis: [25-election history and chronological comparisons](reports/turnout-history-2026-10-24/analysis.md), [history plot](reports/turnout-history-2026-10-24/turnout-history.svg), [forecast-error plot](reports/turnout-history-2026-10-24/turnout-errors.svg). Run `python scripts/turnout_history.py`. No turnout change adopted; 70.63% remains the working placeholder.
+
 Review package: [full forecast and Reservists 0/3/4 comparison](reports/review-package-2026-10-24/review.md), [scenario plot](reports/review-package-2026-10-24/reservists-scenarios.svg), [309-word method](reports/review-package-2026-10-24/method-description.txt). Run `python scripts/review_package.py`. The working forecast is unchanged; source freeze remains incomplete. No competition entry submitted.
 
 Active October24 forecast: [electoral allocation review](reports/electoral-review-2026-10-24/analysis.md), [rounding plot](reports/electoral-review-2026-10-24/rounding-error.svg), and [constrained draft](reports/electoral-review-2026-10-24/submission-draft.json). Run `python scripts/electoral_review.py`. E010 and earlier drafts are archived diagnostics; the user now requires no1/2-seat outputs. Exact current Bader–Ofer allocation still requires complete vote shares and verified agreements.
