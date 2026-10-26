@@ -3,6 +3,7 @@
 Prepared 26 October 2026. This is a review and copying package, **not a submitted competition entry**. The active forecast is copied from `../forecast-decision-2026-10-25/forecast.json`; no numerical prediction has been changed. The source freeze is incomplete.
 
 - `form-fields.en.txt` and `form-fields.he.txt`: form-order values and copy-ready narrative fields. Paste **one** language's method text into the form's single 500-word field.
+- `form-answers.en.txt` and `form-answers.he.txt`: concise, formal answers for the five systematic-track fields shown in the form screenshot; each section is ready to copy into its corresponding field.
 - `method.en.txt` and `method.he.txt`: standalone descriptions, each below 500 whitespace-separated words.
 - `method.en.pdf` and `method.he.pdf`: printable versions of the same descriptions and source notes. A document link is preferred by the form transcription, but not marked required.
 - `source-notes.md`: source manifest, mapping and validation limits.

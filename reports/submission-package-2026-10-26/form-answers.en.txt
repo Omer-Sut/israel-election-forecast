@@ -1,0 +1,16 @@
+Systematic track - text to copy into the form fields
+
+Method description (method, model, data, assumptions)
+The forecast uses the latest available release from each of seven polling groups within a 14-day window ending on 24 October 2026. Groups receive equal weight. After mapping published seat tables to the form fields, I select the integer allocation that minimizes the sum of squared distances from the poll means, subject to 120 seats in total and either zero or at least three seats for each list. Mapping the current Joint List to the Hadash-Ta'al form field is an explicit assumption. The national turnout forecast, 69.86%, is the mean turnout of the last three Knesset elections. The seat forecast uses published seat projections; it does not reconstruct votes or apply Bader-Ofer to the current election.
+
+Data sources
+Published seat polls from Midgam/N12, Channel 13, Lazar/Maariv, Kantar/Israel Hayom, Direct Polls/i24NEWS, Next Data/Channel 14 and Tatika/Zman. National turnout figures are from the Central Elections Committee results for the 2020, 2021 and 2022 Knesset elections. Publication links, dates and input files are recorded in the code repository.
+
+Code link
+https://github.com/Omer-Sut/israel-election-forecast/blob/main/scripts/forecast_decision.py
+
+Document link (preferred)
+https://github.com/Omer-Sut/israel-election-forecast/blob/main/reports/submission-package-2026-10-26/method.en.pdf
+
+Agreement to present the method if selected as winner
+This checkbox requires the participant's own agreement. It has not been selected or approved as part of preparing this file.
