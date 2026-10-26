@@ -33,14 +33,14 @@ Total / סך הכול: 120
 את הרשימה המשותפת הנוכחית אני ממפה לשדה הטופס הנקרא חד״ש־תע״ל כהנחה מפורשת לגבי הבחירות הנוכחיות; זהויות מפלגתיות בבחירות קודמות נשמרות בנפרד. מנגנון נפרד של באדר־עופר נבדק מול התוצאות הרשמיות של 2022, אך אינו משמש בתחזית הנוכחית משום שאין בידינו שיעורי הצבעה מלאים והסכמי עודפים מאומתים. התחזית מבוססת על מנדטים שפורסמו בסקרים, ולא על שחזור קולות. נותרו מחלוקות בין מקורות ואימות חסר של הרשימות וההסכמים הרשמיים. הקוד, הקלטים שנבדקו, ההנחות והתוצאות מקושרים במאגר הפרויקט.
 
 מקורות הנתונים
-סקרי בחירות וטבלאות מנדטים שפורסמו ונבדקו עד 24 באוקטובר 2026 (שבע קבוצות סוקרים; קישורים ותאריכים בקובץ data/snapshots/polls-2026-10-24.json); תוצאות שיעור ההצבעה הארצי הרשמיות של ועדת הבחירות המרכזית בבחירות לכנסת בשנים 2020, 2021 ו־2022 (data/snapshots/turnout-history-2026-10-24/inputs.json). מיפוי הרשימה המשותפת לשדה חד״ש־תע״ל מתועד בקובץ config/poll-mappings.json.
+סקרי מנדטים שפורסמו ונבדקו עד 24 באוקטובר 2026 מאת מידגם/N12, ערוץ 13, לזר/מעריב, קנטאר/ישראל היום, דיירקט פולס/i24NEWS, נקסט דאטה/ערוץ 14 וטאטיקה/זמן. קישורים לפרסומים ותאריכים מופיעים בקובץ data/snapshots/polls-2026-10-24.json. תוצאות שיעור ההצבעה הארצי הרשמיות של ועדת הבחירות המרכזית בבחירות לכנסת בשנים 2020, 2021 ו־2022 (data/snapshots/turnout-history-2026-10-24/inputs.json). מיפוי הרשימה המשותפת לשדה חד״ש־תע״ל מתועד בקובץ config/poll-mappings.json.
 https://github.com/Omer-Sut/israel-election-forecast/blob/main/data/snapshots/polls-2026-10-24.json
 https://github.com/Omer-Sut/israel-election-forecast/blob/main/data/snapshots/turnout-history-2026-10-24/inputs.json
 
 קישור לקוד
-https://github.com/Omer-Sut/israel-election-forecast/tree/main/scripts
+https://github.com/Omer-Sut/israel-election-forecast/blob/main/scripts/forecast_decision.py
 
 קישור מועדף למסמך
-https://github.com/Omer-Sut/israel-election-forecast/tree/feat/individual-submission-package/reports/submission-package-2026-10-26
+https://github.com/Omer-Sut/israel-election-forecast/tree/main/reports/submission-package-2026-10-26
 
 הסכמה להצגת השיטה: יש לבחור תשובה אישית בטופס; לא הונחה הסכמה.

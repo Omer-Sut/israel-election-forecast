@@ -33,14 +33,14 @@ For turnout, I use the arithmetic mean of national turnout in the last three Kne
 The current Joint List is mapped to the form field named Hadash-Ta'al as an explicit current-election assumption; past party identities remain separate. A separate Bader-Ofer allocator was checked against official 2022 results, but I do not apply it to the current prediction because complete current vote shares and verified surplus agreements are unavailable. The forecast uses published seat projections, not reconstructed vote counts. Source conflicts and official list and agreement verification remain open. Code, reviewed inputs, assumptions and outputs are linked in the repository.
 
 DATA SOURCES
-Reviewed published election polls and seat tables through 24 October 2026 (seven polling groups; source URLs and dates in data/snapshots/polls-2026-10-24.json); official Central Elections Committee national turnout results for the 2020, 2021 and 2022 Knesset elections (data/snapshots/turnout-history-2026-10-24/inputs.json). The current Joint List-to-Hadash-Ta'al form mapping is documented in config/poll-mappings.json.
+Reviewed published seat polls through 24 October 2026 from Midgam/N12, Channel 13, Lazar/Maariv, Kantar/Israel Hayom, Direct Polls/i24NEWS, Next Data/Channel 14 and Tatika/Zman; exact release URLs and dates are in data/snapshots/polls-2026-10-24.json. official Central Elections Committee national turnout results for the 2020, 2021 and 2022 Knesset elections (data/snapshots/turnout-history-2026-10-24/inputs.json). The current Joint List-to-Hadash-Ta'al form mapping is documented in config/poll-mappings.json.
 https://github.com/Omer-Sut/israel-election-forecast/blob/main/data/snapshots/polls-2026-10-24.json
 https://github.com/Omer-Sut/israel-election-forecast/blob/main/data/snapshots/turnout-history-2026-10-24/inputs.json
 
 CODE LINK
-https://github.com/Omer-Sut/israel-election-forecast/tree/main/scripts
+https://github.com/Omer-Sut/israel-election-forecast/blob/main/scripts/forecast_decision.py
 
 PREFERRED DOCUMENT LINK
-https://github.com/Omer-Sut/israel-election-forecast/tree/feat/individual-submission-package/reports/submission-package-2026-10-26
+https://github.com/Omer-Sut/israel-election-forecast/tree/main/reports/submission-package-2026-10-26
 
 Presentation agreement: select your own answer in the form; no consent is assumed.

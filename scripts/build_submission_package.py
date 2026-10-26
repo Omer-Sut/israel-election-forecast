@@ -45,24 +45,28 @@ def build():
     snapshot = read_json(SNAPSHOT)
     assert snapshot  # source manifest must exist
     sources_en = (
-        "Reviewed published election polls and seat tables through 24 October 2026 "
-        "(seven polling groups; source URLs and dates in data/snapshots/polls-2026-10-24.json); "
+        "Reviewed published seat polls through 24 October 2026 from Midgam/N12, "
+        "Channel 13, Lazar/Maariv, Kantar/Israel Hayom, Direct Polls/i24NEWS, "
+        "Next Data/Channel 14 and Tatika/Zman; exact release URLs and dates are in "
+        "data/snapshots/polls-2026-10-24.json. "
         "official Central Elections Committee national turnout results for the 2020, 2021 "
         "and 2022 Knesset elections (data/snapshots/turnout-history-2026-10-24/inputs.json). "
         "The current Joint List-to-Hadash-Ta'al form mapping is documented in "
         "config/poll-mappings.json."
     )
     sources_he = (
-        "סקרי בחירות וטבלאות מנדטים שפורסמו ונבדקו עד 24 באוקטובר 2026 "
-        "(שבע קבוצות סוקרים; קישורים ותאריכים בקובץ data/snapshots/polls-2026-10-24.json); "
+        "סקרי מנדטים שפורסמו ונבדקו עד 24 באוקטובר 2026 מאת מידגם/N12, "
+        "ערוץ 13, לזר/מעריב, קנטאר/ישראל היום, דיירקט פולס/i24NEWS, "
+        "נקסט דאטה/ערוץ 14 וטאטיקה/זמן. קישורים לפרסומים ותאריכים מופיעים בקובץ "
+        "data/snapshots/polls-2026-10-24.json. "
         "תוצאות שיעור ההצבעה הארצי הרשמיות של ועדת הבחירות המרכזית בבחירות לכנסת "
         "בשנים 2020, 2021 ו־2022 (data/snapshots/turnout-history-2026-10-24/inputs.json). "
         "מיפוי הרשימה המשותפת לשדה חד״ש־תע״ל מתועד בקובץ config/poll-mappings.json."
     )
     data_link = f"{REPO}/blob/main/data/snapshots/polls-2026-10-24.json"
     turnout_link = f"{REPO}/blob/main/data/snapshots/turnout-history-2026-10-24/inputs.json"
-    code_link = f"{REPO}/tree/main/scripts"
-    doc_link = f"{REPO}/tree/feat/individual-submission-package/reports/submission-package-2026-10-26"
+    code_link = f"{REPO}/blob/main/scripts/forecast_decision.py"
+    doc_link = f"{REPO}/tree/main/reports/submission-package-2026-10-26"
 
     counts = {}
     for lang, sources in (("en", sources_en), ("he", sources_he)):
