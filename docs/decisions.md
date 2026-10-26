@@ -1,5 +1,9 @@
 # Decisions and open questions
 
+## E008 training-quality decision (verified)
+
+Poll quality now enters individual-poll learners as source/methodology features and a separately tested past-only training weight. Four ablations isolate representation versus metadata effects; no outcome leakage or raw poll count as independent campaign evidence. Retain this machinery, but do not adopt learned corrections/weights now: no incremental25% integer improvement over poll-basic on2021/2022, and earlier-selected metadata Ridge worsens2021. Small continuous differences are insufficient adoption evidence. Further research needs better audited historical methodology coverage; no more same-data parameter sweep selected. Current forecast/turnout unchanged. See poll-metadata-trial.md and dated analysis.
+
 October23 E006 decision: keep explicit prior-election continuity/pooling context machinery, reject forecast correction adoption now because no fixed25% or earlier-OOF-selected integer gain in2021/2022. Full2015edition-linked data stays separate archive-unverified sensitivity; coverage is not individual demographic identification. Preserve tiny hindsight-only continuous gain without selecting it. Next prioritize current polls/threshold measurements rather than enlarging this matrix; age/sex/2026lineage still audited separately. No merge/submission authorized. See party-area-trial.md and its verified report.
 
 ## E007 source refresh
@@ -78,3 +82,8 @@ Preserve October21 baseline; separate October23 research reference uses unchange
 - Collaborator invitations (public read access does not grant write access).
 
 Record decisions here when made, including rationale and relevant evidence. Do not retroactively describe proposals as user-approved decisions.
+
+
+## E008 cross-run verification follow-up — October 24
+
+Report commit033ef260 passed baseline40066365528; scientific40066365525 passed model tests and exact same-run repeats but failed committed JSON byte comparison. All integer allocations/errors, selected fractions, summary and plot match. Of289 numerical differences, all above1e-10 are weighted-forest continuous outputs, maximum0.016915 seats. No model configuration or saved reference changed. Cross-run comparison now allows absolute0.02 seats only for weighted-forest continuous predictions/errors and1e-10 for other floats; discrete values and structure remain exact. This tolerance was set after observing the discrepancy and is not evidence of bitwise reproducibility. Three comparator regression tests added; hosted rerun pending. No correction adopted; user cumulative effort remains unmeasured.

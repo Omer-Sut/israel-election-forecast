@@ -1,5 +1,9 @@
 # Experiment and effort log
 
+## E008 - poll metadata training trial (verified)
+
+Implementation66d76c33e5168399ef1adfee74d780bb75dd72c3, PR19 stacked onPR18. Screen39952455330/baseline39952455404 succeeded:70 scientific tests, baseline70 with five optional skips, deterministic E008 results/summary/SVG, frozen checks. New compute1.190s; output commit1fb0fb97 is tested merge ref, not merged PR. Protocol poll-metadata-trial.md:27 audited releases/six campaigns, T-1/14days, seed20261021, ridge10/forest3_5/xgb2_50, four ablations and fractions0/.05/.25/1. Earlier-OOF selection uses>=2campaigns; quality-training estimates strictly earlier than each training release's campaign. Metadata coverage22sizes/11modes/13durations;7uniform warmups, actual multipliers0.889–1.121, normalized per campaign.192 scalar score rows/48 selections and full vectors preserved; all48 aggregate control scores match E006 independently. At25% no metadata/weight increment over poll-basic integer vectors in2021/2022. Small continuous mixed changes; earlier-selected metadata Ridge2021error22 versus poll-basic20, all2022zero-correction12. Keep implementation, reject current correction/weight adoption. Artifact12499774990 verified105815bytes/unexpired throughNovember22; text outputs recovered exactly from public encoded logs, no archive-byte hash claim. Report completion resumedOctober24 after usage limit. No user effort measurement/budget reset or current forecast/turnout/merge/submission change.
+
 ## E007 - current-source and threshold audit (verified)
 
 Cutoff2026-10-23,14days; original six plus four new original releases, five latest audited equal-weight groups. Deterministic unchanged mean/L1; no fitting or seed. Implementation11e8930, log-recovery528d60f, PR18 stacked on PR17. Baseline39948181011/screen39948181004 successful:64 scientific tests (22.928s), standard suite64 with four optional skips (35.003s), frozen original reports and identical audit repeats. Separate audit compute time was not instrumented. Artifact12498898382:9486bytes/unexpired through November22; five outputs recovered from logs, no local binary hash claim. Rounded mean changes four total absolute seats from Oct21; Amcha1/Reservists2, versus L1 0/3. Current disagreement14.4/12 is descriptive, not election accuracy. Keep audited inputs/tooling, no model/weight/threshold-probability/final-vector adoption. LatestMaariv/official-lineup gaps remain. User cumulative effort unmeasured, budget not reset. See current-poll-audit.md and dated report.
@@ -133,3 +137,8 @@ Limitations / next step:
 ```
 
 Log failed or rejected approaches briefly too. Keep the authoritative source manifest and outputs durable in GitHub or a documented shared store; a session-only path is insufficient.
+
+
+## E008 cross-run verification follow-up — October 24
+
+Report commit033ef260 passed baseline40066365528; scientific40066365525 passed model tests and exact same-run repeats but failed committed JSON byte comparison. All integer allocations/errors, selected fractions, summary and plot match. Of289 numerical differences, all above1e-10 are weighted-forest continuous outputs, maximum0.016915 seats. No model configuration or saved reference changed. Cross-run comparison now allows absolute0.02 seats only for weighted-forest continuous predictions/errors and1e-10 for other floats; discrete values and structure remain exact. This tolerance was set after observing the discrepancy and is not evidence of bitwise reproducibility. Three comparator regression tests added; hosted rerun pending. No correction adopted; user cumulative effort remains unmeasured.

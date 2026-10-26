@@ -1,5 +1,9 @@
 # Session log
 
+## October24 - E008 verified report completion after usage limit
+
+Implementation66d76c3 / PR19 stacked on PR18 fa1699d completed October23; screen39952455330/baseline39952455404 succeeded,70 scientific tests, deterministic E008 and frozen checks. Runtime1.190s. Four recovered report files already existed after interruption and matched hosted output exactly; completed analysis/handoff publication. All48 aggregate controls independently match E006.27 audited releases,22 sample sizes/11 modes/13 durations; strict earlier-campaign quality and balanced training. Metadata/weighted25% vectors equal poll-basic on2021/2022 despite small continuous changes; no incremental integer gain. Past-selected metadata Ridge2021worsens20→22;2022allzero corrections. Keep machinery, reject forecast adoption now. Artifact12499774990 verified105815bytes/unexpired, local binary hash not verified. No current/turnout/merge/submission change; localGit3055db4 stale and user cumulative effort unmeasured.
+
 ## October23 - E007 current-poll audit verified
 
 Resumed interruption, no partial E007 files existed. Published 11e8930/528d60f in PR18 stacked on live PR17head92f1111. Baseline39948181011/screen39948181004 passed:64 scientific tests, original frozen checks, deterministic new audit. Four newer original releases replace anchors; original six retained exactly. Source-version availability conservatively October23; hypothetical withdrawal scenarios excluded. Mean/L1 Amcha1/0 and Reservists2/3 illustrate remaining threshold decision; no final vector adopted. Five report files recovered exactly from public hosted logs, artifact12498898382 verified9486bytes/unexpired (binary bytes not locally verified). Known newer Maariv and other source/official-lineup gaps retained. No model/weight/turnout/merge/submission change. Local GitHEAD3055db4 stale; user cumulative hands-on effort unmeasured.
@@ -180,3 +184,8 @@ User approved robustness work before a two-hour absence. Added scripts/robustnes
 - Created the documentation and collaboration scaffold, ignore/text settings, and first-publication helper. The helper passed PowerShell syntax parsing; execution is pending.
 - Blockers: no usable Git/GitHub CLI, GitHub network requests failed, browser inventory was empty, and workspace permissions denied writing repository contents inside `.git`. An empty `.git` directory exists, but initialization did not complete. No remote repository has been created, no commit has been made, and nothing has been pushed.
 - Next: validate/init with Git on a suitable computer, publish the public repository, verify the form and current rules, then collect data and choose a baseline.
+
+
+## E008 cross-run verification follow-up — October 24
+
+Report commit033ef260 passed baseline40066365528; scientific40066365525 passed model tests and exact same-run repeats but failed committed JSON byte comparison. All integer allocations/errors, selected fractions, summary and plot match. Of289 numerical differences, all above1e-10 are weighted-forest continuous outputs, maximum0.016915 seats. No model configuration or saved reference changed. Cross-run comparison now allows absolute0.02 seats only for weighted-forest continuous predictions/errors and1e-10 for other floats; discrete values and structure remain exact. This tolerance was set after observing the discrepancy and is not evidence of bitwise reproducibility. Three comparator regression tests added; hosted rerun pending. No correction adopted; user cumulative effort remains unmeasured.
