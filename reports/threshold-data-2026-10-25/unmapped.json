@@ -1,0 +1,10 @@
+[
+  {
+    "poll_id": "midgam_rc-2021-02-23",
+    "election_id": "knesset_24_2021",
+    "source_url": "https://www.mako.co.il/news-israel-elections/2021_q1/Article-10186dc76dfc771026.htm",
+    "raw_label_he": "מען",
+    "value": 0.8,
+    "reason": "Not in frozen historical model roster; official ballot/lineup mapping not certified here. Retain separately rather than invent an outcome link."
+  }
+]

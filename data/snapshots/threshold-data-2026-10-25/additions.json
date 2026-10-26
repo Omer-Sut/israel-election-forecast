@@ -1,0 +1,111 @@
+{
+  "reviewed_on": "2026-10-25",
+  "new_releases": [
+    {
+      "id": "2019apr_mako_panels_0401", "election_id": "knesset_21_2019apr", "publisher": "Mako / Morning News", "pollster_group": "panels_politics",
+      "source_url": "https://www.mako.co.il/tv-morning-news/articles/Article-caa965cb707d961006.htm",
+      "published_on": "2019-04-01", "source_updated_on": null, "fieldwork_start": "2019-03-31", "fieldwork_end": "2019-03-31", "sample_size": 552, "invited_count": null,
+      "mode": "Internet Panel4All", "maximum_margin_error_pct": 4.2, "undecided_pct": 13.7,
+      "denominator_status": "unspecified_publisher_vote_intention_basis", "undecided_allocation": null,
+      "reported_seats": {"likud_2019apr":31,"blue_and_white_2019apr":30,"hadash_taal_2019apr":9,"labor_2019apr":9,"united_torah_judaism_2019apr":6,"new_right_2019apr":6,"meretz_2019apr":6,"union_right_wing_parties_2019apr":5,"shas_2019apr":5,"kulanu_2019apr":4,"yisrael_beiteinu_2019apr":4,"zehut_2019apr":5},
+      "percentages": [{"party_id":"gesher_2019apr","raw_label_he":"גשר","value":2.2},{"party_id":"raam_balad_2019apr","raw_label_he":"רע\"ם-בל\"ד","value":2.1}],
+      "evidence_locator": "Article dated01.04.19; final party paragraph and methodology paragraph.",
+      "note": "PanelsPolitics, not Midgam: same publisher brand does not identify the firm. Below-threshold percentages and13.7%undecided are separate facts; do not renormalize without allocation rules."
+    },
+    {
+      "id":"2019sep_walla_midgam_0903", "election_id":"knesset_22_2019sep", "publisher":"Walla", "pollster_group":"midgam_geva",
+      "source_url":"https://elections.walla.co.il/item/3310542", "published_on":"2019-09-03", "source_updated_on":null,
+      "fieldwork_start":"2019-09-01", "fieldwork_end":"2019-09-02", "sample_size":521, "invited_count":3593,
+      "mode":"Internet and telephone", "maximum_margin_error_pct":4.3, "undecided_pct":null,
+      "denominator_status":"unspecified_publisher_vote_intention_basis", "undecided_allocation":null,
+      "reported_seats":{"likud_2019sep":32,"blue_and_white_2019sep":31,"joint_list_2019sep":10,"yamina_2019sep":9,"yisrael_beiteinu_2019sep":9,"united_torah_judaism_2019sep":8,"shas_2019sep":7,"labor_gesher_2019sep":7,"democratic_union_2019sep":7},
+      "percentages":[{"party_id":"otzma_yehudit_2019sep","raw_label_he":"עוצמה יהודית","value":2.7}],
+      "evidence_locator":"03.09.2019 dateline, party paragraphs and footer methodology. Fieldwork explicit17:00Sep1 to13:00Sep2; daily dates exported.",
+      "note":"Zehut withdrawal is context; no Zehut percentage or later-election alias is invented."
+    },
+    {
+      "id":"2020_walla_midgam_0217", "election_id":"knesset_23_2020", "publisher":"Walla", "pollster_group":"midgam_geva",
+      "source_url":"https://elections.walla.co.il/item/3341421", "published_on":"2020-02-17", "source_updated_on":null,
+      "fieldwork_start":"2020-02-16", "fieldwork_end":"2020-02-17", "sample_size":502, "invited_count":3486,
+      "mode":"Internet and telephone", "maximum_margin_error_pct":4.4, "undecided_pct":null,
+      "denominator_status":"unspecified_publisher_vote_intention_basis", "undecided_allocation":null,
+      "reported_seats":{"blue_and_white_2020":34,"likud_2020":33,"joint_list_2020":13,"labor_gesher_meretz_2020":10,"shas_2020":8,"united_torah_judaism_2020":8,"yamina_2020":7,"yisrael_beiteinu_2020":7},
+      "percentages":[{"party_id":"otzma_yehudit_2020","raw_label_he":"עוצמה יהודית","value":2.5}],
+      "evidence_locator":"17.02.2020 dateline, current support2.5%versus previous1.7%, footer metadata.",
+      "possible_reused_fieldwork_metadata_with":["2020_walla_midgam_0226"],
+      "note":"The laterFeb26 article prints identical fieldwork/sample metadata but different seat/percentage results. Keep both publication records and mark survey-wave linkage unresolved; do not treat them as independent samples. Do not ingest the previous1.7%comparison as another new poll."
+    },
+    {
+      "id":"2020_n12_midgam_0219", "election_id":"knesset_23_2020", "publisher":"N12", "pollster_group":"midgam_geva",
+      "source_url":"https://www.mako.co.il/news-israel-elections/2020/Article-94897855f5e5071026.htm",
+      "published_on":"2020-02-19", "source_updated_on":"2020-02-19", "fieldwork_start":"2020-02-19", "fieldwork_end":"2020-02-19", "sample_size":503, "invited_count":3490,
+      "mode":"Internet and telephone", "maximum_margin_error_pct":4.4, "undecided_pct":null,
+      "denominator_status":"unspecified_publisher_vote_intention_basis", "undecided_allocation":null,
+      "reported_seats":{"blue_and_white_2020":35,"likud_2020":33,"joint_list_2020":13,"labor_gesher_meretz_2020":9,"shas_2020":8,"united_torah_judaism_2020":8,"yamina_2020":7,"yisrael_beiteinu_2020":7},
+      "percentages":[{"party_id":"otzma_yehudit_2020","raw_label_he":"עוצמה יהודית","value":1.6}],
+      "evidence_locator":"19.02.20 publication/update, current support paragraph and methodology.",
+      "note":"The2.2%previous-poll comparison is not a separate admitted observation. Midgam is the firm, not a new independent firm in addition to Walla/Midgam."
+    },
+    {
+      "id":"midgam_rc-2021-02-23", "election_id":"knesset_24_2021", "publisher":"N12", "pollster_group":"midgam_rc",
+      "source_url":"https://www.mako.co.il/news-israel-elections/2021_q1/Article-10186dc76dfc771026.htm",
+      "published_on":"2021-02-23", "source_updated_on":"2021-02-23", "fieldwork_start":"2021-02-23", "fieldwork_end":"2021-02-23", "sample_size":506, "invited_count":3526,
+      "mode":"Internet and telephone", "maximum_margin_error_pct":4.4, "undecided_pct":null,
+      "denominator_status":"unspecified_publisher_vote_intention_basis", "undecided_allocation":null,
+      "reported_seats":{"likud_2021":28,"yesh_atid_2021":18,"new_hope_2021":13,"yamina_2021":11,"joint_list_2021":9,"shas_2021":8,"united_torah_judaism_2021":7,"yisrael_beiteinu_2021":7,"labor_2021":6,"blue_and_white_2021":5,"religious_zionism_otzma_2021":4,"meretz_2021":4},
+      "percentages":[{"party_id":"new_economic_2021","raw_label_he":"הכלכלית החדשה","value":2.1},{"party_id":"raam_2021","raw_label_he":"רע\"מ","value":2.0}],
+      "unmapped_percentages":[{"raw_label_he":"מען","value":0.8,"reason":"Not in frozen historical model roster; official ballot/lineup mapping not certified here. Retain separately rather than invent an outcome link."}],
+      "evidence_locator":"23.02.21 publication/update, below-threshold paragraph and methodology.",
+      "note":"Exactly28days before election. Retain as long-horizon data; not an observation inside the frozen14-day panel."
+    },
+    {
+      "id":"midgam_rc-2021-03-02", "election_id":"knesset_24_2021", "publisher":"N12", "pollster_group":"midgam_rc",
+      "source_url":"https://www.mako.co.il/news-israel-elections/2021-election_polls/Article-0ef19cf03d3f771027.htm",
+      "published_on":"2021-03-02", "source_updated_on":"2021-03-02", "fieldwork_start":"2021-03-02", "fieldwork_end":"2021-03-02", "sample_size":506, "invited_count":3476,
+      "mode":"Internet and telephone", "maximum_margin_error_pct":4.4, "undecided_pct":null,
+      "denominator_status":"unspecified_publisher_vote_intention_basis", "undecided_allocation":null,
+      "reported_seats":{"likud_2021":28,"yesh_atid_2021":19,"new_hope_2021":14,"yamina_2021":12,"joint_list_2021":9,"shas_2021":8,"yisrael_beiteinu_2021":7,"labor_2021":7,"united_torah_judaism_2021":6,"religious_zionism_otzma_2021":5,"blue_and_white_2021":5},
+      "percentages":[{"party_id":"raam_2021","raw_label_he":"רע\"מ","value":2.8},{"party_id":"meretz_2021","raw_label_he":"מרצ","value":2.5},{"party_id":"new_economic_2021","raw_label_he":"הכלכלית החדשה","value":1.8}],
+      "evidence_locator":"02.03.21 publication/update, exact below-threshold figures and methodology.",
+      "note":"Secondary Walla table rounds some figures and has a conflicting widget date; primary N12 exact figures take precedence only in this new overlay, not by repairing old source data."
+    },
+    {
+      "id":"midgam_rc-2021-03-07", "election_id":"knesset_24_2021", "publisher":"N12", "pollster_group":"midgam_rc",
+      "source_url":"https://www.mako.co.il/news-israel-elections/2021/Article-82f82bbadc90871027.htm",
+      "published_on":"2021-03-07", "source_updated_on":null, "fieldwork_start":"2021-03-04", "fieldwork_end":"2021-03-04", "sample_size":600, "invited_count":14138,
+      "mode":"Internet and telephone", "maximum_margin_error_pct":4.0, "undecided_pct":null,
+      "denominator_status":"unspecified_publisher_vote_intention_basis", "undecided_allocation":null,
+      "reported_seats":{"likud_2021":29,"yesh_atid_2021":20,"new_hope_2021":12,"yamina_2021":12,"joint_list_2021":9,"shas_2021":8,"yisrael_beiteinu_2021":7,"labor_2021":7,"united_torah_judaism_2021":7,"blue_and_white_2021":5,"religious_zionism_otzma_2021":4},
+      "percentages":[{"party_id":"meretz_2021","raw_label_he":"מרצ","value":3.0},{"party_id":"raam_2021","raw_label_he":"רע\"מ","value":3.0},{"party_id":"new_economic_2021","raw_label_he":"הכלכלית החדשה","value":1.9}],
+      "evidence_locator":"07.03.21 dateline; current percentages paragraph; fieldwork explicitly04.03.2021, distinct from publication.",
+      "note":"Publication16days before election, fieldwork19days. Do not use the fieldwork date as a publication date or classify as final14days."
+    },
+    {
+      "id":"midgam_rc-2021-03-10", "election_id":"knesset_24_2021", "publisher":"N12", "pollster_group":"midgam_rc",
+      "source_url":"https://www.mako.co.il/news-israel-elections/2021-election_polls/Article-40e76c2962d1871026.htm",
+      "published_on":"2021-03-10", "source_updated_on":"2021-03-10", "fieldwork_start":"2021-03-10", "fieldwork_end":"2021-03-10", "sample_size":509, "invited_count":3425,
+      "mode":"Internet and telephone", "maximum_margin_error_pct":4.4, "undecided_pct":null,
+      "denominator_status":"unspecified_publisher_vote_intention_basis", "undecided_allocation":null,
+      "reported_seats":{"likud_2021":28,"yesh_atid_2021":19,"yamina_2021":13,"new_hope_2021":11,"joint_list_2021":9,"shas_2021":8,"yisrael_beiteinu_2021":7,"united_torah_judaism_2021":7,"labor_2021":6,"religious_zionism_otzma_2021":4,"blue_and_white_2021":4,"meretz_2021":4},
+      "percentages":[{"party_id":"raam_2021","raw_label_he":"רע\"מ","value":3.1},{"party_id":"new_economic_2021","raw_label_he":"הכלכלית החדשה","value":2.1}],
+      "evidence_locator":"10.03.21 publication/update, exact3.1/2.1 below-threshold paragraph and methodology.",
+      "note":"Thirteen elapsed calendar days before election despite article's12-day prose. Use explicit dates. Party-specific turnout-intention percentages elsewhere in article are different questions and are not vote shares."
+    }
+  ],
+  "enrich_existing": [
+    {
+      "poll_id":"2019apr_ynet_midgam_0405", "election_id":"knesset_21_2019apr",
+      "source_url":"https://www.ynet.co.il/articles/0,7340,L-5489848,00.html",
+      "percentages":[{"party_id":"gesher_2019apr","raw_label_he":"גשר","value":2.2}],
+      "undecided_pct":40.0, "undecided_approximate":true,
+      "note":"Publisher says about40%still undecided; its decision definition/seat-projection allocation is not fully explained. Keep as approximate context, never rescale the2.2%using40%. Existing fieldwork/sample are not changed."
+    },
+    {
+      "poll_id":"2020_walla_midgam_0226", "election_id":"knesset_23_2020",
+      "source_url":"https://elections.walla.co.il/item/3343018",
+      "percentages":[{"party_id":"otzma_yehudit_2020","raw_label_he":"עוצמה יהודית","value":1.7}],
+      "possible_reused_fieldwork_metadata_with":["2020_walla_midgam_0217"],
+      "note":"TheFeb26 page printsFeb16-17fieldwork,N502,invited3486 identical to the newFeb17 article, despite changed projection/support. Preserve conflict; no assumption of independent survey waves."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "reviewed_on":"2026-10-25",
+  "status":"bounded_original_source_extension_not_exhaustive",
+  "new_source_facts":"Eight complete original-publisher releases and two existing-release percentage enrichments in additions.json. Numerical transcriptions checked against original body text; original Hebrew percentage labels preserved. No publisher prose or images redistributed.",
+  "raw_source_bytes_saved":false,
+  "raw_source_hashes":null,
+  "old_sources_preserved":"The original24releases retain their prior audits/retrieval dates. The new exporter does not claim all old pages were re-retrieved today.",
+  "rechecked_without_new_exact_percentages":[
+    {"url":"https://en.globes.co.il/en/article-herzog-opens-four-seat-gap-1001018362","election_id":"knesset_20_2015","finding":"Original seat discussion readable; no exact party vote percentage recovered. Numbers describing seats or coalition composition are not vote percentages."},
+    {"url":"https://www.ynetnews.com/articles/0,7340,L-4636623,00.html","election_id":"knesset_20_2015","finding":"Original final seat table/prose readable; no exact party percentage recovered."},
+    {"url":"https://elections.walla.co.il/item/3311677","election_id":"knesset_22_2019sep","finding":"Otzma4seats explicit; no numeric vote percentage recovered. Do not infer a vote share from4seats."},
+    {"url":"https://www.israelhayom.co.il/article/860275","election_id":"knesset_24_2021","finding":"Raam/NewEconomic explicitly outside parliament; exact percentages appear only as unverified graphic leads. No values copied from Wikipedia."},
+    {"url":"https://www.israelhayom.co.il/article/862625","election_id":"knesset_24_2021","finding":"Raam/NewEconomic outside parliament without body percentages.12%undecided in a different question is contextual; raw support denominators remain unknown."},
+    {"url":"https://13tv.co.il/item/news/politics/politics/elections-survey-1225553/","election_id":"knesset_24_2021","finding":"Small lists4seats explicit; NewEconomic outside without body percentage. No raw percentages inferred."}
+  ],
+  "blocked_or_incomplete":[
+    {"url":"https://www.jpost.com/israel-news/post-poll-predicts-easy-win-for-right-585821","finding":"Current reader returned headline/dateline but insufficient article body for new percentages; inherited frozen audit not overwritten."},
+    {"url":"https://www.maariv.co.il/elections2019/polls/article-718968","finding":"Not accessible through current reader; retain frozen audit, no new percentages."},
+    {"url":"https://13tv.co.il/item/news/politics/state-policy/reelection-2019/survey-election-355016/","finding":"Current reader inaccessible; no new values."},
+    {"url":"https://13tv.co.il/item/news/politics/state-policy/2020-elections/2020-election-survey-1016506/","finding":"Current reader inaccessible; no new values."},
+    {"url":"https://103fm.maariv.co.il/programs/media.aspx?ZrqvnVq=HLJMFI&c41t4nzVQ=GJL","finding":"Current reader inaccessible; no new percentages."},
+    {"url":"https://stagewithoutwww.israelhayom.co.il/sites/default/files/styles/wysiwyg/public/info_11.3.jpg","finding":"Original graphic cache miss; not visually verified, so its numbers are not admitted."},
+    {"url":"https://stagewithoutwww.israelhayom.co.il/sites/default/files/styles/wysiwyg/public/SEKER-8_OREN-BEN-HAKOON.jpg","finding":"Original graphic cache miss; not visually verified."},
+    {"url":"https://www.gov.il/BlobFolder/generalpage/survey25-2/he/survey_yisrael_hayom_seker_13.9.pdf","finding":"403. Indexed table suggests denominator/undecided distinctions worth auditing, but full PDF was not obtained or visually verified. Outside28-day discovery window anyway; discovery-only, no numerical data admitted."}
+  ],
+  "secondary_conflict_examples":[
+    {"url":"https://elections.walla.co.il/item/3421357","primary_url":"https://www.mako.co.il/news-israel-elections/2021-election_polls/Article-0ef19cf03d3f771027.htm","finding":"Secondary widget prints rounded3%for Raam/Meretz and a conflictingMarch25date, while original N12March2body gives2.8/2.5. Do not copy widget dates/rounding or count republication as another poll."},
+    {"url":"https://www.srugim.co.il/327317-%D7%A1%D7%A7%D7%A8-%D7%92%D7%A0%D7%A5-%D7%9E%D7%90%D7%91%D7%93-%D7%90%D7%AA-%D7%94%D7%99%D7%AA%D7%A8%D7%95%D7%9F-%D7%90%D7%99%D7%97%D7%95%D7%93-%D7%94%D7%99%D7%9E%D7%99%D7%9F-%D7%9E%D7%96%D7%A0","finding":"March28April2019republication has conflicting firm/percentage attribution compared with other secondary reporting. Original matching publication not audited; excluded."}
+  ],
+  "historical_mapping_gap":"Maan2021.8%retained separately; no invented official ballot mapping or false failure label.",
+  "important_metadata_conflict":"WallaFeb17/Feb26,2020print identical fieldwork/sample counts despite different results. Both dated publication records retained, survey-wave independence unresolved.",
+  "denominator_gate":"All recovered publisher party percentages remain as-published. Unknown undecided allocation/valid-vote basis prevents direct threshold normalization or full vote-based allocation. This is useful reported-share evidence, not a certified common-scale vote panel.",
+  "model_change":false,
+  "forecast_change":false
+}
