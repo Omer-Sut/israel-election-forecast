@@ -1,0 +1,89 @@
+name: Final constrained numerical search
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/numerical_search.py'
+      - 'tests/test_numerical_search.py'
+      - 'config/numerical-search.json'
+      - 'requirements-numerical-search.txt'
+      - '.github/workflows/numerical-search.yml'
+permissions:
+  contents: read
+env:
+  OMP_NUM_THREADS: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  MKL_NUM_THREADS: '1'
+jobs:
+  validate:
+    name: Validate constraints and independent solvers
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-numerical-search.txt
+      - name: Install pinned solver dependencies
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-numerical-search.txt
+          python -m pip check
+      - name: Validate constraints, exact costs and independent optimum checks
+        run: python -m unittest discover -s tests -p test_numerical_search.py -v
+      - name: Reproduce frozen baseline
+        run: |
+          python scripts/baseline.py --out-dir output/baseline
+          diff -ru reports/baseline-2026-10-21 output/baseline
+      - name: Verify preserved active forecast and configured turnout bounds
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from scripts.bader_ofer import validate_active_forecast
+          path=Path('reports/forecast-decision-2026-10-25/forecast.json')
+          assert hashlib.sha256(path.read_bytes()).hexdigest()=='3a02e8c53ef2b85af839b6d048650c4a581ad64e6a24cae0bd9c316ab449ca97'
+          forecast=json.loads(path.read_text(encoding='utf-8'))
+          contract=json.loads(Path('config/submission-fields.json').read_text(encoding='utf-8-sig'))
+          validate_active_forecast(forecast['seats'],float(forecast['national_turnout_pct']),contract,other_lists={})
+          PY
+  research:
+    name: Search and save results (up to 3 hours)
+    needs: validate
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-numerical-search.txt
+      - name: Install pinned solver dependencies
+        run: |
+          python -m pip install --only-binary=:all: -r requirements-numerical-search.txt
+          python -m pip check
+          mkdir -p output/numerical-search-2026-10-26
+          python -m pip freeze > output/numerical-search-2026-10-26/environment.txt
+      - name: Run search with checkpoints and a 150-minute soft deadline
+        run: python -u scripts/numerical_search.py 2>&1 | tee output/numerical-search-2026-10-26/run.log
+      - name: Put readable results in the run Summary
+        if: always()
+        run: |
+          if [ -f output/numerical-search-2026-10-26/START_HERE.md ]; then
+            cat output/numerical-search-2026-10-26/START_HERE.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Search did not produce a checkpoint. Inspect failed steps and run.log.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        if: always()
+        with:
+          name: numerical-search-E021
+          path: output/numerical-search-2026-10-26/
+          if-no-files-found: warn
+          retention-days: 30

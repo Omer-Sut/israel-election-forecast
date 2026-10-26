@@ -1,0 +1,31 @@
+{
+  "experiment": "E021",
+  "recorded_on": "2026-10-26",
+  "parent": "49c953434b462756ea2c1621b8ba1a9096e0ee33",
+  "budgets": [6, 12, null],
+  "minimum_positive_seats": 3,
+  "threshold_positive_branches": [3, 4],
+  "threshold_assumed_pass_weights": ["1/4", "1/2", "3/4"],
+  "threshold_model_mixture": "1/2",
+  "largest_party_stress_seats": [-6, -3, 3, 6],
+  "stress_mixture_weights": ["1/4", "1/2", "3/4"],
+  "maximum_threshold_candidates": 2,
+  "solver_seconds": 15,
+  "cp_seconds": 30,
+  "enumeration_seconds": 90,
+  "maximum_near_optimal_vectors": 200,
+  "near_optimal_regret_seats": 1,
+  "soft_deadline_minutes": 150,
+  "seed": 20261026,
+  "current_focus": ["reservists_economic", "amcha_yisrael"],
+  "decision": "Research only. No forecast adoption, auto-merge or competition submission.",
+  "assumptions": [
+    "Seat-space stress models, not reconstructed votes or a current Bader-Ofer allocation.",
+    "Scenario weights and fixed stress magnitudes are sensitivity assumptions, not calibrated probabilities.",
+    "Historical identities remain separate; current aliases never enter historical cases.",
+    "Other qualifiers fixed0 only because no audited disaggregated current roster is available.",
+    "No hard zeros for Amcha or Reservists; BlueandWhite0 is not asserted as an independently verified legal restriction.",
+    "Budgets are proposed sensitivity bounds relative to each case's constrained-mean vector.",
+    "No outcome-dependent model fitting or configuration selection; all six campaigns already inspected."
+  ]
+}
