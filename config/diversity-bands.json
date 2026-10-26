@@ -1,0 +1,21 @@
+{
+  "experiment": "E022",
+  "recorded_on": "2026-10-26",
+  "source_run": 40311428283,
+  "source_artifact": 12645121746,
+  "source_checkpoint_sha256": "72c95783b04d0af0b0b8e2a8a24e82a84dff4a7250c4b7f2ce813f4af8fffe55",
+  "scenario_joint_coverage": ["4/5", "9/10"],
+  "diversity_budgets": [12, null],
+  "regret_tolerances": [1, 3],
+  "maximum_diverse_vectors": 12,
+  "solver_seconds": 20,
+  "seed": 20261026,
+  "soft_deadline_minutes": 150,
+  "current_focus": ["reservists_economic", "amcha_yisrael"],
+  "decision": "Research only; forecast/69.86% turnout unchanged. No automatic adoption, merge or submission.",
+  "labels": {
+    "scenario_bands": "Model-assumption coverage only; not calibrated confidence bands",
+    "inflation": "Earlier-campaign rank diagnostic; exchangeability unverified, no coverage guarantee",
+    "diversity": "Sequential max-min diversity, not globally optimal batch selection or probability sampling"
+  }
+}

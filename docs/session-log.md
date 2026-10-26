@@ -307,3 +307,6 @@ E021 preparation October26: user requested final constrained numerical search th
 
 
 E021 analysis October26: run40311428283 completed47.176s,8tests passed, all267oracle/21robust optima and9CP objective checks certified; independent exact-weight audit passed. No historical improvement: HiGHS budget12=19.0 versusmean18.667; equal-objective CP choices tie18.667. Current robust focus3/0 stable, near-band includes4/0 and adopted reference, not calibrated probabilities. Keep forecast/69.86% turnout. Saved compact findings/audit/plots; full checkpoint artifact-only. Network-blocked direct transfer recovered via read-only helper40312130309 without rerunning solvers. PR35stacksPR34; final evidence on PR35. No merge/submission.
+
+
+E022 preparation October26: user approved exploration of diverse forecasts and bandwidth diagnostics. Added frozen joint-scenario minimum-width bands80/90, past-only whole-election miss-rank diagnostic, and sequential max-min alternatives within expanded regret tolerance. Six gated tests/source audit/baseline, unattended job with30day artifact and no AI calls. Reuses original E021artifact, no numerical rerun. Explicit PR35dependency. Launch/results pending; final topic PR holds run URL. End turn after accepted launch, no polling. No adopted forecast/turnout/merge/submission change.
