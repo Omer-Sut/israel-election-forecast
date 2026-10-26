@@ -1,5 +1,11 @@
 # Israeli Election Forecast
 
+## Active state — October 26
+
+All completed work through E020 is merged into `main` (consolidation a35673d); start new work from the live `main` branch. The adopted forecast is [forecast.json](reports/forecast-decision-2026-10-25/forecast.json), with **69.86% turnout**, Reservists **3** seats and Amcha **0**. The [333-word method](reports/forecast-decision-2026-10-25/method-description.txt) and [current project state](docs/project-state.md) are the current handoff. Later threshold experiments are documented research and did not change this forecast. No competition entry has been submitted.
+
+The dated sections below retain the historical development record; their old branch/status/70.63% references describe earlier stages. The source freeze still has documented unresolved items; review docs/forecast-decision.md before final submission preparation.
+
 Turnout model fits: [264-configuration findings](reports/turnout-models-2026-10-24/findings.md), [chronological errors](reports/turnout-models-2026-10-24/chronological-errors.svg), [model stability](reports/turnout-models-2026-10-24/model-stability.svg). Hindsight winners and past-only selection are reported separately. No forecast change adopted.
 
 Turnout analysis: [25-election history and chronological comparisons](reports/turnout-history-2026-10-24/analysis.md), [history plot](reports/turnout-history-2026-10-24/turnout-history.svg), [forecast-error plot](reports/turnout-history-2026-10-24/turnout-errors.svg). Run `python scripts/turnout_history.py`. No turnout change adopted; 70.63% remains the working placeholder.
