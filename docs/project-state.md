@@ -1,5 +1,10 @@
 ﻿# Current project state
 
+## Individual submission package — October 26
+
+An English/Hebrew individual systematic-entry review package is prepared on `feat/individual-submission-package`: 15 copy-ready seat fields, 69.86% turnout, method descriptions of 334/289 whitespace-separated words, printable PDFs, sources and limits. It copies the adopted forecast SHA-256 `3a02e8c53ef2b85af839b6d048650c4a581ad64e6a24cae0bd9c316ab449ca97` unchanged. The live form was not authenticated; personal identity, presentation agreement and submission remain with the user. Source freeze, official lists and agreements remain incomplete. No new model or point change was adopted.
+
+
 ## Main consolidation — October 26
 
 The user authorized merging completed validated work. PRs13–25 and27–32 were merged into `main` in dependency order, preserving merge history; superseded PR26 was closed. The consolidation commit is `a35673d35268deda807dfa2f3aa4610d1db8878e`. Its complete tree `c125beb9ae237d1eb7fe5d5ca1b4a0ca21183313` is identical to validated PR32 head `ff36791dcf2b56d3404d838024c0f2aa6e96d7d7`: no source, report, adopted model or forecast was changed by consolidation. All19 original heads had passing workflows and no unresolved review threads. The handoff documentation is a subsequent documentation-only PR; its final body records live head/merge and post-merge baseline checks.

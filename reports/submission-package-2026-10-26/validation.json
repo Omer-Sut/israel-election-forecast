@@ -1,0 +1,21 @@
+{
+  "source_forecast": "reports/forecast-decision-2026-10-25/forecast.json",
+  "source_forecast_sha256": "3a02e8c53ef2b85af839b6d048650c4a581ad64e6a24cae0bd9c316ab449ca97",
+  "poll_snapshot": "data/snapshots/polls-2026-10-24.json",
+  "source_freeze_complete": false,
+  "exact_current_bader_ofer": false,
+  "seat_field_count": 15,
+  "seat_sum": 120,
+  "one_or_two_seat_fields": 0,
+  "national_turnout_pct": "69.86",
+  "method_word_counts_whitespace": {
+    "en": 334,
+    "he": 289
+  },
+  "form_live_authenticated": false,
+  "submitted": false,
+  "pdf_sha256": {
+    "en": "2b8381bc317dbc1e330121bde49fc9c894a628e410bd88a18ba1b7148614abe8",
+    "he": "f92aa1495edfaf7823f387cd754c0286fa7db7d1e62d68d9028d8b0e33d413be"
+  }
+}
