@@ -1,0 +1,66 @@
+{
+  "snapshot_id": "campaign-history-extension-2026-10-22-a",
+  "retrieved_on": "2026-10-22",
+  "audit_tier": "original_source_audited_retrospective_not_archival_vintage",
+  "review_method": "Original publisher page text inspected through web retrieval. Numerical facts only; no article prose or images republished. Raw HTTP response bytes/hashes were not available through this retrieval surface.",
+  "historical_vintage_limit": "Retrospective publisher pages, not authenticated contemporary archives. Known displayed updates recorded; unknown revisions cannot be ruled out.",
+  "selection_policy": "Bounded repeated-release audit within existing groups and the same inclusive 14-day T-1 window, before examining new scores. Latest selected group releases remain unchanged. No new model settings or outcome-based source selection.",
+  "polls": [
+    {
+      "id": "2019apr_n12_midgam_0331",
+      "election_id": "knesset_21_2019apr",
+      "published_on": "2019-03-31",
+      "source_updated_on": "2019-03-31",
+      "pollster_group": "midgam_geva",
+      "publisher": "N12 / Channel 12",
+      "source_url": "https://www.mako.co.il/news-israel-elections/elections_2019-q1_2019/Article-2afad7fadb4d961004.htm",
+      "bulk_poll_id": "21:0:21",
+      "fieldwork_start": "2019-03-31",
+      "fieldwork_end": "2019-03-31",
+      "sample_size": 502,
+      "mode": "telephone and internet",
+      "raw_seats_by_label": {"Likud": 28, "Blue and White": 32, "Labor": 8, "Shas": 6, "United Torah Judaism": 6, "Hadash–Taal": 7, "Raam–Balad": 4, "Yisrael Beiteinu": 4, "Union of Right-wing Parties": 5, "Meretz": 5, "Kulanu": 5, "New Right": 5, "Zehut": 5, "Gesher": 0},
+      "below_threshold_percentages": {"Gesher": 1.6},
+      "notes": "Displayed publication20:18/update21:53. All positive values appear in prose except Shas: the article places it alongside UTJ6 without repeating its numeral. Shas6 is an explicit residual, 120 minus the other114; also consistent with the published Haredi bloc12 minus UTJ6. Gesher explicitly does not qualify. Original fieldwork10:00-17:30 same day; actual respondents502, invitations3595. Same Midgam group as existing Ynet release; not an extra independent group."
+    },
+    {
+      "id": "2019sep_walla_midgam_0903",
+      "election_id": "knesset_22_2019sep",
+      "published_on": "2019-09-03",
+      "pollster_group": "midgam_geva",
+      "publisher": "Walla",
+      "source_url": "https://elections.walla.co.il/item/3310542",
+      "bulk_poll_id": "22:0:25",
+      "fieldwork_end": null,
+      "sample_size": 521,
+      "mode": "telephone and internet",
+      "raw_seats_by_label": {"Likud": 32, "Blue and White": 31, "Joint List": 10, "Shas": 7, "United Torah Judaism": 8, "Yamina": 9, "Labor–Gesher": 7, "Yisrael Beiteinu": 9, "Democratic Union": 7, "Otzma Yehudit": 0},
+      "below_threshold_percentages": {"Otzma Yehudit": 2.7},
+      "notes": "Original visible publication September3 at06:15, not the bulk index's September2 proxy. Exact fieldwork dates not established and remain null; publication is the age fallback. Complete positive allocation in body; Otzma explicitly below threshold. Same Midgam group as the later existing Walla release."
+    },
+    {
+      "id": "2020_n12_midgam_0223",
+      "election_id": "knesset_23_2020",
+      "published_on": "2020-02-23",
+      "source_updated_on": "2020-02-23",
+      "pollster_group": "midgam_geva",
+      "publisher": "N12 / Channel 12",
+      "source_url": "https://www.mako.co.il/news-israel-elections/2020/Article-4cb6d4000237071027.htm",
+      "bulk_poll_id": "23:0:20",
+      "fieldwork_start": "2020-02-23",
+      "fieldwork_end": "2020-02-23",
+      "sample_size": 501,
+      "mode": "telephone and internet",
+      "raw_seats_by_label": {"Likud": 34, "Blue and White": 33, "Joint List": 13, "Shas": 8, "United Torah Judaism": 8, "Labor–Gesher–Meretz": 10, "Yisrael Beiteinu": 7, "Yamina": 7, "Otzma Yehudit": 0},
+      "below_threshold_percentages": {"Otzma Yehudit": 1.5},
+      "notes": "Complete numbered allocation and methodological box in original publisher text. Publication19:47/update20:01; fieldwork February23, actual respondents501 versus invitations3455. Same Midgam group as later Walla; its different commissioning outlet is retained."
+    }
+  ],
+  "reviewed_not_added": [
+    {"source_url": "https://www.youtube.com/watch?v=X_3RwNiVQ0w", "reason": "Newer 2015 Knesset Channel release discovered in frozen index; primary video description unavailable through retrieval. Secondary copies do not silently upgrade it to the original-source tier. Old third-group coverage remains a gap."},
+    {"source_url": "https://www.jpost.com/Israel-Elections/Post-poll-Zionist-Union-extends-its-lead-over-Likud-393810", "reason": "Visible original publication March13,2015 but retrieved page lacks full numerical allocation. Not filled from the index or later outcomes."},
+    {"source_url": "https://13tv.co.il/item/news/politics/elections-2019/seker-election-2019-33786/", "reason": "Original April2019 release URL unavailable; no index-only values promoted."},
+    {"source_url": "https://13tv.co.il/item/news/politics/state-policy/2020-elections/election-poll-1008508/", "reason": "Original earlier2020 release URL unavailable; no index-only values promoted."},
+    {"source_url": "https://elections.walla.co.il/item/3341421", "reason": "February17 original page reviewed, but its fieldwork16-17February/sample502 match the inconsistent metadata printed on the already selected February26 Walla release. Do not add it to manufacture a trajectory while that potential copy/metadata issue is unresolved. The separate publication-age sensitivity tests one explicit alternative without claiming to resolve the source conflict."}
+  ]
+}

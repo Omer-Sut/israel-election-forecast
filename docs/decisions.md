@@ -2,6 +2,9 @@
 
 ## Accepted
 
+- October22: user reaffirmed online-first work and collaboration across people/agents/sessions, with guidance in AGENTS.md. Use connected GitHub publication when local Git metadata/networking is unavailable, isolated topic branches, expected-parent updates and verified hosted checks. Local restrictions do not revoke authorized project publication; respect machine access controls and retain a precise remote/local handoff.
+- E003: user authorized the recommended source/history expansion. Keep the grid, correction strength and outcomes fixed while comparing the frozen reference, a publication-age assumption, three repeated original-source releases, and their combination. Review all available folds and continuous stages; do not call repeated old outcomes new blind evidence. L0/representation modeling remains a proposal, not an adopted method.
+
 - A001 (October 21): analysis of E002 does not support replacing either poll reference or choosing a final model. Preserve all candidate results and pause wider configuration search until source/coverage and missing trajectory features are reviewed. This is an evidence-based working recommendation, not a user-selected final method, permanent family exclusion or approval of hard bounds.
 
 - E002 (October 21): user requested using earlier years with sufficient history. Prepare a six-election T−1 panel from original-source-reviewed releases and existing national results. Use 2015/April2019 as initial history, September2019/2020 as strict OOF history and 2021/2022 for complete all-model comparison. Preserve chronological isolation, the original model grid and the fact that both evaluation outcomes were previously seen. Do not lower minimum-history gates merely to remove missing cells.
