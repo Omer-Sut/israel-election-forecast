@@ -1,0 +1,33 @@
+name: Read saved E021 artifact for analysis
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/e021-artifact-review.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Download existing result without rerunning the search
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 40311428283 --repo Omer-Sut/israel-election-forecast --name numerical-search-E021 --dir output/e021-review
+      - name: Print existing report and lossless connector-readable evidence
+        run: |
+          python - <<'PY'
+          import base64,gzip,hashlib,json
+          from pathlib import Path
+          root=Path('output/e021-review')
+          names=['START_HERE.md','summary.json','checkpoint.json','current-candidates.csv','comparison.svg','focus.svg','inputs-manifest.json','environment.txt']
+          files={n:(root/n).read_text(encoding='utf-8') for n in names}
+          print(files['START_HERE.md'])
+          print('FILE_HASHES',json.dumps({n:hashlib.sha256((root/n).read_bytes()).hexdigest() for n in names}))
+          encoded=base64.b64encode(gzip.compress(json.dumps(files,ensure_ascii=False).encode())).decode()
+          print('E021_REVIEW_BASE64_BEGIN')
+          for i in range(0,len(encoded),7000):print(encoded[i:i+7000])
+          print('E021_REVIEW_BASE64_END')
+          PY
